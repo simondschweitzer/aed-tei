@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stQMCUW6NMXBDDNPUTXY55EOEY5M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QMCUW6NMXBDDNPUTXY55EOEY5M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Öl-Opfertafel</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7PM4PK7A7BGQTM5CKCRBMKMA5A">
+<support>
+<objectType ref="ths:YQVBNGAHLZHLTDJXTTUPW2BK5U">Salbölpalette</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, The Teti Cemetery at Saqqara VIII: The Tomb of Inumin (ACE Rep. 24), Oxford 2006, 70, pl. 62a, 75a.
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QMCUW6NMXBDDNPUTXY55EOEY5M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-98531169ca96abd023c414fe2b95c837</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd6CEUvzXN02dm2tmc5J1ljc">Einziger Freund (des Königs), Vorlesepriester und Hüter des Geheimnisses des Morgenhauses Min-inu.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwDB7qIrN0PsplDsisw9wRI">Festduftöl (eines der sieben heiligen Öle).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzpcMEj6wUR1vWo4x3yJ7Qs">Hekenu  (eines der sieben heiligen Öle).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2g4QkR7qkJ3ulHis4GtDv8">Sefetj-Öl (eines der sieben heiligen Öle).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQydxwyhI0A0vTYfn7J5FAg">Nechenem-Öl (eines der sieben heiligen Öle).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3lqZxtA60QLgoXg5caKTP0">Tewaut-Öl (eines der sieben heiligen Öle).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4WD3UY1a0LOrQqKvlhT7Qw">Bestes des Koniferenöls.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy4VNEiPi0kWkI9DdguXJ4E">Betses des libyschen Öls.</s>
+</ab>
+</body>
+</text>
+</TEI>

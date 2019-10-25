@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtT3D4ZXD6FZCQVEUAIXCBLMT5QY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Amunnacht</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Amunnacht nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>T3D4ZXD6FZCQVEUAIXCBLMT5QY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>Inv. 2366</idno>
+<altIdentifier>
+<idno></idno>
+<note>Posener, Catalogue des ostraca hiératiques littéraires de Deir el Médineh, III, DFIFAO 20, Le Caire 1977-1978, 78 Anm. 2 und Dorn, in: ZÄS 131, 2004, 39, Anm. 22 und 55 meinen, daß oLacau und oDeM 1599 von derselben Hand geschrieben sind und sogar aneinanderpassen könnten.</note>
+</altIdentifier>
+<msName>〈08. 〉oDeM 1599</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Amunnacht</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitstext</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaVW2RHTGTJFAUVIOATPSSKUUKHU">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notBefore="-1186">20. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Amunnacht, Sohn des Ipuy, lebte während den Regierungen Ramses&#039; III. bis VI.</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+<note>aus Grab P. 1450 (25. Febr. 1951); siehe zu diesem Grab Bruyère, Rapport sur les fouilles de Deir el Médineh (Années 1948 à 1951), FIFAO 26, Le Caire 1953, 92-96 (Erwähnung von Ostraka auf S. 94)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Posener, in: RdE 8, 1951, 175-178 [Ü(Vers 49-58),T,K]
+- G. Posener, Catalogue des ostraca hiératiques littéraires de Deir el Médineh, III, DFIFAO 20, Le Caire 1977-1978, 78 und Tf. 49-49a [*F,*T]
+- A. Dorn, Die Lehre Amunnachts, in: ZÄS 131, 2004, 38-55 [*T,Ü,K]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 285-287 (= Vers 1-24) (2. Aufl. 2010, 369-375 mit neuer Übersetzung) [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>Inv. 2366</idno>
+<altIdentifier>
+<idno></idno>
+<note>Posener, Catalogue des ostraca hiératiques littéraires de Deir el Médineh, III, DFIFAO 20, Le Caire 1977-1978, 78 Anm. 2 und Dorn, in: ZÄS 131, 2004, 39, Anm. 22 und 55 meinen, daß oLacau und oDeM 1599 von derselben Hand geschrieben sind und sogar aneinanderpassen könnten.</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="T3D4ZXD6FZCQVEUAIXCBLMT5QY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2c7a8e24baae3d039dc5b13c40a4bb98</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQbXYYyaVUFbuvQS2tWvcCc">
+<w xml:lang="de" corresp="src:tlaIBUBd1TBVrHTE0AkgKW49jSoWZk">er [Präs.I-Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQZENYHM0EilhcMzexiVOKM">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3F2WOVKn0k2kbwADjoLxc8">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5uODmsQDkrLny6mlkarKZo">Schiff (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Mr2hq9u0zWlfruFuUuH7s">[Umstandskonverter]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8DGw7rknU5Orn4ThCdZlFQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9zBXAVcJEnUi1BH6yVSIcY">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8jQ1WL7HUmFrQR5Ab0qKKQ">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd625QNFBsEHLi1nIGE4IrgA">Seil (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4rFWXjaZUdytXQJjocVsx0">über</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxdDBkR8V0z9qyuQDGR1Bzg">Kopf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd65vLIBxhUZ8iGwfOnvnvsk">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd346BsMeZ0C7vvcoVe7WMqM">[in Richtung auf (e. Ort, e. Sache, e. Person)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9bjQS0HikJmkxDQLLuOROY">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd77eF30g30jwpMoe52DfRZ0">Wasser</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxxhnofC80MhvgWy2BEyDWM">eins sein (mit jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd71IDl3yq0Q1oWLQQaxmRwU">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzUGIoPjjU5qj6Op33i0Qsw">Einer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd12vpSTOzUcyrv7QdOw30g4">zusammen mit (jmdm.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5ScGhDWIEVwlC6TcpVMfkg">Krokodil</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWlAWbiqQkOwkr2GAuh5exY">Nilpferd</w>
+</s>
+<s corresp="src:tlaIBUBdxaCSxE5qE0om4nEunbNdqg">
+<w xml:lang="de" corresp="src:tlaIBUBd3kSUbWdWUTwncjB5wqWNSA">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyoLHdsJsEoVlrpcgSvXjxE">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3V7Qd1Et0LHoqnu67iSDiI">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdztatpjKT0qaqjF6HCXH1Io">ziehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwqGmJYWcUxPrQ6A9z6xNks">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7uEvSvXwUKKrQ9Fl5IWz5c">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5pFg2JL4UELoWteKi1CmCQ">gelangen nach</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0TzjJ36WUh1jl131tAjAX4">hinaus</w>
+</s>
+<s corresp="src:tlaIBUBd1NEuR8V00iPtMtysdUYoRo">
+<w xml:lang="de" corresp="src:tlaIBUBd1R6FzQWTkn5rpvpt77TFeM">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5swholKb03zlmyj5CJ0ddI">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxzQXK7nT0oygk3a6T9ITAU">Körper, Leib</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59CTBLJYEhEvEfpELFJOig">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd22mojEJ0kKAtbo7BGHWb9I">
+<w xml:lang="de" corresp="src:tlaIBUBd6eYKFhcyUbKnTzlVhN6Q4E">die [Artikel sg.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3UUhPpgp05ll2Frw7CZAss"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd8xHoWGYB0j5uypnKu1Z6bY">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd16luA4ZkE8fvcjLZfvq2Fg">Finsternis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2imWsXTMkjJsopKxpfDAXc"></w>
+</s>
+<s corresp="src:tlaIBUBdWkxptHnh0OxuhUtSQcFLJo">
+<w xml:lang="de" corresp="src:tlaIBUBd2kPA5ZNS0OnrujQx2XLhuM">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd92v4npmikEXpSoz7yTyNik">Mächtiger</w>
+</s>
+<s corresp="src:tlaIBUBd3QV4dn7jkwfg1cYVjWSKW0">
+<w xml:lang="de" corresp="src:tlaIBUBd2DE82weX096qQBAUFJBDA0">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwBK902CPUIFmlQWnm2dzPs">Schreiber</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5zduVhGy0nKnq9sDQU2bwA">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Djxdoq0kfluHta8PAQVFU">leiten</w>
+</s>
+<s corresp="src:tlaIBUBdykQQWlNLkl4ryVJWc8aHFw">
+<w xml:lang="de" corresp="src:tlaIBUBd0jTVyFQskV2sUDh5HQRTCI">vertreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8TObT1vk0WWrBGi2alQztc">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzb9vg3n5EMLgEOqFrLPgW8">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5oZqUNcckFqq5qgSwM3eJE">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd68Fcxx6j08TqQz5298tQEk">[Separation]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd38zNyOxw0z6iRXOMbPwPH0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0iqWbl9dUcrh0U0slk4wWo">fliegen</w>
+</s>
+<s corresp="src:tlaIBUBd4MmZQ8pWUFrr2H8YbUeQl4">
+<w xml:lang="de" corresp="src:tlaIBUBd6wHR20ntElSnhugD4wD3SA"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd02Y3fEvbEyqkAP7DZupLjE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0IwNlBb3k71kLP4IeXIWzY">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6mEP7Qx9UFfuK95lqCdYs0">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdyqtdoJZ5kGZlfRAFTPd00w">
+<w xml:lang="de" corresp="src:tlaIBUBd7DkK79Lo0tykF6xLpLUbEE">veranlasse (dass)!</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQBFSgvywURjsX6cXKZWU0E">werden</w>
+</s>
+<s corresp="src:tlaIBUBd76ZSha38UQpienWiQQugII">
+<w xml:lang="de" corresp="src:tlaIBUBd81N4furO0NQjeVOzAaBZ3I">[Negativverb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWe9cK1Ql0Mphds3ZQN79BQ">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxWh0QwAQ02Hu1XvxGSjOGI">unregelmäßig sein (übertragener Gebrauch)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw7hwDob6UaTmUqhvmwRoa8">bringen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7I9s3Iz8EF6rM1gTZcI2nQ"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd9gLtfWnSEl5nS1Dj1QpM1s"></w>
+</s>
+<s corresp="src:tlaIBUBd6Kk7AbRD0AkvMsSn6aUx4Q">
+<w xml:lang="de" corresp="src:tlaIBUBd4rKNmIuuknzuntULHrc4TI">wichtig</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQBSBXOckWDn0pp0iumnmg">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7IBY7JJZUXQhmdXx0tFAxc">fragen; beraten</w>
+</s>
+<s corresp="src:tlaIBUBdzQQYqmwDUGEsPfTnRuJXIg">
+<w xml:lang="de" corresp="src:tlaIBUBd6QFHQfICUqQifDVPKtJ96E">Vortrefflichkeit</w>
+</s>
+<s corresp="src:tlaIBUBd9Xp1k0jsk7goKnmoKY9XpI">
+<w xml:lang="de" corresp="src:tlaIBUBdQxsoPyGUEbGnExsRFXxaF8">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4TSabkODUU8iyWDAmfdhXk">[Suffix Pron. pl.3.c.]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

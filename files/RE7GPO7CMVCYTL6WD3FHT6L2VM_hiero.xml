@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroRE7GPO7CMVCYTL6WD3FHT6L2VM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Eulogie (?) auf Theben und den König</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Lutz Popko</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Eulogie (?) auf Theben und den König nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Lutz Popko</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>RE7GPO7CMVCYTL6WD3FHT6L2VM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>oCG 25219</idno>
+<msName>oCairo CG 25219</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Eulogie (?) auf Theben und den König</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Der Inhalt und die Thematik sind unklar. Daressy vermutete einen Kontext mit einer Nubienkampagne Ramses&#039; II. und der Gründung einer Stadt. Erman deutete den Text als Ausdruck der Sehnsucht nach Ägypten; ihm folgend sah Ragazzoli hierin eine Eulogie auf Theben. Kitchen war in seiner Benennung zurückhaltender und überschrieb den Text mit &quot;Joy over Thebes &amp; King&quot;.</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaB57WQZ4RNJCIJKMGGFSJ2LYLGI">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notBefore="-1279">Ramses II.</date>
+<date type="latest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notAfter="-1214">Ramses II.</date>
+<note>Im Text wird ein Gebäude erwähnt, dessen Name aus dem Thronnamen Ramses&#039; II. (und einem elliptischen weiteren Bestandteil?) bestand. Die Regierungszeit Ramses&#039; II. ist damit Terminus post quem.</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Daressy, Ostraca, Le Caire 1901 (CG 25001-25385), S. 48-49, Tf. 43-45 [*P,*T]
+- Chl. Ragazzoli, Éloges de la ville en Égypte ancienne. Histoire et littérature, Paris 2008, S. 42-45 [B,*F,K,P,T,Ü]
+
+- A. Erman, in: ZÄS 38, 1900, S. 39 [T]
+- K.A. Kitchen, Ramesside Inscriptions III, Oxford 1980, S. 561-562 [T]
+- K.A. Kitchen, Ramesside Inscriptions. Translated and Annotated. Translations, Bd. 3, Oxford, Malden (Massachusetts) 2000, S. 389 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>oCG 25219</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="RE7GPO7CMVCYTL6WD3FHT6L2VM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Lutz Popko</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a29d9cb697bd94724c631002ea852d76</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd9sptiQWUElzrfWaTbMqDfY">
+<w corresp="src:tlaIBUBd4hETCxTdUUeuuSIskTrzKk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzvzjaGYM0lnpQOtzaeW2qs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3DWBoaTxUhNspQiWc8jmw8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0T6SUep2kaQsQl0sTHdCiE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzMBlWOZQkccjdN4CaJVA8o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd12YdG4Cikj9lRQ4ZLhur3A"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd9wiqk9toUQLnNOSHNmkLNI">
+<w corresp="src:tlaIBUBdy8I3ReMi0tQkKIFm6OXRR8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWI9xDIonUpNgdkKPcV3dUM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyHjK7lrbE8xpMU6ADKrmCg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdytDYvGfgkXesoG8uWzhIAc"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWFQQWLOLEGeunyIe8P1JsQ"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6eLYdlXf0Qai8J1p9GL7tE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd86Y8257S0stgsWJ6gmDbQc"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdW91kwi5xkm8jLuEVkB9ZtM">
+<w corresp="src:tlaIBUBdy9ktYULVEQZgWirufZX1B8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwSGF5bZn0f6sEYGq5uuGQE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3IOpkCSwkfUvkuCayGuMfk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzjn2WrOA0dijajcG5BDq2E"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwhxdyT0f02Jpdx5l5lDQNo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1lx2oWwyEoLhlAakQU0UCY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6reHlDTkUvOoKA06tDeyJU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQkkkVuOjkDWkLmekEOm2Hk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4xz8GOOsUXxkW2JNJ6MQl8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2o4AkJ0YkdHgYQWz00Q6rs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxPfY37zpEW9hijf915H2MQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9auoZz9DkWQjO73DRLTw1E"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0z6CZJZGEDBjtJgxh54r7c"><unclear></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7wObMyXFU1CuXNhqTuZ6JM">
+<w corresp="src:tlaIBUBdzRTRj8PW0wqtdaAXpodQtA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQUCXWK0tk1av0aqS8zAzgk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQUQWMdUgkFAkCseEWOTkv4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxtc6M0sLEjguGVEUDrXAgI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdziDxQ3gJUBxnAQBerFbs0U"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4tfQOKN0UJ3sYW2UfYCO7U"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9fj6JLlwE89mb9ag18GuUo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8GdQ7NDb0fOlr6uUktrVeQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwOBAYzXdkKInpsmF0tvx5Q"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4MyObV6gEqzoe4dJYrRdRs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0QH66MmQEDshJe7VtOyWKk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwQOVAO4jUDvuPQYnsMhfhM"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd61BgflzWkKFul3GxqclQlQ">
+<w corresp="src:tlaIBUBdxrlFIbxl0WoibJhiZ8Kwy4"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8MLwUJjm0VJrOw9Fn7Ee9o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4FHpIbLB0c1tjNUrhTMr0Q"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWvVdgMCVkcWvVXaifsqTfg"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd9XLZAPhxkxogZZnSoqROHs">
+<w corresp="src:tlaIBUBd0LcE9NhSEexiD3iEu4MSQs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzdWcYhlp0e7gQl7J2TXaQQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4rUcfVwKkTNjrFfN3PQ3dw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxCWLHcC6km7pcNMJgXNuBU"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWU4O2wUK0GtgQEguu1LLHM"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd08kut6y5EjPk8gSlgupkv0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQ3pLyEF2E0hvkh6ufLW6e4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxW9bflbT0QEgJlWDLVn5y4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8yOlkw0f0rSuQJ872RLmxA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyLI3xm810NIsChuoJblzdE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd32zaOekK0byuUtZutW0ufw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwsgk0pQ4U4ljL51yrgBpQ0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4D3KZHZukOxrKkkXLpJdsc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0j2sbE9I0OaozdWC6gVntI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWfx5knb90malxsXBhjmORQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd59JGdLTrEUmrR67QB0fms8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzlfIa5KpEyIoXJsaxEb9WY"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6VXEiGqxE7ulXo9HhJj53c">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzIstL4Zy0mdvxvWwnBvKAg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1BxE5FJHEHPoozQYZxQ8PQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzn1WXgt3Uqvp7w34nfG8U0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzYkc9a210DghhzZxsvovAo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxL8axJXIUkNsN826MNgoVk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWcS5PIr30urlKrOBJ5EfX8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd50gEtPiQ00duSZy3cRuQN0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2S8XywC4E3GoZ4OLIpYCO0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5AlkKIHAk9SqoMEI0Q5i6Q"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1tm8hYPv0YWi4t2Qc1nSSo">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdye4C1LgI0Hsoadu9QEt5hk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2DPEBgjSEN7i6CK3y2ghRE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQHEzDMwckY6tOFKYU620aA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQcV35T0NkzBq7sAkN4wi4Q"><unclear></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdw5MaucoUUOHuUQSg10WQTw">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0p4WiuGB0Csr91Wue9qXI4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5HA0at4m0PHt0XjDWYWEow"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4WLGdJVxUY6tIWzcPJ3Puk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5RQBvpW9kgtiYw79MoCsY0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4DAQN1iA0LDmmiGWWIT5T0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxg7r6R7nkkZkTD8UYiulWw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzskod4xA08ej0WYJWQK9CA"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQkQjLLxWkjSuX5Ke1n28ko"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5U9NIaauEm2jbOxwQXsIPU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6pha62CrU6hskpraSPqJ9o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4ZoJSrmUUJ0uQB0NMgAyNU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8DiPe6QaE9bgQRXvhiSXA0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1SGZj2t1ECMt1qlSLG2r44"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyPPbOLqUUoIhD9Cx6eGHDg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdylllAgTUEe8o9WOfInxaq8"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyhIl9ITKEUNsRkK12HChOY"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

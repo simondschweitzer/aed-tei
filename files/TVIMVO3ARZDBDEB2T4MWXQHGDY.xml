@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTVIMVO3ARZDBDEB2T4MWXQHGDY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TVIMVO3ARZDBDEB2T4MWXQHGDY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>〈Khor el-Aquiba〉 4</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJMW3CXMCGRD3ROD2BMNOLZEJJE">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:SC352ETLQBBHFMHLESXVXAKYIQ">Aniba
+<note>nördlich Aniba</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Lopez, J., RdE 19, 1967, 52, fig. 5;
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 113</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TVIMVO3ARZDBDEB2T4MWXQHGDY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-de35cf8b772d94a927417a9f3045b1c1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd4NVi65g7EtvvddnytHWQQk">
+<w xml:id="tlaIBUBdWa6tZ5tWUYmqMIfWHkVnRQ" lemmaRef="tla:tla401220"><fs feats="epitheton_title title"/>jmj-rʾ-smn,tw</w>
+<w xml:id="tlaIBUBd5GS0FZVjUDevmIhz80eHKA" lemmaRef="tla:tla400350"><fs feats="entity_name person_name"/>I͗s,t-kꜣ≡j</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

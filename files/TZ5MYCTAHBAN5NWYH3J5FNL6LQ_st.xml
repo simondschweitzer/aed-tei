@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stTZ5MYCTAHBAN5NWYH3J5FNL6LQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Brief eines Unbekannten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Brief eines Unbekannten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TZ5MYCTAHBAN5NWYH3J5FNL6LQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32211</idno>
+<msName>pUC 32211</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Brief eines Unbekannten</title>
+<textLang mainLang="Egyh-Egyhmd">Mittelhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJFUZUQYAUZHTZF5G5UE2BWF4EU">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+</origDate>
+<origPlace ref="ths:5K5MFHJIAJDX3HZ5BSH2IICN2U">el-Lahun (Illahun)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Griffith, F.Ll, The Petrie Papyri, Hieratic Papyri from Kahun and Gurob, principally of the Middle Kingdom, London 1898, 80, pl. XXXV;
+Collier, M., Quirke, St., The UCL Lahun Papyri, Oxford 2002, 136-137;
+Wente, E., Letters from Ancient Egypt, Atlanta,  1990, 87</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32211</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TZ5MYCTAHBAN5NWYH3J5FNL6LQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhmd">Mittelhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-558017a3b80f1567022bcc4bbca5409f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdwhzvQtBO0gzhrlZyVfauVk">Eine Mitteilung für den Herrn, l.h.g., darüber ist es, daß der Herr, l.h.g. stromauf fährt ..., was getan wurde für den Diener da, ohne daß er es weiß.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9qOzNk1GEk0k5ixrff6gE4">Der Diener schickt deshalb ... am Tag der Einkünfte wie jeder Gefolgsmann des Herrn, l.h.g. zu dem gegeben wurde.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxiC1oDYTESqudikPfZYfvk">Eine Mitteilung ...</s>
+</ab>
+</body>
+</text>
+</TEI>

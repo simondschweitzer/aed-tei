@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stUSFMXUZULJCARKFWB5P7W3C4GQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>USFMXUZULJCARKFWB5P7W3C4GQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Fassade (Nordseite)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5OP2VL76JNH2XBQJQ4KPSJXQTM">
+<support>
+<objectType ref="ths:J3ZM4CQXGBBARBBNWN3TVXJH2Y">Fassade</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Gîza IV, Leipzig-Wien 1940, 8-19, Abb. 2-5 [F, P, H, K, L];
+N. Kanawati, Tombs at Giza I: Kaiemankh (G4561) and Seshemnefer I (G4940), (ACE Rep. 16), Warminster 2001, 23-25, pl. 3-4, 27-28 [B, F, K, L, P, U, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="USFMXUZULJCARKFWB5P7W3C4GQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-a1165a0ffcea191733f7400c09ce9c07</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd20kVypbuEDfgRDp8fk0Ebw">Der Verwalter des Königsvermögens (und) Aufseher der Schatzhausverwalter Kai-em-anch.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8gdIiWJMENfpHHLRl6ELII">Der Aufseher der Priester, Aufseher der Schatzhausverwalter und Hüter des Geheimnisses des Gesiegelten des Königs Kai-em-anch.</s>
+</ab>
+</body>
+</text>
+</TEI>

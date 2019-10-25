@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idRMZAWFPVN5FAZERETPZIMQPXFU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sarkophag-Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Sarkophag-Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>RMZAWFPVN5FAZERETPZIMQPXFU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Sarkophag</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Sarkophag-Inschrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaWMT65BBAE5G6XFIMD2Z5NPTGLU">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Gîza IV, Leipzig-Wien 1940 [F, P, H, K, L];
+N. Kanawati, Tombs at Giza I: Kaiemankh (G4561) and Seshemnefer I (G4940), (ACE Rep. 16), Warminster 2001, 13-50, pl. 1-17, 25-37 [B, F, K, L, P, U, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="RMZAWFPVN5FAZERETPZIMQPXFU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-20557f292b54ce96eb71c0ee929d7a9b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6f3dql2WkPUrxGglllo55k">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd5SRjenX4kNjswBZxjmFcRU" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏj</w>
+<w xml:id="tlaIBUBdx0uOc0sfEzunydGUIDZ3iQ" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBd5AHHZiV30ChsbGneoNcgrE" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-<supplied reason="haplography">ḏj</supplied></w>
+<w xml:id="tlaIBUBdW9GwDRLm01QigJWE7x7SqU" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+<w xml:id="tlaIBUBdzEb7iLzo0ZftVJb1gmimDA" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/>ḫnt,j-zḥ-nṯr</w>
+</s>
+<s xml:id="tlaIBUBd5sTn1bnwEalq4aCdQfpHyE">
+<w xml:id="tlaIBUBdz9qXchSM0F4lzQQb7ZeRPs" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/>qrs.t<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdzPOBg23mEJZoBHAHmihPII" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdQw1EnaENUkGruFJmzqjFbI" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd2eyJEl2zUYgutWWOiS5tfA" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_pronominalis singular"/>jz</w>
+<w xml:id="tlaIBUBd8TtOyW1bUepvy3i9fEVaR8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdwQpP4vr90fisK01Auh8soA" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdybOe0fRU0WggrqyExxWKDU" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBdwDGDCpjdEdXkas5M7tIIvI" lemmaRef="tla:tla850695"><fs feats="epitheton_title title"/>nb-jmꜣḫ-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBdWz1hdEvME3ZqKp2SRKz4EQ" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd81hnB6DxkmelWQML3ntmzE" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBd0CEXnuli0e0r3QYAkCQ25A" lemmaRef="tla:tla850795"><fs feats="preposition"/><supplied reason="lost">ḫr</supplied></w>
+</s>
+<s xml:id="tlaIBUBd6mNMSUx5kmth0KtZmQYkNY">
+<w xml:id="tlaIBUBdQaWLGEE80KtoA94prQpcNM" lemmaRef="tla:tla116050"><fs feats="verb verb_3-inf"/>ḫpi̯</w>
+<w xml:id="tlaIBUBd3aWylttiUlLkeMs5oKx3Io" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdzPtqA4WekZzj4PGJoOyjsk" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBd7mhuL6YsEzjtaQQoTbIkGE" lemmaRef="tla:tla42490"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>wꜣ,t.pl</w>
+<w xml:id="tlaIBUBdwQ0Klx9iEe1gapkANIWU4s" lemmaRef="tla:tla550034"><fs feats="adjective"/>nfr.<supplied reason="defective">w</supplied>t</w>
+<w xml:id="tlaIBUBd4Ek5V0g2kd9kq4OmcWQ6oU" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<w xml:id="tlaIBUBdQxhHRcxjkQdrEIk4fX93dk" lemmaRef="tla:tla707649"><fs feats="entity_name person_name"/>Kꜣ<supplied reason="defective">,j</supplied>-m-ꜥnḫ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

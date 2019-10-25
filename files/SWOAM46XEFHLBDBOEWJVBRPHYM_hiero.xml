@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroSWOAM46XEFHLBDBOEWJVBRPHYM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linker Türpfosten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linker Türpfosten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>SWOAM46XEFHLBDBOEWJVBRPHYM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Tür zu Raum 16</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linker Türpfosten</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaCWYOUFEZFRBTZKFOIYVM5YM4QA">
+<support>
+<objectType ref="ths:GHMRAQY5Z5DTPLAXWE57EKWC2Y">Laibung</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Seidlmayer, Zu einigen Architekturinschriften aus Tell el-Amarna, MDAIK 39, 1983, 200 (Nr. 8b) [*H, Ü, K].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="SWOAM46XEFHLBDBOEWJVBRPHYM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-f778bc804f94c6dc96fbcc6117577f21</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd5VSthGLv0qQurPR19BI8A8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyoMbQB8TUloqBEEA0WO0NY"><unclear>𓉻𓈖𓈘𓂋𓏏</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdwwSCGAEEUxWhQcWtQhCCTA"><unclear>𓈖𓏠𓈖𓏠𓈖𓏌𓏌𓏌𓆑</unclear></w>
+<w corresp="src:tlaIBUBdWxaLEQJ9EKSmYd3of3umns">𓅨𓏥𓌴𓈖𓅮𓇋𓏏𓈖𓇳𓐝𓈌𓏤𓉐𓏤</w>
+<w corresp="src:tlaIBUBd4aZG55TjEQbgT5CXBBLVXU"><unclear><note>Keine Entsprechung in Unicode für G40-Y1V-A52</note></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTRXJITB4LBCIXHJA2AY5OTEFJE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Wadi Hammama, Graffito Nr. 37〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Wadi Hammama, Graffito Nr. 37〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TRXJITB4LBCIXHJA2AY5OTEFJE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Wadi Hammama, Graffito Nr. 37</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Wadi Hammama, Graffito Nr. 37〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZBSFUBHGGZCOFC7RVTLPIQSZKY">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FN72ZPMF2ZCV5GYEF7QJGAZXFY">Wadi Hamâma
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Green, F. W.: Notes on Some Inscriptions in the Etbai District II., Proceedings of the Society of Biblical Archaeology, London, 31 (1909) 321, Pl. LIV
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 48</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TRXJITB4LBCIXHJA2AY5OTEFJE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f35c838b937b34f2d30cceedd0ceaa62</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQ00EeVRAEWujRqkcTGmjqg">
+<lb n="Z1"/>
+<w xml:id="tlaIBUBdy6cWi8k001Jp54POFhVuIA" lemmaRef="tla:tla550203"><fs feats="epitheton_title title"/>jmj-rʾ-ḥmw,tw</w>
+<w xml:id="tlaIBUBdxTw8A5Uv0mNtzbRp8T9sQ0" lemmaRef="tla:tla401220"><fs feats="epitheton_title title"/>jmj-rʾ-smn,tw</w>
+<w xml:id="tlaIBUBdx5pSUPWQEp8gNXWTmhkf04" lemmaRef="tla:tla401198"><fs feats="entity_name person_name"/>Ṯꜣz</w>
+<lb n="Z2"/>
+<w xml:id="tlaIBUBd4WIGAAH5kdBoru8ctQwcI8" lemmaRef="tla:tla400011"><fs feats="epitheton_title title"/>jmj-rʾ-jꜥꜣw</w>
+<w xml:id="tlaIBUBd6qteLB0EUCdqjTFSx9Sxqs" lemmaRef="tla:tla135250"><fs feats="epitheton_title title"/>smn,tj</w>
+<w xml:id="tlaIBUBd6elogJktkgRq1fWkKQ5Mes" lemmaRef="tla:tla450157"><fs feats="entity_name person_name"/>N-kꜣ≡j-ꜥnḫ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

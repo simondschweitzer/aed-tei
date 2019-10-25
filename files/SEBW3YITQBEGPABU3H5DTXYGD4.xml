@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idSEBW3YITQBEGPABU3H5DTXYGD4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift hinter Grabherr</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift hinter Grabherr nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>SEBW3YITQBEGPABU3H5DTXYGD4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Sitzender Grabherr mit Sohn und Hund</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift hinter Grabherr</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUSIAPDAXIJD2VEV7Q243UJMKNA">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 53, pl. 20-21a, 49, 64.
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="SEBW3YITQBEGPABU3H5DTXYGD4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-4047b4eab920dd4f509c6716f2c29579</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3OwaIRE9USVgLHW6wTkgnE">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdQHCNQjk4EvElbr4rc44TDU" lemmaRef="tla:tla855741"><fs feats="epitheton_title title"/><supplied reason="lost">ḥr,j-</supplied><damage>tp</damage></w>
+<w xml:id="tlaIBUBd7fByzSGsUNdg5hr53sBcXg" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/><damage>s<supplied reason="lost">m</supplied></damage></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd0UytFjyJ0yHsKcubYXS7DU" lemmaRef="tla:tla450386"><fs feats="entity_name person_name"/><damage>Ḥm-Rꜥw</damage></w>
+</s>
+<s xml:id="tlaIBUBdya4CGIESEOxtxAUWqgFTWw">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd9YeB5211kh6jW1eJQJ2PWg" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/><supplied reason="lost">ẖr,j-</supplied><damage>tp-nswt</damage></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdwstEsGYCUtOtNxHqgrNY2k" lemmaRef="tla:tla450386"><fs feats="entity_name person_name"/><damage>Ḥm-Rꜥw</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

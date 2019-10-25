@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idU4NZCZINLVDNVISYSQLJAVSMYM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Stelentext</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Stelentext nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>U4NZCZINLVDNVISYSQLJAVSMYM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>〈Stele L〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Stelentext</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaSQW6C32G4RHKDLLU4OGN4KMLN4">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>W.J. Murnane/C.C. van Siclen, The Boundary Stelae of Akhenaten, London/New York 1993, 193 f. [P, *F, Ü, K];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 86 (Nr. 39) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="U4NZCZINLVDNVISYSQLJAVSMYM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>7-2ba576c4b6e187feedc9c472c05a42e7</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8s2QLjPcUFDoilSBK7VaNI">
+<lb n="[IV]"/>
+<w xml:id="tlaIBUBd0ofaoWaa0PonStf6sbo5iA" lemmaRef="tla:tla104690"><fs feats="substantive substantive_masc st_pronominalis singular"/>ḥm</w>
+<w xml:id="tlaIBUBd6myqWNkf0tKjCQdj1bhMIo" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd1BWedjxsE2cklCJZGAQET8" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+</s>
+<s xml:id="tlaIBUBdyrsfkiw7UPeshKWvlQQ2t0">
+<w xml:id="tlaIBUBd2WagRvKVExqi9ovffXDQjo" lemmaRef="tla:tla114740"><fs feats="verb verb_3-inf infinitive t-morpheme"/>ḫꜥi̯.t</w>
+<w xml:id="tlaIBUBdzOoiCzqukhytzhcTWsZDhQ" lemmaRef="tla:tla104690"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">ḥm</supplied></w>
+<w xml:id="tlaIBUBd8TW4lojWEawr9EeXRTHQQc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd4HW1gLXrEWDm1y9hXvAAAM" lemmaRef="tla:tla107520"><fs feats="preposition"/><supplied reason="lost">ḥr</supplied></w>
+<lb n="[V]"/>
+<w xml:id="tlaIBUBdWfHmgd5ckMtjVzt52fWMLw" lemmaRef="tla:tla47970"><fs feats="substantive substantive_masc st_pronominalis singular"/>wrry,t</w>
+<w xml:id="tlaIBUBdxCW2bJQDU8ip5lG2lfU6Ig" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+</s>
+<s xml:id="tlaIBUBd58t1zpYukyUpGpo7MWbYWo">
+<lb n="[VI]"/>
+<w xml:id="tlaIBUBd45JFKEmZkZZsmedSoMoW1A" lemmaRef="tla:tla854638"><fs feats="substantive substantive_masc st_pronominalis singular"/><damage><unclear>nfr,w</unclear></damage></w>
+<w xml:id="tlaIBUBdwTnL0wz00d1mF4rBRavZLA" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd1liJqKD9EHKuufHlrp1gYA" lemmaRef="tla:tla0"><fs feats="unknown"/>m</w>
+</s>
+<s xml:id="tlaIBUBdzHIz5VAKE5WoRrzVskQGSY">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdwW7gzK5iEf2gD31QUx6VJQ" lemmaRef="tla:tla233"><fs feats="entity_name place_name"/>ꜣḫ,t-<damage>Jtn</damage></w>
+</s>
+<s xml:id="tlaIBUBd4cZZFYd7E9ujmMBYMgx2Ho">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd0QLjXUIKUusihRBmty2ucw" lemmaRef="tla:tla851677"><fs feats="verb verb_caus_2-lit relativeform feminine singular"/>smn.t</w>
+<w xml:id="tlaIBUBd8OWkpq6IEnIuqKaBV81aXg" lemmaRef="tla:tla26660"><fs feats="preposition"/>jn</w>
+<w xml:id="tlaIBUBdWqMoHabqUZoqHgoQBxokLY" lemmaRef="tla:tla104690"><fs feats="substantive substantive_masc st_pronominalis singular"/>ḥm</w>
+<w xml:id="tlaIBUBd3k8EtKQj0aBrQt9p0RUASc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2dIcNe3SUz9nXV5ZzLAVMI" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+</s>
+<s xml:id="tlaIBUBdz39QOuAEkqVpE9zYJF84Uc">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdWzYjdsfbUgeqxeGauItwtY" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd2xgEueq5UiQiQS2IF43l1E" lemmaRef="tla:tla32820"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">jt<supplied reason="defective">j</supplied></supplied></w>
+<w xml:id="tlaIBUBdyEEcU0vekm8hIon0gHJl50" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=j</w>
+<w xml:id="tlaIBUBd3KIpynwVE62rU0pBJf9CdQ" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+<w xml:id="tlaIBUBd0IiixDUT0MJubOgDT4tnpw" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+</s>
+<s xml:id="tlaIBUBdxlZFViHWkOKp9B2ICP3gUY">
+<lb n="[7]"/>
+<w xml:id="tlaIBUBd4kqnV1WXUcGiIMNenW23hM" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf suffixConjugation active"/><damage>jri̯</damage></w>
+<w xml:id="tlaIBUBd51uafpLa0SspWXHeEZ1xZI" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=j</w>
+<w xml:id="tlaIBUBd5xfdztAm08aio01NvI2sgQ" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdwqaxNt85EZuoW7tlM0zQ2g" lemmaRef="tla:tla233"><fs feats="entity_name place_name"/>Ꜣḫ,t-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd05a6GzCb06ShWjR5UPqXs8">
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdxWljP2g90hYlu3X6mZ8yWg" lemmaRef="tla:tla0"><fs feats="unknown"/>ḫr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

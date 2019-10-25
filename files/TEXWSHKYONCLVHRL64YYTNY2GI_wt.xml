@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtTEXWSHKYONCLVHRL64YYTNY2GI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Scheintür-Tafel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Scheintür-Tafel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TEXWSHKYONCLVHRL64YYTNY2GI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südliche Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Scheintür-Tafel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaD5P3VZHLS5FFNBEFLBPTFXTRSI">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza II, Wien-Leipzig 1934, 150-152, 170-172, Abb. 12, 18, Taf. VI.
+R. Hölzl, Reliefs und Inschriftensteine des Alten Reiches II, CAA Lfg Wien 21, Mainz 2000, 46-48, 64, 72, 83-84.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TEXWSHKYONCLVHRL64YYTNY2GI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-7dc33fe50150d8661740919576aa6c93</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd8xw74jPS0nZrzS9jBrBUmE">
+<w xml:lang="de" corresp="src:tlaIBUBd3OQNwZ21UWPqsO5TDutXMI">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59M2Eg7VUKyno4K7bVvblg">Leiter des Speisezeltes</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxAvwyoaJktmpRlLkCtJeNc">Sem-Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw7LktNVzEdeuhzKPIDn1PU">Königssohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2NPMiopW0PWjJGcOVv1p0I">Kai-ni-nisut</w>
+</s>
+<s corresp="src:tlaIBUBd0Gp5tHxSUVGkxi2tW4Uook">
+<w xml:lang="de" corresp="src:tlaIBUBd5O0WK4BM0jgiTBKniDB2Wk">Weihrauch</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWAzgwHJ0kVIhz7DbaTYC2w">grüne Schminke</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8AeQgTqEED4rZEa5Xgjiks">schwarze Augenschminke (Bleiglanz)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxXD9oZnnECPiVu3Ot3klMw">[Frucht vom Isched-Baum]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4ZyXQCoM0o6rNUwybqDTew">Wein (Getränk)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2kuxPf6YUqagWCBsuBwH6U">Unterägypten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9L4QaLm3EW6vuQFlSKzm1A">Wein (Getränk)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Q9958qk0nNlSJhq4AR89o">Unterägypten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyTes8AWJkj2sDaF1Qf2hwI">[ein Brot]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd95ttIKcskRJtIyxViVthpo">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxNrB2kYIkYBgqF3UVdLtq0">[eine Körnerfrucht]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5o5OqTfiUAYrDL4LrswThA">Napf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1qRviUukkx2h8sW8So2WRU">hell</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Wjb0wcOk6cnJ1UJ5kWt8E">[eine Körnerfrucht]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx85AAHZjU5TtAjK5aPEpW8">Napf</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWZxd8vRsUfkgrt1MQkgvmQ">frisch</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCZ8Ch4EEcBjEpFtF8Q6Jc">Frucht des Christusdornes</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3FNecDw3kpMjWaZU7KCqJU">Napf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd51ySKQ4CUfQmgaqQEkB9RI">Feige</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90oWWQMTkIAhfmFHZz7iHY">Christusdornfrucht-Brot</w>
+</s>
+<s corresp="src:tlaIBUBdxKzJrBS2kGyuY6K5Q4PKeo">
+<w xml:lang="de" corresp="src:tlaIBUBd2oCXhMWWUFunWFG1f7i3UY">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8m2GThlYEGbgzFd9vCkqTQ">tausend</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9mWnsbhO0u2rdRWPytTE9A">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdznO3dH3w09NsMesUTqEZcQ">tausend</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7DQZLCmmEy0j7l9lOidnqA">Alabastergefäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2B61n26xEwnsc9QnMXRL4o">tausend</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5sdVgigx0REpvh8lgTWnOQ">Kleid</w>
+<w xml:lang="de" corresp="src:tlaIBUBd694W5fEW01juCnWtyYAVTs">tausend</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

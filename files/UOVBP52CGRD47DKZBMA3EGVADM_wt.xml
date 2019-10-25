@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtUOVBP52CGRD47DKZBMA3EGVADM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pUnCol B (9 O)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pUnCol B (9 O) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>UOVBP52CGRD47DKZBMA3EGVADM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>pUnCol B (9 O)</idno>
+<msName>pUnCol B (9 O)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pUnCol B (9 O)</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Wirtschaftstext eines Tempelarchivs</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBTXUYYT23RH2HGH5TEHVX6SHGU">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 9 (Fragment O)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>pUnCol B (9 O)</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="UOVBP52CGRD47DKZBMA3EGVADM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-781fc9cc2bdcb944903499dde2a6e9c3</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd4jf9U6nw0UjsqcwY11LF24">
+<w xml:lang="de" corresp="src:tlaIBUBd9H2IwQ4S04MifyMhyDMCIk">Tjenti</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWW0wvch3EWIue8nsWCuwtM">Tjenti</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxnBiaMt20kzmKAcF1NGeDw">Tjenti</w>
+</s>
+<s corresp="src:tlaIBUBdWHEl0vH3kLLnTJfGQfQQWs">
+<w xml:lang="de" corresp="src:tlaIBUBdWxd7nXzV0LsvFboQHNoWd4">Nedjem-ib</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ojWWyFgEWui0qGo5fAbyw">Nedjem-ib</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
