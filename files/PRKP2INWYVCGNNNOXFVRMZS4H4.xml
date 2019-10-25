@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idPRKP2INWYVCGNNNOXFVRMZS4H4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 464</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 464 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PRKP2INWYVCGNNNOXFVRMZS4H4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Nordwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 464</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHJOCLRDGEJGV5OVYN6P2URE4ZQ">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, fig. 15; pl. VI [P,F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005, 97-207; 339 ff. [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PRKP2INWYVCGNNNOXFVRMZS4H4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-44f7a498a6ff7d7fa697802d482a61c9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQFGqjmz8k6rigTXhSrd6F4">
+<lb n="[P/F-A/N 19 = 158]"/>
+<w xml:id="tlaIBUBd4TNFzza3ESthgzHZ3qTosU" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+<w xml:id="tlaIBUBd4roVygI3EizgwAyN8fPH9w" lemmaRef="tla:tla854593"><fs feats="verb verb_3-inf pseudoParticiple masculine singular"/>ḏdi̯</w>
+</s>
+<s xml:id="tlaIBUBdx1WG4i3fkYqs5I2NEpI934">
+<w xml:id="tlaIBUBdy69B94Bv0lqkLS6U4PHpy8" lemmaRef="tla:tla159110"><fs feats="verb verb_3-inf participle masculine singular active"/>qꜣj</w>
+<w xml:id="tlaIBUBdWIORoNzTkJ5voLef08JWRE" lemmaRef="tla:tla450161"><fs feats="adverb"/>wr,t</w>
+<lb n="[P/F-A/N 20 = 159]"/>
+<w xml:id="tlaIBUBd7APh7AYlk9lun7kKNFyZoc" lemmaRef="tla:tla64371"><fs feats="preposition"/>mm</w>
+<w xml:id="tlaIBUBdW8cBFRrsEPnsK8QyCC6WpQ" lemmaRef="tla:tla131180"><fs feats="substantive substantive_masc st_absolutus plural"/>sb<supplied reason="defective">ꜣ</supplied>.pl</w>
+<w xml:id="tlaIBUBd8Grl4GH0UlwmPWVqtJdxdQ" lemmaRef="tla:tla30890"><fs feats="entity_name artifact_name st_absolutus plural"/>J:ḫm.w-sk</w>
+<w xml:id="tlaIBUBdxZPi4NfCEWQpTiaJmeqZPs" lemmaRef="tla:tla850806"><fs feats="particle"/>n</w>
+<w xml:id="tlaIBUBd2YR2qxIWkyapKqbXavhgxc" lemmaRef="tla:tla854552"><fs feats="verb verb_3-inf suffixConjugation active"/>ski̯</w>
+<w xml:id="tlaIBUBd5i9bAlp3UCXiRbxNMEYKB0" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd6aZcI3n0Urxpl1x8TruulU" lemmaRef="tla:tla181400"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

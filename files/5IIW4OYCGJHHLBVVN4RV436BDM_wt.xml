@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt5IIW4OYCGJHHLBVVN4RV436BDM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>3. Ritual des Herausbringens von Sokar aus dem Schetait-Sanktuar</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Frank Feder</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 3. Ritual des Herausbringens von Sokar aus dem Schetait-Sanktuar nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Frank Feder</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5IIW4OYCGJHHLBVVN4RV436BDM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>10188</idno>
+<msName>Papyrus &quot;Bremner Rhind&quot; (pBM 10188)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">3. Ritual des Herausbringens von Sokar aus dem Schetait-Sanktuar</title>
+<textLang mainLang="Egyh-Egyhlrb">Späthieratische Buchschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJCMC4JU24RGZDE23YLAB3O3YNY">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PYJNB3V355DMZERYYWMFHZ5NNI" notBefore="-0325">4. Viertel 4. Jhdt. v.Chr.</date>
+<date type="latest" datingPoint="ths:PYJNB3V355DMZERYYWMFHZ5NNI" notAfter="-0301">4. Viertel 4. Jhdt. v.Chr.</date>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>U. Verhoeven, Untersuchungen zur späthieratischen Buchschrift, OLA 99 (2001), 80 [B].
+
+J. Lustman, Étude Grammaticale du Papyrus Bremner-Rhind (Paris 1999).
+
+R.O. Faulkner, The Bremner-Rhind Papyrus-I, JEA 22 (1936), 121-140; II, JEA 23 (1937), 10-16; III, JEA 23 (1937), 166-185; IV, JEA 24 (1938), 41-53 [Ü,K].
+
+R.O. Faulkner, The Papyrus Bremner-Rhind, BiAe 3 (1933) [T].
+
+E.A. Wallis Budge, Facsimiles of Egyptian Hieratic Papyri in the British Museum, First Series (London 1910), pl. 1-19 [P].
+
+Trismegistos Datenbank Nr.: 48496</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>10188</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5IIW4OYCGJHHLBVVN4RV436BDM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhlrb">Späthieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Frank Feder</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-5cf74dadb73cb4566df5c30a24f8bbc3</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd07YQ5ha7ELdsOPPb0aklyc">
+<w xml:lang="de" corresp="src:tlaIBUBdzrDq08WiUBgpzM9SUO3ecs">Ritual</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5mE5GdBjEZQhdT3ryWDZRk">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwhDa6A5BklwiweDfcbi7SQ">bringen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd75f3GcuoUg0iyOmGeACjuk">Sokar</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3U0ONCPDEBwgT6viYP61w8">hinaus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyToU7wei0FtitfKiQtRi9E">aus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4aqvRQkYkAPhel2NQScs3E">Krypta (Grab-u. Kultstätte des Sokar/Ptah-Sokar-Osiris, in Memphis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQDspsmUjEHGs0mMFEgVeQ8">[Rezitationsvermerk]</w>
+</s>
+<s corresp="src:tlaIBUBd9PTDqnou0YFlulzwO7wXf0">
+<w xml:lang="de" corresp="src:tlaIBUBdyKNqhNiCUZ8ojOQzvVx44w">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0O0JyW24EuokUExyDmSIS8">der bekrönt aus dem Leib hervorgetreten ist</w>
+</s>
+<s corresp="src:tlaIBUBd3FBrF5P9ElQrDmzGODKXdQ">
+<w xml:lang="de" corresp="src:tlaIBUBdQ7eSJPzuUayp1DO2T4RGB0">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd00JykpOjEaCiHQhWWlnh4o">der älteste Sohn des ersten Urzeitlichen</w>
+</s>
+<s corresp="src:tlaIBUBd5megy2LUEDgpEfWKKFFx70">
+<w xml:lang="de" corresp="src:tlaIBUBd1Of03PgCkQTorgBsQ3UQfw">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8m4DiqWl0IQkjxZQJdJVek">Der Herr der Gesichter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6zCZaO2fUdkkNr2Wn73WYg">der zahlreich an Erscheinungen ist</w>
+</s>
+<s corresp="src:tlaIBUBd1SlsRbx7UXWq1TUOQrfPm4">
+<w xml:lang="de" corresp="src:tlaIBUBd9Nb6Ve880Hepb5TWjNqc4Y">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWZP1dVh70jll7vcOty3ECE">der von Gold umgeben ist in den Tempeln</w>
+</s>
+<s corresp="src:tlaIBUBd3cCurfk10MchWuNoqQMviI">
+<w xml:lang="de" corresp="src:tlaIBUBd54QuaWAVkqRrdO6UKoGV8I">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6GYHmEWJUw9llfOnU2BgwA">Herr der Lebenszeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Wp973AQU6SvbdppBWWacA">der die Jahre gewährt</w>
+</s>
+<s corresp="src:tlaIBUBd6erczo82UcckoLBkTAhUW0">
+<w xml:lang="de" corresp="src:tlaIBUBd0K2WRf1A0VLsw8XKcpJcps">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd33kkDOzuk56vx96Nu3fYXA">Herr des Lebens bis zur Ewigkeit</w>
+</s>
+<s corresp="src:tlaIBUBd8gBuMStzUhriWt7QIumxDQ">
+<w xml:lang="de" corresp="src:tlaIBUBd9bkunLSHkQvirdi9tjuhO4">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4QSnt77AUy3qkut5h5bXKI">Herr der Millionen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4B7VDZwDUSnjAG41RLbA3Y">der mit vielen Hunderttausenden</w>
+</s>
+<s corresp="src:tlaIBUBdwpgpL7ECUjPreYtPcWiUXE">
+<w xml:lang="de" corresp="src:tlaIBUBd0K0TxFuIUUIoYZOnQoNjgo">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8qyRmW3GEgvl2KnmXDuT6A">der leuchtet beim Aufgehen und Untergehen</w>
+</s>
+<s corresp="src:tlaIBUBd4Nnh9owLUo9pdwx4KslQ3w">
+<w xml:lang="de" corresp="src:tlaIBUBd686p03QjECFjKdQjh2QFY4">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQtRYgGREPoqVuJKq3sWpk">der, dem die Kehle erquickt wurde</w>
+</s>
+<s corresp="src:tlaIBUBd4SnifAEkErRoS9QLFa7lrU">
+<w xml:lang="de" corresp="src:tlaIBUBdxQ5efNsZk9qm0HhVuvfSds">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyoKUOAPakxqkwXkXBVhXvA">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQPujstqS0irjW4lp1FW29Q">Herr der Furcht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0vYIs1Jg0mftQlWwipuWBI">der groß ist im Zittern-lassen</w>
+</s>
+<s corresp="src:tlaIBUBdWdD8vRIckwovvlgT2FY27s">
+<w xml:lang="de" corresp="src:tlaIBUBdxka1garTk2ihrv9uYcrgpE">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzB4nPQv8kcWuq5uhzHn5WE">Der Herr der Gesichter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8aA1tV0z0UgoL5RW5wInVY">der zahlreich an Uräen ist</w>
+</s>
+<s corresp="src:tlaIBUBd0mbGBmQVUJau1JeTdhikN4">
+<w xml:lang="de" corresp="src:tlaIBUBdQ9GTDimhUHOqUv1d0As0s8">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5QsTlJyVUbykHuJWjRKx4w">der mit der weißen Krone erscheint</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9r35OKyREjnodynwuFQoos">Herr der Krone von Oberägypten</w>
+</s>
+<s corresp="src:tlaIBUBdxKFxMKgaUbuluxHCTr81OE">
+<w xml:lang="de" corresp="src:tlaIBUBd51zRnhuQk4pnquOJPTcnsk">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0NuayVka03UqXIt8DrAxSw">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Cn0WrzF0air8T6wibkILk">das herrliche Kind von Horus-hekenu</w>
+</s>
+<s corresp="src:tlaIBUBd8A1mNKdcEiRjGM3N1j13Vo">
+<w xml:lang="de" corresp="src:tlaIBUBd6FMf6kdz02escJhHp1s8Q8">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2ksF3gALEr0onWW6Oc5e2M">Ba des Re in der Barke der Millionen</w>
+</s>
+<s corresp="src:tlaIBUBdwFYlJ06QUW1gaT2ycJiYHE">
+<w xml:lang="de" corresp="src:tlaIBUBdz0QRJWw8U65l3WxzLhpwWg">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tk3KFUD0pKgjczn9GyGDA">das Abbild des Ermatteten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6NBDQW5zEKwpXy5KdPy5rA">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3YPwtEi90sVi5SW3H7OYAI">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0l42XivKU0WorxvDda0zk4">Krypta (Grab-u. Kultstätte des Sokar/Ptah-Sokar-Osiris, in Memphis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tun9u2hEn1uigILDGjIuY">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd5qV66XXrE2wkK527qzBu78">
+<w xml:lang="de" corresp="src:tlaIBUBd6BWl3LeKEM5qn9fg8zZlFE">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2r7QhsGrUiWg43iawBNQpA">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWdyp2Da1kabjgmQQe8dvV0">Herr der Furcht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9gHJEl4k0DttctWVN2Fw4A">der von selbst Enstandene</w>
+</s>
+<s corresp="src:tlaIBUBd2Yx1aAEfUIgsZJPxvNp7AU">
+<w xml:lang="de" corresp="src:tlaIBUBd595gBzGnExemNHPlyWQWeY">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWeJyEqqrEKssQR3D1cmOWI">Herzensmüder (Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdymkmIjW8klcsih4q3KOfwE">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8oWMV5AOUWbjd94oxqy7Hc">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd40FQjia5Ejuqdrlg1qEsfc">Stadt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Q1EkJpYE0dhraQBvMl1mM">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd4cYu9vOM0qfkGm12mfvZAs">
+<w xml:lang="de" corresp="src:tlaIBUBd0ENIYfsZ0rpliT4FR75V4o">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwGG3F1Uw0SwkIWkeOG6V2k">Verursacher des Jubels</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQh3aqCq7Ugqhy13QSqnA98">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9nqsfqXECStI0f8Gxmxwk">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyHgWszjqkq2vQ3Wr9W6sgI">Stadt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd55kf704h0x4v5WjOVyeNOk">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd3pdRdr59U18p5aQ9RvqGTQ">
+<w xml:lang="de" corresp="src:tlaIBUBd5t6cWugfURTiKdtgfaDVgQ">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Di1A0YYk1upvz0SRQpQCk">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5JY2ow0TEjQrpksQEi5vgc">Geliebter der Götter und Göttinnen</w>
+</s>
+<s corresp="src:tlaIBUBdWQrZHY01ksWnFeBld3Q9o0">
+<w xml:lang="de" corresp="src:tlaIBUBdzZPAL10g04NodbUUH1GLYI">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdymml26rEEVctW5OHwbiMdY">der nicht ertrunken ist (Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQdyk4RwzUeBv9YNQHgsLhA">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzwOJMstiUT3vF2R90o6dd8">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7KufYEHpENhh7ztGcJNUOo">Tempel</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9o4J0yVEFskehbQPaEiuM">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd9gUSudtBkWKjtx6PYEpnY0">
+<w xml:lang="de" corresp="src:tlaIBUBdyo3YkmgQ0dEqNpCVQ2G700">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdygW37svlkACj5n3HX7WbHU">der in der Unterwelt Befindliche (Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx6d3VKZUEErsk89cR5Md3Q">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd27TW7aiXkT2nviCn0x4vSY">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4NBMiCHdUjDs51oftE6o90">Spende, Opfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQNCRlMiuk3jnQr3sZMxmfo">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdWQ6FgY6wEdknBjVHalWQlc">
+<w xml:lang="de" corresp="src:tlaIBUBdx4xhR1SvEX6vANL0nnxxN8">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQn8IWXkK0PxgzAq2zCQCsY">der sich (selbst) beschützt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd16ElvfCs0oGkGp09QcFECQ">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwpXWZM3QksquREvtONCMj4">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2z93DHKr04UokWYXW4zuUk">Tempel</w>
+<w xml:lang="de" corresp="src:tlaIBUBd13PiyGIyEHwpWZAE7tCvKs">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0e5l96IyEKjqjxXrCvXVCk">
+<w xml:lang="de" corresp="src:tlaIBUBdxltWmW42Umcm0kiejuDyzI">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxvGBNum2ERXvS8IwelwKYs">der die Kenemet-Sterne (am Himmel) befestigt bis zum Leuchten der Sonnenscheibe</w>
+</s>
+<s corresp="src:tlaIBUBd0BmuZrlk0HniUqXXk9KmXI">
+<w xml:lang="de" corresp="src:tlaIBUBd7fXfRvjSkzqhNgE5AKmSPQ">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx9Wz9wFFElCstuPDxryqF8">die herrlichen Kaka-Pflanzen im großen Haus</w>
+</s>
+<s corresp="src:tlaIBUBdWOL694yok2egCSrF16ha0I">
+<w xml:lang="de" corresp="src:tlaIBUBdySKlZoBbUZ1qrRVyueko2c">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1SzJagoYkWatcGehfckYWo">Navigator des herrlichen Lenktaues der Mesketet-Barke</w>
+</s>
+<s corresp="src:tlaIBUBd11YoHyQbUVhj0Orvw2keBs">
+<w xml:lang="de" corresp="src:tlaIBUBd1xxTbbTWkdrvDWYYRc2ZWw">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0sD5Ru5pkD5hHXQjVdjuW4">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5rFgw1wcEH1jWLy39vZLbI">Herr der Henu-Barke, verjüngt im Schetyt-Sanktuar</w>
+</s>
+<s corresp="src:tlaIBUBd4i8VnhGfEsPi5tfW1ZhG2Y">
+<w xml:lang="de" corresp="src:tlaIBUBdWoiS1YxWUIttXC23ofFQkU">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw1vsYwVCEzwkIKF5kRfbJE">die [Artikel pl.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Q4ef3Yd0SskZO4zf7DX1k">Die wirkungsvollen Bas, die in der Nekropole sind</w>
+</s>
+<s corresp="src:tlaIBUBd8ZrCLI9t0T6oV6hLklx7W0">
+<w xml:lang="de" corresp="src:tlaIBUBd6gMMRNWzEGxh5ZTAEcQElE">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3zJFyvJPkQwro1z6xaBAVU">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5XvhRijhE4joFPFsiezwlw">der ehrwürdige Revisor von Ober- und Unterägypten</w>
+</s>
+<s corresp="src:tlaIBUBd1figdWJ5kufpQX8n6UOpwQ">
+<w xml:lang="de" corresp="src:tlaIBUBd0nRQ4IWK0rKrGiLtVpxvbU">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7TsilinSksFnzsfm174GnA">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2BfNjS7skFFgrpAwnIOZNA">der Verborgene, den die Rechyt-Leute nicht kennen</w>
+</s>
+<s corresp="src:tlaIBUBdx85W9OciEz6sQ3oNeTghlc">
+<w xml:lang="de" corresp="src:tlaIBUBd1C4PxSIfU37nMNe3qfk4yg">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0fKqxvPaUxdiPznoLsZZds">der Wachende, der in der Unterwelt ist, um die Sonnenscheibe zu sehen</w>
+</s>
+<s corresp="src:tlaIBUBd3RwoNJo5E5flfJNY2lfx5U">
+<w xml:lang="de" corresp="src:tlaIBUBd8y7dQDeBEJOvHQv9aFm6uk">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwU8MudzI0b5pMi3vuPrgbg">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6HNQicA10bFoQ3DqNfX34k">Herr der großen Atef-Krone in Herakleopolis</w>
+</s>
+<s corresp="src:tlaIBUBd1KrSdndhEnlt7atKVxX0Wo">
+<w xml:lang="de" corresp="src:tlaIBUBdy8uElNlikgMve8JPOVIIkg">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7EMV9jBfknlvTUYX8qOVz8">gross Angesehener bei Naret (20. oäg. Gau)</w>
+</s>
+<s corresp="src:tlaIBUBdzcYoRCEyE0npDv4x79WGok">
+<w xml:lang="de" corresp="src:tlaIBUBd7Wvi8ZYW0TTixbcsVPlcak">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd446bVyvN0PknrhzXYeDen4">der in Theben ist</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyvnk8v19U6fi0Qw61jN4zw">der auf ewig Erblühende</w>
+</s>
+<s corresp="src:tlaIBUBdwcCzigyVEVWmm9uGppLA8M">
+<w xml:lang="de" corresp="src:tlaIBUBd4r3qw3Ftkzzg3ogUEJNkIA">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW89A1CSC0WjiDWQUJiMwMg">Amun-Re</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Bz0K2naUgzpfKkXeAXv6g">König der Götter (Amun u.a. Götter)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4uQYzs77UIxhKJfKpoX3qQ">der seinen Leib kräftigt beim Auf-und Untergehen</w>
+</s>
+<s corresp="src:tlaIBUBd4H6fG4mLkPyh4lsGEWHxqg">
+<w xml:lang="de" corresp="src:tlaIBUBd9PTTPztV0d2iqg94FUVw7o">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3OW84jscELzhXSWdcyX3iE">Verdoppler der Opferstiftungen und Opfergaben in Ro-setau</w>
+</s>
+<s corresp="src:tlaIBUBd7AQygO2gUMrn1fUTANF9u4">
+<w xml:lang="de" corresp="src:tlaIBUBd0QF3eJsPEGvhciko6JLmek">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5UyUeRi4EKSumWL9TqhHak">der die Uräusschlange an das Haupt ihres Herrn gibt</w>
+</s>
+<s corresp="src:tlaIBUBd04KkQSnpkPBpCg6L4qCP1Y">
+<w xml:lang="de" corresp="src:tlaIBUBdyosy8ltaUM9s4BEsdhh9to">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQs8cqijECHjBZF3a7HIWc">der das Land an seinem Platz dauern läßt</w>
+</s>
+<s corresp="src:tlaIBUBd5f9WHkxY0XOm38plzyek6s">
+<w xml:lang="de" corresp="src:tlaIBUBdzAtUcOG0UFzpAGJtR0ZtTg">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6wCdCBnPEj8uPGovBW2LRE">der den Mund der vier Großen Götter öffnet, die in der Nekropole sind</w>
+</s>
+<s corresp="src:tlaIBUBdQDQMfcHXkgahRHNzzIyljE">
+<w xml:lang="de" corresp="src:tlaIBUBd2qz7O2ng0TNlQMQNWdvjeI">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwyCmmMFzEidovFw6QRdTR4">lebender Ba des Osiris, (wenn) er als Mond erscheint</w>
+</s>
+<s corresp="src:tlaIBUBd37FchUAnUKgsGZKEWdhvQI">
+<w xml:lang="de" corresp="src:tlaIBUBdxHOCFNbuk0PgR1UJhNMj7I">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9jWbEYjOUkBvaWtc7ha690">der seinen Leib verbirgt im großen Sanktuar in Heliopolis</w>
+</s>
+<s corresp="src:tlaIBUBdwQH2bVMdEbGh0bg9UeQBwI">
+<w xml:lang="de" corresp="src:tlaIBUBd3NQyHjvKkpin0T9FauKhlQ">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwoHGTMwLEhGux11kyIHVKI">Göttlicher, der verborgen ist, Osiris in der Nekropole</w>
+</s>
+<s corresp="src:tlaIBUBd80CGYnOmUzBmdMKMmisE38">
+<w xml:lang="de" corresp="src:tlaIBUBd5jaIcQoakBwii2C9AjAu9E">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQC0ZHHPLkwrqM7F5UgaOpc">der dessen Ba sich am Himmel niederläßt, denn seine Feinde sind gefallen</w>
+</s>
+<s corresp="src:tlaIBUBd2eIZXwNYU7ikir56VRy7QE">
+<w xml:lang="de" corresp="src:tlaIBUBd6bEmIT9kUUXhpRNxizD7wk">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxXAqkYJc0k6pQlrngDh7Wc">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6gu1ZDODkWflS8HH5Dp7UE">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5GUf43l6kpEvKQWvS3Hk90">Isis, die göttliche (Isis, Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5TOhZDUFEOvi95qPxxvBwM">Stimme, Schrei</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWFNgIKJVU7lsp5VMaGBspk">Jubel</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ5oW7KSEkJislSSLuIE7jk">an</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8RRDzeYm0L9gUMTE89k0hU">Fluss</w>
+</s>
+<s corresp="src:tlaIBUBdW5hSlsMg0EyolLoMlvMn3w">
+<w xml:lang="de" corresp="src:tlaIBUBdxXgjDAdJExLgx0JybstXrQ">teilen (das Wasser vor einem Schiff)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5oUqIjbp0iHvQuQnm6FZQs">der heilige Abedju-Fisch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3yJlY80dkpWvzqWgqlmG54">vor (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Odg6vfoUbqocB3gYjzQ20">Schiff</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy1XyrHLU0I3kOBeungATKw">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8F5pg7Qj0XOqyQ66K6umB8">Re</w>
+</s>
+<s corresp="src:tlaIBUBdx2XW1FEaE4tlBU1KpehIBE">
+<w xml:lang="de" corresp="src:tlaIBUBd2giW90IWEQHoHPwExlP8Do">Herrin des Gehörns (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQroJSBxkSzhboChRwTBhw">in (m) einen Zustand geraten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQKLQ2tGXUg5q9m3P8FC0bI">in (Zustand)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0KyM63GWENHgjcYhQA3waU">Jauchzen, Jubel</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3qX3NHQF0NIklaiq4k0KcY">Ei</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7PsrS5BYEqFu98aeQBRNUU">entstehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Dtqm4aFExftOAjJdEgE3E">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2TgZ7nPlU3Wvk2EnOJc8ck">Gewässer, Brackwasser am Rande des Flusses</w>
+</s>
+<s corresp="src:tlaIBUBdQFnPclay0QykCHqgPNzQds">
+<w xml:lang="de" corresp="src:tlaIBUBd9yVNgozf0kSp8MWvaQmpRI">abschneiden, abtrennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzjJideIOk0ptQpUbNAnQbw">Kopf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd58s4Xi0m0r3sFQTnQR3tog">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzSFUOvyb0oVvtqzFbFp7Mc">Übelgesinnter, Verschwörer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzvsJ7DmBkQJis0kWjzQSYw">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1A8XbfIW0hSmi1geM1nAyU">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3aNFNeLGUeWjqkZGSNUfMA">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3bf1zF4iUGSiGMOVCg0EiU">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Y1Yeo3W0cngGsFZVoMw1I">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1PXhkRxQEFkirjqFTaLCA8">Herrin von Atfih (Hathor)</w>
+</s>
+<s corresp="src:tlaIBUBd6USLfuHpk33qWhPtd7D9Oo">
+<w xml:lang="de" corresp="src:tlaIBUBd0mANrzdxUybjtI6Ds69w1g">Herrin des Gehörns (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwmjknmeKEpgsZ9h4ZwN6Sg">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6lsUySMGEjojI49njTWMxw">friedlich, in Frieden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd31qWCC9l0bpvAJgEdrstCM">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxUmsdfRGkaOv8TDI3cWHo4">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwgmJWVOQUPvt1utFQ2h6Vo">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzwstVWM8EnRvidzfAOenUk">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwkxzzKLk0FDrDJX6VbHRKI">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd04L3T9CO0J7rlHjOkMQY0o">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQOMgUjUqExPmdHCpbn1H1U">Herrin von Mefkat (Hathor von Terenouthis)</w>
+</s>
+<s corresp="src:tlaIBUBd5MRStpNR0qvlhYPhGJOODo">
+<w xml:lang="de" corresp="src:tlaIBUBdQeQnHRzWUMfmGchAyo3ZQk">Herrin von Theben (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd27j30uynk0Xp9szrMsh5lE">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1OW3TP8h0x8jnetduPcDnM">friedlich, in Frieden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw87uJCQMUg1tndsQJiqvaw">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQxVzWC90oOllyUinlDURA">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwxYbmdtwEe3qfSz6ul8f1s">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1gkVqjNb0KmkQvcrmm2R9E">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9W3Fx1UNUnxsNVeTQWHs8w">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxgzhQQArEe4i959LcUOlFI">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQcs8V7KQ08VkfMEDnQqVoY">Herrin von Theben (Hathor)</w>
+</s>
+<s corresp="src:tlaIBUBdxLv8dVOZEn4hyNTClGDCvo">
+<w xml:lang="de" corresp="src:tlaIBUBdzwU0V24ikWIvguqOOg6tcw">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWbo8CI5qUKKoiVB09PWLAw">friedlich, in Frieden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3uUBj9ye0uVgxmv0n6gYbE">Tait</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyLrr1lRTUq4hs2xRwlZoFQ">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0KXh1YWVEj5sHSJpyz44ic">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ZKakEgNESroxnfgWAQHGY">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw85C9QKwkbLhxbi7ovDLrM">jener [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0fmBuK4gkbgkRQ7SmEdYYI">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2QF7TxuqUgvhXZoWR5KalI">Herrin von Hetepet</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4S8OPVKoEH6ks7RGxCTfzc">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3LjkFRGMkHttEAOKzdqQHQ">vorn (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5svz7y000kYnJbEPdji6MA">um zu (final)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd65Ft4gjUE2wqW77kL4fp2A">niederwerfen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5u4jIwqF0RgtDbtf9DUCZI">Feind</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy6q3MahQE8ito110KHjoDo">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0RcoleyTUDMsQ1T71A1rR8">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ2owo1K5UHckE6834Qr6RE">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2GCTrZQgUZorCgTm10zHbs">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1scNEucvE0xuQlJxk7r3Po">jener [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3wV7OfMMkVXnzWQIPZ94RY">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd72fTpgoMEAxgomD06Hl2d4">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3AMMO1JaUYRtj7uXvCQxow">Herrin von Herakleopolis (Hathor)</w>
+</s>
+<s corresp="src:tlaIBUBd7nzKuYlA01Bl4WC3IuZIfQ">
+<w xml:lang="de" corresp="src:tlaIBUBd4FI090Ma0zwhBG2a0Ri4fc">die goldene Himmelskuh (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd77WZzHlzkYXmOGdR55hi2I">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxfEeQ2HBEFwr1gsd1pDlUY">friedlich, in Frieden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQr5444eEP9mX4dT3ehAIg">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54I0y22nUpIhR4TOkvQwQo">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxEgKBrLm0NztDMkiaevWNs">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdypdSAXD8kzsvfwzwv03GPE">jener [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5UOxTMVgkWorWQ2l5yrIKc">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4dDU4GTQ0JEganAlCjqPmE">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWLfeZfsvkyCt9vdynk2auc">Herrin von Inebu (Memphis?) (Hathor)</w>
+</s>
+<s corresp="src:tlaIBUBd9dfUOizYkkigJcwGOdFBAk">
+<w xml:lang="de" corresp="src:tlaIBUBdxCTbFqkJk9mgz3wNcIFkoA">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQhVIz65ki1gLOSHATd5xQ">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxo5MQgQaETPsDieCBiY5cE">sich niederlassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4tCn0wC40vdhtso6zh6N8c">an der Seite von</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyMxKkwPAUyPu4F97jKpQ5c">Allherr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3v7Xq9krU4omYikDLmcXYA">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1va8EHUG0yapxgZebeAMK0">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwBrj1Yf5k6ulKjkcYAzxnM">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5fSFIfyykaJpJPCWE8ZyrM">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9WT3RQWMEIOpeWW15wBIhg">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdywo7Ox85EErkWk6lOiRy0I">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzFTPIOGGU7BnhQcWlnuExw">Herrin des roten Sees (e. Ort bei Memphis) (Hathor)</w>
+</s>
+<s corresp="src:tlaIBUBdWLMcmELeE1amkQMA0kDuPU">
+<w xml:lang="de" corresp="src:tlaIBUBd6ZN9ADrOEZQiDXK04Xtsxg">erscheinen, erglänzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9YJQUi96kmUo5UISxiUG6w">die goldene Himmelskuh (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyypfnJDnkWnmsQjAnbfCis">an der Seite von</w>
+<w xml:lang="de" corresp="src:tlaIBUBd10OxKFqXUqso2X3QEEDGOM">Vater</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3RI4CvPBknYlZLfS3tdhIg">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWNK61so4UXLhhl6LzdFQPM">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWuqY17hEkpkYuQvvNQTMo">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQfEijqxiUL1lBHAQfeZS4s">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwsxGgBvQEigsiEbylz7DCU">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw60KwPJAEMcnrYzjmIKNVc">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6dsue21B0sppmJZ4Pj2x5s">Bastet</w>
+</s>
+<s corresp="src:tlaIBUBdz7zwTGRy0W0ityBhpvhqUs">
+<w xml:lang="de" corresp="src:tlaIBUBd0MeuwFMJUmgms3T2nrV3f0">die mit den Himmlischen neben dem Per-wer-Schrein wandelt (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyGTpMZQQ0xGmWcRs6ZlXXA">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2rWrk12jEwnntTjN0KuB3I">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx13BvrpOU9NnebtuEIP9xE">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2JU7cX9TUqjk5aWU0cGgcY">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQQGSnX6rkSKkJhTizaW83Q">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxP7QWVf8kCIjPyLOEm5cJ0">Schesemtet</w>
+</s>
+<s corresp="src:tlaIBUBd7B7DVWQlUUqliad3TAkxUw">
+<w xml:lang="de" corresp="src:tlaIBUBd7nlP5ho6EQDjyB5T35O5bE">die die beiden Länder gedeihen läßt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxEWKvQjbUZztQzBMWotV9M">die die Götter lenkt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6h0CWYImk36nndWXCCgLG8">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWHREBWOykfGt5mqHcEduEc">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwzJyxEmg0hbkQsAdQhz91s">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7cZtnZdh0zQoxodPQ0lrXI">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz07PA1QqUWZudYKn6WISmc">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6MythF2kETKoKvJCe8juWg">Wadjet (Schlange von U.Äg.)</w>
+</s>
+<s corresp="src:tlaIBUBd33ye76Ka0SPi5wYJqYrqdQ">
+<w xml:lang="de" corresp="src:tlaIBUBd6cUVAY3vEa5uth0F4nKl68">Macht haben (über)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6MCEUGdRU5lrTX0RiTFr4E">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ixVGiKREeWgp5R6YvkfHo">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWJwgpmgNkA5jVEAubQp0JQ">Frevler</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwrEigFpg0tOjqbwAQkPWwg">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4t21vNuVkChhSVGZ33dJwA">Vater</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2nKW9WNk0Cerdr2cAmRTZE">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2UxJx6CukRdiHvK5dWK3R0">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9PyFlYG3k1JiJigF9yYKNQ">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd51zoEDcJ0hYigDcj83FUbA">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQHjiJQuZ0F4rN1GQlsMNzk">jener [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1EFDhrjL0uJjgJDtrdgZUA">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6pyfmovf0Z4ljGWiptOX9Q">Sachmet</w>
+</s>
+<s corresp="src:tlaIBUBdW03i8Wm4UwZuyJEBC3isuo">
+<w xml:lang="de" corresp="src:tlaIBUBd9rLJZArQUQQlfqjjQglj3g">Macht haben (über)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx3QsQZlSEH6rR0K6KQ4wfg">die Schöne</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4JXnEKpa0fUuQbTNFzCWIw">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd02kfhe0WE0qjI6zXj3VJ30">Schönheit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Ph329gHUxbsUGY1lx6vuM">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0zIyXpfQEB1qx8nlaSb56k">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxr8mFBZQk1TiJhBvAruDYo">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJPz3rcAkAtvjuBS25WO9I">jener [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9wTPipubkBuj6N2vzd1nCc">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59fIbu0VErtqsX0YOZa2KQ">Herrin von Imau (Kom el Hisn) (meist Hathor)</w>
+</s>
+<s corresp="src:tlaIBUBd9bOKJJ1ZU4UgFwOIgD6jho">
+<w xml:lang="de" corresp="src:tlaIBUBdQqJCHF3QUn3t6Jr9WW7I68">Myrrhenharz (für Salböl und Weihrauch)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyasEs55G0RguNSLXRv8PaY">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4ZGolwKzEE9pVhLBWFedm8">Scheitel (?)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5SSHyCC60LZqQTTlWIzctI">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzMmd1xad06Ym3AuTAtWK7s">Haar (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVFaomjCE77qWkbZAYwyi8">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6sWTJ3X9U3Jto9nt2U5dQk">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3XVSWzZS08es7xHzHHqOME">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4v2jIEwl0RnorIdbs3D5Yo">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd13iF3sefEFEjhlY1m3IPwo">jener [Dem.Pron. sg.m]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2M84TidRERvo7CrbYaLaq0">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ2KE8AJWk0YkIXY0uY2zlM">Neith</w>
+</s>
+<s corresp="src:tlaIBUBdypTzq726ke7tivChFAHHbQ">
+<w xml:lang="de" corresp="src:tlaIBUBd7pj7kOXrU8EuqyEcU8BQ7o">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9KFo6WLAEQxiGjUCdGLFUk">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0jfcUnWbE13nckmVmxynKM">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5nHhlojHE7DoFO5oAr82PA">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxGC4Fk9yUGylGaYqs2Llnc">Herrin von Theben (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6w4Ypi3vUORjia7HlaHF3U">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWTShhaQYkmjsWdGdATW9t4">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4KgquU1s0Otlb9musicOIU">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1jJhuWR4U3Fq74g6c6v1FA">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdxyfkSyz80O1tzAe9Oh0RQo">
+<w xml:lang="de" corresp="src:tlaIBUBd4pXjKXiN0M8kFSrF2CFQxo">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdykrEqnwXUsgjY8ZJi5FoCI">Ansicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Iym6ES20arl2EuWydhO6s">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4hJPiWQ0EHIjuPLJXVVB3Q">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7UZRB60WkpbmC5HmgMfWGI">Herrin von Herakleopolis (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9bzubeU8ki3kV1S9Nz0kXA">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9lEHVJYWEttlmQnIW0tezw">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9FlKFv5lkUDlQpirHjpscA">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0HNy5Vt8ELOlb8ZE8DqMoE">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdwQ4HZmhi08qnxCrrzk4Jyk">
+<w xml:lang="de" corresp="src:tlaIBUBd0yTqgQIi0XoqLlZpGeMOnM">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCI9NZi1UBOgQv1P9yg0Zw">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2hwbozzWEA1jy8kIQdp0RI">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1qb3bhzCUyArNnLh5BUT3k">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0WwtOFVQEjLvJfStiMzWb0">Herrin von Atfih (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQfG3cAJY0vdukO5Eqooctg">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8WA5pwrfkeYlGIk3aiJasQ">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWhWMPQHgUqWm0N1JU3me48">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwE8EWEkeE2mi0nkUpIs5O4">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd6rOpatXBUIJgx3n8kOiS7g">
+<w xml:lang="de" corresp="src:tlaIBUBd7cW0BmkwUW3vA3gKlT8Vhs">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8K5mHySkkCOiPQBeLmHTHg">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9be12kEu0tjsV8qWUJUz48">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5K67mmfak3PpQud5OPAte4">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9gXvksv2U8aquQTHu9YYl4">Herrin des Sykomorenheiligtums (südl. v. Memphis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxRrFu4va01mporRqSag1po">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQ8TOHdw0rCpt7RnRBDh00">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3hcFQRsCUSwiQ3KPwzKAbQ">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7SMGcGKo0nUqQ5ewybz2Y8">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdxTMsCLv4UgvgBwW9rUPulU">
+<w xml:lang="de" corresp="src:tlaIBUBd0OvutZvm0T7nWbiTQwsGpk">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWFh9ON48ENrvn4K70j1qjE">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0eQnJJaPU5wnGJ2ryWX1v8">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3pgqIKyJk6QhLQWrYMbmok">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQnRQ5EZMk87s6Nst7KdUTE">Herrin von Ro-Hesa (Ort im 2. uäg. Gau) (Hathor, Sachmet)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwuC49o0QUi2m9wo4nTnzkc">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd40zX7czEUjFmWKQu3bBP7A">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2LMCETA8kNuoOAKk3ZSYs8">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzroqrTg8kVommOU32fVW3o">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd1zkP8RndUYCuzVWLQd7Gqg">
+<w xml:lang="de" corresp="src:tlaIBUBdypqUIVK9kKEt4OrvPBH6Q0">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd62NGhQ1BUnHraHPsbI3Qdc">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd62MTJ0vEEOvhmmDieQbXqs">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd42CMMLw1ULspH3S5xKMmi0">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5vFSVzXTUBSvIU5UTQhRiQ">Herrin des roten Sees (e. Ort bei Memphis) (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyn2xiUy6UT7qKrpErAWE7c">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3DLWb2pI0Fsn7bcYboyjrs">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1DI0MhFQ02TtmQveqdYGz8">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxWmrJRhH0GnjYodOBayLQs">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd9dqW7hHwEr0kEDu2d1jgNU">
+<w xml:lang="de" corresp="src:tlaIBUBd42F4g3G7EP0vDqEZoyoEwg">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3FzsNnyfEsFtnVp55TjXDI">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyuWAvmdAU6gmlG61ivCY54">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyy9aw4YnE29rWsuPqSbeGk">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzYx4K3eFEz7t5702PQrYT8">Herrin von Mefkat (Hathor von Terenouthis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Na4vZzn0hEkxkaVpE7uGM">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6UEQMc9WEH3mWSO8sHWUqg">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8nb0SEbTUC1gNGH07wGFfY">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyfLcj2YIExzmNvfKQAdL6g">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdzIAPiKVM0v5r64m5SaAjI8">
+<w xml:lang="de" corresp="src:tlaIBUBd9SasE2lkECZrFjcCrseZfU">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd05WN22SPE6hnR4YoisqmbA">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7FCCnAQS0ANn4Md5L68Jgc">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyFmOk0I9kA3iS40fEEmQ08">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw4gOZzYiUwPsslrthzMN1k">Herrin von Inebu (Memphis?) (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQOJXWUE1U9OtCR6DOvhoek">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxGfzd0wGEADpxPRtGDd3g8">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxG7qzHJ6kBRvStzUyEMotA">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0SZZNWtbElQrt1G6rOM2L8">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdWEo1yXWQEsYoyo0g6nrkp0">
+<w xml:lang="de" corresp="src:tlaIBUBd5QhBFbVmE2pqWcs1Qpqgek">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8CLGIvGkE91jhFnUF10NM0">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7OPaPaDAEDzlARYo2WLs7M">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2c5WAk5hkCzly4QRl6MBe8">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6MKthWtwkxRgc1Io8PuZdI">Herrin von Wawat (Ort im 3. uäg. Gau) (Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxgySQeS2kYwpz6ug49KD2s">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8JnydPZlkWluagaKDrxMd0">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWMWXO45nUrMmFnNdiNtzfQ">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd725SMTsVEDAq4EBpe3GydA">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0lGTqmGeEqpoXDWZkLsrbo">
+<w xml:lang="de" corresp="src:tlaIBUBdxw8Kmt4QEvgnHEm7AbsezE">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWZj6fSSCUK4oltlWH3axhw">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1DukZBk80pxhfahFdJdmWw">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyN9ah1E5EFOvuJLWo5Cn7c">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwkANA5dBEQLmHFiJPaE8zE">Herrin von Imau (Kom el Hisn) (meist Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5mHSRDTeEsWjAnlqshcob4">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd31ZLYIhgkOYoRdHEQW0Qkw">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Xv4L5vPEZ8r03Qf9XXWQ4">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3reNo6Q5ETUoBdmWGtOLE0">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd00M7QNj5k7wjimha6xHhVg">
+<w xml:lang="de" corresp="src:tlaIBUBd6sDo2mbU0LMn8V9BCNwK9g">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5XmM7kk70zZodGrRIp9Ae4">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVv9QoVEEFCmsUnWAbxVGg">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1D8Lidz80CtsHUEdGFr4qM">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9Xfm1Q1nkBjvahxI2gFRnc">Herrin von Imet/Buto (meist Wadjet, Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwLqa9umyUqrki7bZpDvNaE">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ViTQj6TkC7uG1jTjztzgg">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4ekFcUhXUzmi6mBvGcH8Nw">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWAjvqykK0RrmCggWwjh85Y">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd8DAqPrpsEO8v4JI4R2wers">
+<w xml:lang="de" corresp="src:tlaIBUBd7lQT1oSWkFup754UJiQ5p0">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyGp0d29rErYqqvrU0pTJBo">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd67weeZYGka6iWb4K4spefE">[Suffix Pron. sg.2.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ERSfWQvU4OhGzDMtwS4sw">Hathor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6UBNlWMuU0Bj5TEPZ1FEQ8">die Gebieterin der 16 (meist Hathor)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9rZGSRNTk4Lk0EOhUgRL5g">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxRXJbMfs0ylp0WBSdGXyAk">[Bildungselement des Präsens I]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5dRv10UjUoBo3zZM19dQE0">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2ORt7Nw90s8hEv2iXOFyeg">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd82dWmq5Bk0IgElM0DQQsa8">
+<w xml:lang="de" corresp="src:tlaIBUBdx5nFfPGZ0Cajd9gRc6WiWQ">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2xpjho0QUZbuTTdVwLw9XM">Die 9 Begleiter (der Sokarbarke) (Träger der Barke)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0MFjrJQy0HukZ4g29jCNs4">kommt!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7zOaDgbhUVevDrInfFNj4U">Arm</w>
+<w xml:lang="de" corresp="src:tlaIBUBdze1Lx4GeUollY9wDLoaAEk">[Suffix Pron. pl.2.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQQm0KHgEVYrChp26pT2u8">unter (etwas sein) (etwas tragend)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQXPHODQtUyQiNafVwz8HzM">Vater</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzkY9hfUp0otsRT3ziORLF0">[Suffix Pron. pl.2.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3y2V3mVHkotoOKW1z5Hs5s">Sokar-Osiris</w>
+</s>
+<s corresp="src:tlaIBUBdwJXKgiMlEzgn1j5IuvVwt8">
+<w xml:lang="de" corresp="src:tlaIBUBd2jZDLoMGEB4lqQdOmDiroY">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd10z9HhjXEBsiOvD80xGiLo">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzd9uWy2UEMOuyB2cn0ELxE">Schutz der Erde (ein fester ritueller Ausruf)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyrRd0aR8UKVoqkWsOWvsq4">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2wgXZZk7URuuKwDfiyaxQo">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+</s>
+<s corresp="src:tlaIBUBdyHuWKve00PdhzuQkMcVQSg">
+<w xml:lang="de" corresp="src:tlaIBUBd4CYwNBbjkXWoGv2WQw4GBY">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5wW2n8YNUAghJbEYsjKGPE">triumphieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdypIjkfRGUq6n5N9shQQJsE">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7SGjGLJqUQug6UFutYCBO8">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2UDeyHzeEr3iu1QQ1XAVD4">Der Herrscher</w>
+</s>
+<s corresp="src:tlaIBUBd91cYGwF2ULCvfDGb465RFU">
+<w xml:lang="de" corresp="src:tlaIBUBd1idOd8Bi0NKv6MAjXq8YNk">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0z9o8kEHUtnqUBeZnKyrSc">angenehm sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz8T02CSO0W8tvTHmqYBynY">Geruch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8fJb2v1QERFr3nUzgB0eXw">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1YUhZJ0l0y4iLTFVQRMqvI">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0rDFV6fYEQhudbQSeHltII">
+<w xml:lang="de" corresp="src:tlaIBUBd8ODXSxHQUFBolo4P5sIApQ">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwBKHW2BdUZ9oEWrpv6MmHU">leben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzxjnJhJ9EdmtoQak9qsdFM">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4cbL6Jk10KtsCHQNIZQQXo">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2S2pLVD50YEvkxNjtqEQQ0">ewiglich</w>
+</s>
+<s corresp="src:tlaIBUBdy4leHq4PEo1oJReMsHYWSw">
+<w xml:lang="de" corresp="src:tlaIBUBd3bHdvDD6EsYrZcGh7nkfQ0">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyvXTzLam0qYlTGVgdz278E">triumphieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwSJOBiEQ0XSpQE8r3vhhJ8">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWNtPABiTE17t7WQ59i2Kyo">ewiglich</w>
+</s>
+<s corresp="src:tlaIBUBd6J1mZspnURnvY9Cb31oNHA">
+<w xml:lang="de" corresp="src:tlaIBUBdQ4oUp4vfUQ0hdsYJTWXMxk">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8rlzMSCEEaVr72Y5C7OQ6s">die Erde küssen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4KaQPvcwUl7m8s2hQHWMvY">Erde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0v1FQf2wE3Fs08hwSxtF9g">öffnen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6P3fFrDAkGCrGIiXoIPZug">Weg</w>
+</s>
+<s corresp="src:tlaIBUBdxqBJXZOiE3cie5lcQ9SQSU">
+<w xml:lang="de" corresp="src:tlaIBUBd4kvhhKRy05dtqd370VHwhM">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7F6wZjdTUDBhkFmTF2VWaA">dauern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9cakv0630qDgE1QnMgfPrg">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6FN43cCEERDhYhGfIN3elY">Das obere Djed(et) (mythischer Ort)</w>
+</s>
+<s corresp="src:tlaIBUBdzhMKDSrEEhVuQPh4o4myXI">
+<w xml:lang="de" corresp="src:tlaIBUBdWIFlkFZa0A6jEhyzUcW110">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1WvLJKW9UOhmjpjr3jLIq0">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQwtpuG5cEmdvMo7UyI72h4">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4arPrzKaUKZgloUvoULujg">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9pkV1OwDk5NhaLqeoTL1jk">Schutz der Erde (ein fester ritueller Ausruf)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1W011QKoU9AgEKBWGF4nH0">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1e0XWcTfEYmit0z1VX5JAQ">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd81uNW1OXUWShmQzfvrxBgs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQMxoIqc4UEbpmBwXaPeEE0">Schutz der Erde (ein fester ritueller Ausruf)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90A3SCdeEp1ouLyimVUOgo">aus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1KdHoMic05RgndKIVm6kMM">Mund</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1zfWkfoD0AIlMFWSCW0y5Q">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1xON2CVnUcGoIQtYPQQI44">Götter der Gaue</w>
+</s>
+<s corresp="src:tlaIBUBdWV24WgM0EOPg1gIDLwqdP0">
+<w xml:lang="de" corresp="src:tlaIBUBd5ytY78VZUt1uZKO0kIjYhw">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1InVSoJtkPXtQa6I4RUfBA">der in seine Aufgaben Eingeweihte (oberster Ritualist)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWLYdaCGgEF3jpblGglKcS0">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2WFGxhRYkyZp52vwjMtXuA">Priester</w>
+</s>
+<s corresp="src:tlaIBUBd7QpPTo7cUdPsIRelB0nmL0">
+<w xml:lang="de" corresp="src:tlaIBUBdwh5xYpb1UFisMaEfy57i3E">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3tP6dvCy0w3hY0Y8OPvbL8">Gewährung des Schutzes (ein Schutzritual)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd52s3VASQEjRqlUMfhBSAQs">gemäß (einem Befehl)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4DNi39QFEiXmWi2mtm5e84">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7QreExWH0Eqpw1sTdkzd4U">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd6QolU2Bz0JDorrQxSJMhzE">
+<w xml:lang="de" corresp="src:tlaIBUBdxQLMBBo20LYuzBQrWK5Wkc">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9KaFAlplkWNn3prY2jnjy4">[Partikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw5O98wnxEddlQoQbTWK0ec">ich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxg8jWlid0w7t2iRJtl4X2Q">Pharao (&quot;großes Haus&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Jeszfiok0WjviejHSSQkA">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54TLA7RBE4NnZpa4LpKXIU">[verbunden mit speziellem Objekt (allg.)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9nZhhEZF0vti0ajiW9uqfc">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1GkY4Pz6Umol6EmibBCpZQ">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdw17QD82rUgJmDBMf46WoM8">
+<w xml:lang="de" corresp="src:tlaIBUBdz6i8W8WNE82uHrcBGGeZY0">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzrKcGW8vUmdk3nBDOKbcKw">[Partikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1cQTHw4HkhMpn0GEa0PoBg">ich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2sGlsJ9QUGbuVH0kQ62xag">Pharao (&quot;großes Haus&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2MIcrVps0A0h89E5Z8pzLU">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJe7opQGEs4ifZhqmU7lb4">Kult vollziehen (&quot;tun, was 〈N〉 lobt&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWukuTjZmEeyuJ0iof8oMQI">loben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxU0cl1DGUBtjmkU8r5e9PM">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0X0QyJvR0H6mYETRsW9b38">
+<w xml:lang="de" corresp="src:tlaIBUBd4llMjw7DEdTtG6Rk2FzDYg">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9HYrIHd02ohimorQ36QD4">der Sitzende (Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5IwDHWQhE3QkOGAjRrAZ2Q">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9AV9cre7ESGgOKeTiQsiF8">[Partikel (nachgestellt zur Betonung)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Cz6GKXFEnirb3CM327GOE">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5k2whrjR0n2g57NMKbdsOM">Herzensmüder (Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4nrGGrsMEt3sqoscXp4R1s">dieser [Dem.Pron. sg.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdz6QO89JXEE1ra5N9c4clbE">
+<w xml:lang="de" corresp="src:tlaIBUBdxNU7dAgKkx0orWmZtYUybM">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQmHjmpXW0tWoJu1ytdEscs">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7yiRxpW7EE1mrnMlHudQX8">Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwcsx1J6sU3zpVFGsl1hmwg">rezitieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4D1jEXWH0ZeiLFCzZjgL1k">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3un26WRdkBsoAvx6ETIJ1M">Festordnung, Buch des Festrituals</w>
+</s>
+<s corresp="src:tlaIBUBdQfAZVQNaEmQuPfEWNpz2ro">
+<w xml:lang="de" corresp="src:tlaIBUBd1ZSY9hQKUoFhKOl2BZrtlI">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWHUWryy20jJg2rVFZOQmP8">der mit dauerhaften Namen im oberen Djedet</w>
+</s>
+<s corresp="src:tlaIBUBdyFqFU6Cb06lu1RgovRAjfw">
+<w xml:lang="de" corresp="src:tlaIBUBd50YQ8doMUa9kQIbzTIpeEc">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Xk42KeS05bjI5rrF4DzGc">der mit angenehmem Duft im oberen Djed(et)</w>
+</s>
+<s corresp="src:tlaIBUBd4M3f0gfY0QynqLmQEnS4Rg">
+<w xml:lang="de" corresp="src:tlaIBUBdyZla2zv7025rBntpU9ookI">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx1HCQgAb0pQl2q7BTnDQgk">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6A57NvzWUcTruhCNsAQWek">der die Rebellen vertreibt (Osiris)</w>
+</s>
+<s corresp="src:tlaIBUBd6MG1BuBHUy4rmU2xu3s6eM">
+<w xml:lang="de" corresp="src:tlaIBUBd6TTzAM15Ecqh6QDMxzpaeA">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7mWoCegtEnAp9iQ7HKv8Ys">komm!</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWJ41QkJkBkuZOLm3RRqto">der das göttliche Kind erzieht (Osiris)</w>
+</s>
+<s corresp="src:tlaIBUBdzayebro2UNionWw86KhGOg">
+<w xml:lang="de" corresp="src:tlaIBUBd1nBlTu89UJWnvYdsfWZVxU">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQqdmW0ZpEEFn6SQVRKNCRw">der die Furcht vor sich unter den Verschwörern verbreitet (Osiris)</w>
+</s>
+<s corresp="src:tlaIBUBd2QJWJMjNko1htIBJHDa0T4">
+<w xml:lang="de" corresp="src:tlaIBUBd14GfWd4Xk0gkvWQJ9Dwyrc">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6f9SSnL1EqihJ1fO5qVPAc">was anbetrifft (vorangestellt zur Betonung eines Satzgliedes)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9qSRFvwF0oAr1R4wL18Zo0">Diener</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2T0vvFSdk3PnPM6paydnKs">folgen, begleiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ4cKVHon0ZrguQVfrb8JFE">Herr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd76k4hMvJkiDjI9BWBWYR9o">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ3msD7Lk09ZkQwnWxsw3RI">[Negationspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd70u6PWHl0sLgqbTMdCUAJc">Macht haben (über)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdydaQYumGUZekt9cTjTEOTI">Majestät</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7rShTcE5ENznnn8BOOG9pY">Bastet</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxWjOu1tBU9UuBSWVxyxFFo">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3JL3mMFnEKhmJDo7FHrIWc">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd7jy0glWm0ZNrMZglLXL6FY">
+<w xml:lang="de" corresp="src:tlaIBUBd3SBKwMfzUcGm7AsDbOfI1k">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwzs6DQA70HksLpMstaxIWM">Übelgesinnter, Verschwörer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWgahJRnZUWhtfRD1vcyzow">verabscheuen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8L44xI6mk5CjS56vKFbFbw">Tempel</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwAesKQsuk8ohnBdHwQYa1Y">Pflock einschlagen (als Tortur)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyMCbOjFhEH3pWcmSLc64QU">[Suffix Pron. sg.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8zWSMNPk0uMhJjSqbWKhIY">Pfahl</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Ta5cGcSk1XvW0CM6u6AP0">zu, in (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQR7jJbn3E2SoiFy2wHqQNU">Hals</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9UTK5CTRUw6pIHaoAobnkw">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdyiih1z8z0dtvSBSuWwzH0E">
+<w xml:lang="de" corresp="src:tlaIBUBdQuJeVlZQEIMv4j9Yo8mWng">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4k24kpmMEBVtPXHT4YnPwc">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1mQodzV50ZbldRHuOeI3v0">Herr des oberen Djed(et) (Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8X0SSrAOU8igwXeVNY6gs8">schlagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW6PVQZN10qehoYv7g37EBk">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd15Ro38CYkKatEYKsUqrJac">Übelgesinnter, Verschwörer</w>
+</s>
+<s corresp="src:tlaIBUBd9JuQLYd70Q4ueEQ2MP8QO0">
+<w xml:lang="de" corresp="src:tlaIBUBdzBuOxMM9kh3l7If04ODb80">[Rezitationsvermerk]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5WvpeoJgUKmmToBCaxWkhU">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWJwrXLtrUGktbtlaWPuplc">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWTWWaKiQUrLjPKovQgpMTg">Chor der Taktgeber (in Zeremonien)</w>
+</s>
+<s corresp="src:tlaIBUBdWT4QyBwRUP3qH381Yv6x7k">
+<w xml:lang="de" corresp="src:tlaIBUBd97UUNTUtEO7liVtCSWrHEU">es ist zu Ende gekommen (Schlussformel von Handschriften)</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

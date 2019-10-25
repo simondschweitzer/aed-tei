@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroPUU4FDYOORB47M7ZMZVUAODUVU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Texte〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Texte〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PUU4FDYOORB47M7ZMZVUAODUVU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Texte〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQCSEGVARMVATNPK2HJRHXCOUG4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Altenmüller, Hartwig: Die Wanddarstellung im Grab des Mehu in Saqqara, Archäologische Veröffentlichungen, Deutsches Archäologisches Institut, Abt. Kairo, Berlin bzw. Mainz, Bd. 42, Mainz 1998, 151-168, Taf. 46, Abb. 10.
+[P,F,H,Ü,K,L,B,U]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PUU4FDYOORB47M7ZMZVUAODUVU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ab341787ca064c5e7dca989361fbb401</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd7kodJKVuU58oc4zZMqYNjg">
+<w corresp="src:tlaIBUBd4k4oAtPdk4ToTKENrQ5CDE"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd0FAOjbb50mupcHqD1aOoTI">
+<w corresp="src:tlaIBUBdzliZ4YfJ0Zjvk0QMB0Aaqs"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd17QJyYBhk3brm4IaKodBCM">
+<w corresp="src:tlaIBUBd9UpG1t51UbMkeiJ2tmY0hE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0EWjYm6YUMBpKQSeQJ5AQE"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6jSwe0sJE2ZovzR2nCJThM">
+<w corresp="src:tlaIBUBdzwuqK18Lk4BqGWvdwOQQi0"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1c0rW84PUbtlQBkwCI5BhU">
+<w corresp="src:tlaIBUBdxYDyMFvjk4uk111dBvQgpI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3PATxqcYkggm2k8XWplc1c"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

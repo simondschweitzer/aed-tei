@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroZWM3LIFJDNGTHPNQLOIFKSEQTI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Scheintür-Tafel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Scheintür-Tafel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ZWM3LIFJDNGTHPNQLOIFKSEQTI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>nördliche Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Scheintür-Tafel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHMW33HMGE5EAJHG6KKRGNA7UN4">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>* E. Brunner-Traut, Die Grabkammer Seschemnofers III., Mainz 1982, 29, Taf. 21-23, VI, Beilage 3 [P, K, B];
+H. Junker, Giza III, 101-102, 192, Taf. I-IV</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ZWM3LIFJDNGTHPNQLOIFKSEQTI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-72599b8b2ddc0bea06f7153deb3de62f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd6xcOQBtZEn3oQ1HZQ8QNkw">
+<w corresp="src:tlaIBUBdWXZwyaE40wQsqMoahmW0p8">𓅓𓂋𓇓𓏏𓏞𓂝𓏝</w>
+<w corresp="src:tlaIBUBd47fdUVRrUKUhXBN9mJ79AA">𓅓𓂋𓉐𓉐𓂚𓌔𓌕</w>
+<w corresp="src:tlaIBUBdy0nuLVWxEzdrhgQk5PD67M">𓌸𓂋𓂋𓏏𓆑</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd2eeQEw6e0vIlbgPSYds91A"><unclear>𓈘</unclear></w>
+<w corresp="src:tlaIBUBd7U9r7D8SU7kjlMTJip8AsM">𓈖𓄓𓎼𓏏𓏅𓏏𓏏</w>
+<w corresp="src:tlaIBUBd9fdU8qruko1rUNuws6Xkic">𓁹𓂋𓌸𓂋𓂋𓏏𓎟𓆑𓇳𓎟</w>
+<w corresp="src:tlaIBUBd8VlQxoeRk8Nqb3xqg8xUjE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

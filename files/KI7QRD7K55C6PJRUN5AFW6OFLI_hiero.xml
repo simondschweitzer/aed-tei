@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroKI7QRD7K55C6PJRUN5AFW6OFLI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Kol. 1-2: 〉Die Lehre für Kagemni</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Kol. 1-2: 〉Die Lehre für Kagemni nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KI7QRD7K55C6PJRUN5AFW6OFLI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:YAP2DV4PVBBITNRDUTZU7UZTOU">Bibliothèque Nationale, Cabinet des Médailles</repository>
+<idno>183-194</idno>
+<altIdentifier>
+<idno></idno>
+<note>Das Frame pBN 183 enthält die Lehre für Kagemni. Die Frames pBN 184-185 sind der abgewaschene Teil des Papyrus zwischen der Lehre für Kagemni und der Lehre des Ptahhotep. Die Frames pBN 186-194 enthalten die Lehre des Ptahhotep.</note>
+</altIdentifier>
+<msName>pPrisse = pBN 183〈 (Kagemni)〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Kol. 1-2: 〉Die Lehre für Kagemni</title>
+<textLang mainLang="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDHDKYVN2QJBLDG3BUIEJYQYYMQ">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+<note>Siehe für die Datierungskriterien F. Hagen, An Ancient Egyptian Literary Text in Context. The Instruction of Ptahhotep (OLA 218), Leuven, Paris, Walpole 2012, 142.</note>
+</origDate>
+<origPlace ref="ths:VHGZGISIMJG6NBSUYALIZI4TIQ">westliches Ufer
+<note>M. Dewachter, in: RdE 36, 1985, 59-66 (laut Prisse d&#039;Avennes aus seiner Grabung in Dra Abu el-Nagga von einem seiner Arbeiter gestohlen, aber in Wirklichkeit von ihm in Theben nach der Beendung der Grabung angekauft); M. Dewachter, in: RdE 39, 1988, 209-210 (laut eines Briefes von Prisse an Champollion-Figeac kurz vor dem 20. März 1843 in Kairo angekauft von einem Fellahen, der zuvor für ihn auf einer Grabung in Theben gearbeitet hat).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Jéquier, Le papyrus Prisse et ses variantes. Papyrus de la Bibliothèque Nationale (Nos 183 à 194), Papyrus 10371 et 10435 du British Museum, Tablette Carnarvon au Musée du Caire, Paris 1911 [P]
+- http://gallica.bnf.fr/ark:/12148/btv1b8304606m [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:YAP2DV4PVBBITNRDUTZU7UZTOU">Bibliothèque Nationale, Cabinet des Médailles</repository>
+<idno>183-194</idno>
+<altIdentifier>
+<idno></idno>
+<note>Das Frame pBN 183 enthält die Lehre für Kagemni. Die Frames pBN 184-185 sind der abgewaschene Teil des Papyrus zwischen der Lehre für Kagemni und der Lehre des Ptahhotep. Die Frames pBN 186-194 enthalten die Lehre des Ptahhotep.</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KI7QRD7K55C6PJRUN5AFW6OFLI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>7-6df714bc20350a8a9347f2b523127274</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWY3QJ0Y4Eknky5ccGVvgvE">
+<w corresp="src:tlaIBUBdynLQ16VQUeQvcluaaBz1Os"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7YMQDZZuUzxq1EBlmS0XJo"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1xRe9OodkAMglWR8sEmseA">
+<w corresp="src:tlaIBUBd4hs2xWsn0u9tUjWy791UU8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3uMbfTQAUg4rQo3kyXriH4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdWofUHJq70PusmvOjGXsN1g">
+<w corresp="src:tlaIBUBd8vK0DqdD0a5gpwmwx18YBk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwCvW3vFykp8jjSIMK8bWps"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3fe2Wa1YkFhnLwuFmU5veQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8u5E4QLuUTOu2xiPqeV7xg"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7R7sykjWkSwgMblc959AFU">
+<w corresp="src:tlaIBUBd4x9bI8760TFsoLIpaU4GLI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdytkFDusKU9bhU4yqftWI24"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWV7lLY87UGzqMhxolJiLH0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5ZtTTKNS0kulsEaKneP5yU"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1wkOgklZ0tgqTCo4QL7gTM">
+<w corresp="src:tlaIBUBd9kARfOs2k54loWEPyUWjYE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdw6uQKGxXUUWnkjnka59e18"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1UhNpTtyEQgi4NmIXYjL40">
+<w corresp="src:tlaIBUBdxvlIgBre0gjlTvZZvdgtKY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd10si3xJTEuqidW79vrimAo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8rkkcYkn0UlgQCnYMCyTaQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7cD70bf5EV9vl4lkiaYyL4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdyPooWh3LkEEvyoFYcZFezg">
+<w corresp="src:tlaIBUBdQDWyw6SXE3rhLAbqJRhkek"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5qG5192uEIevgVQx2ZdE34"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3WQDCesQ0VTvc8AxeAp5go"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1GDIXFn3U2qkR1u80Q2nJI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWUE8R0QYUwitVgeWIjGdR4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8bHSBaVGkqZi8nkYPtVlEY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1bFYe6Q6UmFrqnvrKMIaR0"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7oC3LbdzkI6peGbmEWtUhM">
+<w corresp="src:tlaIBUBd74MOQIUx0Y6pAuTkXWXCQg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6AoFyuAXk4xm1GQSB8ljtk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxCzRs4Fh0o0tXn52RpF0pk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd64YXt4KfkfXrDi1NSNn1kI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1IskHmNCUb3lLk6mnTtLwA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7kxNQXFskQ4qWQmfPTWH9g"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzLBE2zI10sCgOfWqkFrnFc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWyhdNqufUuMmszQl8Y2MS8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdW92uS0JB00rmuthHukQWOc"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7G05OL760imkW3ckKZWpSs">
+<w corresp="src:tlaIBUBd8q4Qex6RUWspKxjFvomlrU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzGFUnJ5UUhepRtr9XNi48s"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3sA4osUKE7IilIRJhre3ZE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyjM8sdMYkX4tWKXR1BMCX8"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7FxtNlNYEntgA8GPgfTYAE">
+<w corresp="src:tlaIBUBd1z4oLeeVEPvtPYFTiJX4fg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWh1StB77EHdol39TqtgZNM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdx7SOAmaO0bsnekgEAOhX5E"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdxV5UUw2IEcgqQxKwIciRZ4">
+<w corresp="src:tlaIBUBdz5bn5xe5U8cppG7i4zXylc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxlzFFfbCUAziYh5Ej2J7oc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2klYayenUrTu0hnDe8IA8o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9YOZFB47kOTl7ERIRauyew"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdw43EXBWnkutptVMloldTIA">
+<w corresp="src:tlaIBUBd2jHm6LzIUxulCCYSNUtEYY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd39cKHRZUkXbu08ZTwZVCEw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzu1UdoHRUkxrthLfXu4zQc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2bRpSEiVU0llzxQT9EWgLc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1BWBHeuEEAwtAiSimkIePs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7w0ZnapOEBvgUjcm3bQiWQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0eIRhIv90B2qo070blzWiI"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd4bWV1c0FktIn1z5zMRksXU">
+<w corresp="src:tlaIBUBdy8ea8CCOkpQrHhdbwYq1kU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd82N5ekNMkd9vDE4ceBEBkI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxrmimIkc0EBpkF3Q5Gyh0A"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5HlNqLTRkF6sArsILywoI8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3LuAG77zkmcgWZvYw0fFZE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8bz1IRuNUNDgCju4JaiUPE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9tFnHMuV04jvj9J2b6bnzE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9Qzb3DWKkkHjeFz14aZj84"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1uGIsBWIUSqs76vzfXID38">
+<w corresp="src:tlaIBUBd8rVYoSX1EQLm43wKMe9kW8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5VKCQGb3ETQviAecFwKhZg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxV5xo8YIkNStlgRD6EVIuA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0CxvsxibUMJu0l5meyCOR8"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd8rH632pKkYnvs2o2TsFaWc">
+<w corresp="src:tlaIBUBdw1ZDS5rZ0RFlzyHO85YaxI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3FFt8e31UQyu07CtQQoRFs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1QKl4Bhb0GWro99QXO6Dbk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzQabtWkfUE7hNf1oTkb548"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5HMvesx0kwFqd4lNySmZH4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0HgTFWNNUgyuTVljc5jrZ4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1lubNS1KUEqifkyANQWkW4">
+<w corresp="src:tlaIBUBdQZyH4qqQ0FalzImKiH0NIE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd55Ja6lD2UQookfrS8EZ58E"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9xxFQnQwUrHrRzDVk7ObVk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4tQTTqMIkLvqTpdTimpqtw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0dm9XPZg0zov5zJWvbRyQQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2iivjYZQ0g5g6lIygB7A6I"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdzdQq2wDokTHo7yfkbFFmSc">
+<w corresp="src:tlaIBUBdxgarxfqVEvltgjwOQV83Bw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwDrE4qWNk6pmCxkyl42CzA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQed0uQNfkbirjcRpeku1FQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4RPyfsB5UEntTGm6qhIqig"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdQGT8YVNQkgAr89DPIkILd0">
+<w corresp="src:tlaIBUBd6KKW6MOo03lvRPql9qzrYw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6Z4L5E5WUarg4BAXYwnlms"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4ib68WANU6xp8uAdZ0DnLc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwu0LhZy6UQbqWfMEzsWG1U"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdylJcFOieUy7sQmZRhI5LWU"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6VKWc3XW0mVuuYEwhfT3rU">
+<w corresp="src:tlaIBUBdyYWvPRBUkpyrIXwcOwpQtE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdz9LzgBaWU33mojChuPSAu8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzbAq8zzA01ApY97WprKXPk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0gtoyRUMU5wr99Py3jEFCY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzBptyMGzERji37L49jrwN4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3uynyA7009ClbS2gwmlDlI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQPEmWGk7EokmQUlEfmLXD0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyXipwo72Ut0vrwEh6mXR9E"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8AnPxGdEkAQh46fKpkGLe0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQVt70ISAkvrvXpbRpRteS0"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7EIXzugx0XwnvD20n91s7s">
+<w corresp="src:tlaIBUBd6Liltg9B0FNuTKamMcbUBw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd67ZOZXWkEWRhxkvzWwdkmc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7UWroeY70VZhv6p7sK0uYE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxQqbWhSZEKWolYzXOLvugw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2AoiaQOB0BAvrQBhfKxAQc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8usNeaxBU6qg8RJWLkgcHk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1W77lZINkSloaczW68tTF4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd4k0NexmV0gtqZj8uEKKGQ4">
+<w corresp="src:tlaIBUBd6qTox3wd0C4pPrQP0Nv7KE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1GNpQBvX0ZHhHWyZ91bbWI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7nd8SYbqUwvoetQ7PvR0Vo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9GkZJzSqkXNvUJZj8y7ZW4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7QG0ljSjUF3r6rfxUeLaxo">
+<w corresp="src:tlaIBUBdzHS0lPIe0Q8nwTjmrcTRn0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzpnLEIECE6WplGCCWIsAWo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7HroAfzzEWLmT9WMb2xQ8c"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQPr5VfKK0Uyv53aaEe0P7c"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdy8K4vcF8E8VmMG3exJDQmc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1X2z8KoiEaziYwvWhwGWB4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdxiFQXQAqkvJtiaoepDVuoM">
+<w corresp="src:tlaIBUBdwnORVeYtEdEv95w7rDZn2k"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQgBW0cdkUJqtSaR0kNUnWw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7YWWyF9VUNCt3T77vyLBpw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwOax07NQ0SMoSt4ck5soWM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwrIEDrHW0lzqeu9tgEfPpM"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd1JgobQNHUrHk6YlAaexk10">
+<w corresp="src:tlaIBUBd9gbnMq8GEzKif7JCQw7Xx0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4cCKGcFnE6zuLJuYEoZW2g"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3Ht0o3FtUhcqtIrL3PVZMI"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdykrlOTyi0sFu4zOwWQdJKM">
+<w corresp="src:tlaIBUBd1MvNwUGFEGEtGvxggxu1FA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzi8APCw7krqhJTc4bJjGuY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd08WKbdYvUbUibyhQARWEqU"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdQfyrePoikrQoIIY5aQZL94">
+<w corresp="src:tlaIBUBd3U7damJVkEXuItlxnBpnV4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd875TdTTP0uTtGRbSOpWQX0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd30tWIFQJk3IlamZSJaZMuw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzyCQvkAc0GpjHeKMeyoI3w"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2ghQAUXzE7jvJNNLvRzbSU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7wq5WLZTEjDnq6pqs6McPI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2hYj214aUxIt66toCkcj28"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8vOWCOdoUeis8lTiCsfAk8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0clfOoX9kzWi7ZU2Wt2EkE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9yRZSXEQUiOuK3Zp4BoqG4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0ZzP5QvbEhonmWUi7DtztY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdW8j0zAMQUQbvGro8J30nuI"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd8bh9zVVIkv7oohmEq1BAR4">
+<w corresp="src:tlaIBUBd17CqvW6LkhzrJaleVTOiHE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQdR3WsSOEBer15B9RI8SBM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdz9mqWiArE1emOHYWA8ISGU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd03MGiQU5U4Nl2WbzWrV45U"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0qy6WhRTk8bu8i9msf0cSk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2wcQGSob0MXrIcsh9BG6kc"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6RwtFDikEhQtAlGDf0XAIk">
+<w corresp="src:tlaIBUBd4c9KJgdQ0O6pF1p8xXbaGA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9KEUQLkRU39gFXxiJcUJps"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWWKVJRZpEO4qO5K2lGV5wU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4Ggz7xefkqJhDRUzFvMLmk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwhNjWWZmU5fnCsMZwmz8oc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6DmcY9cWU6nnXzOSAWUDnY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzQtvXomrk9evkS3jXoC8z0"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6jljKyaN0bAtCXmuszoT0s">
+<w corresp="src:tlaIBUBd3B2WW6ihkh8lF1AiK5beFg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6EZ1zoeWkjMgwLCTdTfxOk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6QNfFt1P0cev1X2FQWCRJc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWV7uiaUw0WIsf48qGxYqsw"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd60Wxh61xEE5qUYv5D04WYA">
+<w corresp="src:tlaIBUBdwJ1QSrLQUWzuDq1po0CzAY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwFOAWsrw0PIpZZQhUicWo4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzcUoqMaC0Y7nnjoFLZrQ9c"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8JBWgPc10GbicIf28ARJ9U"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd86rGdBch0ZnuKMTY7ES4Lk">
+<w corresp="src:tlaIBUBd2R3uFKtwUWoupnVjQdGJnc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxJla7rXTUq0gEQkVHMYMHQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd27J19R61EdDsHNuRx1RIX4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3wxMloxikM2sQ1T6DKstAg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd33hxBAArUJEg8zGYxFAngc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWz3f3DXpEuyqrQanZ4l040"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8HZCUWDlEskpZJAtfjvCcg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6LV2Xj8sUrbkSc3rQoeVrY"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7fJDBnQIUwDrxl8zzMsgaY">
+<w corresp="src:tlaIBUBdQTf69sLcEJ9pRa2RW6uReI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1u1cClfV0UyiOd671XHtjI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0xjPUCl0k47vMZTbxZGbwM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4KJn4Ioo0DAgsTHKEa0wtY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWEvMnWlTk9LlBwZDwKYJfk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0ITEv9ga0LZrl3FkcqhKz8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzOmVoDOI03ios0wFJZl6Ac"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4QTD9oz30wRqwWFAwvsSbg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyFsq70anEhdpPKbhBBaZtw"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdw6bkjQPEEAZmjEX9kVt2ow">
+<w corresp="src:tlaIBUBd2WoGfnf2EPlhoQyChNbWJ8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2TLsn2gHUsRhbMtSKQr3lI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2XhT89m9UuNuMTuXB9Bmuw"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdWl2lpATPkOygSzGeZP92Xc">
+<w corresp="src:tlaIBUBd0JkwZRDP0MnqE0t2bnTjCI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6GGvJMkekzGh8PGg4dUJCo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9hprWPFpkQer58QRnqfdnU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0g0we9Ddk5Xp2JqZiwXdZI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd58XR34LYENCkXWmZO3WRFk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4MTdqSY6kJVtR4FDrmVvHE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWTYdpKF70WQsXP82ScVdmA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQKLq1r5pU4Oq1zhdwmAGj4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3xd1VJPeEmkj1cEhVDClRA"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd04WMaJzpESstVjJH0xnrto">
+<w corresp="src:tlaIBUBd6kFqRgVU0mkrpwTL60Mb0s"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4DohbFaGU5qtgWevv8OLRw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWylwvgeXkYUuGQExdywGwg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwQuMG2ObkDwosDA2iJWags"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2lYEjo55k1NkCPw0nb91QI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzlbzBVWGkPNuyGbeBfFg8c"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3dnQTpCr06tuIa7In4Qvy8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxjCoMQJ2UkCrgWcQGEyIBA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2MkeJa9F0p7jUUwFGFRp9k"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd682N6hc10K6hIEAXx512DU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5W4dRHfMURuqpD775iVpG0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzbE6QQYR0N6gDiVwAMzGYM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQsOFOzrqEpWqWT77JvNgcE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2WppT5ga03Pk2Z763VXGsE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQoX7xEBD0d8mGirozmb1eY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2MDlUf6eEG4solNQ8hvFOY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6k6ZUyAO0fpgePnCQiEWgw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdywneGCCskL1hOtz7U1pa0M"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdQTzKmk1nEDQheukjeplGZQ">
+<w corresp="src:tlaIBUBdyZJuTZJCE00uBLwSQM4Zn0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyJrPM7rEUstjFAxHuAx5e0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWKPV8hzPUgDp5sjBLzsUKc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9xkZZshXEqxhL1khKluk8U"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9oFqHli9UafrLd9WUivkFw"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdQNMadRkQ0FTueOu1FMwfdI">
+<w corresp="src:tlaIBUBd0WE7gIru0KAh0JCGxow2zU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdylrhe1hLkShlipmMQ64CjA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2IkVuoiUkvQkW3RTykh7X4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4E84yGYdk9EhaAXWDVcJ0A"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWzuOv3Dj0aCtyryQ7K5Pxk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1SuPEKBR0VMpC6e19HtRUU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzdnAqON6ELPviRe6uiGxe0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0sSzwCHtkLBhnkQtVCPQqs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0olm1zVwkoJvOz8NZpuK4A"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd44kw28ZX0e9rdq4mz9895g"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5yXYZv2JkNQm9woMgGt2I0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWpVhDT7A0BttzMuQ5xQ52s"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd26mHgTNxECHoAo8daCx1PU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5Z5mQQH2UqnuHp6eOWbCsI"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd8tYTzwq903ZkFso2HyNNJU">
+<w corresp="src:tlaIBUBdxZj15AmJ0fktg8wNbMrdac"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2RjbTQmQUc1odnKFOc350o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6jmMk5GuU3kvLcEIPhbPsY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8eyWJQzXUIhtjus7ky0TPE"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdxzw5GuQyktAqbmRuMgD5TU">
+<w corresp="src:tlaIBUBdzNQDPl8lEyOpv36nVCTG3w"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzO6YeKHRk6tvGpor1zrwU4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQmr25Er6E3MjdAw9EOy2rA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5pczcPF503qgDtZ9vsLXzE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2hIKWPlb0uKpGABXWRCKAo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWXOmV7n1kyzloWobWDvmc0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2VVmnmJiUyWmWPWxrzELjY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdy5Y884KPUzCkG68oNq2T3I"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd0RoW7uPS09rliEZxQF6omA">
+<w corresp="src:tlaIBUBdW5xMo5AjUWtqwyZV18wDgY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxFIGp88uk7gnnsF5YLCpYo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdw8RCJ8daEXSuBa2EDAQfbM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3QwnD1RjEfQgwmhlYWkl3o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6zwdGI4yEsWkjpkMKFYWz8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3N0WH1fh05clvQteCykY9M"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7KzQQ8LCE6VlsPiILdj0GQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8s5t7vCLkKQlInsuZH0ScM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQarUMhDC074m9oBNHOueVk"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd2B3i9WRP0IJl6SaUPUmgcc">
+<w corresp="src:tlaIBUBdw3Drq3UkkRwnM5YwbhL7yc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7nbXWcX2EfOknNJKojFdQ8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1WQ04CyWkw1k8cbPPfgMF0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdz3ChS3WDEdCgT65rrVJYPs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyrqgGZnj0B6iDIoGZmM8wA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdx0gcI7bjE12vunYsZCYii0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdW4VEH445Us5qbNBKWAN05g"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd66BlswE6kWqrwmde5VH2js"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7ahqpnjTE8RoKWtQ3YJwF4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8IFyl8VQEWQiRR5LQo3spk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3hy6dLtd0vriaMNQgvKhko"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1ClQisU10o2ngVhin3QrLg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwWINCBFTEcMu0cwyUHgzWc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzmBxGBfIEYGqsmnGrxNRyE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxSgeqnvbEK8obAoeh7YGxU"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6D2RWEPOEYEsE0zFRN3n40">
+<w corresp="src:tlaIBUBd9COuIwQkUrrhpVcCPIYMNE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9PqDZbqGETyh7yLqPOLshE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwlFJ6wX1EtEiMTg9IFGaJQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQVDBoRi80ftilShSDmBMrM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdykAkMO2DkhfoGrUD9D1lC8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9Z5SrQnPkOSrevVQITjHtY"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd5D9I6UQzUuDomSlaB5yW84">
+<w corresp="src:tlaIBUBd5DJ9ABx70BdoI9EKTwWIaM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3uom7qmGEIZsW7d1BRZYTA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9WlxWXlAEjToLSq4TvBNjc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0j0xFTeiEJArWcMgDP7ZrE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxfTrxlQqEt4sWB74PAQc1Q"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdW1bWeNWEEOgkFZMYvcnCjM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8sEz6zpt0ZJsMdCQ7xKpxc"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdzWGvFK9Kkl0iQ0EWK7dW6c">
+<w corresp="src:tlaIBUBd6PcZl97VkoUgSZ72huBXEs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3Z1kUMCF0m9iHzslOG2B24"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1HWlFiFekrhtsE76Z1fhuo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd0WL5xW8201zjRUkugYVnH8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8SwE5bB8UTbnjHiQ5xsT6o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3kYFKqmFUohsP5VfjIoDKY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3CXZZsADUKbvBtkAdpBUU4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdW0oT3AWJEAFoWU7GOOQ9og"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQWmQrYKQ00frx6Rbea3nJY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyWSYpZ6u0BhuKzWFh6E4CQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6CoozCx2kIAjA55a1RAAcI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7HQcyhtKUsJp1Fo4Bzp7F8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2GCSBnNIkk0okIfglB1TbY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5W2B3SdOkKSs6LHcQIBzZI"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd3havR49fUYuibS0Bq5c62A">
+<w corresp="src:tlaIBUBd8Imi1QzbkielxeZEzftGrs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd070YkKg5ky0oqgXusAQRtY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7VACYjoNE0zvkTiTW20sEk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5BWqFo4fk1RsFyQSCgEcQ8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxb7oC3VSkh7kH8EghVMjsM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyTZoW10M0kgnTWYUWmEEPU"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7zFKORNEkKcuNhi5JyJRAA">
+<w corresp="src:tlaIBUBd1c2C3UaLUgujB9TWKCWvTo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwFiL0FpP0CWjwrtXNjXNsI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1hd3qArAkmNjyWrOPTWVy8"><unclear></unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

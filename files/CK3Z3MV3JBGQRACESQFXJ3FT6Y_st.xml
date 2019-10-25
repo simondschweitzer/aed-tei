@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stCK3Z3MV3JBGQRACESQFXJ3FT6Y">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift (T5)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift (T5) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CK3Z3MV3JBGQRACESQFXJ3FT6Y</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Türsturz</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift (T5)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2YW4GDZA3NBMXL6XTF3Z4DMAZ4">
+<support>
+<objectType ref="ths:YPVD27R3SBHPLJUFB5SJYAHBMQ">Sturz</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kloth, Die (auto-)biographischen Inschriften des ägyptischen Alten Reiches: Untersuchungen zu Phraseologie und Entwicklung, Studien zur Altägyptischen Kultur, Beiheft 8, Hamburg 2002, 48f., Abb.3.
+[F,U,Ü,K]
+Z. Hawass, An Inscribed Lintel in the Tomb of the Vizier Mehu at Saqqara, in: Lingua Aegyptia 10, 2002, 219-224.
+[P,U,Ü,K] 
+Altenmüller, Hartwig: Die Wanddarstellung im Grab des Mehu in Saqqara, Archäologische Veröffentlichungen, Deutsches Archäologisches Institut, Abt. Kairo, Berlin bzw. Mainz, Bd. 42, Mainz 1998, 89.
+[K,L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CK3Z3MV3JBGQRACESQFXJ3FT6Y.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f212ab405a68a87227a8d8f8b0aaabe1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdztHmQNZFUhMuCALbqQV0Ek">Das Grab des Vorstehers der Arbeitsverwaltung und Kammerdiener des Königs Mehu, das der Hatia (Rangtitel) Schepes-pu-Ptah ihm - dem auf seinen Beinen lebenden, dem auf seinem Herzen wahr seienden, den er liebt - gegeben hat.</s>
+</ab>
+</body>
+</text>
+</TEI>

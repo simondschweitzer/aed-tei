@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idVECPB5COKBC7TGMOFFO5MBUA6U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VECPB5COKBC7TGMOFFO5MBUA6U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Scheintür-Fragment</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4G6U6KG3F5HQNFIMEJAYY4ZBXU">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:B6LUZDUOMJDC3G3JVUHHECQCAM" notBefore="-2527">Schepseskaf</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1932-1933, Cairo 1943, 43, pl. XVII.H [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VECPB5COKBC7TGMOFFO5MBUA6U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6d0b3582dcd0a2ad07525d1cecd109d1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd99QmkiSQ0aps3Hmc9a47uY">
+<lb n="[über Opfertisch]"/>
+<w xml:id="tlaIBUBd0dprW56ukGAnK3FWuTPSuQ" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nsw<supplied reason="lost">t</supplied></w>
+<w xml:id="tlaIBUBd97uL9oXH0krvQWkGG4I3fE" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd7wHmEiIi0pnhjxuLzGqMZ4" lemmaRef="tla:tla852528"><fs feats="entity_name person_name"/><damage>Msḏr-jt≡f</damage></w>
+</s>
+<s xml:id="tlaIBUBd1dowYL9S0YjqP9hLxeRiTA">
+<lb n="[unter Opfertisch, rechts]"/>
+<w xml:id="tlaIBUBdxpeaqxFkEpOvcgrHGB1Sa8" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBd99ge3uTzEojiOzxPiBw51Y" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd5BX4VenokVMjOYwNVuutw8" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBd0Oo2q1UPURor2SXigIo1Y0" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdWgOW6cQ90fdiNzMsxW6aDw" lemmaRef="tla:tla62200"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>pzn</w>
+<w xml:id="tlaIBUBd4yQuaSpL0RruZFgyl3q8Vo" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+</s>
+<s xml:id="tlaIBUBdytsNb96REORpQkbScIQZ7E">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdWZJ9q9iXUQirTc8cnBOiqA" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<w xml:id="tlaIBUBdz7tcYOyQ0WekbMJInI5kis" lemmaRef="tla:tla852527"><fs feats="epitheton_title title"/>ḥr,j-tp-jdr-ꜥꜣ</w>
+<w xml:id="tlaIBUBdQL2ajHRQkANuYbma6afQVY" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/>jwn-<damage>šmꜥ,w</damage><supplied reason="lost"><unclear>_</unclear></supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd0VWP7zlU0lngLKFyQeU9Y4" lemmaRef="tla:tla400070"><fs feats="epitheton_title title"/>wr-mḏ-šmꜥ,w</w>
+<w xml:id="tlaIBUBd7fdxR1TYkAWsAhW3WONuPw" lemmaRef="tla:tla850594"><fs feats="epitheton_title title"/>n,j-ns,t-ḫnt,jt</w>
+<w xml:id="tlaIBUBdzEOw48AbU1Qm1VjoGQaGwE" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>j<supplied reason="lost">mꜣḫ,w-ḫr-nṯr-ꜥꜣ</supplied></w>
+</s>
+<s xml:id="tlaIBUBd7VosMS9x0OnoX4xSk7DL3g">
+<lb n="[x+1]"/>
+<w xml:id="tlaIBUBd2EGiR5imkjdnIV5kSVtyQA" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><damage><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</damage></w>
+<lb n="[x+2]"/>
+<w xml:id="tlaIBUBdyQePHsqdUzbtRjj9BStJpo" lemmaRef="tla:tla850020"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm-nṯr-</supplied>Mꜣꜥ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

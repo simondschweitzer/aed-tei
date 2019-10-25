@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stTMNDYTS63BG7LMNQBSPLHJF6PQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 523</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 523 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TMNDYTS63BG7LMNQBSPLHJF6PQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Westwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 523</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaOTP77D225RA4NDMCP7N24ZDP5I">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:H5RYRC56WNGXFFMSSKXFWRRDLE" notBefore="-2301">Merenre</date>
+<date type="latest" datingPoint="ths:H5RYRC56WNGXFFMSSKXFWRRDLE" notAfter="-2296">Merenre</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TMNDYTS63BG7LMNQBSPLHJF6PQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-a0241f791e17aa40ebb0b89acd1160e9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd6cnw5gK40FZrC111xYuWAk">Worte sprechen:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4tQKHfpAUcXvJNjKSpIE1I">Der Himmel macht den Lichtglanz für dich stark.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2hET4GTdkkdhyacRM0scn8">Du sollst dich also zum Himmel erheben, dem Re-Auge gleich.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0cUgDiPRUYvjXqD2On4rtw">Du sollst also an jenem linken Auge des Horus stehen, über das das Wort der Götter gehört wurde(?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxDJ7Pdej0WxgMTk6vzWRMI">Mögest du an der Spitze der Ach-Geister stehen, wie Horus an der Spitze der Lebenden steht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdx5QGOcsY0tmrjbO18wzUzw">Mögest du an der Spitze der Ach-Geister stehen, wie Osiris an der Spitze der Ach-Geister steht.</s>
+</ab>
+</body>
+</text>
+</TEI>

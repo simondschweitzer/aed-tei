@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idQ7OPLBJ64ZC3TM6GDW24ORORSU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>Q7OPLBJ64ZC3TM6GDW24ORORSU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaLKJW7C2DLZAKDC56PRVHZ7U24I">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. II, Cairo 1975, 97-98, Fig. 39-41, pl. LXXIX
+[P, F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="Q7OPLBJ64ZC3TM6GDW24ORORSU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-10fb30c04115ca0b9a5e756062df2bb0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdyJ3gjBEx0XkhBZKrAu6yYw">
+<lb n="[Fisch-Szene]"/>
+<w xml:id="tlaIBUBdzwTMVHxXEkjr4YeetqWvCA" lemmaRef="tla:tla50900"><fs feats="verb verb_3-lit infinitive"/>wgs</w>
+<w xml:id="tlaIBUBdWS52GQaU06huC0PkxDg56o" lemmaRef="tla:tla73880"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mḥ,<supplied reason="defective">y</supplied>t</w>
+</s>
+<s xml:id="tlaIBUBd8XcDI9rUkbpi9TXFcVdf9k">
+<lb n="[Melk-Szene]"/>
+<w xml:id="tlaIBUBdz7TNjcYIUzUuvZaif5WX04" lemmaRef="tla:tla97350"><fs feats="verb verb_3-inf suffixConjugation special active"/>h<supplied reason="defective">ꜣ</supplied>i̯.y</w>
+<w xml:id="tlaIBUBd14HUtYWG0Wtpli6AWjlGgY" lemmaRef="tla:tla854491"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jrṯ,t</w>
+</s>
+<s xml:id="tlaIBUBd7WQ0adMxE6Bt7vFaZzmTJQ">
+<lb n="[1.Opfergaben-Bringer]"/>
+<w xml:id="tlaIBUBdwt9RmwXt0ybujldGSOjZGs" lemmaRef="tla:tla141990"><fs feats="verb verb_caus_3-inf infinitive t-morpheme"/><supplied reason="lost">sḫ</supplied>pi̯.t</w>
+<w xml:id="tlaIBUBd6ixi85UqEqWlBkfluHwlME" lemmaRef="tla:tla854491"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">jrṯ,t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd0oYMFEShknSnRUgSBdrsgQ">
+<lb n="[2. Opfergaben-Bringer]"/>
+<w xml:id="tlaIBUBd90WjHkkxEz6hGQPRXJK5z0" lemmaRef="tla:tla141990"><fs feats="verb verb_caus_3-inf infinitive t-morpheme"/><supplied reason="lost">sḫpi̯</supplied>.t</w>
+<w xml:id="tlaIBUBdyAFP0EwkEG8sWHtSvMRWus" lemmaRef="tla:tla56890"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">b</supplied>ḥz</w>
+</s>
+<s xml:id="tlaIBUBd1PSL8tVokgphR1F78zxAEI">
+<lb n="[über Torweg]"/>
+<w xml:id="tlaIBUBd9XPJE88dkvAubu2vcIw28M" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><damage><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-<unclear>_</unclear></damage></w>
+<w xml:id="tlaIBUBd2zvmlr1r0y7lpQrlycVfjE" lemmaRef="tla:tla707086"><fs feats="entity_name person_name"/><damage>Sšm-nfr</damage></w>
+</s>
+<s xml:id="tlaIBUBd4TZi3tUi0MtsF686828ODs">
+<lb n="[Gansbeischrift]"/>
+<w xml:id="tlaIBUBd6GKCJkuh0pTtAJhIaZvVzw" lemmaRef="tla:tla92640"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>rʾ</w>
+</s>
+<s xml:id="tlaIBUBdQ80xCCb5EOesEaGpIuWPME">
+<lb n="[Gänse-Rupfer]"/>
+<w xml:id="tlaIBUBd3Cg9TrWqk5qv7qjYHW6Bt4" lemmaRef="tla:tla114380"><fs feats="verb verb_3-lit infinitive"/><supplied reason="lost">ḫ</supplied>ꜣd</w>
+<w xml:id="tlaIBUBd6o1szCv6kCnn1ffTdDT0w0" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+</s>
+<s xml:id="tlaIBUBd0rfw8pv1kWGrRycS3nIPpQ">
+<lb n="[Koch-Szene]"/>
+<w xml:id="tlaIBUBd3PhlYtEskGkkKQKplokjrg" lemmaRef="tla:tla42410"><fs feats="verb verb_3-inf infinitive t-morpheme"/>wꜣi̯.t</w>
+<w xml:id="tlaIBUBd5QZ3pQd2EEkq6usuYAqX98" lemmaRef="tla:tla22520"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jwf</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

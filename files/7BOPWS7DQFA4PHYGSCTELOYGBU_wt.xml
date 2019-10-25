@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt7BOPWS7DQFA4PHYGSCTELOYGBU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift zur 3. Person von links</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Adelheid Burkhardt</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift zur 3. Person von links nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Adelheid Burkhardt</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>7BOPWS7DQFA4PHYGSCTELOYGBU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Beischriften zu weiblichen Personen</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift zur 3. Person von links</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBEAZEGRYYFGQTLNBJPUN6AH2CA">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:OSQYKCRYMFGJRD3LESUKPOZG4E" notBefore="-2232">8. Dyn.</date>
+<date type="latest" datingPoint="ths:OSQYKCRYMFGJRD3LESUKPOZG4E" notAfter="-2187">8. Dyn.</date>
+<note>nach Kanawati, El-Hawawish, Erste Zwischenzeit;
+nach Kanawati, Akhmim, 8. Dyn., wahrscheinlich 1. Hälfte</note>
+</origDate>
+<origPlace ref="ths:C2Z63NXQFBBFNLB3RZEJJQTBVQ">Achmim
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Kanawati, Naguib, The rock tombs of El-Hawawish. The cemetery of Akhmim 8, Sydney 1988, 24-25,  Fig. 8a,b *[F,U,Ü,K,L,B];
+Kanawati, Naguib, Akhmim in the Old Kingdom. I: Chronology and administration, Sydney 1992, 13, 296, 311 [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="7BOPWS7DQFA4PHYGSCTELOYGBU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Adelheid Burkhardt</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ba52ae47a9d1e5c987c1c3b206c4250f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdW0OVAcExUj1mbCdOUJfMZc">
+<w xml:lang="de" corresp="src:tlaIBUBd4pKhx03B0pMs94KNXwSjd0">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6bWw48WNkidjtSRHwMxLes">er [pron. suff. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd67u3SJY8UwwlWWRpb83Jto">Nefer-tjentut</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

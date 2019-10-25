@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hiero3PFRLOBN25E7PEXHNOMJ5CW7LQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linke Laibung (T7)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linke Laibung (T7) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3PFRLOBN25E7PEXHNOMJ5CW7LQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Laibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linke Laibung (T7)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaFFLF4KYGOFCU5OGECIFCPWTYHM">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Altenmüller, Hartwig: Die Wanddarstellung im Grab des Mehu in Saqqara, Archäologische Veröffentlichungen, Deutsches Archäologisches Institut, Abt. Kairo, Berlin bzw. Mainz, Bd. 42, Mainz 1998, 89f.; Taf. 4-5.
+[P,F,H,Ü,K,L,B,U]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3PFRLOBN25E7PEXHNOMJ5CW7LQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-03538aeeae65c0f3f2a5a0dc7e16a65a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdyAXAEU0AkI3j4dOucwms3M">
+<w corresp="src:tlaIBUBdxWxeANSokBvtk1SmSZmuoo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3bQZKILzkF4lemlhQJ0dG0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd74QUVDrAUwKhfqXx7Zhn04"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5DccBydQEx0l03USxLX4d0"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6Uimh0Q6kltk2125mQxV8w">
+<w corresp="src:tlaIBUBd5OxlxNak0NNr6lk3q3oYEo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7ktae9oiEldmTm3oWobm3w"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd5BzVaTN10cRj1tatOd2yEY">
+<w corresp="src:tlaIBUBd1l5g0IFt04WsA0rYm3XE3g"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

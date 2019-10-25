@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idOQI3VRBTVVEDNI6OYAQZQ7SWXE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenentitel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenentitel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>OQI3VRBTVVEDNI6OYAQZQ7SWXE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Vogel-Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenentitel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaSUDNNZ2365FZTLRHD2MXOE5NBU">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 129 [P]
+Abklatsch-Serie des Wb-Archivs Kasten 573 Abklatsch 7/5-8</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="OQI3VRBTVVEDNI6OYAQZQ7SWXE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-8a363f760ad64e3a19d4359382903cfe</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxpMXZQ6ckcfhc8dIdSbQsk">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdQrlVCb5Ak1Fu0hYSy5oObc" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jni̯.t</w>
+<w xml:id="tlaIBUBdxWO0z0u6kNipEYvYPZQkOA" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd9g3MGwe9E4DmXWqTVzkFd0" lemmaRef="tla:tla66270"><fs feats="verb verb_2-gem infinitive"/>mꜣꜣ</w>
+<w xml:id="tlaIBUBdzU80bZQtEKIg9UE9zzm9Ds" lemmaRef="tla:tla91200"><fs feats="substantive st_absolutus singular"/>nḏ,t-ḥr</w>
+<w xml:id="tlaIBUBd8BfXEnBi0UMiEpUWSbu40Q" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf participle feminine singular passive"/>jni̯.t</w>
+<w xml:id="tlaIBUBd7VO2n4EjkfyvvobX4vbKFM" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdxO4fMg0wUjapheR5rf83Wg" lemmaRef="tla:tla80890"><fs feats="substantive substantive_fem st_absolutus plural"/>nʾ,t.pl</w>
+<w xml:id="tlaIBUBd3HzaXRYCUnBmluFfMWVUJ4" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine plural"/>n,j.<supplied reason="defective">w</supplied>t</w>
+<w xml:id="tlaIBUBd3cxPSBFhEM3vagHIQXxuwo" lemmaRef="tla:tla550341"><fs feats="substantive st_absolutus singular"/>pr-ḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTLPU24GUJJEILLAYKTVQB3NR4I">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Hammamat G 039〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Hammamat G 039〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TLPU24GUJJEILLAYKTVQB3NR4I</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Hammamat G 39</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Hammamat G 039〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTCYKY7IPDVC7VNN44JH24MTWMQ">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:HL6GBGX26BC2XCKMBEEFOKRC7Y">Wadi Hammamat
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Goyon, G., Nouvelles inscriptions rupestres du Wadi Hammamat, Paris 1957, 68, Pl. XIV;
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 64</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TLPU24GUJJEILLAYKTVQB3NR4I.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-7ee6dccbfb5aad9b0544e43f5c378c4d</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5N1VUJypUdwuGj8sloX2fU">
+<lb n="Z1"/>
+<w xml:id="tlaIBUBd0KJvysa60O5rP9zQPgaPWc" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/>jrj-jḫ,t-nsw,t</w>
+<w xml:id="tlaIBUBdyZ9hDIuG0KuiHqVmJIP5ic" lemmaRef="tla:tla550203"><fs feats="epitheton_title title"/>jmj-rʾ-ḥmw,tw</w>
+<w xml:id="tlaIBUBd6K0fz7bY0fzkPbF9tpQ8BE" lemmaRef="tla:tla850593"><fs feats="epitheton_title title"/>sḥḏ-ḥr-spꜣ,t</w>
+<w xml:id="tlaIBUBdWXyxGAIE0nEmHQp79cPfdw" lemmaRef="tla:tla703447"><fs feats="entity_name person_name"/>Nfr-hꜣw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

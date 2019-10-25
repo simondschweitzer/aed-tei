@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idXTYKVL7ZCRCIVDB7U3LWKRGTIQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>XTYKVL7ZCRCIVDB7U3LWKRGTIQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>oberstes Register</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaXO52J72MRJHYZL3ZOP236RGJ3M">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1933-1934, Bd. 5, Cairo 1944, 244-245, fig. 104 [H, K, Ü]
+LD II 43; LD Text I, 115-119</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="XTYKVL7ZCRCIVDB7U3LWKRGTIQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-11c9cd3f2e88ac9c5c496ea89746ab2f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6Lyj4mZDUkApEwDU4r7Aok">
+<lb n="[1.Szene v.l.]"/>
+<w xml:id="tlaIBUBd0DpPGAYskMLowFToyeNxu8" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-<supplied reason="lost">rʾ-<unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBd0Qa6SjykUAClWIC3MZtE00" lemmaRef="tla:tla200031"><fs feats="entity_name person_name"/>Ḫwi̯-wj-wr</w>
+</s>
+<s xml:id="tlaIBUBd66JXFCAP06AiTfiXq0Gtus">
+<lb n="[2.Szene v.l.]"/>
+<w xml:id="tlaIBUBd4cgo1FVf02tqeLlPKWZqHs" lemmaRef="tla:tla95750"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,jt-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+</s>
+<s xml:id="tlaIBUBdxY2NwGr0k4EuFg1ijoCWyI">
+<lb n="[1.Szene v.r.]"/>
+<w xml:id="tlaIBUBdxhvgP7Wp0J0mWVg3r9XmZE" lemmaRef="tla:tla200031"><fs feats="entity_name person_name"/>Ḫwi̯-wj-wr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

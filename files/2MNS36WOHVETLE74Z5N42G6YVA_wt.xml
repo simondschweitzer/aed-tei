@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt2MNS36WOHVETLE74Z5N42G6YVA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschriften der Südseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschriften der Südseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>2MNS36WOHVETLE74Z5N42G6YVA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Pfeiler 5</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschriften der Südseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaCN6Q7LCV3JBWDGPWYNINUYNZI4">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 30, pl. 12-15, 54, 55</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="2MNS36WOHVETLE74Z5N42G6YVA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-e43b4ce64b762b1bb4830cafa43f7ecc</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd1AN1xM1yUKOjs2xkIV8LXE">
+<w xml:lang="de" corresp="src:tlaIBUBdwqMNlNBPEWpiC6Qp3GJ4x8">Versorgter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQQ8xXtiVUO7iwcFQhryQwE">von jmdm. ausgehend, durch jmdn.</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6V0Provq0q4tEYC4LTkVvw">Scheschi</w>
+</s>
+<s corresp="src:tlaIBUBd3exmYGc70ljt9sjEXo6nig">
+<w xml:lang="de" corresp="src:tlaIBUBd74MbFkuGkWclhYGjtNNTL4">Prinz (Rangtitel); Nobler</w>
+<w xml:lang="de" corresp="src:tlaIBUBdywH4VphHkW7kSGWOZWWnnE">Hatia (Rangtitel); Bürgermeister</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCoNgH6uEzHgQGNZCqdrSY">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzwWLP0UEUgLpJ3Ys2gukh4">Neferseschemre</w>
+</s>
+<s corresp="src:tlaIBUBd1XWOEvnr0fBuCGWlvNmvGs">
+<w xml:lang="de" corresp="src:tlaIBUBd7AsRswS50DTrgqEITlk7Ho">Vorsteher jeder Arbeit des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9d7yqSWiUrviM3aL0NJCcA">Kammerdiener des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQkNc3kVWkWfrcCrPQTsBkQ">Vorsteher der sechs großen Hallen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyUR07y6vU3qpaK2QHESxAk">Würdiger</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3oDO9ntr0mOkQ6sX1iuy7w">Neferseschemre</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

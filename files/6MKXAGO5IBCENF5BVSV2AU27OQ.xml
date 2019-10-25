@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id6MKXAGO5IBCENF5BVSV2AU27OQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>hinter dem Grabherrn</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von hinter dem Grabherrn nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6MKXAGO5IBCENF5BVSV2AU27OQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Stehender Grabherr (Betrachten der Viehzählung)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">hinter dem Grabherrn</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJMWWSGLUPNGGDEAQ2CVT3W5UK4">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:QTOOQ4NKC5DRHENFEFV66RZUBY">Meir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>PM IV 254f. (D2)
+N. Kanawati, The Cemetery of Meir I: The tomb of Pepyankh the Middle (ACE Rep. 31), Oxford 2012, 40-43, pl. 26-33, 82
+[P, F, U, Ü, K, L]
+http://de.scribd.com/doc/47428540/BLACKMAN-A-M-The-Rock-Tombs-of-Meir-part-IV</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6MKXAGO5IBCENF5BVSV2AU27OQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-57fef199934e7b920cbab0e4bae1977e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzGRfxVNNU9Wka1Ck86hUMM">
+<lb n="[1.Person v.o.⁝1]"/>
+<w xml:id="tlaIBUBdxL45fktMUCziGXHDyQ1MU8" lemmaRef="tla:tla450258"><fs feats="epitheton_title title"/><damage>zwn,w</damage>-pr-ꜥꜣ</w>
+<w xml:id="tlaIBUBdQHkb9ODYEZFgYmBv3VzzsQ" lemmaRef="tla:tla450124"><fs feats="entity_name person_name"/><supplied reason="lost">N,j-</supplied>ꜥnḫ-H̱nm,w</w>
+<lb n="[1.Person v.o.⁝2]"/>
+<w xml:id="tlaIBUBdyOJtEpdjkXwuA54QWrjfow" lemmaRef="tla:tla450703"><fs feats="epitheton_title title"/>sḥḏ-zwn,w</w>
+<w xml:id="tlaIBUBdwbVQImTxU1Cpq6NymGQ1n0" lemmaRef="tla:tla400841"><fs feats="entity_name person_name"/>Mmy</w>
+</s>
+<s xml:id="tlaIBUBd07UWFWHnU9Zm82tYbYQrno">
+<lb n="[2.Person v.o.]"/>
+<w xml:id="tlaIBUBd8pnnampWU6ypvpxKJij3t8" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/><damage>ẖr,j-tp-nswt</damage></w>
+<w xml:id="tlaIBUBd0kUXZrgBUUXsFXu8eDZ07c" lemmaRef="tla:tla400008"><fs feats="epitheton_title title"/><damage>ḫtm,w-nṯr</damage></w>
+<w xml:id="tlaIBUBdyyi9jEz1UWLjwqVxseggKM" lemmaRef="tla:tla861118"><fs feats="entity_name person_name"/><damage>Wṯ-sw-mꜣ</damage></w>
+</s>
+<s xml:id="tlaIBUBdzhBibIpA0opqiVOgojnPjU">
+<lb n="[1.Person v.u.]"/>
+<w xml:id="tlaIBUBdWtO6SBuH0ZjpBw82NmjfCM" lemmaRef="tla:tla400013"><fs feats="epitheton_title title"/><damage>jm,j-rʾ-pr</damage></w>
+<w xml:id="tlaIBUBd12Ls4PALUTngRwpMuuqVuw" lemmaRef="tla:tla703394"><fs feats="entity_name person_name"/><damage>Nfr-bꜣq,t</damage></w>
+</s>
+<s xml:id="tlaIBUBd6S1HNH8H0WUvAVEXFh9OYE">
+<lb n="[2.Person v.u.]"/>
+<w xml:id="tlaIBUBd1qiIJgQ1krjnhReNZJQr0c" lemmaRef="tla:tla450234"><fs feats="epitheton_title title"/>sḥḏ-ḥm,w-nṯr</w>
+<w xml:id="tlaIBUBd3EOi0cqS00WgWk4wcppqwk" lemmaRef="tla:tla711730"><fs feats="entity_name person_name"/>Wḫ-ḥtp,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

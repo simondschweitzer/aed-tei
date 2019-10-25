@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idDQAZFJSY4NAU7DIRHFJ6J745GI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Basis-Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Basis-Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DQAZFJSY4NAU7DIRHFJ6J745GI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Kopfstütze</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Basis-Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7SKRIHLYKJCRRCY3AKF2P3ZGME">
+<support>
+<objectType ref="ths:4OUGU4JB5ZCFVNJZNXW66GTGTE">Kopfstütze</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, The Teti Cemetery at Saqqara VIII: The Tomb of Inumin (ACE Rep. 24), Oxford 2006, 70, pl. 62b.
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DQAZFJSY4NAU7DIRHFJ6J745GI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-b6fee3e4114090ad91c39f8f09b0d922</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8ZK2sFhfkiatFHpEjNnSk0">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdy2lUKp1oE6Mo51mv9sNv0E" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd4ap9lGfwUXnjHl2GiwpWgc" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBd4Wnr6XpQ0YZjVW3yXIyc24" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/>pr<supplied reason="defective">,t</supplied>-ḫrw</w>
+<w xml:id="tlaIBUBdzfp6IOTpEApnqs4Le6YSSk" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine singular"/>n,j.t</w>
+<w xml:id="tlaIBUBd8ljORJ610HwliVELjc7ZGo" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd8xQnMltJUIfgJFrb49JOg4" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr<supplied reason="defective">,j</supplied>-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBdQfSnoGofknUg3mQd8wNdnA" lemmaRef="tla:tla0"><fs feats="unknown"/>Wꜣḏ,j</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

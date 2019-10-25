@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idVFNHE7VU6NHEPA7B6X47YGFI5U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 76</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 76 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VFNHE7VU6NHEPA7B6X47YGFI5U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈2. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 76</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaY3SHPP2KIVGN5IWINEOG64IGSE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notBefore="-2383">Unas</date>
+<date type="latest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notAfter="-2364">Unas</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Bd. I, Leipzig 1908 [*H];
+A. Piankoff, The Pyramid of Unas, Texts Translated with Commentary, ERTR 5, Princeton 1968 [*P,Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VFNHE7VU6NHEPA7B6X47YGFI5U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f81509f448e3d369191ebf0c827ea3e6</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3O07OndxUrDu4l0R67uXpk">
+<lb n="[60]"/>
+<w xml:id="tlaIBUBd14W03aBaE29vRDzILEeohY" lemmaRef="tla:tla49461"><fs feats="epitheton_title title"/><supplied reason="defective">W</supplied>sjr</w>
+<w xml:id="tlaIBUBd3k4ngWF000UjC90KW2xZ2M" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+<w xml:id="tlaIBUBdwHc8b0jIkdPvjni1DNZL64" lemmaRef="tla:tla67780"><fs feats="verb verb_2-lit imperative singular"/>m</w>
+<w xml:id="tlaIBUBd8HYSQEV9UAqhpEEzQzPGsE" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdQfVHkB2AUFnuOV5Xg9SUE0" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd00iCqrhykaitXZWhK3tNRM" lemmaRef="tla:tla28410"><fs feats="substantive st_absolutus singular"/>jr<supplied reason="defective">,t</supplied>-Ḥr,w</w>
+<w xml:id="tlaIBUBd9QWjBPXQkSHiVlQZEvaIWQ" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf relativeform feminine singular"/>jni̯.t.n</w>
+<w xml:id="tlaIBUBd0T1fZpfQ01HuvRkMWEHkkM" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd66hHWsmKEy1qUpI310RQWA" lemmaRef="tla:tla854575"><fs feats="verb verb_3-lit relativeform feminine singular"/><supplied reason="omitted">twꜣ.t.n</supplied></w>
+<w xml:id="tlaIBUBdyeC1J5jNkIAl2d9PLMPJKs" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="omitted">f</supplied></w>
+<w xml:id="tlaIBUBd8Uj6lLuakrGoxm2y7Ymoo8" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/>nṯr.pl</w>
+<w xml:id="tlaIBUBd059k9W0R0d9hLtDJimwHq8" lemmaRef="tla:tla64360"><fs feats="preposition"/>jm</w>
+<w xml:id="tlaIBUBdyaFa1rQD0jSuOtPKhPtlCg" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+</s>
+<s xml:id="tlaIBUBd8xSomI74kWKtVqOewWt91k">
+<lb n="[60a]"/>
+<w xml:id="tlaIBUBdQatpeMHuECykowAQdRP48E" lemmaRef="tla:tla170270"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>twꜣ,wt</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

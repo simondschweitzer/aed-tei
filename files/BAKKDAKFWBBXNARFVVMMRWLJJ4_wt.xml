@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtBAKKDAKFWBBXNARFVVMMRWLJJ4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pRam III, Fragment A</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pRam III, Fragment A nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BAKKDAKFWBBXNARFVVMMRWLJJ4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>BM EA 10756</idno>
+<msName>pRam III (recto)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pRam III, Fragment A</title>
+<textLang mainLang="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaV5M3Z2HCSZAWXK2CSK5B7ZM2ZA">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+<objectType ref="ths:GT4HRUBG55AE5IB7RM2ZMJOQ6M">Privatmann</objectType>
+<material ref="ths:6HRN4262MRB7ZJCTZKSQ33LLE4">Papyrus</material>
+</support>
+<condition>fragmentarisch</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3O45XPYQXJATRP5CHBOH2EZYG4" notBefore="-1853">Amenemhet III.</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>Datierung: Ende Mittleres Reich bis Anfang 2. Zwischenzeit, Ende 12. bis Anfang 13. Dynastie, ca. 1800-1700 v. Chr.</note>
+</origDate>
+<origPlace cert="high" ref="ths:YF6WKS2KHNBMVF4XX3PLFKIBZU">Ramesseum
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>J. W. Barns, Five Ramesseum Papyri (Oxford 1956)
+A. H. Gardiner, The Ramesseum Papyri (Oxford 1955)
+H. Grapow, Die medizinischen Texte in hieroglyphischer Umschreibung autographiert, Grundriß der Medizin V, Berlin 1958
+H. von Deines, H. Grapow, W. Westendorf, Übersetzung der medizinischen Texte, Grundriß der Medizin IV/1-2 (Berlin 1958)
+T. Bardinet, Les papyrus médicaux de l&#039;Egypte pharaonique. Traduction intégrale et commentaire (Paris 1995)
+B. Leach, A Conservation History of the Ramesseum Papyri, in: JEA 92, 2006, 225–240 (hier: 231, 233, 234, 238) [K]
+E. Strouhal, B. Vachala, H. Vymmazalová, Medicine of the Ancient Egyptians, Bd. 1: Surgery, Gynecology, Obstetrics, and Pediatrics (Kairo 2014)
+W. Westendorf, Handbuch der altägyptischen Medizin, HdO 1.36 (Leiden u.a. 1999)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>BM EA 10756</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BAKKDAKFWBBXNARFVVMMRWLJJ4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>201-bb608615873a65d8c91954a1d19bc5a9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUDQquv0Z3c4EmThx2wAAITpaI">
+<w xml:lang="de" corresp="src:tlaIBUDQhFLRdKOAEVQs3GlQKtUKA4">Kind</w>
+</s>
+<s corresp="src:tlaIBUDQqtD3dQQrka0jFxENISnduY">
+<w xml:lang="de" corresp="src:tlaIBUDQuesyJ79CE4dg304eV5dSwI">[offizinell Verwendetes]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQuBHkMhrB0ExvFUWpJ1mRWc">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQn7ZMyJWB0dQmAhgbVvpIU4">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQkdQQKJIQ0WlgQZCb8cX60E">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhWgTWpXwUSUiLwByqfnb8Q">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQkkJFQKilUB4jijcgUEkYOE">[ein Topf]</w>
+</s>
+<s corresp="src:tlaIBUDQvP2XKtTpkfvoBcmexUWo8s">
+<w xml:lang="de" corresp="src:tlaIBUDQmdJroyweEQBlCYWXkbeGfU">veranlassen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQn3m0L032kTKgw3UM9pL4ZI">trinken</w>
+<w xml:lang="de" corresp="src:tlaIBUDQkDoa0nxH0tdjvz5ShQ3epQ">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBcBeWBf57TrQkbFgUPHKRUdfvs">
+<w xml:lang="de" corresp="src:tlaIBUDQj821H0f00T4tlKMllnSXY8">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhhfVQK6gkJRgBKWzQzxHTc">klein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUDQr7rwryptkTfhukKrq22QcE">Harn</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqnkJgevN0M3jcWQiTFnVBw">[kausal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQlyK0dTj2EYKk2zOkuX9xsw">Verstopfung</w>
+<w xml:lang="de" corresp="src:tlaIBUDQnVtZPZIhEMAk3ybyO8Mf4k">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQsQ1fPTy0EnkildDyyMaFJA">[Wort]</w>
+</s>
+<s corresp="src:tlaIBUDQvdkQ8cZF0n5ub19jyHxjDc">
+<w xml:lang="de" corresp="src:tlaIBUDQukJVNCQqkUnpZ40ygCPZlU">gut</w>
+<w xml:lang="de" corresp="src:tlaIBUDQvk6r5nLX0kOuDrUwEVKwWM">Salz</w>
+<w xml:lang="de" corresp="src:tlaIBUDQtuNdW5pBUHGtQ7UvNycP0M">erweichen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQpysfB4oQkoWgZbtaGSdszk">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQiVdlWFY9kQvm1RrpHjrghM">Milch (der Mutter oder der Tiere)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQiayujWaokVDsk2cZXHaZUI">[Wort]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQpem5rVN70dElN4yYWIWc5s">[Präposition]</w>
+</s>
+<s corresp="src:tlaIBUDQhjp9RkMk0Z5tOxUfvHa708">
+<w xml:lang="de" corresp="src:tlaIBUDQlvCuz741kqKswlRytymdW4">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBUDQpWhKGA0Nk2BiWnanI63q2Q">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQkPVwEeVWk3QrKpyT1hrhhw">Knie</w>
+</s>
+<s corresp="src:tlaIBUDQoOq3EwOLkSFvP8WD3cSuGg">
+<w xml:lang="de" corresp="src:tlaIBUDQmkuwCcYJUBcrtkEmo7YlWk">Stroh; Häcksel</w>
+<w xml:lang="de" corresp="src:tlaIBUDQjdnr7wmWEmWszw1vamYfIE">durchsieben, seihen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQj9XdNWl1UzottYl0ToySxA">mischen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQsXISTkB9ECDkxNUdbINLEc">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhjXeekjbEsRniBHFfOg0Tw">Wasser</w>
+</s>
+<s corresp="src:tlaIBUDQgiPxz7HHEe4uKGrsTiQq6Q">
+<w xml:lang="de" corresp="src:tlaIBUDQqTr7t8m20DEuw5jB2T2b18">verbinden</w>
+<w xml:lang="de" corresp="src:tlaIBUDQnnDPi48M0dfnBlDFAeh1lA">Knie</w>
+<w xml:lang="de" corresp="src:tlaIBUDQsRoPjpIi0iRlxWSdKwrjVk">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQn9bZkuhckDZvVv7fkQLXw0">[Suffix Pron.sg.3.f.]</w>
+</s>
+<s corresp="src:tlaIBUDQjghBBxHrkFBlXaQEPmvrxc">
+<w xml:lang="de" corresp="src:tlaIBUDQgrHsQT1skOnmTMBa1kcAwQ">weil</w>
+<w xml:lang="de" corresp="src:tlaIBUDQrSbjmhKPEHjlaEr8E0qqlw">groß</w>
+<w xml:lang="de" corresp="src:tlaIBUDQjvgsLdIR0dXoSZwSgI4Prw">dieses [Dem.Pron. sg./neutr.]</w>
+</s>
+<s corresp="src:tlaIBUDQiCVfNcEL0zQsnxQIk0rWE0">
+<w xml:lang="de" corresp="src:tlaIBUDQimZMGZzFEd1qEXnfqy2Ckc">strafen</w>
+<w xml:lang="de" corresp="src:tlaIBcBhlm71eaZwEQZpxkUTVwl5TY">[Suffix Pron. sg.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBcBhrn6aamKwEJkgSmhSZOBkXs">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQp8VKUy1vE3Msal9GDG6QTM">die beiden zusammengehörigen Frauen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhD13LFoLUtcr2YkHMheEhU">weil</w>
+<w xml:lang="de" corresp="src:tlaIBUDQmvt1aWjS0aOk9vUisGz0F4">groß</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhlYf7mikENrgMjmmUboFos">dieses [Dem.Pron. sg./neutr.]</w>
+</s>
+<s corresp="src:tlaIBUDQjDyO7YwYEykv5ug7fOy8Ec">
+<w xml:lang="de" corresp="src:tlaIBUDQpzfnnfkA0vwh2G5Fo0zeLc">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqhcAfgncUBfsbGQ4SD3V18">Spruch</w>
+<w xml:lang="de" corresp="src:tlaIBUDQk9n2DElxEGfnSaGzaWYwTU">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQtn4jNf100BDrcmWm8iAFX8">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQsonva6njkJDkkoIwwTOpbM">Halm (des Getreides); Rohr</w>
+<w xml:lang="de" corresp="src:tlaIBUDQgM0CxZKQUzosoNloHUpWAU">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQo6cb3L8yEHFht3WrWFrgFo">Zwiebel; Knoblauch</w>
+<w xml:lang="de" corresp="src:tlaIBUDQtvfX8xy1UV4vqLMLCvRGtI">durchtränkt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUDQrjgZ5zFOknpkGIRuocfzkQ">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQkrfQrGnIEAjtTFG3mtBR6o">Schleim</w>
+<w xml:lang="de" corresp="src:tlaIBUDQi1u74eFeECUvRpbUZpJwdo">zusammendrehen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQoO2hXV6a0xxkiEh8JFylqI">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQv8USlgbiUuJmm7gnK1b9JI">linke Seite</w>
+</s>
+<s corresp="src:tlaIBUDQsR3wzlNFUI0uewYC79BSdY">
+<w xml:lang="de" corresp="src:tlaIBUDQkKCfcJNAkWMr7lHmRQN1Zc">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQrDvvXqKyk6KrnqW7sKUZ18">Knoten</w>
+</s>
+<s corresp="src:tlaIBUDQmFtL3XwEk6Zt0jp70is9wo">
+<w xml:lang="de" corresp="src:tlaIBUDQjCeJTSJ20LuhxNMyQQ9gwo">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQjkDLGdGN0QRml70NgYZ0o8">(etwas) ablösen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqd48kCTjEfVt7GBH6ex7HQ">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQmrPcanxY0Wjsz2W8lUQ7tU">harnen; ausscheiden</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqH6fdcNEE2sm5TIWFkVIb0">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUDQqSWBiYKDEQgk7z2WcAnavI">
+<w xml:lang="de" corresp="src:tlaIBUDQi52tKtFN0qLlTBDAiR48Ow">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQsJu5GDZkU9ggZtVQN72jsw">verknüpfen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQuua60b3Gk11s3Thl5aCYLQ">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQi3PgvnZ60VhhThbXS9p7RU">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQk7YWXOijUJ7h62Q3WHvAFA">harnen; ausscheiden</w>
+<w xml:lang="de" corresp="src:tlaIBUDQtkl8NC3DE2nmB9NYNij6OM">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBcBh58Q9AQuhUqwvutVIp0oEaM">
+<w xml:lang="de" corresp="src:tlaIBUDQqiwSwTUo0OEoZ0clmoupWk">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQgkpJ6tdUkhSmYSSxZMNwcU">sehen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQpt1K8Q6OkeipN2kdtuKBio">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQsgfyJTj9UdmqOzIFvhJy7A">Frau; weibliche Person</w>
+<w xml:lang="de" corresp="src:tlaIBUDQnTlWEQzNkveiF9xKcwWQ6g">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQnovVYM3uE2ZmyDrg6odao0">leiden (an)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQs1QybcrP0hsvQpFCzGQRFg">Bein</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhI5L9fZQ0eZvb6Zc2Z0dyE">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQreey55S9E9LrqCpfzUFfWM">Fuß;  (unteres) Bein</w>
+<w xml:lang="de" corresp="src:tlaIBUDQspWHeSYvkPEoyrOaYm0fso">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQioWU2xv7UuivkOkpzOdK3A">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQn4Pln2Uj01PjetobEBABV0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQpTV9kvCZ0FUjzVxph9PhWQ">betreffs</w>
+<w xml:lang="de" corresp="src:tlaIBUDQh9LxiiHTEpnpWdpeAxpKsg">[Suffix Pron.sg.3.f.]</w>
+</s>
+<s corresp="src:tlaIBUDQskmXuuQEUZ2nEXOll5YBeg">
+<w xml:lang="de" corresp="src:tlaIBUDQgQHDrqduU25rFiynjG22QE">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhyaQvqgNkwArhMSDV6vlfg">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQutQ4ifwvkgosHQoX2mW14A">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQujjLvewSUjKmeX2HsJEEJQ">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQogRKdOeNE15pozWnswbWrM">Heilmittel (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQiyqIhIzxkqAsjrVHZpVDAI">diese [Dem.Pron. sg.f.]</w>
+</s>
+<s corresp="src:tlaIBUDQkyOOeDfQUB1sIUUZSOR0v8">
+<w xml:lang="de" corresp="src:tlaIBcBiBIAflolnk3YsBuaZsJAuH4">[Substantiv oder ein substantivischer Ausdruck]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqnxruk410I2pbiIi7YtkCc">Koloquinte</w>
+<w xml:lang="de" corresp="src:tlaIBUDQtKyVM4VQ0K9kNp8nb6gyWk">[offizinell Verwendetes]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQjcRbHTzYkRCofJjodH5TW8">[eine Hülsenfrucht]</w>
+</s>
+<s corresp="src:tlaIBUDQojuuHyd7UVKoKrYqfwBQWA">
+<w xml:lang="de" corresp="src:tlaIBUDQmtw56YYb0QJhEE1O7I5nCM">zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQpgqRuhhZUmBuG6bTZBWJA4">(fein) zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqJuNFv8zk9EtgBIrBO4SmU">(etwas) mischen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqB63M2uyUQUvnQq5WKGBXA">[instrumental]</w>
+</s>
+<s corresp="src:tlaIBcBiEuejGktWUpVquUU74CviPg">
+<w xml:lang="de" corresp="src:tlaIBUDQhWgHgW4uUuxuApszWlIL4g">veranlassen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQq0MF1J8NUZHn3Kq9M6D16o">harnen; ausscheiden</w>
+<w xml:lang="de" corresp="src:tlaIBUDQlbY9Vus2konjdX68fX7WHw">Frau</w>
+<w xml:lang="de" corresp="src:tlaIBUDQqPaRNHjaESmkryTgHoXes8">Harn</w>
+</s>
+<s corresp="src:tlaIBcBiIJwDVOGKEzHnKUeWKQP7gc">
+<w xml:lang="de" corresp="src:tlaIBUDQnrSWLoEMUg3ir3fcnwhvCw">vertreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQq1u2GQMFkAGoWCFMWBLbtk">Durst</w>
+<w xml:lang="de" corresp="src:tlaIBUDQppFCngK10C3nGpoOQVjQa4">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQtl8AnfDH0jElX1pTGQyspI">Kind</w>
+</s>
+<s corresp="src:tlaIBUDQvEhqAFbxU3GnyJUZEUlw3s">
+<w xml:lang="de" corresp="src:tlaIBUDQsMdbYif9EBtueanES98Q9Q">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQuDWnaLVlEt8hhwoGLvPZ9Q">wünschen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQuI05kWlNEMEqEuEZtP8xto">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQnuxtOiEBE0MibWCSVeJZpA">alle</w>
+</s>
+<s corresp="src:tlaIBUDQoG1FHtJX0RIpRw2UFIcmY4">
+<w xml:lang="de" corresp="src:tlaIBUDQs27DVkfkUbBlg2VaBOW2Yk">vertreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQmStnnQ92UxiqeHHQmP32Ak">[eine Krankheitserscheinung]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQhjQiWJfgk6ulPlMVUTkjRU">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQnkS7M2l20KcgMZLeyjyh4Y">Leib</w>
+</s>
+<s corresp="src:tlaIBUDQt2Olbjs90qyisx25CbadhA">
+<w xml:lang="de" corresp="src:tlaIBUDQqgRxKlNpESRr7ddxe98OYg">Konyza (?)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQkPleT85g0YDkO7qFfGUCO4">kochen;  erhitzen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQjBqCbUa4UqqqJTW3DLaH2U">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQvxwTzEGW0uIj89VjollaAI">Milch (der Mutter oder der Tiere)</w>
+</s>
+<s corresp="src:tlaIBUDQqVSyCXQ0kOcvPmWVLv8iBg">
+<w xml:lang="de" corresp="src:tlaIBUDQsUV4ZnzWkSKrGUXcdbliak">Haut (von Mensch und Tier); Färbung</w>
+<w xml:lang="de" corresp="src:tlaIBUDQn8j3dTRGENWhmTPkr77iCg">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUDQmWX5J9da0tOmjlEliGEofs">
+<w xml:lang="de" corresp="src:tlaIBUDQjIU2DATEkxag8YnAD32Z9g">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQmKE1UL3VkRQoPmQTB6iLTc">Haar (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQgl9X3sOoUodg50IP8lVbKs">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQoAIfvQ070LQt54UMjMzaWE">dieses [Dem.Pron. sg./neutr.]</w>
+</s>
+<s corresp="src:tlaIBUDQoHN31qN70Cmn0Sdad33k40">
+<w xml:lang="de" corresp="src:tlaIBUDQqUd2ZW9XEIKvy9avaaTmTs">[Verb]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQue27w76LU3qgllF2UMKwtA">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQoEfcNqmCExinHhHAsXwpHM">Fett (allg.); Salböl</w>
+</s>
+<s corresp="src:tlaIBUDQhXICYC630YQkN7LjDJWhq8">
+<w xml:lang="de" corresp="src:tlaIBUDQgGEnZ3mmUxWrlVeWDLsRsU">salben</w>
+<w xml:lang="de" corresp="src:tlaIBcBiCLSQ7caXk2xrlqQpOMneDU">Spitze</w>
+<w xml:lang="de" corresp="src:tlaIBcBiFXDzOlujkOrv28RjJIDwS0">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUDQlSQh2XSIkz8vkhvLPQcsps">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQjpePc2DYEWXgp4sIGspiTc">damit</w>
+</s>
+<s corresp="src:tlaIBUDQW92bCBfeEW9vgKmMiO5eBw">
+<w xml:lang="de" corresp="src:tlaIBUDQ7gSZc2f306Jv0I5IWNcti4">[Wort]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQzDbvC1AQ02ElVWxLC4QvJc">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQxUyIcDsHkf7vj6QpD8ddGI">müde sein</w>
+<w xml:lang="de" corresp="src:tlaIBUDQwBnbPd2XkeQvt6bKmsPFfw">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ1FbHxf4NUA4n8fFF4RtQKg">zerreiben</w>
+</s>
+<s corresp="src:tlaIBUDQWrFvb7kjkWils0tZwOv0uw">
+<w xml:lang="de" corresp="src:tlaIBUDQztEZot0LkGHpQDCTZ3eDbU">Blut</w>
+<w xml:lang="de" corresp="src:tlaIBUDQz8a1NvjEEDgg7OZZaqNWVM">davon; dessen (Possesivadj., meist invariabel)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ5a1aSLwBkQljbQkqZFE7uU">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQy5bjV0yFUhWsx6d4cg1eAg">Stelle</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ5qm7srOcE7QjKWAXBC8COQ">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUDQxVhOETGzU2unVtd7lTftnk">
+<w xml:lang="de" corresp="src:tlaIBUDQ2Q7vLEuY0BQiRZarBAayt0">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ3pqQ3ZES0d3soCPJPgyjcU">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ0YV8Q0rj0qpkGIlhLaRVAk">Zauberspruch</w>
+</s>
+<s corresp="src:tlaIBUDQ8CTPWxln0QYlciLkyZVVCM">
+<w xml:lang="de" corresp="src:tlaIBUDQ5sKnkgbA05Vj1Ol4BLWUiE">Haar (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQzRei4ywYkStrIkFQl5bBfg">[Opposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ0KuFW5ryUw1vNNi0iGcyVw">dieses [Dem.Pron. sg./neutr.]</w>
+</s>
+<s corresp="src:tlaIBUDQ9uiPDTCnEwTvcWlFzcxqIs">
+<w xml:lang="de" corresp="src:tlaIBUDQ4llnYY3sUfyqriHEjKTGuo">aufrichten;  hochheben</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ3YZZPtULERKg4LeDkceQwM">Haar (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ0nthf8AVkIFvO1flhtgvcM">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ4lufL5FL09WoTjR3z3uVd4">Auge</w>
+</s>
+<s corresp="src:tlaIBUDQ95bPWZnLEGEhkvkn0gio58">
+<w xml:lang="de" corresp="src:tlaIBUDQwLddwBWx0DAlinYEuKFgek">Fliege</w>
+</s>
+<s corresp="src:tlaIBUDQ8McF7QQfUhptC1dNSLNxE4">
+<w xml:lang="de" corresp="src:tlaIBUDQ0QJnfCBSE5sqGWlGF3wdsE">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUDQQiJ8jNEv0cgkeHC3oXLpMw">zerhacken</w>
+<w xml:lang="de" corresp="src:tlaIBUDQxQRLnjHXEbKiQ3ro1xezTM">Gründung</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ01tHx1dYEQVr7nNYuiI5sM">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQWDeI751WEOon21dHQW7rjo">Flaggenmast</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ2hOB5GhtUoetxq5lorWZuQ">[Wort]</w>
+</s>
+<s corresp="src:tlaIBUDQwPP0rYcAUU7mZartJWH7wY">
+<w xml:lang="de" corresp="src:tlaIBUDQWssGLz26EMqocMvSPBvTHQ">knien</w>
+<w xml:lang="de" corresp="src:tlaIBUDQwhlnjVwakdRidoWW8kGCFw">[Präposition]</w>
+</s>
+<s corresp="src:tlaIBUDQ2geaVF6FEAUlN8uqSWCCOA">
+<w xml:lang="de" corresp="src:tlaIBcBiMDEDKb9P0ypspQN6RTBBXA"></w>
+<w xml:lang="de" corresp="src:tlaIBUDQ1WLOT5I9EQOr7eyXcEY3UE">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQxAE0SEHKUiLj7mvnkjjZMk">[Suffix Pron. pl.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ6dW90aUE0pVt6TulQTaxZQ">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUDQ3RQJcKcw0gvpIbtD6IVBOM">weinen; beweinen</w>
+</s>
+<s corresp="src:tlaIBYBlURhKVh0s0skvQPuF0sEhoQ">
+<w xml:lang="de" corresp="src:tlaIBYBleQHLtD8mEZVv1119l5uydQ">vertreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlat11Rvd30vLtnraJFzaxj8">Wunde</w>
+<w xml:lang="de" corresp="src:tlaIBYBlZA9WS546EpFqhijei9p0m4">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlRvoYHWvBEmGjx547U2dZho">Auge</w>
+</s>
+<s corresp="src:tlaIBYBlU1KSTMUNEo6sC0FQo8Yn3k">
+<w xml:lang="de" corresp="src:tlaIBYBlVuXuRk0B0hquc2lDlFw9ig">Kügelchen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlVkWEVFDuULUr8zGbFwGam4">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlYojuVMQpURNlxHWuZ4r9U8">afrikanisches Ebenholz; Ebenholzbaum</w>
+</s>
+<s corresp="src:tlaIBYBlfEXPOuZWkL6r8N0ilZFgBI">
+<w xml:lang="de" corresp="src:tlaIBYBlUhpjs63cElnhTYJ6Q2sPJE">(Medikamente) zerstoßen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlVmqSwsuWk6NilX7zm5sios">[instrumental]</w>
+</s>
+<s corresp="src:tlaIBYBlZ2f9GKiokVUlt1YvwGKkxw">
+<w xml:lang="de" corresp="src:tlaIBYBlT90MXRGXkuVpE4R84T01Yo">trennen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlRKEriLqYU8vtMFT3PplJdw">[Suffix Pron.sg.3.f.]</w>
+</s>
+<s corresp="src:tlaIBYBlTHagLymiUXEjzWKQEfb6iw">
+<w xml:lang="de" corresp="src:tlaIBYBlRpVo5DXCkJQlFE8QATZtsY">Blut</w>
+<w xml:lang="de" corresp="src:tlaIBYBlSGA7StQp0BOhjAZVW95WTI">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBla33yqiWh0kNiDHzB8YTeI8">Fledermaus</w>
+<w xml:lang="de" corresp="src:tlaIBYBlYKA8PUWgkqUozHXXpzciSk">Blut</w>
+<w xml:lang="de" corresp="src:tlaIBYBlUAbEd7WbUL3n4v9LdeCrwM">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlVim40oGq0CKtGfoZSHuFlk">[ein Tier]</w>
+</s>
+<s corresp="src:tlaIBYBlR7i1j2w20x0muV0srQEZHg">
+<w xml:lang="de" corresp="src:tlaIBYBlQ0f92KWQELcsFa00se8XMg">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlZ5x3SVbXEkxpOGWGHRNJxg">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlQRZ4s5svUn9l7UporrsWVc">schwarze Augenschminke (Bleiglanz)</w>
+</s>
+<s corresp="src:tlaIBYBleAJGZPmBEa8tQmhAV75qpM">
+<w xml:lang="de" corresp="src:tlaIBYBlU3J8TwuI0MOk2962LUAVnc">füllen</w>
+<w xml:lang="de" corresp="src:tlaIBYBleK14ai4akWXnu3K7zfco00">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBldycVk88wEOdnquTPRHdkjU">krank sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlQzLWdJqH0GWpZROfWKhZv0">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBcBiCQiVfms2UE1vd2Q4LBnxLI">damit</w>
+</s>
+<s corresp="src:tlaIBYBleajKVCAX0lDrnEDrX0IQ7I">
+<w xml:lang="de" corresp="src:tlaIBYBlV3oJHmFF07mvTy7WMa0r0o">[Negationsverb]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlVigaksQCEu5hFPl1daMQLQ">zulassen (dass)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlTTC9UvWk0NhsbJa1AzWXtQ">wachsen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlTBjooCTokG6nsgWR0Bg6LM">Haar (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlQoWRbDaPUQ0mRNhdFWZcTU">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlTCcoAcctEXmpDQNKIknUQw">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlRdOc4DbkUxuhG2TMY4xbiQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBcBiJ4mq0EHtEZyltfRilbkRZs">gut</w>
+</s>
+<s corresp="src:tlaIBYBleQ2zJBQAktcjSp9uGIFqdw">
+<w xml:lang="de" corresp="src:tlaIBYBlbhR7EZZjUjQtynYZNW2gRw">entfernen; vertreiben; vertilgen</w>
+</s>
+<s corresp="src:tlaIBYBlfZDAWWYNEltkThs1Ib2Q6Y">
+<w xml:lang="de" corresp="src:tlaIBYBlXShAuCkTU8Wur2rs5CSlro">Blut</w>
+<w xml:lang="de" corresp="src:tlaIBYBlWw96QM4eUyQhiQJRBRQ1LY">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlX6mvfImwkg2mzBENq8lDss">Nasennilhecht (Oxyrhynchosfisch)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlcfB77pCQ0WfiEiq2ve7arc">Fiederbartwels</w>
+<w xml:lang="de" corresp="src:tlaIBYBlcw5Ge6Q10OPpXl2ZO8vRoc">oder</w>
+</s>
+<s corresp="src:tlaIBYBlbNEH0Wry04jsUQzpiaSo54">
+<w xml:lang="de" corresp="src:tlaIBYBlRjNX4OJz0RYvlDXdOgjPfY">geben</w>
+</s>
+<s corresp="src:tlaIBYBlcM2XBkDG0IKszPXbxN5hGI">
+<w xml:lang="de" corresp="src:tlaIBYBlQBaYOMNikYLhnTJTvXzxLM">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBYBlQdfu1alMUeCrFuRnb5IFh4">Heilmittel (allg.)</w>
+</s>
+<s corresp="src:tlaIBYBlYnulYR2aELrtIVc2ShEFFA">
+<w xml:lang="de" corresp="src:tlaIBYBlcgEihGQHk95lAphSStO3dc">Tierfell</w>
+<w xml:lang="de" corresp="src:tlaIBYBlWyXXmzk6ExahAwCWaYMXOA">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBleaOJhLaOkvirwxKTWSrFMY">[ein Vogel (ein Reiher?)]</w>
+</s>
+<s corresp="src:tlaIBYBlmXIEZo6aktmo0sF16gG96Q">
+<w xml:lang="de" corresp="src:tlaIBYBliJzxlbucECmldgL8qAun80">Johannisbrotfrucht</w>
+</s>
+<s corresp="src:tlaIBYBllPzGKMSWUfbkUiQbQkdzYA">
+<w xml:lang="de" corresp="src:tlaIBYBlnkr9cuyNUaKiwKlBtzEzBI">(Medikamente) zerstoßen</w>
+<w xml:lang="de" corresp="src:tlaIBYBloosnEEnR0icuKxZqp7wulQ">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBllxpIKeRb0cglj5mFoMtcaM">Honig</w>
+</s>
+<s corresp="src:tlaIBYBlmrMGByI2kZDviWQEWrkbkw">
+<w xml:lang="de" corresp="src:tlaIBYBlgOboVQXfknRoDYVZAb1VuQ">zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgDB3uz0gUGUpa28J5EZN9o">(fein) zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsTyE5jx3U3jkRIOMrBIsU8">[mit folgendem Eigenschaftswort, adverbiell]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlve32U6smkBfkD1pp5Q5fXM">vortrefflich</w>
+</s>
+<s corresp="src:tlaIBYBluWPqYIQqk5FgJYRUdQh10k">
+<w xml:lang="de" corresp="src:tlaIBYBluRXuGgQC09AuYXgbqHG1YY">geben</w>
+</s>
+<s corresp="src:tlaIBYBlmiy5dBswkivmYzQVmQAvSA">
+<w xml:lang="de" corresp="src:tlaIBYBlgWo4GcA6UhmsYpavpqm5gc">zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBloIZhVt9tkJfnzYxLvqkh4Q">(fein) zerreiben</w>
+</s>
+<s corresp="src:tlaIBYBlid06qgxiE2mj3NbE3wpLUw">
+<w xml:lang="de" corresp="src:tlaIBYBliGrwo0UxUuSiyL1yDNr5jc">Staub</w>
+<w xml:lang="de" corresp="src:tlaIBYBlj2laL1NQEwDhuMfjxuLizg">davon</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqWyLhERREbJtioZAUlBPkI">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsJ1WnQkWkPEjwsrciBfJvo">Auge</w>
+</s>
+<s corresp="src:tlaIBYBlkvIxBiYOk6BhEOSpbpGlDY">
+<w xml:lang="de" corresp="src:tlaIBYBlkCdOW7tEERQjpRaAvwrcWo">Pflanze; Gewächs (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhrmfgmnFkw0tTIqxjpJ3lg">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgQUJ5fQDE8GkEOCLA4EL4A">Dornakazie (Nilakazie)</w>
+</s>
+<s corresp="src:tlaIBYBlvNWjbpOuEburlbk5pcB1BE">
+<w xml:lang="de" corresp="src:tlaIBYBlnW6MbS5HE1DmQuD4WoEpQg">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBls8VnMXugEhWno0iZv3WrbY">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsD5yKIxJUyXju1QLxnQtaA">Feuer</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhaiRU6xSkeOt5fwk9Z3YAg">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlh9QgrWEyErvokeYOrI2DFY">herauskommen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkKXVW6R2kywhPqx9nwsfGU">Rauch</w>
+</s>
+<s corresp="src:tlaIBYBlsCkY9Pz5EoWiguPvgzl0Fk">
+<w xml:lang="de" corresp="src:tlaIBYBlizYNlKtM0LAuptr1eCZggo">Kopf</w>
+<w xml:lang="de" corresp="src:tlaIBYBltryTYHAlUwSmtQR27hCNes">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhemvxgXZEQpm0C1qpHZrc0">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgDxZhbX4kLXnvNe9QUYJDI">der welcher (Relativpronomen)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkeU8p5h000jsaPPqnWNroM">krank sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvYisHJpJ0k3iGvXAC7BKl8">dort</w>
+</s>
+<s corresp="src:tlaIBYBlu0qrSXaiEfGq30iyfxTkyM">
+<w xml:lang="de" corresp="src:tlaIBcBiDN4EmzP1EOTmxy7Qkqqq4o"></w>
+<w xml:lang="de" corresp="src:tlaIBcBiGP3XGACT0RDvrxVuwokldU"></w>
+<w xml:lang="de" corresp="src:tlaIBcBiPao319x0ktDjtMbM9dwA9M">[Präposition]</w>
+</s>
+<s corresp="src:tlaIBYBlt1X2ToRzEUTpzyJ8RhSypk">
+<w xml:lang="de" corresp="src:tlaIBYBlizP2sINU0ikjU2GchePgTM">Mensch</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvkaI7d6H09hjKHQ4H0CTmw">Harn</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvkhiz6svkOHiPLRQmTthPk">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnWWyuUDEUc2kbGXCQIuaQg">Mensch</w>
+</s>
+<s corresp="src:tlaIBYBlmG4pyhfwUO1lAFXXTKPaZY">
+<w xml:lang="de" corresp="src:tlaIBYBlglbqzPQvUAuoHAc3KE2Cjo">durchseihen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlj3poAtjA0eWnBtehhCl1QA">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqWdnUYZS09bvAFxIdET5H4">Tuch</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnlHutI0JUm8iQYCkLUqjGI">kochen</w>
+</s>
+<s corresp="src:tlaIBYBll6RHQZSdEtWuYx9uaucQBA">
+<w xml:lang="de" corresp="src:tlaIBYBliA5cj7wzU4Jsz6qVzxe2gQ">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmum5SAXUkYZvfC3PYnKuSA">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvCNZicaIEp1jHP5SESf9J0">Außenseite</w>
+<w xml:lang="de" corresp="src:tlaIBYBlm2G8SBsW0KQuglkRBpNzVg">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlj39ZKjoNE1bg6GkhsGkVOw">Auge</w>
+</s>
+<s corresp="src:tlaIBYBlqkFiuXYaEZArRPQtiz6pfg">
+<w xml:lang="de" corresp="src:tlaIBYBlrUnMAhnyUXNphs6vk8gE1Q">[Partikel]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlp5D55BikkIRo1PgT0sBiRI">[Wort]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlstAj7JnSET9vmauQEVuik8">[Wort]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpTrguM2Z0iSn95x9IAss8c">Sarg</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsTxh4HXYUkAvvMNJ2zrOEg">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrAQ65GhPEJvn5LtftQf9qk">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBluFkCucLi0LQp3B56bKsl3Q">groß sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgct8OCNek1gjbMhdoclDQI">im Inneren</w>
+<w xml:lang="de" corresp="src:tlaIBYBloWAJiOrkUfupTM6SuTd4zw">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlggnq9Gkm00PrQ71zjoyt6w">[Suffix Pron. sg.3.m. nach Dual]</w>
+</s>
+<s corresp="src:tlaIBYBlrfEWOmacU5rtbR0i3gfokE">
+<w xml:lang="de" corresp="src:tlaIBYBlsE4HziKqET7p2rBWbpmfX4">entfernen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlv9g2ocdxEtZrFXtbo83Nck">Verletzung (des Auges)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlh5hURivC0m8jtgOj09m9iA">[Zweitnomen (zweigliedriger NS)]</w>
+</s>
+<s corresp="src:tlaIBYBll9QNrVYf018nQJHjFUmbxQ">
+<w xml:lang="de" corresp="src:tlaIBYBlmKR4wKHHk93iKEECAeeeL8">entfernen</w>
+<w xml:lang="de" corresp="src:tlaIBcBiPMwWS3BI0bygXelpiJRuzA"></w>
+<w xml:lang="de" corresp="src:tlaIBcBiETQhTzaLEgMsC1BWA4pKrE"></w>
+<w xml:lang="de" corresp="src:tlaIBYBludS4YSrnkfPolLpSVWUWY4">Auge</w>
+</s>
+<s corresp="src:tlaIBYBlugLKAgShUb9tTStZd3gD8c">
+<w xml:lang="de" corresp="src:tlaIBYBltBo7bsokktItQnWfLsGxt4">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBljCiW6jlvk5WvUVBqD4G1Ko">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltYNLppLj0xlr3gfufUxYDs">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmCqKwvtLE3WhVsdbf3I6Fs">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBYBljFGTBgw90ZrkRQQuRjDMgQ">viel;  zahlreich</w>
+<w xml:lang="de" corresp="src:tlaIBYBlodXK1WpU0u1nMlUHMvJXHU">oder</w>
+</s>
+<s corresp="src:tlaIBYBls3sJXfryUd1lNTqQzx3SAg">
+<w xml:lang="de" corresp="src:tlaIBYBljtl9jRQBEaQkgQsmLcwarw">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBYBllU6cUBU4U2BimZHoGwOn6g">Heilmittel (allg.)</w>
+</s>
+<s corresp="src:tlaIBYBlmU58yjcQE09ujGxjTYf65E">
+<w xml:lang="de" corresp="src:tlaIBYBlpUA23xVBkcHvy93hEiEk4c">Scharnier (?)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmJw6UHClkVBsm7qACE6MiM">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpBCvXBZDk6ikzJi65CuZYY">Süßwassermuschel</w>
+</s>
+<s corresp="src:tlaIBYBlssKKajIXk6QsbSWaLHvhMs">
+<w xml:lang="de" corresp="src:tlaIBYBlimem6EgBU4Lr1aMutzQ55M">(Medikamente) zerstoßen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlngRuWfIY0C7qkpkRJdrV1s">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBliRt1tQqZ03WmRvFVhfpF54">Schleim</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpfweE5GTU6WjcQhuQIMeA0">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlviSStwUPkDZnrSKLQJhWlw">Gegorenes, Fermentiertes</w>
+</s>
+<s corresp="src:tlaIBYBlmVxpwjeQkF2q0w8VhSWYCc">
+<w xml:lang="de" corresp="src:tlaIBYBlugL0p00pUU9gOQJDF7EzrE">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrVMXdvpp09QnHcxypoVqIM">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrRXwkCVtU8lqeWqzm0rhb8">Außenseite</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmEtlOQb5kLFvRgVQ1ekNjU">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlq4FGybdgUOjmqs8xKblkH4">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmSxN2wBl0WgkWKceHgCcg0">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBYBlttZr69Cu0zLh4WlA70oRcs">viel</w>
+</s>
+<s corresp="src:tlaIBYBlgQaHw2Xf0yirlCv3p2nEcA">
+<w xml:lang="de" corresp="src:tlaIBYBlpVKzGhCUEjZtCKr3lO4BXE">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBYBllLABQS6k0IUguRUsUFSPDk">Heilmittel (allg.)</w>
+</s>
+<s corresp="src:tlaIBYBltYQnmAGFkixg8iX9hvmTV0">
+<w xml:lang="de" corresp="src:tlaIBcBiDRiaVczoUHQviu1PCZC8Y8">[Substantiv oder ein substantivischer Ausdruck]</w>
+</s>
+<s corresp="src:tlaIBYBlpxy05NMv08Ut3HWuioLl6g">
+<w xml:lang="de" corresp="src:tlaIBYBlibw3RQdFEWNlpeip2UW6As">zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBloMYpy5e5EtUsy9yh1Bdhgo">glätten</w>
+</s>
+<s corresp="src:tlaIBYBlvzgZtk8Gkgzmp1WCbuQnuo">
+<w xml:lang="de" corresp="src:tlaIBYBlsUBXqMeUENWkiQ6YqUJ9v8">durchseihen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpPsRMaGtEAkms6bWoU9iWM">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpSFpbB5V0qyi827zsHISBw">Tuch</w>
+</s>
+<s corresp="src:tlaIBYBlldPrjQun0iQorM3d3xBZ58">
+<w xml:lang="de" corresp="src:tlaIBYBlthUTo8QM0KUsMeE3cDH50k">(etwas) mischen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrCr0uScz0C8meEpuhKKeq8">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmMyqoD990BnqB31Hs3jV7c">Bodensatz</w>
+<w xml:lang="de" corresp="src:tlaIBYBllP9uSDp00ErtCE6hLLN0m0">[eine flüssige Droge (im Bier enthalten)]</w>
+</s>
+<s corresp="src:tlaIBYBlhUl5rajFUWuq6iFLk4eIJk">
+<w xml:lang="de" corresp="src:tlaIBYBlj2gGEs90kTprQqfEkZQhQI">fertigen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlulOAkR2pk3pkToAynam6jY">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBljN0to6xDUZLmxWIM3QfhlQ">kleine Kugel</w>
+</s>
+<s corresp="src:tlaIBYBlrWghchsoE2WuQC4pngoPMw">
+<w xml:lang="de" corresp="src:tlaIBYBlrwW49dQtUmDpQP47kLY21s">geben; legen; setzen; zeigen</w>
+<w xml:lang="de" corresp="src:tlaIBYBluvENskWbkRZjB4orMy2zZA">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhqMx8BLgE4JvRpDcMNWy4s">Außenseite</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpIq6xXE1UywlIeBuGQz5NE">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgEWzQRGW0wWlWgwoZWhYZw">Auge</w>
+</s>
+<s corresp="src:tlaIBYBlu91GlPlQkG4uZU5xgtyyuI">
+<w xml:lang="de" corresp="src:tlaIBYBlg4BxBUCX0tEowbxVH0h1ec">legen</w>
+<w xml:lang="de" corresp="src:tlaIBYBljqlZUCWc0IpoH9U3MHPI1M">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkSilwWHwEIAjrA0qqLcZKA">Binde;  Tuch</w>
+<w xml:lang="de" corresp="src:tlaIBYBlinG0Ec31EOst1rqjLRg4Uw">glätten</w>
+<w xml:lang="de" corresp="src:tlaIBYBltGIFaTkF0WssKUb4IZpgFg">oberhalb von</w>
+<w xml:lang="de" corresp="src:tlaIBYBljKu9vXCI0AeiYiWNHPHc80">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrrHsWhXcUVZgiiTq1yxvV4">zuerst (temporal)</w>
+</s>
+<s corresp="src:tlaIBYBliNc1gbKjUvlpwtZr7TNBUA">
+<w xml:lang="de" corresp="src:tlaIBYBllXOF8C4TEVCu1PZ4kMOIVs">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBltTHrGhaHEQQhRJvefWo2N0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkTrxW7eC0mjsFhPqQEQuAM">Heilmittel (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgB7KyCNl0yOnMxbqS0LEfg">diese [Dem.Pron. sg.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsQsU6R0Q0oKkUX11zxeoG8">oberhalb von</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgP8PEX2Kkkej6tAT559IT4">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrv7yJPBOkH0oD5ZFWxWB7U">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBljeFKsAvOETAjzTd09rrXrU">Binde;  Tuch</w>
+<w xml:lang="de" corresp="src:tlaIBYBltEC79Q8uk6irMrbY4GrsZc">dieser [Dem.Pron. sg.m.]</w>
+</s>
+<s corresp="src:tlaIBYBlpuhDLFx70VyoSzQuYsF2t8">
+<w xml:lang="de" corresp="src:tlaIBYBljFjyzpGoUKQpxo6K0xYmMo">verbinden</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsXdMjch3EJToEBHZDFPmVo">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkClCgQl5UbklntsjLpXYWI">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBcBkV6j3Q3mn0nEuQiYBQkkJeI">so dass</w>
+<w xml:lang="de" corresp="src:tlaIBcBkbgIJxY4y0XWqGc3HQVOSwY">gesund sein</w>
+<w xml:lang="de" corresp="src:tlaIBcBkaEKOF2bSEUXp6Eb276FQLA">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkDk0SfWx0Yplzj2qcffrrE">sogleich</w>
+</s>
+<s corresp="src:tlaIBYBllE5pDm4MU4RuvMBS2IUjoM">
+<w xml:lang="de" corresp="src:tlaIBYBlr6gx15XpktojQHQdRnUzm8">kühlen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgW6byON80qUoItYTKtbOG8">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpMf1qPWDEx4ogqar9omWGI">gut sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrtFbal0UUrdhHmmeWXdBbM">machen</w>
+</s>
+<s corresp="src:tlaIBYBluCfD1Kj5kRgmQ5CtvAEsMM">
+<w xml:lang="de" corresp="src:tlaIBYBlsel1JDQjEHVtMZvTwRsIoY">grüner Bernstein (Harz der Akazie)</w>
+</s>
+<s corresp="src:tlaIBYBloQThQZXRUHirRMEQCuNmUg">
+<w xml:lang="de" corresp="src:tlaIBYBlvq7Ci6ZC0VahPq4DXxHE4o">zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBli2qoQHC8kjWrnEQOfEEY4Q">(fein) zerreiben</w>
+</s>
+<s corresp="src:tlaIBYBlvifY4Xk2UbCnPSlmW09l7g">
+<w xml:lang="de" corresp="src:tlaIBYBlvKdzAkamEskitEvr1AFHgw">(etwas) mischen</w>
+<w xml:lang="de" corresp="src:tlaIBYBltbXyJNr70met90INzXJr0k">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlowVRvDXL0UJnJQNLC8Js5o">Wasser</w>
+</s>
+<s corresp="src:tlaIBYBli1ooNUiPkiNmyTBpFNgxQk">
+<w xml:lang="de" corresp="src:tlaIBYBlme2IXNdyUkinb4GxMmXZW0">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqg8ksNQckunl0n2xbiG2YE">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBluZIITgwE0KIrf4f2CNi94k">Außenseite</w>
+<w xml:lang="de" corresp="src:tlaIBcBkY9QO7H2r0lklPxS6jY8NsE">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnPlF9kVr0yuiP3eZWFauxM">Auge</w>
+</s>
+<s corresp="src:tlaIBYBlibEdEhDkE1uuA1thNiblpU">
+<w xml:lang="de" corresp="src:tlaIBYBlqi8OhbN6Udio5gVLsm9KhQ">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgajgfn9Wk04g9RVPXaBHx4">Heilmittel (allg.)</w>
+</s>
+<s corresp="src:tlaIBYBlsaonkcpQ0JSspX6BuCUMYQ">
+<w xml:lang="de" corresp="src:tlaIBYBlmLuflxAFEruuhLQ1dfTQXo">Johannisbrotfrucht</w>
+</s>
+<s corresp="src:tlaIBYBlqEy3ih2pUbZtFQcjv0CSWM">
+<w xml:lang="de" corresp="src:tlaIBYBlt1ToIlV5UA2gtnkbXFVzbE">zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmMF1PQNmkszrinfb1uxng8">(fein) zerreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmrZl77LWUW0qCMhwcd2O04">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBluh5TlDvLkh5giMvIgQDFKw">[offizinell Verwendetes]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlp3eGJzhfU6ioKTPJrldxbQ">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlujvXVW2KEUIqfO8zWn96AY">Honig</w>
+</s>
+<s corresp="src:tlaIBYBlnGsEuC3UEiJnUIo0FCWJDQ">
+<w xml:lang="de" corresp="src:tlaIBYBlmJKmGGcZkKNsxu1YUXg5xg">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBljKCeEdiRk7FqArYOzMZ80I">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnB0FW3mv03hq2TFeT55HnA">Außenseite</w>
+<w xml:lang="de" corresp="src:tlaIBcBkVZB4eCKQ0IimQHEv2BjcaY">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqjWmbY1IkMvrtvrjRvjX9A">Auge</w>
+</s>
+<s corresp="src:tlaIBYBls2eaBIEhkRWhGIvxvB39bY">
+<w xml:lang="de" corresp="src:tlaIBYBluJ7KGswFUPxpGe1womTzes">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgvnM4hV4k68g6I3yqudx10">Heilmittel (allg.)</w>
+</s>
+<s corresp="src:tlaIBYBlrPwYtNFOUUuqvxq9vxyCY0">
+<w xml:lang="de" corresp="src:tlaIBYBlrbVcU4dq0GahncQ74A6dbY">[eine Getreideart (Durra?)]</w>
+</s>
+<s corresp="src:tlaIBYBltEHWObth0T1iseTWdQVuHo">
+<w xml:lang="de" corresp="src:tlaIBYBljM1oQ4kLUeUkbeZ5IpLI8Y">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmy3mWixQ0syuIl6RDWYqPo">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlimJZu1h50DemjfsKBRLck0">Wasser</w>
+</s>
+<s corresp="src:tlaIBYBlhcAnH5ZsEK4hQaNF6Piw0g">
+<w xml:lang="de" corresp="src:tlaIBYBlslNAnIkgkZgkcJVRMoFHrI">liegen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlos4bccWGkQVglJibBahv4I">[Dativ: Richtung]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsoMRtOlxE1yphTwhQ9uWrw">Tau</w>
+</s>
+<s corresp="src:tlaIBYBlhZ0CjAJWk51hJjemVhbrR8">
+<w xml:lang="de" corresp="src:tlaIBYBlk7yUrjjq0rDoZuQmz50T0Q">geben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrtYlhVgQklynqI8SSFvyik">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqZXTekQNkNgg5lEtakuUr0">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBltY1wyjDzkAfuwPCENzgiwE">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlldQKocHNUaFsKTglZH7oYI">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBYBlthsS6PGAEyWg0U8C969WO8">morgens</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnQh8bPNmkYcsNFtxv2ZfXs">sehr, wirklich (Betonung beim Adjektiv etc.)</w>
+</s>
+<s corresp="src:tlaIBYBlskAtW9AgkQWjukGEvxAryw">
+<w xml:lang="de" corresp="src:tlaIBYBlgMle5JbqEV7lCFV6JwoAy4">anderer</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpEjzdZcLU8UoiiVRFltynY">Heilmittel (allg.)</w>
+</s>
+<s corresp="src:tlaIBYBlihBChCQpkmYt5rZmlLWDG0">
+<w xml:lang="de" corresp="src:tlaIBYBlnE9Cv21vkawsQ3h9WVzQX0">[eine Pflanze]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltKOl1RPiEjjqtfHu8eVX34">Hanf (?)</w>
+</s>
+<s corresp="src:tlaIBYBlgh8wzs3AkZjui5DCjSQJhY">
+<w xml:lang="de" corresp="src:tlaIBYBlvoQ8CtzLESFkrfAGA3FTCs">zerschlagen</w>
+</s>
+<s corresp="src:tlaIBYBljtflcyJL0Hvuw0uQjWqd64">
+<w xml:lang="de" corresp="src:tlaIBYBlifySMqgGU3VnK33jJrjI28">liegen</w>
+<w xml:lang="de" corresp="src:tlaIBYBls36QuxSQUg4myk25oCDDuY">[Dativ: Richtung]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnrzo7oOI0Zlldw5gnKdsv4">Tau</w>
+</s>
+<s corresp="src:tlaIBYBlhcLRFancklBg6DC6EWdW9I">
+<w xml:lang="de" corresp="src:tlaIBYBlj6PZsUmrUxuoCLLD8EWXvM">waschen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqRWZRBMWUIxhzJqimsh0P8">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBYBluUiW67dlUfCj1JWO56vcQk">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBllaNBWpStUSElDMuu2ZZp9Y">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqWbVBINEUvrqKkV9HdAQGU">damit</w>
+<w xml:lang="de" corresp="src:tlaIBYBljaGqc5iBkJerov1zBuw6VE">morgens</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvaaHEmWmkfVmlsOL0NWESI">Nefer</w>
+</s>
+<s corresp="src:tlaIBYBlnlrM06cqknJnXq0Zvk0mjE">
+<w xml:lang="de" corresp="src:tlaIBYBlhQfg8mvKUYuvGDlNH1Fy8A">vertreiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBlt98QSpFIE7avLNBph1T9WY">[eine Krankheitserscheinung]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltP6fWQJfEhCsHHsDLuQmb0">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBll8CfgG3CkIvk922zwqfzFg">Leib;  Bauch</w>
+</s>
+<s corresp="src:tlaIBYBlriGcf1fUEhcqJLyOyei6Wo">
+<w xml:lang="de" corresp="src:tlaIBYBljTOSPzvW0HMieBuQSjLkyY">Konyza (?)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnpNNvCnwEAbtuKGTunKKYQ">kochen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsfU8CZcnEUxmDKiXJK24gU">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnoxerbpiEXErWHkSAhREG0">Milch (der Mutter oder der Tiere)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhtqKCYyNkWToWqnkNC2RwI">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltsaxDF95ENYk25RxhOgJQg">[maskulines Substantiv]</w>
+</s>
+<s corresp="src:tlaIBYBlplm1beKUkiRgqoMDAYL9i0">
+<w xml:lang="de" corresp="src:tlaIBYBlv6Ye6u9f0bdmv8DagSHZB4">trinken</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmB04NzGQEbwq83MWiZeWcU">durch; seitens (jmds.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlizFZ6QWoUzhoMdIk4v3oK4">Mann</w>
+</s>
+<s corresp="src:tlaIBcBkSeG94oUWUEbgZKffKczBmo">
+<w xml:lang="de" corresp="src:tlaIBYBlsdcQbJuCETSk0y1bamDHOI">entfernen</w>
+<w xml:lang="de" corresp="src:tlaIBYBllH0C9d1qkiOlyaGErIN6uI">Schmerzstoff (med.); Krankheitsauslöser</w>
+<w xml:lang="de" corresp="src:tlaIBYBlocASiGRikooosHmBYzdEk8">gut sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBljlrbPSMpE2FrTKWqnLwaRU">machen</w>
+</s>
+<s corresp="src:tlaIBYBlldtWZhlVkMKkeblQxQFIU8">
+<w xml:lang="de" corresp="src:tlaIBYBlmmkmAIwA02Dh1gnARtw0zA">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpuI3YSeGE1Po6MtVAMjWko">nicht sein (aux.); [Negationsverb]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrdzhVNSLkMMq7Nx2EIVslQ">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBllSFx6Bj3UeahQxcdGajtMk">finden;  entdecken;  vorfinden</w>
+<w xml:lang="de" corresp="src:tlaIBYBliBXKy6oiUuquxxEYjYwIFY">Kot (offizinell)</w>
+<w xml:lang="de" corresp="src:tlaIBYBloN44wCbiE9arvQCRaQeUkQ">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltI3NkpKXkWiuENaQFLRS2E">Schwein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlixpQJh4n0D7ihSJDpLzugI">machen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhNMcQxq5UFEkKOAeThjtwI">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBliRQ87eWQU2PtC6YajYN89c"></w>
+<w xml:lang="de" corresp="src:tlaIBYBljl6HJrzcUsLuMoVDQDSpGs"></w>
+</s>
+<s corresp="src:tlaIBYBltgoZ6MmcE6Rkoei5oLgQvA">
+<w xml:lang="de" corresp="src:tlaIBYBltc77p4Xq0QtmwYLF6YbNww">kochen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpWyovDf6UdAtqcMrENSdyw">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBliEZjE8cqEdMnDsph74bWoU">Zeit</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkIIWEPsMExGl25QWwWZ6HY">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsyxLXe0TkZSr6q209XDANY">Abend;  Abendämmerung</w>
+<w xml:lang="de" corresp="src:tlaIBYBlqksC0ZUZ0l1s4QtA5XsENw"></w>
+</s>
+<s corresp="src:tlaIBYBlhgXl4BR1kwouwosqoP4UbQ">
+<w xml:lang="de" corresp="src:tlaIBYBlnPkRWDWqUXxn8hbWeOvnFc">[Zweitnomen (zweigliedriger NS)]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhwIQzkPYUdZkVR8M7uyGig">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltVQXpu1REcwnt8iHvt3ga8">Körperteil</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkiQooiJCE5QhBTBaalDlbg">jeder</w>
+</s>
+<s corresp="src:tlaIBYBls4hWjxMRktymKVdWEF9RGM">
+<w xml:lang="de" corresp="src:tlaIBYBlnmRQ0djaEcrp3FgEWBVTEM">töten</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnjiH6fTB0zXhX4GOhN7QS4">Wurm</w>
+<w xml:lang="de" corresp="src:tlaIBYBlm7AN8AyJkOhjMXSAbSSR0M">[Zweitnomen (zweigliedriger NS)]</w>
+</s>
+<s corresp="src:tlaIBYBln1Ba5rSOE3ZvMwmNWnHnyo">
+<w xml:lang="de" corresp="src:tlaIBYBliPFWq9bikC1njaZ6xv1gBs">machen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlp3WAQxv10EAvOrDZPsa3u8">betreffs; bezüglich; gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBYBlh6OImAkk09nideTaKRgsn0">Fall;  Angelegenheit</w>
+<w xml:lang="de" corresp="src:tlaIBYBltx0DoFHcU9bjUDym6Hch4s">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmP0QTPTJknliOt211B9Wb8">ausscheiden</w>
+<w xml:lang="de" corresp="src:tlaIBYBlt2pXLg4G0HUgTqrUPApcOY">schlimm sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvL1PWlM2UeYvYMk7CadV1g">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhy82NUYQUgDtci3TaeVsb8">Hinterteil</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsmKUCcdT0bdiqgx7kWPt8o">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnWW6sSjQ0TwrwH20gAiHMk">Mann</w>
+</s>
+<s corresp="src:tlaIBYBlrclO1nmAEAzpE0wazg9lZo">
+<w xml:lang="de" corresp="src:tlaIBYBlsTbAX7RKEcvjSEF3GPhtqE">Samen (?); Kern (?) (med.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBljnGwmmPkkLxn2vAAKbMdwI">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlg33YUYIaU7SiFAJWJhThdQ">Dattel</w>
+<w xml:lang="de" corresp="src:tlaIBYBluD45VVIO0m6s50vCbdOJ80">[Zahl/Bruchreihe (math.)]</w>
+</s>
+<s corresp="src:tlaIBYBlodvX8SS907Ln0BH04IDFiU">
+<w xml:lang="de" corresp="src:tlaIBYBlqAbjlbHWkF6izobJPcv0i4">machen; tun; fertigen; fungieren als; handeln</w>
+<w xml:lang="de" corresp="src:tlaIBYBljB2sngAh099k5cGGTXxhEE">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsigWCctaEqdlyPYCsIm6oQ">[ein Brot]</w>
+</s>
+<s corresp="src:tlaIBYBlrGAGteec0Ago3jlMZC1xSw">
+<w xml:lang="de" corresp="src:tlaIBYBlq9b8YUGHkJxs6XOistYVGU">essen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlthFx0hO107spxkoQshKOAw">durch; seitens (jmds.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvRi0zqyJkvugS2coWCgSM8">Mann</w>
+</s>
+<s corresp="src:tlaIBYBlnIa559Gw0lEsQfapTgtKC4">
+<w xml:lang="de" corresp="src:tlaIBYBlhzIJXyFSkwYvhOI0xUsoTI">verschlucken</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhjewTfhg0xuo8ReCVglWXw">zusammen mit; [komitativ]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhWvCdK2p0larXWdKcmVGYE">[Flüssigkeit]</w>
+<w xml:lang="de" corresp="src:tlaIBYBltysKoD2g0i9nQCwfKzbEn0">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlt9RZ7HN1UyyvaMAnNh9vOo">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBYBlj5XBRaifkgLnbRJLlxnpM8">süß</w>
+</s>
+<s corresp="src:tlaIBYBllZ96FG1Q0KdvCeDA0KYQPo">
+<w xml:lang="de" corresp="src:tlaIBYBlpKfgF3riUlmlZMAgj8PXZ4">richtig machen;  ordnen</w>
+<w xml:lang="de" corresp="src:tlaIBYBls8TbAJDhkDihX8bSUkyecg">Harn</w>
+</s>
+<s corresp="src:tlaIBYBlqoAtTKVKEVWlpjsCkOLln8">
+<w xml:lang="de" corresp="src:tlaIBYBlp86jt5rWkNtmVGA2yNjBQg">Inneres</w>
+<w xml:lang="de" corresp="src:tlaIBYBln5QeqYZKEXIs74P2nI5ZPc">Rohr (Pflanze und Material); Blasrohr</w>
+</s>
+<s corresp="src:tlaIBYBlnauJLLarUnql5bEPHgdmyM">
+<w xml:lang="de" corresp="src:tlaIBYBltjyWF0pI0K2vxEvHxNcmuA">reiben</w>
+<w xml:lang="de" corresp="src:tlaIBYBllFZ1D8JmUDSvGwM8WAh3fI">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnlgaH1H5UbGpGfX07lwBKM">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnTVVmTLeU56ku60f9QNQhY">gerinnen (?) (med.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnyFHgHm90MluUBmlvlfpX4">[ein Getränk]</w>
+</s>
+<s corresp="src:tlaIBYBljfiLWoFWUYjtCfr4AloH4s">
+<w xml:lang="de" corresp="src:tlaIBYBljcjXSsOm0G1mPNZWkQSoh0">glätten</w>
+</s>
+<s corresp="src:tlaIBYBlusiYZyMK0Bkr2mURueQzdc">
+<w xml:lang="de" corresp="src:tlaIBYBlqbDWcXKlkWci0Lmhu2H6z8">trinken</w>
+<w xml:lang="de" corresp="src:tlaIBYBlpfCfm2bgksIuVJqzefga6U">durch; seitens (jmds.)</w>
+<w xml:lang="de" corresp="src:tlaIBYBljyj0ZEr9kiGrg4XfiOMWgI">Mann</w>
+</s>
+<s corresp="src:tlaIBYBljnxsRdOR0Udh0jsMTXpnbk">
+<w xml:lang="de" corresp="src:tlaIBYBlunsmPQ020a7kSlMtbxEPbA">geben</w>
+</s>
+<s corresp="src:tlaIBYBlgeIkULijktjkXe2caN5QeA">
+<w xml:lang="de" corresp="src:tlaIBYBluDcIQcjsEE5hhInyvEzvFY">müde sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBltp7liKZh0qVm8hxvAvBtUE">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBllQo2yLsNUeFtx8ACxvR2KM">machen</w>
+<w xml:lang="de" corresp="src:tlaIBcBkSkpzISB9UWlove4dlQ0WYw">Schritt; Gang; Geschäft</w>
+<w xml:lang="de" corresp="src:tlaIBYBllzMu6Re8EGEqyQJFT0uUL0">gut sein</w>
+</s>
+<s corresp="src:tlaIBYBlgx4mc1Q6EoKkXNEhyNQNZg">
+<w xml:lang="de" corresp="src:tlaIBYBlklgJj56TUHDlsG9LWqSDck">ich [Selbst. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnPll8CNnkAytEI9gMjBi8g">Bestes (von)</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnjq55kkoEfNjeEL2MfqZMU">Fremdland</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnI5iqKo40XDlXhcaRSWMKk">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlooNjU6BaUk1vt3ZyYvYXzk">der welcher (Relativpronomen)</w>
+<w xml:lang="de" corresp="src:tlaIBcBkb6CW0plZ0oInLVkXqLxn7E"></w>
+<w xml:lang="de" corresp="src:tlaIBYBluFcbpQ2eUa3qAONsvuxJrs">bestimmen; anordnen</w>
+<w xml:lang="de" corresp="src:tlaIBYBlhJipkkaTU5qgXg2MCGnrIU">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBYBll5rRnX4Kk0psQC96MNZpKg">[Suffix Pron. pl.2.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlsQZ67WweEFZrr5aJtckq9Q"></w>
+</s>
+<s corresp="src:tlaIBYBlk9wZeAUDUXzq5aBJQ7DR8Y">
+<w xml:lang="de" corresp="src:tlaIBYBlrUAtebrAkWonTiaPeCTvp4">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlrvfIQGLaUVHr1SG44KlWMo">Seite</w>
+<w xml:lang="de" corresp="src:tlaIBYBll4nVPfaUEjOhs5nCBGTkTQ">östlich</w>
+<w xml:lang="de" corresp="src:tlaIBYBlkkLb0mUvUW0i92lrwG7njo">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlmGT952js0M8ujcqsY4IAu8">Wetenet (Gebiet in Punt)</w>
+</s>
+<s corresp="src:tlaIBYBlqWzkvacR0i8mhy8C5BnQG8">
+<w xml:lang="de" corresp="src:tlaIBYBlh5VhWBcAk5ziGi0sANFVO0">Pavian</w>
+<w xml:lang="de" corresp="src:tlaIBYBlvf8KPcZckH6pAJYrWIeHhw">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlgEaIa3HEkrqgqr4oblaovI">müde sein</w>
+<w xml:lang="de" corresp="src:tlaIBYBlh7CI9QCsU2sj1mXQTPZuT8">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBYBlnufVgHNcUc6kOWLckQzOpE">[Wort]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

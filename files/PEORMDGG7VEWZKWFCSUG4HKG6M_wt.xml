@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtPEORMDGG7VEWZKWFCSUG4HKG6M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Westseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Westseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PEORMDGG7VEWZKWFCSUG4HKG6M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>5. Pfeiler</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Westseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaWYUE4H67JVEU3IO2AN3XW44MEA">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. Badawy, The Tomb of Nyhetep-Ptah at Giza and the Tomb of &#039;Ankhm&#039;ahor at Saqqara, berkeley-Los Angeles-London, 1978, 11-57, fig. 16-64, pl. 20-90
+
+N. Kanawati, A. Hassan, The Teti Cemetery at Saqqara II: The Tomb of Ankhmahor (ACE Rep. 9), Warminster 1997 [P,F,U,Ü,L], 54; pl. 61</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PEORMDGG7VEWZKWFCSUG4HKG6M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-cdc8cc65d085681d52f9c0328d9d45d6</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd0UGRWWWEUQaoLRQ6zR9j9s">
+<w xml:lang="de" corresp="src:tlaIBUBd3gv5WWiyki0peZsQbktnWI">Hatia (Rangtitel); Bürgermeister</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7v3CVoIPkvgrCT2QUPuf9M">Diensttuender in Nechen (Hierakonpolis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyPQ8a0IrkzQkNbCcsUZEQY">Hüter von Nechen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd95l8HSLIEU9kDfr7gzRvOg">Oberhaupt von El-Kab</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5OLdQ1zrU4FuD2j45cLRwU">Versorgter bei dem großen Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW95uSVkYkxusli92i3Gkpk">Anch-em-a-Hor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzxooQZcoUzkqLrQsgFQdo4">Kosename</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwNfQfIAn0CClZS3tk17mXc">er [pron. suff. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd33WIrFhSES0gUzgzVgmgpQ"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdw9xJQuxQ0m3n8B2TaTgtQI">PN/m</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

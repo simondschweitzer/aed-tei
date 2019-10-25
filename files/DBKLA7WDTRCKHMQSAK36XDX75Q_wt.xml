@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtDBKLA7WDTRCKHMQSAK36XDX75Q">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Tjebu (Kairo CG 20005)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Renata &amp; Peter Landgrafova &amp; Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Tjebu (Kairo CG 20005)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Renata &amp; Peter Landgrafova &amp; Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DBKLA7WDTRCKHMQSAK36XDX75Q</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 20005</idno>
+<msName>Stele des Tjebu (Kairo CG 20005)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Tjebu (Kairo CG 20005)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6RGXWWWEDVCTNCZ5YKDADTIDI4">
+<support>
+<objectType ref="ths:CUNICVTWNNF6VN2RUTXZNNN444">rechteckige Stele</objectType>
+<note>Kalkstein; 53 x 72 cm (H x B)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GAQRDJP4OBB27JFBUQHAKXFEK4" notBefore="-2135">9./10. Dyn. parallel zur frühen 11. Dyn.</date>
+<date type="latest" datingPoint="ths:GAQRDJP4OBB27JFBUQHAKXFEK4" notAfter="-2027">9./10. Dyn. parallel zur frühen 11. Dyn.</date>
+<note>Laut Schenkel 1962 nicht älter als Antef Wah-anch, laut Schenkel 1965 11. Dynastie, aber älter als Montuhotep Nebhepetre.</note>
+</origDate>
+<origPlace ref="ths:FYDEOYNWHJEBDHP62FVCZ5PQHY">Dra abu el-Naga
+<note>Laut Lange &amp; Schäfer aus &quot;Drah abu-l-Negga&quot; aber laut Winlock vermutlich aus der Antef-Nekropole von et-Tarif (gefolgt von PM).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of Ancient Egyptian Texts, Reliefs, and Paintings. I. The Theban Necropolis. Part 2. Royal Tombs and Smaller Cemeteries, Second Edition, Oxford 1964, 598 [B]
+- K. Lange und H. Schäfer, Grab- und Denksteine des Mittleren Reichs im Museum von Kairo, No. 20001-20780, Bd. I, Berlin 1902, 4-5 (Nr. 20005); Bd. IV, Tf. I [P,H]
+- H.E. Winlock, in: AJSL 32, 1915, 19 [K]
+- J.J. Clère und J. Vandier, Textes de la Premiere Période Intermédiaire et de la XIème dynastie, Bruxelles 1948, 2-3 (Nr. 3) [H]
+- W. Schenkel, Frühmittelägyptische Studien (Bonner Orientalische Studien, NS 13), Bonn 1962, 113, § 42d [zur Datierung]
+- W. Schenkel, Memphis - Herakleopolis - Theben (Äg Abh 12), Wiesbaden 1965, 119-120 (Nr. 90) [Ü]
+- R. Landgrafova, It is My Good Name that You Should Remember, Prague 2011, 52-53 (Nr. 16) [H, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 20005</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DBKLA7WDTRCKHMQSAK36XDX75Q.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Renata & Peter Landgrafova & Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>11-4fb0000113b22f9c243152811f814224</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdzImanjsW0eBgLGZtxBrwHA">
+<w xml:lang="de" corresp="src:tlaIBUBdyHiOdxviExbpQyGiFUBYWQ">Totenopfer; Gnadenerweisung des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9y15eJFSUWsuGIDOmumP2s">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9DV7AabVUzKi4XkkxGmq6I">der auf seinem Berge ist (Anubis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQ8297hcUJQiJykkpXNSQA">Imiut (Anubis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3R4uWVxnkL5iuQPJ3UJ6BE">Herr der Nekropole (Anubis u.a.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8TirIeJck9iinP7W7VPHXQ">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd40Zl7umJk7pve4g53jKgUQ">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2gVcFEKikNdmiQ8IShwi0o">Würdiger; Versorgter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQcwrWcUCEdopTol0gPF9IU">bei (jmdm.) (meist Höhergestelltem)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9YrxUwOYUlulZWy43Md2zY">der große Gott (Gott)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4BbxfpQukOjkIQ57GcO7Qk">Herr des Himmels</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Xw50zWJ0MknwLW7HCchbU">bestatten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1gIiWcqYEDXh941XW8ovIo">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90hd8BiHk5YohpLdwS6950">gut</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0O4liWMgEuDlPSNfXmWA5o">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3IW2LceekIGmETSfUJcFkI">Grab</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8r4HT86WE9tvODAkcgFpw8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8q3Q45tuUCBtkuqNhpkuGI">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5LUcXhijEwQgSRCZwmFWDw">Nekropole; Totenreich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7HX3ddbVEG0jQMGxX3nAt4">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Gyi6TZekJHtpZ7H6xyFoQ">Würdiger; Versorgter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6P2IHzN90yLh3QXdsI4gs0">bei (jmdm.) (meist Höhergestelltem)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdziLDCblPUK7quoG09t58BQ">Month</w>
+<w xml:lang="de" corresp="src:tlaIBUBd52XjyA4nEXSu0dfVKS2oNw">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwbLrjJt70lQhDNALNCJs8k">Herr von Theben (Month, u.a.)</w>
+</s>
+<s corresp="src:tlaIBUBd0kuxfIkD0SYvvYUQs2ELWY">
+<w xml:lang="de" corresp="src:tlaIBUBd3N0MVYZnU1piZsNXouXwpo">Totenopfer; Gnadenerweisung des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3itZfCMO04HoI25UbjcbZI">Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2tMCvN7JE5ykMCllMk6GM8">Herr von Busiris (Osiris, Horus u.a.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxWQO7Hli0CNnRkdW4o9b1A">Chontamenti (&quot;der an der Spitze der Westlichen ist&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw6CN0AcRUIpivwAY0itaeU">Herr von Abydos (Osiris u.a. Götter)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ae2UZ4iUIQoAJSDEtZhak">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQiP9e4jk0Qr9i5AgTAPmo">Herr von Sepa (Anubis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1d6hOkPy0hSknJVRPR2fyM">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwsRDSsvr0ASsCPrN8Ak1a8">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyyir34HAU7EhZxeqL5Xglg">Siegler des Königs von Unterägypten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5bBzzm5nEFJssPP2kIWhVE">[Titel oder Epitheton einer Privatperson]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6mXm9AVS0X6nHOWr4Lxt9I">Hausvorsteher; Gutsvorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw7WnFpTK0EJuHcVApzvqaQ">Würdiger; Versorgter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyZAQXcnekUUjfkTCWomswQ">PN/m</w>
+</s>
+<s corresp="src:tlaIBUBd4igfjDYYEsWsyio2nJtifw">
+<w xml:lang="de" corresp="src:tlaIBUBdx3VJR4kxEBGof2gPOSBw8s">anlanden (&quot;sich mit dem Land verbinden&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQbhtKeOO0CjhQsJAXQYaMk">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0aTnBmCak8UnYKQCCzPa7k">Erde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5DZzszMY0mboZS1uevDALI">überqueren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWDtxCxctkHUkqvikxyoiX8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Vu8Hy6sUSMjTQXTWFBQ7c">Firmament</w>
+</s>
+<s corresp="src:tlaIBUBdxRZHkuPtU2ctsLq1zy1plE">
+<w xml:lang="de" corresp="src:tlaIBUBd4FtTcBo6UZvjQzJQo5EDww">ausstrecken</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ6iPLQljE7VuIai0QSFHcY">Wüste</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Yu2FdVskwynXX2snNi1V8">westlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWsQYB1C8U8ZlZiTAIwshaU">Arm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9JXkxPp3k0yrpGELwq9udw">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWuXXojTEDZjKrF6nWJkDY">[in Richtung auf (e. Ort, e. Sache, e. Person)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Xt59Q4rEu7qz8t7ZQnc9M">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWmKJQ2JQUDagRELJJQBo4w">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7fa8x9xPkISqP51WkTrdMU">Weg</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8pkMeEEhkUXjXscDarxow0">Würdiger; Versorgter</w>
+</s>
+<s corresp="src:tlaIBUBdxyOLDEwykBUtu3bG2GWxPM">
+<w xml:lang="de" corresp="src:tlaIBUBd8LYBTDGuE44k04izQdC7MA">folgen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5uvFh2dh0XjiKU6wjQeyH4">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz0dhjZtL0THvulMWGrUKWQ">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2AWPr8Lq0FQrq8qrHJy6QU">Horizont</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQrGcW7zksyoaAFzVB2bJk">durch; seitens (jmds.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd04m2EjYb0V8iLWuYwK7icc">Besitzer (von etwas)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2uezip5Wkqaka836ebdFgg">Sache</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzTCwIAdKEHnkAiGTpWjrGw">der welcher (Relativpronomen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4vRLjTb8UQ1oxolyG9yW4c">hinter (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9D4kWRfgkmGosc6zi5kZe0">der große Gott (Gott)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHSkrBTLUtwvqFkC3lmGco">Herr des Himmels</w>
+</s>
+<s corresp="src:tlaIBUBdzM6bgrxMkcMqr1JzrRiUG8">
+<w xml:lang="de" corresp="src:tlaIBUBd2pngmnbMkLVjSv3VrZXGIs">etwas opfern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd47UlBjWaEH8jWAnJssQarI">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwphAJQbh0vVnlhWCe5MXVQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9IVBKHQ9EkogtUuiW9GDJg">Opfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyMUGge4Rk5TgcXTM5uMWac">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5zKkw6pNk2Mm7ooi0qkSwE">Wag-Fest (Totenfest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzRqGI1GWU6xvRuzJRvssc0">Thot (1. Monat der Achet-Jahreszeit)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwtaDuGRV06mqcbIlTAaNRA">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8qs19GPIkoWp4gaBFLZAVI">Neujahrstag (Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwdAn9EiMEAiqhkRgdlxumM">Jahresanfang (ein Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1101Kgs5UhntYuqLmJiJZg">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3imW4WavEDfupI8DCT7ggo">Sokarfest</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Qyf77SJEGRq6BoWQetGpQ">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Yr3nQWBERpsLvW5ykOZgE">Fest</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ODspxplkjhsQz967eQny0">Jahr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ePrSqozUDMsO7cGPeoeUs">Hausvorsteher; Gutsvorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ihnqUCPEiumARVrhkoQjA">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3VBH3aWR0Iptc8Ts9CRWCw">sagen; mitteilen</w>
+</s>
+<s corresp="src:tlaIBUBd6B08tIO8EQ2lNVeRNcEoDI">
+<w xml:lang="de" corresp="src:tlaIBUBd4G2SDYkhEOtpCimcsTh3EE">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8xvKo95V0R9kfOPg5Tuotg">fungieren als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9PQrvAz1E0Hto8SQjIW0h0">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd64Td9BpWUNxmSJQmiH4ZUo">Hausvorsteher; Gutsvorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz4dGDGMyUIRrQVlpQ4WWdA">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQUkWGbBAkVopQQlzQ6wVxY">Herrscher</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzGdPxQr8E89m3TbcQVQQYs">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEnE8Kv2EM7pG12IDaGgAA">niemals; [Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7I2HWs9zEF7nvOoKvOWtuo">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzMbnyok2UwakLJ8X5jgi9k">Sache</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyYOtcDEKEgmtAQa1xUH5ew">dadurch</w>
+</s>
+<s corresp="src:tlaIBUBd4dl7xB8g08voWW9YZg0cpY">
+<w xml:lang="de" corresp="src:tlaIBUBd2DCj6hrVUP1v06YskvdA98">ich [Selbst. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1wuI67sQEXRrh1GeaPzuwA">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQnXC289pk8wh2mrg5cj24w">Rechtes; Wahrheit; Gerechtigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8tDqmKiCEZAiwNprDnM7qU">erreichen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWzPtqrSGESFiWmsezvdWLg">[in Richtung auf (e. Ort, e. Sache, e. Person)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVQaJ3gb0fvtWYE0QTsAcw">Versorgung; Würde</w>
+</s>
+<s corresp="src:tlaIBUBdxbmyD3NMkpuo2D5h49mh1I">
+<w xml:lang="de" corresp="src:tlaIBUBd2MSKoQTrkD8joPVWhNkbm0">Genosse</w>
+<w xml:lang="de" corresp="src:tlaIBUBd062cjF3J0QrgE31dtWUy0Y">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyvz4vXQ20L2vfQQZ433F78">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd58jWda7WUYOnAqAFzFQ20Y">Mensch; Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8i6qen0YUcnknkr9lsTQOw">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2viNQGGz02YkNTaJaIwSpw">vorbeigehen; passieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54uTWjkUELJjPMkNUbPeSM">[Suffix Pron. pl.3.c. (Verbaladj.)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWYdKHHFw0YliBQhJfGgpsk">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd93ylRYfKEF3sXSWQQXlNQ8">Grab</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7IPj4x3EEajtSxTRghKRdg">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1MlWXkBD0aquiD7oapuhPQ">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9BJJs2bQk9hpqHuxTWV4fU">[Suffix Pron. pl.2.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1D8JnOUPkqCgj8Q0GVoZW4">Sache</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1FZw3jSRk8JmHljxkPUyMY">alle</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz9gSeLso0hytGVKUKGHJq8">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0vW66ZDQkq9juc2HI6z4rk">Würdiger; Versorgter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQABs0y4t0u8rImvdrX2L3Y">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7UgZYjCMUFGvHAWkRa9Q9Q">Vortrefflicher</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwS5NsH8xkLJhkzCWtwmQy4">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBUBd48VPGBmiEIhh7UChWwcaJU">
+<w xml:lang="de" corresp="src:tlaIBUBd3eoe0YnuUmAn2tN5Suc0TM">PN/m+f</w>
+</s>
+<s corresp="src:tlaIBUBd2StsBRBik20ihjNmZmFUC0">
+<w xml:lang="de" corresp="src:tlaIBUBdx4DmnAJQkLAoJjgQEVWMW0">Frau; Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0BW8znfCUHUtApGou8PXMI">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6jeKopL0EybsFEbDyfm0NI">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3HQA0ISqkqZhJI4P6L0iYw">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWPNKCZqIUUJk9mNYXpWeOk">Einziger Schmuck des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0kuHofgUkWqjD8MikPEinE">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0p7TiSHVUpouexJtcNoU3o">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8lCQwSSs0nXo18pAuXv5zg">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxKtXES1QEv4pi2cTEHItPI">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwzYZtAEOEydvxwWSDyJ5mI">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyvmyBA3DEWhnW6VEWol1mQ">trefflich; nützlich</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

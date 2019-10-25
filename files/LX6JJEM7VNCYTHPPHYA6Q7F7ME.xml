@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLX6JJEM7VNCYTHPPHYA6Q7F7ME">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Türtafel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Türtafel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LX6JJEM7VNCYTHPPHYA6Q7F7ME</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Eingangstür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Türtafel</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3TCAR7VMRVHI3FSOGIKE7IDQVE">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1931-1932, Cairo 1941, 43-45, fig. 38-39, pl. XVIII-XIX.1 [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LX6JJEM7VNCYTHPPHYA6Q7F7ME.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f393622771902dc8241ba5d2732c70aa</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6bmdsfiN0twh0U0NwGjH9g">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9geOLDkPkuus0re6K5deGo" lemmaRef="tla:tla550338"><fs feats="epitheton_title title"/>sḥḏ-ḥm<supplied reason="defective">,w</supplied>-kꜣ</w>
+<w xml:id="tlaIBUBdzcCez2UEUJ2hoR8WeP5qbU" lemmaRef="tla:tla852297"><fs feats="entity_name person_name"/>Ḫwi̯-tʾ</w>
+<w xml:id="tlaIBUBd82hn8MhPUAWoVg5GxoJoOY" lemmaRef="tla:tla104730"><fs feats="substantive substantive_fem st_pronominalis singular"/>ḥm,t</w>
+<w xml:id="tlaIBUBdWyXj1ml7kNyqEK3uJCvWSA" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd9afDg2SakERl1j4BbYswoE" lemmaRef="tla:tla703450"><fs feats="entity_name person_name"/>Nfr-ḥꜣ-nswt</w>
+</s>
+<s xml:id="tlaIBUBd0LVbTBGP0ShqxdQrStdKaI">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd5jFIe83jkdWj0YKUK5IN2s" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd8ybHxuW3EtfiGFsIATNZOI" lemmaRef="tla:tla450112"><fs feats="entity_name person_name"/>H̱nm,w-ḥtp,w</w>
+</s>
+<s xml:id="tlaIBUBd6pYASm2z0n8mW6o3gkDYkw">
+<w xml:id="tlaIBUBdQ7JaKdcH0qBp488UJs6uUQ" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdyaTgNwea0EqqH2xJiHaw3Q" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_pronominalis singular"/>kꜣ</w>
+<w xml:id="tlaIBUBdWgsjRZw30EpnY0UP1tW8ew" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd65u8kLXJEJKiCHLldhf2Zc">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdzlqsWkkdUdXmApZO64HrLk" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd8hmpdhE4US9qn44NSpb3HI" lemmaRef="tla:tla852298"><fs feats="entity_name person_name"/>N,j-ꜥnḫ-Ḏḥw,tj</w>
+</s>
+<s xml:id="tlaIBUBdycqcVQB0kGtnWD9zALQ5gw">
+<lb n="[4.1]"/>
+<w xml:id="tlaIBUBdWPXChgo20lUvWj9eWEufjI" lemmaRef="tla:tla125630"><fs feats="substantive substantive_fem st_pronominalis singular"/>zꜣ,t</w>
+<w xml:id="tlaIBUBdwnV8DYrAUNOlwk3KQ3pQUQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[4.2]"/>
+<w xml:id="tlaIBUBdQP3AsRuq0jVjAI01w3Zr4Q" lemmaRef="tla:tla852299"><fs feats="entity_name person_name"/>N,j-kꜣ,w-Ḥw,t-Ḥr</w>
+</s>
+<s xml:id="tlaIBUBd4h3s92YOEenoJblrK5gVAE">
+<lb n="[5.1]"/>
+<w xml:id="tlaIBUBdyikWUYhXkdOkGJtDU0Hhh8" lemmaRef="tla:tla71170"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mnḫ,t</w>
+<w xml:id="tlaIBUBdyEBCys6eEXotzQ5zcHPYA8" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBdWPecS2RCEJIkpJQp91j2mQ" lemmaRef="tla:tla66260"><fs feats="substantive st_absolutus singular"/>mꜣ-ḥḏ</w>
+<w xml:id="tlaIBUBdWWPHzeVrEaSgZklgciOojI" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<lb n="[5.2]"/>
+<w xml:id="tlaIBUBdy2Q98d20UhFsOYLccNWtyU" lemmaRef="tla:tla156950"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>šs</w>
+<w xml:id="tlaIBUBd5UxeVrvBEKhi63Ty8EfaQc" lemmaRef="tla:tla30410"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jḥ</w>
+<w xml:id="tlaIBUBd0yxxkQDo00mj70kSbcAojQ" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

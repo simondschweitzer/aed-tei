@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idOLTDJUBSSVDN3DZIMEJABHJQIU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>OLTDJUBSSVDN3DZIMEJABHJQIU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Vogeljagd</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaLERSV5JZIRBSRIL2AEFPW6XJT4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notBefore="-2383">Unas</date>
+<date type="latest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notAfter="-2364">Unas</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Unis Cemetery at Saqqara II: The Tomb of Iynefert and Ihy (reused by Idut), (ACE Rep. 19), Oxford 2003 [P,F,U,Ü], p. 18-19, pl. 7, 8a, 37b.
+PM III/2 616</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="OLTDJUBSSVDN3DZIMEJABHJQIU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-705ebd40c39e6b70b64f4e6c51bd4597</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdwAB1vR5BkGJuNcYeh1xY54">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd67xIlTwhUiLlzRd816qBKQ" lemmaRef="tla:tla109840"><fs feats="verb verb_3-lit infinitive"/>ḥsb</w>
+<w xml:id="tlaIBUBd1gTrLNBcU8fpvMUvTWDyoY" lemmaRef="tla:tla854538"><fs feats="substantive substantive_masc st_absolutus plural"/><supplied reason="lost">ẖnm.w</supplied></w>
+<w xml:id="tlaIBUBdW4ojEQzaUQckTAtqpYnCsk" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd9JIghCOYUxvpEPB26mHIE0" lemmaRef="tla:tla61380"><fs feats="substantive substantive_masc st_absolutus plural"/>pḥ,w.pl</w>
+</s>
+<s xml:id="tlaIBUBd9W9bJWzj0sElDNwu9NnqxA">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdzlJ5uCsxUQWjT75ehCvnf0" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-<damage>ꜥ</damage></w>
+<w xml:id="tlaIBUBd0YnWORPg0rsgJi6qoOkGiM" lemmaRef="tla:tla850397"><fs feats="epitheton_title title"/><supplied reason="lost">jm,j-jz-</supplied><damage>Nḫn</damage></w>
+<w xml:id="tlaIBUBd9a2Nx6QWUTGkoWKrlxz1U0" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd9kHMeWRQU4xhuocRewFQsM" lemmaRef="tla:tla450419"><fs feats="epitheton_title title"/><supplied reason="lost">jm,j-rʾ-zẖꜣ,w<supplied reason="defective">w</supplied>-</supplied>ꜥ-<supplied reason="lost"><supplied reason="defective">n</supplied>-nswt</supplied></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd2kFsWRznEpspgvZXWzKjG8" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/><damage>smr</damage><supplied reason="lost">-wꜥ,tj</supplied></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd9QWFNWPV0LYtdgs4yv9EV8" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nṯr-ꜥꜣ</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdQuiQbXWIkQfiGCOv898tHY" lemmaRef="tla:tla850391"><fs feats="epitheton_title title"/><supplied reason="haplography">jmꜣḫ,w</supplied>-ḫr-<supplied reason="lost">Wsjr</supplied></w>
+<w xml:id="tlaIBUBdwil0ITs1kGEq8rP1Q2b4zQ" lemmaRef="tla:tla851781"><fs feats="entity_name person_name"/><supplied reason="lost">Šꜣ-</supplied><damage>n≡f</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

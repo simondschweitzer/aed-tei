@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroGAXDBR27GZF4PDK6MDTAJLCZ6I">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Hordjedef</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Hordjedef nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GAXDBR27GZF4PDK6MDTAJLCZ6I</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:I6LLY3EJVRAWDAR4GCRBLA425Y">Oriental Institute Museum</repository>
+<idno>OIC 17002+17003</idno>
+<msName>〈03. 〉oChicago OIC 17002+17003</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Hordjedef</title>
+<textLang mainLang="egy-egym-Egyh-Egyhltb">frühes und klassisches Mittelägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaO6O55L4FBRC2FFUDDB26H6HM2Q">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Ramessidisch</note>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+<note>Angekauft in Theben (Posener, 109).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Posener, Le début de l&#039;enseignement de Hardjédef (Recherches Littéraires, IV), in: RdE 9, 1952, 109-117 [*P,*T,Ü]
+- W. Helck, Die Lehre des Djedefhor und die Lehre eines Vaters an seinen Sohn, Kleine Ägyptische Texte, Wiesbaden 1984, 1-6 [T,Ü]
+
+- W.K. Simpson (Hg.), The Literature of Ancient Egypt. An Anthology of Stories, Instructions, and Poetry, New Haven and London 1972 (= 1973), 340 (Übersetzung Simpson: nur Helck § 1-2) [Ü]
+- M. Lichtheim, Ancient Egyptian Literature. Volume I: The Old and Middle Kingdoms, Berkeley, Los Angeles und London 1973 (= 1975), 58-59 (nur Helck § 1-4) [Ü]
+- W. Helck, Die Lehre des Djedefhor und die Lehre eines Vaters an seinen Sohn, Kleine Ägyptische Texte 9, Wiesbaden 1984, passim [Ü]
+- H. Brunner, Altägyptische Weisheit. Lehren für das Leben, Darmstadt 1988, 101-103 (Text 1) und Anmerkungen auf S. 430-431 [Ü]
+- A. Roccati, Sapienza egizia. La letteratura educativa in Egitto durante il II millennio a.C.,Testi del Vicino Oriente antico, Brescia 1994, 25-27 [Ü]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 47-54 (2. Aufl. 2010, 77-84 mit Nachträgen auf 85-88) [Ü]
+- G. Burkard und H.J. Thissen, Einführung in die altägyptische Literaturgeschichte. I. Altes und Mittleres Reich, Einführungen und Quellentexte zur Ägyptologie 1, Münster 2003, 81-82 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:I6LLY3EJVRAWDAR4GCRBLA425Y">Oriental Institute Museum</repository>
+<idno>OIC 17002+17003</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GAXDBR27GZF4PDK6MDTAJLCZ6I.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhltb">frühes und klassisches Mittelägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>14-7fa32cbdda777dc7bdd293a68b8d63d4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQHlJY3HkkFYvZmd6tcWmbg">
+<w corresp="src:tlaIBUBd61iJdRghEAlhv5w8PJ32W8"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd88jDN9JdE9cnYiBu0AhdcY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd4PDKGR87EbQq3yaluNbpMQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdw14i8Nw9EfShsS3cB8Q4mE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd3ytgS2e4Uianwjilvew1ks"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd5c91K1CmETQlCm8QLQRxXk"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd7js2WkuQkGPuWhk7Qlqmss"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdz1rEfeaW0salOUE0W7YalI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdQGgSL5J0kyXonFgoLPn9AU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd7gVxvi3NUdxv7p1rO8MVhM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdQs0o9zLwEkfpzSa9G4XGm0"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1U99wWa8Easg2GLRrGEBU0"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2T4FZH4rEmctRzKrkCmsSw"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd0LgKSzTAE9OrlY4kKk5XwU">𓇳𓄫𓏲𓏏𓄣𓏤𓀀</w>
+<w corresp="src:tlaIBUBdzdU9goKBkb4sH0pXe2OoP8">𓂋𓈖𓀁𓀀</w>
+<w corresp="src:tlaIBUBd6dhYcZqtUrWqxfJJ1mAnR4">𓆑</w>
+<w corresp="src:tlaIBUBd509l9i4cUBZgmiC5gNISIg">𓆓𓂧</w>
+<w corresp="src:tlaIBUBd1FtQ5w4LE7voNIP2rQ1np8"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd2nu7k85oUhQkSVMANagIJo">
+<w corresp="src:tlaIBUBd0VKD1uHbUc3rFzSXzNvXWY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdzpXzt5eYEl4k9yD6W1Y2IM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2CWPLEOgEf6qbVtCMnTBKQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd7GS3tyQWECBkobtOHAkk5g"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2jQ3aZO1kiGv0P72WGS7w4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd9oyyp32M0cgre8hT1i3ihs">
+<w corresp="src:tlaIBUBd95D7cm8eEhZgAOts964umQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdWVUNB3QV0fWuWSvd7gHWhE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdzw4Q7sOc091iF94cxd4MuI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1ujcxBvOkaruW0KAXnvIc0">𓎢𓇋𓇋𓀀</w>
+</s>
+<s corresp="src:tlaIBUBdyBxnhhzWkprqDyRaj39QZg">
+<w corresp="src:tlaIBUBd3J2zVQ5Kkn7nUCj4uuWA6E">𓇋𓂋</w>
+<w corresp="src:tlaIBUBd6JPCgrT4Erdod2dxsR3aFo">𓇋𓈎𓂋𓏛</w>
+<w corresp="src:tlaIBUBd9YCofMHO00Qsa0CAZWkBpE">𓎢</w>
+<w corresp="src:tlaIBUBd2Gpk2hWbkh3k0eoxuQIWA8">𓎼𓂋𓍅𓏛</w>
+<w corresp="src:tlaIBUBd9J2m7dpdkVrusa56AXOS6k"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2AcIVKFQUomvTU7Czmhc9I"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdx2jfWODwUqEsdOxW0YFbvQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdx0Q6ay6P0gvqVzdTdMhNoc">
+<w corresp="src:tlaIBUBd8SS9mQEqUY4lSAHpQP8laA">𓁹𓂋</w>
+<w corresp="src:tlaIBUBd8B9vej9lU7ksd6OArM4stw">𓈖</w>
+<w corresp="src:tlaIBUBdWjvrRikoU5WoGu7zvwVITg">𓎢</w>
+<w corresp="src:tlaIBUBd2SX3Kox60rmgSjhEMU19Ig">𓈞𓏏𓁐</w>
+<w corresp="src:tlaIBUBdWJNvIYwtEfNs2nLg33VSwE">𓅓</w>
+<w corresp="src:tlaIBUBdxP1mDYs4EfhpOmJlYvtLqQ">𓎟𓏏</w>
+<w corresp="src:tlaIBUBdwU9nBJGo0RtgUx2qK7QmDM">𓄣𓏤</w>
+</s>
+<s corresp="src:tlaIBUBd7q745ibo0yajcTaBI2d0Zk">
+<w corresp="src:tlaIBUBdQYvu8rOXUnNgULLYBFzgXk"><unclear>𓄟𓋴</unclear></w>
+<w corresp="src:tlaIBUBd79vo6qy9UVCiyEYjmrlGts"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd9UUSZVYwE8xnCQGtKgLQO4">𓎢</w>
+<w corresp="src:tlaIBUBd1MMVMyFWEgUuzEaL6PP2Lk"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd41vvnRWFE8EreN1d4H70yo"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd5KymH9FpkiruwW1BuedbSw">
+<w corresp="src:tlaIBUBdQk5krLpPk7ahcM0Wj2SAe4">𓇋𓐪𓂧𓏌𓏲𓀨𓀜</w>
+<w corresp="src:tlaIBUBd5XZfTGzF0pxv9huq3WQ0Vc">𓎢</w>
+<w corresp="src:tlaIBUBd72zecZgpEpwqpIlWyZxZbA">𓉐𓏤</w>
+<w corresp="src:tlaIBUBdWyPniQWaUgiocN902QeSHk">𓎢</w>
+<w corresp="src:tlaIBUBd2gW5PLzW0DEhkvoOCFiBLY">𓈖</w>
+<w corresp="src:tlaIBUBdzXqrdME80h8mMP1OlIiScg"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd8wadT4SAkhpmboGKblWIxk"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdW5QOLLa6Ee0pGqAnFtMDGw"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd6usyV50Qk72pda38Zq2Q3U"><unclear>𓏲</unclear></w>
+<w corresp="src:tlaIBUBdWjgzSfZlkTUgRRWx3cBYcI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd4X4R6UjkEYVtxhlaxKmoq0">𓎢</w>
+<w corresp="src:tlaIBUBd6cZBT68EUXIvkxg8jFvj2M">𓃀𓏲𓈇𓏤</w>
+<w corresp="src:tlaIBUBd7oQp156QElHvyv5blWN20M">𓃹𓈖𓈖</w>
+<w corresp="src:tlaIBUBd5r8xISQG0nopl2cQSikyQc">𓎢</w>
+<w corresp="src:tlaIBUBdQ8Y47rtkUJwjD3mmvZQr8Y">𓇋𓅓</w>
+<w corresp="src:tlaIBUBdWgeJhfQbEeeoN7BKEa5Q5M">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBdwrRCW3WiE6yobfMVfZzUOw">
+<w corresp="src:tlaIBUBdxPzWs3Mqk78uN5bcIY3Ry0">𓋴𓏠𓈖𓐍𓍊𓏛</w>
+<w corresp="src:tlaIBUBdyPPgRwCmkZwnLSopIEEWmo"><unclear>𓉐</unclear></w>
+<w corresp="src:tlaIBUBd5lWf67Byk8YhAQL15lZX3o">𓎢</w>
+<w corresp="src:tlaIBUBd7THEkaaS0WnuDHkwkxSsCg"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd7zZumAeg0TYuEtBcCkfa1k"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdzVzrZVgF05Orveghvc4pJA">
+<w corresp="src:tlaIBUBd8TZddFYlEf8v9aUHsEwfFU">𓋴𓇋𓈎𓂋𓏛</w>
+<w corresp="src:tlaIBUBd8vjDQuCrEysvdqWOGqZybk">𓊨𓏏𓉐</w>
+<w corresp="src:tlaIBUBd21WjQuXOUqIrlnIGLQRXXk">𓎢</w>
+<w corresp="src:tlaIBUBd4l4LFp5GUiVvZEWeWGAY9A">𓈖𓏏</w>
+<w corresp="src:tlaIBUBd61WW9SUu022uMuXkrbp8Hc"><unclear>𓋀𓏤</unclear></w>
+</s>
+<s corresp="src:tlaIBUBd6pnrLcRu0AAmwJDU7e3DMI">
+<w corresp="src:tlaIBUBd6RoO92Hhk0Fixx5tsJVH5k">𓊏𓊪𓀜</w>
+<w corresp="src:tlaIBUBd7ESNt8yWU8Zl6fDfwkR8BI">𓂧𓇉𓄿𓏭𓂢</w>
+<w corresp="src:tlaIBUBd8pxm63xmkqfjhbH8tqn8dk"><note>Keine Entsprechung in Unicode für nn</note></w>
+<w corresp="src:tlaIBUBdW6yVwlgnkRjuWXrcXSjwkY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5cndilArU0UkB70cOkWPTU">𓅓𓏏𓏏𓏱</w>
+<w corresp="src:tlaIBUBd5gWtjGfjEZZio5oZYFUsao">𓊏𓊪𓀜</w>
+<w corresp="src:tlaIBUBdz6YxalfeUtrjzTSIaE2tpc">𓈎𓄿𓀠𓏛</w>
+<w corresp="src:tlaIBUBd3kqyTNyWUaTlzWyygM57Vo">𓈖</w>
+<w corresp="src:tlaIBUBd5d1plEAb0tfoGVlzeeq5n0">𓈖𓏥</w>
+<w corresp="src:tlaIBUBd39bWEG4WUHViLlbYe2zo2Y"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdz4JD7rWIEjiko1hDxG5oCk">
+<w corresp="src:tlaIBUBdzxwgOyUWEUslRDNty5klmM">𓇋𓏲</w>
+<w corresp="src:tlaIBUBdQokYXM6fkl1nco7ZFiF8nc">𓉐𓏤</w>
+<w corresp="src:tlaIBUBd6BsoTGhn0Gzi1h1DFQut6c">𓎢</w>
+<w corresp="src:tlaIBUBdw8OYQu5ekREtmI8k6ABJqU">𓅓𓏏𓏱</w>
+<w corresp="src:tlaIBUBd6fNiEYQSU5uj1n20Nzr8PA">𓈖𓏏</w>
+<w corresp="src:tlaIBUBdywghFQ6jU1RoaWp9fqKTHM"><unclear></unclear></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

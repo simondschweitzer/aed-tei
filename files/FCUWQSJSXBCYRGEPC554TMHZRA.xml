@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idFCUWQSJSXBCYRGEPC554TMHZRA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift Schlachtungsszene</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift Schlachtungsszene nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FCUWQSJSXBCYRGEPC554TMHZRA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>nördliche innere Türlaibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift Schlachtungsszene</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaV3RT3E4ORRB3DDIWOZUXGLI3W4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1932-1933, Cairo 1943, 138, fig. 79 [H, K, Ü]
+LD II 14b; LD Text I, 104</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FCUWQSJSXBCYRGEPC554TMHZRA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-2bffe0766088aaa2bb53643b0b4d413f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdw7tvWxFUk7dhusHrdbPJUo">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9LzM8mpTkcHpQnYsir0CMg" lemmaRef="tla:tla91670"><fs feats="verb verb_4-inf infinitive t-morpheme"/>nḏri̯.t</w>
+<w xml:id="tlaIBUBdyC7mVWaCE1fldjAIykmQo8" lemmaRef="tla:tla89590"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ng<supplied reason="defective">ꜣ,w</supplied></w>
+<w xml:id="tlaIBUBd3PHHcJuvELIu8N8K4YmTjc" lemmaRef="tla:tla155450"><fs feats="verb verb_3-inf participle masculine singular active"/>šni̯</w>
+<w xml:id="tlaIBUBd1qz5kHVqUSUlANSJ0y2vx4" lemmaRef="tla:tla450161"><fs feats="adverb"/>wr,t</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd7ITWqz4NENQlxI33jd8btQ" lemmaRef="tla:tla26660"><fs feats="preposition"/>jn</w>
+<w xml:id="tlaIBUBd5RSOGzP7kpgpCGAAqGQWD0" lemmaRef="tla:tla31080"><fs feats="substantive substantive_fem st_pronominalis plural"/>jz,t.pl</w>
+<w xml:id="tlaIBUBd3rDxBxFnEJ7u3QFkjQ8Cxw" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

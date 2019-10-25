@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idFI4UBR45XRD5JGQLI5RRX4QXYM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 585D</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 585D nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FI4UBR45XRD5JGQLI5RRX4QXYM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Nordwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 585D</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBI3IPVPVLFCQZLSTNLLGPBIQCE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. X [F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005,  [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FI4UBR45XRD5JGQLI5RRX4QXYM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-f9de18048fb82df0d4301e7ea661a12f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0awazAks0bxmnP7vi4cB4U">
+<lb n="[P/A/N 13]"/>
+<w xml:id="tlaIBUBdwM6dqZCnUEPoYfd4V1clq8" lemmaRef="tla:tla186050"><fs feats="verb"/><supplied reason="lost">ḏ<supplied reason="defective">d</supplied>-mdw</supplied></w>
+</s>
+<s xml:id="tlaIBUBdyIIIHQz0Eniv8KldJdlwgU">
+<w xml:id="tlaIBUBdQQ9YL1mZ0gQrJQUErWW4a4" lemmaRef="tla:tla850806"><fs feats="particle"/><damage>n</damage></w>
+<w xml:id="tlaIBUBd7aG3U2QSEaQklWEQhHZyxk" lemmaRef="tla:tla64280"><fs feats="verb verb_3-inf suffixConjugation n-morpheme active"/>fdi̯.<supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdxQgadQ8yEu0oUNWHJDwBMw" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/><supplied reason="lost">Ppy</supplied></w>
+<w xml:id="tlaIBUBd6xfUdFmlkuNuhRp9EteqH4" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">pn</supplied></w>
+<w xml:id="tlaIBUBd45XDB5ofk9OpzTBN4Dj9no" lemmaRef="tla:tla158980"><fs feats="epitheton_title epith_god"/><supplied reason="lost">qꜣ</supplied></w>
+<w xml:id="tlaIBUBd9YvBdvv10F0jbz4Qca6dds" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBd12QvmGZHEcXghXNOZkTrjg" lemmaRef="tla:tla854540"><fs feats="substantive substantive_fem st_pronominalis singular"/><supplied reason="lost">s,t</supplied></w>
+<w xml:id="tlaIBUBd77MkjvRJEHFsBKIsYjXeJs" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+</s>
+<s xml:id="tlaIBUBd5brZzuXxEpKqSX2R19sVMc">
+<w xml:id="tlaIBUBdztuMiVGfU3evkp7PVUzQc8" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/><supplied reason="lost">Ppy</supplied></w>
+<w xml:id="tlaIBUBdQwFXRhxrEENtpEZ9aA7DaI" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">pw</supplied></w>
+<w xml:id="tlaIBUBdQSvW2LDNUWrrQgDISQw12g" lemmaRef="tla:tla852782"><fs feats="numeral ordinal"/><supplied reason="lost">fd,nw</supplied></w>
+<w xml:id="tlaIBUBd9XjR8OhUkxyngMeYa5l8tA" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/><supplied reason="lost">n<supplied reason="defective">,j</supplied></supplied></w>
+<w xml:id="tlaIBUBd4rEK9tWMESlikJSh3jGUP0" lemmaRef="tla:tla850571"><fs feats="numeral"/><supplied reason="lost">fd</supplied>,w</w>
+<w xml:id="tlaIBUBd2mQawr9mUzstpQ2EqTKbh4" lemmaRef="tla:tla854318"><fs feats="pronoun demonstrative_pronoun"/>jpw</w>
+<w xml:id="tlaIBUBd4ngitWb6Epas9u6Nn8WQPQ" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/>nṯr.pl</w>
+<w xml:id="tlaIBUBd7W7C0rxBUIhnRHmS1FIpco" lemmaRef="tla:tla60920"><fs feats="verb verb_3-inf participle prefixed masculine plural active"/><supplied reason="lost">prr.w</supplied></w>
+<w xml:id="tlaIBUBd2DpQCY0kE8JhFcubu18eiM" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBd60rr1TPDU8Ct2uMKEuFSwk" lemmaRef="tla:tla45530"><fs feats="substantive substantive_fem st_constructus singular"/><supplied reason="lost">wp,t</supplied></w>
+<w xml:id="tlaIBUBdwWlwSMHyky0pWgqnmm3nSM" lemmaRef="tla:tla167010"><fs feats="entity_name gods_name"/><supplied reason="lost">Gbb</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

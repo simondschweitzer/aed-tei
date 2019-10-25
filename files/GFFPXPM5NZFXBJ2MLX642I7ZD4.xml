@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGFFPXPM5NZFXBJ2MLX642I7ZD4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>fragmentarische Widmungsinschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von fragmentarische Widmungsinschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GFFPXPM5NZFXBJ2MLX642I7ZD4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Block: CLV (aus Luxor)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">fragmentarische Widmungsinschrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Tempel-Texte</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6QYULURUIJBGRI4Q7X5ZOIJQOA">
+<support>
+<objectType ref="ths:X5C6WY3M7VBWZBEQHR5EYMK7UM">unbestimmt</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:LBISHPC2BNBWDLMXCBZJEM76TE">Luxor
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. Fakhry, Blocs decorés provenant du temple de Louxor, ASAE 35, 1935, 45-6 [H,Ü,K];  
+M. Sandmann, Texts from the time of Akhenaten (BAe VIII), Bruxelles 1938, 151 [H];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 35 (10-B) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GFFPXPM5NZFXBJ2MLX642I7ZD4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-db3fa06a460fc6955e04b80ce51efbb8</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0Ri5LFHHEF7mf2azMJJ56E">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd4dC2KqUx0VopJdTQdry8Gk" lemmaRef="tla:tla859387"><fs feats="entity_name gods_name"/><supplied reason="omitted">ꜥnḫ</supplied>-Rꜥw-Ḥrw-ꜣḫ,tj-ḫꜥ-m-ꜣḫ,t</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd4rFEm6HtUTplgQqCmC72j4" lemmaRef="tla:tla856317"><fs feats="entity_name gods_name"/>M-rn≡f-m-šw-n,tj-m-jtn</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd6lzvYAdAkqzrWufAeVO1d0" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+<w xml:id="tlaIBUBd7owNU7MzEqth4JoNWUFXPc" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit participle masculine singular active"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBd1aBwxhF9kFXuudRjW4emYg" lemmaRef="tla:tla47270"><fs feats="verb verb_2-gem participle masculine singular active"/>wr</w>
+<w xml:id="tlaIBUBdzkQyC4J3kQrv547G4FGvuY" lemmaRef="tla:tla25700"><fs feats="epitheton_title epith_god"/>jm,j-ḥꜣb-sd</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd7i6Wdzoa083jdYvNzwFXVA" lemmaRef="tla:tla856875"><fs feats="epitheton_title epith_god"/>nb-p,t-tꜣ</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd8QdqQknDkVpo8dWBhsn19U" lemmaRef="tla:tla856876"><fs feats="epitheton_title epith_god"/>ḥr,j-jb-Gm-pꜣ-Jtn-m-pr-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd7DZEM96Ok2TrTbQKaferuU">
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd6qTA4ctAUSNsV0HQhnKwrc" lemmaRef="tla:tla400038"><fs feats="epitheton_title epith_king"/>nb-Tꜣ,wj</w>
+<w xml:id="tlaIBUBdxFSEPWO2ExhjNBE2ysuL7g" lemmaRef="tla:tla856314"><fs feats="entity_name kings_name"/>Nfr-ḫpr,w-Rꜥw-wꜥ-n-Rꜥw</w>
+<lb n="[7]"/>
+<w xml:id="tlaIBUBdW9PlXzxYUQxqjMX55fmWks" lemmaRef="tla:tla600260"><fs feats="epitheton_title epith_king"/>nb-ḫꜥ,pl</w>
+<w xml:id="tlaIBUBdWPUmGfWzU16g3roQG2wCQQ" lemmaRef="tla:tla856866"><fs feats="entity_name kings_name"/>Jmn-ḥtp-nṯr-ḥqꜣ-Wꜣs,t</w>
+<w xml:id="tlaIBUBd5ePJPHfWUnlrKFDjrqOdEY" lemmaRef="tla:tla852060"><fs feats="epitheton_title epith_king"/>ꜥꜣ-m-ꜥḥꜥ,w≡f</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idIJWYFCCNRJGVVKGHDUPUUHPPKM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>1a</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 1a nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>IJWYFCCNRJGVVKGHDUPUUHPPKM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>10735 frame 9 recto</idno>
+<msName>pBM 10735 frame 9 recto (50-52 A)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">1a</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQRRJKQOY7VEBHPLSACT4COTY4Y">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 50-52</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>10735 frame 9 recto</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="IJWYFCCNRJGVVKGHDUPUUHPPKM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f455d58552aa440ef570ca8602ca2af5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1FkE5fKFUhard3WXerJlWQ">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd70C6xX0bE2VprbNngXJQJU" lemmaRef="tla:tla854542"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">sw</supplied></w>
+<w xml:id="tlaIBUBdy9BCGAhoEBlgeQOVItiBaI" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/><damage>2</damage>4</w>
+</s>
+<s xml:id="tlaIBUBd2D4EtnNi00Riu6C7BhFfGQ">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd062CE3NEUtalYfs4LzyaUI" lemmaRef="tla:tla157160"><fs feats="verb verb_3-lit participle masculine singular passive"/><damage>šzp<supplied reason="defective">.w</supplied></damage></w>
+<w xml:id="tlaIBUBd9bUMpK4AkHHq1NM91dxLAg" lemmaRef="tla:tla39"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><damage>ꜣw,</damage>t</w>
+<w xml:id="tlaIBUBd8BgAoGUGEGIgf2U52uAQVs" lemmaRef="tla:tla854537"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>ẖnw</damage></w>
+</s>
+<s xml:id="tlaIBUBd7gPAcuDN0jbhKpmLau52W4">
+<lb n="[3.1.1]"/>
+<w xml:id="tlaIBUBd2qSrbJc2E6zpjlkuOMn0Ks" lemmaRef="tla:tla450237"><fs feats="entity_name org_name"/>Ḥw,t-Ḥr,w-S,t-jb-Tꜣ,wj</w>
+<lb n="[3.1.2]"/>
+<w xml:id="tlaIBUBdQDTN2ZGgkGHrPerqDE6JQY" lemmaRef="tla:tla168390"><fs feats="substantive st_constructus singular"/>gs-<supplied reason="lost">pr</supplied></w>
+</s>
+<s xml:id="tlaIBUBd6qQnYYiq0OJiiEbQI0OYLA">
+<lb n="[4.1.1]"/>
+<w xml:id="tlaIBUBd4hCGX8AA0AHg3NBPU2cksI" lemmaRef="tla:tla95680"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>rḫt</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd52kH1wflUhyr1Mwmr22Td0" lemmaRef="tla:tla129420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>zw,t</w>
+<lb n="[4.1.2]"/>
+<w xml:id="tlaIBUBdz30vQ4gnkiCuvCeriI0Pfw" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>3</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdxfAzc9feEi8strjuxvZwPc" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>pḫ<supplied reason="defective">ꜣ</supplied></w>
+<lb n="[4.1.3]"/>
+<w xml:id="tlaIBUBdW5KHcAum0wgmmFMBQCxbRM" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>3</w>
+</s>
+<s xml:id="tlaIBUBd8R2QUE0RECAmQ8mBw9dBnw">
+<lb n="[4.2.1]"/>
+<w xml:id="tlaIBUBdWu1TvRA1Eeaq2zcA2SDuks" lemmaRef="tla:tla164450"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><damage>km</damage></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdzHk0tzcdUpCsEsa4PrSA8c" lemmaRef="tla:tla129420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="haplography">zw,t</supplied></w>
+<lb n="[4.2.2]"/>
+<w xml:id="tlaIBUBd9F9uStWWkYIhQQmDeVXhuk" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>3</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdQ94tEoGU05dj1BJqkpspQk" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="haplography">pḫꜣ</supplied></w>
+<lb n="[4.2.3]"/>
+<w xml:id="tlaIBUBd2PQpWpwsEtJipsgcrKS290" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>2</w>
+<w xml:id="tlaIBUBdWLFZaoWSUAyj3N7nZPIrJE" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>8</w>
+<w xml:id="tlaIBUBd6w2gyQcxEeTtFRHYRfnKJk" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>1/2</w>
+</s>
+<s xml:id="tlaIBUBd4Q169zAQkHyuVcxxvE3TkE">
+<lb n="[4.3.1]"/>
+<w xml:id="tlaIBUBdQiZ6cSgNkrlrVcbyfFdNz0" lemmaRef="tla:tla450036"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">ḥꜣ-ḥrt-ꜥ</supplied></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd5rGGYj2KEk6sXKaz35TQ8I" lemmaRef="tla:tla129420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="haplography">zw,t</supplied></w>
+<lb n="[4.3.2]"/>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdQeQgW7RWU2imDsaHWcMVys" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="haplography">pḫꜣ</supplied></w>
+<lb n="[4.3.3]"/>
+</s>
+<s xml:id="tlaIBUBdwlzO9IrBknPttO2iSBUfWE">
+<lb n="[4.4.1]"/>
+<w xml:id="tlaIBUBd0hPw0BU00mJsWZCBMWfYPA" lemmaRef="tla:tla42440"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>wꜣ</damage></w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdyCcwFHbTk6umC5ze8pCWU4" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="haplography">pḫꜣ</supplied></w>
+<lb n="[4.4.3]"/>
+<w xml:id="tlaIBUBd9KmHqA9VUJDoGn1y2n53kA" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBdQdLNK7WRUujpBeM4uZjfSU" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>1</w>
+<w xml:id="tlaIBUBd0MwIh9I60QuoNVrEZWX3qc" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>1/2</w>
+</s>
+<s xml:id="tlaIBUBd4DRq7JeFk8Pof6x1XOFDkI">
+<lb n="[3.2]"/>
+<w xml:id="tlaIBUBdQ6Q1OjiJ0yymN0bgI25Bwo" lemmaRef="tla:tla400419"><fs feats="substantive st_absolutus singular"/>pr-nswt</w>
+</s>
+<s xml:id="tlaIBUBd8VEJFyh5kojmWa89AOVe6c">
+<lb n="[4.5.1]"/>
+<w xml:id="tlaIBUBd0WPwlI4IU8agbYqkueKRuo" lemmaRef="tla:tla95680"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>rḫt</damage></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdw99D5cXXkrnlTRxTMDpIA0" lemmaRef="tla:tla129420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="haplography">zw,t</supplied></w>
+<lb n="[4.5.2]"/>
+<w xml:id="tlaIBUBdxeLVe9teUgrrxqXGqiJ0Q4" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>3</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdykxSHm5XECQgoQkxweRFVk" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="haplography">pḫꜣ</supplied></w>
+<lb n="[4.5.3]"/>
+<w xml:id="tlaIBUBdzaML4nZm0gWiHzCQYQ0x8U" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>3</w>
+</s>
+<s xml:id="tlaIBUBdQQIxWD0EUUqvUS2DTGt87E">
+<lb n="[4.6.1]"/>
+<w xml:id="tlaIBUBd96yZr3CQkUwvKmecq7E8yM" lemmaRef="tla:tla164450"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>km</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdyMebq5nd0BuvIMrEn0IT3c" lemmaRef="tla:tla129420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="haplography">zw,t</supplied></w>
+<lb n="[4.6.2]"/>
+<w xml:id="tlaIBUBdxj1yF1juUWdjGD5ni1E1rU" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>3</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdwWz35DVPk2WhQ1EWi8JDGw" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="haplography">pḫꜣ</supplied></w>
+<lb n="[4.6.3]"/>
+<w xml:id="tlaIBUBdyHnQyZAWUMcoXFVWrmTW5Q" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>2</w>
+<w xml:id="tlaIBUBd9jJC2WNPU7ViROWn1GKelg" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>8</w>
+<w xml:id="tlaIBUBd3U40sqgw005rWJ5YmJQGZY" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>1/4</w>
+</s>
+<s xml:id="tlaIBUBdyCf96ELxERvlQlfTKaQy4I">
+<lb n="[4.7]"/>
+<w xml:id="tlaIBUBdzfd6srs40jjvgqAVW1ySHo" lemmaRef="tla:tla450036"><fs feats="substantive st_absolutus singular"/>ḥꜣ-ḥrt-ꜥ</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdxk4QPtV7k78p6GRmXcS8l8" lemmaRef="tla:tla61710"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="haplography">pḫꜣ</supplied></w>
+<lb n="[4.8.3]"/>
+<w xml:id="tlaIBUBd8VjNhmWWkdJstQDK8cWZCA" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>8</w>
+<w xml:id="tlaIBUBd0gls4N860O8r0hT6dKCfQk" lemmaRef="tla:tla850815"><fs feats="numeral cardinal"/>1/4</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

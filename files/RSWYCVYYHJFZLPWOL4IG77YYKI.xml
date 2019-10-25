@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idRSWYCVYYHJFZLPWOL4IG77YYKI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ostseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Ostseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>RSWYCVYYHJFZLPWOL4IG77YYKI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Außenkapelle</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Ostseite</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaWKWL6STMCVHLFMP6HEPVCPI6HI">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastabas of Kawab, Khafkhufu I and II, Giza Mastabas, Vol. 3, Boston 1978, S. 21-27; pl. XXX-XLV
+[P,F,U,Ü,K,B]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="RSWYCVYYHJFZLPWOL4IG77YYKI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f032086400130f8342bb81b1f6c2c53c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd7v4Uj1qqUD1qb05QhR9GBU">
+<lb n="[1]"/>
+<lb n="[2]"/>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd7rw2DH19UEWlwa8WrO5HPk" lemmaRef="tla:tla850718"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm-nṯr</supplied>-<damage>S,t</damage>-jb-Rꜥw</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd4YN76SfjUwdubS0gQfoULY" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/><damage>jmꜣḫ,w-</damage><supplied reason="lost">ḫ</supplied>r-nṯr<supplied reason="lost">-ꜥꜣ</supplied></w>
+<w xml:id="tlaIBUBd06ZyWTIBk0njzU9vEJ3V4M" lemmaRef="tla:tla850610"><fs feats="epitheton_title title"/><supplied reason="lost"><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-</supplied>rʾ-<damage>kꜣ,t</damage><supplied reason="lost">-n,t-nswt</supplied></w>
+<lb n="[5]"/>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd7c6nSucQE9bn5qzbUUjwR8" lemmaRef="tla:tla705469"><fs feats="entity_name person_name"/><damage>Ḫꜥi̯≡f-Ḫwi̯≡f-wj</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

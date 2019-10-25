@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id4OMC56L4VJEITKZZKA6CSHQV7E">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften-Reste</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften-Reste nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>4OMC56L4VJEITKZZKA6CSHQV7E</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>westliche Türlaibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften-Reste</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHVNEH4AXTFBJJEW42ZJD67EBC4">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 44-45, pl. 43 b.
+[F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="4OMC56L4VJEITKZZKA6CSHQV7E.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-91887900851231aa0dc2c2582af9a69f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdw3ClFlf3EQ2ggsaVYTXT7E">
+<lb n="[vor Grabherren]"/>
+<w xml:id="tlaIBUBdxxdYSLMEUYetQQrG6Elbss" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ<supplied reason="defective">,tj</supplied>-ꜥ</w>
+<w xml:id="tlaIBUBd2vzXhXSREEtsKJnQbkVnOM" lemmaRef="tla:tla450386"><fs feats="entity_name person_name"/>Ḥm-<supplied reason="lost">Rꜥw</supplied></w>
+</s>
+<s xml:id="tlaIBUBdwixiUQ8A0qps1B34SjQCyE">
+<lb n="[unter Ellenbogen]"/>
+<w xml:id="tlaIBUBdzmpEJpjCkDfl71fw1eTkXw" lemmaRef="tla:tla104730"><fs feats="substantive substantive_fem st_pronominalis singular"/><supplied reason="lost">ḥm,</supplied>t</w>
+<w xml:id="tlaIBUBd5zxze78nUAAtfN1gLkEBWY" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+<w xml:id="tlaIBUBd8sBnGlqKE26lfB3PbT0SFk" lemmaRef="tla:tla550321"><fs feats="substantive substantive_fem st_pronominalis singular"/><damage>mr</damage><supplied reason="lost">,yt</supplied></w>
+<w xml:id="tlaIBUBdywP3eEMPkmprNIVbiPmHww" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+</s>
+<s xml:id="tlaIBUBd9d3iuW4O011mupz6Yiz1rY">
+<lb n="[über Kopf]"/>
+<w xml:id="tlaIBUBdWI8pIeWDkWwmIwtayGjTaA" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/><damage>ẖr,j-tp-</damage><supplied reason="lost">nswt</supplied></w>
+</s>
+<s xml:id="tlaIBUBdwKGzQbZ3URXjM1qZ0gLJ7c">
+<lb n="[hinter Grabbherren]"/>
+<w xml:id="tlaIBUBdyg9pOaOtE5JloV1GGfFuWE" lemmaRef="tla:tla600421"><fs feats="epitheton_title epith_god"/>tp,j-ḏw≡f</w>
+<w xml:id="tlaIBUBd89a4kQNLEDdtkD14oUpI1I" lemmaRef="tla:tla450603"><fs feats="epitheton_title title"/>jwn-knmw,t</w>
+<w xml:id="tlaIBUBdxprwmHr20W5hTGwnEnylBU" lemmaRef="tla:tla94780"><fs feats="substantive st_pronominalis singular"/>r<supplied reason="defective">n</supplied>-nfr</w>
+<w xml:id="tlaIBUBdxmulvkwWU44iS4i7Wfyx9A" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd3Wos81ZrEf2rDVNBXP1NMM" lemmaRef="tla:tla710470"><fs feats="entity_name person_name"/><supplied reason="lost">Jz</supplied>j</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

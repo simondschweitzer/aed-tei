@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st45APBFH7ENHZVHELL64L5XSRBY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>1. Gesänge von Isis und Nephthys</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Frank Feder</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 1. Gesänge von Isis und Nephthys nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Frank Feder</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>45APBFH7ENHZVHELL64L5XSRBY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>10188</idno>
+<msName>Papyrus &quot;Bremner Rhind&quot; (pBM 10188)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">1. Gesänge von Isis und Nephthys</title>
+<textLang mainLang="Egyh-Egyhlrb">Späthieratische Buchschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJCMC4JU24RGZDE23YLAB3O3YNY">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PYJNB3V355DMZERYYWMFHZ5NNI" notBefore="-0325">4. Viertel 4. Jhdt. v.Chr.</date>
+<date type="latest" datingPoint="ths:PYJNB3V355DMZERYYWMFHZ5NNI" notAfter="-0301">4. Viertel 4. Jhdt. v.Chr.</date>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>U. Verhoeven, Untersuchungen zur späthieratischen Buchschrift, OLA 99 (2001), 80 [B].
+
+J. Lustman, Étude Grammaticale du Papyrus Bremner-Rhind (Paris 1999).
+
+R.O. Faulkner, The Bremner-Rhind Papyrus-I, JEA 22 (1936), 121-140; II, JEA 23 (1937), 10-16; III, JEA 23 (1937), 166-185; IV, JEA 24 (1938), 41-53 [Ü,K].
+
+R.O. Faulkner, The Papyrus Bremner-Rhind, BiAe 3 (1933) [T].
+
+E.A. Wallis Budge, Facsimiles of Egyptian Hieratic Papyri in the British Museum, First Series (London 1910), pl. 1-19 [P].
+
+Trismegistos Datenbank Nr.: 48496</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>10188</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="45APBFH7ENHZVHELL64L5XSRBY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhlrb">Späthieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Frank Feder</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-fdc680a0c677ac45f47f8b02487d5857</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd9Gzuzh7vkLMgKPIzOXmRh0">Beginn der Strophen (der Gesänge) zum Feste der &#039;beiden Milanweibchen&#039; (Isis und Nephthys), das im Tempel des Osiris Chontamenti, des &#039;großen Gottes&#039; (und) &#039;Herrn von Abydos&#039;, begangen wird im vierten Monat der Überschwemmungszeit (vom) 22. Monatstag bis zum 26. Monatstag.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7DMcvrgLkp2hwnCEGNIvg0">Man weihe den gesamten Tempel.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxHjuQGrtkbqk3KGQOt5GvE">Man bringe [zwei] Frauen reinen Körpers, die noch nicht (von einer Geburt) geöffnet worden sind (und) die von ihrer Körperbehaarung befreit worden sind.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2cHCA55RkDLoujfZaiiNW4">Ihr Kopf ist mit einer Perücke geschmückt, eine . . .-Handpauke ist in ihren Händen (und) ihr Name ist auf ihre Oberarme geschrieben (nämlich): Isis (und) Nephthys.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWBITylAZUA2nw3vNajWO1c">Sie singen aus den Strophen (der Gesänge) dieses Buches in Gegenwart dieses Gottes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6F9W1VvuEzmkdkg7QfK4X4">(Und) sie sollen sagen: &quot;Oh, mein Herr Osiris!&quot; vier Mal (wiederholen)</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5z0P525k030iHgqihZ9zLg">Rezitation durch den Obersten Ritualisten dieses Tempels: &quot;Großer des Himmels (und) der Erde!&quot; vier Mal (wiederholen)</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6RQu2sWlUYQnhOckKZGADc">Rezitation durch die &#039;beiden mit den Haarlocken&#039; (Isis und Nephthys): &quot;&#039;Herrlicher Jüngling&#039;, komm zu deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4QrOJiFdEMrjVWUig0DhKI">&quot;Sehr lange (schon) ist (es), (daß) wir dich nicht sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW2b5oj490FMieq4KLIt3Jw">&quot;Oh &#039;Herrlicher Jhi&#039; (&quot;Musikant&quot;), komm zu deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2tAo6GbYEQwsasSh9xQ2OE">&quot;Erster von&quot; - leer (in der Vorlage gefunden) - &quot;nachdem du von uns gegangen bist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxXo1SqqMUW5pmheYYnofY8">&quot;&#039;Herrlicher Jüngling&#039;, der gegangen ist, (als) es (noch) nicht Zeit war (&#039;zur Unzeit&#039;)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQhXacv0T01UjBkJQvzxBsQ">&quot;&#039;Jugendlicher&#039;, für den es doch (noch) nicht Zeit war!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy52FyLUJEmkp7o4NN31KzI">&quot;Heiliges Abbild seines Vaters Tenen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8wnTKH1Nk9zqqF72D2RdxU">&quot;Geheimnisvoller Same, der aus Atum hervorkam!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7tpaErZkEaPrnWkwMJrpZE">&quot;Mein Herr, mein Herr, &#039;er ist erhabener als seine Väter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQOhWxcAsEC8utwhkw5RgqI">&quot;Ältester im Leib seiner Mutter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxWNqW6rz0GsubnC80eNyt8">&quot;Ach, kämst du doch zu uns in deiner früheren Gestalt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Aa78TJ3UAzsuUpdhyQ4LE">&quot;(Daß) wir dich umarmen können (und daß) du dich nicht (mehr) fernhältst von uns!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5H78KTWaUPTiodiOxUYHoY">&quot;Schöngesichtiger, Vielgeliebter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyDINIbPZE6XpmLc4zPL9FU">&quot;&#039;Abbild des Tenen&#039;, &#039;Männlicher&#039;, &#039;Herr der Wollust&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7u4GofYi0sWsfonbxsSiss">&quot;. . . als Erstgeborener (&quot;Öffner des Leibes&quot;)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8gF4BJyQkPKsTrn7m19nXs">&quot;Dessen Leib [matt ist] in seiner Fesselung (Bandagierung)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwUkSMlo60F6iQB6TwuIGvM">&quot;Komme (doch) in Frieden, unser Herr, (daß) wir dich (wieder)sehen können!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd094HXUxPkLNrquebTbURaY">&quot;Die &#039;beiden Schwestern (Isis und Nephthys) [werden] deinen Leib [(schützend) umfangen] (und) es gibt in dir kein Leiden mehr!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxRcUWWEPkYKqkt7AjUkEvE">&quot;[Sie beseitigten?] das Übel, als ob es nicht geschehen wäre!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6n7TQiJ4E0bhIVAcYXZH7Y">&quot;Unser Haupt ist (immer) gegen sie (Leiden und Übel) gerichtet!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5pLpxull027jc79yEj2K44">&quot;Große Trauer ist unter den Göttern!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0fIYd0UI01PmlSqRVlI7cM">&quot;Sie können den Weg, den du zurückgelegt hast, nicht ermitteln!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxUo7rFViUH2vMrKNR1iVKg">&quot;Das &#039;Kind&#039;, der &#039;Jüngling&#039;, für den es doch (noch) nicht Zeit war!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5vo6eRQrEeejQhPFEfrq44">&quot;Durchwandle (doch) Himmel (und) Erde (wieder) in deiner früheren Gestalt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8fvZovlGkgHgrj1ywftxDw">&quot;Du bist der &#039;Stier der beiden Schwestern&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz1nu5ElKEMwlPLMhbEmkI8">&quot;Komme (doch), &#039;Kind&#039;, &#039;Jugendlicher&#039;, in Frieden, unser Herr, (daß) wir dich (wieder)sehen können!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9WXfh8BjE9TtRu3t01pU6A">&quot;Vereinige dich mit uns als Mann!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxV60QPcBkTGj7dLIPItdYI">&quot;Tebha (Seth) ist (ja) an seiner Richtstätte!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd89NnFVsx0oOh9duKBY4s2g">&quot;Komme (doch) in Frieden, &#039;ältestes Kind seines Vaters&#039;, (denn) du weilst (dann) in deinem Tempel, ohne (daß) du Furcht haben mußt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzKutQCxtU0ZiPccxDss0Ng">&quot;Dein Sohn Horus ist in Sorge um dich!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9d3eic4TkzGqZPVPfSjJeM">&quot;Der &#039;Bestrafte&#039; (Seth) hat sich hinwegbegeben!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWkQS2xtH0m1l8dfFMOhH0Y">&quot;Er ist jeden Tag in seinem Purgatorium von Feuer!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6IO21y9IUYWiAJSqWpqCuU">&quot;Sein Name ist unter (denen) aller Götter getilgt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ4cymAEMkNZlEEWktQa8J4">&quot;Tebh(a) ist in der Vernichtung umgekommen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7WQDCQQc0Mwu6yYce8Wgrc">&quot;Du bist (dann) in deinem Tempel, ohne (daß) du Furcht haben mußt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8N7dl18TU7YhwweXi5xQOQ">&quot;Seth 〈ist bestraft worden〉 für all das Böse, das er angerichtet hat!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwQKS4iVlk7QsQrw4J45PWg">&quot;(Denn) er hat verursacht, (daß) der Himmel (herab)kommt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWuHd2LvHkSug59tjBq4pkE">&quot;Er hat uns die Sinne blockiert!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQnvSGUQTEWtpTQRLlNUNkg">&quot;(Und) die Erde ist uns nahegekommen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8AkDUbL3kiZjV4LuOQpjEo">&quot;Kahlheit herrscht auf [unserem] Scheitel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Cw4ehdgEtbi9ZJ84BFpR8">&quot;Das Attentat (gegen Osiris) ist herbeigeführt worden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzIVRcft4kTvsSTwXVuRPTU">&quot;Unsere Augen sind in Tränen wegen dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdywfSlOWI01PirJQauY3Bws">&quot;Brennend (wie Feuer) ist unsere Erinnerung!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0OBd9oIW0yVjPOufshvVCw">&quot;Oh weh, denn unser Herr trennte sich von uns!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzxNaJbKfkWFhxTHFs3qiHU">&quot;&#039;Schöngesichtiger&#039;, &#039;Herr über die Liebe&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyhr0awvvEeYvrJX8q8mQIY">&quot;Der &#039;Stier, der die Kühe begattet&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWVhOZS1Yk9kn50lkirQkoc">&quot;Komm (doch), &#039;Ihi&#039;, &#039;mit dem strahlenden Gesicht&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwasTAFpGUmimNv0cTEOkzY">&quot;Der &#039;Einzig Jugendliche&#039;, &#039;dessen Anblick schön ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9F4oCevxkzBtXArcptGBss">&quot;Herr der Frauen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxxoiMqS7kTZniyEb8UHihQ">&quot;Männlichster für die Kühe!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWp6ZOKKD0nikdJQC9p8Ogs">&quot;Das &#039;Kind&#039;, &#039;der über den Schönen (Kühen) ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy9kTaVif0BLlVDLYT5QVy8">&quot;Ach, könnten wir dich (doch) in deiner früheren Gestalt sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQV965I7wU6BpnHpXTYoEJ8">&quot;Wie (sehr) wünsche ich, dich zu sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw0OTQ4sx07muNcwrfD98hM">&quot;Ich bin deine Schwester Isis, die Liebe deines Herzens!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1KsWBmzNUmbp72vDo25cW8">&quot;〈Ich sehne mich〉 nach deiner Liebe, (aber) du hälst dich fern!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz0ZYaRtjkgXk3KADMOTRPg">&quot;Ich sorge mich um dieses Land an diesem Tage (&quot;heute&quot;)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2d9MyjSFkD0gBczYSVpyjQ">&quot;Komm (doch) näher (und) begib dich zu uns!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyZZXpxImU00kiEqVcYpWLQ">&quot;Das Leben ist uns gleichgültig aus Mangel an dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwLWnzRsG0NCjRByGp5IrNw">&quot;Komme (doch) in Frieden, unser Herr, (daß) wir dich (wieder)sehen können!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW7ufOoyfEQ8suWUP0A4TQ0">&quot;O Fürst, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9JCVxrvY0gnoQW8KDJnz78">&quot;Vetreibe das (schmerzende) Feuer aus unserem Gesang!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxJ45FibnEH2lJQxyGIFwug">&quot;Vereinige dich mit uns als Mann!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd32rJIB31EnXkyQ0TWVpjU0">Abwehrzauber - Rezitation durch die &#039;beiden mit den Haarlocken&#039; (Isis und Nephthys): &quot;Oh Osiris, &#039;Stier des Westens&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyUFZjpk3kPohQmAiIaQv7g">&quot;&#039;Einzig Dauernder&#039;, &#039;erhabener als (alle) Götter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzIOK69BnEP4uqRYZocrZKM">&quot;Begattender Jüngling!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd24wam6GkUHJpQVmmwyuxnI">&quot;Ältester Erbe des Geb!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7qO9A3HoEiUmAnnELBAXrk">&quot;Göttlichster Sproß unter den Göttern!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6ANMVWRVEYGvqWx5Xrai6s">&quot;Komm (doch) zu den (beiden) Witwen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2jEorXXU0uYtPq9VzTvYQA">&quot;Die Götterneunheit insgesamt wird dir dienen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4RS0PClAEiwlkKSmNv5cUU">&quot;Sie werden Seth für dich abwehren, wenn er kommt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4QWOaCQMUlNt2QidQtDQSs">&quot;&#039;Der, dessen Name elendig ist&#039; (Seth), ist hinter der Kapelle (und) vor deinem Vater Re, (wenn) er die Bestrafung der Rebellen veranlaßt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1LhBwHRX0wYhUSjWORqYwM">&quot;Komm hierher zu deinen &#039;Sängerinnen&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5A9slxcpEpWsuVCRQ7ZNZ0">&quot;Entferne den Kummer aus unserem Gesang!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxCoWSDTP0T8lMemaWpTYiI">&quot;Komm hierher zu deinen &#039;Sängerinnen&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8lv0v2FNkAVnfjm9XHkkUs">&quot;Es kann nicht angemessen sein für dich, einsam zu sein!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwmZMkOqoEfpnyqPGugkOcU">&quot;Unser Herr ist (doch) 〈im〉 Glück (nur hier) 〈an〉 seinem Platz!</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWAoGfNWAEQsujPLPNiHLSQ">&quot;Der &#039;Große&#039; (Seth) fügte ihm, der milde gegen ihn war, eine Verletzung zu!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQHZGENQL0DbrtVMQ2iUCv0">&quot;Denn Nebed (Seth) umgab sich mit seinen (Osiris) Feinden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0R9DCUTMUH3gQQueSufUkY">&quot;Er verriet das Land durch seine Absichten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyEgHrWlwkbZlaPrmjSvjX4">&quot;Große Trauer ist unter den Göttern!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8nL4nyGNEqfmNNFBoiutrs">&quot;Die Götterneuneheit ist deinetwegen in Trauerhaltung!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3JNjP2Gd0f1seErrMWa0g8">&quot;Wie (viel) erhabener bist du (doch) als (alle) Götter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxBoBgt5q0zmsyiSG3xxUrA">&quot;Wo wandelst 〈du〉 auf Erden, &#039;Größster der Körperschaft (der Götterneunheit)&#039;?&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7mrehaaPUApnHBP3OOsR7c">&quot;An dessen Kopf die Uräusschlange erglänzt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd74KqHAxLE1SlhqQU9EXS7s">&quot;&#039;Der sich nach seinem Belieben gestaltet&#039; bei jedem Kommen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Y3bthEYUOnolQ5w0jVRc4">&quot;&#039;Gottesleib&#039;, &#039;Herr über die Liebe&#039;, &#039;Erhabener&#039;, &#039;Liebesreicher&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz0oK5nkw0NWmBVxQmkqZlc">&quot;Ba, du sollst wieder leben!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1YQHcJKGUSxp87ABdElcXs">&quot;Die &#039;beiden Schwestern&#039; (Isis und Nephthys) wollen sich mit deinem Körper vereinigen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0K9ttBE0UpnmubFRIHMot0">&quot;〈Sie〉 wenden sich hier (bittend) an dich 〈wie〉 früher!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0bi1GFJ9Ugzj54sFeutAxU">&quot;Man klagt um dich im (ganzen) Erdkreis!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6yAmsXjcUAgjT38C9NN8gU">&quot;Wie . . . alle Götter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz4cNpLhEE1HvWWk37w4Wqo">&quot;Komm hierher 〈zu〉 deinen &#039;Sängerinnen&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwU2a79IlE2NjugbQAQ4UfE">&quot;Dein Vater Re wütet gegen Nebed (Seth)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWllCSGll0gKmDJJy9dt86g">&quot;Die Götterneunheit wird dir dienen in deinem Umkreis (und) sie werden für dich die &#039;Roten&#039; abwehren!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd91gFpVCYUwVjL23UT24UgU">&quot;Vertreibe (doch) das große Unglück von deinen beiden Damen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd13DtovsWE60nCUoS2V9coU">&quot;Dein Tempel ist im Fest (und) der Böse (Seth) ist an seiner Richtstätte wegen all&#039; des Bösen, das er angerichtet hat!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQxc5FYPqEqctEjFCYRWDVE">&quot;(Denn) er hat das Land mit seinen schlimmen Plänen besudelt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxdvAj4Xu0OyjDzwXe5c2Ns">&quot;(Und) er sandte den Himmel zur Erde (herab)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7b4EuwmgEQsnJzZ2qKcM00">&quot;Er ist zurückgetrieben (und) an die Richtstätte weggeführt worden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdygtCu5tfkamuGWPozfS1cY">&quot;Er ist zur Hinrichtungsstätte der Rebellen weggeführt worden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8tOQRNsNkjRvZCsyQrFjgM">&quot;Dein Vater Re wird dein Wiedererstarken überwachen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1mcL9M4E0rhtaQ8E0Dgtxs">&quot;(Und) dein Sohn Horus wird sich für dich einsetzen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6gpeFifYkWtv7xDnJaA8Rk">&quot;Nähere dich (doch wieder) dem Lande, so wie du (früher) gewesen bist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3Y3OGceSEwNvDXBxKAUp20">&quot;(So daß) du den Himmel an seinen vier Seiten durchschreiten kannst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd15WrgQUDEZKhLD1wwWItj4">&quot;(Und daß) du dich auf Erden niederläßt in der geheimen Kammer des Tempels!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd573WTP3J0Siu7m8WCfIjZ8">&quot;(Während) die &#039;beiden Damen&#039; (Isis und Nephthys) dir dienen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1upToVGqkQvrTPsW6aBc1Q">&quot;Erhebe dich, erhebe dich, (denn) Seth ist an (seiner) Richtstätte!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd93YeI1wsEarihWtsQZBFcE">&quot;Dein Feind, er existiert nicht (mehr)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzItOE7qRU4xlxzE9uKpntI">&quot;Komm (doch) zu deinem Tempel, Osiris, dein Thron sehnt sich nach deinem Anblick!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyEI48mQxUn6nOD7G36WQyY">&quot;Höre (doch) das Geschrei des Horus auf den Armen seiner Mutter Isis!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWifWM1H90HeoTQ2umPRIDA">&quot;Wende dich (doch) ab vom Herumgehen in allen Ländern, (denn) der deinen Leib (wieder) vereinigt hat, er (Horus) hat dein Eigentum (Erbe) (schon) in Empfang genommen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4heFoOxFkj9qjzHBAAQDRc">&quot;&#039;Großer Gott&#039;, vervollständige dich zu deiner Erscheinungsform (Gestalt)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5Hp1afw2U3WveqiC46DKjg">&quot;Bleibe (doch) deinem Tempel nicht fern, Osiris!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8QTwQmANkWLqGlVOka95SE">&quot;Komm (doch) in Frieden zu deinem Thron, &#039;Herr des Schreckens&#039;, &#039;in dessen Erscheinung jegliche Schönheit ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQj4n7UMO0i6qNQTmjzahts">&quot;&#039;Großer Stier&#039;, &#039;Herr der Wollust&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz0DrkFFc0lyqY4tZSmwvsQ">&quot;Eile (doch) herbei 〈zu〉 deiner Schwester Isis!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4iF3h7QjEhQlBEBJdzG6U8">&quot;Vertreibe (doch) die Schmerzstoffe, die in [ihrem Leibe] sind!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd48HfSEXu07rpcqjrgWMPu8">&quot;Sie wird dich umarmen (und) du wirst dich nicht mehr entfernen von ihr!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2yxVhCV1EX2mIdtZvcnuFU">&quot;Laß (doch) (wieder) Leben im Antlitz der Woscheb-Kuh (Isis) sein!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw2woTlK0UwUnBgdlnnWheg">&quot;Du wirst ja gefeit sein vor dem Treiben im Wasser im Gau von Medenit (22. oberägyptischer Gau)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd101uDGWQ08BiQDQWSedhf0">&quot;(Denn) das Böse ist (so), als ob es nicht geschehen wäre!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwfq1o7wIUQ8mmLXxHADvjI">&quot;Deine Schwester kommt zu dir (und) Sie beseitigt 〈jedes Übel, das an〉 deinem Leib 〈ist〉!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxbawKUEl0FZqvmEJSbn1sE">&quot;&#039;Großer lebender Gott&#039;, &#039;Vielgeliebter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwXWI3lE7kw4siRfh7elqbc">&quot;&#039;Der sich (selbst) aufzog zum Oberhaupt von Ober- (und) Unterägypten&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQlE0j7SNEEjmvfK0ZCTa5s">&quot;Schmücke dich, &#039;Herr des Schmuckes&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3Tnl3a7QUa4me42jw4XnVk">&quot;&#039;Großer Männlicher&#039;, &#039;der über den schönen (Kühen) ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9NlmtWfBEYPvt5Ci9WsphM">&quot;Komm (doch) zu deiner Mutter Nut, die sich (schützend) über dich breitet, wenn du zu ihr kommst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9IsLVU2GkL1s7JKZfXM0I8">&quot;Sie wird deinen Leib gegen jedes Übel schützen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1sRmyqMDU4fjHCH0Emz0do">&quot;Sie wird dich in sich aufnehmen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5AfjdKV80Wugl6BI4fFwk0">&quot;Sie wird jedes Übel entfernen, das in deinem Leibe ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5eKX0d6f06WuNOQiotpqpg">&quot;(Und) die Einsamkeit ist (so), als ob sie nicht entstanden wäre!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5e8L4F31kWCnShaFEDq3n8">&quot;&#039;Knabe&#039;, &#039;Jüngling&#039;, &#039;Herr&#039;, &#039;der aus dem Himmel hervorgegangen ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5v5xjm5tk9kpE3QsPxAm08">&quot;Er hat dieses Land (zu dem) gemacht, wie (es) früher war!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzw2kvCYk0BNl5vg8ixdFog">&quot;&#039;Herr&#039;, &#039;Kind&#039;, &#039;hervorgegangen aus diesem Mutterleib, den die Götter geschwängert haben&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwuFm5swh0SWoa8QZvRvJGY">&quot;Der den Westen betrat (&quot;öffente&quot;), (als es) für ihn doch (noch) 〈nicht〉 Zeit war!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzC6n0Q0e0sGl9OaR7CtIFM">&quot;&#039;Das Kind&#039; ging (dahin), (als) es (noch) nicht Zeit war (&#039;zur Unzeit&#039;)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxhS7EqVi0x4if82tXZ4LJA">&quot;Dein Vater Re wird für dich sorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4alc4cypkrej2MXOGfuIpQ">&quot;(Und) dein Sohn Horus stattet dich (wiederum) aus!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6Gkgg7cDUXWnLsbZhBGlrU">&quot;Seth 〈ist bestraft worden〉 für all das Böse, das er angerichtet hat!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1aOxcbyGkI6i74ti2Qym9A">&quot;Komm (doch) zu deinem Tempel, (denn) du mußt dich nicht (mehr) fürchten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9ejaTngVEqHrp8AwMTQ7sE">Rezitation durch die &#039;(beiden) mit den Haarlocken&#039; (Isis und Nephthys): &quot;Oh &#039;Herrlicher Jhi&#039; (&quot;Musikant&quot;), komm zu deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4K3qlXwxkiBtItkpIPPEN4">&quot;Viel höher ist dein Rücken als dein Tempel (und) als die Götter auf ihrem Thron!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4wWxbkAgUWElexsH7o1G9U">&quot;Ich bin die Frau, die wirkungsmächtig ist für ihren Bruder!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQIpjh49bUAQmHbqQtUk8J4">&quot;Deine Gattin, deine Schwester von deiner Mutter her!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQurVAOGCkJnpUFCSW7wo8E">&quot;Komm (doch) eilig zu mir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1rrGSTS9U4znU3YR9IrFWw">&quot;Denn ich sehne mich 〈danach〉, dein Gesicht (wieder) zu sehen, nachdem ich dein Gesicht (so lange) nicht gesehen habe!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWPafYp8bUx8kNKe69Zt1pQ">&quot;Finsternis herrscht (ist) hier bei uns (und) in meinem Gesicht, (während) Re (doch) im Himmel ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6o8TWYj7UhWhwQXQdwZpdA">&quot;Der Himmel hat sich mit der Erde vereinigt (und) sie haben heute einen Schatten auf Erden erzeugt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd48Kt3hnwEvlsp6JdWGA7ZA">&quot;Mein Herz brennt von der unrechten Trennung von dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9LjvXZ1AEvdnr55JNIFQdU">&quot;Mein Herz brennt, (denn) du hast dich von mir abgewendet!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8IyFwfSd0VSgrSeygGzBwQ">&quot;Es gab (doch) nichts, das du gegen mich finden konntest!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdynbw5bxTUPKspAeWvipOME">&quot;Aufgewühlt sind die beiden Hügel (Ägypten), verwirrt die Wege!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6C5sGyLE0Pstb64A7RzFXc">&quot;Ich bin auf der Suche, um dich (endlich wieder) zu sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz5hYUOo80art7Ijbi5KLOY">&quot;Ich war an einem Ort, der keine Schutzwehr hat!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd453BzvxSkg7sIE8MQlVpKM">&quot;Ich bin in Sorge um deine Liebe zu mir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5aYRebVmUo9mbaa1LxQntc">&quot;Komm (zurück), bleib nicht allein, halte dich nicht länger fern!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyBCMPw5BEQ1jmnGdVFewoA">&quot;Dein Sohn 〈Horus〉 wird Tebha (Seth) zu 〈seiner〉 Richtstätte zurücktreiben!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6z2o0nsMUPYqq36aHAQcSQ">&quot;Ich verbarg mich im Dickicht, um deinen Sohn zu verstecken, um dich zu rächen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwxC2hmY2EvDtldl25d2dFA">&quot;Denn es ist ein großes Unglück, fern von dir zu sein!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4gqdziefUeen1y8ljE93Cg">&quot;(Und) es kann (auch) nicht angemessen sein für deinen Leib!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxT00FvwmEpnoBycMZTyQ30">&quot;Ich gehe allein (umher), durch das Dickicht streifend!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1RoTvjSnEeBjHrz4pCogFs">&quot;(Denn) so mancher ist in Wut gegen deinen Sohn!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyW9zJls2UiSiEDNQg1QXVk">&quot;Eine Frau steht (aber) vor ihnen (und) gegen diesen Mann (Seth)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1kqxhV0rUYJphkmC90QU7A">&quot;(Denn) ich bin ja bekannt mit dem Wezir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4j8RstLkEslo01N6HmdPCY">&quot;Ich habe die Wege durchzogen, die ich wegen meines Bruders verwirrt habe, der 〈mich〉 (aber) zu Unrecht meidet!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdx5zWT7wgEbihC2GWj3aE7w">&quot;Die Herzen von unzähligen Menschen brennen (aus Kummer)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd31f9nZgTkkXvBPURINjAsw">&quot;Große Trauer ist unter den Göttern!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8TlJoVXZkT9gcS2y38WkRM">&quot;Wir weinen, Herr, wegen des Mangels an deiner Liebe für uns!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2XgWnyTbUffrhPe7KrboBI">&quot;&#039;Männlicher&#039;, &#039;Herr der Wollust&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzh80V80Eky7p3csrSiAqVA">&quot;&#039;Unterägyptischer König&#039;, &#039;Herr der Ewigkeit&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8Bsb9SQlkMjuLc6GARqSmY">&quot;Fliege auf zum Leben, &#039;Beherrscher der Unendlichkeit&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2IqI28gY0xHgBUseSJjUo0">&quot;(Denn) der &#039;Unbekannte&#039; ist tot!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyC1WAGxW0SZudNpeRQSUjE">&quot;&#039;Ober- und Unterägyptischer König&#039;, &#039;Herr&#039;, &#039;der zum heiligen Land fortging&#039;, es gab (ja) keine Aktion von dir, in die ich hätte Vertrauen haben können!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8qmKQyFi0jMnnenu835Gwk">&quot;Mein Bruder, &#039;Herr&#039;, &#039;der zum Gau des Schweigens fortging&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2Rqau24eEoJvQPsg8Wu1CM">&quot;Komm (doch) zu mir in deiner früheren Gestalt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyPisymRb0w8n8UZpVPWGrw">&quot;Komm in Frieden, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzWQBnM0DkRbglQUCJvNXsU">&quot;&#039;Unterägyptischer König&#039;, &#039;Herrscher&#039;, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ3qkoUv6ks2lok5KdrGOGM">&quot;Ach, könnten wir (doch) dein Gesicht wie früher sehen, wie (sehr) wünsche ich, dich zu sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4eSiE5urUuRqrqsFC0U7KU">&quot;Meine Arme sind hoch erhoben, um dich zu behüten, mein Geliebter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2W2VRjbsUsXoJyQY6eY8QA">&quot;Die Ozeane (und) die Inseln des Nordens erinnern sich daran, (daß) du dort (&quot;in ihnen&quot;) die Perücke empfangen hast!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQMsMriz10fxox0ZacMUYCo">&quot;Dein Heiligtum (aber) ist (schon) (gehüllt) in Weihrauch!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7Jv4kl0WUOAvQ5MfEIhMGM">&quot;Gatte, Bruder, &#039;Herr über die Liebe&#039;, komm (doch) in Frieden zu deinem Thron!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2wgfTu1NkG2peNFtgH3NrI">&quot;Oh &#039;Herrlicher Jhi&#039; (&quot;Musikant&quot;), komm zu deinem Tempel, sehr lange (schon) bist du in Trennung (von uns)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1XVflHlBUACoZQTeO2McWY">&quot;Geheim sind (all&#039;) die Dinge um dich als Stier des Westens!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWf4iKZMJk2yvl3BA7UaOqI">&quot;Ein Geheimnis ist (auch) dein Leib, &#039;Erster des Tempels der Henu-Barke&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW1mdW2IxEhktxOVX39X1qw">&quot;Heil 〈dir〉 in deinem Namen des &#039;Beherrschers der Unendlichkeit&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWcSkFFAxkFQkCsqLCNtQ3w">&quot;Horus kommt zu dir als &#039;Siegreicher&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzxvGawu60y3gGFNdwPqJQE">&quot;Er beseitigt 〈jedes Übel, das an〉 deinem Leib 〈ist〉 (und) er sammelt für dich die Ausflüsse, die aus dir herausgekommen sind, (wieder) ein!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7SvwOZQsEGZtmLaZWL8doE">&quot;Vereinige deinen Körper, &#039;großer Gott&#039;, vervollständige dich zu deiner Erscheinungsform (Gestalt)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6i7muJV50tJkQMwvZMXW0k">&quot;Komm (doch) in Frieden, unser Herr, &#039;der sich immer wieder verjüngt&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5ggPISdYEDapzzhzsiAZ64">&quot;Dein Sohn Horus 〈wird〉 für dich sorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd55uPNvEQUjIputGMSxhpYc">&quot;Komm zu deinem Tempel (und) überflute dein Gotteshaus mit deiner Liebe!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWyEl6yUOkgCoQaSoqDYYIA">&quot;Der &#039;wohltätige Herrscher&#039;, den sie aus dem Ei löste!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7eQ4h3r0UzItKWV94JsOK4">&quot;&#039;Einzigartiger&#039;, &#039;von mächtiger Kraft&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6nHgXyemkUfo4YpdckzjbE">&quot;Er ist ja der &#039;Erstgeborene&#039; (seiner Mutter)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1Ufi2Camkajj2QH4Q2y0UI">&quot;&#039;Abbild von Geb&#039; (mit dem) &#039;Gesicht seiner Mutter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwdq89A74kFtnwGQpdBONog">&quot;&#039;Schmuckvoller&#039;, Vielgeliebter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3pl6CyGVURqmvRs9SdfNKQ">&quot;&#039;Der den Westen schuf&#039;, er bezwang den &#039;Agressiven&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3Fw6o7k2EqwopQnckKWjY8">&quot;&#039;Herr der Unterwelt&#039;, &#039;Stier des Westens&#039;, &#039;Sproß des Re-Harachte&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6zWpZIVgEImkzfxkNdhwkw">&quot;&#039;Jüngling&#039;, &#039;dessen Anblick schön ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1KvERaRR0Jllxv14HfBBzA">&quot;Komme (doch) zu uns in Frieden, in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwNsqULdd0KLmWMkB4Wv4Us">&quot;Vertreibe (doch) deinen Zorn (und) beseitige deine Wut!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxWXZcWa80ZVmqyvFGjivmA">&quot;Unser Herr, komm (doch) zu uns in Frieden, in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4Bj6Nn48UFYr6WsoLDWwAQ">&quot;Heil 〈dir〉 &#039;Jugendlicher&#039;, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdx32QuSp0UiDgQWGykqONQg">&quot;Heil 〈dir〉 mein Bruder!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5AMqW8ciEjMjzeT3ypDZ6I">&quot;Komm, (daß) ich 〈dich〉 (wieder)sehen kann, &#039;Unterägyptischer König&#039;, &#039;Berherrscher der Unendlichkeit&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8f1n53Nek6GuAc9kBvatko">&quot;Werde nicht müde, werde nicht müde deines Herzens, unser Herr!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwy7mMQTdEEOhvufLphE6c0">&quot;Komm (doch) zu deinem Tempel, (denn) du mußt dich nicht (mehr) fürchten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd14RgD0eXknYspj3zDsX2Rw">Der große Abwehrzauber - ungesehen ungehört - Rezitation durch den Vorlesepriester: &quot;Oh &#039;Herrlicher Jhi&#039; (&quot;Musikant&quot;), komm zu deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7FdCqCPa0t2gEyqTFbWP7Q">&quot;Die Götterneunheit begehrt dich zu sehen, &#039;Jüngling&#039;, &#039;Herr&#039;, &#039;Erstgeborener&#039; (seiner Mutter)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwyCpsx8w0WnvE5FyAshULc">&quot;&#039;Knabe&#039;, deine Liebe ist (doch nur) für uns!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6TJmDfVCUPSpn3sUydx8qk">&quot;&#039;Wohltätiger Erbe&#039; als &#039;Erstgeborener&#039; (seiner Mutter)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4QScjOu00gKvG6tyFTr9WQ">&quot;&#039;Wohltätiger Sohn&#039;, &#039;der aus dem Sehend-Hörenden hervorging&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2Tb1MaTnU9QvERCw2lUZgA">&quot;(Dieser) Gesang ist die Sorge der Isis um dich, halte dich (doch) nicht fern von deinem Thron!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQq8tah0QExvl4wAQ68zXmg">&quot;Sie verlieren ihren Kopf aus Liebe zu dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3UWYjcCUEcwvTHe9QMFbt0">&quot;Sie klagen um dich an deiner Perücke, die die Harre 〈deines〉 Kopfes eingefasst hatte!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd47pmCzHlEyptNHjUd5CTBU">&quot;Onnophris, &#039;Herr der Speisen&#039;, &#039;Herrscher&#039;, &#039;der groß ist durch sein Ansehen&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0nmYuUwh0pBvBIRec3Sv6M">&quot;Gott, &#039;der über den Göttern ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxwWfuxKOEgtlZfFgdhc5wQ">&quot;Du führst die Barke dessen &#039;der sich selbst erzeugte&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9J47h19R0DQmrQTzGV1Qyw">&quot;Du bist das, was über die Götter hinausgeht!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2EVw6mE9k5FvoGKX0cSWRw">&quot;Der Nil sind die Ausflüsse deines Leibes, 〈die〉 Noble (und) Gemeine versorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8XowuVVHUWPv0ayjQJL5DI">&quot;&#039;Herr der Speisen&#039;, &#039;Herrscher über die Vegetation&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxZDBq8thE6FkWzSQwuoOQk">&quot;. . . &#039;Größter&#039;, &#039;Baum des Lebens&#039;, &#039;der den Göttern Opfergaben spendet&#039; (und) den Ach-Geistern Invokationsopfer!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd17rbzBFgkZssETDz100Lmc">&quot;&#039;Unversehrt Erwachter&#039;, &#039;Herr der Bahre&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5IgTlvabU5iqhSKWw1mbWc">&quot;Herr der Udjat-Augen&#039; (Sonne und Mond), &#039;geheimnisvoll im Horizont&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyNqhCiFrUkUgCINZ88Rdgo">&quot;&#039;Der zu seiner Zeit leuchtet&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6KSQsfN10IciCvPP2M4EkQ">&quot;&#039;Der zu seiner Stunde aufgeht&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5PSKXQCKE3Kt63y3cQuuQI">&quot;Du bist das Licht, ausgestattet mit den Sonnenstrahlen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQQRQDt9mUIkmgdIGs3qv2s">&quot;Du leuchtest als &#039;linkes Auge des Atum&#039; (der Mond)&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQpSeruSWk6GkAAaWE1kDeY">&quot;Du wirst gesehen am &#039;Thron des Re&#039; (im Himmel)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdykx5VQDA0zshSE5xSLKAPA">&quot;Seine Sonnenstrahlen vereinigen sich mit deiner Mumie!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9ieIxa2BErftW2He0ERoJ4">&quot;Dein Ba fliegt im Gefolge des Re!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQMX37r850lOvSugxe57dZs">&quot;Du leuchtest auf am Morgen (und) begibst dich zur Ruhe am Abend!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1KKTlY2vkW2vUwWxzikusg">&quot;Jeder Tag ist dein Dasein!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzjQ12f1NUAUrhEaLtFNCWA">&quot;Du bist das &#039;linke Auge des Atum&#039; (der Mond)&#039;, Ewigkeit (und) Unendlichkeit sind dein Erscheinen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3SjImAvRECyhWOWtw9MrcI">&quot;Verabscheuungswürdig ist Nebed (Seth), der in 〈deiner〉 Gegenwart vernichtet wurde!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2FQvATKyECxpmoNdWy1Q6k">&quot;Mit ihm wurde abgerechnet wegen seiner Bösartigkeit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7YCVFdRcUwIhHExhCdQs6s">&quot;Er hatte sich (wieder) der Empörung zugewendet (und) (eben)dieses Leid war (nun) gegen ihn (selbst) gekommen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQxF5HupPEgBnEmsiYQQEl8">&quot;Imi-sechti (Osiris-Re) (und) sein Erbe (Horus) sind gegen dich (Seth)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzBrczHurkyrqEMqunkZgVI">&quot;Er verehre alle Götter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd74nT2QWRkYTlnqEwZIotpA">&quot;Die Götterneunheit jubelt bei deinem Nahen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9EYEP7KZUTVtOvB0u8PsbE">&quot;Du weilst jeden Tag bei Re!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5aNPUuNXkBrjLK5lNq47J0">&quot;Vollkommen ist dein Anblick als &#039;linkes Auge 〈des Atum〉&#039; (der Mond)&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3plmPDNR0MrngAic05CiWc">&quot;Vollkommen ist dein Anblick für die Lebenden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9QvZN9deEuJonB9cViTNEg">&quot;Du bist das Licht, das für Re leuchtet (in der Nacht)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4Df867XAkdYqidUpGI4hAA">&quot;Zu dir gehört die gesamte Götterneunheit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9jBP1iS40u2q1zSLFfEi5c">&quot;&#039;Die an deinem Haupt ist&#039; (Uräusschlange) jubelt vor dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWkuGtnQGkOCgt2EmPxJBbw">&quot;Ihre Flamme wendet sich gegen deine Feinde!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd48qaWVDSEPtqURbYHqaZe0">&quot;Freue dich um unseretwillen, deine Knochen sind dir (wieder) zusammengefügt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4w0QK3jiUyRvJLCjqsYWrI">&quot;Dein Leib vervollständigt sich jeden Tag!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2bcRpV61EQBiKqGnQh60V0">&quot;Du gehst unter wie Atum zu seiner Zeit ohne zurückgehalten zu werden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3QgoRj0BU36pQWEsKXBExI">&quot;(Denn) ein Schutzschirm für dich ist die Dämmerung um dich!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd71p88PNJk08gozZk6lyko8">&quot;Upuaut öffnet dir das Gebirge (und) er erschließt die Wege!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd45YY8VTIkuIkX1s35pBRNM">&quot;Zu dir gehört (ja) der &#039;Herr der Nekropole&#039; (Anubis)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwRWaWs6MUWau6Eui5AwHbs">&quot;Zu dir gehören (auch) die &#039;beiden Schwestern&#039; (Isis und Nephthys)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1bcoSz12EX4rEsGQnvpKPg">&quot;Hast du die Erinnerung an uns vergessen?&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9O9cBeI4kEavYpW61ThZ9M">&quot;Sie vervollständigten dir deinen Leib in Trauer!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1hDismIs0UXmqtNmUGIcqk">&quot;(Und) 〈sie〉 bemühten sich darum, für deinen Leichnam zu sorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyduWLvJf0bqpCxkrdeZuNM">&quot;Mattigkeit ist 〈in〉 ihrem Gesicht, lasse (doch) unsere Kapelle(?) (wieder) an erster Stelle sein!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQSD7x14gUH5uX25VL8nDAU">&quot;Komme (doch) zu uns, (damit) die Erinnerung an dich nicht vergeht!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3xIsoKW6U3dkSQQb7JjMpY">&quot;Komme (doch wieder) in deiner irdischen Gestalt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1KGQXagu0gQlpiOZQnjQ0c">&quot;Lass ab von deinem Zorn (und) sei uns gnädig, &#039;Herr&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2SXvV23kEIkolziAirmoW0">&quot;Ergreife das Erbe der beiden Länder!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6QHZUEaTk1ntg14uzdOOxc">&quot;&#039;Einzigartiger Gott&#039;, &#039;trefflich an Ratschlägen für die Götter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd20nhnuVh0sctwSEnVRATWI">&quot;Alle Götter jubeln dir zu!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWzKVEHzhkAmtmZNwonkpL8">&quot;Komm (doch) zu deinem Tempel, (denn) du mußt dich nicht (mehr) fürchten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3NHSiQiwUzBtv0lH0OJDy0">&quot;Re liebt dich (doch) (und) deine beiden Damen lieben dich, (während) du ewiglich auf deinem Thron weilst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6p4pdSWbkA9vxCnoLJBA6k">Rezitation durch die &#039;(beiden) mit den Haarlocken&#039; (Isis und Nephthys): &quot;Oh &#039;Herrlicher Jhi&#039; (&quot;Musikant&quot;), komm zu deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2INJTv41EWplTmCr2Nig9k">&quot;Viel höher ist dein Rücken als dein Tempel (und) als die Götter auf ihrem Thron!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8LpQne4vk9FoOY1JN1o13E">&quot;He, Komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd92PmNImb0nXjkQt4QdWCpY">&quot;&#039;Unterägyptischer König&#039;, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4aFMnWNw0q5gD9sMwQTHn4">&quot;Dein Sohn Horus wird für dich sorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4IMrboGgELAlNSwlJrA0Hg">&quot;Vertreibe (doch) das große Unglück von deinen beiden Damen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0fg2awrykm0gq1HWFcdfWQ">&quot;Dein Gesicht erhelle uns mit der Freude über dich!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5X43YvcWkwctVfWrq3c0Qs">&quot;&#039;Jüngling&#039;, wie (sehr) wünsche 〈ich〉, dich zu sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9O3N7I62Enqk9vObwSqNqA">&quot;Komm doch zu uns, &#039;Großer&#039;, (damit) du unsere Liebe bewahren kannst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3PoWyPJUEmHu0FKCp5Ig1U">&quot;Komm (doch) zu deinem Tempel, (denn) du mußt dich nicht (mehr) fürchten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd11n9WKJjU6ghRrRjAVXYew">&quot;O, Götter im Himmel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyD8sD4lQ08kvfJZttD5l78">&quot;O, Götter auf Erden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxzrFuMEeUqDhXDCS6sP4e8">&quot;O, Götter in Unterwelt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd94TXg6bHU3GmoZXO4uNKIo">&quot;O, Götter im Nil!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1FWQr0OD0ewhDfXeQV51kY">&quot;O, Götter, die im Gefolge des Nils sind!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0NaQv9hhE0JjP7yrDWMNI8">&quot;Folgt uns zum &#039;Herrn&#039;, dem &#039;Herrn der Liebe&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw4zWOQP7UvOqLGgGK2wCys">&quot;Mein Bruder, &#039;Männlicher&#039;, &#039;Herr der Wollust&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyRpPyQ8EkpFpqWPHQUe0ig">&quot;He, komm (doch) zu mir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzwh8uHaYkZ3vJauBh1uPjQ">&quot;Der Himmel hat sich mit der Erde vereinigt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW2vqpUN70U8jDJKUE24LuY">&quot;(Und) ein Schatten ist heute auf Erden entstanden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyoM8WTkmUXbvnM55Z3N1hw">&quot;Der Himmel ist auf die Erde getreten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd15DrufaQU3WvnrWmHrPBZQ">&quot;He, kommt mit mir, Männer (und) Frauen in 〈dieser〉 Stadt, (um) unseren Herrn zu suchen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0mdoKrHk0QKp5CN2GUkoDE">&quot;Ich durchziehe das Land (immer) in der Nähe unseres Herrn!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQHCAjYivENQnWBHY1Ws2Z8">&quot;Komm (doch) zu mir, der Himmel ist auf die Erde getreten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3m6oeMd908WgujFjK3li3o">&quot;Laßt den Gott zu seinem Thron kommen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWQEM3WQOkd8jFIxawJhQ0c">&quot;Atme (wieder) die Luft an deiner Nase!</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxsnVXRtn0ZLh1R6WTmtgYM">&quot;Der &#039;Herr&#039; hat sich in seinen Palast begeben!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1DDwpuFDUJ9t7oqa4kW0pE">&quot;He, Re, empfange diesen (hier)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWWB56FbEEIiiTiTyx7bKQg">&quot;Das von Dir (ausgegangene) Unheil steht (jetzt) gegen Dich, &#039;Übeltäter&#039; (Seth)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2wtJi4kTkF5j4SeLV5fTDI">&quot;Denn mein Herz wünscht, dich zu sehen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWbUd6kTvkQGoT6GpcOVSMo">&quot;&#039;Erbe&#039;, &#039;unterägyptischer König&#039;, &#039;schöner Jüngling&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd534EVGdwUVFvRvsWp1wxuw">&quot;He, &#039;Herr der Liebe&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwusBwBxXky1rvUt1F3yQcQ">&quot;Komm zu mir, &#039;Herr&#039;, (daß) ich dich (noch) heute sehen kann!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQtKgZCHQE8mjkLYPI0WJ0Y">&quot;Bruder, komm (doch), (daß) wir dich (wieder)sehen können!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw2AQQ0QskHPttXJZLJjWZs">&quot;Meine Arme sind hoch (erhoben), um dich zu begrüßen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1UCy9FGtUaaqZXb7Gq3iQM">&quot;Meine Arme sind in der Tat (auch) erhoben, um dich zu behüten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd96mornzz0QgmBXBPDZW59g">&quot;&#039;Männlicher&#039;, &#039;Herr&#039;, &#039;Jugendlicher&#039;, &#039;Jüngling&#039;, (und auch) um unseren Herrn zu empfangen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwkKntuWQUj6tWBchnHKqGo">&quot;Ich bin die Tochter des Geb, entferne dich (doch) nicht (wieder) von mir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4UfXWLBnkrDnk1XCEXZ1AQ">&quot;&#039;Jüngling&#039;, für den es doch (noch) nicht Zeit war!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyKL61KWQ0stozmA61pILQM">&quot;Ich durchziehe die Wege, damit deine Liebe (wieder) zu mir kommt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwwlAYibvELVmNgUSiARKSo">&quot;Ich ziehe über das Land (und) ich werde nicht ermüden bei der Suche nach dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3HLLPwWBUcNnH8c6EmWWZI">&quot;Eine Flamme ist in mir aus Liebe zu dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Tn6WMwZUQ1mZo3FxlnvlU">&quot;Ach, komm (doch), (daß) ich dich (wieder)sehen kann!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2diL6G3WUGTjRzxdGWm4yw">&quot;Ich weine wegen deiner Einsamkeit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd162jOLZOk2ckQBErzqQtrM">&quot;Komm (doch) eilig zu mir, denn 〈mein Herz〉 sehnt sich nach deinem Anblick, nachdem ich (schon solange) dein Gesicht (wieder)sehen möchte!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd75xDf93w0p9mNQGT2M4ZCY">&quot;Sieh doch, Jubel ist bei deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd93f0fwTgEWRvWdpnpVrONY">&quot;Du bist behütet, behütet in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8k52meO50A2kWJ4WD0fuII">&quot;Heissa, unser Herr kommt zu seinem Haus!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1MwCYCpGEPNkHFF08dPL2I">&quot;Man sorge für Schutz um seinen Tempel herum!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6RdBW28qUurpqPomdQxB0Q">&quot;Unser Herr komme in Frieden auf seinen Thron!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd70PmQaLPUNkllcyKvxceQk">&quot;Du weilst (dann) in deinem Haus, ohne (daß) du Furcht haben mußt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5A4tN1uv0hbvoscCsIuRfc">&quot;Oh, (wie) erhaben, erhaben bist du, unser Herr!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd49DAVu6mEXDiDJyXv2syqI">&quot;So halte dich (doch) nicht (länger) fern, &#039;großer Gott&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5a041YLFUZIrfQIGD9EYn4">&quot;Komme (doch) in wahrhaftem Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5LaUA20IkcZs2V8FEYMRDI">&quot;Du trittst hevor mit Re (am Morgen), (denn) du hast Macht über die Götter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyCpNUvxH0StiDCDFWaQCa0">&quot;&#039;Heni, komm in Frieden, (daß) ich dich sehen kann, &#039;Jüngling&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1fsQuB3FUjaijq9k4ZWYWo">&quot;Komme (doch) in deiner Gestalt des &#039;Jünglings&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyuQOvfFZEY1nyrCgVQHu2I">&quot;Hi (Seth) ist gefallen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQXBZFiL6kLLsZSVfo0SxU0">&quot;Horus ist (jetzt) Herrscher!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4GTw3BzGEX7oFUlkgqOSoU">&quot;(Und) der Größer (Seth) ist als Du, 〈er〉 kann nicht (mehr) gegen dich handeln!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy2cW9jCskd2pceR2VSfJVA">&quot;Mache dich auf in unsere Nähe, &#039;Beliebter der beiden Schwestern&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8SWP73xzE9eutEJh5BxH4A">&quot;&#039;Geliebter seines Vaters&#039;, &#039;Herr über die Freude&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3XtYr16cEr6qUdEn3vjAWQ">&quot;Gewogen sind dir die Herzen der Götterneunheit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd62XmQUTPEaLl8OdELaWd64">&quot;(Hell) erleuchtet ist dein Gotteshaus durch deine Schönheit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3T7C0v420wfoPA6giCXJL4">&quot;Die Götterneunheit erschaudert vor deiner Autorität!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ2MugJYSk33vwX0iNWJQ74">&quot;Die Erde bebt aus Furcht vor Dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd04b3RQFakwGulBQ8envtcw">&quot;Ich bin deine Frau, die (wieder) für deine Freundlichkeit sorgt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzyfDkT3xULIvoCClInOoUU">&quot;Die Schwester, die wirkungsmächtig ist für ihren Bruder!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3yubRgtFEyilZdyeYPxWEY">&quot;Komm, (daß) ich dich sehen kann, mein &#039;Herr der Liebe&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdznPrf2J8kF0nfXErwsr8z0">&quot;Erhaben, erhaben ist der &#039;Großgestaltige&#039;, komm, (daß) ich dich sehen kann!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQzY6lYxN01xkyW5dyQGXUI">&quot;Kind, das (fort)gegengen ist, &#039;Jüngling&#039;, komm, (daß) ich dich sehen kann!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5w240KXRkWTpet5lKzBMJc">&quot;Die Uferländer (und) die beiden Länder weinen um dich!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5QmASZI2EJWpMgtH1NISuc">&quot;Die (heiligen) Stätten trauern um Dich, doch du bist der &#039;unversehrt Erwachte&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyiXZySQek60gJ97uQRfByk">&quot;Himmel (und) Erde weinen um dich, doch du bist größer als (alle) Götter!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQfpok7oN0w2nrNHtulnHvo">&quot;Es gibt kein Aufhören in der Anbetung deines Ka!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyNLG9g440X9oBoszLFlkSg">&quot;Komm zu deinem Tempel, (denn) du mußt dich nicht (mehr) fürchten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxcm6FxCo0usllYWX0HWTi0">&quot;Dein Sohn Horus umfängt den Umkreis des Himmels!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8PhJJv1309puu0zuQz7QfQ">&quot;Bebon ist in der Schlinge, du mußt dich nicht (mehr) fürchten!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzQP6PArhUGNkVvJUvLhV6Q">&quot;Dein Sohn Horus wird für dich sorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0cLW6E3fk0htHfgq7oTsg8">&quot;Er wirft für dich die &#039;Komplizen des Bösen&#039; nieder!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw8BgqPU60jXtc5ENTKih5M">&quot;Oh &#039;Herr&#039;, (und) 〈Horus〉 ist bei mir zu 〈dieser〉 Stunde!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd05CCwWPcEDVm5zXNYotHZc">&quot;Werde ich dich heute sehen?; (denn) der Duft deines Leibes ist von Punt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxyXK22pYkYRsn4ZMCMuW5g">&quot;Die &#039;edlen Damen&#039; werden dich anbeten in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxH303M8nUgggM18OWAHj8I">&quot;Die gesamte Götterneunheit wird jubeln!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd79MUnPVw0pzohwnz8GOj74">&quot;Komme (doch) zu deiner Gattin in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8mAEfTH2EmlmeqVWjrGYSI">&quot;Ihr Herz rast aus Liebe zu dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzBx94zdT0zZndK3iU48Iiw">&quot;Sie wird dich umarmen (und) du wirst dich nicht mehr entfernen von ihr!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzF5qPRWRENotpBtjtyiAwU">&quot;Ihr Herz erfreut sich am Anblick deiner Schönheit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyQKcGSN7UVAsMis3tOQAUE">&quot;(Doch) du hast dich entfernt von ihr zu einem geheimen Haus!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWro0My42ksLuKNPpJvVnYQ">&quot;Sie wird 〈jedes〉 Übel beseitigen, das in deinem Leibe ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQPie4hr7USrkOcZWQtcCAo">&quot;(Und) das Leiden ist (so), als ob es nicht geschehen wäre!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8h7lHMYv0Y1mNLtIpqQbUU">&quot;Gib (doch wieder) leben an das Haupt 〈deiner〉 Gattin!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxKZhzjR50wfoV0bWfNg4fQ">&quot;Du wirst ja gefeit sein vor dem Treiben im Wasser in den Marschen von Aphroditopolis (22. oberägyptischer Gau) an diesem Tage!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7eWGydwZkGgmIVgSNMWcIE">&quot;Große Trauer (und) Unglück (war das) ohnegleichen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd19dyaYnPkYFvkgNZNgGhps">&quot;Die Ihet-Kuh weint um dich mit ihrem Geschrei!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8rGTEGuHkPMlexkSHddDOQ">&quot;Die Liebe zu Dir ist (auch) in ihrem Herzen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd38fJpBgukLkroYTY9LJtOs">&quot;Ihr Herz rast, (weil) du dich zu ihr freust!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd14t2ybKGEbGlianFoITrUE">&quot;Sie umfasst deinen Leib mit ihren Armen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5XZc7RiPkrIggiunIL9fhY">&quot;〈Sie〉 kommt eilends - andere Lesart: in Frieden - zu dir!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyjBCD5mdEinuhE4L4KgMPo">&quot;Sie hat dich (immer) beschützt vor dem, der gegen dich handelt (Seth)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1lhsxzYukXdq8WjnjCXfoE">&quot;Sie läßt dir dein Fleisch gesunden an deinen Knochen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8GtR8IQHEEwlow5vVfTQ0g">&quot;Sie setzt dir deine Nase (wieder) an dein Gesicht!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7gbWXsFU0tznD4FgGU8b0k">&quot;Sie fügt dir deine Knochen (wieder) vollständig zusammen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwLYCJYOoUjGtfIR2RjQWmE">&quot;Deine Mutter Nut kommt zu dir in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyyzOu398EiWtYcAQJWu4T8">&quot;Sie erschafft dich (wieder wie) zu einem Leben aus ihrem Leibe!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyqdUHxYl0ENihP45YWwlIg">&quot;Ba-mächtig, Ba-mächtig bist du, dauerhaft, dauerhaft bist du!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0K6j2Wv4ECIpYjE5p0iYG4">&quot;Die Ba-Macht gehört dir, &#039;Männlicher&#039;, &#039;Herr der Frauen&#039;, das Bet-Salböl ist an deinem Haar, wenn du vom Gotteslande her kommst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2gXQQ3CQUOuqoy9ADnnUs0">&quot;Bet-Salböl ist an deinem Haar mit Myrrhe, die aus sich selbst hervorgegangen ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWUQYY73MUfat9k4cxSq5fo">&quot;Komm in Frieden, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxPjqYo2QE3RucK34wD9zw0">&quot;&#039;Unterägyptischer König&#039;, &#039;Herrscher&#039;, komm in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxmlKSQhIEZMknJkpUQ3h4k">&quot;Die &#039;Herrin von Sais&#039; (Neith), ihre Arme sind dir zugewandt!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWFozfqhX0xLotlAMJ0OYaQ">&quot;(Und) die &#039;Witwe&#039; (Isis), ihr Herz kreist (nur) um dich!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8Y5Y422G0apoG4ESTPBbac">&quot;Du bist ein Gott, der aus einem Gott hervorging!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3Q4SotqU0o1o5dnn3Jl3H8">&quot;Mekati, es gibt keinen seinesgleichen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Se9yVgnU1HncBnKhDLk1M">&quot;Dein Haar ist aus Türkis von seinem Leibe(?), wenn du vom Türkisgefilde kommst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4vJ2SIGqEE5lQW3gOQsZx8">&quot;Dein Harr ist aus Lapilazuli, der zu (echtem) Lapislazuli gehört!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1Z48Vj4qkUjpkE8MQ1ieDw">&quot;Und Lapislazuli ist auch auf deinem Gesicht!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwXu74Sor0rMtiigkskeK3s">&quot;Deine Haut (und) dein Leib an dir sind aus oberägyptischem Erz!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd63pNuhqqUU0u2jMZxwQkuk">&quot;Deine Knochen sind aus Silber gebildet!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5pQmRuVPkQhtirEBjhLMEI">&quot;Obwohl du ein Jüngling bist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6byFfnnekQ8hlb0gXg45e4">&quot;Deine Wirbelknochen an dir sind aus Türkis!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3BKGulvy0w3nKVv5hwrTHA">Andere Lesart: &quot;Der Duft des Räucherwerkes an deinem Haar ist von Myrrhe, die aus sich selbst hervorgegangen ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7N9reruqE9ApNgdnoNGxHE">&quot;Das, was auf deinem Kopf ist, (die Haare) ist aus Lapislazuli!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd04AWpx6j0XWnt6bAsCF4hw">&quot;Geb bringt dir Opfergaben dar!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9hzrYLmpE7jrCdBeQYWPCg">&quot;Er bevorzugt den Gott, der vor ihm entstanden war!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd26lydnRvEIoqXEaZNzFY88">&quot;Den &#039;ältesten Erben&#039;, &#039;der aus Re hervorging&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd02Wm5mR5EnPtWa3zLb9Jo0">&quot;&#039;Ältester&#039;, &#039;Schöngesichtiger&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3fPwjJCMkRNjHsJp2EWvT8">&quot;&#039;Lebender Ba&#039;, der Isden 〈ist〉!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8h6oZMGWUM2mbuud0Ly3Lg">&quot;&#039;Jüngling&#039;, &#039;der aus dem Sehend-Hörenden hervorging&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6zk8ALSTEYrnQ71Xk4k2As">&quot;&#039;Ältester der Heiligtümer&#039;, &#039;Erbe des Geb&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQlo5rllM0ucv5yowJhMyt0">&quot;Er (Geb) übergibt dir den ganzen Umkreis der Sonne!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzXPyeNfzEGZqQXcvRNurSI">&quot;Komm zu deinem Tempel, Osiris, &#039;der über die Götter richtet&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4m6AVoRWUWViM1McX9FXhI">&quot;Öffne dir deine Augen, (daß) du mit ihnen sehen kannst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7APw5VT8U2hsBw9hWeVQI0">&quot;Vertreibe (doch) die Bewölkung!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQtYyDxrQUHyvZ09Ce0Ak1U">&quot;(Und) spende Licht dem Lande in der Dunkelheit!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz4vqY4NXkrvppp3E3bZJhc">&quot;Komm zu deinem Tempel, Osiris-Chontamenti, komm zu deinem Tempel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyi6BbYhPUiYgyMpAVuabEM">&quot;&#039;Der aus dem Leib (seiner Mutter) mit der Uräusschlange am Haupt hervorkam&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5tmzwPP2UlntQYsFBesEpY">&quot;&#039;Dessen Augen die beiden Länder (und) die Götter erleuchten&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd32bvM8Y0kbIiHQOlkLhPEQ">&quot;Erhebe dich, erhebe dich, &#039;Herrscher&#039;, unser Herr!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyMm2UuGGUA9szXsB3MGyNU">&quot;Dein Feind ist an 〈seiner〉 Richtstätte, er existiert nicht (mehr)!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5AkjwuVLUmTpHL9Ic7XerY">&quot;Daure, daure in deinem Namen &#039;Dauernder&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxnoZKZQWU15iJBzoXfsXr4">&quot;Dein Leib gehört dir, Onnophris, lebend, heil (und) gesund!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzNVJmvbHkhHrDQgvOIUccQ">&quot;Dein Fleisch gehört dir, &#039;Herzensmüder&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4zWAIIrf03sqUUYw3zrv98">&quot;Osiris, wie schön ist das, was aus dir hervorgeht!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2v7WvRb60CagWfklcOAMvw">&quot;Dein Wort ist Befehl!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7WKt4p8SU3luQ7k5tMqZ4M">&quot;Tatenen, dein Vater, trägt den Himmel, so daß du auf seinen vier Seiten wandeln kannst!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2g7GAxC2kavqQqghzUiHLU">&quot;Dein Ba fliegt im Osten (zum Himmel) auf!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5JrApDAmEpasb9Qhpisztc">&quot;(Denn) du bist das &#039;Ebenbild des Re&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd71lvzYZKUiiviFWfhuLi3g">&quot;(Und) die Unterweltlichen empfangen dich im Jubel!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWp8j4zAMEissIixYL48djU">&quot;Geb öffnet dir das, was in ihm ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6mcpefHOUGBhDIlKrYL10s">&quot;Man kommt zu dir in Frieden, (sobald) du in Frieden nach Busiris gereist bist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4j0Xou7qk8WhCZVQkuAuTs">&quot;(So) erhebe dich doch, Osiris!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzRneFvRQ02ngnjdTJkcayI">&quot;Erhebe dich, erhebe dich in Frieden!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1lW8U1NdkUWskBqQljQN5Q">&quot;Isis kommt zu dir, &#039;Herr des Horizontes&#039; wie &#039;der sich selbst erzeugte&#039;, &#039;Einzigartiger&#039;, &#039;Anführer der Götter&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxyWQhxu302ypO0zWZb4AJg">&quot;Sie wird dich beschützen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ7rTk7MnU6MrBER6QliQgg">&quot;Sie wird für dich sorgen!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd310nyxIKEIWg97K1X6Dub0">&quot;Sie sorgte (ja auch) für Horus!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7KbpvDxTU24pUmkZzIMWoo">&quot;Die Frau, die ihrem Vater einen Männlichen (Erben) gebar!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9I1FVmSw07SnuOghfQWXFk">&quot;Die &#039;Allherrin&#039;, &#039;die aus dem Horusauge hervorgegangen ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0arRnH89kCWn92vunt7WMg">&quot;Die &#039;Verehrungswürdige&#039;, &#039;die aus Re hervorgekommen ist&#039;!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9ipWHUQwEqRhN16IbnBZ0w">&quot;&#039;Die aus der Pupille im Auge des Atum hervorgegangen ist&#039;, als Re zum ersten Mal aufging!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6MMGJrTkUgumBMawZhGWlA">Ende (des Textes).</s>
+</ab>
+</body>
+</text>
+</TEI>

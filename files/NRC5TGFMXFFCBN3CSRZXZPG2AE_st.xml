@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stNRC5TGFMXFFCBN3CSRZXZPG2AE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Fragmente aus dem Month-Tempel〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Fragmente aus dem Month-Tempel〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NRC5TGFMXFFCBN3CSRZXZPG2AE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<idno>CG 34184; JE 41565</idno>
+<msName>Fragmente aus dem Month-Tempel</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Fragmente aus dem Month-Tempel〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5IRGJK4L7FEYRHDFGIVOD2IUYQ">
+<support>
+<objectType ref="ths:EP7XNRXU4ZAU7BKOHF5H2PYC34">Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:Z45USXGJBNCVZLOVM5CRMAAL3Y" notBefore="-1333">Tutanchamun</date>
+<date type="latest" datingPoint="ths:Z45USXGJBNCVZLOVM5CRMAAL3Y" notAfter="-1324">Tutanchamun</date>
+</origDate>
+<origPlace ref="ths:SGFCZP5Y35GEBCOGT7RCMOXSNM">Karnak
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. Varille, Karnak I, Kairo 1943, Taf. 48 [*P];
+P. Lacau, Stèles du Nouvel Emprire (CG), Kairo 1909-1926, 230 f., Taf. 70 [H];
+G. Legrain, Un duplica de la grande stèle de Toutankhamanou à Karnak, ASAE 8, 1907, 256ff. [H, K];
+W. Helck, Urkunden des ägyptischen Altertums, Abt. IV, 1984 (Neudruck von 1958), 2029 ff. [*H, Ü];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 212 ff. (Nr. 99) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<idno>CG 34184; JE 41565</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NRC5TGFMXFFCBN3CSRZXZPG2AE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-573c35449f1f0b5107e344cfef7f414e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd9SQNkb9BUTJnhTZBWp138I">[Da baute seine Majestät Denkmäler] ... [bis zum Ende] der Ewigkeit ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7HT0Dx13EjCuoZNIzch2L8">[Er übertraf die Taten] seit der Zeit der Vorfahren.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6Yx7BQy0kfcpwmGQvmY2o0">[Er vermehrte ihre Altäre(?), bestehend aus] Gold, Silber, Bronze und Kupfer, ohne Ende an [irgendwelchen Dingen.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7YVUHMioUesl3y8uHBubyY">[Er vergrößerte alle Abgaben für die Tem]pel, verdoppelt, verdreifacht, vervierfacht, bestehend aus Silber, ... Balsam und Myrrhe, ohne Ende an irgendwelchen schönen Dingen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7qANKiKFkDpuLpKrChDAdI">[Seine Majestät zimmerte ihre Flussbarken ... von Auserlesenen aus] Negau, beschlagen mit Gold vom Besten der Fremdländer, damit sie [den Nil] erleuchten lassen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzV8sGZhd0cPpgCyn5W7ZPw">Seine Majestät, er lebe, sei heil und gesung, reinigte [die Sklaven etc.] ... wobei ihre Arbeitsleistung dem Palast und dem [Schatzhaus des Herrn der Beiden Länder] zugerechnet wurde.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy2T5Y7OW0ZWiT95z4ej0Qw">Ich ließ sie beschützt und behütet sein für meine Väter, [alle Götter, damit] sie beim Ausführen dessen, was ihre Kas wünschen, zufrieden sind, damit sie Ägypten bewahren mögen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9tewglTSUn3u0fj2mgVPgY">Die Götter und Göttinnen, die sich auf dieser Erde befinden: Ihre Herzen waren in Freude.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7BZFQkJN0BJozt5cfwaowA">Die Herren der Heiligtümer [waren in Jubel].</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7ygpQADoUifvkxcZyf8Zqw">Die Ufer sind in Jubel und Jauchzen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyh37WxSbUBDuicpUtgVbbQ">Jubel war überall im [ganzen] Land.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy5BJl3WtksvtAZJUZQ8Dog">Denn schöne Dinge waren geschehen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd46fw81Bt0wHumWyUdzQDt4">Die Neunheit, die im großen Tempel ist, - ihre Arme sind im Lobpreis (erhoben), ihre Händ sind gefüllt mit [den Jubiläumsfesten aller] Ewigkeit.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5b12gMhJU1ysv3l7pe9EDY">Alles Leben und Wohlergehen von ihnen wurde an die Nase des starken Königs, des Horus der Erneuerung gegeben,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8WvJdFcOE2tqZBAMucIrQw">- des geliebten Sohnes [des Vaters Amun-Re, des Königs] der Götter, der ihn (den König) geschaffen hat, um ihn (den Gott) zu erschaffen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd85sQjjBV0a5pEuy0rFyhGk">- des Königs von Ober- und Unterägypten, Djeser-cheperu-Re-setep-en-Re (ursprüngl. Fassung: Neb-cheperu-Re), geliebt von Amun, [dessen wahrhaft] ältester Sohn, den er liebt, der dem Vater, der ihn gezeugt hat, huldigt, [dessen] Königsherrschaft [die Königsherrschaft] (seines) Vaters Osiris ist,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6RRvRsyFkFdmJ0W8Mxedc4">- des Sohnes des Re, Haremhab (ursprüngl. Fassung: Tutanchamun, Herrscher des südlichen Heliopolis), Sohn, der wirkungsmächtig für den ist, der ihn geschaffen hat, der denkmalreiche, zahlreich an Wundern, ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1QgQlPFAkgUn8YdiKvJbHc">An diesem Tag war man im schönen Palast, der sich im Palast des Thutmosis I., des Gerechtfertigten, befindet.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1sWsT2Z6EKipcoOsSTOa6M">Da war [seine Majestät, er lebe, sei heil und gesund, verjüngt ...]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4BQeYmDBUqYjZA3P274eSU">Er ist einer mit kräftigem Arm, groß an Kraft, erhoben über die Stärke, groß an Kraft wie der Sohn der Nut, ...</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYB4QAEDKLZCHFDZVRPJII6IORI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ritual- und Personen-Beischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Ritual- und Personen-Beischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YB4QAEDKLZCHFDZVRPJII6IORI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>4. Register v.u.</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Ritual- und Personen-Beischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQ4XAD643PJCLHMZRLMJNUQ2YVI">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, Mereruka and his Family I: The Tomb of Meryteti (ACE Rep. 21), Oxford 2004, pl. 50 [H];</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YB4QAEDKLZCHFDZVRPJII6IORI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3bf178dd360481d938a7ec17d2aaa2b0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3IZrneWzE9qrB04iV1wGLo">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9bWAS9HWE5OofgMQVqCwm8" lemmaRef="tla:tla851711"><fs feats="verb verb_irr infinitive t-morpheme"/><damage>rḏi̯<supplied reason="lost">.t</supplied></damage></w>
+<w xml:id="tlaIBUBd10FzXwxxU6is1EQs07gfTc" lemmaRef="tla:tla160330"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>qbḥ<supplied reason="defective">,w</supplied></damage></w>
+<w xml:id="tlaIBUBd4pMgEzLBUYahQt7j8BUwoY" lemmaRef="tla:tla130010"><fs feats="verb verb_caus_3-lit infinitive t-morpheme"/>swꜥb.t</w>
+<w xml:id="tlaIBUBd1ARbSxJLUYFuN2QIWFvzsY" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="defective">j</supplied>ḫ,t</w>
+</s>
+<s xml:id="tlaIBUBd1npzHi1Q0mWvS6R4wgOl0A">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd28GviiYc0yLuhLlQGBEzWE" lemmaRef="tla:tla138670"><fs feats="substantive substantive_masc st_constructus singular"/><supplied reason="lost">snṯr</supplied></w>
+<w xml:id="tlaIBUBd8JnPQKApEB9hKA00VIrvNY" lemmaRef="tla:tla150140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">sḏ,t</supplied></w>
+<w xml:id="tlaIBUBdQLEP1AZaU0ciOHaERWLE1A" lemmaRef="tla:tla130010"><fs feats="verb verb_caus_3-lit infinitive t-morpheme"/><supplied reason="lost">swꜥb</supplied>.t</w>
+<w xml:id="tlaIBUBd8MM1g8hAU75shjANe4WNKA" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="defective">j</supplied>ḫ,t</w>
+</s>
+<s xml:id="tlaIBUBdx38WiQcoEMKpu5xByfpkjk">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd40Eg8SeP0UQgA1ljLvRehM" lemmaRef="tla:tla500284"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>rnp,t</w>
+<w xml:id="tlaIBUBdyqvf0INqEWVuox4AR8z7K8" lemmaRef="tla:tla400993"><fs feats="adjective feminine singular"/>bnj.t</w>
+</s>
+<s xml:id="tlaIBUBd0dQDZwc4Efyg3M8WnyFf6Q">
+<lb n="[9]"/>
+<w xml:id="tlaIBUBd2haD1Xm3USLqhcE455YxnY" lemmaRef="tla:tla26840"><fs feats="substantive infinitive t-morpheme"/>jni̯<supplied reason="lost">.t</supplied></w>
+<w xml:id="tlaIBUBd2WTnzlLi0sst8nvZFvmQCg" lemmaRef="tla:tla96600"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>rd</w>
+</s>
+<s xml:id="tlaIBUBd2sSghO0A0uWiqWVaDIYo94">
+<lb n="[11]"/>
+<w xml:id="tlaIBUBd3m4ez0NjEoLrfK8Q0J4aOw" lemmaRef="tla:tla95030"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>rnp,wt</w>
+<w xml:id="tlaIBUBdyUE1kZwFkyzrNLsviNhQrs" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥ<supplied reason="defective">n</supplied>q,t</w>
+</s>
+<s xml:id="tlaIBUBdxYj9L05uET3trzLS9tSsLI">
+<lb n="[15]"/>
+<w xml:id="tlaIBUBd0hqHpet9UYTq7Sn4V6RLXM" lemmaRef="tla:tla855795"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ẖr<supplied reason="defective">,j</supplied>-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

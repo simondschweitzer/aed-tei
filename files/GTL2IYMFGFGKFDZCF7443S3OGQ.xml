@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGTL2IYMFGFGKFDZCF7443S3OGQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Basis-Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Basis-Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GTL2IYMFGFGKFDZCF7443S3OGQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:NM3QUYNOMVDOBD2JX4WCD76QY4">Pelizaeus-Museum</repository>
+<idno>1962</idno>
+<msName>Serdab-Statue des Hem-iunu</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Basis-Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQURTIOMCGRAHLIN73YXVKDP5IY">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:IS52YO4UPBG6ZO5BFFVWJ26OWY" notBefore="-2620">Cheops</date>
+<date type="latest" datingPoint="ths:IS52YO4UPBG6ZO5BFFVWJ26OWY" notAfter="-2598">Cheops</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza I, Wien-Leipzig 1929, 132-162, Abb. 18-24, Taf. XVb-XXIVf.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:NM3QUYNOMVDOBD2JX4WCD76QY4">Pelizaeus-Museum</repository>
+<idno>1962</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GTL2IYMFGFGKFDZCF7443S3OGQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-5bf4a15ddbcc5af34f9aa47e38210e4f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd4ZiMjEvjEQKlHmhjyiTpuI">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd5FEZQRZn0rUigDo3MMA36s" lemmaRef="tla:tla94060"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>-p<damage>ꜥ</damage><supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd0fdix86DE3NrXyCZitoPFQ" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-<damage>ꜥ</damage></w>
+<w xml:id="tlaIBUBdwe70nUEvEZLkeE43fT35po" lemmaRef="tla:tla450276"><fs feats="epitheton_title title"/>tꜣ,tj-zꜣb-ṯꜣ,tj</w>
+<w xml:id="tlaIBUBdziIW6ELrEwInvDoNISSPB0" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/>ḫtm,tj-bj,tj</w>
+<w xml:id="tlaIBUBd4iz4hgPZkoptyghMxwND2k" lemmaRef="tla:tla550398"><fs feats="epitheton_title title"/>zꜣ,w-Nḫn</w>
+<w xml:id="tlaIBUBd2d10jbQY0LpgWXOob6hwj8" lemmaRef="tla:tla850278"><fs feats="epitheton_title title"/>rʾ-Pj-nb</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd6SpCt786UIwm9cs69uS8V0" lemmaRef="tla:tla851386"><fs feats="epitheton_title title"/>ḥm-nṯr-Bꜣs,tt</w>
+<w xml:id="tlaIBUBdy0vQ4PDxkn2n8fcAdM1x1k" lemmaRef="tla:tla851385"><fs feats="epitheton_title title"/>ḥm-nṯr-Šsm,tt</w>
+<w xml:id="tlaIBUBd1SEHzceAk4QmHoJTxyiDEQ" lemmaRef="tla:tla851389"><fs feats="epitheton_title title"/>ḥm-nṯr-Bꜣ<supplied reason="defective">-n</supplied>-ꜥnp,t</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd75MnRoAl0RilwRBzXgrAxU" lemmaRef="tla:tla450786"><fs feats="epitheton_title title"/>mḏḥ,w-zẖꜣ,w-nswt</w>
+<w xml:id="tlaIBUBdWiSWVWLu0BDgBxLzF6KOWQ" lemmaRef="tla:tla450787"><fs feats="epitheton_title title"/>mḏḥ,w-Mḥy,t</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdxacdNLRL0dmhAMqtVmdYOI" lemmaRef="tla:tla851387"><fs feats="epitheton_title title"/>ḫrp-mr,t-Šmꜥ-Mḥ,w</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd3cbkexQZUfNuTO4zpQWRi0" lemmaRef="tla:tla401164"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-kꜣ,t-nb,t-n,t-nswt</w>
+<lb n="[6/7]"/>
+<w xml:id="tlaIBUBdyHPj3VickdioLbUiZhMuos" lemmaRef="tla:tla852514"><fs feats="epitheton_title title"/>zꜣ-nswt-n-ẖ,t≡f</w>
+<w xml:id="tlaIBUBd4zIKt1u1UWWsWJrhK82ICk" lemmaRef="tla:tla704677"><fs feats="entity_name person_name"/>Ḥm-jwn</w>
+</s>
+<s xml:id="tlaIBUBd1SpXQlPSkNbsRF4GfCyV3Q">
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdx0WlgZOiUtRjLvBnu6CUVI" lemmaRef="tla:tla450708"><fs feats="epitheton_title title"/>mdw-ḥp</w>
+<w xml:id="tlaIBUBd3ZM6i6u7kFWie9EQ0qjs40" lemmaRef="tla:tla853131"><fs feats="epitheton_title title"/>mdw-kꜣ-ḥḏ</w>
+<w xml:id="tlaIBUBd8XKSprKBkBOlgOZfHNB3Yg" lemmaRef="tla:tla850763"><fs feats="epitheton_title title"/>mrr<supplied reason="defective">,w</supplied>-nb≡f</w>
+<lb n="[9]"/>
+<w xml:id="tlaIBUBd1mz2ZyGqkIFqcDTI2dxY1Y" lemmaRef="tla:tla400264"><fs feats="epitheton_title title"/>sms,w-jz,t</w>
+<w xml:id="tlaIBUBd9MJACkiBkV2scfoZZ0RPRo" lemmaRef="tla:tla853133"><fs feats="epitheton_title title"/>wr-dj,w-pr-Ḏḥw,tj</w>
+<w xml:id="tlaIBUBd3vAYLduB0RWrkq5YrNkUVY" lemmaRef="tla:tla850897"><fs feats="epitheton_title title"/>mr,y-nb≡f</w>
+<w xml:id="tlaIBUBd1tzxJ5950y8ls3vxWDt6ro" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<lb n="[7]"/>
+<w xml:id="tlaIBUBd6Ex8kpExk56uJ7tFcWaGdM" lemmaRef="tla:tla704677"><fs feats="entity_name person_name"/><supplied reason="haplography">Ḥm-jwn</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stV2UQ2OPU2RDT5FF3MUWDFXWYHM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>V2UQ2OPU2RDT5FF3MUWDFXWYHM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Eingangs-Sturzbalken</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaXZ26YHXNMVF5DFNLKEDAXNWNCM">
+<support>
+<objectType ref="ths:IGXF5ZVEI5ALPHRZKHMJFUA2FQ">Architrav</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. McFarlane, Mastabas at Saqqara: Kaiemheset, Kaipunesut, Kaiemsenu, Sehetepu and Others, (ACE Rep. 20), Oxford 2003 [P,F,U,Ü,L], p. 65-101, pl. 27a, 28a, 60a
+PM III/2, 541f.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="V2UQ2OPU2RDT5FF3MUWDFXWYHM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3306a8a6016b0ee1bd9cd22f009a8a5f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdxz9mo25eE3tl0xWsQX5LEw">Ein Opfer, das der König gibt, ein Opfer, das Anubis, der vor der Gotteshalle ist, 〈〈gibt〉〉:</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWSfzbnLSkjLjLRp8GDkJq8">Er möge bestattet sein [in] der Nekropole, indem er sehr schön alt ist, (nämlich der) Versorgte beim großen Gott und Vorsteher der Scheune Kai-em-senu.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd25SNLVQgUNBufBYOgmlVCM">Ein Totenopfer für ihn am Neujahrstag (Fest), Thot-Fest, Jahresanfang (ein Fest), Wag-Fest (Totenfest), Fest des Sokar, Großen Fest (Totenfest), Brand (Fest), Heraustreten des Min (Fest), Monatsfest des Sadj, Abedu (Fest am 2. Tag nach Neumond), Semdet (Halbmonatsfest am 15. Tag des Monats) (und) jedem Fest täglich (dem) 〈〈Kai-em-senu〉〉.</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id5MYRTVGJ5VBZ7ARHDGLDYPHEXI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>oberer Sturzbalken</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von oberer Sturzbalken nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5MYRTVGJ5VBZ7ARHDGLDYPHEXI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>nördliche Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">oberer Sturzbalken</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaYSRENR7SONEQHGY7RBH2MZE5XI">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1930-1931, Cairo 1936, 78-82, fig. 83-86, pl. XXV [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5MYRTVGJ5VBZ7ARHDGLDYPHEXI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6511a187f8905842bb307b219b339c9c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1XoQPtV6EWohIXNXKZRB8c">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdyQF8eBboUHWgphb6WPeA4I" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd5wtdW4xzU9qnJYyDpH6JUE" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBd3hXqpgp9kn3vgDVF3c1Qm4" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBd7lhac6BT0mWqm3pwNmy5hs" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/><damage>Jnp,w</damage></w>
+<w xml:id="tlaIBUBd8jYB06x5kGalPHdTzEzMQA" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/><damage>ḫnt,j-zḥ-nṯr</damage></w>
+</s>
+<s xml:id="tlaIBUBdWwSKzCnd0nAoiSPLXwiUH8">
+<w xml:id="tlaIBUBd6Go3sF4jEvim8ZtuQ327xU" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/><supplied reason="lost">qrs.t</supplied></w>
+<w xml:id="tlaIBUBd6WmZ0rYckznmAlEHwavung" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBdQbW4nBLsUQHlHADIh10qDQ" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBd1DtIrQoEkd7n0lzG4EtAkc" lemmaRef="tla:tla500066"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">ẖr,t-nṯr</supplied></w>
+<w xml:id="tlaIBUBd1W0zodT7kj1gfmI1FXCUWM" lemmaRef="tla:tla20480"><fs feats="verb verb_4-inf pseudoParticiple masculine singular"/><supplied reason="lost">jꜣwi̯</supplied></w>
+<w xml:id="tlaIBUBd7lgAd0QHEkBieCaWn72wfM" lemmaRef="tla:tla400458"><fs feats="adverb"/>nfr</w>
+<w xml:id="tlaIBUBd3vnnKDQh0BEonFT8VbWK2I" lemmaRef="tla:tla450161"><fs feats="adverb"/>wr,t</w>
+<w xml:id="tlaIBUBdWmDCmJ87EeugVMofWei2Yg" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd652UN2WOkdCvCxqGuGDJgI" lemmaRef="tla:tla25730"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-ḫnt</w>
+<w xml:id="tlaIBUBdxAekDGXXEhPjPyjPSQCLVE" lemmaRef="tla:tla852065"><fs feats="epitheton_title title"/>ḫrp-jr<supplied reason="defective">,w</supplied>-šnj</w>
+<w xml:id="tlaIBUBd0EU3vGi6k6huMzFGjRm1nc" lemmaRef="tla:tla702930"><fs feats="entity_name person_name"/>N,j-kꜣ,w-nswt</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

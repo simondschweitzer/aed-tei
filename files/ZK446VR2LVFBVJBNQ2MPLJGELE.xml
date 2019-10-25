@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idZK446VR2LVFBVJBNQ2MPLJGELE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Vor Pavillon</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Vor Pavillon nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ZK446VR2LVFBVJBNQ2MPLJGELE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>1. Register v.o.</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Vor Pavillon</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBNPWB76Q7RGVZABFKWBEJTKUIU">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 50-52, pl. 19, 63.
+[F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ZK446VR2LVFBVJBNQ2MPLJGELE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ffa7bb1d7be70216bfee4ce7ba483b69</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8KC3Q6dmkMuuLShJkEj3M8">
+<lb n="[Zeile]"/>
+<w xml:id="tlaIBUBdy7BtsrwjUJ3kEaa3JO9aEA" lemmaRef="tla:tla128000"><fs feats="verb verb_caus_3-lit infinitive t-morpheme"/>sjꜥ<supplied reason="defective">r.t</supplied></w>
+<w xml:id="tlaIBUBd5ERpxRKTUY2kNakaz58b5M" lemmaRef="tla:tla450097"><fs feats="substantive substantive_masc st_constructus singular"/>zẖꜣ,w</w>
+<w xml:id="tlaIBUBdwGfJwiwR0POvsKzojSDE8I" lemmaRef="tla:tla854299"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-ḏ,t</w>
+</s>
+<s xml:id="tlaIBUBdz11H8Jux0Dqunm0L3qWCt4">
+<lb n="[Spalte]"/>
+<w xml:id="tlaIBUBd9jahFx6lUsapWJ4HFioSa8" lemmaRef="tla:tla401187"><fs feats="epitheton_title title"/><damage>ẖr<supplied reason="defective">,j-</supplied>tp-nswt-pr-ꜥꜣ</damage></w>
+<w xml:id="tlaIBUBd5iohKfuxEkro3MqRME6stI" lemmaRef="tla:tla450602"><fs feats="epitheton_title title"/>mdw-rḫ,yt</w>
+<w xml:id="tlaIBUBd1RPmNFw8UwNv2DAvYErQZ4" lemmaRef="tla:tla200007"><fs feats="entity_name person_name"/>N,j-sw-qd</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

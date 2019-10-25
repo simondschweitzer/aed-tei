@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idWFEQGLZ54BEH7ANOOSLL5TRITY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Priester-Beischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Priester-Beischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>WFEQGLZ54BEH7ANOOSLL5TRITY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>nördl. der Scheintür-Nische</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Priester-Beischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaE5MK2DTDRRCOTA3R4STBXNQO2I">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, Mereruka and his Family II: The Tomb of Waatetkhethor (ACE Rep. 26), Oxford 2008, 28-29, pl. 38b-39, 66 [H, K, P, F, Ü, L];
+G. Daressy, Le Mastaba de Mera, Le Caire 1898 (Extrait des Mémoires de l&#039;Institut Égyptien), 560 [H];
+A. Erman, handschriftliche Korrekturen in Publikation von G. Daressy von Dez. 1899 [H, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="WFEQGLZ54BEH7ANOOSLL5TRITY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-9f74ee387b19972678ae1207ce68260a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdWvn9WoFxEo5n7LeJuViCTY">
+<lb n="[1. Priester v.l.⁝1]"/>
+<w xml:id="tlaIBUBd8RixC2mdU5ehpWFYAWnDb0" lemmaRef="tla:tla851711"><fs feats="verb verb_irr infinitive t-morpheme"/><supplied reason="defective">r</supplied>ḏi̯.t</w>
+<w xml:id="tlaIBUBd71QhkPBTEFCnkfsX39e4FU" lemmaRef="tla:tla160330"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">qbḥ,w</supplied></w>
+<lb n="[1. Priester v.l.⁝2]"/>
+<w xml:id="tlaIBUBd8dRgqgFWkFBitzeTB77TL8" lemmaRef="tla:tla128750"><fs feats="verb verb_caus_2-lit infinitive t-morpheme"/>sꜥb.t</w>
+<w xml:id="tlaIBUBd9wS9ZQSKks7nnK1giOlgCs" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="defective">j</supplied>ḫ,t</w>
+</s>
+<s xml:id="tlaIBUBd079kRNOWkOXhx8Gz6kuhs0">
+<lb n="[2. Priester v.l.⁝1]"/>
+<w xml:id="tlaIBUBd5QjzQvf6UFfq44s6tQkc3E" lemmaRef="tla:tla138650"><fs feats="verb verb_caus_3-lit infinitive"/>snṯr</w>
+<lb n="[2. Priester v.l.⁝2]"/>
+<w xml:id="tlaIBUBdyyX4FDFB0rWlmHYaqw8WnE" lemmaRef="tla:tla128750"><fs feats="verb verb_caus_2-lit infinitive t-morpheme"/><damage>sꜥb</damage>.t</w>
+<w xml:id="tlaIBUBdws2BucLAU6bt3sdnYceSg8" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="defective">j</supplied>ḫ,t</w>
+</s>
+<s xml:id="tlaIBUBdQZ4gvQPWkQQnzGTkJC2nlY">
+<lb n="[3. Priester v.l.⁝1]"/>
+<w xml:id="tlaIBUBdQb3DMFTv0P6oKg181xPwAI" lemmaRef="tla:tla111510"><fs feats="substantive st_absolutus singular"/>ḥtp-ḏi̯-nswt</w>
+<w xml:id="tlaIBUBdW5o8NHq4kULmmk2EMlUAXo" lemmaRef="tla:tla854506"><fs feats="verb verb_3-lit infinitive"/>wd<supplied reason="defective">n</supplied></w>
+<w xml:id="tlaIBUBd2O9LOqizEYFnM0wKYkVYco" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="defective">j</supplied>ḫ,t</w>
+</s>
+<s xml:id="tlaIBUBdwL7xhojDUiIkoXeQ5bGq20">
+<lb n="[3. Priester v.l.⁝2]"/>
+<w xml:id="tlaIBUBdxqrD4an6Ucznvgp73GBPs8" lemmaRef="tla:tla168330"><fs feats="substantive substantive_masc st_absolutus plural"/>gs,w.pl</w>
+<w xml:id="tlaIBUBd3WQrIQtgUPxoakIcLdAFvo" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="defective">j</supplied>ḫ,t</w>
+<w xml:id="tlaIBUBd0E5O7BPUEqNv6nPHoERNcg" lemmaRef="tla:tla400993"><fs feats="adjective masculine singular"/>bnj<supplied reason="defective">.t</supplied></w>
+<w xml:id="tlaIBUBd7dj8ydipkCYvSXFXt5bVAM" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<lb n="[3. Priester v.l.⁝3]"/>
+<w xml:id="tlaIBUBd5qpCStXFEHcp1HTSVTYvcU" lemmaRef="tla:tla162930"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+<w xml:id="tlaIBUBd9yq5B1W7knrtxzQWQku60I" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBd6l22Mp1Z0HlhnX7kR5LFFw" lemmaRef="tla:tla51920"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><unclear>wdḥ,w</unclear></w>
+<lb n="[3. Priester v.l.⁝4]"/>
+<w xml:id="tlaIBUBdx1XH753N0QfhEBcIHUrmcs" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBdQqOQfC2XExQgFwqRFMmWug" lemmaRef="tla:tla62200"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><unclear>pzn</unclear></w>
+<w xml:id="tlaIBUBd3QKJko2DEUXlq4U5fdQnpc" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBdQfSPwp7AkyzsEtG3lVzvHo" lemmaRef="tla:tla22360"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><unclear>jwꜥ</unclear></w>
+</s>
+<s xml:id="tlaIBUBd8RvV5i53ksGtb39hAR7mNk">
+<lb n="[4. Priester v.l.]"/>
+<w xml:id="tlaIBUBd7kPMdHsE0UcleELHxawQkY" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b,t</w>
+</s>
+<s xml:id="tlaIBUBd2X7oe05v0KProEdQbSpJP8">
+<lb n="[5. Priester v.l.⁝1]"/>
+<w xml:id="tlaIBUBdzz4cwRMXkrwlLPPtlEMRWk" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b,t</w>
+</s>
+<s xml:id="tlaIBUBd9d6UPR4m0nyp95lz0JjYu0">
+<lb n="[5. Priester v.l.⁝2]"/>
+<w xml:id="tlaIBUBd3cmi34ljUIGjeHOXJUgZ9U" lemmaRef="tla:tla127110"><fs feats="verb verb_caus_2-lit infinitive t-morpheme"/>sꜣḫ.t</w>
+</s>
+<s xml:id="tlaIBUBd3MVL8dIykIJnv2apjJM3Q0">
+<lb n="[6.-8. Priester v.l.⁝1]"/>
+<w xml:id="tlaIBUBdxZqgr6xwEW7mJ6ZMfFAjfk" lemmaRef="tla:tla127120"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sꜣḫ</w>
+<w xml:id="tlaIBUBdWZWMJkC40oZuEIBZYlogTQ" lemmaRef="tla:tla41011"><fs feats="adjective masculine singular"/><supplied reason="lost">ꜥšꜣ</supplied></w>
+<w xml:id="tlaIBUBdxMdiejtakZTqZQ3i0lLny4" lemmaRef="tla:tla26660"><fs feats="preposition"/><supplied reason="lost">jn</supplied></w>
+<lb n="[6.-8. Priester v.l.⁝2]"/>
+<w xml:id="tlaIBUBd3GIAcsljUuFhmkkANxjwsI" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied><supplied reason="lost">b,t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd3duXGMrsUoMpQoVuXVagyY">
+<lb n="[10. Priester v.l.⁝1]"/>
+<w xml:id="tlaIBUBd8fK39cm0EW4ktXsfzgvQ9E" lemmaRef="tla:tla150110"><fs feats="verb verb_2-lit infinitive"/><supplied reason="lost">sḏ</supplied></w>
+<w xml:id="tlaIBUBdyPnXJrI9U2JoM7EQd7VjDk" lemmaRef="tla:tla180820"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">dšr,t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd26wUYYOqUejq79am0IILO4">
+<lb n="[10. Priester v.l.⁝2]"/>
+<w xml:id="tlaIBUBd6zQgB2Ou0sZlTY6DfgVfwE" lemmaRef="tla:tla168330"><fs feats="substantive substantive_masc st_absolutus plural"/><damage>gs,w</damage>.pl</w>
+<w xml:id="tlaIBUBd1qlcOteVUTcsjy7mk88JWQ" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus plural"/><damage><supplied reason="defective">j</supplied>ḫ,t</damage><supplied reason="lost">.pl</supplied></w>
+<w xml:id="tlaIBUBdzwxiaz8fElgiF5DTGjQKFo" lemmaRef="tla:tla400993"><fs feats="adjective feminine plural"/><supplied reason="lost">bnj<supplied reason="defective">.wt</supplied></supplied></w>
+<lb n="[10. Priester v.l.⁝3]"/>
+<w xml:id="tlaIBUBdyLzW9SWrkBTtEjBOF8PG68" lemmaRef="tla:tla22360"><fs feats="substantive substantive_masc st_absolutus dual"/><unclear>jwꜥ</unclear>.du</w>
+<lb n="[10. Priester v.l.⁝4]"/>
+<w xml:id="tlaIBUBd00soeQMw0tRsRdtFdi8HHo" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBdzE8blTA7kRxqJB0Df2oNgc" lemmaRef="tla:tla95030"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>rnp,wt</w>
+<w xml:id="tlaIBUBd90up9pUk0ZQplp8BkWwmBM" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><damage>ḥn</damage>q,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

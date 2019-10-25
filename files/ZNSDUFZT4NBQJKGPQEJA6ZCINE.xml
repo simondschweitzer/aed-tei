@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idZNSDUFZT4NBQJKGPQEJA6ZCINE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>1. Register v.u.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 1. Register v.u. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ZNSDUFZT4NBQJKGPQEJA6ZCINE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opferkapelle</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">1. Register v.u.</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMG32S5VA4NBZ7BABB2YN3FL7JU">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. M. Roth, A Cemetery of palace attendants, Including G 2084-2099, G 2230+2231, and G 2240, Giza Mastabas, Vol. 6, Boston 1995, p.145-147; pl. 102b-108a, 191-194</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ZNSDUFZT4NBQJKGPQEJA6ZCINE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-63876c1e6fd91b10727eeccb707b54c5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5SPv5g82E9Go8cGQaE7zew">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd6QpXvSWsUI1mpDAhOve5z4" lemmaRef="tla:tla141990"><fs feats="verb verb_caus_3-inf infinitive t-morpheme"/>sḫpi̯.t</w>
+<w xml:id="tlaIBUBdzgrrRVs0U4JjgSBocGQW08" lemmaRef="tla:tla550337"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>stp,t</w>
+<w xml:id="tlaIBUBd0DdXEBMY00XuzLlSpZCZHo" lemmaRef="tla:tla99014"><fs feats="substantive st_absolutus singular"/><supplied reason="defective">j</supplied>ḫ,<supplied reason="lost">t-</supplied>d<damage>wꜣ,t</damage></w>
+<w xml:id="tlaIBUBd3BnU5qOc0uVtoTdNmFJPLo" lemmaRef="tla:tla99003"><fs feats="substantive st_absolutus singular"/><damage><supplied reason="defective">j</supplied>ḫ,<supplied reason="lost">t-</supplied>ḫꜣwj</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

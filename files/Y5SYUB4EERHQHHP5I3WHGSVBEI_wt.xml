@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtY5SYUB4EERHQHHP5I3WHGSVBEI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I:Brieffragment</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von I:Brieffragment nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>Y5SYUB4EERHQHHP5I3WHGSVBEI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32120</idno>
+<msName>pUC 32120 〈A,C,G,H,I〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">I:Brieffragment</title>
+<textLang mainLang="Egyh-Egyhmd">Mittelhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaOCV7JYZOWNBLXKU44ZUC3GMHOE">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+</origDate>
+<origPlace ref="ths:5K5MFHJIAJDX3HZ5BSH2IICN2U">el-Lahun (Illahun)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Collier, M., Quirke, St., The UCL Lahun Papyri, Oxford 2002, 46-49.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32120</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="Y5SYUB4EERHQHHP5I3WHGSVBEI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhmd">Mittelhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-209892a9363e2f41aade6b43a070156f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd2qdEbhvbUQgsQcrqa05Glo">
+<w xml:lang="de" corresp="src:tlaIBUBdQymneWdnUUHuOOZzFukfys">Sobek</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7s8kY40Q0RpklVZU5AtIg0">der von Schedet (Sobek)</w>
+</s>
+<s corresp="src:tlaIBUBd7gkhoV4D0YQgIjHMfXYv3o">
+<w xml:lang="de" corresp="src:tlaIBUBdyTYfDrCcUJlsgopO8YS3ww">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4lJk6rSpkPplasOcyIWDf0">lieben</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

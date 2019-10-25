@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idOVMU2WTMNFHSZI7PBZAVXHRQOM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Opferformel+Herstellungsvermerk</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Opferformel+Herstellungsvermerk nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>OVMU2WTMNFHSZI7PBZAVXHRQOM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Architrav</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Opferformel+Herstellungsvermerk</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTOFGXBR7JRASHAI7TPWKHAV46U">
+<support>
+<objectType ref="ths:IGXF5ZVEI5ALPHRZKHMJFUA2FQ">Architrav</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1931-1932, Cairo 1941, 247-248, fig. 220, pl. LXVIII [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="OVMU2WTMNFHSZI7PBZAVXHRQOM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2a05062d897373c9b4f7782f54d66a9b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8Psm6N6vEBnmaRzoQvinUc">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd71MxrFBD0CYrk6rUM4umn4" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd71Jsf9h5kD3p29VxXwpotE" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBdzf4rvh1vkTvviVy9Jvu02M" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-<supplied reason="haplography">ḏi̯</supplied></w>
+<w xml:id="tlaIBUBd1CGXonTz0KPsAlnuNVHMgI" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+<w xml:id="tlaIBUBdWVW6whcYUILrbNEdDvnUC8" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/>ḫnt,j-zḥ-nṯr</w>
+</s>
+<s xml:id="tlaIBUBdw75ZIQ2hkl9q6hKdCbH2FQ">
+<w xml:id="tlaIBUBdWIxTxFcyEtRqdyZtmJYSRA" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/>qrs.t<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdwU1s6pZwUCpqwu4axzmzNc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd72lmIRhIERwiY0kkXi0nXM" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd4Nz5drXQ0EcmqQBQXXeIa0" lemmaRef="tla:tla500066"><fs feats="substantive st_absolutus singular"/>ẖr-nṯr</w>
+<w xml:id="tlaIBUBd3bUArmcM0USjaaSceXMImY" lemmaRef="tla:tla20480"><fs feats="verb verb_4-inf pseudoParticiple masculine singular"/>jꜣwi̯<supplied reason="defective">.w</supplied></w>
+<w xml:id="tlaIBUBd8msEhQLzUxKmIKbiWeYNRs" lemmaRef="tla:tla400458"><fs feats="adverb"/>nfr</w>
+<w xml:id="tlaIBUBd05M6xWgP0pAlhHzsps7WAc" lemmaRef="tla:tla850795"><fs feats="preposition"/>ḫr</w>
+<w xml:id="tlaIBUBd17mUjYiK0HnqhfXAczZcaU" lemmaRef="tla:tla90360"><fs feats="epitheton_title epith_god"/>nṯr-ꜥꜣ</w>
+</s>
+<s xml:id="tlaIBUBdyKQApMWoUsqqQOiMQMsEZg">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdxUTA21cgE5ii12VvEtcaxs" lemmaRef="tla:tla26660"><fs feats="preposition"/>j<supplied reason="defective">n</supplied></w>
+<w xml:id="tlaIBUBd9S7yyLtr0XPgrHj7XyQbew" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd09KkUbbFEYpsdCwuVX6mXk" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd3XF3ZKRrU0Lj80qQggmFwQ" lemmaRef="tla:tla450140"><fs feats="epitheton_title title"/>ḫnt,j-š-pr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd0tsAjucCUMxhNsOTuvg41o" lemmaRef="tla:tla450198"><fs feats="entity_name person_name"/>Dwꜣ-Rꜥw</w>
+<w xml:id="tlaIBUBd7BAEBSIF0GCm5Q93HROM64" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf suffixConjugation active"/>jri̯</w>
+<w xml:id="tlaIBUBd80SRNQ7rknzonKW1ZxvPCM" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBd3kTZoI4t01Zm06x6IEf6QE" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdWO3re1npU5QouTAeTrSlnc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd0W8TnGzb0BBj1xu0x7mtDQ" lemmaRef="tla:tla851438"><fs feats="particle"/>sk</w>
+<w xml:id="tlaIBUBd6TWQKjLC0wOhjnrU3ET6fg" lemmaRef="tla:tla116050"><fs feats="verb verb_3-inf pseudoParticiple masculine singular"/>ḫpi̯<supplied reason="defective">.w</supplied></w>
+<w xml:id="tlaIBUBd0oxKWgvyEDThJSfSXGEsCA" lemmaRef="tla:tla500066"><fs feats="substantive st_absolutus singular"/>ẖr-nṯr</w>
+<w xml:id="tlaIBUBd0JLv5bwN0yBjclQFC2ORX4" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="defective">m</supplied></w>
+<w xml:id="tlaIBUBd9wbwcLxMEy4s79LJB2FYc0" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

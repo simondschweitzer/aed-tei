@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtHNASQAKMCZDL3AWNDNFTDUK57Y">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sturzbalken</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Sturzbalken nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HNASQAKMCZDL3AWNDNFTDUK57Y</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Eingang</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Sturzbalken</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJWYIFSZODVEWPHZA3XPAIJPG2E">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1935-1936, Cairo 1953, 45-48, fig. 37-38, pl. XXVII [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HNASQAKMCZDL3AWNDNFTDUK57Y.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-8359d09cf9fdfad68fcd73a8828f530d</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBYCI3oYMyZpWEPErMVzpftKtSY">
+<w xml:lang="de" corresp="src:tlaIBUBdxF5H6DZIkTRpdr8J8DVH4s">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy9js73paElNoVMwRO3EfqM">König</w>
+<w xml:lang="de" corresp="src:tlaIBYCIx7hqfC2a01Poj4dgCCYvAI"></w>
+</s>
+<s corresp="src:tlaIBYCI0LGpsHbS0rmvx1b2PWxjeo">
+<w xml:lang="de" corresp="src:tlaIBUBd5BNNR46P0ZbmmeLAsXpxg4">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9b4wetfak6QqLvRiIodlWI">der vor der Gotteshalle ist (Anubis, Osiris)</w>
+</s>
+<s corresp="src:tlaIBUBd4BYJz5yKk0QlK09xF6G7Nw">
+<w xml:lang="de" corresp="src:tlaIBUBd75KAQBTYUh6l2fHkR0BWsE">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9uu9chuzE8TrYO2WUAZ7I8">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQRXhukN9kCfmi3L2WVHUQ0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1PnHHWzIUsLu7qTxOvuE64">am</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxlvBQWQd03lmKVreec7v3c">Neujahrstag (Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxFKW8WzqU3Wjn3yL4l4QGU">Thot-Fest</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6OTbtYrWUyJqpvS1PQEEM4">Jahresanfang (ein Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4kMwr1RAUgqlzMNPHQIVwY">Wag-Fest (Totenfest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6F3aPNhKEZlgNDrUzR2UnI">Abedu (Fest am 2. Tag nach Neumond)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9MiSqlXQEBCiLaOqJonuFc">Semdet (Halbmonatsfest am 15. Tag des Monats)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQBhoMT0Z0C5mKjQNLBB1dA">Fest</w>
+<w xml:lang="de" corresp="src:tlaIBUBd553DsHamkQYsVeswrER3Qw">jeder</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

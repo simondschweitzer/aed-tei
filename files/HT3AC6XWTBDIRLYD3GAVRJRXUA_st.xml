@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stHT3AC6XWTBDIRLYD3GAVRJRXUA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Brieffragment an Neni</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Brieffragment an Neni nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HT3AC6XWTBDIRLYD3GAVRJRXUA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>pMichaelides B</idno>
+<msName>pMichaelides B</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Brieffragment an Neni</title>
+<textLang mainLang="Egyh-Egyhmd">Mittelhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3C7TTWWH4NDA3NRZ6NJIEYSKX4">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3O45XPYQXJATRP5CHBOH2EZYG4" notBefore="-1853">Amenemhet III.</date>
+<date type="latest" datingPoint="ths:3O45XPYQXJATRP5CHBOH2EZYG4" notAfter="-1808">Amenemhet III.</date>
+</origDate>
+<origPlace ref="ths:5K5MFHJIAJDX3HZ5BSH2IICN2U">el-Lahun (Illahun)
+<note>nach Grdseloff, JEA 35, 1949, 59 ff.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Grdsleloff, B., A New Middle Kingdom letter from El-Lahun, in JEA 35, 1949, 59 ff.; 
+Wente, E., Letters from Ancient Egypt, Atlanta 1990, 78.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>pMichaelides B</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HT3AC6XWTBDIRLYD3GAVRJRXUA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhmd">Mittelhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-f96d4c26d357a307d836ee6cf8a96d83</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd5lAjFtQ2kLSkZ6VI1ZFn90">... der spricht:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8zexReEnE5Wp4YGEHe2aWI">Ich gebe dir zur Kenntnis, daß jede Angelegenheiten von dir in Ordnung ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8jNOELlykzjpfpT80qfcWA">Siehe - ich werde den (Totentempel Sesostris&#039; II. namens) Sesostris, der Gerechtfertigte, ist mächtig erreichen ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5qMVKjxRUcEm2o8WDj0COA">... dieses (?) .</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwuk3NyZuEWYk7ONxrH4ZNs">So lasse mich das Haus in bestem Zustand vorfinden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd93u4NyyokW8rdlSU7GPbpE">Und schreibe an mich über den Gesundheitszustand und das Leben der Amme Timat.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3E1v30CZ0DOgE6ymdmG5k4">Und laß mich erst hierhin kommen, wenn das Haus gesäubert ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7WESgZVD03ZslTbKTHnS3g">(Adresse:) 〈Dem〉 [Siegler?] Neni.</s>
+</ab>
+</body>
+</text>
+</TEI>

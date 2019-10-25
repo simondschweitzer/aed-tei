@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGXAP2S4CYVBFLNYQKDAOKLOOVU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GXAP2S4CYVBFLNYQKDAOKLOOVU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>östliche Längsseite (Deckel)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZIFT5LQJURFHLLRVZWEXW4HRTY">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza VIII, Wien 1947, 90;
+A. Donadoni Roveri, Sarcofagi egizi dalle origini alla fine dell&#039; Antico Regno, Rom 1969, 135-136 (B66).</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GXAP2S4CYVBFLNYQKDAOKLOOVU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-2cf4ce43b53766c63a8b50ab41563606</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9rWP9HgQEC4jtqiri5sDuw">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdzWqA5EuCUoYhRvi30iDejA" lemmaRef="tla:tla450276"><fs feats="epitheton_title title"/>tꜣ,tj-zꜣb-ṯꜣ,tj</w>
+<w xml:id="tlaIBUBd9z8hKQo00BWqLOyLGMwLkA" lemmaRef="tla:tla450309"><fs feats="entity_name person_name"/>Jdw</w>
+<w xml:id="tlaIBUBd1AwwwFrPENCpUSizF5Ultg" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBd5zy7b2o20FQneVDzEPKXQQ" lemmaRef="tla:tla450295"><fs feats="entity_name person_name"/>Nfr</w>
+<w xml:id="tlaIBUBd9o7C1TJzUFihqjkdlSfBeo" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr,j-tp-nswt</w>
+<w xml:id="tlaIBUBd6Qn8AlTkERwvzw04fUbq7w" lemmaRef="tla:tla450309"><fs feats="entity_name person_name"/>Jdw</w>
+<w xml:id="tlaIBUBdxkdQ1hDYEWdsgFwi4Zl0PI" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd9dlTNWVPkcdqFhCcm9BZQs" lemmaRef="tla:tla450295"><fs feats="entity_name person_name"/>Nfr</w>
+<w xml:id="tlaIBUBd19I5U1j6kTspcbMjWAI2aA" lemmaRef="tla:tla851652"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-wꜥb,t</w>
+<w xml:id="tlaIBUBd86fhwLQHEdjlVfJRshvHDw" lemmaRef="tla:tla450309"><fs feats="entity_name person_name"/>Jdw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

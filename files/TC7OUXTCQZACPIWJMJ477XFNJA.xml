@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTC7OUXTCQZACPIWJMJ477XFNJA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>[rechte Szene]</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von [rechte Szene] nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TC7OUXTCQZACPIWJMJ477XFNJA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Block</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">[rechte Szene]</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6SOV3IAKGZH3VN4P3NARUWZARQ">
+<support>
+<objectType ref="ths:IGXF5ZVEI5ALPHRZKHMJFUA2FQ">Architrav</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Drioton, E., Trois Documents d&#039;Epoque, Amarnienne, ASAE 43, 1943, 37 (III.) [H, Ü, K]; 
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 51 [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TC7OUXTCQZACPIWJMJ477XFNJA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>2-c3f829f6c8b8f5ec6a1004eef35ab36f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdwVJaLeREkRVtCWPe6ETL0M">
+<lb n="[vor Sokar]"/>
+<w xml:id="tlaIBUBd0xCQXWpyU2rnMEBZ33QJaY" lemmaRef="tla:tla146890"><fs feats="entity_name gods_name"/>Zkr</w>
+<w xml:id="tlaIBUBdy17Gq17HkMDjFUwGSf4LGI" lemmaRef="tla:tla90360"><fs feats="epitheton_title epith_god"/>nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd97pfebriEYcleVWGhPnSXs" lemmaRef="tla:tla858589"><fs feats="epitheton_title epith_god"/>nb-Rʾ-sṯꜣ,w</w>
+<w xml:id="tlaIBUBdWEzvIsYEE2TsUhwcDluMF0" lemmaRef="tla:tla854310"><fs feats="epitheton_title epith_god"/>ḥr,j-jb-šṯy,t</w>
+</s>
+<s xml:id="tlaIBUBdwA3ESbfV0Q2tkT1RgFoPV4">
+<lb n="[über Hathor]"/>
+<w xml:id="tlaIBUBd1xm0qGQU08XsjG6pR2Y0EE" lemmaRef="tla:tla99960"><fs feats="entity_name gods_name"/>Ḥw,t-ḥr,w</w>
+<w xml:id="tlaIBUBd6X0t1zt5E5ahKfucGGgykE" lemmaRef="tla:tla858590"><fs feats="epitheton_title epith_god"/>nb,t-ḥw,t</w>
+</s>
+<s xml:id="tlaIBUBd0GevMcYpUQtqfQTIQYH52E">
+<lb n="[Anbetung⁝ über dem Opfertisch]"/>
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdxA9q2mBWE2SilsM5nSCs7Q" lemmaRef="tla:tla20360"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jꜣ,pl</w>
+<w xml:id="tlaIBUBdwEsHCBSmUqDvyByyHzZdzU" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdxmtXH3ngUPXrzAELg3F12I" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd7bhpReGXkZgsVEVeW9t4SQ" lemmaRef="tla:tla146890"><fs feats="entity_name gods_name"/>Zkr</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdWSOCZNlGkIyiMKmxLFElws" lemmaRef="tla:tla858589"><fs feats="epitheton_title epith_god"/>nb-Rʾ-sṯꜣ,w</w>
+<w xml:id="tlaIBUBdwcHaHAmD0QsmWdQkK48RvM" lemmaRef="tla:tla81650"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nb-</w>
+<lb n="[4]"/>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

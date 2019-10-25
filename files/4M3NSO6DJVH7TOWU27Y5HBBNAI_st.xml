@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st4M3NSO6DJVH7TOWU27Y5HBBNAI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Priester-Beischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Priester-Beischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>4M3NSO6DJVH7TOWU27Y5HBBNAI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>südl. der Scheintür-Nische</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Priester-Beischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3FE4PNDCAVDYBGBCIL6DQU3FLM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, Mereruka and his Family II: The Tomb of Waatetkhethor (ACE Rep. 26), Oxford 2008, 28-29, pl. 36b-37, 65 [H, K, P, F, Ü, L];
+G. Daressy, Le Mastaba de Mera, Le Caire 1898 (Extrait des Mémoires de l&#039;Institut Égyptien), 560 [H];
+A. Erman, handschriftliche Korrekturen in Publikation von G. Daressy von Dez. 1899 [H, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="4M3NSO6DJVH7TOWU27Y5HBBNAI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a215620911f34a81750c48cb65942d8e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd5Zas8VeNEWWhQTVBMaxksA">Das Geben der Wasserspende (zum) reinigen des Opfers.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd61MKZ5sLUwyrU78s7PLg1M">Das Räuchern (zum) reinigen des Opfers.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQu698vTqkDzkbe3rn5lk4E">Ein Totenopfer und Niedelegen des Opfers.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWdYxM0jK0tSjV7brF5Cvl4">Brothälften (Opfer), süße Opferspeise, Bier, Rind(fleisch), Geflügel und Ausschüttung (von Opferspeisen), Brot, Fladen, Bier, Iwa-Fleisch(?), Frisches (Pflanzen und Früchte)(?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwcOxEwWC0vJghkdjtwZrS0">Ein Vorlesepriester.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwGlegpgQklYisWHsqdhybk">Das Verklären.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwa3L9o8yk4XmYjtTQRXp0A">Die wirkungsvolle Verklärung seitens des Vorlesepriesters.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8KlZD2x2EmfrSdqyPPKUak">Das Zerbrechen des roten Topfes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5A0zdk42Es8rTUIgfOiMw0">Brothälften (Opfer), süße Opferspeisen, Opferfleisch, Bier, Frisches (Pflanzen und Früchte), Bier.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4fMboEfO00SowKqxhvM5gc">Ein Vorlesepriester.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0HPqysD7ky8qqQMYhQ3QFQ">Das Räuchern.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ8Q60M86kC1psWNSubsnbc">Ein Vorlesepriester.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd93Y4r9xfUQlj4RGDXdjXRs">Verklärung.</s>
+</ab>
+</body>
+</text>
+</TEI>

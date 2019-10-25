@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idHIQ34CN62ZH3HJ7XFJMNSOKST4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>obere Inschriftenzeile</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von obere Inschriftenzeile nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HIQ34CN62ZH3HJ7XFJMNSOKST4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">obere Inschriftenzeile</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUM5G2IHV7VEOHENK6Q252NYZC4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1933-1934, Bd. 5, Cairo 1944, 217-218, fig. 70-71, pl. XIX [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HIQ34CN62ZH3HJ7XFJMNSOKST4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-1c358eafb80f53f95b67809fcd46a6f1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQO3ktM2oUGRtwmY10Kzyrw">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9UoKCuZBELevbVYbeOuGLo" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/>pr-ḫrw</w>
+<w xml:id="tlaIBUBd0hXNewHXkOrpAaeWTcJBAQ" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd4p26JS6rk2ksWp2CqRzWF4" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd40TWyUhcEaaplpYOON6mM4" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="defective">m</supplied></w>
+<w xml:id="tlaIBUBd3Z6lEyuXEgWlKOfd05gKMg" lemmaRef="tla:tla45600"><fs feats="entity_name artifact_name"/>Wpi̯-rnp,t</w>
+<w xml:id="tlaIBUBdWOWVtWlhkaBsPq3iWr7q0g" lemmaRef="tla:tla185300"><fs feats="entity_name artifact_name"/>Ḏḥw,tyt</w>
+<w xml:id="tlaIBUBdymVQxQzGUf8mzLzMWttuTk" lemmaRef="tla:tla171190"><fs feats="entity_name artifact_name"/>Tp,j-rnp,t</w>
+<w xml:id="tlaIBUBd85yJ4ZGKEYlh7Fp2cPOzvI" lemmaRef="tla:tla43510"><fs feats="entity_name artifact_name"/>Wꜣg</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

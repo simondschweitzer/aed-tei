@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYMPSRTER6VB5FKHCP622KCMD6M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Nordseiten-Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Nordseiten-Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YMPSRTER6VB5FKHCP622KCMD6M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Sargwanne</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Nordseiten-Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJ3JCEL5HAZAK5KGFSLHKOHKFHM">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. II, Cairo 1975, 101, Fig. 43-47
+[F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YMPSRTER6VB5FKHCP622KCMD6M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-da4febd9a966fd249dd3a5526a3afa6f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzjmWwU3NEtql2TYoD2dq38">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd0eLHE8bWkWunXdVbYuX0dA" lemmaRef="tla:tla450038"><fs feats="entity_name person_name"/>Ptḥ-ḥtp<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBdWYIw8qg1EIShy9mD7XlLAs" lemmaRef="tla:tla0"><fs feats="unknown"/>rn</w>
+<w xml:id="tlaIBUBdQF0JL19AU4etxOKgtIj8yQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2IBKALey0JOtGytAQbytlo" lemmaRef="tla:tla0"><fs feats="unknown"/>wr</w>
+<w xml:id="tlaIBUBd9PMHgNC4UGQtz7WojWmV1I" lemmaRef="tla:tla450268"><fs feats="entity_name person_name"/>Jy-n<supplied reason="defective">≡j</supplied>-ꜥnḫ</w>
+<w xml:id="tlaIBUBdxxYnhjJhUvypvNsACigqDc" lemmaRef="tla:tla94780"><fs feats="substantive st_pronominalis singular"/><supplied reason="haplography">rn</supplied></w>
+<w xml:id="tlaIBUBdwQ5FuH3P0INm9Uh76IHArI" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="haplography">f</supplied></w>
+<w xml:id="tlaIBUBd9qsVeDwp0fLpug41aYE4wc" lemmaRef="tla:tla94780"><fs feats="substantive st_absolutus singular"/>nfr</w>
+</s>
+<s xml:id="tlaIBUBdwNdvtmvOUaegaXRt1gFHZ8">
+<lb n="[2.1]"/>
+<w xml:id="tlaIBUBdzj16U0JO0UWhJKtTZ8QjDE" lemmaRef="tla:tla450038"><fs feats="entity_name person_name"/>Ptḥ-ḥtp<supplied reason="defective">,w</supplied></w>
+<lb n="[2.2]"/>
+<w xml:id="tlaIBUBdWkm9D0Qjkh8rauHvRhUGWA" lemmaRef="tla:tla450268"><fs feats="entity_name person_name"/>Jy-n<supplied reason="defective">≡j</supplied>-ꜥnḫ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

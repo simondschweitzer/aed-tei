@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stDBKLA7WDTRCKHMQSAK36XDX75Q">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Tjebu (Kairo CG 20005)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Renata &amp; Peter Landgrafova &amp; Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Tjebu (Kairo CG 20005)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Renata &amp; Peter Landgrafova &amp; Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DBKLA7WDTRCKHMQSAK36XDX75Q</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 20005</idno>
+<msName>Stele des Tjebu (Kairo CG 20005)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Tjebu (Kairo CG 20005)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6RGXWWWEDVCTNCZ5YKDADTIDI4">
+<support>
+<objectType ref="ths:CUNICVTWNNF6VN2RUTXZNNN444">rechteckige Stele</objectType>
+<note>Kalkstein; 53 x 72 cm (H x B)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GAQRDJP4OBB27JFBUQHAKXFEK4" notBefore="-2135">9./10. Dyn. parallel zur frühen 11. Dyn.</date>
+<date type="latest" datingPoint="ths:GAQRDJP4OBB27JFBUQHAKXFEK4" notAfter="-2027">9./10. Dyn. parallel zur frühen 11. Dyn.</date>
+<note>Laut Schenkel 1962 nicht älter als Antef Wah-anch, laut Schenkel 1965 11. Dynastie, aber älter als Montuhotep Nebhepetre.</note>
+</origDate>
+<origPlace ref="ths:FYDEOYNWHJEBDHP62FVCZ5PQHY">Dra abu el-Naga
+<note>Laut Lange &amp; Schäfer aus &quot;Drah abu-l-Negga&quot; aber laut Winlock vermutlich aus der Antef-Nekropole von et-Tarif (gefolgt von PM).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of Ancient Egyptian Texts, Reliefs, and Paintings. I. The Theban Necropolis. Part 2. Royal Tombs and Smaller Cemeteries, Second Edition, Oxford 1964, 598 [B]
+- K. Lange und H. Schäfer, Grab- und Denksteine des Mittleren Reichs im Museum von Kairo, No. 20001-20780, Bd. I, Berlin 1902, 4-5 (Nr. 20005); Bd. IV, Tf. I [P,H]
+- H.E. Winlock, in: AJSL 32, 1915, 19 [K]
+- J.J. Clère und J. Vandier, Textes de la Premiere Période Intermédiaire et de la XIème dynastie, Bruxelles 1948, 2-3 (Nr. 3) [H]
+- W. Schenkel, Frühmittelägyptische Studien (Bonner Orientalische Studien, NS 13), Bonn 1962, 113, § 42d [zur Datierung]
+- W. Schenkel, Memphis - Herakleopolis - Theben (Äg Abh 12), Wiesbaden 1965, 119-120 (Nr. 90) [Ü]
+- R. Landgrafova, It is My Good Name that You Should Remember, Prague 2011, 52-53 (Nr. 16) [H, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 20005</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DBKLA7WDTRCKHMQSAK36XDX75Q.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Renata & Peter Landgrafova & Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>11-4fb0000113b22f9c243152811f814224</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdzImanjsW0eBgLGZtxBrwHA">An offering which the king gives (and) Anubis, who is upon his mountain, the embalmer, [lord] of the sacred land: an invocation offering for the one dignified before [the great god, lord of heaven; may he be buried] beautiful [in] his tomb of the necropolis as one dignified before Montu-Hor(?), lord of Thebes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0kuxfIkD0SYvvYUQs2ELWY">And offering which the king gives (and) Osiris, lord of Busiris, foremost of the westerners, lord of Abydos, (and) Anubis, lord of 〈Se〉pa: an invocation offering for the royal [seal-bearer, ... ...] crew (?), and steward, the dignified Tjebu.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4igfjDYYEsWsyio2nJtifw">[May he unite with the earth, may he fare] the &quot;precious&quot; heaven.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxRZHkuPtU2ctsLq1zy1plE">May the western desert extend her arms to him on the roads of the dignified.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxyOLDEwykBUtu3bG2GWxPM">[May ... ... ...]. May he be conducted to the horizon by the lords of possessions, who are behind the great god, [lord of the sky].</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzM6bgrxMkcMqr1JzrRiUG8">May offerings be given to him] on [the Wag-festival] and the Thoth-festival, on the Festival of the Opening of the Year and the First Day of the Year, on the Sokar festival, and on the festivals of the year: (to) the steward Tjebu, [who says:]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6B08tIO8EQ2lNVeRNcEoDI">I acted as stew]ard for 6 rulers, and there never came a (bad) thing therein.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4dl7xB8g08voWW9YZg0cpY">I am one who performed justice, one who reached dignity.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxbmyD3NMkpuo2D5h49mh1I">[O you ..., all those who unite] with the god, all people, who shall pass by this tomb, [may you say: ... ... ...] all things for the dignified Tjebu, excellent and justified.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd48VPGBmiEIhh7UChWwcaJU">[... Tjebu, Son of] Iri (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2StsBRBik20ihjNmZmFUC0">His beloved wife, the unique ornament of the king, Ibi, whose good name is Iufy, the excellent one.</s>
+</ab>
+</body>
+</text>
+</TEI>

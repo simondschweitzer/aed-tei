@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st6KYOC7ELAFDMVP35C7DWFJTJXE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 1003 + PT 1004</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 1003 + PT 1004 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6KYOC7ELAFDMVP35C7DWFJTJXE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈östl. Fläche〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 1003 + PT 1004</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMA7RB5BZLNCBPCMTODKSVI5PEU">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, fig. 10-12; pl. II B [P,F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005,  [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6KYOC7ELAFDMVP35C7DWFJTJXE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-e176c5cbd2bdd26066b8094d4e597f79</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdwp2bfn89Eljlj4GnEFbJQs"></s>
+<s xml:lang="de" corresp="src:tlaIBUBdwgh9Duql0wKgUbDL1g4XRo">O ⸢Pepi⸣!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6DrWY4SakwmuUejmjCGR7o">Du ⸢wirst⸣ nicht ⸢müde sein⸣ ... Kinder des Geb.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWP65lywd03Mm2GDRRdLxiI">Geh, (du) für das Wasser Zuständiger.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0HTaiwcw04FuoQwTqQ8W8c">Richte dich auf für [...]</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ0qIzRTWkJEnBvhkd3HL9w">⸢Richte⸣ dich ⸢auf⸣ zu diesem deinem Brot, das nicht verschimmeln kann [...]</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxNwSW40KEsJkWKS0fWoTPk">[...] ⸢Horus⸣ (Emmer ernten) [...] ⸢Jahresopfer⸣, damit du dadurch verjüngt wirst.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW857NlCUkOKi64mA0R1uG8">[...] ist dir hingelegt worden, ...(?) ⸢ist⸣ dir ⸢hingelegt worden⸣.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyXnbVhEUEhFmDPPPFx0sXo">Du hast dein $ꜥbꜣ$-Zepter empfangen, du hast deinen Stab empfangen [...] Horuskinder, du leitest die [Nicht]-Untergehenden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9gkjvGJ5kqXuFbwFbsVBZI">Entferne dich [vom] ⸢Ufer⸣ (?) [...]</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy3jAGu4x0N6pMI10qfogH4">Wie dauernd ist, [was für dich getan worden ist].</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7mjiMfGkUbti4lU4faRWV0">[...] für dich.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3jONfsadUWMnuX2FfXwKU0">⸢Der König⸣ soll erscheinen und Upuaut zusammen mit dem König hoch werden am Tag des Neumondfestes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQcOD6JGz0xQnoWZfwWHcd0">[...], $Smn.tt$ wird zu dir rufen wie Isis.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4KQ70EIGUjkoqwokWpLBD4">Du sollst zum Tor ...(?) vorwärtskommen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxCIIjh8gEmapmVpdyDFsEc">[...] sein Haus.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2hiaEjhO0JXtymWkmvDPQ4">Wie dauernd ist, was [für dich] getan worden ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5Rzg53udkbEuCPsMgUew30">[...] Verletzung.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6VOZwo06Uk0iWgxkfYpgpk">Der Tanz wird für dich getanzt, [die Arme] winken für dich.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2QAyuYl2Ulknbmzuzbrd9k">[...] du teilst ⸢...⸣ Herren ⸢...⸣</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3uW4Ik5YENQuDvQMFfLOL8">Wie dauernd ist, was für dich getan worden ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5lryEs7KkxityMGOmQnnAM">Die Türflügel des Himmels öffnen sich, die Türflügel der Nut gehen auf.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWwp4O1fKU19lJcHDiCXeIc">[...] Thinitischer Gau.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyhpUHdnWEWJnspfxnBspGc">Du hast dein [Gesicht] empfangen wie ⸢Anubis⸣, der an der Spitze der Westlichen ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQWUxmoFYEeepWVX7h54BQQ">Du hast von den Herzen [...] gegessen [...]</s>
+</ab>
+</body>
+</text>
+</TEI>

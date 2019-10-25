@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroI7R7I5UNUJBZVJ3TNHTJFDSRJQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Titel des Grabherren</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Titel des Grabherren nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>I7R7I5UNUJBZVJ3TNHTJFDSRJQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Türrolle</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Titel des Grabherren</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla64LUHQZ5LZHSBEWTGMJMDDLWDE">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4XVWKCUISJDA5OWB724D2CPBRI" notBefore="-2588">Chefren</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1932-1933, Cairo 1943, 107-108, fig. 54, pl. XXXIII.A [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="I7R7I5UNUJBZVJ3TNHTJFDSRJQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6c6082fb68c3918ca90a2856a6883173</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd9JDLcfmr0HtlkgsDbZ1Fx4">
+<w corresp="src:tlaIBUBdwTT6BM4PEQNo50kJ3VyGAw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4mQAxIZDEaLn9GcaYJLcVQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd52zaT0ki0IukA48P39rLv4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzOKKEpmiklqsbWdjz8DX1g"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxWlBvGKqUqxvXa0GVBHq2k"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7AGWzngiEc3lbf0LycrQvE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd57HwfOvd0iTvXvfqTKpWuA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6H9zEcpCEQEi9mRZocSOzU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4U7y43OlUQNpnjgm21MniE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdww34DNyZkm2gKycsvMS2vs"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5HW3DFnAkVZisMVPhUltn8"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stW7SPNCETV5EVNPW3HHXT4N3CSM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Brief des Impy</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Brief des Impy nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>W7SPNCETV5EVNPW3HHXT4N3CSM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32208</idno>
+<msName>pUC 32208</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Brief des Impy</title>
+<textLang mainLang="Egyh-Egyhmd">Mittelhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaLLOU5XO5FBGRHGR2YS4BNQ7PQY">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+</origDate>
+<origPlace ref="ths:5K5MFHJIAJDX3HZ5BSH2IICN2U">el-Lahun (Illahun)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Griffith, F.Ll, The Petrie Papyri, Hieratic Papyri from Kahun and Gurob, principally of the Middle Kingdom, London 1898, 78, pl. XXXIV;
+Collier, M., Quirke, St., The UCL Lahun Papyri, Oxford 2002, 126-7.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32208</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="W7SPNCETV5EVNPW3HHXT4N3CSM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhmd">Mittelhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-cfa2917accabd1ba52249f05bdb8dc12</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd8j7QKcROkL9pJQxy0z8Db0">Vorsteher der Armee Impy ist es, der sagt: ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQmOMAr9o04hnoxhBgI15K8">Mitglied der Phyle der Ortsverwaltung ... .</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6WP4N2AzkmLsmL7Qm7NlO0">.... Du/dein ... du schickst die Meldung ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9y4x6477k8hsMCWrHajPE0">... Sopdu-her-chenet ...</s>
+</ab>
+</body>
+</text>
+</TEI>

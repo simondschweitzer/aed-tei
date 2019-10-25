@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idHJBJNDDX4VCKPAFCOM6FUJMVYY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HJBJNDDX4VCKPAFCOM6FUJMVYY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Fragment einer Kalksteinplatte (I)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHNKHHBS4B5HTLJ4U3HMQJPR5HQ">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notBefore="-2499">Neferirkare</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 34, pl. XXXVII.3</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HJBJNDDX4VCKPAFCOM6FUJMVYY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2bd116689d564ab284b06462be337151</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdWO5VVmuIExGi2zlnGVSNas">
+<lb n="[x+1]"/>
+<w xml:id="tlaIBUBd5QeFRkWfECWsErURzNyvj4" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBd4DxQgAA1ERkg1mnVK1ZE1M" lemmaRef="tla:tla851962"><fs feats="epitheton_title title"/>wꜥ-m-wr,w-ḥ<supplied reason="defective">ꜣ</supplied>b</w>
+<lb n="[x+2]"/>
+<w xml:id="tlaIBUBdwSRXXD5RkIZkqXXMDycqtI" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/>sm</w>
+<w xml:id="tlaIBUBdQvSXnukXUoagAQA4QFHfmo" lemmaRef="tla:tla851968"><fs feats="epitheton_title title"/>ḫrp-ḥw,wt-n,t-mw</w>
+<w xml:id="tlaIBUBd7NhbHFSc0PMgWEVBvlh0yo" lemmaRef="tla:tla851967"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm-nṯr-</supplied>Wꜣḏ,t-Dp-Pj</w>
+<lb n="[x+3]"/>
+<w xml:id="tlaIBUBd0Xpk7GPNEMBrSa0oehCZcg" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBdQEJeRZ9Z0IGpXQnG2CLYSY" lemmaRef="tla:tla450702"><fs feats="epitheton_title title"/>ḥr,j-tp-Nḫb</w>
+<w xml:id="tlaIBUBd8aytThCc0dZrKPh9WzAzcA" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

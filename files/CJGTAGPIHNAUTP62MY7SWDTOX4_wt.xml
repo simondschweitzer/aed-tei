@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtCJGTAGPIHNAUTP62MY7SWDTOX4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CJGTAGPIHNAUTP62MY7SWDTOX4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGHNIJ7RNUFHJXE4UDFUR35FU4I">
+<support>
+<objectType ref="ths:VDJICLKKQJCY5DEUPRRGVDT3JA">Gebäude &amp; Konstruktionen</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notBefore="-2235">6. Dyn. nach Pepi II.</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Murray, Saqqara Mastabas, I, 12 (25.), Taf. XVII; II 14;
+S. Hassan, Excavations at Saqqara, 1937-1938, Vol. II, Cairo 1975, 40, pl. XXXI
+[P, F, H, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CJGTAGPIHNAUTP62MY7SWDTOX4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-a18657c6d1160b2c1013462aac9e2fcc</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd8pVzqJQKkGzjJQfEGq6ydg">
+<w xml:lang="de" corresp="src:tlaIBUBdyJEmkbkW01cvN6HL00jrIU">Iri-pat (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5xhttBQGUM7iRYprzlbZ6g">Wesir</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQA0Ln51WUJHoUZumjp3TaE">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJD9x0HtUEsuVAeH1mwjrg">Ptah-hetepu</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

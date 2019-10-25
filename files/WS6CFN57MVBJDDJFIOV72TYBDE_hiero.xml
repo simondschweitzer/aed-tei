@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroWS6CFN57MVBJDDJFIOV72TYBDE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Papyrus Carlsberg 8 Verso: Geburtsprognosen</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Anne Herzberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Papyrus Carlsberg 8 Verso: Geburtsprognosen nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Anne Herzberg</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>WS6CFN57MVBJDDJFIOV72TYBDE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZXOO62EMLZFBNLSWR5RREZS4UQ">C. Niebuhr Instituttet</repository>
+<idno>8</idno>
+<msName>Papyrus Carlsberg 8</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Papyrus Carlsberg 8 Verso: Geburtsprognosen</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla226AOR32TJFJ3AAL4DEGP7H33E">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Recto und Verso sind von 2 verschiedenen Schreiberhänden geschrieben, die paläographisch höchstwahrscheinlich aus der 19.-20. Dynastie stammen (Iversen, 4). Der Verso-Text datiert Iversen paläographisch und grammatisch/orthographisch etwa in der 19. Dyn. (Iversen, 5 und 6). Er hält es für möglich, daß der Text jedoch schon in der 12. Dyn. verfaßt sein kann.</note>
+</origDate>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- W.J. Tait, in: P.J. Frandsen [Hg.], The Carlsberg Papyri 1. Demotic Texts from the Collection, Kopenhagen 1991, 132 [K]
+- http://pcarlsberg.ku.dk/publishedtexts/ (29.02.2016) [K]
+- http://pcarlsberg.ku.dk/highlights/pcarlsberg8/ (29.02.2016) [K]
+
+- E. Iversen, Papyrus Carlsberg No. 8 with some Remarks on the Egyptian Origin of some Popular Birth Prognoses, Historisk-filologiske meddelelser Bd. 26, No. 5 (Kopenhagen 1939) [*P, T, Ü, K]
+
+- H. Grapow, Grundriß der Medizin der alten Ägypter V. Die medizinischen Texte in hieroglyphischer Umschreibung autographiert (Berlin 1958), 469, 473–475, 478  [*T]
+- H. von Deines – H. Grapow – W. Westendorf, Grundriß der Medizin der alten Ägypter IV/1. Übersetzung der medizinischen Texte (Berlin 1958), 273, 275–276, 278 [*Ü]
+- W. Westendorf, Handbuch der altägyptischen Medizin, Handbuch der Orientalistik I.36 (Leiden u.a. 1999), 48-49, 418, 437–438 [Ü]
+- H. von Deines – H. Grapow – W. Westendorf, Grundriß der Medizin der alten Ägypter IV/2. Übersetzung der medizinischen Texte (Berlin 1958), 207, 209–210, 212 [*K]
+- T. Bardinet, Les papyrus médicaux de l&#039;Égypte pharaonique, [Paris] 1995, 442, 451-453, 465 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZXOO62EMLZFBNLSWR5RREZS4UQ">C. Niebuhr Instituttet</repository>
+<idno>8</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="WS6CFN57MVBJDDJFIOV72TYBDE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Anne Herzberg</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>91-749c3c991af172c828403d23b908a46c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaPB4I44AKVRFXJOHIOMRAMG5LNI">
+<gap reason="lost" />
+<w corresp="src:tlaEFOZGSX36NARFKMPFCU3EGVFPA"><unclear>𓃛𓏲𓅨𓁑𓁐</unclear></w>
+<w corresp="src:tlaQGLSOXONGVGJVKGZF2NEGD65JY">𓅓</w>
+<w corresp="src:tlaRNACDSKD5NGGZNYE7PY2QXR2KQ"><unclear>𓌷𓏏𓏯</unclear></w>
+<w corresp="src:tlaIBYAcQFzVtgEWUuosa7LtZOHzvA"><unclear></unclear></w>
+<w corresp="src:tlaVMXHOQ2LXBATTEF3PGXRCBWLH4">𓐍𓏏𓏛𓏥</w>
+<w corresp="src:tla5GU7UEATU5ARDIAPZBF2B3O4Q4">𓎟</w>
+</s>
+<s corresp="src:tlaE5XXCV546RHHJMPCIBOCHSMOVI">
+<w corresp="src:tla66YMVMMCCNEJTOO5CGFVOL2CAI">𓇋𓏲</w>
+<w corresp="src:tlaIBYAcSQVxd64BkHsiSaYcFzlHbE">𓅮𓄿𓏛</w>
+<w corresp="src:tlaIBYAcRtm2W5QnU8ghnAWSqdSEfo">𓈖</w>
+<w corresp="src:tlaZKITT7VBTBB35AIRLULB63AEBI">𓋴</w>
+<gap reason="lost" />
+<w corresp="src:tlaFQMZLFKRKZDA3MRJQ6BCY5HZ44"><note>Keine Entsprechung in Unicode für G17-O34-Q3-O50-T21-D36-Z1-Ff100</note></w>
+</s>
+<s corresp="src:tlaM3RN7EUC3FGE5IFXIPFP3PKKNQ">
+<w corresp="src:tlaXZPAAIMBKFE3NPTUR4OZUBHIZI">𓁹𓐍𓂋</w>
+<w corresp="src:tlaBIHGUZRKB5CMJOOJEDNXE56KYQ">𓎢</w>
+<w corresp="src:tlaOMQMC5U7ORDKZFYPZ4BP2DXHRE">𓈖</w>
+<w corresp="src:tlaOXCXRD7OX5FKDHGOMI2VOJBY7Y">𓋴</w>
+<gap reason="lost" />
+<w corresp="src:tlaBI7NDPCEXVD5TEKEXINDLXTQXA"><unclear>𓅨𓂋𓏏𓁑𓁐</unclear></w>
+</s>
+<s corresp="src:tlaS72RLP64PBBNPGQBBLLL2UPDUQ">
+<w corresp="src:tla7ICZQOXBUVGJ7BG6GPRB6PATVE">𓇋𓈖𓇋𓏲</w>
+<w corresp="src:tlaSJIPYJIBA5EG5JBFMOGRS44PJE">𓏏𓍃</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaUPIERODCVRE4LLDTSG3UCRX7BI">
+<gap reason="lost" />
+<w corresp="src:tlaQALYFJTO2ZD4TH2ODFW2C2TVQ4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaPG6Z3HURIFEAXMRZARKRAQ6OAY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaRJ7LLIYHPNDXZPHLEEK2Z6GKRE"><unclear>𓊌</unclear></w>
+<w corresp="src:tla5IVVMQG2FZGKFLH3SELQ5GNAJY">𓅓</w>
+<w corresp="src:tlaFR6LAITMU5FVJAMORLISSJQS6Q">𓂝𓈖𓂧𓏏𓍱</w>
+<w corresp="src:tla5JA5BIOTMFAGLHMJHXOVQQKMVM">𓏌𓏤</w>
+<w corresp="src:tlaWQQPCYVGK5F7JF3APJFC67X43Y"><unclear>𓎛𓃀𓋴</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaQBQGZ3HYFJEBRFJTLZTYMIGYEY">𓈙𓂝𓏏𓈒𓏫</w>
+<w corresp="src:tlaJBNFNTOVANB77IGC2DDY6PQDDE">𓏌𓏤</w>
+<w corresp="src:tlaMCRBU4TW2NAP3GNOLTVU26SFPY">𓎘𓃀𓏲𓈘𓈇𓏫</w>
+<w corresp="src:tlaAQBCHLZU6VFU7JNE6UUQ6MA5YU"><unclear>𓏇𓇋𓋴𓐍𓂋𓏲𓏛𓏥</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaHAGPUKFMHVALHB5JD5MIB23QI4">
+<w corresp="src:tlaCEAP4QSGONEZDDPW6XEOZJSXYU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla2IKJKLYRQ5FALALG6DHOPUZP5M"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaICPSWJ6YHRC25BOWYW5ZLLAIUA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaMWBKH5WMJZER3DXNRFE6YMOC6Q"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaG3YFLWS6CZELNHSB5NS276R45I"><unclear>𓁷𓏤</unclear></w>
+<w corresp="src:tlaFVFSDSLPWZCKFO6YEYO3R56OPI">𓋴𓈖𓏥</w>
+<w corresp="src:tlaTZI23ARJHVCXPH2DGVQUISVT5Q">𓇳𓏤𓎟</w>
+<w corresp="src:tla476OIXEZARAWRIM55NVDHVCS6Q">𓎔𓏛</w>
+<w corresp="src:tla5HM4VVXT7REGRD5CEIWCIKKZ4M">𓋴𓈖𓏥</w>
+<gap reason="lost" />
+<w corresp="src:tlaVWV5KVI355BHTGHG24XKDSPKTA"><unclear>𓇜𓏤𓌽𓏥</unclear></w>
+</s>
+<s corresp="src:tlaPMYE5A7MI5BO5ORAWQAQFATNFM">
+<w corresp="src:tlaAP3TEYQ6PVFYREYH5QAC4BH324">𓇋𓂋</w>
+<w corresp="src:tlaCVBEULJA6NDDRNIE2KL3K26DVA">𓈎𓌴𓄿𓅓𓏲𓌙𓅯𓏛</w>
+<w corresp="src:tla5P2GWTWCYJBILDYDOCQPRI4R5A">𓋴𓈖𓏥</w>
+<w corresp="src:tlaVPYBOKGVJ5ASBJALDYME2ZQL6Y"><unclear>𓆑𓈖𓏏𓆙</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaAGMMLQBEUNAX5PCIEM5BFV4XWI">𓂜𓈖</w>
+<w corresp="src:tlaN7JFTDI2KNH4FIPSJZIWZK5ZE4">𓇋𓏲</w>
+<w corresp="src:tla6FTTPGQZEVAYDJM2357DWR3CAY">𓋴</w>
+<w corresp="src:tlaQ5XTHQRB2NBKJGZJD5CV5PAYJI"><unclear></unclear></w>
+<w corresp="src:tlaQXDIA5BBFFGPXN2AUZBU2BV3YY">𓄟𓋴𓏏𓏯</w>
+</s>
+<s corresp="src:tla5DQOANIIGJGMFB4SE3QR32CHPI">
+<w corresp="src:tlaYF3ZKHIYUVB2TMFKSZ6K5EUZV4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaQNHD6VWLXFAPPFO4ZFGEGBGJRY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaLNV7PF52S5EPREJE2EYZ3FAUL4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaOLGC27274FHFNEOKESA7RI2TEU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla2NC46R7VQFGJVKCYSMFU7ZRPHM"><unclear>𓆑𓈖𓆙𓏫</unclear></w>
+<w corresp="src:tla4EZDD3WVYBBDXGWXSDEAWBYHLE">𓇋𓏲</w>
+<w corresp="src:tlaYKRCZLNRGND7VPHEW7PMGMJRBU">𓄟𓋴𓏏𓏯</w>
+<w corresp="src:tlaRRGR4LZDS5FFVCZBAF3AQ3RRFA">𓋴</w>
+<w corresp="src:tla5Y2Q5KXY2FFFZAMQS5CXNVXJRE">𓂋</w>
+<w corresp="src:tlaB6ZYTT6SHNAKZIRQC3HOSW6PXU">𓋹𓈖𓐍</w>
+</s>
+<s corresp="src:tlaKDZ6ARXWNBEF3ANSHOJEM47HTQ">
+<w corresp="src:tlaIBYAcdFE48go6k0gqTvBpz9hEMA"><unclear>𓇋</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaG22SYRPGTRG4NA4YHGHYRM7VLI">
+<w corresp="src:tlaMSEXXZ6SWJCHNBZYSD43HPLDHA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaZISAJE4ERNHXXIVFHRWNW3TAZA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla2MQPXZPC6BCRLM5VEC6VGYZSGM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaEK5DI3RALBD4JPOYEUL3XHG3BU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaUPFI6SB2AVFSNPGHZ7OE3M25KY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaMZG6RDK7L5BQ7KWCVYZBAXOOPY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tla63OOTCAHSRHGRB72B2BBQIH3CM">
+<w corresp="src:tlaD2IOCK3LLJGCXMX3ZLTZLNVMJY"><unclear>𓐍𓂋</unclear></w>
+<w corresp="src:tlaBAEW5JCYIZEF7OEYIFZW23MUNA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaSOUOXZFQRNFJ7OY5IXOVCDJ74Q">𓌾𓏥</w>
+<w corresp="src:tlaLXJAYH66F5CATPVQ3RHD7FITG4">𓇣𓏏𓏭𓌾𓏥</w>
+<w corresp="src:tlaNM6SNZ4TZZARPISHOHVK7GFNWI">𓅓</w>
+<w corresp="src:tla6GXDCAJRXVBLTDEMNL2TVNZ5JA">𓂝𓂋𓆑𓍱𓀜</w>
+<w corresp="src:tlaXADNMW3S7NDI3ISJXSZWAGTLHM">𓏌𓏤</w>
+<w corresp="src:tlaUGE6Z65UBRFZNKS6AT67KHKJ3U"><unclear>𓎛𓃀</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaBWN47U3LGJD2ZBIZZPU5H4OWBM">
+<w corresp="src:tlaNDHRPQB2BBENJBWYROWVEGPF4I"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaRUBJZK7RRVF63BAQ4P2FQC5MPI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla53DQJXZR5ZEPXAYSNYE7Z4YLIY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaDSBLHWTTARE55IX3J4ULRO6HSQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla62DFAIDTSRG4PMTR4NS6YUFME4"><unclear>𓁷𓏤</unclear></w>
+<w corresp="src:tlaXDBFAVCUT5BJDHXPPE3Q42JV2E">𓋴</w>
+<w corresp="src:tlaW2373TNRUJBDRODTM2BKEOPFO4">𓇳𓏤𓎟</w>
+</s>
+<s corresp="src:tlaIBYAYI1JJRiqokb3gqU8bWbKxEI">
+<w corresp="src:tlaIBYAYIR0RalJ2ERmre2P1WTZaxE"><unclear>𓈖</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaOBVHYSQ6MFASVEMBX3HXM2QQ4A">
+<gap reason="lost" />
+<w corresp="src:tlaVUG3SVIOXND4HKHX6TDD3LXVOE">𓈖</w>
+<w corresp="src:tlaXE34U2JIXNEMPI2UULRBT6ZK5M"><unclear>𓃀𓈖𓂋</unclear></w>
+</s>
+<s corresp="src:tlaEHRDPKJLG5BJJLKL7WCPXRNFT4">
+<w corresp="src:tlaJKMR4HBX6NAANMR53E4XTZPY2E"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaPWO2FWQGGRH5PI2QIN3FGNEM6Y"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaNGJW2BE2RZFTLBLBO33ZRPQMBY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaPZQEDRCGDZDXVBR6K42DWMMYQM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaMHEE3M2YEZEU5MTE2PKX3KYOBU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaHECD7EP3XNDPHED6FTXJ3K5ABI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaTXYRB5IWI5DKXISERFJLC4RBR4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla72Y6SAILEBD6LB7N2NOFSGL3EE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaF6DXPNDH6RCXHKSIQOW3QEAXAE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaLHUU6QBQK5D6FFB6GM77QWGMMI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tla742EAFVRRJC3ZJKIBSB5LW5PAA">
+<w corresp="src:tlaB5QLYVBDQ5HNTOZQNNBBZHCKCY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaNTX236N7K5GBVHTGOFFXURECRQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaYCVUWGALZBCUZAV2Y3LNWWTDIY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaODDOPDNB7VBKFKI37ZBERTQPKA">𓇋𓏲</w>
+<w corresp="src:tla6LABAPMZTZHVPM4DRI4VURHRVY">𓋴</w>
+<w corresp="src:tla7Y5CMT7NNFH5TCRYMRVROHJH34"><unclear></unclear></w>
+<w corresp="src:tlaGAF6RPGZLVAXXMORXXYFYIIT5A">𓄟𓋴𓏏𓏯</w>
+<w corresp="src:tlaOXSALCM6ERGCVD5PU7YFP62UYI"><unclear>𓅭𓏤𓅷</unclear></w>
+</s>
+<s corresp="src:tlaXQSBR4KJUJBWLIKTCQAUTMWMPY">
+<w corresp="src:tlaKP3B3K4KHRFNRAW7EW43IVVALM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaTAMBX3VIHVH2DFNX2WH6M56MBI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla2JZ7TFAB4VBUXPXLHBKZ3XOKWE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaZLLTJK77NRAD7MW6RRSY4UMTBE">𓅓</w>
+<w corresp="src:tlaCBU5HH6GCVGOFIN7CCFLRJXTZE">𓅯𓄿</w>
+<w corresp="src:tlaPV4Q5ZIRRNFLBHJ323RDVGYCII"><note>Keine Entsprechung in Unicode für 2</note></w>
+<w corresp="src:tlaRG2YWJPXGRC4ZD4LT7P4LPEOIM">𓇋𓏲</w>
+<w corresp="src:tlaSQZMQXMZDVBAXOBLDU3XCZYUAM"><unclear>𓄟</unclear></w>
+<w corresp="src:tlaRR4T6I4NJNCI7LP5LHGITM3HRI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBYAcVmD5lBUXEFNnq9Yu759wus"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaWREUJAVQG5D4XCK5JYA7FW43TI"><unclear>𓁐𓏥</unclear></w>
+<w corresp="src:tla3ZV3MGTPLVHQRDVNGGEKWXX4PU"><unclear>𓆈𓏏𓏛</unclear></w>
+</s>
+<s corresp="src:tlaIQV5VZNZXNANDDUAIVABD46B2U">
+<w corresp="src:tlaMX5IZRP74RDEJFWPYKJT26S3DM">𓇋𓂋</w>
+<w corresp="src:tlaNFKBHOSTRFHM5POPSQV2FKKXZQ"><unclear>𓍃𓅓</unclear></w>
+<w corresp="src:tla7PZ6XJDQWJGJNJ6EHNYXFEGLWM"><unclear>𓋴𓏥</unclear></w>
+<w corresp="src:tla6ITD4GS4LRCNDNOY6DN67DAI3Y"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaZUAK6HWMZJDOXKBEIXNDEFPSXQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaX5OLVWR2G5A5DBH5MP7DY5FMZU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaRV5TVRLT4VCBXKFPWIWC6X52AI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaMQ3XMCWBTNENBHIUHCCVW3KLKQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaL7MPZ36S5ZGMDBD5RYBPADA7B4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaD6SNMMKUIZH6PPAGG5EUFXRSJY">
+<w corresp="src:tlaQ6BVMK5NKFE7NMEMVERXYIFLAQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaX5A47FDKLFFLVA3SPGO3IP744Y"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaCBXHQP2ZKJBNXG5VOF3CHR4PK4"><unclear>𓁐</unclear></w>
+<w corresp="src:tla5RUZSCGA5FBP3DE4PW2GEDONVM">𓂋</w>
+<w corresp="src:tlaLX3AL7UPM5GVDC7QSO6I2BBKUY"><unclear>𓏏𓍃𓅓</unclear></w>
+<w corresp="src:tlaMIHKV3AAQVEFTCTXWL34SJSANE"><unclear>𓁑</unclear></w>
+</s>
+<s corresp="src:tlaJYK56HBRFFCIHB3BOM6V4357MY">
+<w corresp="src:tlaJMB2U3LL4VHYFBVL5ZA5CU6Y5Y">𓂋𓂝𓏏𓐍𓂋</w>
+<w corresp="src:tlaNLPOVEE5SNCJRLDEKOTI4LONZU">𓎢</w>
+<w corresp="src:tlaLQR67MJAEREG5NPF6DQZARFW6U">𓋴𓇥𓂋𓁀</w>
+<w corresp="src:tlaPUPDZJUG3FCV5NRF7QZ2VYGEQA">𓅷𓏤𓆰</w>
+<w corresp="src:tlaDLNEIV5KBJHYJIAWI72YOKGQY4">𓈖</w>
+<w corresp="src:tlaXLGVAA4IVJEBREV5JOCZA4PYZU">𓌌𓆰𓏫</w>
+<w corresp="src:tlaUQ5VB6VHUBELZARD2ZECLXVTRE"><unclear>𓏏𓐍</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaUEFVJQWFKVFA3EXZPQTUHVDT5Q">𓇋𓏲𓆑𓄹</w>
+<w corresp="src:tlaHRY6OZLP7RFNRCBOBJIDLZAXIA">𓋴</w>
+<w corresp="src:tlaPYJAR7K5Y5FEFJ2PKBVMOAEASQ">𓂋</w>
+<w corresp="src:tla4DCW273JSRC3TASF3FWGIFMHMU">𓌉𓆓𓇳𓇾𓏤𓈇</w>
+</s>
+<s corresp="src:tla5LE6OCL5XNBXJIPBLI7EC3DR6E">
+<w corresp="src:tlaUH4TQY476JDTDBBVPHH62SONE4">𓇋𓂋</w>
+<w corresp="src:tlaNQXYP4252FDSDL7OZTEAMXV2RM">𓆣𓂋</w>
+<w corresp="src:tlaLJ5SZVCPXRFO5OZ7F5G473YSEE">𓋴𓏏𓏭𓐎</w>
+<w corresp="src:tlaV2CFRNFM6RBPFLFKBYNF4D2IGM">𓅓</w>
+<w corresp="src:tlaMEA3ALZXQVDIHMTUPBSAKFUFFE">𓂋𓏤</w>
+<w corresp="src:tlaI3HRCM5NPVFPNBJUG7YG6ANDAE">𓋴</w>
+<w corresp="src:tlaKPGCCA6CDZA2VGTGAGZG6RZPXA">𓇋𓏲</w>
+<w corresp="src:tla6DEXSDO67NHEFNPZLW7LIXIYR4">𓋴</w>
+<w corresp="src:tlaKPVEA2FZVRD7ZEZ43HZCXFCXCE">𓂋</w>
+<w corresp="src:tlaAIAIQNVWSVHBJASADXYDYN3FWM">𓄟𓋴𓁑</w>
+</s>
+<s corresp="src:tlaUUQNGHBB5RGIBKZ26S5G2FAWIM">
+<w corresp="src:tlaYAY7QJY3WZEH7PBAIRPAMMZKWU">𓇋𓂋</w>
+<w corresp="src:tlaIBYAYHCwAdahukgfsO9qPnYZ3zc"><note>Keine Entsprechung in Unicode für diese Graphien</note></w>
+<gap reason="lost" />
+<w corresp="src:tlaSQV4W35YARGVPHEARAEBD3H3YI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaHG5S5DZIXVE37ETT24BPN4SJAE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaSN5QNBNRU5CGJNLMQPDLCRKBO4">𓋴</w>
+<w corresp="src:tlaJ5ZVYDUHSNCIPOYJEPG3EWEYHA">𓂋</w>
+<w corresp="src:tlaICTQ2CJ32ZA75OROQTC4COSXNI">𓅘</w>
+</s>
+<s corresp="src:tlaGA3VG6KBEZESZBZOG7SVPZBAGE">
+<w corresp="src:tlaDS777GCMSJDW7LX4AFHGTB2FGQ">𓎢𓇋𓇋</w>
+<w corresp="src:tlaABFXEA5UBRCQPKZ6VLRJXJJPHI">𓂋𓐍𓏛</w>
+<w corresp="src:tlaWQSPMMYWBVAEXMVSHGSS2WN5PI">𓄟𓋴𓏏𓏯𓁐</w>
+<w corresp="src:tlaF35JHUP3CFCQBEUQ5GOY73N3MU">𓂋</w>
+<w corresp="src:tlaUDV3TFJV5BFIBJ2GZZKCZFNMQM">𓏏𓍃𓅓</w>
+<w corresp="src:tla4736GQRJ7ZFQ5CBA3QMROE7GAY">𓄟𓋴𓏏𓏯𓁐</w>
+</s>
+<s corresp="src:tla4DNJZIOHLVD2JK6HXEXQZEJHCU">
+<w corresp="src:tla4ULU4NL4WFC5DPH2QVBJT2QMIQ">𓊶𓊪𓏲𓀜𓏛𓐍𓂋</w>
+<w corresp="src:tlaTM3F6RANXRCYVOPEIFRSN5DKPY">𓎢</w>
+<w corresp="src:tla2AZSQOCGOJHKVMVIMC7ZR6RWME">𓋴</w>
+<w corresp="src:tlaH32FPZHVZVFK5GYYNJ6P3ZSGZQ">𓁷𓂋𓏤</w>
+<w corresp="src:tlaEF4YMMHWKFHZ5EU3TG3J3Y5IGQ"><unclear>𓎛</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tla4M7E3HRF7FBNFHRP3PRJ7NWR4Q">𓇋𓏲𓆑𓄹</w>
+<w corresp="src:tla2VF75WKNB5COVHH3UDYMZ2DK2I">𓋴</w>
+</s>
+<s corresp="src:tlaX77AIYA6HVD2XHTMJYOH5UK2ZM">
+<w corresp="src:tlaW34A2KNGHNEKFOFAFQKHON6RPI">𓇋𓂋</w>
+<w corresp="src:tlaS5UEOXXDJRFRNBUU7RWVFMSXCY">𓁹𓇋𓇋</w>
+<w corresp="src:tla3QATSEPC2BFWHD5ZPLBJABCPMA">𓋴</w>
+<w corresp="src:tlaT5LLVUHXLNBM5OG6PCMBBXTPLM">𓈎𓇋𓋴𓂐𓏥</w>
+<w corresp="src:tlaR6FREWLBXJALNJ52E2VXJCXKRM">𓅓</w>
+<w corresp="src:tlaZCGE3ECSGNFZTCH2UKM5LBDAJA">𓂋𓏤</w>
+<w corresp="src:tlaB35SWMCVPZCQNNY3NFKOB3VMFU">𓋴</w>
+<w corresp="src:tla4MWJAJTZSFBFRDSCDTUNUYOYFU">𓅓</w>
+<w corresp="src:tlaQGELORAH3BEALP63T7BJG4XQ6Q">𓁶𓏤</w>
+<w corresp="src:tlaBGRSIEOT7NGU3LO2WICQMKSOEE">𓈖</w>
+<w corresp="src:tlaJMHHDWAXORHDRIPCADJF6TK6EM">𓆼𓄿𓂝𓂻</w>
+<w corresp="src:tlaKT2SK527EFEQFAIBAARJAOJGIQ">𓂜𓈖</w>
+<w corresp="src:tla5NQNLY3BMNDPTAJJE5HSGJTRKE"><unclear>𓄟𓋴</unclear></w>
+<w corresp="src:tlaTAFXKEI7CZF5XLPZFR7D35VPCE">𓋴</w>
+<w corresp="src:tla7QHCMSD6XFBENPTDG3XPDLNDOU">𓂋</w>
+<w corresp="src:tlaVVS6IP3ZYFGTNOLQMKPK7N2ATI">𓈖𓎛𓇳𓎛</w>
+</s>
+<s corresp="src:tla4RS4X5VTAFF4JI5Z2ZGD3N7IOA">
+<w corresp="src:tlaRNFZNDUUO5G6PEEYB56RRSBRBM">𓇋𓂋</w>
+<w corresp="src:tlaOXONVZA4W5DBXF5ARPOW2YQBYU">𓁹𓇋𓇋</w>
+<w corresp="src:tlaY6MJRJZ6HJETFMFQICZB3KJQ5U">𓋴</w>
+<w corresp="src:tlaKGERI3BLEVC3RHGA2K2JCRNCW4"><unclear>𓏲𓆓𓂝</unclear></w>
+<w corresp="src:tlaIBYAYDDOG1jjXkvAszce9HXagx8">𓅓</w>
+<w corresp="src:tlaT35MPHIDHJBFJH52YLE4J2APJM">𓄖𓏏𓄹</w>
+<w corresp="src:tlaQAIOUEN4A5DG3AHX7VUFJB5ZEM">𓋴</w>
+<w corresp="src:tlaNC73QP54LFB7XNZZ7KLN4H6IUI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaPTQVPOGKZJGMZLWEZS7W65DG2U"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaPRTXQXABAJCALERDV72B3XPIIU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaR6QYBCP2CBHKLI2MADBQX5KV4Y"><unclear>𓄿𓂝𓂻</unclear></w>
+<w corresp="src:tlaTKSYRUFBR5FCBMK55FBAMQUGWY">𓇋𓏲</w>
+<w corresp="src:tlaRNTLGPHVFRBORLCEU3UTOXCI4I">𓋴</w>
+<w corresp="src:tlaV6F2YMQEOVHUBLXHRKA4FXDSXQ">𓂋</w>
+<w corresp="src:tlaEFPZTCLT4BDLNAA6CX2EEQC2NE">𓄟𓋴𓏏𓏯𓁑𓁐</w>
+</s>
+<s corresp="src:tlaBNLEJOXW3ZEGLDUUBJTJPC3H5M">
+<w corresp="src:tlaTWN33XZGWREVPADVDFM5QM66QM">𓎢𓇋𓇋𓀀</w>
+<w corresp="src:tlaPN7RMUKODFEWZNIO2NSFZY6CZE">𓂋𓐍𓏛</w>
+<w corresp="src:tla5HXLAS4JKVB5FCY3AV5BZLE5OI"><unclear>𓄟𓋴</unclear></w>
+<w corresp="src:tlaOIG66HXSPNHRXETNX7OFOPWQ6Q"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaFRSCXR6AVFDNTFUUCOJGD3NV7E"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaYWFEFQL2SFCPFLDHYZNX535XCY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaKUMG42SY6ZH7VJ4WS74XQ3VPGA">
+<w corresp="src:tlaEGRYJ6RCUNFRTFQDXQLTAF4G6U">𓂋𓂝𓏏𓐍𓂋</w>
+<w corresp="src:tlaKCMTOGSBKJGZDNEZ775S75MQNQ">𓎢</w>
+<w corresp="src:tlaUQ5I37FQVBCKLF6X74K4OIG344">𓊢𓂝𓏲𓂻</w>
+<w corresp="src:tlaO6KFTISRFFBIPNGAE4MYOJM36I">𓊃𓏏𓁐</w>
+<w corresp="src:tlaKEZOVKLW2ZH5PMSEYZ45AQIY2Y">𓅓</w>
+<w corresp="src:tlaQP2W2MH435FI7MWUHABAXTLLDM">𓂸𓏲𓏏𓂭𓂭𓉐</w>
+<w corresp="src:tlaWLC4XOAFNVEAXG7HNN4LUWMLCM">𓈖</w>
+<w corresp="src:tla4GFMUVXD4ZAIRC7CBE34UTWDHI">𓋴𓃀𓇼𓄿𓉐</w>
+<w corresp="src:tlaCB56V5MAQVE6ZM34L6MJUIFVPA">𓋴</w>
+<w corresp="src:tla3FGOJCGKC5GPPA2AOJ2YEKPEGA">𓅓</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaTUTAR5HQW5HTHEQCFGJR5M7VQI">
+<w corresp="src:tlaAZVYZ6HULJANFMYASJXFMLABMQ">𓌴𓁹𓄿𓄿𓈖𓀀𓐍𓂋</w>
+<w corresp="src:tlaRBT3AUEHNZEX5AVMWTGRRENZDQ">𓎢</w>
+<w corresp="src:tlaNK572MWZRFAYNJKKN4CPY5SLFU">𓂋</w>
+<w corresp="src:tlaBRY4BBSCFRESXC2QF45MX5HKDE">𓁹𓁹</w>
+<w corresp="src:tlaKPDSW6LQ4ZFFVCS67HM65O7BAA">𓋴</w>
+</s>
+<s corresp="src:tla6W6IFKAQOFBZJPIWG24KIIIDWY">
+<w corresp="src:tlaXHV45KEVVNBINFFGG7MJ55PI3Q">𓇋𓂋</w>
+<w corresp="src:tlaGHZJAKEZRNDZ7B6STCKNWEJDII">𓊪𓏏𓂋𓇋𓆳𓁻</w>
+<w corresp="src:tlaUX5SMXONJBEW5NA7FGMXCZKOIA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaBKWISNYV4ZASJOHCME7XHGALG4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaUKWVD32RXBHEHBLK4KK77K4NRA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaMKCMSZP2M5AG5I23H2VNN37WJM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaLZQQJX2HNVE5ZEOCTHHITO3WD4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaUWVDW3FZORDB7G3R7BKXP5ZRYM">𓎢𓇋𓇋𓀀</w>
+<w corresp="src:tlaX7D64S2ZLNALDPR4WJF4CC75VQ">𓏇𓇋</w>
+<w corresp="src:tlaLUTUC6JX2RATFAO5OUDJJYLKSQ">𓌙𓋴𓏭𓀀</w>
+<w corresp="src:tlaVT5YKCT6XNBT3LCQYEYRJSOS2U">𓂜𓈖</w>
+<w corresp="src:tlaRKSF37QAGFG6HBJG4NLCEKNIRM">𓁑𓁐</w>
+<w corresp="src:tlaEZ2TPQDQW5HWBKG5U55SZYFH54">𓋴</w>
+<w corresp="src:tlaDVGRKKJDBFBUTNNTPJYUFQIG7I">𓂋</w>
+<w corresp="src:tlaNNYUGPX6VRAS3LGTDDJC7HNU3Y">𓈖𓎛𓇳𓎛</w>
+</s>
+<s corresp="src:tlaYNDSDKVKKVF5THY4TN3SZNBCXE">
+<w corresp="src:tlaGJFOSHPPAZGGJJV7VMCSG3QLJY">𓇋𓂋</w>
+<w corresp="src:tlaIQVAPDDM45B4PI5J63J47FQQF4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla5Z5KEL536BGO3FD4C5AEGNMFJM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tla6YUDX5YIH5CSNK36WLJCSRTYWE">𓋴</w>
+<w corresp="src:tlaZ5NIFUL3GJGCPECH33FEQQYJLQ">𓅓</w>
+<w corresp="src:tlaAEMKYRWQUFF4BC3MBFE3G3HPGA">𓇋𓆛𓈖𓌰𓅓𓁸</w>
+<w corresp="src:tlaYOCP6S3BHZEDTLDBJ7DX6KXAVI"><note>Keine Entsprechung in Unicode für T21-D36-Z1-Ff100</note></w>
+<w corresp="src:tlaLQQKOAGDE5EONJ6G6B6FHNE3BU">𓇋𓏲</w>
+<w corresp="src:tla33Q2QGEUKZB7VF2GNWXVXC7BRQ">𓋴</w>
+<w corresp="src:tlaY6MATTLEARDBRPUUF3PUAYNFAI">𓂋</w>
+<w corresp="src:tlaNW5NGMJAQRH4DEZXSEMW5PFVWQ"><unclear>𓄟𓋴𓏏𓏯</unclear></w>
+</s>
+<s corresp="src:tlaW7O5J7KPWNGTFNJJQUQA4F7OYE">
+<w corresp="src:tlaS5PWM4VPB5AYPJ3DHWQ7TWKNQQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaZJIGUDHLJBGUJCIKHNA2EHPKLY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaHXWHPMLLOBCCXNKR2B6VR4UQAI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaKYH4WI4XUZEG3LSTCNA2JRQNVM">𓂋</w>
+<w corresp="src:tlaWWMPN3PHDFHRPD57T7UWYK45Q4">𓏏𓍃𓅓𓏏</w>
+<w corresp="src:tla4VKCTKPCBBDEFE3RQWP4AHXOGM">𓄟𓏏𓏯𓁐</w>
+</s>
+<s corresp="src:tlaT4WLMQGFFFF65KXBJEB63WDBIU">
+<w corresp="src:tlaVLEAMGMEFNAJTHQG3Y2LOXXOBQ">𓂋𓂝𓏏𓐍𓂋</w>
+<w corresp="src:tlaOHINC2IB5ZB2VNK25QHY5QFVPI">𓎢</w>
+<w corresp="src:tlaRUZ3P35CDRC2HDYP5NKG7HMPCM">𓋴𓅨𓂋𓇋𓈖𓈖𓈖𓀁</w>
+<w corresp="src:tlaF2ZWLWM2CVG77KMATYE47MVYFQ">𓋴</w>
+<w corresp="src:tlaIBYAYEjLr1T4Fkt3ok5HFe7ftiE"><unclear>𓃀</unclear></w>
+<w corresp="src:tlaXWQQDUI4GVCYBOA7ZG2PDFDPBM"><note>Keine Entsprechung in Unicode für D21-4-4</note></w>
+<w corresp="src:tlaDITIWJCWNVFXNFYNUGPMAHYHJM">𓃀𓈖𓂋𓇋𓇜𓏤𓌾𓏥</w>
+<w corresp="src:tlaS7CTSFR3GZGYNNQSZ2QL6GILYE">𓇅𓏛</w>
+<w corresp="src:tlaV6FD57TGJ5GQ5B3RZHFE4GJZIQ">𓂆</w>
+<w corresp="src:tlaLD6SL6SSGRGWZBB35VXNYCIXWE">𓃀𓈖𓂋𓇋𓇜𓏤𓌾𓏥</w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBYAaQRsst9sEEpNkvg30culqQc"><unclear>𓏤</unclear></w>
+<w corresp="src:tlaOB4BA6THS5APJJGBUYHMHU6YBI">𓊃𓂋𓅓𓏏𓏋𓏫</w>
+<w corresp="src:tlaJQQETTQBJVCVFANZ6WV2QLSQ2Q"><note>Keine Entsprechung in Unicode für D21-4-4</note></w>
+<w corresp="src:tla34SXDE4N7FAG7I47BGLGAJLTOI">𓇋𓂋𓊪𓏲𓏋𓏫</w>
+<w corresp="src:tlaIBYAYJIfWlrtfU1klNxPRW92JZ4"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaGC4F7DI2WZH2ZJML5CQ3C5JWE4">
+<gap reason="lost" />
+<w corresp="src:tlaYTDXSLFJBBCGJCOKD3FFQKQOTU">𓅓</w>
+<w corresp="src:tlaDJ7OZAO3SFDMBN6FK52T6SQT7I">𓁶𓏤</w>
+<w corresp="src:tlaXTGAFRPOIVHY3DIRUSVO3WHSEI">𓈖</w>
+<w corresp="src:tlaM7CDEXD6YRDPRJQVNPUKDOZHCA"><unclear>𓆼𓄿𓂝</unclear></w>
+<w corresp="src:tlaW2TBW25EZVGRLP5TZTNC63VKHE">𓂜𓈖</w>
+<w corresp="src:tlaGWQS3B2POFGJ7HWGFKHONZ65EQ">𓄟𓋴𓏏𓏯𓁐</w>
+<w corresp="src:tlaU237XIR2TNFGZF5HW4QI7S5S7E"><unclear></unclear></w>
+<w corresp="src:tla5ROCSXXZWNAVJGAUKJKAHW3EAA">𓂋</w>
+<w corresp="src:tlaHROIVCVCM5CEXPVFNHLOCMODAI">𓈖𓎛𓇳𓎛</w>
+</s>
+<s corresp="src:tlaG53J5I6DKRH55EN3JBOVNYNA6Q">
+<gap reason="lost" />
+<w corresp="src:tlaTBYHEUCHB5CWFJOT4EJOOVEYWQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBYAYLMFbmXTZUFFj5FISYNFc9k">𓋴</w>
+<w corresp="src:tla3HCFGTFCXRHKPBK2N3EUOIJ4R4">𓂋</w>
+<w corresp="src:tlaYXY6R6NGGRBDXNBVEEX5BW2BZI">𓄟𓋴𓏏𓏯𓁐</w>
+</s>
+<s corresp="src:tlaQ4ANRUKJ7RC6REAMKUVOB2KQ2Y">
+<w corresp="src:tlaJ5S4NZ5XRVBLXH422UPDIGSNPU">𓊃𓊪𓏲𓊗𓏫</w>
+<w corresp="src:tlaCNWXR3YET5AVVF3AYMLKQQB43E">𓏌𓏤</w>
+<gap reason="lost" />
+<w corresp="src:tla3DBKJGBBUVBVHFEOHCCRJOAORM">𓉐𓂋𓏏𓏯𓈒𓏥</w>
+<w corresp="src:tlaTLAZ2N5S6JGHZPED4PYSZC4LP4">𓈖𓇛𓅓𓏲𓆭</w>
+<w corresp="src:tlaIBYAaSjGTm3sBU4TuDCnuToqqec">𓂋𓎆</w>
+<w corresp="src:tlaIBYAaVUVqFwQjUwwlkSZW2grUwg"><unclear></unclear></w>
+<w corresp="src:tlaDXQU6PW6LJBELG7JPABBIQBNIU"><unclear>𓉐𓂋𓏏𓏯</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

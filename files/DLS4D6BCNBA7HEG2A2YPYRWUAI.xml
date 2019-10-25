@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idDLS4D6BCNBA7HEG2A2YPYRWUAI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>3. Register v.u.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 3. Register v.u. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DLS4D6BCNBA7HEG2A2YPYRWUAI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Register-Beischriften</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">3. Register v.u.</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4TM7LLY7CNG5NOKSVTOW3S6FFY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi II: The southern cliff (ACE Rep. 25), Oxford 2007, 60-62, pl. 4-5, 36-37, 58, 75a
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DLS4D6BCNBA7HEG2A2YPYRWUAI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a0ba40d3d399b626903c3b7931e1dc56</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8FHQ2eMuEyivU9bH6N8Mgc">
+<lb n="[Szenentitel]"/>
+<w xml:id="tlaIBUBd1ygvZxWmEeDqGzzRGvqNGU" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n,j.t</w>
+<w xml:id="tlaIBUBd9RoVe1fYE4Ps1SOtFfxWWs" lemmaRef="tla:tla181420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏ,t</w>
+<w xml:id="tlaIBUBd9HSGMEzMUskud7MDv84DG0" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdW3Y7tZhdE2AgPf3zxbFs0U" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd8WbYcUAGUAxnWw2XEPNdeU" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+<w xml:id="tlaIBUBd3YJTIvJp0hqleXQrTCZkIw" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBdQDZ4K80yU5sjzu1PIhtQSo" lemmaRef="tla:tla400216"><fs feats="entity_name person_name"/>Jbj</w>
+</s>
+<s xml:id="tlaIBUBd2005UUmZ0X9rQo4Ua7mbYM">
+<lb n="[1. Person]"/>
+<w xml:id="tlaIBUBd4jooavSnUwkno89AfbY1rA" lemmaRef="tla:tla450652"><fs feats="epitheton_title title"/>sḥḏ-zẖꜣ,ww</w>
+<w xml:id="tlaIBUBd9QoKmsBtUcMqnmHSQIwThU" lemmaRef="tla:tla800075"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-ḥm<supplied reason="defective">,w</supplied>-kꜣ</w>
+<w xml:id="tlaIBUBdyNmFUtBW00bobNZRBDty8Y" lemmaRef="tla:tla852869"><fs feats="epitheton_title title"/>jrr-ḥzz,t-nb≡f</w>
+<w xml:id="tlaIBUBdx2QLjpdVU3yscGopTnzW8U" lemmaRef="tla:tla704225"><fs feats="entity_name person_name"/>Rnsj</w>
+<w xml:id="tlaIBUBdwzCQ4ZKvEyWh8kHHcQg5As" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBUBdQlWZWWIrERstLWvCQ0CWxg" lemmaRef="tla:tla400216"><fs feats="entity_name person_name"/>Jbj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

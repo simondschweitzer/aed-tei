@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id3DQJVKA2J5A4ZBNFMYTVQUSW5I">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3DQJVKA2J5A4ZBNFMYTVQUSW5I</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:NM3QUYNOMVDOBD2JX4WCD76QY4">Pelizaeus-Museum</repository>
+<idno>2143</idno>
+<msName>Statue des Nesutnefer</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDS3NEQKT7FDFTCZCSBT272BIME">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3X3HIVLWDVCHVM7OKEQG4RIKIA" notBefore="-2512">Sahure</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Tombs at Giza II: Seshathetep/Heti (G5150), Nesutnefer (G4970) and Seshemnefer II (G5080), (ACE Rep. 18), Warminster 2002, 49-50, pl. 23.
+[P,F,U,Ü,B,K]
+H. Junker, Giza III: Die Mastabas der vorgeschrittenen V. Dynastie auf dem Westfriedhof, 163-187, Taf. V-VI, X-XI, Abb. 25-32.
+[*P,*F,L,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:NM3QUYNOMVDOBD2JX4WCD76QY4">Pelizaeus-Museum</repository>
+<idno>2143</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3DQJVKA2J5A4ZBNFMYTVQUSW5I.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a0fd8b5ae83b95a8358033864fa1c15f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1vBxY8oaEvwqP6rQmdkbts">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd6V43GE5a0FOnKx8N9C4rNM" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<w xml:id="tlaIBUBd8O9ImzuBUGtoPzMzhWsNZo" lemmaRef="tla:tla450645"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-wpw,<supplied reason="defective">w</supplied>t</w>
+<w xml:id="tlaIBUBd46u7tuvvkJZuV6s18ncNHQ" lemmaRef="tla:tla850522"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nb≡f</w>
+<w xml:id="tlaIBUBdzCWEfXUiUZUl1BLjV0aftY" lemmaRef="tla:tla703438"><fs feats="entity_name person_name"/>Nfr-nswt</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

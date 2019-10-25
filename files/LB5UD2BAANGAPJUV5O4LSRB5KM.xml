@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLB5UD2BAANGAPJUV5O4LSRB5KM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 283</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 283 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LB5UD2BAANGAPJUV5O4LSRB5KM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 283</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDWVLH6T7MZG7BPO5G6UXM7KVWA">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notBefore="-2383">Unas</date>
+<date type="latest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notAfter="-2364">Unas</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte,  Leipzig 1908-1922 [*H];
+A. Piankoff, The Pyramid of Unas, Texts Translated with Commentary, ERTR 5, Princeton 1968 [*P,Ü,K]; 
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü];
+C. Leitz, Die Schlangensprüche in den Pyramidentexten, in: Or 65, 1996, 381-427 [Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LB5UD2BAANGAPJUV5O4LSRB5KM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-9ba8c813cafce19451ab9c1ea431ba39</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzSsq0uPbE3IkesX6IS9BJ4">
+<lb n="[537]"/>
+<w xml:id="tlaIBUBdzregCrfmE8gmbaaJVzDThg" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBdyxJMR40OUaPqlg2FXblMOw">
+<w xml:id="tlaIBUBd8OcKtLDl0augThWEbm4mVY" lemmaRef="tla:tla32420"><fs feats="verb verb_3-inf suffixConjugation active"/>jk</w>
+<w xml:id="tlaIBUBd8LnWjOg6E1Kl7i5YktARHk" lemmaRef="tla:tla95340"><fs feats="particle particle_enclitic"/>rr</w>
+<w xml:id="tlaIBUBd263mWk4KELov1pJWUdqX5k" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+<w xml:id="tlaIBUBd2MFVqZlK037lwab3vRU28c" lemmaRef="tla:tla38130"><fs feats="substantive substantive_fem st_pronominalis singular"/>ꜥn,t</w>
+<w xml:id="tlaIBUBdxkg3lDc9EQKsSmiVj02gVI" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2LP63Z0pUlgkpWAwAEW9Z0" lemmaRef="tla:tla172360"><fs feats="pronoun demonstrative_pronoun"/>tn</w>
+<w xml:id="tlaIBUBd3uyKBmeREJ4iSMheXgMbrY" lemmaRef="tla:tla91900"><fs feats="preposition"/>jr</w>
+<w xml:id="tlaIBUBd0MSyEo9L0OrpA6hSqp951w" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdQoyd0MPb0jJudFgTWdaH1I" lemmaRef="tla:tla20610"><fs feats="adjective nisbe_adjective_substantive feminine singular"/>jꜣb.t</w>
+<w xml:id="tlaIBUBd3glbPWyWkoekz0aMwzfHVw" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation active"/>di̯</w>
+<w xml:id="tlaIBUBd8kK1StD80fglD61Blm7J74" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdyWdsVB0E0o5hmqjEu3ff20" lemmaRef="tla:tla141420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>sḫ,t</w>
+<w xml:id="tlaIBUBd6FtPkGrqkQymp1drfBHWBM" lemmaRef="tla:tla64360"><fs feats="preposition"/>jm</w>
+<w xml:id="tlaIBUBdz7SKIkj9EoegQNph6tZZCc" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+<w xml:id="tlaIBUBd4n4YomVrUzxvdr5aRuQLPo" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdwqYZMXqOkR7pXC4zRquF4E" lemmaRef="tla:tla70530"><fs feats="entity_name gods_name"/>Mnw</w>
+<w xml:id="tlaIBUBd0kCxxGasUqkl87UJXRa2WM" lemmaRef="tla:tla855152"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jkj,w</w>
+</s>
+<s xml:id="tlaIBUBd7FQfQmQI0GKjNvWCnWQpUk">
+<w xml:id="tlaIBUBd5m4IHErc0jHupUDxqoCNXI" lemmaRef="tla:tla20030"><fs feats="interjection"/>j</w>
+<w xml:id="tlaIBUBdQmtlhD1uEXWsjGN9x3M2q8" lemmaRef="tla:tla33560"><fs feats="verb verb_3-inf participle prefixed masculine singular active"/>jṯṯ</w>
+<w xml:id="tlaIBUBd9MzL5SWXEkUoCI1lDEhpSM" lemmaRef="tla:tla64410"><fs feats="verb imperative singular"/>m</w>
+<w xml:id="tlaIBUBdyw0Y9BfokTxtepyxqyFHQQ" lemmaRef="tla:tla33560"><fs feats="verb verb_3-inf infinitive"/>jṯi̯</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

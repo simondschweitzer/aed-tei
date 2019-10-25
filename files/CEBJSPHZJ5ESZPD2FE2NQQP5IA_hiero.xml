@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroCEBJSPHZJ5ESZPD2FE2NQQP5IA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Stele des It (Äg. Slg. Tübingen Inv. Nr. 462)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Susanne Beck</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Stele des It (Äg. Slg. Tübingen Inv. Nr. 462) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Susanne Beck</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CEBJSPHZJ5ESZPD2FE2NQQP5IA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>12.16</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+<msName>Stele des It (Äg. Slg. Tübingen Inv. Nr. 462)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Stele des It (Äg. Slg. Tübingen Inv. Nr. 462)</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaK2CFHNOHNBEWLHIMS2VL4MKD34">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<objectType ref="ths:GT4HRUBG55AE5IB7RM2ZMJOQ6M">Privatmann</objectType>
+<material ref="ths:H7S5EKRWZ5EVBI35BBLML3MRL4">Kalkstein</material>
+<dimensions unit="cm">
+<height>69</height>
+<width>6</width>
+<depth>40,5</depth>
+</dimensions>
+<note>Farbig gefasst, Kolumnen zumeist gelb hinterlegt, stellenweise Hackspuren.</note>
+</support>
+<condition>vollständig</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notBefore="-1793">13. / 14. Dynastie</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>Bei Brunner/Brunner-Traut 1981, 88 datiert das Objekt in die 12./13. Dynastie. Aufgrund von paläografischen Erwägungen wohl eher in die 13. Dyn. zu datieren, vgl. Ilin-Tomich, in: ZÄS 138 (2011), 21, 22, 24.</note>
+</origDate>
+<origPlace cert="medium" ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY" type="JTPKDP7HTRGIBKN34QHASPR4LE">Abydos
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- Brunner, H./E. Brunner-Traut, Die Ägyptische Sammlung der Universität Tübingen, I–II, Mainz, 1981, I 88–90, II, 10. [B,P,F,Ü]
+- Simpson, W. K., The Terrace of the Great God at Abydos. The Offering Chapels of Dynasties 12 and 13, Publications of the Pennsylvania-Yale Expedition 5, 1974, ANOC 60.2, Taf. 42.2. [P]
+- Spiegelberg, W./B. Pörtner, Aegyptische Grabsteine und Denksteine aus süddeutschen Sammlungen. I: Karlsruhe, Mühlhausen, Straßburg, Stuttgart, Straßburg, 1902, 9 (Nr. 12), Taf. VIII. [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>12.16</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CEBJSPHZJ5ESZPD2FE2NQQP5IA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Susanne Beck</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>87-a9487ecb11c02ac45b28179b49457586</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBcAYAWMWYqvE0CCuuOuxvUSeEA">
+<w corresp="src:tlaIBcAYHtBSXWqMEUfvSwpKL7Cfrc">𓄋𓈐𓏏𓏥𓇳𓏤</w>
+<w corresp="src:tlaIBcAYBqrgSvYA0aylZuB0ZbDqn4"><note>Keine Entsprechung in Unicode für V30-U23B-N26-O49</note></w>
+</s>
+<s corresp="src:tlaIBcAYAfcWXqa6Us9lEkQ2oVyzVs">
+<w corresp="src:tlaIBcAYJGEMOymO0yjkFmH9CWiwqc">𓄋𓈐𓈐𓈐</w>
+<w corresp="src:tlaIBcAYMQEsk6cmkUqjp437epWzig"><note>Keine Entsprechung in Unicode für V30-N16-D254-N25</note></w>
+</s>
+<s corresp="src:tlaIBcAYPNOQdtqnUCqsW3cEH0dlDc">
+<w corresp="src:tlaIBcAYNBRWrfhZUqfjwF0FIPVbVA">𓇓𓏏𓏙𓊵</w>
+<w corresp="src:tlaIBcAYAbEzH54B0Amp45OTf8slKs">𓊩𓁹</w>
+<w corresp="src:tlaIBcAYEqWWrcnckvZmvzh6o4WMNk"><note>Keine Entsprechung in Unicode für W17A-N35-R14-G4-X1</note></w>
+<w corresp="src:tlaIBcAYAZntwmEuEVUu9WDU9R6Bbc">𓊹𓉻𓂝</w>
+<w corresp="src:tlaIBcAYGfwu1GtXkgdibplMNQZxdA"><note>Keine Entsprechung in Unicode für V30-U23B-N26-D58-O49-Z1</note></w>
+</s>
+<s corresp="src:tlaIBcAYF2kmvAmW0VGk6Y9puGKQ5w">
+<w corresp="src:tlaIBcAYJwQYl6xrEeFqzxqEEdTtcA">𓂞𓏤</w>
+<w corresp="src:tlaIBcAYC1vNxgRWk3ZmhIP7lNSSlo">𓆑</w>
+<w corresp="src:tlaIBcAYLQRQG4CwUibkKANQutHWfE"><note>Keine Entsprechung in Unicode für O70-Z2</note></w>
+<w corresp="src:tlaIBcAYC32AWSpQkI9mGWEKfWjQIY">𓏐</w>
+<w corresp="src:tlaIBcAYNakQeaaGkuBt9f65EAJRT4">𓏊</w>
+<w corresp="src:tlaIBcAYFKzaXRQdkTWlwYDYmTg7h4"><note>Keine Entsprechung in Unicode für F63-O48B</note></w>
+<w corresp="src:tlaIBcAYLk2EUB0IkwglcNiCzg0hbU">𓅿𓏥</w>
+<w corresp="src:tlaIBcAYCJKtqRuEUxTn6ZTIlTxwgk">𓍵</w>
+<w corresp="src:tlaIBcAYOdxpBECC0gikJjZLlax3KQ">𓈀𓏤</w>
+<w corresp="src:tlaIBcAYAsbyVDJFEX9hP4lrVin7dk">𓋲</w>
+<w corresp="src:tlaIBcAYGlau10ww0ghvARQGJHwgQU">𓈖</w>
+<w corresp="src:tlaIBcAYH2WpmLQ707Tqi5BoQQy2QU">𓂓</w>
+<w corresp="src:tlaIBcAYNNyczbfcEersBkSPbkycdw">𓈖</w>
+<w corresp="src:tlaIBcAYKbdN4irV02PgL0UnJOMnzo">𓄓𓏤𓉐𓏤𓐎𓏛𓌾</w>
+<w corresp="src:tlaIBcAYDlctSUYlEX9iyHkDyyDuE4">𓇋𓏏𓆑𓀽</w>
+<w corresp="src:tlaIBcAYDul2KcwSUEUraN7o2PPaHI">𓐙𓊤𓅱</w>
+</s>
+<s corresp="src:tlaIBcAYDbV94OEOEvbhNFYWt2QOfU">
+<w corresp="src:tlaIBcAYDMFcndQKkWAhOeflj1sg0U">𓈟𓏏</w>
+<w corresp="src:tlaIBcAYKIcRDhUDkHfhy5n9ORRQf4">𓆑</w>
+<w corresp="src:tlaIBcAYObd7CuX6EXoqRs4G49uQvs">𓇓𓏏𓈖𓐬𓅱𓌡𓏏𓏏</w>
+<w corresp="src:tlaIBcAYJ0fgSQl8UbnmIWuQZ1e9QY">𓊃𓈖𓏏𓃀𓋴𓏭</w>
+<w corresp="src:tlaIBcAYHYbuDDrckQBnbWYYnv1IHk">𓐙𓏏𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYFoFn89NdUo1rubCx5xypWg">
+<w corresp="src:tlaIBcAYC1UvLbU6UPzq4eyAdD2pxQ">𓁹𓏏</w>
+<w corresp="src:tlaIBcAYOp26QqTa0FFjCueGC4GvWc">𓇓𓏏𓏙𓊵</w>
+<w corresp="src:tlaIBcAYOM6fDAVo0FJjpWuc1spBTs">𓇋𓋔</w>
+<w corresp="src:tlaIBcAYHWmhPNdeUBfsgnvoiPhcww"><note>Keine Entsprechung in Unicode für Y3C-N35-U31-O1-X1-G36</note></w>
+<w corresp="src:tlaIBcAYPcZUUdnikg1rq6i9YEWJrs">𓇋𓇍𓂻𓄣𓏤</w>
+<w corresp="src:tlaIBcAYPobehNQ2UmAttWMjPGXVdU"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+<w corresp="src:tlaIBcAYMRxi9FXZ00GrrwQD725EV0">𓄟𓋴𓈖</w>
+<w corresp="src:tlaIBcAYGRrdgCP6UEuq9n7oA5eTIM">𓇓𓏏𓈖𓐬𓅱𓌡𓂝𓏏𓏏</w>
+<w corresp="src:tlaIBcAYOI7xOI3mkjfk2zcTbmPEbo">𓋴𓈖𓃀𓏏𓊃𓏭</w>
+</s>
+<s corresp="src:tlaIBcAYDrG5b8F1EPWreAAaQGDwUg">
+<w corresp="src:tlaIBcAYHI2Grd0kkyJn0cmKbzm1oM">𓈟𓏏</w>
+<w corresp="src:tlaIBcAYM2UtXP1b0Zyug8HQUWvYr0">𓆑</w>
+<w corresp="src:tlaIBcAYHIeogQCUk8WpGhPB4O9hAg">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYLLMp6swsUlNmcdaoimt3MU">𓊃𓂋𓅱𓐍𓏛𓄣𓏤𓁐</w>
+</s>
+<s corresp="src:tlaIBcAYFzCtCFm50hIpotElDyJQd4">
+<w corresp="src:tlaIBcAYH00x2MX50QlrlzfW3ylwhE">𓌢𓈖</w>
+<w corresp="src:tlaIBcAYAdtEmH6zUcXiWB2hQqrpNQ">𓆑</w>
+<w corresp="src:tlaIBcAYHW83VoBmEVruIw6K7Q02Vc">𓈖</w>
+<w corresp="src:tlaIBcAYI7sPkmRGUyKljFP4KW2Q9U">𓅐𓏏</w>
+<w corresp="src:tlaIBcAYLvDpIPWa0L6oCWVfm6JjKk">𓆑</w>
+<w corresp="src:tlaIBcAYFsoa2r6fEaJvNOmrX0tieE">𓅨𓂋𓇓𓎆𓏥</w>
+<w corresp="src:tlaIBcAYHSUWyTvUEKTvB3LgRLxdds"><note>Keine Entsprechung in Unicode für M17-Y5-N35-O29-D36-G1-Y1v</note></w>
+</s>
+<s corresp="src:tlaIBcAYAbjwg1QWUnah34kgdBLyx0">
+<w corresp="src:tlaIBcAYKuU5SZY20KBkh6gIWMmPmE"><note>Keine Entsprechung in Unicode für E17-D21-O48B</note></w>
+<w corresp="src:tlaIBcAYORKi3F4aEbhlkXWBYKohPw">𓋴𓈖𓃀𓅱</w>
+<w corresp="src:tlaIBcAYF0TPonycUfTpO58uQlnXHk">𓐙𓊤</w>
+<w corresp="src:tlaIBcAYNJROlN0mkaFkgpH6Pcwejg">𓎟𓄪𓏤</w>
+</s>
+<s corresp="src:tlaIBcAYIpITfcQ5UZniESWDCG1HmU">
+<w corresp="src:tlaIBcAYEROD4HA7kkosOjX3pl9Ok0">𓅨𓂋𓇗𓎆𓏥</w>
+<w corresp="src:tlaIBcAYFE3QQV2n0TEspphQw82TaM">𓄤𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBcAYN7PtxlnE0W6hsPcVPuRvns">𓐙𓂝𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYJdO85CmLkZhrmQKVzR9XZg">
+<w corresp="src:tlaIBcAYJ6eb7MQCkS5pVLXkDUWtNQ">𓎴</w>
+<w corresp="src:tlaIBcAYBSLDjfUzENUhz6FSmZQjSg">𓄊𓂋𓏏𓊃𓈖𓀀</w>
+<w corresp="src:tlaIBcAYO0HUWKP3kwQrRzHQwtQPTw">𓐙𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYGbYdnXwn0VPkLQeKQXzuIk">
+<w corresp="src:tlaIBcAYPNj0l3qTUB8qsn1qHIsKpI">𓀸𓌔𓏏𓏤</w>
+<w corresp="src:tlaIBcAYERcQQRvd0YfoCyeb9IX9Dk">𓆊𓂞𓂞𓅱</w>
+</s>
+<s corresp="src:tlaIBcAYIrYScdWokNptCAKWH9Vesw">
+<w corresp="src:tlaIBcAYJlIsLjutkwRgqDnQ3Knrcg">𓄓𓉐</w>
+<w corresp="src:tlaIBcAYNh97J9g8kMQkMDwHPxhOvg">𓅘𓎛𓇋𓀁</w>
+</s>
+<s corresp="src:tlaIBcAYMchW2A1LUaKlOExQEFWlMQ">
+<w corresp="src:tlaIBcAYJL6ReaYeUAWmXlCC9qXOvw">𓅨𓇙𓏪</w>
+<w corresp="src:tlaIBcAYFZf2Af2kUCuvWfw0bR2SL8">𓂋𓂞𓇋</w>
+<w corresp="src:tlaIBcAYKdcRWnFtkEPstq4ARTUMP4">𓐙𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYOIcZcSHm0DOhKkWQsBoAQs">
+<w corresp="src:tlaIBcAYAzyW3W6QkUPlnaBUp0VhAs">𓃂𓈗</w>
+<w corresp="src:tlaIBcAYDTO7OmbFUxLtUIbGC1Hdew">𓏠𓈖𓍿𓅱𓅓𓎂𓆑𓏥</w>
+<w corresp="src:tlaIBcAYNPbS7WWX0ankNbiKHIT7lQ">𓐙𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYLxwpT4rCkbHlBUsmQwWQpg">
+<w corresp="src:tlaIBcAYBYUm3N7GEIzrnNK4jDgVuI">𓋴𓌋𓌞𓅱𓏥</w>
+<w corresp="src:tlaIBcAYFtasIVRc0WSnufbiqSacbQ">𓂞𓂞𓅱𓏏𓋴𓈖𓃀</w>
+<w corresp="src:tlaIBcAYLmK2vQ9OUjjp7GiS4xVzxU">𓐙𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYLNZ8ZuurU3NtMYYwwXDftA">
+<w corresp="src:tlaIBcAYBUonWc7WUzlrxA22Vdoqzo">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYNi0mrhxfEQqvpIM1QTn6fM">𓊃𓂋𓅱𓐍𓏛𓄣𓏤</w>
+<w corresp="src:tlaIBcAYB1xbnNUrk3TlkeQlyzXz64">𓐙𓏏𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYDzfW7YmTUwrqD1GekbPQKw">
+<w corresp="src:tlaIBcAYPQbWlUvfEe6r7Pyl5PHIsk">𓄓𓂝𓄚𓈖𓏏𓏌𓏭</w>
+<w corresp="src:tlaIBcAYP4zhnrSIkL1qL9coz0nYM0">𓎡𓇋𓇋</w>
+<w corresp="src:tlaIBcAYGmuMAdEI0atnKd4D5trfyE">𓐙𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYFSMHKPB4EHpjJ58ZYAtCQs">
+<w corresp="src:tlaIBcAYAhQrryRaUT5oEbzsUuAOTs">𓃂𓈗</w>
+<w corresp="src:tlaIBcAYAROPLX33E9bvVcZvWBKquk">𓇋𓅱𓇋𓇋</w>
+<w corresp="src:tlaIBcAYNKHJJWAkkOehfm9ES6OtsY"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYOj1upnY70lknRhmKvs08gc">
+<w corresp="src:tlaIBcAYFPmwGPbeU6IvOtqxWj4utA">𓌞𓅱</w>
+<w corresp="src:tlaIBcAYDdcMApYo0o2jhSO39gFol8">𓂧𓂧𓇋</w>
+<w corresp="src:tlaIBcAYHwYRN9GeEKFqDxGIgjKUso">𓀔</w>
+<w corresp="src:tlaIBcAYJQIrOwI50cgvvLvRdeEIQg"><note>Keine Entsprechung in Unicode für Aa11-D36-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYDGhlBBBU0PBh5cGah1BAQY">
+<w corresp="src:tlaIBcAYNibtHjXxUybvhPR8JN5IDE">𓌞𓅱</w>
+<w corresp="src:tlaIBcAYHRsZaIoQUgsstUw8OGVCxc">𓂧𓂧𓇋</w>
+<w corresp="src:tlaIBcAYNNhqmrh8UOfniR4TnV5GQM"><note>Keine Entsprechung in Unicode für O29v</note></w>
+<w corresp="src:tlaIBcAYCA9iJ1QdU5GqSYqqHbDU9Q">𓐙𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYClku4pyrU3giQoCVm9Wikc">
+<w corresp="src:tlaIBcAYHFhOzxgh0NOkfPp2QdSCYw">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYN87cYL31kbrplv4Ywi83g4">𓉡𓅭𓏏</w>
+<w corresp="src:tlaIBcAYFtbQOxGC04ujCbyE4fX9RE"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYF6cLxsADkbUsRwYgHHOWbI">
+<w corresp="src:tlaIBcAYFDxt7MhR0uuoKemTWTf8Ws">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYB0Oerjvi0b0sIXzPPX4y9Y">𓋴𓈖𓃀𓏛</w>
+<w corresp="src:tlaIBcAYOLb8vntuEimh7zclRGqIvo"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYMGCscWG10PJqSyf8HXrIIk">
+<w corresp="src:tlaIBcAYFe52r0deUgTl9zWv90llHI">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYOrf4BTgP090gsmvYDqIzp8"><note>Keine Entsprechung in Unicode für M17-D36-N35A-G43-O29v-X1</note></w>
+<w corresp="src:tlaIBcAYA3CgRbQE0A5qb0swlXkvEU">𓐙𓏏𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYDgpoPwHo0GIjVsnUQ5FVw4">
+<w corresp="src:tlaIBcAYNwPnz4TkU6coR8sRy5xOUc">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYES7odgCNkeWvhPSRndcOUw">𓇋𓂝𓈗𓅱𓀔𓏏</w>
+<w corresp="src:tlaIBcAYNiuWK1xQkVboCNXfbs9fOk">𓐙𓏏𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYIetAjWPakRXvD4n63gFmcU">
+<w corresp="src:tlaIBcAYEtXJkMbKEzImlzhUyPzkDs">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYM6rQZANB0dNvXpjWpJCc2s">𓂞𓋴𓅓𓂋𓇋𓆵</w>
+<w corresp="src:tlaIBcAYAuw8omDqEz7hkxAtNXPCqc">𓐙𓏏𓊤</w>
+</s>
+<s corresp="src:tlaIBcAYLjQuQNUREFgg2GD0W8QNDc">
+<w corresp="src:tlaIBcAYPe4tnm20kuArX73PHK8UuM">𓏠𓈖𓂝𓏏𓂑</w>
+<w corresp="src:tlaIBcAYNzgKllkpEkEpshDWUUevS8"><note>Keine Entsprechung in Unicode für O34-N35-D36-D36-Y1v-F34-Z1</note></w>
+</s>
+<s corresp="src:tlaIBcAYAjmGXs4W09fj62sWebd1WA">
+<w corresp="src:tlaIBcAYOCWZwAJwEfQryZFbdWIxXU">𓅭𓏤</w>
+<w corresp="src:tlaIBcAYMQsjJUJd0KJtwsOgTuQWz0">𓊃</w>
+<w corresp="src:tlaIBcAYNayaMFm4UmxjaMhp0cTYX8">𓎟𓇓𓅱𓌇</w>
+<w corresp="src:tlaIBcAYNbcjQsi7EMBipWL3gMBP9s"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYC0D09QX2UJVgO3BdSGYZyE">
+<w corresp="src:tlaIBcAYIEzPxzYYUPKmtJQyCmkmqk">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYPPvjylGv03QgIWQNwO3ndw">𓎛𓏌𓏏𓎺𓁐</w>
+<w corresp="src:tlaIBcAYN87a8f4Wkv8r8fxRy09BAY"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYE2EQeiQW0s6tJqiKwANcEI">
+<w corresp="src:tlaIBcAYDh1apUVa03ItV7I7nJf1BI">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYJQOqAXQmEQ4pxdpa0wtO6w">𓋴𓈖𓃀𓅱𓏭</w>
+<w corresp="src:tlaIBcAYAuLcgtUWEWysB3o4qkQj4g"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYHsV0gEnP0aynBW3l5VdN9M">
+<w corresp="src:tlaIBcAYPUab84fQk8bk486wzKDvGU">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYNdeeuqQfkytmy2aRDgcTXc">𓊵𓏏𓊪𓍘𓇋</w>
+<w corresp="src:tlaIBcAYPBRxA6MRUwTk7t8Mh9BuLA"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYPUqyGfZQ0eCuL0W1vR9hzQ">
+<w corresp="src:tlaIBcAYKWGlF8AeEzYr2L0yUJMfNg">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYMy2qcqsoEYhq7pz5hRTpHk">𓃀𓃀𓇋</w>
+<w corresp="src:tlaIBcAYI5C2acKqUnntsyLIhRNPOU"><note>Keine Entsprechung in Unicode für A17D</note></w>
+<w corresp="src:tlaIBcAYGinkzTdWk2ZpBDtvuZFRs8"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYND3XVWNOUxQiZrrKFE7f6g">
+<w corresp="src:tlaIBcAYKWbTTqU2EHLqxsKW0eGN1E">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYGKv74VGN0a2jlYksxGXIL4">𓎟𓏏𓁶𓏤𓃒𓏥</w>
+<w corresp="src:tlaIBcAYIUshW8lakC3uReZh1LFM5o"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYK4EMOuE6UHMoelUW9gwRog">
+<w corresp="src:tlaIBcAYBTdbmVWykn7ozYPnNvR3XI">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYORA5JO9RU8kibQm7JaHjjU">𓄊𓋴𓂋𓏏𓊃𓈖</w>
+<w corresp="src:tlaIBcAYFXUcupO2ULtiYXkMUmzgVc"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYFVpZltoG0tstMauVwzoAHw">
+<w corresp="src:tlaIBcAYE0S9KqiDkxRrZfg3sXpVN8">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYLeQTHLfWUr5oWVtSSnYtVY">𓇋𓏠𓈖𓅭𓏏</w>
+<w corresp="src:tlaIBcAYNbKL6W0hkQelNQAJ6h7EBY"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYJtxkVwc6kGngl4IQo8fodo">
+<w corresp="src:tlaIBcAYAJKO4UB2UWCqB0CQ0WLRn0">𓎟𓏏𓉐𓏤</w>
+<w corresp="src:tlaIBcAYBHx6omF80LLguJxvQZktcA">𓇋𓃀𓏏𓃙</w>
+<w corresp="src:tlaIBcAYCHQVfy8U0f2lejZLwKCeQg"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYNXUOWn79EQMp8DrPOcQr38">
+<w corresp="src:tlaIBcAYPxgxoWB8UzQmEYf6KQVJGI">𓌢𓈖</w>
+<w corresp="src:tlaIBcAYHxBH6NzE0DHoLhE2ACNb0E">𓊃</w>
+<w corresp="src:tlaIBcAYG1OpQRvCEekikyeWs8We6E">𓏶𓎃</w>
+<w corresp="src:tlaIBcAYODhJOctIUmcriDg05iW9qY">𓏠𓈖𓍿𓅱𓏤𓇓𓅱</w>
+</s>
+<s corresp="src:tlaIBcAYIATlf99AkqZmGKI83XVDac">
+<w corresp="src:tlaIBcAYEAe7kpOQEHgjtc3qj0RPGU">𓀪𓏏𓏭</w>
+<w corresp="src:tlaIBcAYO4Q6gKJw0AvmlJq8rT9EGQ">𓋴𓈖𓃀</w>
+<w corresp="src:tlaIBcAYPrTWJq0RUYKnKQBW3NbQlc">𓇍𓂻𓄣𓏤</w>
+</s>
+<s corresp="src:tlaIBcAYH24d82DbkCCl1MDz6IH8s8">
+<w corresp="src:tlaIBcAYJGHjm2hCkgYofEWI6Ntx2U">𓈀𓇋𓇋𓊮𓋹𓈖𓐍</w>
+<w corresp="src:tlaIBcAYGZiE83OVEBci5HGLLSn9pk">𓇍𓂻𓄣𓏤</w>
+<w corresp="src:tlaIBcAYGFATSCYtEsFk32TSCQqRtk">𓇅𓇯𓏏</w>
+<w corresp="src:tlaIBcAYG8NJwNrWkJcqY1ZSgnH9Zs">𓂝𓈙𓅓</w>
+<w corresp="src:tlaIBcAYFjBELzj7UMxkHH2C5GYKvo">𓅐𓏏</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

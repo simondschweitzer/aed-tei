@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id5SEJ3AVCUZAZTCO5IPTTE4IFZI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift-Fragment</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift-Fragment nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5SEJ3AVCUZAZTCO5IPTTE4IFZI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>südlicher Teil</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift-Fragment</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaRKOOCKV75FCZHFAF5ZKNBKAYQI">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. I, Cairo 1975, S.37-38, fig. 17-18, pl. XXV A, D</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5SEJ3AVCUZAZTCO5IPTTE4IFZI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-afc5137a3cc407f2fd50d9fcf2a2e3fc</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd4NtDSQ2J0fFnQVytgyibaM">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdyW4ABuedEz5hNnUzJAcZPs" lemmaRef="tla:tla94060"><fs feats="epitheton_title title"/><damage><supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>-<supplied reason="lost">p</supplied>ꜥ<supplied reason="defective">,t</supplied></damage></w>
+<w xml:id="tlaIBUBdzjEkSIyv0w3gP38N6dbUd0" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-<supplied reason="lost">wꜥ,tj</supplied></w>
+</s>
+<s xml:id="tlaIBUBd3UuXkV53U3VpxQmW7qOiWY">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd47Ci5xcG0UgsQu6lDXEJ0U" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ<supplied reason="defective">,tj</supplied>-ꜥ</w>
+<w xml:id="tlaIBUBdy6ZQ1WHBkqmkApybQt1tg4" lemmaRef="tla:tla850397"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-jz-Nḫn</w>
+<w xml:id="tlaIBUBdz2FlTHpSEJwprpIBFarqns" lemmaRef="tla:tla850398"><fs feats="epitheton_title title"/>mnj,w-Nḫn</w>
+</s>
+<s xml:id="tlaIBUBdwVsYkionUSAmWnaDxeTIPo">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd2NQcsHTmk8SoD8TBgksXnA" lemmaRef="tla:tla450276"><fs feats="epitheton_title title"/>tꜣ,tj-zꜣb-ṯꜣ,tj</w>
+<w xml:id="tlaIBUBd5HAWpcK3UYUuhZB7UaifWA" lemmaRef="tla:tla450419"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-<supplied reason="lost">zẖꜣ,ww-ꜥ-n-n</supplied>sw<supplied reason="lost">t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd41MVePgYkf2lFDW7p2by8o">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd7XiaqIK00afnMcCE5ixwyY" lemmaRef="tla:tla850117"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied>-ḥr,j-tp</w>
+<w xml:id="tlaIBUBd6qzqi8OeUI9qqrtbEnpRLM" lemmaRef="tla:tla600377"><fs feats="epitheton_title title"/>zẖꜣ,w-mḏꜣ,t-nṯr</w>
+</s>
+<s xml:id="tlaIBUBdyEEgiWOBU6TvMRMmKfWzpw">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdwyZFaH8sUuMuMiE9jW0QoY" lemmaRef="tla:tla850541"><fs feats="epitheton_title title"/>ꜥḏ-mr-sbꜣ-Ḥr,w-ḫnt,j-p,t</w>
+</s>
+<s xml:id="tlaIBUBdxxPziFRd0Xes9TBoDA8ftw">
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd3Mct4QU5ESynwqqu7GWexA" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBd8eIk4c9eEDiga4Teh7zh7g" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/>zꜣ-nswt</w>
+<w xml:id="tlaIBUBdQZvHQrniENLpEkcir14pOU" lemmaRef="tla:tla713214"><fs feats="entity_name person_name"/>Nb-kꜣ,w-Ḥr,w</w>
+</s>
+<s xml:id="tlaIBUBd09Raz8iKU7wotWpzmX7ySQ">
+<lb n="[Figuren-Beischrift]"/>
+<w xml:id="tlaIBUBd0lPh6McxkY9owbELrZ7T8c" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jni̯.t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt6CZNO5GDA5GLPGSAUTG7GDB4FU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linker Außenpfosten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linker Außenpfosten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6CZNO5GDA5GLPGSAUTG7GDB4FU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Scheintür-Fragment</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linker Außenpfosten</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaEVNBA25OQRAXTHLRMABFQJMAWI">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza VII, Wien-Leipzig 1944, 143-145, Abb. 57</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6CZNO5GDA5GLPGSAUTG7GDB4FU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d075b1ce51fff18d5c2adccda3a02c87</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdy8evb0kHkxBoX0TBoCEkP8">
+<w xml:lang="de" corresp="src:tlaIBUBd9yQOtWJrEvftcEs0wGmdKw">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyo5CxfiX0cHlMvgRlLv3Sk">Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzlWF8rme0AbmpmlDEkTrSs">der an der Spitze von Busiris ist (Osiris)</w>
+</s>
+<s corresp="src:tlaIBUBdzc8kENElUYYl7VjtLzPKZw">
+<w xml:lang="de" corresp="src:tlaIBUBdQDdWTufZ0G1nAsDQCTYKEw">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdybWZjf8sUsdrc9DMLZGPzI">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8TILTEivEvRunyhCEeeWiY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzpi6gmUmkR8mNAznR3KNHQ">[temporal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7FQNlzCpkpGjHS5AeTtt1s">Neujahrstag (Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9A6RV9AmEX9gKc0zmy4gVM">Thot-Fest</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

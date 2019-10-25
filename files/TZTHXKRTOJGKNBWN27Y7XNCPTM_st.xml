@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stTZTHXKRTOJGKNBWN27Y7XNCPTM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sinuhe</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Frank Feder</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Sinuhe nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Frank Feder</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TZTHXKRTOJGKNBWN27Y7XNCPTM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 5929</idno>
+<msName>oBM EA 5629 aus Theben-West (L)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Sinuhe</title>
+<textLang mainLang="egy-egyn-Egyh-Egyhlt">traditionelles Mittelägyptisch-Neuhieratisch
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaAWJJZMGE5FDRZIVIYIE3Q7E7Y4">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+<note>Herkunft unbekannt, vermutlich Theben; 1839 angekauft aus der Sammlung Giovanni Anastasi.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- S. Birch, Inscriptions in the Hieratic and Demotic Charakter, London 1848, Tafel XXIII [*F].
+- A. H. Gardiner, Notes on the story of Sinuhe, Paris 1916, 150-151 [*T,Ü,*K].
+- R. Koch, Die Erzählung des Sinuhe, BiAe XVII (1990), 80-81 [T,K].
+- R.J. Demarée, Ramesside Ostraca, London 2002, 17 und Tf. 16 [P,T,K].
+- R. Parkinson, Reading Ancient Egyptian Poetry Among Other Histories, Chichester 2009,197-198 [P,K]
+- http://www.britishmuseum.org/research/search_the_collection_database/search_results.aspx?orig=%2Fresearch%2Fsearch_the_collection_database.aspx&amp;searchText=5629%2C+ostracon&amp;x=0&amp;y=0&amp;fromDate=&amp;fromadbc=ad&amp;toDate=&amp;toadbc=ad [P]
+- http://www.britishmuseum.org/collectionimages/AN00968/AN00968575_001_l.jpg (25.04.2016) [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 5929</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TZTHXKRTOJGKNBWN27Y7XNCPTM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyn-Egyh-Egyhlt">traditionelles Mittelägyptisch-Neuhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Frank Feder</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>26-d0a73da58ac595bd871308fa2690a6f1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdypD5nfZq0fegDPBgwuREo0">[Meine Pyramide] war gebaut aus Stein im Bezirk der Pyramiden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1jxRPBiUk4HqzQesc8rRr8">Die Steinmetze der Nekropole, die die Pyramide entwerfen, maßen ihr Fundament ein.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyDmmeY0tE76lQRlfpwzaB4">Die Vorarbeiter der Umrißzeichner zeichneten in ihm.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd36H8W3R40u5n02vJ1xRzyU">Die Vorarbeiter der Bildhauer schnitten die Reliefs in ihm.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0bKYA8bPESqitbvAeggtYw">Die Arbeitsvorsteher, die in der Nekropole sind, bemühten sich (&quot;durchzogen das Land&quot;) um sie (die Pyramide).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd39LGWbLlEDxkzfFrVFfFLE">Jegliches (Grab)inventar, das in die Grabkammer (&#039;Grabschacht&#039;) gegeben wird, es wurde für mich dafür gesorgt (&quot;es wurde mir sein Bedarf damit gemacht&quot;).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzIezvDpfkjdjyXXQ5ypVAU">〈Es wurden mir〉 Totenpriester (und) . . . gegeben.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWSrtIyJy0T6rRMeGyMQWqk">Es gab (auch) ein Grabgut, Äcker (und) einen Baumgarten an ihrem Orte, wie sie einem erstrangigen Höfling zustehen (gemacht werden).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6nWQL97a0UwsPaH8d2rrC8">[Meine] Statue war mit Gold überzogen, ihr Schurz mit Elektron (&#039;Weißgold&#039;).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQIj4Kn9K0XsrnQu1Q2ZtFM">〈Dies〉 machte man, (weil) ich ein Königssohn bin!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4eF2ypnOEQMjxz0y44BMYY">Freude über mich (&quot;meine Freude&quot;) 〈war es〉, die deswegen herrschte (gemacht wurde) [in] diesem ganzen [Lande].</s>
+<s xml:lang="de" corresp="src:tlaIBUBdx9IB9S9gUYmgG8pQ6mNPKU">Ich war in der Gunst der königlichen Zuwendung bis der Tag kommen sollte, an dem 〈ich〉 landete.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1mq5ntTQEq4mR7NqsAPkqk">So kam es gut (und) unversehrt.</s>
+</ab>
+</body>
+</text>
+</TEI>

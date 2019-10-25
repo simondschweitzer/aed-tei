@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGDISXKJOJ5DEFHUVHXHII6ZQGA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 671</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 671 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GDISXKJOJ5DEFHUVHXHII6ZQGA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Südwand - östl. Partie〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 671</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaRQECMFR4FFA3ZFHJ65T7WT757A">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Jéquier, Le monument funéraire de Pépi II. Tome I: Le tombeau royal, Kairo 1936, pl. X [F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+R. O. Faulkner, The Ancient Egyptian Pyramid Texts, Supplement of Hieroglyphic Texts, Oxford 1969 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005, [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GDISXKJOJ5DEFHUVHXHII6ZQGA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-28bbcdabf7ca20133fe85471768d7fa0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzI1A58PrEnNn0MSXhxLdpE">
+<lb n="[N/F/Se 106 = 765]"/>
+<w xml:id="tlaIBUBd29sLignvkTupk9hQKT1bbI" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBd4vKTQpPJUnWgRqju1vBkKY">
+<w xml:id="tlaIBUBd3pkd4WfBEG5kCK5PhiLKWg" lemmaRef="tla:tla20030"><fs feats="interjection"/>j</w>
+<w xml:id="tlaIBUBdwrMu43X3knlp7uauBuILis" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>Ppy</w>
+<w xml:id="tlaIBUBd7nYagr7nUX5sSSCI3sIIk8" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/>Nfr-kꜣ-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBdyJ6lbkcA09juQZzmd21014">
+<w xml:id="tlaIBUBdQZWKjq6QUJlu54wKnthmws" lemmaRef="tla:tla175050"><fs feats="pronoun personal_pronoun"/>ṯwt</w>
+<w xml:id="tlaIBUBd10OyKQDmEEmoQVW5zdwaUc" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_constructus singular"/>zꜣ</w>
+<w xml:id="tlaIBUBdyJ2UQouYktLgFbVbRTXFZg" lemmaRef="tla:tla47280"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>wr</w>
+</s>
+<s xml:id="tlaIBUBd4X6O7ATt0S0uBdyBWvmQmo">
+<w xml:id="tlaIBUBd7j71wUT70BRqEYQGsvQpQA" lemmaRef="tla:tla44430"><fs feats="verb verb_3-lit suffixConjugation active"/>wꜥb</w>
+<w xml:id="tlaIBUBd8PQepPFuEyMlUbNeBNqzAc" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd9stYfoUJ08AsKWF2POQNVo" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd5sAuQyDKkKDjPbRiHW2at0" lemmaRef="tla:tla854758"><fs feats="entity_name place_name"/>š-d<supplied reason="defective">w</supplied>ꜣ,tj</w>
+<w xml:id="tlaIBUBd1XGZJFQCESZv9Yb3p1qt10" lemmaRef="tla:tla157160"><fs feats="verb verb_3-lit suffixConjugation active"/>šzp</w>
+<w xml:id="tlaIBUBd0OLYaQbSkXWhsS1llwAuVY" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd43QuhgQ8EBUgTMIW1u51X8" lemmaRef="tla:tla87870"><fs feats="substantive substantive_fem st_pronominalis singular"/>ns,t</w>
+<w xml:id="tlaIBUBd1uGxAK0QUXxiRRcKJFS5II" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdwiM288k90QFrzatMcmRg2k" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd0BwSRTWT01atI7NYbWzeoE" lemmaRef="tla:tla141560"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>sḫ,t-jꜣr,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

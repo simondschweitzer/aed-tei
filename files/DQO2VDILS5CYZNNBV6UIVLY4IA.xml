@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idDQO2VDILS5CYZNNBV6UIVLY4IA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT P/F/Nw B 36-40</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT P/F/Nw B 36-40 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DQO2VDILS5CYZNNBV6UIVLY4IA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈B〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT P/F/Nw B 36-40</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaOHKNGW2INVFZBGKLSX7HKQP3DM">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. IV A [*F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005,  [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DQO2VDILS5CYZNNBV6UIVLY4IA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-ba54fa403c25ca157bd57e7a29d41c7b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQhNXjoFDUsTunW67RMXus0">
+<lb n="[P/F/Nw B 36]"/>
+<lb n="[P/F/Nw B 37]"/>
+<lb n="[P/F/Nw B 38]"/>
+<lb n="[P/F/Nw B 39]"/>
+<w xml:id="tlaIBUBd1vAvgbhwENtsdODOk22KcA" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/><supplied reason="lost">P</supplied>py</w>
+<w xml:id="tlaIBUBd7zbqyRxO0kZkZQrbfYbWko" lemmaRef="tla:tla82260"><fs feats="entity_name gods_name"/>Nb,t-ḥw<supplied reason="defective">,t</supplied></w>
+<lb n="[P/F/Nw B 40]"/>
+<w xml:id="tlaIBUBd2fP5KgWakOpls618pFVODg" lemmaRef="tla:tla160350"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>qbḥ,w</w>
+<w xml:id="tlaIBUBd4rIbjGuUE5hlStRUfQ401w" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation active"/>ḏi̯</w>
+<w xml:id="tlaIBUBd27jblfLtkbTliQSYwR3DlE" lemmaRef="tla:tla10130"><fs feats="pronoun personal_pronoun"/>=ṯn</w>
+<lb n="[P/F/Nw B 41]"/>
+<w xml:id="tlaIBUBdyQyBTPsmUtnpG3Ey9DmSwQ" lemmaRef="tla:tla91900"><fs feats="preposition"/>jr</w>
+<w xml:id="tlaIBUBdy7H9N80yE6nuqplvbh6DkA" lemmaRef="tla:tla141600"><fs feats="substantive st_absolutus singular"/>sḫ,t-ḥtp</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

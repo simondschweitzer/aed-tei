@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idAO62OC33TRE5PJQINVFVVDAVQQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>T 1: Beischrift zum Grabherrn</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von T 1: Beischrift zum Grabherrn nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AO62OC33TRE5PJQINVFVVDAVQQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Eingangstür, südliche Türlaibung〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">T 1: Beischrift zum Grabherrn</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMMC2PBLZ3RHM3NO5HW3UBS7RPU">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:QHQZNMAUZFCTZMLD5BGMDIKS6M" notBefore="-0664">26. Dyn.</date>
+<date type="latest" datingPoint="ths:QHQZNMAUZFCTZMLD5BGMDIKS6M" notAfter="-0526">26. Dyn.</date>
+</origDate>
+<origPlace ref="ths:XNR5C5APPZASBI3EKZT6EQ5REY">Scheich Abd-el-Gurna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>W. Schenkel, Die Gräber des $Pꜣ-ṯnf-j$ und eines Unbekannten in der thebanischen Nekropole (Nr. 128 und Nr. 129), in: MDAIK 31, 1975, 133-135; Abb. 4; Taf. 43a</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AO62OC33TRE5PJQINVFVVDAVQQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a1bccf8cb1e75b11ee179fdf4467bc64</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1BCVtLbCUXkngo7DxOdMds">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd8yU36D2tEcHvqMomv3soVc" lemmaRef="tla:tla861262"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm</supplied>-nbw,t</w>
+<w xml:id="tlaIBUBdQocezS0NU7yl0344uMqM6U" lemmaRef="tla:tla861266"><fs feats="epitheton_title title"/>zẖꜣ<supplied reason="defective">,w</supplied>-mḏꜣ,t-nṯr-Ḥr,w-<supplied reason="lost">bḥd,t<supplied reason="defective">j</supplied></supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd7xu8VqRNkexjUYRQKKBjZo" lemmaRef="tla:tla861267"><fs feats="epitheton_title title"/><damage>jm,j-rʾ-ḥm</damage><supplied reason="lost">,pl-nṯr-n-nṯr,pl-rs<supplied reason="defective">,j</supplied></supplied></w>
+<w xml:id="tlaIBUBd5kpKCVnx0WRiK9vwEN28cc" lemmaRef="tla:tla861263"><fs feats="epitheton_title title"/><supplied reason="lost">ḥꜣ<supplied reason="defective">,tj</supplied>-ꜥ</supplied>-<damage>n-Ḏb<supplied reason="defective">ꜣ</supplied></damage>,<supplied reason="lost">t</supplied></w>
+<w xml:id="tlaIBUBdQCM8UIXPU1TmsoOY7vWDm0" lemmaRef="tla:tla853128"><fs feats="epitheton_title title"/><supplied reason="lost">ḥꜣ<supplied reason="defective">,tj</supplied></supplied>-ꜥ-n-Nʾ,t</w>
+<w xml:id="tlaIBUBdWMshQxRgEgQuslpeEWVu3E" lemmaRef="tla:tla859712"><fs feats="epitheton_title title"/><supplied reason="lost">rḫ-nzw-mꜣꜥ</supplied></w>
+<w xml:id="tlaIBUBd68rKn8uqUbDn2Rku1EhWNU" lemmaRef="tla:tla400005"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">mr<supplied reason="defective">,y</supplied></supplied></w>
+<w xml:id="tlaIBUBdy8SbP65tk78iPhfqOUWLBA" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBdyqYEGZHHkkptLoMyAMWT18" lemmaRef="tla:tla701116"><fs feats="entity_name person_name"/><supplied reason="lost">P<supplied reason="defective">ꜣ</supplied>-ṯnf,j</supplied></w>
+<w xml:id="tlaIBUBd0nA76bd6kKRgKw5zJjFIXw" lemmaRef="tla:tla66750"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">mꜣꜥ-ḫrw</supplied></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd4tJZYurYEyzpiQYlKJZVmQ" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_constructus singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd4LpgbQVFkEilQLlmMFuVGk" lemmaRef="tla:tla858869"><fs feats="epitheton_title title"/><damage>ḥm-Ḥr,w</damage></w>
+<w xml:id="tlaIBUBdyUgDCZAQEyejMaToDjLSZs" lemmaRef="tla:tla858883"><fs feats="epitheton_title title"/><damage>sḥtp</damage>-<supplied reason="lost">ḥm</supplied>,<damage>t</damage>≡s</w>
+<w xml:id="tlaIBUBd9XCFeHuWUPWjPAm7XSzosM" lemmaRef="tla:tla701126"><fs feats="entity_name person_name"/><supplied reason="lost">P<supplied reason="defective">ꜣ</supplied>-di̯-Jmn</supplied></w>
+<w xml:id="tlaIBUBd3T83qlAt0aWvwL0qigvHCo" lemmaRef="tla:tla66750"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">mꜣꜥ-ḫrw</supplied></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdQqxbDiZ4EwPuq47UAbEaYY" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf relativeform masculine singular"/>jri̯.<surplus>t</surplus>n</w>
+<w xml:id="tlaIBUBd9vKY5Y1xE92hvBgwZEIHYA" lemmaRef="tla:tla82090"><fs feats="substantive st_absolutus singular"/>nb<supplied reason="defective">,t</supplied>-pr</w>
+<w xml:id="tlaIBUBdyVcSRspW0KQtb1OF6iWvVc" lemmaRef="tla:tla858557"><fs feats="epitheton_title title"/><damage>šps</damage>,t</w>
+<w xml:id="tlaIBUBdxKAaQkQsEFzu8kKSf4yaI8" lemmaRef="tla:tla861265"><fs feats="entity_name person_name"/>Jr,yt</w>
+<w xml:id="tlaIBUBd4YqYY41qkDQkEZNkodxHI8" lemmaRef="tla:tla400178"><fs feats="substantive st_absolutus singular"/>mꜣꜥ<supplied reason="defective">,t</supplied>-ḫrw</w>
+<w xml:id="tlaIBUBdymBU0UV7kddjJ5nKwDpF9M" lemmaRef="tla:tla125630"><fs feats="substantive substantive_fem st_constructus singular"/>zꜣ,t</w>
+<w xml:id="tlaIBUBd9M8cAxO7ERTuRB1TOWfesg" lemmaRef="tla:tla858869"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm</supplied>-Ḥr,w</w>
+<w xml:id="tlaIBUBd2k9wUqrHELwugtyKmZCCc8" lemmaRef="tla:tla851597"><fs feats="epitheton_title title"/><damage>jḥy</damage></w>
+<w xml:id="tlaIBUBd968yVCDlUdQuwJQqKDveUk" lemmaRef="tla:tla861264"><fs feats="epitheton_title title"/>ḥr<supplied reason="defective">,j</supplied>-<damage>mnḫ<supplied reason="defective">,t</supplied>-Ḥr,w</damage>-bḥd,t<supplied reason="defective">j</supplied></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdw69EnICz0nNlnGImQkFHF0" lemmaRef="tla:tla711824"><fs feats="entity_name person_name"/>Wḏꜣ-rn≡f</w>
+<w xml:id="tlaIBUBd4WVZJ267kWMqt4ZE4d86Ag" lemmaRef="tla:tla66750"><fs feats="substantive st_absolutus singular"/>mꜣꜥ-ḫrw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

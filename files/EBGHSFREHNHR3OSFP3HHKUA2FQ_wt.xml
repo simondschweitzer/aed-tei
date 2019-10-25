@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtEBGHSFREHNHR3OSFP3HHKUA2FQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 451</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 451 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>EBGHSFREHNHR3OSFP3HHKUA2FQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Fläche über und links neben dem Sarkophag〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 451</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2BAE2CWDKFCCBPGMA63L4CS3PM">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, fig. 8; pl. I [P,F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005, 97-207; 339 ff. [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="EBGHSFREHNHR3OSFP3HHKUA2FQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-fcd3ed744e926b18e5882b5f9823fcee</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWC7QEawu0ZPiSTisCZ0IpU">
+<w xml:lang="de" corresp="src:tlaIBUBdxq7PTZQuUCeizZWnqVCWi0">Worte sprechen; [Rezitationsvermerk]</w>
+</s>
+<s corresp="src:tlaIBUBd8NOU9HBBUWxrcWDLJL5Yk4">
+<w xml:lang="de" corresp="src:tlaIBUBdWZPGfYU80DAsLRfceo7hro">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwSwrZjcYk1EoJCJZQkDWGw">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwBxInQ6iEScoJeFzVr3hJA">dieser [Dem.Pron. sg.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdxWIXpgT1009kLpC4MErM6U">
+<w xml:lang="de" corresp="src:tlaIBUBdwI0FPmluE6KhiQX2vBgfMk">aufwachen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdycvYWBm5UOIinzj02k9q8k">aufrichten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzGmS0TJ1E38qNxDNokKFvQ">dich [Enkl. Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd2Q3zpENW0MDpvjAQt5KWW0">
+<w xml:lang="de" corresp="src:tlaIBUBdycl130RVEsCuPMWEuDU0VM">aufstehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQupMHn8N0qgiv34ZiTYNAY">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ObP0ziUElKvzgebYHIpGs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6vZWql9P0F8onvSelD5WLs">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ2axGIX20insk8YQiFyfJQ">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWzwxyGjzE20mWi2g3Hlgxs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy6cmgW5sEGyhiB18nw2IVk">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2QYQhtiekFupI8lii8s1ak">Ba (Seelenkraft als Teil der Persönlichkeit)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyeuKX42EkFHo6WpMKSWkcc">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWIsLOJyMEYuls2KZvWyidI">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tljrUrwUCegWRnkPsO3qw">Macht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9zNQ4BMbEzhlqGWcCcVms8">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdwM6d2WWf0g7lxgtWrFpBsg">
+<w xml:lang="de" corresp="src:tlaIBUBdzQW2u7tuEIbjF6LntsYWrk">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1BESfNrGEXtpF2Q1EJcoAE">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd47AM9CE6EJ3lQrrk7qRjb0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy3QMnRWyEW5i4SppCEP8KQ">Mutter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7tBWWmRVUCjuZ4tF7bM5Q8">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ccP4MHrEI3jWOU5fd5yWM">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd159Xwdl3UWlqZVc9qe1qWM">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8sFCJRenEwRsWPvoIXUfNg">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6lreWQPZEcZs6pyML4Au4g">Nut</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxp12JF5xEtRl5oNlNHEyV0">die große Vereinigerin</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5s7vWbYZ09jl5XrT7RDoqc">reinigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1DJW9tG1EkSnF4SlEFeNjk">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7HZWxSEEUmxkzeJoEYa0Ds">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8dOftWo6k2lvayhclJpQsQ">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWPrNQfNuEpit8Gj4mBStfM">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59hsFgSrkZ8nVZxQLdCOq0">(sich) vereinigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8V55TqWHkmzo9vnv6WUAkM">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0pUvwjqCkHtoYFQdQJnv6M">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2bkDaYEskKWm0fxz7e8RVM">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ5feO8dlEQzgyUAHVNtFz8">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0xmHZ6QaE3RpRqQVEYgBhE">verhindern</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQb84BZc9EWflglvpDWReG8">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3V3QBwxWEPBnbMthEMCbhA">entbehren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5YE4cZ0ZkFav7xfOiWYpIg">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd2Axhovc0UNhthOMlsWZqSw">
+<w xml:lang="de" corresp="src:tlaIBUBd6834Wbp904ok0QiIDesP1Q">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxdBBvEjA0vXuJXaFy0jcqw">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBd88LuTqMs0gBnW5nRbqjtqc">dieser [Dem.Pron. sg.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdwXUPZUg8k2Cjh750rFmm1c">
+<w xml:lang="de" corresp="src:tlaIBUBd3TDpBqWp0vghgdUdxiHZoM">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6NNJTaCxkDegnV9i9WMA0I">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQMcWugVzEBAjat9cKX2nzs">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8svjbWQAU6oper7eTYzokY">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4qwRuFOUULCjuOf0kQ7ils">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQqA984hETktRv51QpW6G4">Macht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdydeqMcPi0vprDFCICWPWdg">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzeOfLFCmUsslRIxMbmHv44">befindlich in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy4qZt7uYk3xgj0N1EL9m2E">Ach-Geist; Verklärter (seliger Toter)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7T5ElKCT0jioWsj6TA3hVA">rein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9o7rmfKt0iXm3Ctjig26ZE">Ba (Seelenkraft als Teil der Persönlichkeit)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5njN8KlkE4TuwmRDRqhyRs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyTj306K00Rdh6NWep8X1Mg">befindlich in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzb9CWa8ZEUEgQNCfQj8UdM">Gott</w>
+</s>
+<s corresp="src:tlaIBUBdQ5hauSUTE5ErxQr0DYfbec">
+<w xml:lang="de" corresp="src:tlaIBUBd4sWgN75vUGmr6B0VTeAGpk">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3x9lL2AwEZ1tjHhgwla6ME">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBd32x0dCWhUy8ohCxuQiH284">dieser [Dem.Pron. sg.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd3P49va1z0W5hL7x86cXUQo">
+<w xml:lang="de" corresp="src:tlaIBUBdxuwj3gdjkQ2kKXIU3D95a8">(sich) vereinigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQW0mjF6FkwNvUNkOcijoq0">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7MgQNRYlEkWtxRlQoEW3Z8">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9oSIHqs1UCiritlrxe3Gl8">Knochen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwdLQOxjwEv3uNcALXSCvGo">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6lq5qRS9kUukd2Nmjii3tg">empfangen; ergreifen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4j3vkCvFU5WqirZfjA56sw">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1dfQwNvskmOj6NKBtHdaUk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQgQ1UEJC0hOiLKWgU5WtS0">Kopf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6CFpsrzskUdibIPV17lLUk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3SrqCZ8CUucvsmbDGm4jHM">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9343vRhe0Ntgpfu3icN7KU">Geb</w>
+</s>
+<s corresp="src:tlaIBUBdWDzbQZrFUn7vWP8szcZnLw">
+<w xml:lang="de" corresp="src:tlaIBUBdyFR3BBcxUVghch3kMARuDQ">entfernen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwaPf3Do8EQmvARTzJ38K9M">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWA2OulO90kngcWAW3lc0jA">Schlechtes; Böses</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ax687570G0mwTfZDSPRMQ">zugehörig zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3d4cVV9CkytlT3frwm0LcE">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1goi82LzEgTnNXz2Vqu4HM">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ErzNqCiky3k6KaxaZ1MoQ">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ryyL94Dk3ilu7LmLW84js">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8QKNz8hUEMagWv3aZWUi20">Atum</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idITDHWRY2A5H75LPZ3W627S6SGE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Fragment einer Weisheitslehre</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Fragment einer Weisheitslehre nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ITDHWRY2A5H75LPZ3W627S6SGE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>P 14371</idno>
+<msName>oBerlin P 14371</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Fragment einer Weisheitslehre</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Lehrhafter oder mahnender Text</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3V26C6LYEZC6HLORSFTX5VKL7I">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:UOGHTTMOBFAL3JU5ZH62ICOCMA">Keramik</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- F. Hintze, Ein Bruchstück einer unbekannten Weisheitslehre, in: ZÄS 79, 1954, 33-36 [P,T,Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>P 14371</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ITDHWRY2A5H75LPZ3W627S6SGE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-dd383bde0e6d2a32f0912f2f1b8ea871</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6ndZRr7aE0Bor1tfKTzEMo">
+<w xml:id="tlaIBUBdWso6KN0BUSnnswrasSzmGc" lemmaRef="tla:tla80800"><fs feats="verb verb_3-lit imperative prefixed singular"/>j:nw<supplied reason="defective">ꜣ</supplied></w>
+<w xml:id="tlaIBUBd5GFRmjC60b8mzLiSagoRLg" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd5wQR48aHEARohFe1MS2ENg" lemmaRef="tla:tla28250"><fs feats="substantive substantive_fem st_pronominalis singular"/>jr,t</w>
+<w xml:id="tlaIBUBdyAre4nf00wCgW3QwEOLRls" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd35QK4o2CkjBgL87ejZrXiU" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit"/><supplied reason="lost">ḏ</supplied>d</w>
+</s>
+<s xml:id="tlaIBUBd2BRzCe4yEJQlo3eLnHdGks">
+<lb n="[x+2]"/>
+<w xml:id="tlaIBUBd8C1Y7mM30qBiUQUgVPZjv8" lemmaRef="tla:tla116910"><fs feats="verb verb_2-lit"/>ḫm.tw</w>
+</s>
+<s xml:id="tlaIBUBdz61mUW8yEHWq2b1ERycJfQ">
+<w xml:id="tlaIBUBdQ6Pe5TfKEbzkkmrfWOtEQI" lemmaRef="tla:tla851427"><fs feats="preposition"/>jr</w>
+<w xml:id="tlaIBUBdzcOW4PS7EpIg5yX11CSi3c" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit suffixConjugation active"/>sḏm</w>
+<w xml:id="tlaIBUBd1DvX9pcm07zneeQVJNWzGA" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdwEYkYiPCEitp4F1KXa9QWk" lemmaRef="tla:tla134830"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>smj</w>
+<w xml:id="tlaIBUBdWeMCRgwnkijuRmAbm2tjuE" lemmaRef="tla:tla136490"><fs feats="adjective"/>2.nw</w>
+<w xml:id="tlaIBUBd7OKM7xTQUynuxaiaXoDiJ4" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/>jmi̯</w>
+<w xml:id="tlaIBUBd2M1Ri7OBU41lmBxdyVOtv4" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdxRitrLfp0ovmtYqlWOmgFg" lemmaRef="tla:tla48760"><fs feats="verb verb_3-lit infinitive"/><unclear>wḥꜥ</unclear></w>
+</s>
+<s xml:id="tlaIBUBdzsXuKWmcUHZmOWoFWWUwG0">
+<lb n="[x+3]"/>
+<w xml:id="tlaIBUBd5cUFFrTn0zurCGj27G96Mc" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf"/>mri̯</w>
+<w xml:id="tlaIBUBd2mdp1jwHUb5o3oLUjrIynE" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd5laQOnpdkQVqWk41TqfIs8" lemmaRef="tla:tla21881"><fs feats="particle"/>jw</w>
+<w xml:id="tlaIBUBdwoTLnnLY0EVmE3QVUzYEJQ" lemmaRef="tla:tla400645"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ky</w>
+<w xml:id="tlaIBUBdxmEDTfYgUUMhdcwSjEvzTs" lemmaRef="tla:tla107520"><fs feats="preposition"/><supplied reason="defective">ḥr</supplied></w>
+<w xml:id="tlaIBUBdzpSKYfBxUjOuZDQzigEVPE" lemmaRef="tla:tla81230"><fs feats="verb verb_3-inf infinitive t-morpheme"/>nwi̯.y.t</w>
+<w xml:id="tlaIBUBdw6ZVQv8KkRrrjWey2plpQ0" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+</s>
+<s xml:id="tlaIBUBd7uEPRhk2UWFsxh6jETMoJk">
+<lb n="[x+4]"/>
+<w xml:id="tlaIBUBd0GVGVGlpk7OgyKZgafBnYs" lemmaRef="tla:tla108360"><fs feats="verb"/>ḥr</w>
+<w xml:id="tlaIBUBdwTWcyVpEk6yileaxumDwHY" lemmaRef="tla:tla107560"><fs feats="verb verb_2-lit"/>ḥr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

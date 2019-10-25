@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtKF6AGLF7KVEUDLEHA4LPGOO6HA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Deckelinschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Deckelinschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KF6AGLF7KVEUDLEHA4LPGOO6HA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Sarkophag</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Deckelinschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaOT6EORQVI5HZJPDCUWD5K7N764">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, A. Hassan, The Teti Cemetery at Saqqara I: The Tombs of Nedjet-em-pet, Ka-aper and Others (ACE Rep. 8), Sydney 1996, 48f., pl. 23, 28, 55.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KF6AGLF7KVEUDLEHA4LPGOO6HA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-6dd40f4367491016198b774b296041ba</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd76qTJiZU0MAuvi39yBurQ0">
+<w xml:lang="de" corresp="src:tlaIBUBd5bnZOQGb0rSkTwKBSzqnQ0">Kammerdiener des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1cR4x1YCUcjmaunLeFyNAk">Vorsteher der großen Halle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3EkuippFE5suo4fGCWfheo">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz67W0cdHEQHjxHjqbXEGEg">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzBy53yYVkB6iQiQw7FdxkI">er</w>
+</s>
+<s corresp="src:tlaIBUBd9H2r4zKpkFAg4Kt2tCQBRU">
+<w xml:lang="de" corresp="src:tlaIBUBdyy2kUKDcknqkKk5E72MYwU">oh! (Interjektion)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2yPknxcX0AGuXvc4QHYjNQ">Vorlesepriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3OpMt0iKkkdlvLvRmp2uD4">Balsamierer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2lcqbne1koQu01tNQWVYxg">Mensch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5cVqzFQsEYio3CWUf7VZSM">reine Stätte (Balsamierungsstätte, Werkstatt)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd55TfCZRrEYevJLxo6oUzKE">[Zahl/Q]</w>
+</s>
+<s corresp="src:tlaIBUBd9Z2yRbsV0vjnKRrzz6VptM">
+<w xml:lang="de" corresp="src:tlaIBUBd0JWoLItQEJVvnlQyP8oQS0">er (pron. abs. 3. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzYCQWQ9QUwMqCupeF1egDw">Geliebter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQWZxMgxkqvhbxsJJXfiVI">Gelobter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3clF9V8qkBftRVG9JWqBFY">König</w>
+</s>
+<s corresp="src:tlaIBUBdypRkioX2U7OtxWWguMCXpg">
+<w xml:lang="de" corresp="src:tlaIBUBd5ViJPvxuUk5mXHOeuv3KRk">existieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5aHVRBBW0MYnUIOz2yh9zI">Würde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3DrCYjN8EBpubda6nx2XWA">eure (pron. suff. 2. pl.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd77OLO6dTkrVpvRWUQuFTdE">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxZWoWLV90n4s3pWpR3bkxw">von (jmdm. ausgehend)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWBmZ8M45kkbiJoZ1I5oUW8">der große Gott (Gott); der große Gott (König)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4a5vFvzvUkInm7wnnmiIX8">geben; legen; setzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4UHb89Uekz4jTYXRHzHLhw">ihr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4onK1WfcUumpmGQeQ8L5uc">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6M8YD1WIU1ovjDAOGENlMs">ich; mein (pron. suff. 1. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6L7DfsZVkZYoCnUjx3Tb38">Sargdeckel</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2JECHl0wkQJpZsomUK9aMM">dieser (pron. dem. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd36tKWVebk0bnpWaRhR5fEg">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3h0cQp1WUkroE9XpYPEnec">Wanne (des Sarges)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3E3bw8tXUGrlhrmbA70jvA">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyVtP3YPEEvOoyqYCqcArwM">ordentlich</w>
+</s>
+<s corresp="src:tlaIBUBd1J1WGFuTUXKiGV21RP2t2A">
+<w xml:lang="de" corresp="src:tlaIBUBd17eQH8t40yel6THX7hBphA">ich [pron. abs. 1. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd92cVWHPr0mJnDl9vY9PKYI">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6QJ4R1yLkoQj0WJT1KPsOY">beliebt</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

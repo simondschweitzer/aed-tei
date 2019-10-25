@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id3LGLHIMQVBBJFL5ZH6TQLRUBNY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Subregsiter</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Subregsiter nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3LGLHIMQVBBJFL5ZH6TQLRUBNY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Subregsiter</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMSZ3T3WJXNFP3FKTBF4DALVALY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. de G. Davies, The Rock Tombs of El Amarna III, ASE 15, London 1905, 7ff., 8ff. [*F, Ü];
+M. Sandman, Texts from the Time of Akhenaten, BiAe 8, Brüssel 1938, 35f. [H];
+W. Helck, Urkunden des ägyptischen Altertums, Abt. IV, 1984 (Neudruck von 1958), 2006 [H, Ü];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 133f. (Nr. 66.5) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3LGLHIMQVBBJFL5ZH6TQLRUBNY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-23a52ee1be9b9387360f5f6cc410eec4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdyu1fR9qZ0wKp5KztYvESjY">
+<lb n="[Amtsernennungen des Huya; 1. Szene⁝]"/>
+<w xml:id="tlaIBUBd9tV1xhNjUYVkNeFnQvQJq8" lemmaRef="tla:tla854587"><fs feats="verb verb_3-lit infinitive"/>dhn</w>
+<w xml:id="tlaIBUBd0yvTsiij0UqnCasSQXE55c" lemmaRef="tla:tla859702"><fs feats="epitheton_title title"/>jm,j-rʾ-jp,t-nzw-n-ḥm,t-nzw-wr,t-<supplied reason="lost">Tjy</supplied></w>
+<w xml:id="tlaIBUBdzG0OipTWk3ao48KwuemHQ8" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/>Ḥyꜣ</w>
+</s>
+<s xml:id="tlaIBUBd9QVHH0QgUphnpYiRjbbY18">
+<lb n="[2. Szene⁝]"/>
+<w xml:id="tlaIBUBd4QXFjQRBklZoh2SDzMQ6FM" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/><unclear>Ḥ<supplied reason="lost">yꜣ</supplied></unclear></w>
+</s>
+<s xml:id="tlaIBUBd9OWMyXBU0UvuIEEW6aWVX8">
+<lb n="[3. Szene⁝]"/>
+<w xml:id="tlaIBUBd19byoKMbUX4qlGcgGMO55Y" lemmaRef="tla:tla854587"><fs feats="verb verb_3-lit infinitive"/>d<supplied reason="lost">hn</supplied></w>
+</s>
+<s xml:id="tlaIBUBdWDIjhmhQ0fBlRSLdAALyUg">
+<lb n="[4. Szene⁝]"/>
+<w xml:id="tlaIBUBdyFbTASa4UGHswnLnooJTP8" lemmaRef="tla:tla854587"><fs feats="verb verb_3-lit infinitive"/>dh<supplied reason="lost">n</supplied></w>
+</s>
+<s xml:id="tlaIBUBd7s2z54Ikki2t95FIisB8PY">
+<lb n="[Rede einer Gruppe von Adoranten]"/>
+<w xml:id="tlaIBUBd0I5bWCLkkuvsslXrl8kDpw" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit suffixConjugation active"/><damage><unclear>ꜥnḫ</unclear></damage></w>
+<w xml:id="tlaIBUBd3WDvdein0WNnzxjQ9AP640" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+<w xml:id="tlaIBUBd1ePuLwZJUt0skGQQvWA95Y" lemmaRef="tla:tla853727"><fs feats="epitheton_title epith_god"/>ḥqꜣ</w>
+<w xml:id="tlaIBUBd5vNM0fUoEwvo8WyoloxADY" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+<w xml:id="tlaIBUBdyubDyW55ElLso9MBX3THkc" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+<w xml:id="tlaIBUBd4KfIqzGzEbuuE2rohedYFs" lemmaRef="tla:tla21881"><fs feats="particle"/>jw</w>
+<w xml:id="tlaIBUBdyyFCHQpkkdnvuQakBkZEpc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd8EeMNdDxURUuLGr0XVE0KY" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+<w xml:id="tlaIBUBd1BpDNAAbEoWke7uHJ6pBEc" lemmaRef="tla:tla181401"><fs feats="adverb"/><supplied reason="lost">ḏ,t</supplied></w>
+<w xml:id="tlaIBUBdw60Q7xfQU7nvmSQQWwM6xo" lemmaRef="tla:tla142050"><fs feats="verb verb_caus_3-lit suffixConjugation active"/>sḫpr</w>
+<w xml:id="tlaIBUBdwnRZqr5l0fIrcwq0DpsocM" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdWqxPxLnQUZHhodVsc0MWik" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd8XYnGMjgkG0sjbOafuPVeo" lemmaRef="tla:tla182160"><fs feats="substantive substantive_masc st_absolutus plural"/>ḏꜣm.pl</w>
+<w xml:id="tlaIBUBdzc75mW5m0EOkLgTJoOozz4" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd5VSO4PvdkDxhYG1yC6ebIg" lemmaRef="tla:tla182160"><fs feats="substantive substantive_masc st_absolutus plural"/>ḏꜣm.pl</w>
+</s>
+<s xml:id="tlaIBUBd9rzqz1tXkjHvQOLVoHix6o">
+<lb n="[5. Szene]"/>
+<w xml:id="tlaIBUBd4Ue6GeBSkIOrZzJoSB0SJQ" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><supplied reason="lost"><unclear>_</unclear></supplied>-ḥm,t-nzw-wr,t-Tjy</w>
+<w xml:id="tlaIBUBd33IDSA19E4tsLWiwBwkdUw" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/><supplied reason="lost">Ḥyꜣ</supplied></w>
+</s>
+<s xml:id="tlaIBUBd5Ag3YIUTUEslqxLtce35oM">
+<lb n="[Name der Truppe]"/>
+<w xml:id="tlaIBUBdze2rNytukAWiRpRSmp7WuM" lemmaRef="tla:tla114740"><fs feats="verb verb_3-inf participle masculine singular passive"/>ḫꜥi̯</w>
+<w xml:id="tlaIBUBd9nE3SRFAkpMnQQWRqQ4UHM" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdWvH5WBGmk83iUG95XlvyGU" lemmaRef="tla:tla854638"><fs feats="substantive substantive_masc st_constructus singular"/>nfr,pl</w>
+<w xml:id="tlaIBUBdw64mJ183UA0l5DOelsjfSw" lemmaRef="tla:tla66630"><fs feats="entity_name gods_name"/>Mꜣꜥ,t</w>
+</s>
+<s xml:id="tlaIBUBd2PJvnYUzUZ9nj3dQwWsgok">
+<lb n="[6. Szene⁝]"/>
+<w xml:id="tlaIBUBdQitRzY5KUS0qO3edT5jSzU" lemmaRef="tla:tla854587"><fs feats="verb verb_3-lit"/>dhn</w>
+<w xml:id="tlaIBUBd0codffKokiBj9813pYmNA8" lemmaRef="tla:tla850048"><fs feats="epitheton_title title"/><supplied reason="lost">jm,j-rʾ-jp,t</supplied>-nzw</w>
+<w xml:id="tlaIBUBd1pN6CyM5kcwnXOdLmlmjrY" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/><supplied reason="lost">Ḥyꜣ</supplied></w>
+<w xml:id="tlaIBUBdwjJ4WWwY0qWmoNWO3VQH2U" lemmaRef="tla:tla856142"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>ṯꜣ,y-sr,t</damage></w>
+<w xml:id="tlaIBUBdxWncqljZkkcuqWGL9eb8Gc" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdwPPUmuxnU8Oqh7KjLQjELQ" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">pꜣ</supplied></w>
+<w xml:id="tlaIBUBdxg3N3fNw0e3vhHupMeQFns" lemmaRef="tla:tla854541"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBUBdwnZB7BzcUqVnt6xSz9ep7k" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBdyILHVmLTEoZjROpN62QJIQ" lemmaRef="tla:tla859966"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜥi̯-n≡f-Jtn</w>
+</s>
+<s xml:id="tlaIBUBdQEVXufHUENwoGUq21L9eY8">
+<lb n="[7. Szene⁝]"/>
+<w xml:id="tlaIBUBd1FnO2GqcUCjlWMzq0QE4c8" lemmaRef="tla:tla854587"><fs feats="verb verb_3-lit"/>dhn</w>
+<w xml:id="tlaIBUBd0BoJD9fPU3inzhBQzGLnD4" lemmaRef="tla:tla850048"><fs feats="epitheton_title title"/>jm,j-rʾ-jp,t-nzw</w>
+<w xml:id="tlaIBUBdxNf7lv7z0DUkQb46QAGkg4" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/>Ḥyꜣ</w>
+<w xml:id="tlaIBUBdWyXsv7sRUqcs5IlIPEcOKc" lemmaRef="tla:tla856142"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ṯꜣ,y-sr,t</w>
+<w xml:id="tlaIBUBdzFBLHAnfEGwpG76051ljBg" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBdzxOVJiAa03WhYr3RWkf0oM" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+<w xml:id="tlaIBUBd4LbP7Qpz0HyvIw8jENydNs" lemmaRef="tla:tla854541"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBUBd2yQVG2xHEwQiRNWdlt1sig" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBdy4JaCnVqkngv73xXPaIBAQ" lemmaRef="tla:tla77170"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>mg</w>
+<w xml:id="tlaIBUBdyyYeYBVxUjJlFlIw792BeU" lemmaRef="tla:tla859966"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜥꜥ-n≡f-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd7UeUzmvh0Buj5eeoaImLPY">
+<lb n="[Name der Truppe]"/>
+<w xml:id="tlaIBUBdxHXhj2yBEFatQQQ5Whghjs" lemmaRef="tla:tla859966"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜥi̯-<supplied reason="lost">n≡f</supplied>-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd7MWWjxYFUDdvzbOiqTeVPM">
+<lb n="[8. Szene⁝]"/>
+<w xml:id="tlaIBUBdx6ZWnmFuEo1nrJ1Q3Fsgp4" lemmaRef="tla:tla0"><fs feats="unknown"/>n</w>
+<w xml:id="tlaIBUBdxtcFrchAUFLpda6YfN9Y7U" lemmaRef="tla:tla850048"><fs feats="epitheton_title title"/>jm,j-rʾ-jp,t-nzw</w>
+<w xml:id="tlaIBUBd9n7PeKjCkmcg4xSCsH9wqc" lemmaRef="tla:tla600278"><fs feats="epitheton_title title"/>jm,j-rʾ-pr-ḥḏ</w>
+<w xml:id="tlaIBUBdwD0bMMlqky1lKEblbvQhnQ" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/>Ḥyꜣ</w>
+</s>
+<s xml:id="tlaIBUBdwFAIqMTYEwCu1OhSU1E3so">
+<w xml:id="tlaIBUBd3TCydDydUmZlY1yXjPo6JA" lemmaRef="tla:tla851622"><fs feats="pronoun demonstrative_pronoun"/>tꜣ</w>
+<w xml:id="tlaIBUBdzOC6wTNT00GqNBpQIUMclk" lemmaRef="tla:tla63530"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><unclear>fꜣy,t</unclear></w>
+<w xml:id="tlaIBUBd3c4ekVEF02Ikta4heQddGQ" lemmaRef="tla:tla856873"><fs feats="entity_name artifact_name"/>Pr-Jtn</w>
+<w xml:id="tlaIBUBd25ZC0dD8kyUgtJepTfn6FY" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd1BWbbOPWE1ImLfpeQdfr2o" lemmaRef="tla:tla233"><fs feats="entity_name place_name"/>Ꜣḫ,t-Jtn</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

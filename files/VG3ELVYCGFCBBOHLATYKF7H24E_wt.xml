@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtVG3ELVYCGFCBBOHLATYKF7H24E">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 225</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 225 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VG3ELVYCGFCBBOHLATYKF7H24E</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈3. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 225</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4UOI4MZN4BEVDBKUJXJVK6GY6E">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. IV B [F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VG3ELVYCGFCBBOHLATYKF7H24E.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-b55dd99018206c88d87c9d2dea00bf70</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd5nZU1NFmkfPmdf0FH4zobE">
+<w xml:lang="de" corresp="src:tlaIBUBdWIWs9bgw0yxpOPqIjAtFVg">Worte sprechen; [Rezitationsvermerk]</w>
+</s>
+<s corresp="src:tlaIBUBdxUG93Jdv0jApuUWMddHF9Y">
+<w xml:lang="de" corresp="src:tlaIBUBd1h0m9hEK0sQhZOEn3k2Isk">[Verb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQwROprD0yboDgV5DGtxmg">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy3aMnID3EuKt6QjAeYhcdE">Pepi</w>
+</s>
+<s corresp="src:tlaIBUBd7xD7fuFB0GWkWJQVEOvew0">
+<w xml:lang="de" corresp="src:tlaIBUBd16721o1WkXRmhGpNfZUgLY">(sich) abwenden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyqFKWXCHEEAgnFb6bCgKks">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzScsnOF9UhfimOQZ8LSA80">Pepi</w>
+</s>
+<s corresp="src:tlaIBUBd9kQmg6atEiNkAS6eZpLCCM">
+<w xml:lang="de" corresp="src:tlaIBUBd4PHfg4puEyJncr0xcK37vw">gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd32jlDw8HUOEiWaWu3CeWQk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2wL7QoB5UWulH8vUUvOP1E">befehlen (früh univerbiert)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd88eXIqGYkwmrhQNubMm15c">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7nr4pxaMEtwj8aNunfFofI">Wort</w>
+<w xml:lang="de" corresp="src:tlaIBUBd02Qx6A7vUU5mPJ3IpzhsjU">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0khOGA4XUQHpFfIcr1bEVk">Stätte; Hügel</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Lk3Wag3EMoq6ZOIdFGqX0">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0c0M2FIdUt0nd3fyX4GUHA">befehlen (früh univerbiert)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7q1PzM9a0RHm2tTcmcDamM">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0E1vROAx0C5rryGasXSWFc">Wort</w>
+<w xml:lang="de" corresp="src:tlaIBUBd63nTFMsBEYXr0tXgQt7xow">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6YhGjvWlkBzsFngcT71ncM">Stätte; Hügel</w>
+<w xml:lang="de" corresp="src:tlaIBUBdywvRjQQq0RTqziJaIRpVxE">Seth</w>
+</s>
+<s corresp="src:tlaIBUBd46Qsg87xU3dqToOFku2nLc">
+<w xml:lang="de" corresp="src:tlaIBUBd32vpGwU00ZKtGHxz2jwQW0">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyXGWEBr90iUsKkzB7yF1Yg">Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2uQzbKUT0Iqoi3T2rLNv4w">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6vkkBl6zUfEgbPeidds9SE">Thron</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5hZGVfAVUWyrsg2SB9uqA8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Ii47rAz08Pjbx2hnxiJQc">anziehen, tragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtfZGUyu0YRiQloVKUyWVA">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxYGx7p58EVUoPr1WWT0nnw">Leopardenfell</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWYDLvx4MUktiuocTh9hQWM">anziehen, tragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd410ulrQ1koNhBOQPrVUEkw">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzZoCBSw9UX4qyIF31g05tc">[ein Schurz (aus einem Caniden-Fell)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzWclAgUQUWMqJTTG6MmQuc">gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2LojJEifUQ2oICroukKjfQ">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9XgzjiAsUSBmeZjeKHL2aE">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW7YR6GdkEQQouaFTIqpmt4">[Bez. der Sandalen (Dual)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4spWPhhUk5gqGyyDI73uh4">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4aluOUDLUwBq0Bvd69Pfd4">schlachten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd65kgMJr5EP6vddy3ZZuVRk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3mpgXw4YkDNloM3vizBQmM">Rind</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWkWXYkYsk3xiyQ0Bqhi070">an</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1jWZgENPkSaj52gVwZC1qU">Platz</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyChXrOTaEG1vzoQGW0WztU">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxu3MauypEVqmO1LwrVaWn8">alle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5V7pavVr0B1lmoqawl03oQ">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwxFMvftbUIyvmlJ7VuUVWQ">Rang; Würde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8w5frb0KUkhtIrZSS1zZeI">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1razDaZ3kyYtvuofGQ4ips">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4hw4Nbox0QQu6CbWYX2wGw">Stab</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxsDbdwuUEZIlrSWSJHhuJA">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0JXmbcHN0QPqoyKg4W8Bcc">vorn an (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9Uu3w6ZnEuvjZvzVIWDTow">Ach-Geist; Verklärter (seliger Toter)</w>
+</s>
+<s corresp="src:tlaIBUBdQ4YvADWk0VDpAHbAaqBrYM">
+<w xml:lang="de" corresp="src:tlaIBUBd7SG0J4hjkQyrNyP7Gb9Erw">gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4NDAxkbNEdsvaIwP9CVlYI">Ältester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6NgsDM6ek3TpSjLBhKA7nU">schützen; beistehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7WclpUxaEqpiUzr0PZm8lQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Lgknf3ZUcPjl93GsGjUaU">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHXoIxv2USTj7jz8MsC2fg">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd4nfqxPkp0QXqaJ1de1jEKw">
+<w xml:lang="de" corresp="src:tlaIBUBdyC817GScEXzrmOJWdAa2gE">dauern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6UqWUtbaEjmhhjq8rQvolc">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4sQj1ko6E3bpWBfEUqw3sw">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5QaD26esENavYrmuRJjWEE">Auge des Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxW5szDK5EFRr3OxE2dhQKE">bei (jmdm.) (meist Höhergestelltem)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyRMJpo0UE6ajjTFvBWwOzk">[Suffix Pron. sg.2.m.]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

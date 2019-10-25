@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idAP3CQIZ74REPRCK3VRL2WWHVHY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>auf großem Boot</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von auf großem Boot nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AP3CQIZ74REPRCK3VRL2WWHVHY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">auf großem Boot</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZC7QXVCODJAP5K4TUEVY73BLKM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara VI: The Tomb of Nikauisesi (ACE Rep. 14), Warminster 2000, 39-41, pl. 18-20, 50</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AP3CQIZ74REPRCK3VRL2WWHVHY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3a1bb3a0e77880b06263b5f735f8da37</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQ4HQ01BSUAslsdzbtAtwoc">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd5QVZR4va0rdg3jx7wNlUNc" lemmaRef="tla:tla450131"><fs feats="epitheton_title title"/>zꜣb-zẖꜣ,w</w>
+<w xml:id="tlaIBUBdxQl6DuOD0GHotdYXKOSQFQ" lemmaRef="tla:tla702374"><fs feats="entity_name person_name"/>Mḥ,w</w>
+</s>
+<s xml:id="tlaIBUBdWQTtVM6fEcvqHk2JsXLQKo">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdxeComuTGE3cm6QoRiQsKMU" lemmaRef="tla:tla450131"><fs feats="epitheton_title title"/>zꜣb-zẖꜣ,w</w>
+<w xml:id="tlaIBUBd1jsop9ewUWUhmHYtF96cuQ" lemmaRef="tla:tla550193"><fs feats="entity_name person_name"/>Jꜥ-jb</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

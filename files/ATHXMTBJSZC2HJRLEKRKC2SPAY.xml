@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idATHXMTBJSZC2HJRLEKRKC2SPAY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenentitel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenentitel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ATHXMTBJSZC2HJRLEKRKC2SPAY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>1. Register v.u.</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenentitel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZTCNGB6WMVCKVARF25LZC2RSIY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, Mereruka and his Family I: The Tomb of Meryteti (ACE Rep. 21), Oxford 2004, 41, pl. 53 [H, K, P, F, Ü, L];
+G. Daressy, Le Mastaba de Mera, Le Caire 1898 (Extrait des Mémoires de l&#039;Institut Égyptien), 571 [H];
+A. Erman, handschriftliche Korrekturen in Publikation von G. Daressy von Dez. 1899 [H, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ATHXMTBJSZC2HJRLEKRKC2SPAY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6bc840b240aa921111fd269f10365f68</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQ9sAbcJn0unsQRyAyamfT4">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdWezB8jQ7kKjta0XkgJYl8M" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd2UcWmn0q0UTnOQw2EMa5Iw" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBdxcMZ4D8ZEeFjkfJRMM50t8" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-<supplied reason="haplography">ḏi̯</supplied></w>
+<w xml:id="tlaIBUBd6OpYWHzWUNkukzf5MJM2DI" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+</s>
+<s xml:id="tlaIBUBd8krDApiK0o8jJQRfYtbihI">
+<w xml:id="tlaIBUBd9cMMtZ3uEvWnPmi6LLdbFw" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdzcPzp0dbUz8jjcn3h4ZCW0" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd4cNwLM0QUC0iVWWRRpuOnI" lemmaRef="tla:tla72840"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mrḥ<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd5IQDUUkOUegiYQRiuxNpl0" lemmaRef="tla:tla81660"><fs feats="adjective"/>nb.t</w>
+<w xml:id="tlaIBUBd2lO65EQtEiokIXJ8r6WqpI" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd1Wt6c3X4EodjLOwOlb6W24" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,t<supplied reason="defective">j</supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd1W9NSOeVkiZtcn9Q3fjAj0" lemmaRef="tla:tla851124"><fs feats="epitheton_title title"/>sḥḏ-ḥm<supplied reason="defective">,w</supplied>-nṯr-Mn-nfr-Ppy</w>
+<w xml:id="tlaIBUBd6Pxe9fLq0kmvaZzStYiyrg" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/>zꜣ-nswt</w>
+<w xml:id="tlaIBUBd1L5aW8JyUSQqNYcSlndQwI" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,t<supplied reason="defective">j</supplied>-ꜥ</w>
+<w xml:id="tlaIBUBd9FVfWRNT0dij49IQ62yj84" lemmaRef="tla:tla702307"><fs feats="entity_name person_name"/>Mr,y-Ttj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

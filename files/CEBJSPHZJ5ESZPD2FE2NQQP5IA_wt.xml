@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtCEBJSPHZJ5ESZPD2FE2NQQP5IA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Stele des It (Äg. Slg. Tübingen Inv. Nr. 462)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Susanne Beck</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Stele des It (Äg. Slg. Tübingen Inv. Nr. 462) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Susanne Beck</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CEBJSPHZJ5ESZPD2FE2NQQP5IA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>12.16</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+<msName>Stele des It (Äg. Slg. Tübingen Inv. Nr. 462)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Stele des It (Äg. Slg. Tübingen Inv. Nr. 462)</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaK2CFHNOHNBEWLHIMS2VL4MKD34">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<objectType ref="ths:GT4HRUBG55AE5IB7RM2ZMJOQ6M">Privatmann</objectType>
+<material ref="ths:H7S5EKRWZ5EVBI35BBLML3MRL4">Kalkstein</material>
+<dimensions unit="cm">
+<height>69</height>
+<width>6</width>
+<depth>40,5</depth>
+</dimensions>
+<note>Farbig gefasst, Kolumnen zumeist gelb hinterlegt, stellenweise Hackspuren.</note>
+</support>
+<condition>vollständig</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notBefore="-1793">13. / 14. Dynastie</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>Bei Brunner/Brunner-Traut 1981, 88 datiert das Objekt in die 12./13. Dynastie. Aufgrund von paläografischen Erwägungen wohl eher in die 13. Dyn. zu datieren, vgl. Ilin-Tomich, in: ZÄS 138 (2011), 21, 22, 24.</note>
+</origDate>
+<origPlace cert="medium" ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY" type="JTPKDP7HTRGIBKN34QHASPR4LE">Abydos
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- Brunner, H./E. Brunner-Traut, Die Ägyptische Sammlung der Universität Tübingen, I–II, Mainz, 1981, I 88–90, II, 10. [B,P,F,Ü]
+- Simpson, W. K., The Terrace of the Great God at Abydos. The Offering Chapels of Dynasties 12 and 13, Publications of the Pennsylvania-Yale Expedition 5, 1974, ANOC 60.2, Taf. 42.2. [P]
+- Spiegelberg, W./B. Pörtner, Aegyptische Grabsteine und Denksteine aus süddeutschen Sammlungen. I: Karlsruhe, Mühlhausen, Straßburg, Stuttgart, Straßburg, 1902, 9 (Nr. 12), Taf. VIII. [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>12.16</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CEBJSPHZJ5ESZPD2FE2NQQP5IA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Susanne Beck</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>87-a9487ecb11c02ac45b28179b49457586</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBcAYAWMWYqvE0CCuuOuxvUSeEA">
+<w xml:lang="de" corresp="src:tlaIBcAYHtBSXWqMEUfvSwpKL7Cfrc">Wepwaut-Re</w>
+<w xml:lang="de" corresp="src:tlaIBcAYBqrgSvYA0aylZuB0ZbDqn4">Herr von Abydos (Osiris u.a. Götter)</w>
+</s>
+<s corresp="src:tlaIBcAYAfcWXqa6Us9lEkQ2oVyzVs">
+<w xml:lang="de" corresp="src:tlaIBcAYJGEMOymO0yjkFmH9CWiwqc">Wepwaut (&quot;Wegeöffner&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYMQEsk6cmkUqjp437epWzig">Herr der Nekropole (Anubis u.a.)</w>
+</s>
+<s corresp="src:tlaIBcAYPNOQdtqnUCqsW3cEH0dlDc">
+<w xml:lang="de" corresp="src:tlaIBcAYNBRWrfhZUqfjwF0FIPVbVA">Gnadenerweisung des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAbEzH54B0Amp45OTf8slKs">Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBcAYEqWWrcnckvZmvzh6o4WMNk">Chontamenti (&quot;der an der Spitze der Westlichen ist&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAZntwmEuEVUu9WDU9R6Bbc">der große Gott (Gott)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGfwu1GtXkgdibplMNQZxdA">Herr von Abydos (Osiris u.a. Götter)</w>
+</s>
+<s corresp="src:tlaIBcAYF2kmvAmW0VGk6Y9puGKQ5w">
+<w xml:lang="de" corresp="src:tlaIBcAYJwQYl6xrEeFqzxqEEdTtcA">geben</w>
+<w xml:lang="de" corresp="src:tlaIBcAYC1vNxgRWk3ZmhIP7lNSSlo">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYLQRQG4CwUibkKANQutHWfE">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBcAYC32AWSpQkI9mGWEKfWjQIY">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNakQeaaGkuBt9f65EAJRT4">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFKzaXRQdkTWlwYDYmTg7h4">Rind</w>
+<w xml:lang="de" corresp="src:tlaIBcAYLk2EUB0IkwglcNiCzg0hbU">Geflügel (koll.)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYCJKtqRuEUxTn6ZTIlTxwgk">Alabaster</w>
+<w xml:lang="de" corresp="src:tlaIBcAYOdxpBECC0gikJjZLlax3KQ">Stoffballen</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAsbyVDJFEX9hP4lrVin7dk">Gewand</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGlau10ww0ghvARQGJHwgQU">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYH2WpmLQ707Tqi5BoQQy2QU">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNNyczbfcEersBkSPbkycdw">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYKbdN4irV02PgL0UnJOMnzo">Vorsteher der Getreidezählung</w>
+<w xml:lang="de" corresp="src:tlaIBcAYDlctSUYlEX9iyHkDyyDuE4">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYDul2KcwSUEUraN7o2PPaHI">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYDbV94OEOEvbhNFYWt2QOfU">
+<w xml:lang="de" corresp="src:tlaIBcAYDMFcndQKkWAhOeflj1sg0U">Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBcAYKIcRDhUDkHfhy5n9ORRQf4">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYObd7CuX6EXoqRs4G49uQvs">Einziger Schmuck des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBcAYJ0fgSQl8UbnmIWuQZ1e9QY">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHYbuDDrckQBnbWYYnv1IHk">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYFoFn89NdUo1rubCx5xypWg">
+<w xml:lang="de" corresp="src:tlaIBcAYC1UvLbU6UPzq4eyAdD2pxQ">machen</w>
+<w xml:lang="de" corresp="src:tlaIBcAYOp26QqTa0FFjCueGC4GvWc">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBcAYOM6fDAVo0FJjpWuc1spBTs">durch</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHWmhPNdeUBfsgnvoiPhcww">Schreiber der großen Cheneret-Anlage</w>
+<w xml:lang="de" corresp="src:tlaIBcAYPcZUUdnikg1rq6i9YEWJrs">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYPobehNQ2UmAttWMjPGXVdU">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYMRxi9FXZ00GrrwQD725EV0">gebären</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGRrdgCP6UEuq9n7oA5eTIM">Einziger Schmuck des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBcAYOI7xOI3mkjfk2zcTbmPEbo">PN/f</w>
+</s>
+<s corresp="src:tlaIBcAYDrG5b8F1EPWreAAaQGDwUg">
+<w xml:lang="de" corresp="src:tlaIBcAYHI2Grd0kkyJn0cmKbzm1oM">Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBcAYM2UtXP1b0Zyug8HQUWvYr0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHIeogQCUk8WpGhPB4O9hAg">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYLLMp6swsUlNmcdaoimt3MU">PN/f</w>
+</s>
+<s corresp="src:tlaIBcAYFzCtCFm50hIpotElDyJQd4">
+<w xml:lang="de" corresp="src:tlaIBcAYH00x2MX50QlrlzfW3ylwhE">Bruder</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAdtEmH6zUcXiWB2hQqrpNQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHW83VoBmEVruIw6K7Q02Vc">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYI7sPkmRGUyKljFP4KW2Q9U">Mutter</w>
+<w xml:lang="de" corresp="src:tlaIBcAYLvDpIPWa0L6oCWVfm6JjKk">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFsoa2r6fEaJvNOmrX0tieE">Großer der Zehn von Oberägypten</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHSUWyTvUEKTvB3LgRLxdds">PN/m</w>
+</s>
+<s corresp="src:tlaIBcAYAbjwg1QWUnah34kgdBLyx0">
+<w xml:lang="de" corresp="src:tlaIBcAYKuU5SZY20KBkh6gIWMmPmE">Würdenträger und Mund von Hierakonpolis</w>
+<w xml:lang="de" corresp="src:tlaIBcAYORKi3F4aEbhlkXWBYKohPw">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYF0TPonycUfTpO58uQlnXHk">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNJROlN0mkaFkgpH6Pcwejg">Herr der Ehrwürdigkeit</w>
+</s>
+<s corresp="src:tlaIBcAYIpITfcQ5UZniESWDCG1HmU">
+<w xml:lang="de" corresp="src:tlaIBcAYEROD4HA7kkosOjX3pl9Ok0">Großer der Zehn von Oberägypten</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFE3QQV2n0TEspphQw82TaM">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYN7PtxlnE0W6hsPcVPuRvns">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYJdO85CmLkZhrmQKVzR9XZg">
+<w xml:lang="de" corresp="src:tlaIBcAYJ6eb7MQCkS5pVLXkDUWtNQ">Vorlesepriester</w>
+<w xml:lang="de" corresp="src:tlaIBcAYBSLDjfUzENUhz6FSmZQjSg">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYO0HUWKP3kwQrRzHQwtQPTw">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYGbYdnXwn0VPkLQeKQXzuIk">
+<w xml:lang="de" corresp="src:tlaIBcAYPNj0l3qTUB8qsn1qHIsKpI">Bogenträger (&quot;zum Bogen Gehöriger&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYERcQQRvd0YfoCyeb9IX9Dk">PN/m</w>
+</s>
+<s corresp="src:tlaIBcAYIrYScdWokNptCAKWH9Vesw">
+<w xml:lang="de" corresp="src:tlaIBcAYJlIsLjutkwRgqDnQ3Knrcg">Gutsvorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNh97J9g8kMQkMDwHPxhOvg">PN/m</w>
+</s>
+<s corresp="src:tlaIBcAYMchW2A1LUaKlOExQEFWlMQ">
+<w xml:lang="de" corresp="src:tlaIBcAYJL6ReaYeUAWmXlCC9qXOvw">Großer der Zehn von Oberägypten</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFZf2Af2kUCuvWfw0bR2SL8">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYKdcRWnFtkEPstq4ARTUMP4">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYOIcZcSHm0DOhKkWQsBoAQs">
+<w xml:lang="de" corresp="src:tlaIBcAYAzyW3W6QkUPlnaBUp0VhAs">Wab-Priester</w>
+<w xml:lang="de" corresp="src:tlaIBcAYDTO7OmbFUxLtUIbGC1Hdew">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNPbS7WWX0ankNbiKHIT7lQ">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYLxwpT4rCkbHlBUsmQwWQpg">
+<w xml:lang="de" corresp="src:tlaIBcAYBYUm3N7GEIzrnNK4jDgVuI">Aufseher der Gefolgsleute</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFtasIVRc0WSnufbiqSacbQ">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYLmK2vQ9OUjjp7GiS4xVzxU">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYLNZ8ZuurU3NtMYYwwXDftA">
+<w xml:lang="de" corresp="src:tlaIBcAYBUonWc7WUzlrxA22Vdoqzo">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNi0mrhxfEQqvpIM1QTn6fM">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYB1xbnNUrk3TlkeQlyzXz64">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYDzfW7YmTUwrqD1GekbPQKw">
+<w xml:lang="de" corresp="src:tlaIBcAYPQbWlUvfEe6r7Pyl5PHIsk">Kabinettsvorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBcAYP4zhnrSIkL1qL9coz0nYM0">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGmuMAdEI0atnKd4D5trfyE">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYFSMHKPB4EHpjJ58ZYAtCQs">
+<w xml:lang="de" corresp="src:tlaIBcAYAhQrryRaUT5oEbzsUuAOTs">Wab-Priester</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAROPLX33E9bvVcZvWBKquk">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNKHJJWAkkOehfm9ES6OtsY">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYOj1upnY70lknRhmKvs08gc">
+<w xml:lang="de" corresp="src:tlaIBcAYFPmwGPbeU6IvOtqxWj4utA">der Gefolgsmann</w>
+<w xml:lang="de" corresp="src:tlaIBcAYDdcMApYo0o2jhSO39gFol8">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHwYRN9GeEKFqDxGIgjKUso">der Jüngere (nach Personenenamen)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYJQIrOwI50cgvvLvRdeEIQg">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYDGhlBBBU0PBh5cGah1BAQY">
+<w xml:lang="de" corresp="src:tlaIBcAYNibtHjXxUybvhPR8JN5IDE">der Gefolgsmann</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHRsZaIoQUgsstUw8OGVCxc">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNNhqmrh8UOfniR4TnV5GQM">der Ältere</w>
+<w xml:lang="de" corresp="src:tlaIBcAYCA9iJ1QdU5GqSYqqHbDU9Q">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYClku4pyrU3giQoCVm9Wikc">
+<w xml:lang="de" corresp="src:tlaIBcAYHFhOzxgh0NOkfPp2QdSCYw">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYN87cYL31kbrplv4Ywi83g4">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFtbQOxGC04ujCbyE4fX9RE">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYF6cLxsADkbUsRwYgHHOWbI">
+<w xml:lang="de" corresp="src:tlaIBcAYFDxt7MhR0uuoKemTWTf8Ws">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYB0Oerjvi0b0sIXzPPX4y9Y">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYOLb8vntuEimh7zclRGqIvo">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYMGCscWG10PJqSyf8HXrIIk">
+<w xml:lang="de" corresp="src:tlaIBcAYFe52r0deUgTl9zWv90llHI">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYOrf4BTgP090gsmvYDqIzp8">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYA3CgRbQE0A5qb0swlXkvEU">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYDgpoPwHo0GIjVsnUQ5FVw4">
+<w xml:lang="de" corresp="src:tlaIBcAYNwPnz4TkU6coR8sRy5xOUc">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYES7odgCNkeWvhPSRndcOUw">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNiuWK1xQkVboCNXfbs9fOk">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYIetAjWPakRXvD4n63gFmcU">
+<w xml:lang="de" corresp="src:tlaIBcAYEtXJkMbKEzImlzhUyPzkDs">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYM6rQZANB0dNvXpjWpJCc2s">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAuw8omDqEz7hkxAtNXPCqc">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYLjQuQNUREFgg2GD0W8QNDc">
+<w xml:lang="de" corresp="src:tlaIBcAYPe4tnm20kuArX73PHK8UuM">Amme</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNzgKllkpEkEpshDWUUevS8">PN/f</w>
+</s>
+<s corresp="src:tlaIBcAYAjmGXs4W09fj62sWebd1WA">
+<w xml:lang="de" corresp="src:tlaIBcAYOCWZwAJwEfQryZFbdWIxXU">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBcAYMQsjJUJd0KJtwsOgTuQWz0">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNayaMFm4UmxjaMhp0cTYX8">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNbcjQsi7EMBipWL3gMBP9s">Gerechtfertigter (der selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYC0D09QX2UJVgO3BdSGYZyE">
+<w xml:lang="de" corresp="src:tlaIBcAYIEzPxzYYUPKmtJQyCmkmqk">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYPPvjylGv03QgIWQNwO3ndw">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYN87a8f4Wkv8r8fxRy09BAY">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYE2EQeiQW0s6tJqiKwANcEI">
+<w xml:lang="de" corresp="src:tlaIBcAYDh1apUVa03ItV7I7nJf1BI">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYJQOqAXQmEQ4pxdpa0wtO6w">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYAuLcgtUWEWysB3o4qkQj4g">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYHsV0gEnP0aynBW3l5VdN9M">
+<w xml:lang="de" corresp="src:tlaIBcAYPUab84fQk8bk486wzKDvGU">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNdeeuqQfkytmy2aRDgcTXc">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYPBRxA6MRUwTk7t8Mh9BuLA">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYPUqyGfZQ0eCuL0W1vR9hzQ">
+<w xml:lang="de" corresp="src:tlaIBcAYKWGlF8AeEzYr2L0yUJMfNg">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYMy2qcqsoEYhq7pz5hRTpHk">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYI5C2acKqUnntsyLIhRNPOU">die Jüngere (nach Personennamen)</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGinkzTdWk2ZpBDtvuZFRs8">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYND3XVWNOUxQiZrrKFE7f6g">
+<w xml:lang="de" corresp="src:tlaIBcAYKWbTTqU2EHLqxsKW0eGN1E">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGKv74VGN0a2jlYksxGXIL4">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYIUshW8lakC3uReZh1LFM5o">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYK4EMOuE6UHMoelUW9gwRog">
+<w xml:lang="de" corresp="src:tlaIBcAYBTdbmVWykn7ozYPnNvR3XI">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYORA5JO9RU8kibQm7JaHjjU">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFXUcupO2ULtiYXkMUmzgVc">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYFVpZltoG0tstMauVwzoAHw">
+<w xml:lang="de" corresp="src:tlaIBcAYE0S9KqiDkxRrZfg3sXpVN8">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYLeQTHLfWUr5oWVtSSnYtVY">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYNbKL6W0hkQelNQAJ6h7EBY">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYJtxkVwc6kGngl4IQo8fodo">
+<w xml:lang="de" corresp="src:tlaIBcAYAJKO4UB2UWCqB0CQ0WLRn0">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBcAYBHx6omF80LLguJxvQZktcA">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBcAYCHQVfy8U0f2lejZLwKCeQg">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBcAYNXUOWn79EQMp8DrPOcQr38">
+<w xml:lang="de" corresp="src:tlaIBcAYPxgxoWB8UzQmEYf6KQVJGI">Bruder</w>
+<w xml:lang="de" corresp="src:tlaIBcAYHxBH6NzE0DHoLhE2ACNb0E">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYG1OpQRvCEekikyeWs8We6E">Mitglied einer Phyle</w>
+<w xml:lang="de" corresp="src:tlaIBcAYODhJOctIUmcriDg05iW9qY">PN/m</w>
+</s>
+<s corresp="src:tlaIBcAYIATlf99AkqZmGKI83XVDac">
+<w xml:lang="de" corresp="src:tlaIBcAYEAe7kpOQEHgjtc3qj0RPGU">Brauer</w>
+<w xml:lang="de" corresp="src:tlaIBcAYO4Q6gKJw0AvmlJq8rT9EGQ">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBcAYPrTWJq0RUYKnKQBW3NbQlc">PN/?</w>
+</s>
+<s corresp="src:tlaIBcAYH24d82DbkCCl1MDz6IH8s8">
+<w xml:lang="de" corresp="src:tlaIBcAYJGHjm2hCkgYofEWI6Ntx2U">PN/?</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGZiE83OVEBci5HGLLSn9pk">PN/?</w>
+<w xml:lang="de" corresp="src:tlaIBcAYGFATSCYtEsFk32TSCQqRtk">[Personenname]</w>
+<w xml:lang="de" corresp="src:tlaIBcAYG8NJwNrWkJcqY1ZSgnH9Zs">PN/?</w>
+<w xml:lang="de" corresp="src:tlaIBcAYFjBELzj7UMxkHH2C5GYKvo">PN/?</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

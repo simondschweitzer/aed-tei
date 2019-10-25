@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtM5NUYWGWPJBC3KHSNXP7BJDI4U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Kumes (Louvre C 287)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Kumes (Louvre C 287)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>M5NUYWGWPJBC3KHSNXP7BJDI4U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 287</idno>
+<altIdentifier>
+<idno></idno>
+<note>ehemals Paris, Bibliothèque nationale</note>
+</altIdentifier>
+<msName>Stele des Kumes (Louvre C 287)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Kumes (Louvre C 287)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5QZLFAPQAZHDTMUC4JOFFTXZ6M">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E4VXX5LISZC2XIR6AYPM3Y3TQI" notBefore="-1649">15. / 16. / 17. Dynastie</date>
+<date type="latest" datingPoint="ths:E4VXX5LISZC2XIR6AYPM3Y3TQI" notAfter="-1551">15. / 16. / 17. Dynastie</date>
+<note>17. Dynastie, kurz nach der Regierung des Rahotep (nach Franke, Fs Assmann, 135; Franke, in: JEA 71, 176)</note>
+</origDate>
+<origPlace ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY">Abydos
+<note>Kunes war Befehlshaber der Garnison von Abydos (vgl. Franke, Fs Assmann, 135)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- J. Malek, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. VIII.3, Oxford 2007, 309 (Nr. 803-043-600) [B]
+
+- D. Franke, Altägyptische Verwandtschaftsbezeichnungen im Mittleren Reich, Hamburg 1983, 309 Anm. 1 [B]
+- D. Franke, Middle Kingdom Hymns and other sundry religious Texts. An Inventory, in: S. Meyer (Hg.), Egypt - Temple of the Whole World. Ägypten - Tempel der gesamten Welt. Studies in Honour of Jan Assmann, Leiden 2003, 135 [B]
+
+- E. Ledrain, Monuments Égyptiens de la Bibliothèque Nationale (Cabinet des Médailles et Antiques) I, Paris 1879, Tf. XXXI (Nr. 48.bis) [H]
+- D. Franke, An important family from Abydos of the Seventeenth Dynasty, in: JEA 71 (1985), 175-176 und Tf. XIX [*P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 287</idno>
+<altIdentifier>
+<idno></idno>
+<note>ehemals Paris, Bibliothèque nationale</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="M5NUYWGWPJBC3KHSNXP7BJDI4U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>15-a8e5a0f571fd95202f8bf3c1cf702973</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdyuc523QPk9Uiqdne5wTUQM">
+<w xml:lang="de" corresp="src:tlaIBUBd9d7U2z080QHpfCTe4zdE8o">Gnadenerweisung des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7X615PHU0kwtkVqsOJVJ0M">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQUtZBB4aEIFmJHlZPMuQQs">Min-Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzWCN3tREUSCv01CSKhOJPA">Starker</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxJWQV0vmUzzi2oeWB5eUeM">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4EuHFl1xU5doYf1JdjQZbQ">Min</w>
+</s>
+<s corresp="src:tlaIBUBd60dKQzLGUiYmm4x5Am1VGI">
+<w xml:lang="de" corresp="src:tlaIBUBdzFBD4fcckh1sH7k93ovdEw">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4kF87JWqEn1tTWxkeNX6TQ">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7igTAdogkrZjKV1lYWENsM">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3CStPfMckHYuDNAo5YQ23I">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWbQ8wYke0kWrtAsNZ6OSPI">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8v3iibpS0Q1q2xWQfgvvvE">Stier</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwdltdRAyU4WjU3zvlQ6v0A">Geflügel (koll.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdykpL0rOiE8wsF7Q04pcQlM">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQJCe7xIERzpp5IBuI4UxE">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2KyZwKOiUqcvaIidb7lC6U">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0RsY5bId0i6skI5vfLUe8o">Hatia (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5wLJQAqfkngtk6PSMhgKI4">Vorsteher des Tempels</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0QbdOJUvUPykIl0Qzy8Ajc">Königssohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCAHbCxlEAsujhR01yhiTs">Befehlshaber</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx4BHW1AN0dzuLm0JWFJqjs">Garnisonstruppe</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWbe5cSmGkCppjDyskDdzVY">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3c9idu5LEbLkwuY0hXqVbc">Abydos</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx9mO9u3y0Z9k2Q5jL7nNwU">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3aCFzsyrkRxkAH3JBZWQW8">zeugen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ0LOKbN50Hkp4aSyV8hQbY">Schreiber des Gottesopfers</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6GK8wsFQU0Dn6pk0AQi848">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5m5Zz7CvE96iuW5ks4cq8Y">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0YLlHYHvkWioxUjiYF16ro">gebären</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3GVvTcGnEdhr5rUarUQ1Q0">Fürstin</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6IP9ltgDUDQiAJW8eDYYiM">PN/f</w>
+</s>
+<s corresp="src:tlaIBUBd81JAlGHn0pruae5Qgmn76E">
+<w xml:lang="de" corresp="src:tlaIBUBd7JluJVFfUIFvrYvfaRVf34">preisen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4KK1F92d0IXgFwNw6GiLrY">Min-Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyNP8HXFjkkQrnNlkBMv1cE">Starker</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7G7KmbMy0fpmFMVq3MfLT8">durch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8KjCKRkq0YsrCV8qAlwWEA">Hatia (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdykmmVE5jEUvnHLA31MdlW4">Vorsteher des Tempels</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4nGc8a1mUrlk1JW0AWmtGQ">Königssohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8yS7qKPRkJYp8QYvFs9lrw">Befehlshaber</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2KfV7ywN0y2rfiErL3o25A">Garnisonstruppe</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7zaKgWRz0ISpNPGjh8QHvM">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWYpDFDBjkHxndaJGNbYygk">Abydos</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Z8sZZg3Ux3ph1INO2RS1g">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy7Lg1DAKkl3nuDdapZ4QGk">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2vSh33sWUyHobnJWEiiH4c">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdyqcQt7owkTMjk10SwzewgM">
+<w xml:lang="de" corresp="src:tlaIBUBdyy7G07LXU55qdUwlDgzHK4">begrüßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwMUTFc5EkCljoIm6ns0vPk">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyToMpQ2skQngWBn2OGO4RM">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2YUvlLO0U6QiAILlEUwq94">Min</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQhN6qcRhEoKrnJX472XnDY">in (Zustand)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4rwWQvJnEFNkCMIj252rzI">Frieden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5fFIAi7fEP2pekeIRqMQXE">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdydz9UEQDUcRrQeo7UWrV3A">der Triumphierende</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4m0EtxwOEzrhiiCh7hGD5c">in (Zustand)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw3k0dC3XEJ0jf45tp5t1GU">Frieden</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

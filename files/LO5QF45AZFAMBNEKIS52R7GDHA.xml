@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLO5QF45AZFAMBNEKIS52R7GDHA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 566</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 566 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LO5QF45AZFAMBNEKIS52R7GDHA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 566</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaL4IRN4CE5VBN7PYN47NVLWM6YE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Jéquier, Le monument funéraire de Pépi II. Tome I: Le tombeau royal, Kairo 1936, pl. XIX-XXI [F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005, [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LO5QF45AZFAMBNEKIS52R7GDHA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-914e844e4edf2e08a24ba681ff82f50d</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdwoqVuzDc0TUhI6zAkxEb34">
+<lb n="[N/V/E 46 = 1310]"/>
+<w xml:id="tlaIBUBd3QOC7H1yEjVndyRGZLAqxs" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBdyAbXVf7q09rhYhbgJENkF4">
+<w xml:id="tlaIBUBd9DVnUtfX0femoCsC4UTSwY" lemmaRef="tla:tla150220"><fs feats="verb imperative singular"/>sḏꜣ</w>
+<w xml:id="tlaIBUBd0KfHSZH2kboqh0p5VnkmLU" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>Ppy</w>
+<w xml:id="tlaIBUBdwXGGcRsUkrDv9kKEhvEkAI" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/>Nfr-kꜣ-Rꜥw</w>
+<w xml:id="tlaIBUBd4k6eVOey0JathF6bqYPXPI" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">pn</supplied></w>
+<w xml:id="tlaIBUBd3Xxmb1GcEdTqjsZONFDM9s" lemmaRef="tla:tla850800"><fs feats="preposition"/><supplied reason="lost">ḥn</supplied>ꜥ</w>
+<w xml:id="tlaIBUBdws2heZbk06orxcaOjVrm5o" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd6YHKzGEWkpIoeOqhzRX8Cg" lemmaRef="tla:tla107500"><fs feats="entity_name gods_name"/>Ḥr,w</w>
+<w xml:id="tlaIBUBd4iDmsumW03agB8kkbbK2rg" lemmaRef="tla:tla181780"><fs feats="verb verb_3-inf imperative singular"/>ḏꜣi̯</w>
+<w xml:id="tlaIBUBd83HkntWcE9Dvz5oKA9V8Rk" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>Ppy</w>
+<w xml:id="tlaIBUBdWQK7SaDu09ouWP8GdEDWVc" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/><supplied reason="lost">Nfr-kꜣ-Rꜥw</supplied></w>
+<w xml:id="tlaIBUBd2ISs4dRsU55iWcFnMRbTJ0" lemmaRef="tla:tla185290"><fs feats="entity_name gods_name"/><supplied reason="lost">Ḏḥw,tj</supplied></w>
+<w xml:id="tlaIBUBdWuMlKIRIUheqqWc2cEMPLk" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBdQr6L4SzfUhbrUlHRcRmWpI" lemmaRef="tla:tla854577"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">tp</supplied></w>
+<w xml:id="tlaIBUBdWtJ2sbWZEtyksFEIsCb3bY" lemmaRef="tla:tla39030"><fs feats="substantive substantive_masc"/><supplied reason="lost">ꜥnḏ</supplied></w>
+<w xml:id="tlaIBUBd1rH2kKFjUpovYQfpQg0z30" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+</s>
+<s xml:id="tlaIBUBd9CD3EYWkk9kgchdVdpyxM4">
+<w xml:id="tlaIBUBd86gJuzq2U58tRYcnEMbWJo" lemmaRef="tla:tla850806"><fs feats="particle"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd2gowio4MEOJvey7TgVf1VU" lemmaRef="tla:tla185290"><fs feats="entity_name gods_name"/><damage>Ḏḥw,tj</damage></w>
+<w xml:id="tlaIBUBdz194e5miEbgqUWi9QGXBV8" lemmaRef="tla:tla856211"><fs feats="verb verb_3-inf pseudoParticiple masculine singular"/>jwi̯.y</w>
+</s>
+<s xml:id="tlaIBUBdyvbi6AAukbQjiWF8xn1ApA">
+<w xml:id="tlaIBUBd8nZtoTZO0eGncFGkO5n34Y" lemmaRef="tla:tla850806"><fs feats="particle"/>n</w>
+<w xml:id="tlaIBUBdwU7y42SQEp6vpQsrxhKVM0" lemmaRef="tla:tla104600"><fs feats="particle particle_enclitic"/>ḥm</w>
+<lb n="[N/V/E 47 = 1311]"/>
+<w xml:id="tlaIBUBd0FXDWYZKUfBv595vRB85VM" lemmaRef="tla:tla856211"><fs feats="verb verb_3-inf suffixConjugation w-morpheme active"/>jwj.y</w>
+<w xml:id="tlaIBUBdWT01xplXUIJqRwrZ5gGKL0" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>Ppy</w>
+<w xml:id="tlaIBUBd6Epst6UUUmijSGWWUaD8fw" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/>Nfr-kꜣ-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBd0pGmFn9QU8YssUcKpElX8o">
+<w xml:id="tlaIBUBdQEfibCrVE7gjkFDAnpDtNE" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>Ppy</w>
+<w xml:id="tlaIBUBdQd9Bh57BEgRp4R0crfkaEw" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/>Nfr-kꜣ-Rꜥw</w>
+<w xml:id="tlaIBUBd9koiSTgFkH3m7n2FWQzzfg" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">p</supplied>w</w>
+<w xml:id="tlaIBUBd2kdtWd0zEJDrO6FmzwqtQw" lemmaRef="tla:tla124220"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>ẖr<supplied reason="defective">,j</supplied></w>
+<w xml:id="tlaIBUBdz3s7KEbL0msmmtxQ3qqFJw" lemmaRef="tla:tla28410"><fs feats="substantive st_absolutus singular"/>jr<supplied reason="lost">,t</supplied>-Ḥr,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

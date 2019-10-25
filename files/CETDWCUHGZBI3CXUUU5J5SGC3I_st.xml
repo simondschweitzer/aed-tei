@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stCETDWCUHGZBI3CXUUU5J5SGC3I">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 650</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 650 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CETDWCUHGZBI3CXUUU5J5SGC3I</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈5. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 650</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaVHM54NQOW5CUHMMIC5S7CSTB6Q">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CETDWCUHGZBI3CXUUU5J5SGC3I.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-4f104dbd974ca4e42080f0702dcee85f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd9ljfM33U0Wwny0OLEdWJWE"></s>
+<s xml:lang="de" corresp="src:tlaIBUBd18IqHKwGkYtuJi8wldfRpk">[... Geb und] ⸢Nut⸣.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzCK4toXOEM8iIBAMYvpA3Y">Dieser Pepi Neferkare ist Osiris, den [Geb] geboren hat, [damit er] ihn zum König von Ober- und Unterägypten [mache] in allen seinen Würde(zeichen).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5wQSuHTB0hejW8QOWJBckI">Anubis, der an der Spitze der Westlichen ist, [hat ihn ...] wie Osiris, Sohn des Geb.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8jYsWI1RUKkjOkiA7wyimY">Die Götter [haben ihn ...] wie Anedjtj, der an der Spitze der östlichen Gaue ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0sPg8TOdEgdpgpyg01OPQ8">Die Erde [hat ...] Pepi Neferkare, damit er an der Spitze der Götter sei, die zum Himmel gehören, wie Geb, der an der Spitze der Neunheit ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1eT2LPgPUjLjHZOoWJxVR8">Seine Mutter, der Himmel, wird ihn lebend jeden Tag gebären wie Re.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9zVQR0clUoWimz792a0sT4">Er wird mit ihm zusammen im Osten aufgehen und mit ihm zusammen im Westen untergehen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2aUIj9hyUAIhjm5ri9eEFw">Seine Mutter Nut wird keinen Tag leer von ihm sein.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwRJxcQTlkjGtaPdb5Bydw8">Sein Sohn wird Pepi Neferkare mit Leben versehen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwASwTBfmELln23f1i2tWSE">Er wird (es) für sein Herz weit machen, er wird (es) für sein Herz angenehm machen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd231owXrxUhmt4YVlxZGMW0">Er wird für ihn Oberägypten einrichten, er wird für ihn Unterägypten einrichten.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4bIrlmPYUdZsSiUhqyQkMs">Er wird für ihn die Festungen Asiens zerstören.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1AcS4hWkUpRribP7ckDmWA">Er wird für ihn alle rebellischen Rechit unter seinen Fingern abschütteln.</s>
+</ab>
+</body>
+</text>
+</TEI>

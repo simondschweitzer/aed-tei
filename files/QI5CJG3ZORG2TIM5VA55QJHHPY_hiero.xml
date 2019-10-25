@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroQI5CJG3ZORG2TIM5VA55QJHHPY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>oDeM 1414</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ines Köhler</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von oDeM 1414 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ines Köhler</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QI5CJG3ZORG2TIM5VA55QJHHPY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>oIFAO Sequestre 10059</idno>
+<altIdentifier>
+<idno></idno>
+<note>Inventarnummer oIFAO 2295 = Publikationsnummer oDeM 1414</note>
+</altIdentifier>
+<msName>oDeM 1414</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">oDeM 1414</title>
+<textLang mainLang="egy-egyn-Egyh-Egyhltb">traditionelles Mittelägyptisch-Neuhieratische Buchschrift
+<note>Zu wenig ist erhalten, um andere als mittelägyptische grammatische Elemente identifizieren zu können.</note>
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2OKDPGTHTBH4PAF7T5KNVOFV3Y">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<objectType ref="ths:GT4HRUBG55AE5IB7RM2ZMJOQ6M">Privatmann</objectType>
+<material ref="ths:H7S5EKRWZ5EVBI35BBLML3MRL4">Kalkstein</material>
+</support>
+<condition>fragmentarisch</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>W. Westendorf datiert alle fünf von ihm behandelten Ostraka in die Zeit von der Mitte der 19. bis zur Mitte der 20. Dynastie (Westendorf 1999, 61). Dies beruht auf eine Notiz von G. Posener zu den Ostraka 1001–1108 der IFAO-Grabung von Deir el-Medineh, die er in einem früheren Band publizierte (Posener 1938, VI). Die Paläographie sowie der Fundort dürften hierbei für eine Datierung in die Ramessidenzeit sprechen.</note>
+</origDate>
+<origPlace cert="high" ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+<note>Das Ostrakon wurde in Deir el-Medineh gefunden. G. Posener macht keine weiteren Angaben zum genauen Fundort (Posener 1978, 34).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Posener, Catalogue des ostraca hiératiques littéraires de Deir el-Médineh. III,1. Nos 1267–1409, Documents de Fouilles de l’Institut Franҫais d’Archéologie Orientale du Caire 20, Fasc. 1-2 (Le Caire 1977-1978), 34 und Taf. 19–19a [*F,*T,K]
+- http://www.ifao.egnet.net/bases/archives/ostraca/?id=19864 [*P]
+
+- W. Westendorf, Handbuch der altägyptischen Medizin, Handbuch der Orientalistik I 36,1 (Leiden/Boston/Köln 1999), 61, 63 [K,Ü]
+- http://www.medizinische-papyri.de/Start/html/-_ostrakon_dem_1414.html [F,T,Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>oIFAO Sequestre 10059</idno>
+<altIdentifier>
+<idno></idno>
+<note>Inventarnummer oIFAO 2295 = Publikationsnummer oDeM 1414</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QI5CJG3ZORG2TIM5VA55QJHHPY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyn-Egyh-Egyhltb">traditionelles Mittelägyptisch-Neuhieratische Buchschrift
+<note>Zu wenig ist erhalten, um andere als mittelägyptische grammatische Elemente identifizieren zu können.</note>
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ines Köhler</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>18-ffdc5ee7274aa18671d90ab04ea078b2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBcAJv31XOgWZUg5lZN2sRKa7lg">
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBcAJp6eowu1tUzquExwPDqd82Y">
+<gap reason="lost" />
+<w corresp="src:tlaIBcCMDP1sbV5c0D6tLqZYVSOQtI"><unclear>𓈒𓏥</unclear></w>
+<w corresp="src:tlaIBcAJlhSxxQX3EE5gcIL9tYGAkw">𓐩𓏌𓀜</w>
+<w corresp="src:tlaIBcAJucsxLd7y0eOt8MDkIcmdZk">𓁷𓏤</w>
+<w corresp="src:tlaIBcAJr6uF1GLhUqAsRHK2d6Fc1c">𓆤𓏏𓏯</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBcCMMuAp7erdUYDtGXupcGpAww">
+<w corresp="src:tlaIBcAJuzAEYv9AUgegaFLYvcOV6s">𓅓</w>
+<w corresp="src:tlaIBcAJoUkhxIXT08dnaa7yQuQElQ">𓌻𓂋𓎛𓏏𓏌𓏫</w>
+</s>
+<s corresp="src:tlaIBcCMMySdZqHQ0JhrCw8TM6xxz0">
+</s>
+<s corresp="src:tlaIBcAJj9UpwkNfEUEgxLAXvMUeW0">
+<w corresp="src:tlaIBcAJsT8r0OgbEukoY9AWcGjQ10">𓁹𓂋𓏲</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBcAJoNonwGmJkIjuat0UwSCRKA"><unclear>𓋴</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBcAJmwW5VLvRUUxkueM899FVbQ">𓌡𓂝𓏤</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

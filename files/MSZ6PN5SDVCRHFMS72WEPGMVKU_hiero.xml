@@ -1,0 +1,2086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroMSZ6PN5SDVCRHFMS72WEPGMVKU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Rede des Sasobek</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Rede des Sasobek nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>MSZ6PN5SDVCRHFMS72WEPGMVKU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 10754</idno>
+<msName>pRamesseum I = pBM EA 10754</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Rede des Sasobek</title>
+<textLang mainLang="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaV4RJZGLQUJGJFFCVQR3NDG53FU">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+<note>paläographisch späte 12. Dynastie (vgl. Parkinson, The Tale of the Eloquent Peasant, Oxford 1991, xxvii)</note>
+</origDate>
+<origPlace ref="ths:YF6WKS2KHNBMVF4XX3PLFKIBZU">Ramesseum
+<note>aus der sog. Ramesseumbibliothek: von Quibell 1896 in einer Kiste in einem Grabschacht unterhalb der Magazine des Ramesseums gefunden (vgl. Parkinson, The Tale of the Eloquent Peasant, Oxford 1991, xi-xiii). Zum Fundort der sog. Ramesseumsbibliothek siehe M. Downing und R.B. Parkinson, The Tomb of the Ramesseum Papyri in the Newberry Papers, The Griffith Institute Oxford, in: British Museum Studies in Ancient Egypt and Sudan 23, 2016, 35-45 (Fs Bridget Leach).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- J.W.B. Barns, Five Ramesseum Papyri, Oxford 1956, 1-10 und Tf. 1-6 [*T,*K]
+- A. Gardiner, The Ramesseum Papyri. Plates, Oxford 1955, 8 und Tf. 1-2 [*P] (Auswahl an Fragmente)
+- http://www.britishmuseum.org/research/search_the_collection_database/search_results.aspx?orig=%2Fresearch%2Fsearch_the_collection_database.aspx&amp;searchText=10754%2C+Papyrus&amp;x=0&amp;y=0&amp;fromDate=&amp;fromadbc=ad&amp;toDate=&amp;toadbc=ad [P]
+
+- R.B. Parkinson, Poetry and Culture in Middle Kingdom Egypt. A Dark Side to Perfection (Athlone Publications in Egyptology and Ancient Near Eastern Studies), London, New York 2002, 305-306 [K]
+- G. Burkard und H.J. Thissen, Einführung in die altägyptische Literaturgeschichte, I, Münster 2003, 195-197 [K]
+- S. Quirke, Egyptian Literature 1800 BC. Questions and Readings, in: Golden House Publications, Egyptology 2, London 2004, 192-196 [*Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 10754</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="MSZ6PN5SDVCRHFMS72WEPGMVKU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>43-16cf0b2b8b839829ca82510807aa171f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdyHMNx86QUCVqIYpUMwCqO4">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd62A3Jzvlk64vCyIDTvFslc">𓇋𓅓</w>
+<w corresp="src:tlaIBUBd3hbOb1M4UEhvTsNaLvtD6s">𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd4OcdOnBzkTLuW7XFQPhBew">
+<w corresp="src:tlaIBUBd0UnVWAU7E9Egrtg9L1YLWI">𓇋𓐍𓏛</w>
+<w corresp="src:tlaIBUBdWzbYUdFqUCCgX5Ws8dkcXA">𓂝</w>
+<w corresp="src:tlaIBUBd2bW7tv4MEHikPrxL3pXL1E">𓀀</w>
+<w corresp="src:tlaIBUBd8W9X93nU0PCpqQfOASVnOI">𓋴𓌴𓄿𓅓𓌪𓏏𓏲</w>
+<w corresp="src:tlaIBUBdW7ig7tY4Eh3iONs5IiMcKY">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd5a5MLinfUr2l2AgMN8dbxs">
+<w corresp="src:tlaIBUBd2Se8ALP5EIin4LIB5xzS58">𓈖𓍯𓄿𓁹</w>
+<w corresp="src:tlaIBUBd1kPQIuvq0XWnLE1YE1n5PQ">𓈖𓏲</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdz9Bc6zDjE8omIeLWfGbPws">
+<w corresp="src:tlaIBUBd524cePjpkviv125zXWkUpI">𓊢𓂝𓈖</w>
+<w corresp="src:tlaIBUBd9zKIkol3kuHme9FLpIaVgE">𓆓𓂧𓈖</w>
+<w corresp="src:tlaIBUBd89bWowQWU5Tog7WowGrhcQ">𓆑</w>
+<w corresp="src:tlaIBUBd8a9BWDva0KahyUtJP3Rj7I">𓈖</w>
+<w corresp="src:tlaIBUBdQqEEcsGN0pXkL4xgWL4mBw">𓅭𓆊𓀀</w>
+<w corresp="src:tlaIBUBdQk3z7RHdUVJsRlQFK1TO2g">𓊪𓈖</w>
+</s>
+<s corresp="src:tlaIBUBdzQOC8xr3Uabh9vXiNYrmWc">
+<w corresp="src:tlaIBUBd2yrT2BwuU7NqJlsiYiiV4M">𓅓𓂝</w>
+<w corresp="src:tlaIBUBdx9RQQrKSUAPn0QVZ4ePdpc">𓎢</w>
+<w corresp="src:tlaIBUBd39L0MGumUpxkk6Ldr1EOW0">𓄂𓂝</w>
+<w corresp="src:tlaIBUBd6P7C9k6pUiZnc7fiqBLs84">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBdwPq02i0sUqGskAvf2PV4gY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd3cnLnTQQ08IlJ1RLtJWDcc"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWofQp0UikPKl1OkOmi7zWo">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8tT4G7X4UaMo7WTQxAw09Y">𓈖</w>
+<w corresp="src:tlaIBUBd5STWjA9rEGRmawSi7Z5nR0">𓉔𓏲𓏏𓀁</w>
+</s>
+<s corresp="src:tlaIBUBd4DuSohCvE44qxMPuu90HMo">
+<w corresp="src:tlaIBUBd9KELmC2X0TmlQrZL51zVeE">𓊢𓂝𓈖</w>
+<w corresp="src:tlaIBUBdyeVgWTf0kekleZ3AMXgh2k"><unclear>𓋴𓄝𓂝𓈖</unclear></w>
+<w corresp="src:tlaIBUBd82zigQxv0QRnPnNQCKZ3J4">𓆑</w>
+<w corresp="src:tlaIBUBd9DTWpDXkkx1vYjGDzBlP0w">𓈖𓈙𓅱𓏌𓏤</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd055HfJ0RUVLhdVRVn80lco">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd29Q01UVaUv9itWJWHXlDBE">𓈖</w>
+<w corresp="src:tlaIBUBdzKBfrqEdk2crd8TjStDUp0">𓈖𓏏𓏭</w>
+<w corresp="src:tlaIBUBdWbBDIDqxU4HpQayM8mqWpM">𓅓</w>
+<w corresp="src:tlaIBUBd6HYNcDXyUUQjHMOJQ5AijE">𓏠𓅓𓏌𓏲𓅪𓏥</w>
+<w corresp="src:tlaIBUBd5IFirjbTUAWslQNAdAH0UM">𓁶</w>
+<w corresp="src:tlaIBUBdwBfSXxze0iWifqZdMazOXA">𓇾𓏤𓈇</w>
+</s>
+<s corresp="src:tlaIBUBd31B11Vhzk6MvkWlCTmCMxA">
+<w corresp="src:tlaIBUBdWQTouhkZklnmRE7HjUsYwg">𓂜</w>
+<w corresp="src:tlaIBUBdQ6xtwQYAEKxgdHe6BEoneE">𓌴𓁹𓄿𓈖</w>
+<w corresp="src:tlaIBUBd1QHuNmb4kU0pRAhdaQ92T0">𓎢</w>
+<w corresp="src:tlaIBUBdQ4cZglIGEpgqKQfvR1f80g"><unclear>𓇓</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd8ZzJvSGfkV9vmaCpHssUWk">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9T8mGWPpEE7jY1f3E3n6ok">𓆑𓈖𓅪</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyL0MLqdb04QmeqppUsvsoI"><unclear>𓆑𓈖𓅪</unclear></w>
+</s>
+<s corresp="src:tlaIBUBdwFw9RWrh08JuokiHD31xQ4">
+<w corresp="src:tlaIBUBd1x2NJFHrUeViQUHi34Wpu8">𓊢𓂝𓈖</w>
+<w corresp="src:tlaIBUBd2TDayDIuU8ZoQjFlcmyBWM">𓈝𓅓𓂻</w>
+<w corresp="src:tlaIBUBdWCWnnyXaEdmmGdcqEQFcBc">𓂋</w>
+<w corresp="src:tlaIBUBdWF3bzkbI0z9rLJNooO80e4">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5LZYNPxu0rjiq2J8JBt5R4">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdySYXtUoNELclFIrHboRHfk">𓇋𓅓</w>
+<w corresp="src:tlaIBUBd1bxZkUX3EAAg4VAvWhim2c">𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd2yqg2T9hUHdvaOHnUfRMaY">
+<w corresp="src:tlaIBUBd5dYjOOw6komuws8bOP5IPY">𓆓𓂧𓏏𓏲</w>
+<w corresp="src:tlaIBUBd2aqkrgDgk2GjstI7l7FkDs">𓂋</w>
+<w corresp="src:tlaIBUBdzanR8mVe0nShsV7FZWHqkI">𓆑</w>
+<w corresp="src:tlaIBUBd96uUwjW1UEgknCgdWrGgyo">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBdzbNfWM4ykfDhM81gKf98h0">𓏏𓈖</w>
+<w corresp="src:tlaIBUBd9tlWyLJZkm9tSVsR2KGqQA">𓇋𓏲</w>
+<w corresp="src:tlaIBUBdWjfPUoOW0kCqmb2xOF8RFU">𓐍𓃀𓏲𓀥𓀀</w>
+<w corresp="src:tlaIBUBdxZY0641nkatgCM6fZoV8WU"><unclear>𓉔𓏏𓆑𓁷𓏤</unclear></w>
+<w corresp="src:tlaIBUBd2sY18H6Bk6kqjsbMwUWYWQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd5SWBW8WgUOftD1OknJFFhM"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdwQPJhrwGkaAk7onpasuWF0"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdwmuLEkqXEsnoWcPWwTgFmI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdy2IuhYCn0WhqsXc0j1gVWI">
+<w corresp="src:tlaIBUBdWLVIVltYUGSr7aWZaAIzQA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd0fdDnBB20nhrnmT3zQVCRU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd7MWwtlqkk0xtqKIypo5rRY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd6nhBsRgWkkQqcXRlw7WAQU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdzRGuSRbC09AsfhTrKPudPM">𓐍𓃀𓏲𓀥𓀀</w>
+<w corresp="src:tlaIBUBd9wHl0H8EEtunsGz8eriTDU">𓊪𓈖</w>
+</s>
+<s corresp="src:tlaIBUBd3vew6g4GEweuOdPnwKZeUA">
+<w corresp="src:tlaIBUBdyHXWVpI0U3euZhor6EVZlc"><unclear>𓊪𓏏𓂋</unclear></w>
+<w corresp="src:tlaIBUBdxcCGLQsJ0Tsm18Fz2Q5ShE">𓂋𓈖𓀁</w>
+<w corresp="src:tlaIBUBdyQ31Sg7BUHumhuLDAgzagI">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBd4bmGpxVtUW7jBSLz30QziA">
+<w corresp="src:tlaIBUBd44CLiR6DkPIn8GvdzlIqvc"><unclear>𓊢</unclear></w>
+<w corresp="src:tlaIBUBd0NoU8v8d0AXpxvxaPN72ZE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdWrXZDLUHUpHtrj4TIdQ1B4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1xdx0nZb0ZSsQbHuP6HAIU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd9drdkUoyUGXobOWo1DXZtE">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWdYphhS6Eyes0XA40hppCY"><unclear>𓍑𓄿𓂋</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdy4PLh9Bt0invQgWQWPmS08">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd1263Cr230EeoB39akvK0Hs">
+<w corresp="src:tlaIBUBd0TD9ggF0kp9p8xQbAtNYPM">𓊢𓂝𓈖</w>
+<w corresp="src:tlaIBUBdyxjb9UfpEjrny7INQ8iu18">𓆓𓂧𓈖</w>
+<w corresp="src:tlaIBUBd0QEBcKgIUauvnaD9wsKE7w">𓄂𓂝</w>
+<w corresp="src:tlaIBUBdw2fRIzrl0k9gcJ0FGOjtbk">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBdWHjKvmAy0YjmWQNT2ZlC4g">𓆇</w>
+<w corresp="src:tlaIBUBd9QvOWRA40J0jq2TeljlLec">𓇋𓈖𓈖𓇋𓀀</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd86qldqKp0JVqgtWJ7llVe8">
+<w corresp="src:tlaIBUBdQ7Lz5K0Q0E4kFZHBVFrj9A">𓅭𓆊𓀀</w>
+<w corresp="src:tlaIBUBdwUvrLdI6EMoic4JmNK3gZo">𓅓𓂝</w>
+<w corresp="src:tlaIBUBdxJ1qBNdVkJrjjZ3Fj74y24">𓎢</w>
+<w corresp="src:tlaIBUBd4Zjn1SH0ETEj7gBYEhFT8I">𓏏𓏲</w>
+<w corresp="src:tlaIBUBdxO96xES10RphRuFWxqVBbg">𓋴𓆑𓐍𓏏𓍼𓂻</w>
+<w corresp="src:tlaIBUBd3ROOsOjYkhYrj3AwqdycKw">𓅓</w>
+<w corresp="src:tlaIBUBdzBKkcRzaEFHr8H2dPtKvys">𓇺𓂋𓏏𓀁</w>
+<w corresp="src:tlaIBUBdQuNovezWUhguqWwUUhTk2s">𓈖𓏏</w>
+<w corresp="src:tlaIBUBd8RyPIsM60j6iGrHMw9qTWw"><unclear>𓐍</unclear></w>
+<w corresp="src:tlaIBUBd1jn3H4jKk8UoOWDQLeHIbk"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd5Yhy7nxDEZcmUiGPWyWCGM">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxLXwzO6AkXxkIRGL6pWwM8">𓏠𓈖𓅪𓏥</w>
+<w corresp="src:tlaIBUBdW7VmQ61Bkh1moZmIIqgka8">𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd6eDO1Ds8EgOm2y1d9sKaSw">
+<w corresp="src:tlaIBUBd3HXCRyz4kDhjsRsngwP3Z4">𓂜𓈖</w>
+<w corresp="src:tlaIBUBd0glcPeGdEajlFd1fJN2TwA">𓃹𓈖</w>
+<w corresp="src:tlaIBUBd5xAMTiou0p3kL2W4jaFTDI">𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd3Y5ZRAmR0lJpRswirKhK30">
+<w corresp="src:tlaIBUBd78KW56y7kjrhSWzQAWthJ4">𓋹𓈖𓐍</w>
+<w corresp="src:tlaIBUBd7BpXfldaUBPj9aDJJiBkH4">𓎢</w>
+<w corresp="src:tlaIBUBd1peqbZiwkB2hNwoikzoBjs">𓈖</w>
+<w corresp="src:tlaIBUBd1GGWzbdqk35rkE3QQ2yW8w">𓀀</w>
+<w corresp="src:tlaIBUBd5b8QhZDJUsdpoO0tUgjswk">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBd04vEWMOek5Wrb0QnyXclMU">𓆇</w>
+<w corresp="src:tlaIBUBd34HBrBnqkxjuGIRFbnssZo"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdykcAZ8G80LloqX9HWXN9TA">
+<w corresp="src:tlaIBUBd0LoOZtfIU0aneSX1U4RRYw">𓐍𓂋𓀒𓅓𓆱𓐍𓏏𓂻</w>
+<w corresp="src:tlaIBUBd6TRpgHOJUaloETtVraSDq0">𓎢𓏏</w>
+<w corresp="src:tlaIBUBd3Y1AA7Si01OhMglZlj15zY">𓊪𓄡𓂋𓇋𓇋𓏏𓄶𓇳</w>
+<w corresp="src:tlaIBUBd2jGZz2Qs0JvhwNStlguqpU"><unclear>𓊃𓍯</unclear></w>
+<w corresp="src:tlaIBUBdxBuIaoid0iKpJojy8feeBU"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdz1zUCRonklCuLjU8hJvoGw"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd09RHM3aWUXrj8V1jGJgqrY">𓉐𓂋𓂻</w>
+<w corresp="src:tlaIBUBdxIOJxxZHktmoUaDYqMGnso">𓈖</w>
+<w corresp="src:tlaIBUBd5aPERSn0EQUioydiWntu0E">𓆑</w>
+<w corresp="src:tlaIBUBd7OCjokFvkgzjg2Eqkyf2L0">𓋩𓏲𓀀</w>
+<w corresp="src:tlaIBUBd2UF9ymC4kZoiRfJxvugI2Q">𓂋</w>
+<w corresp="src:tlaIBUBd4VQWxRPW0nXv6BjW4udO8g">𓆓𓂧</w>
+</s>
+<s corresp="src:tlaIBUBd4fSugTWVE4InXiPVEnuXV8">
+<w corresp="src:tlaIBUBdQZ4TBXWxUyQkxi5rN08jaI">𓅓𓂝</w>
+<w corresp="src:tlaIBUBd2h1Wtopg0qrg4YCy6e14JI">𓎢</w>
+<w corresp="src:tlaIBUBd8RIaeDvgULfoEK87tNIa0g">𓎗𓏲𓏛</w>
+<w corresp="src:tlaIBUBdw49fMGQqEyPhwRAnQNsKdY">𓉐𓅨𓂋𓀀</w>
+<w corresp="src:tlaIBUBd55QMoFfTUBxl93xbWtnAKU"><unclear>𓋴𓆑</unclear></w>
+<w corresp="src:tlaIBUBd1MchIZwWkbMsqfoRRgFUig"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7U7kqwJ80Sxp7qvwnhbW68">
+<w corresp="src:tlaIBUBd25p5vUkJUz9kbz3qB5klWs">𓅧𓈎𓂻</w>
+<w corresp="src:tlaIBUBdQJBJK3ZEEJosnAnFb9EsUk">𓊪𓏲</w>
+<w corresp="src:tlaIBUBdQ2BnQAy6kNQgLAglAEuGqE">𓁹𓈖</w>
+<w corresp="src:tlaIBUBd1Kso6gO9UgbjIyIFVWWhKw">𓋩𓀀𓏲</w>
+<w corresp="src:tlaIBUBd8CyQRlKHkbYhaYikENE5Us">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd6EWV9lIpkAjuJKe1dY6tBc">𓂋</w>
+<w corresp="src:tlaIBUBdwAqY9YlYENXrOWabmcI43c">𓄙𓅓𓀁</w>
+<w corresp="src:tlaIBUBd3iHJleEj0xrkPWRF4Y6w14">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBd0mQYdF2ZkdJqvamrpG3W6A">𓏏𓈖</w>
+<w corresp="src:tlaIBUBdxNPcOFGFUQVrTMWKJT0kOg">𓈖</w>
+<w corresp="src:tlaIBUBdzdQUDbmgk1WlqmSz1dYLxA">𓄂𓂝𓀀</w>
+<w corresp="src:tlaIBUBd0HRVD03U087ogDJsMxNvcI">𓊪𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyalQ5eiWEDIpllJWizsIAQ">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxQPUrYHu0nti6D3cWQzWOk">𓋩𓀀𓏲</w>
+<w corresp="src:tlaIBUBd3uYI6wKh0F9nIO7hlvS6x4">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd7kMJ4ImpkjBoQRxYRGQDUU">𓈖</w>
+<w corresp="src:tlaIBUBdQEwHst9XkKbufSlMnAI1Uc">𓅭𓆊𓀀</w>
+<w corresp="src:tlaIBUBd9rVqb0VLU8rpJ5oji84R1w">𓊪𓈖</w>
+</s>
+<s corresp="src:tlaIBUBdQWAttzedkPVrpe4GaIAnL0">
+<w corresp="src:tlaIBUBdyKsIbmkgUwsqSqRYwWh2Kw">𓅓𓂝𓇋𓂻</w>
+<w corresp="src:tlaIBUBdW2WfzkMzksErVgRdarwtu0">𓂋</w>
+<w corresp="src:tlaIBUBd9pVa0MM6EkdjEzMsyeq9TI">𓊨𓏏𓉐</w>
+<w corresp="src:tlaIBUBdWAZCUIZpkIhjz93MWixhy8">𓎢</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5f7YIFwIUfyr44dQ9lTEnk">
+<w corresp="src:tlaIBUBd1dHQXT4uErytOvNFQJeSVI">𓇋𓅱</w>
+<w corresp="src:tlaIBUBdyPjKSTOhkfCjxitoPGMfwQ">𓎢</w>
+<w corresp="src:tlaIBUBdwcAO7lYakmwtNUTNgXlWK0">𓏏𓂋𓆵</w>
+<w corresp="src:tlaIBUBd5gWgBXFjU74rKimjUCBfXA">𓅓</w>
+<w corresp="src:tlaIBUBd6pk11ifokRxhH98bqakFgw">𓅓</w>
+<w corresp="src:tlaIBUBd5PpKhEhrUe8tS9MGMga5N0">𓈖</w>
+<w corresp="src:tlaIBUBd0GrWuyTQ06CuvFUiDoQVys">𓊹𓏤</w>
+</s>
+<s corresp="src:tlaIBUBdWgvTpNpukdNoH90NwcLxYg">
+<w corresp="src:tlaIBUBdWjTWdkLUUrKkSbzMOUDq8E"><unclear>𓃹𓈖𓇋</unclear></w>
+<w corresp="src:tlaIBUBdxxZnyKa6Eajh8YrEUwCDOA"><unclear>𓅭𓆊</unclear></w>
+<w corresp="src:tlaIBUBd8uQJOg5mUFumlzunM3NEhY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxjOUlQtzEUQrx5cXGEZAJ4">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd2qF98sr9U7Ajy2oPpczD5g">𓎛𓆰𓈖𓏏𓏭𓈐</w>
+<w corresp="src:tlaIBUBdzyH2Ry500JKpbngyxFZ7EM">𓂋</w>
+<w corresp="src:tlaIBUBd8sBim5lS0oCvnKfRzVECpE">𓆳𓏏</w>
+<w corresp="src:tlaIBUBdyYemYoVek6Ko202FIBRoqw"><note>Keine Entsprechung in Unicode für V20-4-4</note></w>
+<w corresp="src:tlaIBUBd3WWzxSuyUABqgcpwG98ekg">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBdxvqQdI1nkSUryV3yAQWQKg">𓁶𓊪𓏏𓂋𓏤</w>
+<w corresp="src:tlaIBUBd7mgzcYwo09crs1CZyIrbow">𓈖𓏏</w>
+<w corresp="src:tlaIBUBdWS8KOCiM0jWrxGSW9nBsKY"><unclear>𓎛𓆑𓄫</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1bgLWZIlExoiC7rsNBS1EA">
+<w corresp="src:tlaIBUBdx8BUeedYkC1v4p24LWqkpg">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBd7XuiwFr9E1SqYfU18dJsSE">𓆓𓂧𓏏𓈖</w>
+<w corresp="src:tlaIBUBd9WFxddXRUJbgvDNQOn0QoE">𓏞</w>
+<w corresp="src:tlaIBUBd4nign60sU3hgYnrW62Po30">𓉗𓁷𓂋𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBUBdxx0jiE3hk4oqS6jZWau9So">𓆇</w>
+<w corresp="src:tlaIBUBd1EtmRrOhUu0kR4kpUfHhtc">𓅭𓆊𓀀</w>
+<w corresp="src:tlaIBUBdQFAlyRQhEN5hEpJQS7idmA"><unclear>𓊪𓄡𓂋𓂻</unclear></w>
+<w corresp="src:tlaIBUBd4LQxlVcUEMnrapyjUV1Mcw">𓂋𓏤</w>
+<w corresp="src:tlaIBUBdxEkaxc1MUSBsWWIdZPl1GQ">𓆑</w>
+<w corresp="src:tlaIBUBdQAjV0IYLkGmiVGgOqaYWk0">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBd9sQ4TeIVkkmpIh4AfmV3To">𓆣𓂋𓏏𓏥</w>
+<w corresp="src:tlaIBUBd9fslPQxGUsQnM4dEWqVXRU">𓂋𓂝𓏏</w>
+<w corresp="src:tlaIBUBdQevqIcapk1au49egHjaaGk">𓅓𓂺𓏛</w>
+<w corresp="src:tlaIBUBd7QWEvWmP0TPg6tddoQkecw">𓐍𓂋</w>
+<w corresp="src:tlaIBUBd17skiGCeUDBgzdaDpyvMuk"><unclear>𓂋𓀀𓁑𓏥</unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7tf82HH7UaQl2qlzWZgyaA">
+<w corresp="src:tlaIBUBd7qDcnq6Q0h7hjzCyNMJFkk">𓋹</w>
+<w corresp="src:tlaIBUBdWFNp6fcxEtuubrKzcv8dvY">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd6GHbnakWEBpozbWGFFFsnk">𓈖</w>
+<w corresp="src:tlaIBUBd0pFlyfeiUQPvR29c5E3YU4">𓊢𓂝𓅱𓇳</w>
+<w corresp="src:tlaIBUBd92Mn7Hau0xEqVWodSbZWcQ">𓂜</w>
+<w corresp="src:tlaIBUBd35NGveAPUMTiIIRp64Fyoc">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBdwHQUzOCWkIOipQWx7nmW3M">𓆤𓂋𓏏</w>
+<w corresp="src:tlaIBUBdWvYhQWjP0bJgx5TvWpCank"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdQrT0uPWrU17lvJ6991025k"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd6H1WrwG00hQiO9QxUUhjVQ">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6gPwtG93UiipeHpGgWMVYs">𓆣𓂋</w>
+<w corresp="src:tlaIBUBd9WeuCXQAULnrKJuprVgEws">𓁷𓏤𓂝𓏤</w>
+</s>
+<s corresp="src:tlaIBUBd2pptGEVXkltoaWtGVQeRWI">
+<w corresp="src:tlaIBUBdQdtWHcM0ksDlpXQuAJDRQw">𓄖</w>
+<w corresp="src:tlaIBUBd89yOJqhvk1vm4UgDXaiMkA">𓆑𓏭</w>
+<w corresp="src:tlaIBUBd10R82Q680XBocZMwDM3WM4">𓋴𓎝𓎢𓅪</w>
+</s>
+<s corresp="src:tlaIBUBd1CJyjvfE0zGpEe8EEdWzWY">
+<w corresp="src:tlaIBUBdyCmWX1kEEQujNGW5P0KUpg">𓎛𓆰𓈖</w>
+<w corresp="src:tlaIBUBdww4mnel30FwsKMLhJqpoOY">𓄿</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1jW2iVQ6kasp2QQANCiF4w">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6WYgbb2mkwRtsUaPjIByN0">𓂋</w>
+<w corresp="src:tlaIBUBdQJ3zP4hkU9HodadSWSAWXA">𓋴</w>
+</s>
+<s corresp="src:tlaIBUBdyznka3Qw0iPpBfQhWpKedg">
+<w corresp="src:tlaIBUBd0QPwVtT6kVkttkEh9gmY90">𓇋𓅱</w>
+<w corresp="src:tlaIBUBdWWpqYSGn0XOtCfBsSVFijs"><unclear>𓁷</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd14MqFfNj0i2nbjBEHUatZI">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWbJiZk6NUMLjvxKIJ1yM1c">𓆣𓂋</w>
+<w corresp="src:tlaIBUBd0AsCGzlLkvPu0MoQKMEpp0">𓂋</w>
+<w corresp="src:tlaIBUBd8njl80HTkr2gxNdaGzQamk">𓊃𓂋𓅱𓂧𓍼𓏛</w>
+<w corresp="src:tlaIBUBdwcnbrLkrkbOuYlx18E8ao8">𓈖</w>
+<w corresp="src:tlaIBUBdQ75MRddOU3ugPrB63hdAmI">𓅓𓆱𓐍𓏏𓂻</w>
+</s>
+<s corresp="src:tlaIBUBd8MeqRxKtEULvIpI4awx6cA">
+<w corresp="src:tlaIBUBdQFWMioKQkRRrnWJaWGJHNw">𓁹𓏏𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1JfkYqcvU4tvE7TJX0Tn2o">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyBBAYjQ806qiOa0QfJ7yjI">𓈖𓅘𓎛𓎛𓇳</w>
+</s>
+<s corresp="src:tlaIBUBd49dQsoyjEsfgEOu2pZmUnY">
+<w corresp="src:tlaIBUBdQrZzC0OE0KCo2ZLgnf3uow">𓂜𓈖</w>
+<w corresp="src:tlaIBUBd2tcGrflckKctV1Iyzr9QDA"><unclear>𓍿𓈖𓌙𓏛</unclear></w>
+<w corresp="src:tlaIBUBd97wsUVq3Ukxmsr0bOTEWUo">𓋴</w>
+<w corresp="src:tlaIBUBd0hBl7srT0BBlRda02m5uws">𓋴𓈖</w>
+<w corresp="src:tlaIBUBd7M1tRiQ1UPqvWx2VkeUuss">𓈖</w>
+<w corresp="src:tlaIBUBdQ5NqSHa2EsUkllxLQIpYck">𓎢𓏏𓏏</w>
+<w corresp="src:tlaIBUBdzjrQV7grkWkpIHwJGPUH94">𓂋</w>
+<w corresp="src:tlaIBUBdQPLscf7ZEoJiqsm3yCjtC0">𓆑</w>
+<w corresp="src:tlaIBUBd7dEio1mm0vrsqKD5bnWAJg">𓈖</w>
+<w corresp="src:tlaIBUBd2h2j2Wpa0u2jyfUvOw1Sto">𓎢</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdW5MM63kV0kytKUdkLex8Uk">
+<w corresp="src:tlaIBUBd6Df3BMWmUnqqWhFTVEEWtQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdyQR0ChhjU7sjzz6T95msuo">𓎛𓆰𓈖𓊃𓅪</w>
+<w corresp="src:tlaIBUBd4QOQUW940xvlzUaDt6OVHw">𓂝𓏤</w>
+<w corresp="src:tlaIBUBdQ7VBQRnyEZnusOi9QBywoM">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd4TJomsqoknFi80iQb7FibA">𓐍𓂋𓏏𓏛𓏥𓄣𓏤</w>
+</s>
+<s corresp="src:tlaIBUBd9d8Uqdxd0Q2sXWhzDQRCDs">
+<w corresp="src:tlaIBUBd4AWWjs3VUmWq7b9Jv1SW9Y">𓂜</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3IhERC7LEohj1rOEgrP0gs">
+<w corresp="src:tlaIBUBdwpQhQxQIEeLjFb9O7KUDt8">𓈎𓇋𓆙</w>
+<w corresp="src:tlaIBUBd6UyHAFsnUU4m11yxVGmSkg">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd5hlIforWUlSrnbN4UMbkQI">𓅓𓏏𓏱</w>
+</s>
+<s corresp="src:tlaIBUBdQKgvcFilkGkgRKEec58LlU">
+<w corresp="src:tlaIBUBdwX0pWwltkKwoVW48nBcpjc">𓋴𓎝𓎢𓊃𓅪</w>
+<w corresp="src:tlaIBUBdzo9kafuZkpziiazpHDASsw">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd2AWBbmoDUD2s6CQuFWZ57s">𓅓</w>
+<w corresp="src:tlaIBUBdziGKQO0h0XunpZQogtc6rM">𓋹𓈖𓐍</w>
+</s>
+<s corresp="src:tlaIBUBdzsSfM1EukYylZAC9qTkcTI">
+<w corresp="src:tlaIBUBd3BpzPngZ0SkqJs1Q9UoVvI">𓏶𓀁</w>
+<w corresp="src:tlaIBUBdxVvCrMtK0Ewpl1UGXvwmIY">𓄣𓏤</w>
+<w corresp="src:tlaIBUBdWRYeFtOQ02xg6QTkKwyWQY"><unclear>𓊪</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQhMDi6ko0n4tRhHNCXHUco">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1wiAFzXzU1QrP8NrDyxseE">𓅱𓍑𓄿𓏛</w>
+<w corresp="src:tlaIBUBd8M0fs7ln0FXnshafSLKCOg">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBd2NQEmZCC0heoSVkXMYMAA8">𓊃𓅭𓄿𓏲𓀸𓏛</w>
+</s>
+<s corresp="src:tlaIBUBdWYjkMXrs0QTsNaevhYCYHY">
+<w corresp="src:tlaIBUBd6zYcMXTnk1NtixGzftYroA"><unclear>𓇋</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9c8jQ883Ut5nseoieWYkPI"><unclear>𓇋</unclear></w>
+<w corresp="src:tlaIBUBd6ZdE18hGkv8pX691FvnEX0"><unclear>𓊹</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1q8hUtcyE01jpbQJ8YvMuk">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdwpmYUEjW03ng65d1j4DmTg">𓎛𓎛𓂻</w>
+</s>
+<s corresp="src:tlaIBUBdy48Q3MOsUGUvd0PvTeYMuQ">
+<w corresp="src:tlaIBUBd4WUNn8g7ULzm2KWkR6WZdY">𓂜</w>
+<w corresp="src:tlaIBUBdWnPZdCrG00XgDDwp4AwZ54">𓊃𓍿𓈖𓂻𓈖</w>
+<w corresp="src:tlaIBUBdywBNO7aEkbxlGiMmtKOkKE">𓊃</w>
+<w corresp="src:tlaIBUBd93D1RZ4jkJjnBQQItaa6n8">𓈖</w>
+<w corresp="src:tlaIBUBd1iLRW7bNEzmmUNJ4fynQFM">𓆑</w>
+<w corresp="src:tlaIBUBdwYEsV8Q3ELCrssJ64UXlck"><unclear>𓍱𓈖𓂝𓅱</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2VBZOLW40OFj70HJIXB1WI">
+<w corresp="src:tlaIBUBd0OK8X7b6UcXsEGQOe3scX0">𓇋𓏲</w>
+<w corresp="src:tlaIBUBdxk12Ybr3knbj8PJl7y4Prc">𓏏𓏏𓀾𓏛𓈖</w>
+<w corresp="src:tlaIBUBd8dSKLfh9UXlgu8FZSqw0X0">𓆑</w>
+<w corresp="src:tlaIBUBdzfCf4ONS02DgaMUDeQmzLQ">𓈖</w>
+<w corresp="src:tlaIBUBdWDEfWdrB0mmtys03ydIxzo">𓇋𓏏𓈖𓂉𓄣𓏤𓀀</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd98TZYOIJkghgQ16Bj5Aq7A">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd68hSL20k0PpvJtQ8bBvPEo">𓂋</w>
+<w corresp="src:tlaIBUBd6yECLbRbkYnvGAIMHmVOLA">𓈎𓈖𓏴</w>
+<w corresp="src:tlaIBUBd24wxpDyD0QEqFUiMmL4DgA">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd8PXbQicikAaoPxZNFeL4R0">
+<w corresp="src:tlaIBUBdzdIR0cnSUcIpMBj3EPKd9c">𓄣𓏤</w>
+<w corresp="src:tlaIBUBd1egUrrp4EVQrQqKQQy4qA0">𓆑</w>
+<w corresp="src:tlaIBUBdWwGUEql0kzwtG2tdM6ElR8">𓎔𓏛</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxctWcNl0UWJi1NsrPgQ4yo">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5GnmFNLv0Fdmb60vLipOj4">𓅭𓄿</w>
+<w corresp="src:tlaIBUBd8q4RPLqmEi2jzLXVdr8s7o">𓆑</w>
+<w corresp="src:tlaIBUBd4s1nR19z0iBk8DMa8kdfOs">𓂋</w>
+<w corresp="src:tlaIBUBd0POu7CHi0PWvMYPiEkXIpM">𓆓𓂧</w>
+</s>
+<s corresp="src:tlaIBUBd3BxZGA8qUAQr8rBdyKSBwY">
+<w corresp="src:tlaIBUBdy8od2TYaULhungPEadLiT8">𓅓𓂝</w>
+<w corresp="src:tlaIBUBd4wKiRRdu0V5uQz5hsKJ5dQ">𓈖</w>
+<w corresp="src:tlaIBUBdWEN8EhbzkQ0tXjiRwWy0yc">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd0WT642MA0nVnhjvLeyW4ME">
+<w corresp="src:tlaIBUBd1AyPC51Akaot7iUaqsBJBc">𓅓𓂝</w>
+<w corresp="src:tlaIBUBd5ZkVWGJIUCksV3BuymR8J4">𓎢</w>
+<w corresp="src:tlaIBUBd5ofDxwHx0iigtLG9u7O18I">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBd4it5k8pWkElp9RKx3Hflpo">𓆇</w>
+<w corresp="src:tlaIBUBdzxc7wpCSkMSu44IfiSFCnw">𓇋𓈖𓈖𓇋𓀀</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdwLvlcrUVEnMqxkH3twAcJE">
+<w corresp="src:tlaIBUBd13I5Cqn5UhxvyHmQkodNuk">𓆣𓏤</w>
+<w corresp="src:tlaIBUBdy8IrLWQLkWZveVzciYb4pE">𓍍𓏲𓏲𓀀</w>
+<w corresp="src:tlaIBUBd1iG0vU0I0MnkQH5t6Vg5GQ">𓅓</w>
+<w corresp="src:tlaIBUBd6w6vXdSsUQUqaJWZrhHvOg">𓇍𓇋𓂻</w>
+<w corresp="src:tlaIBUBd29t9eWO9klsrBWxjuR3Xaw">𓈖</w>
+<w corresp="src:tlaIBUBd1fmScUREkQwvs4blHEMBho">𓁷𓂋𓏤</w>
+<w corresp="src:tlaIBUBdz8fNuCj5URKozd511F0zQg">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd0RAQhJxqEFxnoJ6phoRCKo">
+<w corresp="src:tlaIBUBd4KZQEVFU0KZvUEW4xtcYSU"><unclear>𓊃𓏒𓏛𓏏</unclear></w>
+<w corresp="src:tlaIBUBd9GGgWMhG0DmiGtts6uLTWs">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd6W29x77oEHeiotZsbFXjuQ">
+<w corresp="src:tlaIBUBd1JD2y1N5EauuVAt1ATz3EY">𓂋𓐍𓏛𓀀</w>
+<w corresp="src:tlaIBUBdz5CzqevbUx5gadfPtUSwRI">𓊪𓏲</w>
+<w corresp="src:tlaIBUBdzrY1B0CP0KKg0Ps1JyPnQI">𓊃𓈖𓈖𓏒𓏛</w>
+<w corresp="src:tlaIBUBdyKg6haXZ03ztpBp7smmWnI">𓂋</w>
+<w corresp="src:tlaIBUBd3uTHS7ES0VqhP28XQ8ws1Q">𓆣𓂋𓏏</w>
+</s>
+<s corresp="src:tlaIBUBdxERUuhGREtDsbQWRIQO4h4">
+<w corresp="src:tlaIBUBd8pKtWtkd0M8jW4ZLYWoDFk"><unclear>𓎛𓄿𓄿𓅓𓅠</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd8ni0Bch4kiDrpA1x6VUS68">
+<w corresp="src:tlaIBUBdwqYIMyM9UzHioWHrJdzD8I">𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBUBdQRkD6nKuUUbgayTNyZOnmY">𓎢</w>
+<w corresp="src:tlaIBUBd1fWIWRCekMllqKmPhr6au0">𓇋𓅓</w>
+<w corresp="src:tlaIBUBdwCDGAH8rUl5syWDEw0yVCc">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd0yzbw5kbU5ZuWjQbkirVEE">
+<w corresp="src:tlaIBUBd9pcsVIe90SQs43YuQLMWjI">𓆓𓆑𓄿𓏲𓅯𓏛𓏥</w>
+<w corresp="src:tlaIBUBdwYGwmC3nEDYtZN7dUO7mDM">𓎢</w>
+<w corresp="src:tlaIBUBdQtIjOiQVUk6lhGgkBb7dPA">𓈖</w>
+<w corresp="src:tlaIBUBd9rIXXUYwkH7gcg7yGqXvYk">𓎢</w>
+<w corresp="src:tlaIBUBd7bGld2u3Uv1gmqCyL6vPDk"><unclear>𓅓𓌨𓂋𓏏𓉔𓂋𓏲</unclear></w>
+<w corresp="src:tlaIBUBd62sAmLogEqQs4byfYHMEo8"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd5uLaHjup0hTi9FeRgtz2uY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdxuwg8HEvUlDpQ2JwwRHcKI">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0QNUiz3rkeTkEWOUDvFJaI">𓄡𓂋𓏏𓏛𓏥</w>
+<w corresp="src:tlaIBUBd4vXK0Xh7EohgShdANuBlAA">𓎢</w>
+<w corresp="src:tlaIBUBd44gBKgNG0OioP8Uv3KMcKY">𓈖</w>
+<w corresp="src:tlaIBUBdy0W6deSvU9zoHfWIgmi5ag">𓎢</w>
+<w corresp="src:tlaIBUBd6ZUWs6nj0CYkaEQFWiNXOI">𓊪𓏲</w>
+</s>
+<s corresp="src:tlaIBUBd7AZv1hZMENXkvJPbCLchdg">
+<w corresp="src:tlaIBUBd3NszWm9GEsyo3qv3qwWWPo">𓅠𓅓𓎛𓁹</w>
+<w corresp="src:tlaIBUBd1x0f897C0EQsXAI7Fjskus">𓍯𓄿𓈐</w>
+<w corresp="src:tlaIBUBdyCK8PDO0U7PtcmkcPLNkL0">𓋴𓏲𓉔𓅪</w>
+<w corresp="src:tlaIBUBd08KavQUk0FZosePny8ZJtQ">𓆑</w>
+<w corresp="src:tlaIBUBdQDgycVrNEpCsZyhQ62UapI"><unclear>𓄣</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7vBVrc2A06NuO1QOKvu1HQ">𓂝</w>
+<w corresp="src:tlaIBUBd9BJotSOYkYLmd2HFBQHTaA">𓆑</w>
+<w corresp="src:tlaIBUBdynubBWXokCtvQJOcQDWQbo">𓆑𓏤</w>
+</s>
+<s corresp="src:tlaIBUBd0fDSGEIEk7kmCrWuy2Vluk">
+<w corresp="src:tlaIBUBd51zZmdrtEzzmZMQmZQ5wa0">𓂜</w>
+<w corresp="src:tlaIBUBd4LHa2WlRUB1oHmWdW7KUZY">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBd9PXrqWxQUvooTqLwAbeHRQ">𓈖𓏏𓏭</w>
+<w corresp="src:tlaIBUBdy69DH83pEHHn3nOsnTdj1I">𓈖</w>
+<w corresp="src:tlaIBUBd3yiaO9A6UcOjOJv92teZjw">𓆑</w>
+<w corresp="src:tlaIBUBd0OYBYxRQUvkk9rbSKNxJnU">𓋴𓐟𓄿𓈎𓆌𓏛𓏥</w>
+<w corresp="src:tlaIBUBd7BnHUkkUkhFtrvSwZ18Wn8">𓇍𓇋𓏏𓂻</w>
+<w corresp="src:tlaIBUBd1YzPWCJd0PZib92kDiZWA8">𓈖</w>
+<w corresp="src:tlaIBUBdQF2mytYm0jai5hV5OBTzRY">𓋴</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9t0mePg30gbv0WEH6BGRls">𓂋</w>
+<w corresp="src:tlaIBUBd3tQwjKAI0afkgEE6StkrEQ">𓋴</w>
+</s>
+<s corresp="src:tlaIBUBd4XRUg5WXUCYpgUcEiN28gg">
+<w corresp="src:tlaIBUBd3KBLLyTOEF8gkwhj2JzexU">𓋴𓆑𓇳</w>
+<w corresp="src:tlaIBUBd6AL8udzTU1wseqyJkexTjc">𓊄𓅱𓂻</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxNpZUmSEEnfiKxBFLWO32k">𓅓𓂝</w>
+<w corresp="src:tlaIBUBdWJWoJ33wECQmemcnef0ENE">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd5gIWG2Mu04ZsgYY0KVs9Oo">
+<w corresp="src:tlaIBUBdyHyuSxvN0Wzg8TKWreDFtc"><unclear>𓇼𓇳</unclear></w>
+<w corresp="src:tlaIBUBd68m4SlsTUSWmaEfQf6bGnI">𓆣𓂋</w>
+<w corresp="src:tlaIBUBdwJ9p3kADEJruCpL1wAb4JE">𓈖𓏏𓇳</w>
+</s>
+<s corresp="src:tlaIBUBdzqRHYLGX0jes5JugPTfRsk">
+<w corresp="src:tlaIBUBd7WtczhZQkJ1mPiFQgcgRQs">𓂜𓈖</w>
+<w corresp="src:tlaIBUBd8Tj7grvI0h6joL2QIF561c">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBdyCt0WyRG0kEnp1UHpNLaXM">𓊃𓐍𓂋𓏛</w>
+<w corresp="src:tlaIBUBdyXvxvQk8EhKu4l503LTXOw">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBdzyfWeBMWkQin28rQJrxE1A">
+<w corresp="src:tlaIBUBd0QIAWFxVUPxtPvN7H2k2fY">𓅓𓂝</w>
+<w corresp="src:tlaIBUBdwrWNwgCIExPjsSzsnmGMFE">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd6JX6cWe1EqFveKXIjs0Bfs">𓈖</w>
+<w corresp="src:tlaIBUBdxTi6yFuokuDq0ALy0S6WHw">𓆑</w>
+<w corresp="src:tlaIBUBdw86DBBSkUh7gIQaexYISic">𓊄𓅪</w>
+<w corresp="src:tlaIBUBdwg5BjY6VEXChaK6m4CpEgY">𓆣𓂋</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWSfsQcZT0OQoIkL3pmWizQ">𓅓</w>
+<w corresp="src:tlaIBUBdxdTOYOQok0EsWHbWpmRH2I">𓂝</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdW6TfMWX5EXrkeT2tNyQtTY">
+<w corresp="src:tlaIBUBd2UcvMYJ50JQj9OGLZ5shA4"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd8ZGLsiGzUJulq5H8PeQKmA">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBd7g9lQAkakClgidZQAu9xtQ">𓊃𓐍𓂋𓏛</w>
+<w corresp="src:tlaIBUBd9uQAOLTMEMJjtNg6Q8rcEo">𓆑</w>
+<w corresp="src:tlaIBUBdyUVp5CRD0T9sHxstQi2pB8">𓎢𓄿𓀁</w>
+<w corresp="src:tlaIBUBdwIbqdH5kESls4cUEIB2jWs">𓆑</w>
+<w corresp="src:tlaIBUBdzLXZUW7bE9mi1fRD6ffah0">𓇼𓄿𓇳</w>
+</s>
+<s corresp="src:tlaIBUBd8cuCC3wbU8AjvA7p94Ggvg">
+<w corresp="src:tlaIBUBd1fzhL5vJE0upzWBrtWDFeQ">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd4Mjovep3kcLiQyAXfQRtvE">𓃹𓈖</w>
+<w corresp="src:tlaIBUBdzfE2wRZLUzWhaY6dCfsnf0"><unclear>𓅨</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3SGNyRLK0gyp8cIZsytBxw">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdwVzjdxL4kDlkh4ApsgrjJI">𓉔𓄿𓇋𓇋𓂻𓀀</w>
+</s>
+<s corresp="src:tlaIBUBdQWa9fOaN0bslUtAYus9cL8">
+<w corresp="src:tlaIBUBd4oeTlj6Lk6DvKLwwb3Yu5E">𓍃𓅓𓁹𓀀</w>
+<w corresp="src:tlaIBUBd2J7KBn8ckA2oP32oX5zod8">𓈖</w>
+<w corresp="src:tlaIBUBdQV8WlYg6E4Ggg5INSnXbG8">𓎟</w>
+<w corresp="src:tlaIBUBd3quTPSXjEwku0DQxWyVHZc"><unclear>𓄡𓂋𓏏</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxShd0CP9kQck3TfzEPjZcs">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQfRNZu6SkzNgcWPCLVrWWI">𓅓</w>
+<w corresp="src:tlaIBUBdwubUaJI0kE3vdKQlN3N5Zc">𓆓𓂧</w>
+<w corresp="src:tlaIBUBdz2Cf11vyU0guDghTkskpr0">𓇉𓄿𓀜</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQkTUFQ400ttq21fgnCfTek">𓆓𓂧𓇉𓄿𓀜</w>
+<w corresp="src:tlaIBUBdy9FGCbQBEAMo37sKsC4raA">𓋴𓎛𓎛𓅯𓏛</w>
+<w corresp="src:tlaIBUBdQTFQNpniEOgtnOLwhCP3r8">𓂝𓍯𓄿𓀜</w>
+<w corresp="src:tlaIBUBd6ZUjSOfqk9LnVEXXfvQTDg">𓂝𓍯𓄿𓀜</w>
+<w corresp="src:tlaIBUBdyMWj58DMUCrqpHRKdcYvHQ"><unclear>𓈖𓅘</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyHdgbDIXUr6rWDZNNlMrpo">
+<w corresp="src:tlaIBUBd1Q4JPzdzUdDrCyQZfcvVH0">𓍱𓈖𓏏𓀜𓀀𓏥</w>
+<w corresp="src:tlaIBUBd2miBHpw1kUHoji0WVZQngA">𓈎𓃀𓏁</w>
+<w corresp="src:tlaIBUBdy9b5aspLkjWo0t4W67syVE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8iHVA5U2Eaoo21gdC6IigA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdw0Q50QrD0pKj72GXmZb7Dc">𓊏𓊪𓇳</w>
+</s>
+<s corresp="src:tlaIBUBd0QYczMsA0F0vgYwtjUbevg">
+<w corresp="src:tlaIBUBd5mXCwYjjkh6iVqWECW6Sig">𓏏𓏏𓀾𓏛𓅱𓏭</w>
+<w corresp="src:tlaIBUBd6RTTgP3wkRQuZ0GeQNX0ec">𓈖</w>
+<w corresp="src:tlaIBUBd4DWjmFjFkLjoFmSCFSHDYU">𓆑</w>
+<w corresp="src:tlaIBUBd6zPDpB4bEYlqaqUpf88fQ4">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd3wKgp8ss0lWuXFyymV0Trg">𓆓𓂧𓅱</w>
+<w corresp="src:tlaIBUBdykG6OWk20IYqdWwmqcJBsU">𓂋</w>
+<w corresp="src:tlaIBUBd76FxsQxr0s5mIX4uyx7vxc">𓁹</w>
+<w corresp="src:tlaIBUBdwsUvLCOwUxIulnLJm9cepA">𓅓</w>
+<w corresp="src:tlaIBUBdQjkVmHGRkjItdnz1VOngaI"><unclear>𓊃𓐍𓂋𓏲𓏛</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3ZRDXXdz0tKidiAXQUlWXs">
+<w corresp="src:tlaIBUBdQEpnnKB80dQlJdgpNdnJhA"><unclear>𓆵𓁹</unclear></w>
+<w corresp="src:tlaIBUBdQcn5PQMIE9OnaKaSJM8tKI">𓂜</w>
+<w corresp="src:tlaIBUBd0E86G3LV0WUhCPVdnOX6dQ">𓆣𓂋𓈖</w>
+</s>
+<s corresp="src:tlaIBUBd6kyOPCn40iJmg0sO5fhI8c">
+<w corresp="src:tlaIBUBd8Fy4HdAQ050sQZ9z0W4F7A">𓇋𓏲</w>
+<w corresp="src:tlaIBUBdx2gShtOMEFftWXW3RnNsjg">𓆣𓂋</w>
+<w corresp="src:tlaIBUBdWuyCojftkZSropAsxQQGNQ">𓆑</w>
+<w corresp="src:tlaIBUBd7GkaDvBQ0zCiwXYkqYnYnE">𓊃</w>
+</s>
+<s corresp="src:tlaIBUBdQhWmTqQUUDniogGrkB9QYs">
+<w corresp="src:tlaIBUBd29518AmQEsDg8stQgRVW1U">𓇋𓏠𓈖𓀄𓏛</w>
+<w corresp="src:tlaIBUBdzAMkgHzUU3ut8UsRyIQkUU">𓊃𓐍𓂋𓏲𓏛𓏥</w>
+<w corresp="src:tlaIBUBd40F3OLhv0O5kGtOMaBV7gY">𓊹𓏤</w>
+</s>
+<s corresp="src:tlaIBUBdzFjIL4olUoal2YTEZiAWaQ">
+<w corresp="src:tlaIBUBd9KQcyuMQES6gE4QSnZQplQ">𓊪𓏏𓆵𓁹</w>
+<w corresp="src:tlaIBUBd60CCo0wGUu4qkJXXJBhzFs"><unclear>𓆣</unclear></w>
+<w corresp="src:tlaIBUBd3pIW5EomU9Xkq0vWVUU6QQ">𓅓</w>
+<w corresp="src:tlaIBUBdzqqPUDtA0PBr09X6THCp3s">𓏠𓈖𓅪</w>
+<w corresp="src:tlaIBUBdw2GMb4yUEXLi2wW29l5xzo">𓂋</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdzvivYIh7UiAgRsa7MirJM0">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxICUDs25EMNj3iwW8Q3UV0"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd08ylU4LAEzGkiuWrDS2jiA">𓂝𓂝</w>
+<w corresp="src:tlaIBUBd3sgnO1IHUB6s4woW5GVZGI">𓊹𓏤</w>
+<w corresp="src:tlaIBUBd53yDKM70UO3ujXfVjPml4g">𓂻𓏲𓏏</w>
+<w corresp="src:tlaIBUBd0A9EQ9EqkIjjOF1p19jN5E">𓂜𓈖</w>
+<w corresp="src:tlaIBUBdQS0y0WmAEtOs0uFLJmKi7M">𓁷𓏤</w>
+<w corresp="src:tlaIBUBdQsiQ5WX1EdchjWk2EzBJQ4">𓂋</w>
+<w corresp="src:tlaIBUBd3S5A4z3NEmkj2Ia5BKGnYw">𓋴</w>
+</s>
+<s corresp="src:tlaIBUBd8yFvXIqvEMml3ABHgBWO3E">
+<w corresp="src:tlaIBUBd6fXEAzFPkkakeMrx3Kx6e0">𓊃𓂋𓋴𓌘𓁹</w>
+<w corresp="src:tlaIBUBd9UHKQfqRk3eosmtxptMhXo">𓆑</w>
+<w corresp="src:tlaIBUBdQR0TwdQn0LWkuxfw7gIchg">𓋴𓇥𓂋𓅱𓁀</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd96QfMr8lUeMnWyw0URgQwc"><unclear>𓉔𓅪</unclear></w>
+<w corresp="src:tlaIBUBd3rOcxWjE0Wai9xxabgvwJY">𓂜𓏏𓏲</w>
+<w corresp="src:tlaIBUBd1LuL56Qk0nrpnIXXq8iKR8"><unclear>𓎛𓁷𓂋</unclear></w>
+<w corresp="src:tlaIBUBd1QhHTDCg0GZutgvWB0WKKo"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd6qQmz97zEpbhPrzTF7eOy8">𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBUBd72EuMnQ3kdklXWqQ6qvIdA">𓅓</w>
+<w corresp="src:tlaIBUBdWLdE82gwk16oPM9XOKXeuU">𓆑𓈎𓄿𓏒𓏥</w>
+<w corresp="src:tlaIBUBd8jDtQwiC0ovm6bW3gqqjSk">𓊹</w>
+</s>
+<s corresp="src:tlaIBUBd0l8aOg2GUhGmUk5WITH34Q">
+<w corresp="src:tlaIBUBd7pDWeCYY016hWzWZ5Q7BWQ">𓂞</w>
+<w corresp="src:tlaIBUBd7yz2WJltkODoYbbTWbDcIY">𓈖</w>
+<w corresp="src:tlaIBUBd9Fha1l3l0dyoslFuFVfp2Y">𓎢</w>
+<w corresp="src:tlaIBUBdxG99xwq40FVkmChKqtPrT4">𓂝𓏤𓅱𓏭</w>
+<w corresp="src:tlaIBUBd5KUM3UQQUveogjb9APiT64">𓎢</w>
+<w corresp="src:tlaIBUBdWG3N0YEWEetmVnzHeXOcjs">𓂋</w>
+<w corresp="src:tlaIBUBd0Ima8qhz0ifqABfOaeMC3k">𓄤𓆑𓂋𓏏</w>
+</s>
+<s corresp="src:tlaIBUBd6zkYgkUPE7ljt6WwqUpI6g">
+<w corresp="src:tlaIBUBdQU1VxifSkksoRX3gyXGQW0"><unclear>𓋴𓌴</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7xlAMQ8Z04JkAq6g3hk7qM">
+<w corresp="src:tlaIBUBdWyOpD7g004AviPPHryUi4g">𓅓𓂝𓎢𓇉𓄿𓁶</w>
+<w corresp="src:tlaIBUBd2TgtFiZBEjpmsbIMFTuGW0">𓈋𓏲𓏏𓅪</w>
+<w corresp="src:tlaIBUBd0wOX3NpO00ztPLFDGWs1nY">𓅨𓂋𓏏</w>
+</s>
+<s corresp="src:tlaIBUBd7HyZ5nQkk9jn5GZMJpR6YA">
+<w corresp="src:tlaIBUBd0jbxD2WSknlm7GRHBEO0c0">𓂜</w>
+<w corresp="src:tlaIBUBd1C3pUowaksgvL2QilPWLTg">𓂝𓂋𓈐</w>
+<w corresp="src:tlaIBUBd6mu032l00QwtnjleNISaCI">𓋴</w>
+<w corresp="src:tlaIBUBd22fmKpRcUzWlrrtYQwF67o">𓈖</w>
+<w corresp="src:tlaIBUBd8rLVE2PVUZ6uCbyQXjQU0g">𓎢</w>
+<w corresp="src:tlaIBUBd5EnQvAmvUT3lUXy5e4S9Pk">𓎛𓇉𓄿</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWJzmJ3UV0C6tZJdZmuofRE">𓎢𓇉𓄿𓄿</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3jzGSo4qEppqhDlaYdWrag">
+<w corresp="src:tlaIBUBd7RP0hlqIkA2q4QDIsQM6m0">𓂜</w>
+<w corresp="src:tlaIBUBdyNonwtOiUzkvpxq2w1sHGY">𓋴𓍱𓂋𓇳</w>
+<w corresp="src:tlaIBUBd4QUyeJzvkYThpBgICuF6Xo">𓁹𓏏𓏤</w>
+<w corresp="src:tlaIBUBd9JEcOWj9kwUiUgdo3zi56E">𓈖𓏏</w>
+<w corresp="src:tlaIBUBdWU9WLa0rEKcnbuwRCjOF8c">𓈖𓇉𓄿𓐎𓄣𓏤𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd2MeeVMgnEkbjADW6vevRrw">
+<w corresp="src:tlaIBUBd96hVMWIhEUCpXvpKWpu77I">𓂧𓏇𓇋𓈇𓏤</w>
+<w corresp="src:tlaIBUBd0VpfeQmxkbqtspYkatOKeM">𓊪𓏲</w>
+<w corresp="src:tlaIBUBdweSaX120kQ5hhTdVwNUKc8">𓈖</w>
+<w corresp="src:tlaIBUBdzk8dxJxD0X1iW07SW7h3Zg"><unclear>𓉔𓂋𓏲</unclear></w>
+<w corresp="src:tlaIBUBdwZasafAh0p2grbub6qujXo"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1Vyy1ehDkhFkuvrOFhGXZI">
+<w corresp="src:tlaIBUBd5EtK5WEJ0ZCjhnOVqtbQAg"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdWjg2R7LZkyQnoWtF7UWhWM">𓆑</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7YkwbfqwkM4t0XK3WVHRlM">𓇍𓇋𓇋𓏏𓂻</w>
+<w corresp="src:tlaIBUBd8b1SJngfkmhpUqBBxnmP64">𓈖</w>
+<w corresp="src:tlaIBUBd8q4f2KGakHjjtvQPN9fZec">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBd5OeUqnWsUxgmbpucDx76kQ">𓊠𓂝𓍢𓏛𓏥</w>
+</s>
+<s corresp="src:tlaIBUBd9TWqQObFUo8gsFuRNpWsQE">
+<w corresp="src:tlaIBUBd1IZtSVGbUs9srADh76ypao">𓇋𓈖</w>
+<w corresp="src:tlaIBUBdWzODY1j0EmVtbajINNCdjQ">𓄣𓏤</w>
+<w corresp="src:tlaIBUBdzCf3d2m2ETPsYBwxopVuY4">𓋴𓌴𓂋𓄿𓌗𓅪</w>
+<w corresp="src:tlaIBUBd4NsA7Q8WEdQvJp7tfjQmyI">𓎟𓀀</w>
+<w corresp="src:tlaIBUBdwQiea0wHEKAu6UnCeBGFe0">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd5MkdjwV7k2RlneTJo1Qr4I">
+<w corresp="src:tlaIBUBd4gM6HSAFEOwtqAjuP2TGHY">𓂝𓂝</w>
+<w corresp="src:tlaIBUBdQ8kCNjkWU0rtuODeHxkeS4">𓂋𓏤</w>
+<w corresp="src:tlaIBUBdQuOKH5YuUfsnVRer43ICOo">𓌨𓂋</w>
+<w corresp="src:tlaIBUBd5IwwPW01ksCo5ha7iEDyQg"><unclear>𓊪</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdW5hHYKqD0lsrM8juDthDx4">
+<w corresp="src:tlaIBUBdxy8ewcczkVihYELbzhJpt4">𓁹</w>
+<w corresp="src:tlaIBUBdw7jwWP3mk12sftfeKz1tkY">𓂋</w>
+<w corresp="src:tlaIBUBdWxWgnbWN0QSnM7YagnNz6Y">𓂻𓏏𓏤𓏥</w>
+<w corresp="src:tlaIBUBd1wjQtX3eUO4mjS8KGTvldI">𓂋𓍿𓀀𓁐𓏥</w>
+</s>
+<s corresp="src:tlaIBUBdxEGL8TAW00ImQ30gFGO3XY">
+<w corresp="src:tlaIBUBd8il3H0NJUuurZwTFdc6elY">𓎝𓎛𓏛𓄣𓏤𓀀</w>
+<w corresp="src:tlaIBUBdwR1eNjpWk4Cv9H0JOeB3YU">𓏠𓈖𓍊𓏛</w>
+<w corresp="src:tlaIBUBdzVHczrJVUujrlCGQtd58Vc">𓋴𓍱𓂋𓅱𓏛𓏥</w>
+</s>
+<s corresp="src:tlaIBUBdzFrhXEWqkqxqwX05MRPqFA">
+<w corresp="src:tlaIBUBd81n9tO73kKBkeqaYX1pSR8">𓇋𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd0KmHfpUNErqpEfAZs3KZ7I">
+<w corresp="src:tlaIBUBd3EPpEmOFErZmrcWPpwZOCQ">𓎛𓊨𓏏𓇋𓇋𓏏𓅯𓅪</w>
+<w corresp="src:tlaIBUBd49duW0zDUl1s8uHeWTfZPs">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd32j2dyiBUZSsoOi0JQK3FE">𓈖𓏏</w>
+<w corresp="src:tlaIBUBdztEWeAQDU3piDzyHhSEDxk">𓌃𓂧𓏏𓀁</w>
+</s>
+<s corresp="src:tlaIBUBd3nWTcMtK0JijDqshMIZJLE">
+<w corresp="src:tlaIBUBd7qzh2JU9kLZlvDnWHSCFOM">𓅱𓐍𓂧𓐗𓏛</w>
+<w corresp="src:tlaIBUBd6YWu8B9ckgKuCFzAvOr2VM"><unclear>𓂧𓄿𓇋𓂋</unclear></w>
+<w corresp="src:tlaIBUBd7zPziWMKkX7vGkjfH1gAUI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd0AzHM2mzEnVtwhx2aOixXE">
+<w corresp="src:tlaIBUBd83KFESRGUMqs84PnAuh2G4">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd667S7IWrkKmo280UsHNpmE">𓋭𓊃𓀁</w>
+<w corresp="src:tlaIBUBdx71yXeuBEt5pZco4Grtzqo">𓊢𓂝𓂻</w>
+<w corresp="src:tlaIBUBd3CtT5sG9k8bgDcwi7f41Oo">𓁹</w>
+<w corresp="src:tlaIBUBdWTRbWGiqkIIgfDG7AQJG4U">𓆑</w>
+<w corresp="src:tlaIBUBd50AXrICE0EnlDqP0G6WITc">𓂧𓈎𓂋𓅱𓂷</w>
+</s>
+<s corresp="src:tlaIBUBd4G52dQW0E1Zv8p9PLzVp0o">
+<w corresp="src:tlaIBUBd2ajukU6mEdRjldxgQlJUDY">𓃹𓈖𓂻</w>
+<w corresp="src:tlaIBUBd8oostge40sAm1voN8UAZcU">𓈖</w>
+<w corresp="src:tlaIBUBd4wySr9W2EOxgX5QH1mhfzE">𓆑</w>
+<w corresp="src:tlaIBUBd7PUJIgJ5kXZq3EhPHOQJ78"><unclear>𓌸𓂋𓅱𓏏</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7Zl5z1WG0climcunev9YRk">
+<w corresp="src:tlaIBUBdw56IUsdrkX3tVgitbW9fwU">𓂜</w>
+<w corresp="src:tlaIBUBdxPi8yym5UmWjAPQ67ibJa8">𓊪𓊃𓈙𓏴𓏛</w>
+<w corresp="src:tlaIBUBdy03o4gCpET6jtqm0h0p2C8">𓎛𓈖𓂝</w>
+<w corresp="src:tlaIBUBd4LIii7UQUXZtYbbOX1ZKPQ">𓎟𓐪𓂧𓏌𓏛𓀀</w>
+<w corresp="src:tlaIBUBdxftbfBwB0WmqTs3lsoLpnM">𓅓</w>
+<w corresp="src:tlaIBUBd9QUJ89YyE9Fu9bYcRMSv1k">𓊨𓏏𓉐</w>
+<w corresp="src:tlaIBUBd9CLKLnn0kfsgB1jz3yvqDo">𓎟𓏏</w>
+</s>
+<s corresp="src:tlaIBUBd5NQrUSYyUUHrQaZxuABjwM">
+<w corresp="src:tlaIBUBd6Ci1GTBnUqkhg4CJzQI5g0"><unclear>𓂝𓃹</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd765DUzRbU3pgpDMOOmKs0c"><unclear>𓂜𓏲𓅪</unclear></w>
+<w corresp="src:tlaIBUBd3YzN3SWPEeEg4VfS9T9V6I">𓂋𓍿𓀀𓁐𓏥</w>
+<w corresp="src:tlaIBUBd0QfrwkYzkABqCWm1o57Qso">𓆑</w>
+<w corresp="src:tlaIBUBd61285qlsEsFuQOR0w7S7Js">𓄡𓊃𓅪</w>
+<w corresp="src:tlaIBUBdWQNlQrA4Ua6hqw0TNppvoo">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd5wltZjSd01ejQDDoe1QKno">𓄣𓏤</w>
+<w corresp="src:tlaIBUBd7yDqQN0W0iKvEvMIkuChgs">𓆑</w>
+<w corresp="src:tlaIBUBdy3N71DllkeOunfWGBQAvis">𓇋𓈎𓂋𓏛</w>
+<w corresp="src:tlaIBUBdyyPAQIAXE4Ov4nLNJRK7YM">𓅓𓂺𓏛</w>
+</s>
+<s corresp="src:tlaIBUBdytm0MthAU6Nt7rzhJYBDnQ">
+<w corresp="src:tlaIBUBd8ZNWl3Jw0ZVoqZ2gx6PNvU">𓃹𓈖</w>
+<w corresp="src:tlaIBUBd8WOR9CqSk4JvA71wnxYWyI">𓄖𓏏𓏭𓀜</w>
+<w corresp="src:tlaIBUBd9YvmwOWdkwCkUZdQ89MoqE"><unclear>𓌻</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5GjJX6hD0j9vdxSceJOjro">
+<w corresp="src:tlaIBUBdyCsQmxg9EcWtPVLVTGfEe4">𓏠𓈖𓏌𓏲𓏛𓏥</w>
+<w corresp="src:tlaIBUBd5m8zndkqk8sipx7XsdEZVE">𓊪𓏲</w>
+<w corresp="src:tlaIBUBdxr6pFW3hURDhSiarQojIhI">𓐪𓂧𓏌𓏛</w>
+</s>
+<s corresp="src:tlaIBUBd08acxL4uEWKtMkbm3whQtE">
+<w corresp="src:tlaIBUBdwmnsuStm0U4h46cs2AjBW8">𓄟𓊃𓂧𓅪</w>
+<w corresp="src:tlaIBUBd9RC1PklrUlRrSU3JU4p5Mg">𓇓𓏲</w>
+<w corresp="src:tlaIBUBd9VI0acNiUGdlSmApSWu62c">𓇓𓅱𓏏</w>
+<w corresp="src:tlaIBUBd9p7gMeO7ELKpu1oTmKLuGI">𓌻𓂋𓇋𓇋𓀁</w>
+</s>
+<s corresp="src:tlaIBUBd1ELQzJQjUyhnVXMdYH1lbc">
+<w corresp="src:tlaIBUBd4VE36l6I0QDg44YFYb6Zbc">𓇋𓇩𓊃𓆰𓄣𓏤𓀀</w>
+<w corresp="src:tlaIBUBd18rXStFr0VptqMShTlMHoo"><unclear>𓇋𓇩</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9wcgDsOXUjspK4oE8zVYZU">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd2JyB0hWoUyusX73c4mai44">
+<w corresp="src:tlaIBUBd83Lu3D57k6wvBywpPnGtsw">𓅧𓈎𓂻𓂋𓏤𓀀</w>
+<w corresp="src:tlaIBUBd0YcvvbuOk5tqiTGc31cAkw">𓂜𓏏𓏲𓅪</w>
+<w corresp="src:tlaIBUBdWJg4NuxaEB1txqYeXfW3bI">𓅧𓈎𓂻𓀀𓁐𓏥</w>
+<w corresp="src:tlaIBUBd1FW5sOiDUV9iNNgh1zWLkk">𓆑</w>
+<w corresp="src:tlaIBUBd6nVsm59GUMIuEIUlpDWQ4s">𓌃𓂧𓏲𓀁</w>
+<w corresp="src:tlaIBUBd9vDGiiCGUckpRPcdCqYHzk">𓅓</w>
+<w corresp="src:tlaIBUBd7yzi8m7Qk95rAjgode0pQ4">𓋴𓏏𓅱𓏏𓀾𓏛</w>
+<w corresp="src:tlaIBUBdWw9TxsfG0Pupw9vHok8W3A">𓁷𓏤𓏥</w>
+<w corresp="src:tlaIBUBd5CIum5rPEUUpWEwNPxIH7k"><unclear>𓆈</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7HOfWybzk2nrEa5kgz5G4k">
+<w corresp="src:tlaIBUBdQWwIOqpHkYSkjUj8aeDXpo">𓋴𓄫𓅱𓅱𓏛</w>
+<w corresp="src:tlaIBUBdwgqnhKj8EhxkpdhZXp9Too">𓈖</w>
+<w corresp="src:tlaIBUBdyEIPSrNWEjkgqNmiMTcrDY">𓆑</w>
+<w corresp="src:tlaIBUBd17mPRyUSkbNqVKuqscJr9Y">𓋴𓆑𓂉</w>
+<w corresp="src:tlaIBUBd6yOlqiowUCLododYY56Obo">𓅓</w>
+<w corresp="src:tlaIBUBdx3ucUGcDUhVpLx6BrwkDjs">𓊨𓏏𓉐</w>
+<w corresp="src:tlaIBUBd5OzrJgloUO9qtLW7X82lqM">𓇋𓋴𓇋𓀁</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdwWPa8EQT0sduvEUW4eQl10">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd44qcRvytUpRgrQKHhnVQJU">𓊃𓊪𓂧𓇮𓏛𓎢𓋴𓅓𓅱𓂢𓀀</w>
+</s>
+<s corresp="src:tlaIBUBdwMJvc3NI0ZXvbijRWN1CdQ">
+<w corresp="src:tlaIBUBd8CEJ1vc5EH7qQjJiH1dQEk">𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBUBdxfTI9qmw0OcqwoZY3RpLIQ">𓄣𓏤𓅱𓏭</w>
+<w corresp="src:tlaIBUBd1OFrzJEREWhmzxbG7TAQCY">𓈖</w>
+<w corresp="src:tlaIBUBd98spLRf1E9phIV1GBJTj2M">𓋴𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQZeHa0RtkWYpiNsaAekjso">
+<w corresp="src:tlaIBUBdwT7VwvjNEkrortHAjRUCrU">𓆈𓄿𓏥</w>
+<w corresp="src:tlaIBUBd2vwUZQ1tUWIgHCoF5MoMug">𓊤𓏲𓀁</w>
+<w corresp="src:tlaIBUBdwJQBeehJ0Sst1zDeWMIBQg">𓂝𓈖𓂧𓅪</w>
+<w corresp="src:tlaIBUBd1DRcgdztUrlqQAv2FQfGWU">𓉔𓈖𓏌𓏲𓀀𓁐𓏥</w>
+<w corresp="src:tlaIBUBd66hQF4SpU7rqw3iMjXyX2k">𓊄𓅪</w>
+<w corresp="src:tlaIBUBd4NFBbBheEopool0R8mBqUY">𓌨𓂋</w>
+<w corresp="src:tlaIBUBd4TshYfNv07UtETbUR44cnA"><unclear>𓊃𓊪</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9pagCauZE9ooeoCC8aLcGs">𓌨𓂋</w>
+<w corresp="src:tlaIBUBdWvFI4VihU41sv6BcQ1eqME">𓊃</w>
+<w corresp="src:tlaIBUBd2DLPX5AiEELshNTbei5JXY"><unclear>𓊪</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5YBQuNmD0bxnzQKh444vY8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd79UtOZSHEpBkbYQyR5ZjLU">𓐍𓂝𓅱𓅪𓏥</w>
+<w corresp="src:tlaIBUBdQIYXS6Im0ZIoHiEUFQFkH4">𓐪𓂧𓏌𓏛</w>
+<w corresp="src:tlaIBUBd22mw0LzekYEg5TIdz20ucA">𓆑</w>
+<w corresp="src:tlaIBUBdQtwBt71BUeBoQTqorxBBPM"><unclear>𓄿</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4QXAPckLUvyuvs9AWOXYik">
+<w corresp="src:tlaIBUBd7t7g42R7ECmr8LmuttP6SQ"><unclear>𓊮</unclear></w>
+<w corresp="src:tlaIBUBdwptDDmkHkQZhzZee6lYwgM">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd5zBYVkdjUlvvPJdJyWdLto">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBd7Qh82mqHknjitvp0SwtHms">𓈝𓅓𓏏𓂻</w>
+</s>
+<s corresp="src:tlaIBUBd1gTI4KfXUslinDWH7jjJIA">
+<w corresp="src:tlaIBUBdQonDodJhEWsjSRhy7wtJN4">𓇋𓏲</w>
+<w corresp="src:tlaIBUBdyS8jg5QUkDLvnaV8250vQ4">𓋴</w>
+<w corresp="src:tlaIBUBd0xkyiOb5Urzkm7CWTEQA4Y">𓅱𓃀𓂧𓊮</w>
+<w corresp="src:tlaIBUBd1QklpH0BE6xvCuzSQtOxRw">𓋴</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWjxrxg69k4onUv69LnSzA0">
+<w corresp="src:tlaIBUBdzXgWHGiV0PzhHQ7edIH5Ng"><unclear>𓌃𓀁</unclear></w>
+<w corresp="src:tlaIBUBd8avCYlnCUIXgese39Jvt6E">𓇋𓈎𓂋𓏏𓏛</w>
+<w corresp="src:tlaIBUBd3uVoafQNUvitVjq3wQ53wE">𓂝</w>
+<w corresp="src:tlaIBUBdzDCUV6hBEAQr61cx3KlLts">𓋴</w>
+<w corresp="src:tlaIBUBd3kydKs190fwgQHB9Ud5kq8">𓂋𓄂𓏏𓏤</w>
+<w corresp="src:tlaIBUBdWDFVlcYhEPSvXmVpnz72pc"><unclear>𓎁𓀜</unclear></w>
+<w corresp="src:tlaIBUBdxOL7GY2mEM6pRQGk3Dzgu0">𓋴</w>
+<w corresp="src:tlaIBUBdWEJQmSoQ0EjvfWlBQEpWbM"><unclear>𓈖𓍇</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxHJmhZ0pkMBgW3tkNPof8g">
+<w corresp="src:tlaIBUBd1K6jcbmLEkHrz99RideBbI"><unclear>𓃹𓈖𓏏</unclear></w>
+<w corresp="src:tlaIBUBd37VRtpWXEQegO52qAaMERQ">𓃹𓈖</w>
+<w corresp="src:tlaIBUBdQvXMdD27E9buGnMa7bHm6I">𓅓</w>
+<w corresp="src:tlaIBUBdytYI1r34UtqkJjBBYYuw0s"><unclear>𓄡𓏏</unclear></w>
+<w corresp="src:tlaIBUBdQQ0H4hEvEVTnPQ0qNchwTI">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd75YBWPUqkGumvGbhlPU1ns">
+<w corresp="src:tlaIBUBd2qpK63vz0iRiAW703QX8Ww"><unclear>𓎝𓏛</unclear></w>
+<w corresp="src:tlaIBUBdxIm9Q98ikJqkhrkvuNdI4U"><unclear>𓄣</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdwWcuZcQE0ixnaxdbBYEu7M">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1SmdA03HUIopgKiyJxqX4c"><unclear>𓏌𓏲𓊃𓅪</unclear></w>
+<w corresp="src:tlaIBUBdws96T7aJkqdoGOpFxL0gF0">𓊪𓆑</w>
+<w corresp="src:tlaIBUBdW1xEYiJREMqr9CowixnlcQ">𓈖</w>
+<w corresp="src:tlaIBUBd5WU4HsCr0QogiAiWpNKh1M">𓅓𓆱𓐍𓏏𓂻</w>
+</s>
+<s corresp="src:tlaIBUBdxVK3EBS0E3Tq1qAqK0lRzM">
+<w corresp="src:tlaIBUBd57QAfcSRUqVquM37qWC0Zc">𓏠𓈖𓅪</w>
+<w corresp="src:tlaIBUBd9JaxR3uu0OukFioQqvAxX4">𓎛𓆰𓈖𓎨𓏛</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdz9Ypjd4Hks7gGWVklTy13o">
+<w corresp="src:tlaIBUBd0iLW8VgiEWjqPRxKyUDKOQ">𓅓</w>
+<w corresp="src:tlaIBUBdwohipt5r0zvvPmt1lpnd6Y">𓅱𓐍𓂧𓐗𓏛</w>
+<w corresp="src:tlaIBUBdywavI5I8kirny5xWIP2RBA">𓇼𓄿𓇳</w>
+</s>
+<s corresp="src:tlaIBUBd1MOvx2lrUQQm4EfUWc7p6M">
+<w corresp="src:tlaIBUBdxU9o1a5WkHSrSbh1nSVK8M">𓅓</w>
+<w corresp="src:tlaIBUBd33GjeUW7UL6hQmcWsyaUBE">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBdQKh2uiJw0TkpuboE3QQ3ag">𓂜𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5UkwOVhQkmkgKCrIukWxl0">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6I5ruhsl0Quu5jXGkcSUIY">𓅠𓅓</w>
+<w corresp="src:tlaIBUBdygwE202KkGltwCW6Ut0RG8">𓎢</w>
+<w corresp="src:tlaIBUBd4WK2Wq5SEBEuoh6jdQeWYU">𓅓</w>
+<w corresp="src:tlaIBUBd6Zz13953ENkoPlV68ANEhY">𓃀𓏲𓇋𓈎𓂋𓏛</w>
+</s>
+<s corresp="src:tlaIBUBdzuCEF4dQkS3mgFItjvUtSY">
+<w corresp="src:tlaIBUBdQwlSWhR10fagx9TD4ikXaQ">𓃀𓋴𓇋𓇋𓆟𓂻</w>
+<w corresp="src:tlaIBUBd9UMgkFvdESitAqpLpQLwJc">𓎢</w>
+<w corresp="src:tlaIBUBdQh683ykEU9ckArww4tHJ0I">𓁹</w>
+<w corresp="src:tlaIBUBdxRRc8E9xkuUv3JMuCElz58"><unclear>𓆑𓂋𓏏</unclear></w>
+<w corresp="src:tlaIBUBd4tS4HAPV0NmljFM6YAtfn4">𓈖</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0S5SDsUHUWrk1j6tOEpQxA">𓇓𓅱𓏏</w>
+<w corresp="src:tlaIBUBdwuQ0jOzgUvyk2ddxa7IYpg"><note>Keine Entsprechung in Unicode für O50-2</note></w>
+<w corresp="src:tlaIBUBd2WdJfy1mUj1t3EljhzyW5c">𓁹</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd0Tb2muMH0HMhIiM61UyKCA">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd82ZJrccUkePoviPyBO5D70">𓉔𓂋𓏛𓄣𓀀</w>
+<w corresp="src:tlaIBUBd4QvbHPKyEJ5izcWej4sG5g">𓆓𓂧</w>
+<w corresp="src:tlaIBUBd9dZgYMCL00cijYFyPTiTQ8">𓂻𓏲</w>
+</s>
+<s corresp="src:tlaIBUBd9OdWNetOkuyv12Bjavef9A">
+<w corresp="src:tlaIBUBd2K7QayP8EeKnzWiFAis7QQ">𓂝𓈖𓂧𓅪</w>
+<w corresp="src:tlaIBUBd2wqo1zfF0kTuZqdAFoKan0">𓍚𓀜</w>
+<w corresp="src:tlaIBUBdzqxIzDw3U8hj3LhiPsdm50">𓈝𓅓𓂻</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5d8Y3EFuUfvhiP3EYAb4Q8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3r7yU55KEQQm2q96Az5Wm0">𓐍𓂋</w>
+<w corresp="src:tlaIBUBd2tBPkE2HUtKgIMbmuBni2w">𓂋𓍿𓀀𓁐𓏥</w>
+</s>
+<s corresp="src:tlaIBUBd7pSW2V0i0nQhL9K4GaSEbs">
+<w corresp="src:tlaIBUBdQU9UUofckjAj7w8QVyZiIE">𓈝𓅓𓂻</w>
+<w corresp="src:tlaIBUBdw1WQfmeQ0JOtf10o6GDrms">𓈖</w>
+<w corresp="src:tlaIBUBdWO8QqU9aUrrqm6sXK3Kld0">𓎢</w>
+<w corresp="src:tlaIBUBd2WhQmO2ak2ivWRD2eQg1XY">𓅓𓄚𓈖𓏌𓏲𓉐</w>
+<w corresp="src:tlaIBUBd7w4GCfCQkx1pHm3WLiaHuw">𓎝𓎛𓏛</w>
+<w corresp="src:tlaIBUBdz7sgjm9Q0TksQDpmVoBUBk"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2K5vzktkE1Htzdu66PovM4">
+<w corresp="src:tlaIBUBd9gCxkE9fkc1knCFxWqTLLM">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBd1LfDOMhL0SyqtqHpW5Jqeg">𓉐𓂋𓂻</w>
+<w corresp="src:tlaIBUBd5mF8wzaHES7mKazL7kpwek"><unclear>𓉔</unclear></w>
+<w corresp="src:tlaIBUBdW0ikgCtIEhdjGR2pNEKngM">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBdxh2KEOhekoGs6S7QvhCwyk">𓍍𓏏𓏛</w>
+</s>
+<s corresp="src:tlaIBUBd131RG47WUyeltkGxFtIez0">
+<w corresp="src:tlaIBUBdw9x0yKFvE4qslm4a6jojXU">𓁹</w>
+<w corresp="src:tlaIBUBd8iUpodHc0HKu9vEdXPpNo4">𓋴𓌫𓅓𓏛</w>
+<w corresp="src:tlaIBUBdxHTl7FuykS2m9cv5nZA6zE">𓎢</w>
+<w corresp="src:tlaIBUBd2FgDbnSNEMZoyrOGtXC4IA">𓎟</w>
+<w corresp="src:tlaIBUBd7SwwD2J9EGfhC616CE4f7E">𓏇𓇋</w>
+<w corresp="src:tlaIBUBd0KvXfiY2kIIglLVNuw3BGo">𓂧𓃹𓈖</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6HMnQ5cv06lmaac1og94ww">𓎢</w>
+<w corresp="src:tlaIBUBd8NUtlQKg0tqoT8DTdO3oDI">𓐍𓂤𓇋𓏏𓇋𓏛𓏥</w>
+<w corresp="src:tlaIBUBd38b6WpMkUdSiW5rxckbHbM"><unclear>𓎝𓎛𓄣</unclear></w>
+<w corresp="src:tlaIBUBd3U9mdQacUzyhxUa3Tt9NsM"><unclear>𓅓𓌨𓂋𓏏𓏛𓏥𓉔𓂋</unclear></w>
+<w corresp="src:tlaIBUBdWirZGoQYUnoiJfFQ4GZWIU">𓈖𓏏</w>
+<w corresp="src:tlaIBUBd43kXNgIEUGutBFQ8CSZBr0">𓂋𓂝𓇳𓎟</w>
+</s>
+<s corresp="src:tlaIBUBd2XY4jdA60JHgRUh5OEIuho">
+<w corresp="src:tlaIBUBd2quqMQGIEx9gwJtaba3Fl0">𓁹</w>
+<w corresp="src:tlaIBUBd1QJYLAWcEC4scW2TFCIH54">𓎢</w>
+<w corresp="src:tlaIBUBdw5LDUoR4kWjuh2LnFY5p7Y">𓐍𓏏𓏛</w>
+<w corresp="src:tlaIBUBd1JIG23qn0KigGdx1W43gjo">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBdWRkzns9aUDsrWHRN2L1dY4">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd3x70Q1WTEPQkc1dydj0z4U">
+<w corresp="src:tlaIBUBd6QBH6pu00CKm45QnTiOe48">𓃹𓈖𓈖</w>
+<w corresp="src:tlaIBUBd59bjphdJkYlrzpNoW1JC1g">𓎃𓏤𓏥</w>
+<w corresp="src:tlaIBUBd0obPMzJEkILvBj2OqRjoUU">𓆑</w>
+<w corresp="src:tlaIBUBd1fObwYpQUBMkEvNQcDhMOY">𓋭𓊃𓀜</w>
+<w corresp="src:tlaIBUBd4JWB7HzDUV3mLLYvtZ0730"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1R1YMYI7ElkrobDbKqxWUQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdx1kug6Nn0Pkv7Unu0uSiIg">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBdy8vqsGyOUWkuJMe9UGttew">
+<w corresp="src:tlaIBUBdQsgmWqMwUoknoiPHTWQmm0"><unclear>𓎢</unclear></w>
+<w corresp="src:tlaIBUBdQhtu51u0EgKrTLvNnQPVaA"><unclear>𓇓𓏏</unclear></w>
+<w corresp="src:tlaIBUBdWbBOPfxW0D5nQ0zIDvmR8w">𓈖𓈞𓅓𓂝</w>
+<w corresp="src:tlaIBUBd3uOdUziK0czhEsh9a0vKPQ">𓆑</w>
+<w corresp="src:tlaIBUBd6YZefqwC0E6sFEoYmaWigg"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdzJIL9oZn0LJuIfGQYOwfOk"><unclear>𓈖</unclear></w>
+<w corresp="src:tlaIBUBdwSufHbNqEdhikc1WyDDE94">𓍚𓀜</w>
+<w corresp="src:tlaIBUBdwsmii3mIUASsQtSLV4WHh0">𓅓𓂝</w>
+<w corresp="src:tlaIBUBdyguSRkQaEdVpEaqeVnGV94">𓈋𓏲𓏏𓅪</w>
+<w corresp="src:tlaIBUBdyD1ZpW6xErHmQ01atIMf3M">𓎟𓏏</w>
+</s>
+<s corresp="src:tlaIBUBd2QYIkPePUslktMGQEmjikI">
+<w corresp="src:tlaIBUBd2H4QBKVGEZWg55M2ZlW2dw">𓂜𓈖𓃹𓈖</w>
+<w corresp="src:tlaIBUBdy5n0gGd4klEim4EtmKimQ8">𓎛𓆰𓈖𓎨𓏛</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4SAUYF2Mk9llQL7isOWY5w">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3wr5X5Q4kf3uakauTI94ds"><unclear>𓄿𓇋𓂋𓌗𓀜</unclear></w>
+<w corresp="src:tlaIBUBdwfmzRJfEExHmSXK2KEwwxk">𓋴𓂋𓆑𓊮𓀁</w>
+</s>
+<s corresp="src:tlaIBUBd4QyOTTUg0QUpaNeI5o6mQA">
+<w corresp="src:tlaIBUBd4rAmM2TqUv3kDfONatr5Cs">𓂜𓈖𓃹𓈖</w>
+<w corresp="src:tlaIBUBd79OrZdbqULAmet9RPjkeLw">𓏏𓏏𓀾𓏛</w>
+<w corresp="src:tlaIBUBd7TNRj8j8U1TitfWekJvvg8">𓈖</w>
+<w corresp="src:tlaIBUBd46wXYqIeEqzh7iRybbKEWs"><unclear>𓎝</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyWJRkbrWkqTuyMrW0STLKw">
+<w corresp="src:tlaIBUBdQ50kHW5QEudv6RgQ2mPmaU">𓌴𓁹𓄿𓄿</w>
+<w corresp="src:tlaIBUBdy8WroqTuEuJsEW8Gvbxfog">𓆑</w>
+<w corresp="src:tlaIBUBd8oVDLtCMEtkpHQOQ50WcjM">𓇍𓇋𓇋𓂻</w>
+<w corresp="src:tlaIBUBdQzQVOlyvkwiohOsicGfDxU">𓈖</w>
+<w corresp="src:tlaIBUBd6ucmTqjgkSyhx3yk3KmGUM">𓆑</w>
+<w corresp="src:tlaIBUBd8xckyFtpk7Rm82VYYTtKto">𓄖𓏲𓏭</w>
+<w corresp="src:tlaIBUBd9mcony60Um6tCozUwCP50Y">𓂜𓃹𓈖𓏏</w>
+<w corresp="src:tlaIBUBd7M4vA5kOkxQuP9aDSzrD0I">𓐍𓏏𓆑𓀀𓏥</w>
+<w corresp="src:tlaIBUBd7Rogjs8F06AoLLX7TgWQco"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd79TcUSVb0ppkzKB237yI0w">
+<w corresp="src:tlaIBUBdzTeF702bkZwuSOJ5bi3SzE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1JISZGLEkeGpQlr2ab033c">𓍃𓅓𓈖</w>
+<w corresp="src:tlaIBUBd7XURsNExUqCoIfmAekLJeY">𓐍𓂋𓏏𓏛𓏥𓄣</w>
+<w corresp="src:tlaIBUBd1FA0rTEn0ggp3Uli01n9bo">𓂜</w>
+<w corresp="src:tlaIBUBdyAbb12W6kuTkVObt7NrVC0">𓎝𓎛𓅱𓏛𓏥</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdwoDW7yBlUkJqbD4w2iwxnM">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8JINCXQ40R9kxWZ0aZplMs">𓂜𓏏𓏲𓅪</w>
+<w corresp="src:tlaIBUBd7X9zVQab0C1ktizRFVWVkg"><unclear>𓂝</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3yAeHyG5k49ni9Jl6Qmuzs">
+<w corresp="src:tlaIBUBd8T9qBryp0ZKl4k1ZgbpEWg">𓐪𓂧𓏌𓀨𓂝𓈖</w>
+<w corresp="src:tlaIBUBd875z3iZOEKrphJNIdhyRdA">𓈖</w>
+<w corresp="src:tlaIBUBd8Myl7ey4kiGjPTB1HLTxH8">𓆑</w>
+<w corresp="src:tlaIBUBd6PuZuVHV0GYoOwjEQGk7GI">𓄣𓏤</w>
+<w corresp="src:tlaIBUBd3plQVoO3ksngYS1s6uJuIc">𓆑</w>
+<w corresp="src:tlaIBUBd2fLmzYXvESYukCVLuXfGAg">𓍕𓏏𓉐</w>
+<w corresp="src:tlaIBUBd7XpX0AE0UCAg8yF7QRuWpw">𓇉𓄿𓁶</w>
+<w corresp="src:tlaIBUBd5ruGDQpq0BqkYKBEC7qDPI">𓆑</w>
+<w corresp="src:tlaIBUBd014V3H0xEJwhDaFSMI6kZs"><unclear>𓐍</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2VAieNQaEwQgrphw8ERTDs">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyRfqmQCO0PYhdjdNBTtue8">𓄖𓏲𓏭</w>
+<w corresp="src:tlaIBUBd1aZCO4bz0jylnj3Xi5KCiY">𓐍𓂋</w>
+<w corresp="src:tlaIBUBd6ymZf3gV0yQuSczxk63ZE0">𓆑</w>
+<w corresp="src:tlaIBUBd1luMZlwk07RoUeFQEzivec"><note>Keine Entsprechung in Unicode für D36-N35-W24-Z7-A7A</note></w>
+<w corresp="src:tlaIBUBdWP57z45GERxuLzk00gLXlU">𓂋</w>
+<w corresp="src:tlaIBUBdyWq5SaUK0Iul1UTZVWlNGs">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBdwFU0XOsTEOWp0t2uE48das">
+<w corresp="src:tlaIBUBdzqLDiQcA0jyl7gSPgMKgQU">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd7BKiw4XfkamjFyoYQhpvyQ">𓅓</w>
+<w corresp="src:tlaIBUBd4It8OURQUN7un4uPsdR1Z0">𓄡𓏏𓏤</w>
+<w corresp="src:tlaIBUBd9W6RkiNu02Qvt8jDxYoFoE">𓂜</w>
+<w corresp="src:tlaIBUBdz6YZnW2WE5LuiXMVNGhG3U">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBdwuXGkDrDUtQl0r006yzuWs">𓉐𓂋𓂻</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5KOCRtfpUQig3H8qstQMWc">
+<w corresp="src:tlaIBUBd8p25iuQF04biV3mwJPtdeI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2WC68slS0a5rF2JTvFPkoM">𓈖</w>
+<w corresp="src:tlaIBUBd5BKbhHz9EHXsJdR8R4ScPA">𓎢</w>
+<w corresp="src:tlaIBUBdQZdZpTZaE7mm7g1AQhGUPs">𓍃𓅓𓏏𓈖</w>
+<w corresp="src:tlaIBUBd1c6tDt6S0CMpP56Xvdr1L8">𓎢</w>
+<w corresp="src:tlaIBUBd0bEmJtco0Wzqnlmzbbcmpo">𓄔𓅓</w>
+</s>
+<s corresp="src:tlaIBUBdQgxODMOuEORrtvvncPLUsE">
+<w corresp="src:tlaIBUBdQIjHjYhLkKHimSotrERdUE">𓅓</w>
+<w corresp="src:tlaIBUBdylrnCXGf00tlwAZvKZT5Gw">𓄔𓅓</w>
+<w corresp="src:tlaIBUBdyMkBzPNuUhypSRcH4n73j0">𓂜</w>
+<w corresp="src:tlaIBUBd6rRfzFXv03IoTcxSMDF78k">𓄔𓅓</w>
+<w corresp="src:tlaIBUBd7EbvY3Sf0WwjwoFdQDnS4k">𓎢</w>
+<w corresp="src:tlaIBUBd5W9J1GOXk1hv5WLGboObXQ">𓄔𓅓𓏏𓈖</w>
+<w corresp="src:tlaIBUBd5EugWpJQUh5jAjdtxsQnaQ">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBd1hblFS8TES7rz4IAQEGTdE">
+<w corresp="src:tlaIBUBd2k5fFBh60GDr7Uec02ewgg">𓅓</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4o1UaQoA08CgX1Vzgcog6k">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzuAShGPPktbiH2ymlNod5I"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdyLvYWbOu0yfjSiwFmwjAMU">𓎢</w>
+<w corresp="src:tlaIBUBdyLVgLRPvUynv84QZXQq50c">𓂋</w>
+<w corresp="src:tlaIBUBd5EXT9UF0kE2pBudh87gFMU">𓋴</w>
+<w corresp="src:tlaIBUBd5fcOl9ZXkzuoS3ycsjJW4A">𓎛𓈖𓂝</w>
+<w corresp="src:tlaIBUBdQdr58I0BEqttZakWjA8xtM">𓎼𓂋𓀁</w>
+</s>
+<s corresp="src:tlaIBUBd0QY9bY3W0dhu5b4u1g9aQ4">
+<w corresp="src:tlaIBUBdxY55V7BcEHLhFmWkZl7mZc">𓅓</w>
+<w corresp="src:tlaIBUBdQtYuHit3EhwjQt2iQngbpU">𓍲𓈖𓏏𓍢𓀜</w>
+<w corresp="src:tlaIBUBdQk6BLtGvUdLlwZmWW4Qgmk">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBd2qeJkWWAkVAhDcyLwDZDHA">𓆓𓂧𓅱</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3G0CldWfU7KpRucuQ6xw8U">
+<w corresp="src:tlaIBUBd5aEvs74ukCtsjyT7HRFTPQ">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBdyfZ5QcyW0DZgKwrPgdE1zU">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd9RTLWlP50xbrg4KoSnn5pY">𓆓𓂧</w>
+<w corresp="src:tlaIBUBd5VkNWX9ikOGp7O7NtechdY">𓈖</w>
+<w corresp="src:tlaIBUBd0svuuCOn0RvgiDIcV6yvlQ">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBd35tPVLtW0nYgLhrvloO8KU">
+<w corresp="src:tlaIBUBd46xRgORa0yugLRWSgLIuWQ">𓌻𓂋𓀁</w>
+<w corresp="src:tlaIBUBd0TMCQ9Q0EzBkwWrIkL4QxQ">𓂋</w>
+<w corresp="src:tlaIBUBdyyP1CNHY0g1vTWW5jVL7ss">𓎢</w>
+<w corresp="src:tlaIBUBdxYVuWIkr0ljiWxOTznFLfs">𓈖</w>
+<w corresp="src:tlaIBUBdQott7DpBE5Wjm7sJQOOCF4">𓎢</w>
+<w corresp="src:tlaIBUBd7h8IvWErkdhgGsGeK9PnTE">𓈖𓆓𓐩𓏌𓀁</w>
+<w corresp="src:tlaIBUBd1XIZ4XkAEV2nlrMFQJe4U4">𓂋</w>
+<w corresp="src:tlaIBUBd0NrR8wZWklBtwZIyu7hdW0">𓆑</w>
+<w corresp="src:tlaIBUBdQmAQFaWfkhOouWTVFV4jWg"><unclear>𓇋</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2apuK7tP0E8vhH2shSmt0A">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxQDPj8Ln00PkuG70gkifj4">𓅓𓇥𓂋𓊅</w>
+<w corresp="src:tlaIBUBd82pQalTYEjat1qzzppiJgU">𓎢</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyxzuROTlE6jvxpmXn2RS9U">𓅓</w>
+<w corresp="src:tlaIBUBdQHlzyoGBU6WmJq8g2Rz8cw">𓇥𓂋𓊅</w>
+<w corresp="src:tlaIBUBd4GoWuNL2E09qzQKBJXOW0M">𓎢</w>
+<w corresp="src:tlaIBUBd2UYEuZ25U2Zt8m82ygDJMk">𓂋</w>
+<w corresp="src:tlaIBUBd8CQhdYmUEwukfW3XQZ5pbI">𓂙𓈖𓈖𓏌𓏲𓃩𓀜</w>
+</s>
+<s corresp="src:tlaIBUBd51xEeKGK0MFiWNjgdAq2WQ">
+<w corresp="src:tlaIBUBd2AvnIAND0APqWeRkq68JpA">𓍚𓀜</w>
+<w corresp="src:tlaIBUBdw6XeHKw5E2MiQT03GHtYKQ">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBdyFHAK4gLEdIjcyBRasVtYA">𓅓</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxGNta9HGETQp9jXOKVQRTI">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyMVsApwfEZVkWQeaYPMY4Q">𓎢</w>
+<w corresp="src:tlaIBUBd0qg55JfbUMWteFcwedEPAw">𓈖𓍇𓏌𓏲𓍢</w>
+<w corresp="src:tlaIBUBdxJRcZH9pE2DpwR6W95Tl5c">𓆑</w>
+<w corresp="src:tlaIBUBd1AtQIloCEkNocYLlwwhMp4">𓄣𓏤</w>
+<w corresp="src:tlaIBUBdwRpBQPfTUTinUyO635OxQc">𓆑</w>
+<w corresp="src:tlaIBUBd9NWGW6uuEUIgIuPWhMoKNY">𓈖</w>
+<w corresp="src:tlaIBUBdyYpP5aC3UbllGUqDsS0ey4">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBd8znIsQRbU4UpYkBBerykhk">
+<w corresp="src:tlaIBUBdx0wz1prFUiDjhUQiQzTyL8">𓂝</w>
+<w corresp="src:tlaIBUBdyY4tzMuIEYBszpU14hIzmg">𓆑</w>
+<w corresp="src:tlaIBUBd1OimdDXYk52g0CAmRqGvKo">𓂧𓏇𓇋𓏛</w>
+<w corresp="src:tlaIBUBd70TluxhrUoRnNXjGWTAIL0">𓄣𓏤</w>
+<w corresp="src:tlaIBUBdwWBeW0EE0zetvGpBZ8CqjM">𓎢</w>
+<w corresp="src:tlaIBUBd9KDCfCBB0kzgKLTyEPErsA">𓈖</w>
+<w corresp="src:tlaIBUBdQW9t468ukrFqyvypteBkFM">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4CTAbQuCk7KqtrksWYSQms">
+<w corresp="src:tlaIBUBd5CIv69xYUpjus6vgVNKPnc">𓆓𓎛𓅱𓏏𓏭𓀭</w>
+<w corresp="src:tlaIBUBdWeEWCCCJkhrs53PKuhEkLw">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd6AQONB89k9Hhih77O4j6Vs">𓋴𓅱𓍑𓄿𓏲𓏛</w>
+<w corresp="src:tlaIBUBdyTUwBNCAUriiWQQEWJcoIU">𓄣𓏤</w>
+<w corresp="src:tlaIBUBd78vEKmP0kJhjrXtq6DAlq0">𓅯𓄿𓏲</w>
+<w corresp="src:tlaIBUBdWSg4tChtUuyvBzQH0PQZrE"><unclear>𓍯𓄿𓏏</unclear></w>
+<w corresp="src:tlaIBUBd6Zxm0BcE0hFpiMMW6gJBLA"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2xOTgwCOEMHo2j0W6NGpms"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdWkVxl61LkdLrrBQjK1X5Jk">
+<w corresp="src:tlaIBUBd10a1TFNy0citw6CA1QsfF0"><note>Keine Entsprechung in Unicode für T22A-N35-W24-G43-A1-2</note></w>
+<w corresp="src:tlaIBUBdW0Gy6y11UqBjgjds8E6LSE">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd2dDWUsQ6k2VoRHo9co88Fs"><note>Keine Entsprechung in Unicode für T22A-N35-W24-G43-A1-2</note></w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5tvzAy92kBnmF5a8AjWQjU">𓅓</w>
+<w corresp="src:tlaIBUBd0wFCr6wy0nkkoIqOSMqQnQ">𓅱𓆓𓄿𓏲𓅯𓀁</w>
+<w corresp="src:tlaIBUBd5ZFN4vvZUmSmRRdCv6wd00">𓍚𓀜𓂻</w>
+<w corresp="src:tlaIBUBdWUsGgdz7Up2tskvWsRtKKE">𓁷𓏤</w>
+<w corresp="src:tlaIBUBdyGip9TvyUPDinzxu5byr2I">𓇍𓇋𓇋𓏏𓅪𓏥</w>
+</s>
+<s corresp="src:tlaIBUBd5h9Ewbpv0mdo5vYWI6nb7Y">
+<w corresp="src:tlaIBUBd3oqIDukQEVClmfb1jvQG30"><unclear>𓅠𓅓𓎛</unclear></w>
+<w corresp="src:tlaIBUBd3FKnJCopUDxisbGEt84WGs"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdza3TJfsWkjPvPDxEW0DWN0"><unclear>𓍘𓇋𓀜</unclear></w>
+<w corresp="src:tlaIBUBdwb7hIyoCEuclotoeSCCnSw">𓊃𓈞𓅓𓂽</w>
+<w corresp="src:tlaIBUBdxUSegWjRkoMsWghI69uHlk">𓆑</w>
+<w corresp="src:tlaIBUBdxxKlES3gkEmluXZHU2Ba9o"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd2LoxeYo9UQIurNuAQf17r0">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWYkv4P8QE1rqeIly6kgBhg">𓇼𓄿𓅱𓀜𓀀</w>
+<w corresp="src:tlaIBUBd0E32oYQekmqhzNIQOhaPX0">𓅓</w>
+<w corresp="src:tlaIBUBd46wo2LjL05npRK2lrpmqYU"><unclear>𓊃𓂋𓂧𓏏</unclear></w>
+<w corresp="src:tlaIBUBd2KsXmh0zUW9oyavbvAnn8s"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdW273FQnoEQOhGBCpEtfKZg">
+<w corresp="src:tlaIBUBdxiZVFBugU4GpPvsmcwnHLA"><unclear>𓎢</unclear></w>
+<w corresp="src:tlaIBUBdQsmnZjqK0RVvQYGdLi8L6I">𓇓𓅱𓏏</w>
+<w corresp="src:tlaIBUBdyIrzZ01OkfEg93YpISgyiw">𓇋𓂝𓈗</w>
+<w corresp="src:tlaIBUBd7dOvpqrB0bOsfffUqzeCOE">𓄣</w>
+<w corresp="src:tlaIBUBdwaFa3pEu0lSrtbnXZk7CKE">𓈖</w>
+<w corresp="src:tlaIBUBd47Io2VqE00wveBtHDubaOE">𓌞𓋴𓂻</w>
+<w corresp="src:tlaIBUBd2kSrdm5WEbGtZzZC2UcteQ">𓃀𓇋𓏏𓎺𓄑𓏛</w>
+<w corresp="src:tlaIBUBd7QHF3tDMESGn3G5obl4DvU">𓊃𓀀𓏤</w>
+<w corresp="src:tlaIBUBd4nimkXVgETRoQMFRAQB8FU">𓍇𓏌𓏲</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4OFJUdglksbqT2VTLrnjQg">
+<w corresp="src:tlaIBUBdQQdrREukUG6u1NFmS1AJrA">𓇋𓂝𓈖𓏌𓅱𓀁</w>
+<w corresp="src:tlaIBUBd8fErxrtxkIiu72vgc3n8V0">𓅨𓂋𓅱𓏭</w>
+<w corresp="src:tlaIBUBd5FeXdvmsErhuioIWqE5yAU">𓉻𓂝𓄿𓏛𓅱𓏭</w>
+</s>
+<s corresp="src:tlaIBUBd7PJWgHw4EfjvWOW3kvKWH8">
+<w corresp="src:tlaIBUBdwJLv3GfeUpDgL1WEsz1lq8">𓎛𓏲𓀁</w>
+<w corresp="src:tlaIBUBdxYNDDjxTkSyoD65QdbwZtM">𓂋𓐍𓏛</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1p6frIsy0PyurmsciirZss">
+<w corresp="src:tlaIBUBd9bQwQR2bkuPuON3SS2u8NQ">𓂧𓂋𓀜</w>
+<w corresp="src:tlaIBUBd4ZNEvWJF0fLvRqsrOWSeOA">𓐍𓅱𓅪</w>
+<w corresp="src:tlaIBUBd2AbTxQoTEmAktbn6vQnorg">𓇋𓂋𓏭</w>
+<w corresp="src:tlaIBUBdWCENcxsp0yks4CknC4dXs0">𓆣𓂋</w>
+<w corresp="src:tlaIBUBd9XXjRmp50M7sZ2ptXKr0K8">𓂋𓅱𓏏𓏭𓇯</w>
+<w corresp="src:tlaIBUBdQMXbQJNl0TZp7hhu4zIPaw">𓈖</w>
+<w corresp="src:tlaIBUBd7DbySQNak6qqrYP9WmZgH0"><unclear>𓅓𓆱</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd9t5tgH8JkA2hfAeplqid04">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3LrWg54zknJqwHUL8qXKYE">𓌂𓅓𓀜</w>
+<w corresp="src:tlaIBUBd93IQqkmMEYdraxkKXY9uRQ">𓆑</w>
+<w corresp="src:tlaIBUBd6yYCXVe4EJYlkANdsSDE8U">𓂋</w>
+<w corresp="src:tlaIBUBd4tHCmYmvEwahaC2kWlDFCE">𓁹𓂋</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4CQkFyKuUOwpQBPLLanybY">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5WUTDFHWkQZo3gRSomxW40">𓅓</w>
+<w corresp="src:tlaIBUBd3HTcmzTlEuDp84Fva0Zwy8">𓎛𓆰𓈖𓏌𓏲𓏏𓏭𓀁𓀀</w>
+<w corresp="src:tlaIBUBd7wA0A6V20PqmUgUaamyfZk">𓍎𓏲𓏲𓀀</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd5WWhuNWkUWtuRsllyAQUdI">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7uuuP6BYU55ilJgVxW60tg">𓍑𓄿𓏴</w>
+<w corresp="src:tlaIBUBdwIiXeQd6k6lnBkzXuHsojY">𓈙𓈖𓂝𓏏𓏭𓍁𓏛𓏥</w>
+<w corresp="src:tlaIBUBd5yAyFQOh0bwobwedoIuZr0">𓇋𓃹𓈖𓁸𓏛</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdwXetEepeUQKgwdCWaVmiqE">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd2w5YP5MnEFQtG0MFB5TmgU"><unclear>𓄿𓊮𓀀</unclear></w>
+<w corresp="src:tlaIBUBd6mrNXTl6kQev0duZtM3qbw">𓅓</w>
+<w corresp="src:tlaIBUBd6Qv9CfH1EpnoscAt8OIDN8">𓂸𓏏𓏭𓌙𓌙𓏛</w>
+<w corresp="src:tlaIBUBdQcZdAp9Wk47jo03wkxsHLg">𓈖</w>
+<w corresp="src:tlaIBUBdyKQPXlfpkMAtUANJd0vQmE">𓋴𓎛𓉲𓏥</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWm8Z7HQpk7IpXHJVfk5ArY">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1qnzJmwIkFjjdPNWsVPcCw">𓊃𓈖𓌰𓅓𓅯𓂋𓏤𓀀</w>
+<w corresp="src:tlaIBUBd7hRo7WZZkoQlfsweVyYRT4">𓊃𓈖𓌰𓅓𓅯𓀁𓏏𓏲</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd38tmjera0Vqst4Uar1noGQ">
+<w corresp="src:tlaIBUBd5ElL20hGUcliFL7OTczY2A">𓅓𓂝</w>
+<w corresp="src:tlaIBUBd60e2W1UpEqEkjOTfL3swk0">𓍿𓈖𓏥</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxJBQ8chOEoLkLQ8LrgVTio">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd2X1CIwYi0vnpPhCLEQMBLc">𓋹𓈖𓐍</w>
+<w corresp="src:tlaIBUBd8J4tEuUCETBuCX7sWjuFDQ">𓈖</w>
+<w corresp="src:tlaIBUBd9iDb46x50eQqbvi7kgImp0">𓀀</w>
+<w corresp="src:tlaIBUBd2hWKOhulkSipthheiusd5A">𓊃𓀀𓏤</w>
+<w corresp="src:tlaIBUBd4KLQh3qHUYvoxl98Bzolmg">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd7hucHMcpUrGpZwHojmgdXg">𓂋</w>
+<w corresp="src:tlaIBUBd783jiaQzkyNsbj8RlbnYWs">𓐍𓅓𓂜</w>
+<w corresp="src:tlaIBUBdxrvYuPBPELVu8DDeRPw3y4">𓂋𓈖</w>
+<w corresp="src:tlaIBUBd5Y4i7Ik0EBdqIzP50E5EZk">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdwYnxC1oQUHDray82QUMHnQ">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQd9ovP5D0iiiLbjUSYV8SU">𓂋</w>
+<w corresp="src:tlaIBUBd9SjB2gA5UMYg0WuVL4HhOA">𓆓𓂧</w>
+<w corresp="src:tlaIBUBd3nFif4CDkMpgykwO1TCPu4">𓂻𓏲</w>
+</s>
+<s corresp="src:tlaIBUBdQBgeqTLTEqXrAcd4DDCUwE">
+<w corresp="src:tlaIBUBdyQXn7APO0Ilt2oDPI2hRTA">𓅓𓂝</w>
+<w corresp="src:tlaIBUBd5rmznb6zkO1tDUhQKiUitA">𓍿𓈖𓏥</w>
+<w corresp="src:tlaIBUBdybIiHGpaUyfufPeR7HUiuM">𓇋𓆛𓈖𓎛𓂘𓏛</w>
+<w corresp="src:tlaIBUBdygnDUN9nE2RpcQMtcylJUs">𓈋𓅱𓅪</w>
+<w corresp="src:tlaIBUBd6hJQWQWLUTvkkKSfPi1AKs"><unclear>𓐍𓂋𓏏𓏛𓏥</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd42sIkueA0mxqAwvcRk6Xa8">𓅾𓀁</w>
+</s>
+<s corresp="src:tlaIBUBdxvcW5Xt0ESkuaC7qK4XXLs">
+<w corresp="src:tlaIBUBd0HhrMymdUYTmxFmRXxWt6s">𓌂𓐍𓅓𓀜𓄣𓏤𓀀</w>
+<w corresp="src:tlaIBUBdxUs7gJuCE0UpW4rW3LLUWo"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd4Fw4bZrmEYWrGxblAcuwzM">𓂋𓐍𓏛𓊨𓏏𓉐𓆑𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd5tddMDj5kZvh97FL9jSkPA">
+<w corresp="src:tlaIBUBd55OeQMmUkx7jMJ00QO3zXs">𓄭𓂋𓏲𓂻</w>
+<w corresp="src:tlaIBUBd6curRT0RU7dhu3m4vwch3I">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBdyktw3A5502cuqxTZQcAnxw">𓂋</w>
+<w corresp="src:tlaIBUBd5YhlUIFTE1lgL4ewvQYWJA">𓊃𓆑𓈖𓏌𓏲𓂉𓀀</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdwezQdsKpE3TncS4L1dmMtc"><unclear>𓏭</unclear></w>
+<w corresp="src:tlaIBUBdQlb4NAAmkQ2nDnCGzpJSBY">𓂋</w>
+<w corresp="src:tlaIBUBdz35P98kaEzSlwRZ7RBAwK4">𓍱𓈖𓏏𓏏𓀁</w>
+<w corresp="src:tlaIBUBdx3j0uy66Ut1txN4JZlQ3Sg">𓈖𓏏</w>
+<w corresp="src:tlaIBUBd4YysGhpe0Esi8zKTeiWlh8">𓈎𓄿𓀠𓊤𓏲𓀁𓀀</w>
+<w corresp="src:tlaIBUBd0JTEhkUp0vViDixz0D4qVc">𓂝</w>
+<w corresp="src:tlaIBUBdwVHChrZUUYSkRITp9ZjFAA">𓋴</w>
+<w corresp="src:tlaIBUBd3PwQJJdKkT2txKQQzrBCFA">𓈙𓆑𓅱𓏏𓏯𓏛𓏥</w>
+<w corresp="src:tlaIBUBd0HnWRpAEULAtq1eUstL0SE">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd9OcLB6GNEadqM235s6hWeU">
+<w corresp="src:tlaIBUBdxnYJJNNbULNvDUMp8FdXCE">𓎼𓂋𓅱𓀁𓀀</w>
+<w corresp="src:tlaIBUBd334x0qpAEUooJfncYflBxY"><unclear>𓐍𓈖</unclear></w>
+<w corresp="src:tlaIBUBdQcnYKcf6U4Uj7j7qiOocT0"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdQAtHG0fLU8yvV48InvUAEY"><unclear>𓏏𓍰𓏛𓏥</unclear></w>
+<w corresp="src:tlaIBUBd2imormlZUHclBCFhAsUIHY">𓇋𓅓</w>
+<w corresp="src:tlaIBUBd9GzAVjdW0vatjEcJ78zARg">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd02RSrof1k85ma87ekONjZc">𓃀𓈙𓂐𓂋𓏤𓀀</w>
+</s>
+<s corresp="src:tlaIBUBdQ11X0jJEUGoiPaSnRkIR8c">
+<w corresp="src:tlaIBUBd5nSopbV9UGWnAjTMXzNscM">𓈙𓂋𓊅</w>
+<w corresp="src:tlaIBUBd24OO44wJ0LNh0tnKIIJW5o">𓅓𓂝𓍿𓈖𓌙𓅯𓈐</w>
+<w corresp="src:tlaIBUBd1UoxEKcV0cthlWbtXNcPRw">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBdxhH1QAX2kWtvEIil9RzqBs">
+<w corresp="src:tlaIBUBdwtc6xQDbEUPtYJDEmSiGLw">𓂜</w>
+<w corresp="src:tlaIBUBdzj0r0KkS0iZpwgMtg113E4">𓄖𓂻𓈖𓏏𓏲</w>
+<w corresp="src:tlaIBUBdzvigh4tLUWZtskngqWFpKs">𓆑</w>
+<w corresp="src:tlaIBUBdyAQiwbXCUfZsAsCigHnNvo"><unclear>𓐍</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdzyUziPz50W8kC0WcQ6m8fc">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8GGeQvAFUOrmNvkDpdXB0o">𓊪𓏏𓂋𓆵𓁹</w>
+<w corresp="src:tlaIBUBd3H1vyhr3UlUjn5MXNtaS24">𓅓</w>
+<w corresp="src:tlaIBUBd2QWxgiOaUmbhPoz8A2eXEU">𓁹𓏏</w>
+<w corresp="src:tlaIBUBdw0hsW6HaEhWkfYViPRv42Y">𓊃𓐍𓂋𓏲𓏛𓏥</w>
+<w corresp="src:tlaIBUBd3JOUrEJOkoQugfSfAt1CNE">𓏌𓏤</w>
+<w corresp="src:tlaIBUBdzV3iLwWHEvngGcsrGikfGY">𓁹𓏏</w>
+<w corresp="src:tlaIBUBd2mhzS3HTUICtVh8CDQcL9I">𓆑</w>
+<w corresp="src:tlaIBUBd7IltrVJqkX1iOSbtSn0wJM">𓁷𓏤</w>
+<w corresp="src:tlaIBUBdzO139PoVUCWuwUhGZvWLLc"><unclear>𓊃𓊃</unclear></w>
+<w corresp="src:tlaIBUBd0uRfXXP9kRLk29ttKR1QGo"><unclear>𓁷</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd0HYusnOvEDoqkpD7gzIcsw">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd2Mv7niWv0lgnNxD2XQAy4Q">𓇼𓄿𓀜</w>
+<w corresp="src:tlaIBUBd8F9QM2HwUmYmF7m3BgwbKQ">𓆑</w>
+<w corresp="src:tlaIBUBd215NP8WCk2cjxMpctDTpJE">𓂋</w>
+<w corresp="src:tlaIBUBd6WkYVNZx0sUoGDqy1WMylk">𓅱𓊃𓆑𓅬𓂻</w>
+<w corresp="src:tlaIBUBd75f8DTqQUSlsGQFSu9Ik4o">𓂜𓏏𓏲𓅪</w>
+<w corresp="src:tlaIBUBdwErWkU2bkpQsCPx6juiLx4">𓊏𓊪𓂝</w>
+<w corresp="src:tlaIBUBd0lyuCWoF0NWq5uSdzY1wL4">𓆑</w>
+<w corresp="src:tlaIBUBd0ErkFIOs0jgnFUpNeJHdQg"><unclear>𓋴𓎛</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2azFlBEB0LPguEOchOPckw">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1qEx6BcWEsjlySTBt5D5mI">𓂋</w>
+<w corresp="src:tlaIBUBdw2LDJgczkxNjdsnY1uu68M">𓁷𓏤</w>
+</s>
+<s corresp="src:tlaIBUBdW4oDc7yEEV5vHHFJAGtmF0">
+<w corresp="src:tlaIBUBd0A3UlsAfkQ3uhXzCDbD1IQ">𓂝𓍯𓄿𓏴𓂻𓈖</w>
+<w corresp="src:tlaIBUBd1NPbwvJn0WjmWB61FTJieU">𓆑</w>
+<w corresp="src:tlaIBUBdz6HMyKW80qAmF9FAyZHzRA"><unclear>𓃀𓏏𓍔𓄿𓏲</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd68I3UoNnEuwkaZZjQxWtiU">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd76oeGhGPkKzgRlALvSDdXA">𓇼𓄿𓀜</w>
+<w corresp="src:tlaIBUBdxaTPkKME0OQkNAGNP58Sbg">𓆑</w>
+<w corresp="src:tlaIBUBdWU5cXmpq0i6rJHB4B0YHzU">𓈖𓇋𓎢𓂢𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd3SIrb1pdEeKk0UVWJMMuSE">
+<w corresp="src:tlaIBUBd12Ts1Si8Ebstk6pDwq1B24">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd49BVJyTg0n9towTaeVdlrQ">𓅓</w>
+<w corresp="src:tlaIBUBdQIgHavUnUrwvWFI5avhB5Y"><unclear>𓄿</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2Or3iQIWkw3pCCbGm2yfeI">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6JKxsDSc04vrtM2MOBuFgU">𓅱𓀀</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd90QilfYz0PCvb0XcnmWJL8"><unclear>𓅱𓀀</unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7ubnuimWEf3gJM4ced2iFU">
+<w corresp="src:tlaIBUBdQpOH31Zs0cJpBQqoiaXOXo">𓅓𓂝</w>
+<w corresp="src:tlaIBUBd4Dj3dkJ5EqroenMebiSddc">𓍿𓈖𓏥</w>
+<w corresp="src:tlaIBUBd0WueWIxE0UBsJGHKO1QZck">𓉔𓄿𓃀𓂻</w>
+<w corresp="src:tlaIBUBdxOkcUvZb0WOk9ZGVt1eioQ"><unclear>𓈋</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyRKCa6z3EKNieYnL1MBZQg">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdypjSLCQPUfYpq3P6weXYDo">𓅓</w>
+<w corresp="src:tlaIBUBd6pWBemQbEyWhFokyZuj0co">𓏶𓅓𓂺𓏛</w>
+<w corresp="src:tlaIBUBd0H2bSYtZkFyshWq1eyzfr4">𓇋𓂝𓈗</w>
+<w corresp="src:tlaIBUBdW2PeJ33Hk8GpcW1Kl0xKS0">𓄣</w>
+<w corresp="src:tlaIBUBd9l7IWK0SUPPlrX3syZQJPg">𓈖</w>
+<w corresp="src:tlaIBUBdyMZ0WQh4kIwqOSclI5bkMs">𓇍𓇋𓇋𓏏𓅪𓏥</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd9KJzWrx6U2fifPyGIA9600">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzTd2tPbWEwDiiHplCVmkMw">𓆣𓂋</w>
+</s>
+<s corresp="src:tlaIBUBd7fAQTCVC0KeihNzVfX2WMw">
+<w corresp="src:tlaIBUBdWFo0tJAf0WWpYEgqNcUqpw">𓂜𓈖</w>
+<w corresp="src:tlaIBUBd0G5OFe6ZkxAt7JplZsgyK4">𓇥𓂋𓂝𓏤</w>
+<w corresp="src:tlaIBUBdW24Ot5cMU5JsAQWCCqMewo">𓊃𓐍𓂋𓏲𓏛𓏥</w>
+<w corresp="src:tlaIBUBd79DLqpJfkEyviG7xHh4YG8">𓊃𓈖𓌰𓅓𓇋𓇋</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2sYi6WmiUs8udGTQ1bitQM">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzBXe9LXf0WKvDc9JQ5OPvw">𓌴𓐙𓂝𓏏𓏯𓏛𓏥</w>
+</s>
+<s corresp="src:tlaIBUBd6PuxCVIZk5rg47yaZGTQ3E">
+<w corresp="src:tlaIBUBd0BijGroL07Tkt4ZVVQ32E0">𓂋𓏤</w>
+<w corresp="src:tlaIBUBdzyw06ekhkOSgpEu7wi5TDY">𓎟</w>
+<w corresp="src:tlaIBUBdz6jQuI4OEW0kwt5SRY7VAM">𓎔𓏛</w>
+<w corresp="src:tlaIBUBdzARzluyak7NkfVgqCrkZn4">𓅓</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQ2PqzFYPUVLkQ7nA0P3fwk">
+<w corresp="src:tlaIBUBd7ID3GQaBU87j1bTOwxCX1I">𓇋𓋴𓆑𓏏𓅪</w>
+<w corresp="src:tlaIBUBd8IQqn3HREZigRsiURMJlAY">𓆣𓂋𓏏</w>
+<w corresp="src:tlaIBUBdwDWrPtwKkt6s0V5Sn3LwdA">𓐍𓂋</w>
+<w corresp="src:tlaIBUBdy6qWdEVIEDSuT9cNPVo6Ik">𓋴</w>
+</s>
+<s corresp="src:tlaIBUBdy665PEavkozmkwshRS0fcY">
+<w corresp="src:tlaIBUBdQJiIlZhKkyqofCyd6mYZno"><unclear>𓊃𓌰𓅓𓅱𓅯𓂝</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyVWW9n9TEkXnGq1tixX918">𓎛𓊨𓏏𓅓𓅪</w>
+<w corresp="src:tlaIBUBdyzcClFN3kRzsrCG2XXaCfA">𓊄𓅪</w>
+<w corresp="src:tlaIBUBdQtFXCqwWE91tOWfDXFxkxw">𓋴𓎛𓃀𓅱𓊡</w>
+</s>
+<s corresp="src:tlaIBUBd1f5gHTGyUEKoIBh6k5MlZs">
+<w corresp="src:tlaIBUBdw3SxgTDUEZIhcSZTez0jZY">𓂜𓃹𓈖</w>
+<w corresp="src:tlaIBUBd19rFrkpZkC7j7eRo4NFfEk">𓈖</w>
+<w corresp="src:tlaIBUBd0MJAKkU20pModWWGjfuWF4">𓋴</w>
+<w corresp="src:tlaIBUBd0uWibtjoEidhbdiHfIrbXI">𓁹𓅱𓏥</w>
+<w corresp="src:tlaIBUBd0hJijQaTk9Buq7kAzzmeeA">𓐍𓏏𓏛𓏥</w>
+<w corresp="src:tlaIBUBdwGwyWorA0QWqrwNtTU8gfo">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBd1WO5gKwn0lsvKELcaw5M3w">𓋴</w>
+<w corresp="src:tlaIBUBd8iTbmLLKUDxqGPt7sAwi1Q"><unclear>𓈞𓅓</unclear></w>
+<w corresp="src:tlaIBUBdzyBm9M0HU7DtVD4CsYPkgE"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdzYQSznVWUjnjTXQysKL7fI">𓎛𓈖𓂝</w>
+<w corresp="src:tlaIBUBdy3pY6j8dEjYknQmzEtD0hc">𓆞𓄿𓎢𓅱𓀜𓄣𓏥</w>
+</s>
+<s corresp="src:tlaIBUBdQdQEFtwHEP4r9aed6Yi7LE">
+<w corresp="src:tlaIBUBdxUlAqbNx0iQsl7eGqiglw0">𓊪𓎼𓄿𓂘𓏛</w>
+<w corresp="src:tlaIBUBd0doxirKBUIRsvIOJBjLXMQ">𓁷𓏤𓏥</w>
+<w corresp="src:tlaIBUBd7fFIlOe8ETJiqWSjjdJ6Q0">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd2Eg9JqgE0NPsOSaIRHqGrE">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBd1mIutzCNUJ8ihm4VI1CWPs">𓏏𓏏𓀾</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQAHL2YLuE6fhVmPubnAyZI">
+<w corresp="src:tlaIBUBdwlf7SniJEs1qvawQBWOlMg">𓄡𓏏𓏤</w>
+<w corresp="src:tlaIBUBd1hCMTMomk7QvBH2A52RWlQ">𓊪𓐍𓆼𓄿𓏏𓍸</w>
+<w corresp="src:tlaIBUBd473uQwdK0uCmGDoNB9ebjo">𓃀𓈖𓂋𓇋𓇜𓏛</w>
+<w corresp="src:tlaIBUBdQpDKEOx40gGqIJpJInyA4k"><note>Keine Entsprechung in Unicode für T22-T22-Y11</note></w>
+<w corresp="src:tlaIBUBd2QgCWUUDkznv19p6dmiI7Y">𓇉𓄿𓎼𓏛</w>
+<w corresp="src:tlaIBUBd1pTkOb4okiQpiOQQQPoHAA"><unclear>𓐍𓈖𓌰𓋴</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWofba9NKUWohIBsnD6V5UM">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdwi7CBIWDEZEl85sR1tTIp0">𓈖</w>
+<w corresp="src:tlaIBUBd3X0gLO6EEKWvlq3QEnfD1U">𓅓𓆱𓐍𓏏𓂻</w>
+</s>
+<s corresp="src:tlaIBUBd0UluoQeu0hfhKsPLSSWyQ0">
+<w corresp="src:tlaIBUBd1CuBi3L4E4kppltQFS4oUo">𓆣𓂋</w>
+<w corresp="src:tlaIBUBd6KadOk1tkDWlW2mQMWk9Rs"><unclear>𓊪𓄡</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2aHhHd1Tk0nq3UjYDVlOUE">
+<w corresp="src:tlaIBUBd0XaFdWRp0l8g2BeDsAEM80">𓇋𓂋𓏥</w>
+<w corresp="src:tlaIBUBd28pJ9JDrUqmloR1ayK0L7g">𓌃𓂧𓏏𓀁</w>
+<w corresp="src:tlaIBUBd9V6WjUIQ0QKppVXYo1s8Tg"><unclear>𓐍𓏲𓏏𓏭</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1okdFxUk0ByhvoxNejEraU"><unclear>𓅓𓂜𓀀</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9KoIUJgWkUVlBBoWFCF7Ys"><unclear>𓐍𓏛</unclear></w>
+<w corresp="src:tlaIBUBd5rQMVg97U5Tj16Auu1v5Qk"><unclear>𓄔</unclear></w>
+<w corresp="src:tlaIBUBdwaD8rx2x0S3uRXyFad0lgY">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd52W98iku0Ippw6lU8DRUmE">
+<w corresp="src:tlaIBUBdzZebem2oUyQpUGn0kKLqDw">𓆈𓄿𓏥</w>
+<w corresp="src:tlaIBUBd1dBk1kWCEocg6nYtpkFyhs">𓊪𓏲</w>
+<w corresp="src:tlaIBUBd82b78piI0zHiDpGkp4534k"><unclear>𓄣</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyKbb6iEWkjwo5JnVmZfUZg">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6kiFFFKAEPOqqYHSpHa0JA">𓁹𓏏</w>
+<w corresp="src:tlaIBUBd7nUz6Z5u0NlnYPo8zpkZio">𓌴𓐙𓂝𓏏𓏯𓏛𓏥</w>
+</s>
+<s corresp="src:tlaIBUBd7AnCO9Q1ERCtLuGE3YgEks">
+<w corresp="src:tlaIBUBdWpDXOHO8k2plwFQ3FCF93w">𓇋𓅱</w>
+<w corresp="src:tlaIBUBdQ5QsixHq0WRuyZBD1WB9AQ">𓄤𓆑𓂋</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1ZpLTMJNkt1h6WpLkp4G1A">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd95EEIcx0UDUonsAkEa6UpM">𓂜𓈖</w>
+<w corresp="src:tlaIBUBdWJpcJP1zEkQi91dENJmIx8">𓁹𓏏</w>
+<w corresp="src:tlaIBUBdwnWiiQMTEDyvzOaQVkLDlo">𓏇𓇋𓏛</w>
+<w corresp="src:tlaIBUBdwgWCOcdL0bEhdJbluGQdEc">𓇋𓏲</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdW6Tiku0mU6Sk5ZqpgwhfoQ">
+<w corresp="src:tlaIBUBd3iziUcVMk3GtcQG3eIFCDs">𓁹</w>
+<w corresp="src:tlaIBUBdxXn2G0UBU9mioQm4iWUA3Q">𓊃𓀀𓏤</w>
+<w corresp="src:tlaIBUBdx3Q3Wo7Z0DRjPQBQOSkQlg">𓅓</w>
+<w corresp="src:tlaIBUBd6Q9FbJxy0dfkL9rrDB5YRg">𓐪𓂧𓏌𓏛</w>
+<w corresp="src:tlaIBUBdyXKrIIKPE09pkSVBvC4vAs">𓆑</w>
+<w corresp="src:tlaIBUBd4Z92AMwy0RFghmCI4oIjFg">𓂜𓈖</w>
+<w corresp="src:tlaIBUBdyl1uRTopktmtAWWqUpvrWg"><unclear>𓉐𓂋</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWLUS536XEcKmiN3RMWzY60">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5XDw1EIr0QZnG8GclmMxTA">𓆭𓅓𓏏𓏛</w>
+</s>
+<s corresp="src:tlaIBUBdxV2PxKu6Ukcnlf3N12O8Cg">
+<w corresp="src:tlaIBUBd19bSf3UsEjAjB4F3ZAZiIM">𓅨𓂋</w>
+<w corresp="src:tlaIBUBd5wpIC81E0d8pOtOzfH7MOw">𓌨𓂋𓏏𓏛𓏥</w>
+<w corresp="src:tlaIBUBd0QGo4Q6S0lYhGM5EazOykY">𓇋𓅓</w>
+<w corresp="src:tlaIBUBd9gfCZ3eQ0SilQUchGQjME0">𓆑</w>
+<w corresp="src:tlaIBUBdzuqBvPWFkSWkVlFxPzetrU"><unclear>𓎛𓎿</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7fOwTFK50XEvzcgU112H8M">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyab9BEhhUW5s8jkk6jniwo">𓅓</w>
+<w corresp="src:tlaIBUBd6vMc9ZQrEG3pTCcNzCyqPk">𓊠𓂝𓍢𓄣𓏤𓀀</w>
+<w corresp="src:tlaIBUBd3IXnjU1bERrrhHEff6VStM">𓍿𓈖𓌙𓅯𓏛</w>
+<w corresp="src:tlaIBUBdyE0lROx3kkyobWoI2zHv2Y">𓂋𓏤</w>
+<w corresp="src:tlaIBUBd8zHzsMy70xRhV74W9PktPc"><unclear>𓇉𓄿𓅱</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd9JBOubKyk9mtcIJwC1M5rY">
+<w corresp="src:tlaIBUBdW6kUfNAP0rxsAf0gQu8UgQ"><unclear>𓄤</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9B2TryJyU3Cl2RG5b1gnSY"><unclear>𓐍𓍊𓏛</unclear></w>
+<w corresp="src:tlaIBUBd5qU6EuxP0RQkyjHQGFyaV4">𓂋𓐍𓏛</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQQEevg8FkrrpHNzsKUAHQk">
+<w corresp="src:tlaIBUBd9QWhrzrmUUxgxfuhe7e6Pc">𓎛𓆰𓈖𓎨𓏛</w>
+<w corresp="src:tlaIBUBd83W9QWJHkNgsED9CaTxjvs">𓂝𓏤</w>
+<w corresp="src:tlaIBUBd2VOQq8Q2U0Ki7mbpHGTxfU">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBd3uZSuvtok9ytoKSa7nrWW0">
+<w corresp="src:tlaIBUBdzFqxFha10uipCVAH7mBjZM">𓋴𓐟𓄿𓈎𓆌𓏛</w>
+<w corresp="src:tlaIBUBd5XPsFmI9075snOCnM2hvVQ">𓄣</w>
+<w corresp="src:tlaIBUBd9RDuhUPR0uekTZSAy9NrWk">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBdzpIV81jWk1rvZqWZpOJBPo">
+<w corresp="src:tlaIBUBd5aQ17YUREe8kg6QHKmOD3E">𓐍𓏏𓅓𓋩</w>
+<w corresp="src:tlaIBUBd9RXWomOW0AMiWH1i6LI2AI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1qEY11gC0WCkyG7hOvBCuI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdxA8xhuLzE80mdIkLrL1zCo">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQJv1T5SJENRtnlaXGFgSQM">𓇓𓅱𓏏</w>
+<w corresp="src:tlaIBUBd2VXPRDkSUMFstYL1Qn8Xxk">𓏠𓈖𓐍𓍊𓏛</w>
+<w corresp="src:tlaIBUBd4gDZqVWWUk9jhIcfVWgqno">𓁹𓅱</w>
+<w corresp="src:tlaIBUBd6yyPONQmEDMtdcDmCL1wVI">𓐍𓏏𓏛𓏥</w>
+<w corresp="src:tlaIBUBd1W9a53MfkC9rz2TY0BDlEs"><unclear>𓏏𓆑</unclear></w>
+<w corresp="src:tlaIBUBd8V71KyrGkpZqa1uR09hWbw">𓋴</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdx9JVKMr80lVuIc1W9adddw">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3ZJ2KnSgEP4lbbpVDGkHlU">𓆑</w>
+<w corresp="src:tlaIBUBdyPlZWQfOUHXlWBGmojiAz8">𓎼𓂋𓀁</w>
+<w corresp="src:tlaIBUBdxQwPBYWzEKYvd3DIL9cHQw">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBdxXdtS0meUvWooWPXS6ErcU">
+<w corresp="src:tlaIBUBd9IksrfRU0zsg8ZjHN2MFLE">𓈙𓂋𓅪</w>
+<w corresp="src:tlaIBUBd0gAJAKWbkCqlYG9VLQ4cOA">𓌴𓁹𓄿𓈖</w>
+<w corresp="src:tlaIBUBdQj5jzQyAUjoidzgtmAqRfM">𓆑</w>
+<gap reason="lost" />
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3FkGQb7VEfvh1rCOMs9pp8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6yPmX2WOkKQuuoUfS4hh0g"><unclear>𓌃𓏏𓀁</unclear></w>
+<w corresp="src:tlaIBUBdx5xdPHuyEoHnWFG5N6GkPA">𓆅𓏲𓅪</w>
+<w corresp="src:tlaIBUBdWqnOhlAQE1Vqw5mpY9OzfU">𓅓</w>
+<w corresp="src:tlaIBUBd1Djl1LMh0WLrhpm4p2yEi8">𓏎𓈖</w>
+<w corresp="src:tlaIBUBd3BKpxWoHUxGsa7JHGO3YCA">𓂋𓏤𓀁</w>
+<w corresp="src:tlaIBUBd5ckZZCDGUsnrhd2yFXhImY">𓂋𓂝</w>
+<w corresp="src:tlaIBUBd6W3W58QwUWggaCWTrWW394">𓅓</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQEXqQaR70PZpCwlvOtaU7c">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3QKbNSQWkqTiug3u9kRRLc">𓎟</w>
+<w corresp="src:tlaIBUBdx7qaBuGVU8HjSdQqt96lgI">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBd34u0Ilbmkahp19IUVnbpKc">𓐍𓂋𓏏𓏛𓏥</w>
+<w corresp="src:tlaIBUBd5QqKl0mhEGwrjLQ5OnAweQ">𓊃𓍯𓄿𓏴𓂻</w>
+<w corresp="src:tlaIBUBdwdkKjJ44EFJuuYIOJNxXgg">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd4U2fF7Hm0PbiT83s9tb958">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd3de9h7WWU5pjI8V9vHDGTY">𓆑</w>
+<w corresp="src:tlaIBUBd4CnHE0S3ktQu8lsvDehUqk">𓈖</w>
+<w corresp="src:tlaIBUBdwGteezppEWouOt7u7kY100"><unclear>𓈖𓇥𓂋𓅱</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3EV2DekxkRWjtyQEIN9QaM">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0ue45Tz4UzmoUC93L9QN0E">𓆅𓅱𓅪</w>
+<w corresp="src:tlaIBUBdx2oS0rGjUD8kA4Bmf7vJJw">𓇓𓏲</w>
+<w corresp="src:tlaIBUBdwCbrJlbtk6chyMFOA15mWs">𓅓</w>
+<w corresp="src:tlaIBUBd82cKlqFVkdQuETyTbzSmAk">𓇉𓄿𓏏𓐎</w>
+<w corresp="src:tlaIBUBdzO88QH2YkGGifgP4fl6G3s"><unclear>𓄣</unclear></w>
+<w corresp="src:tlaIBUBd7Vaz3F3kkaPvLRu4ozO0GY">𓂋</w>
+<w corresp="src:tlaIBUBd1hldlRYrkthtlsxK1qEUl0"><unclear>𓇋𓄿</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd7HJ1gq6Y0PyuIJyQyB1vBQ">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyw185BtakV8j6r8Ag7U40c">𓂋</w>
+<w corresp="src:tlaIBUBdxZmataYT0Bqhm70lwDAAX8">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd9Gk0Q9NrURihrH1CJ66wA8">
+<w corresp="src:tlaIBUBd3AQ2n2tfEvOhDNjya1TSGM">𓂜𓃹𓈖𓏏</w>
+<w corresp="src:tlaIBUBdwNa5vQAl0jomSfliTtuOUQ">𓇋𓋴</w>
+<w corresp="src:tlaIBUBd5QE1nQgPkLSjim4f4DBrnM">𓃹𓈖𓏌𓏏𓇼𓏛</w>
+<w corresp="src:tlaIBUBdWknwtBaX0ZklVa3iuFOnYw">𓆑</w>
+<w corresp="src:tlaIBUBd7w5gayVx0oPkZguu2iCO6s">𓇋𓏲</w>
+<w corresp="src:tlaIBUBdztrW3MilUfUmTYAYZ3bpVQ">𓆑</w>
+<w corresp="src:tlaIBUBd1ydhZNHSkKnucYaMQ0Hgao">𓂋</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWpJcLsqDUSlpQ9txeS1HHo">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8rmBwdzpkelkV0RCJxQMXA">𓂜𓃹𓈖𓏏</w>
+<w corresp="src:tlaIBUBd2wymZkfwEBjtUmWcVckvpE">𓇋𓄿𓏏𓊑𓏛</w>
+<w corresp="src:tlaIBUBdwOd3tch3k7og51r76XWzQw">𓆑</w>
+<w corresp="src:tlaIBUBdwto5JaDDUe5n0KCrDPlGYo">𓃹𓈖𓏌𓏏𓇼𓏛</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyfISyvQAU3Qj8NQsLPIo0A">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0RWf7Eu6UAwgwn8UQyTUcY"><unclear>𓄿𓅓𓂢</unclear></w>
+<w corresp="src:tlaIBUBdWMLof1XB0yHhUSAdCDoKBE">𓂋𓏠𓈖𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd6zg0vxhYUqKuFBw7PvzqIs">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9B1zO00q0mOqHRjVLXSlOY">𓆑</w>
+<w corresp="src:tlaIBUBd9ibkaYrtEhrtWOAQWME2H4">𓇋𓅱</w>
+<w corresp="src:tlaIBUBdyd1fAktykkvjTQOJV1LjFE">𓈖</w>
+<w corresp="src:tlaIBUBd542WAqJxUfdhudNpKhBxu8">𓆑</w>
+<w corresp="src:tlaIBUBd3RMgw6Q4kc8hn8SCjBIrBM">𓂋𓏤</w>
+<w corresp="src:tlaIBUBd39bbWfEiUzdpaZLyWzmuHg">𓆑</w>
+<w corresp="src:tlaIBUBdzWoiqUH3UQvnB9QmnIshBI">𓎛𓈖𓂝</w>
+<w corresp="src:tlaIBUBdQUHWaAIekvXsbedMLLj2u4">𓁹𓁹</w>
+<w corresp="src:tlaIBUBdQJOTuSZTEXiokv5F3KaAmg">𓆑</w>
+<w corresp="src:tlaIBUBd49IqGiVy0ewh85YWzZXPw8">𓄔𓅓</w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyvgLZJRpEGXtTXwoNPkxjA">𓏎</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3QIKn7Se0jKtB73AVQjFY0">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9zaEQwD00b9mSjdYEQryiU">𓆑</w>
+<w corresp="src:tlaIBUBdWjJcZX1RE5AkQsc2med9Qg">𓐍𓏏𓆑</w>
+<w corresp="src:tlaIBUBdWNNrh2uWUXWuUlVbLIJkJQ">𓌴𓁹𓄿𓄿</w>
+<w corresp="src:tlaIBUBd3cAFgrZdk2Gva1WJ5g75QY">𓀀</w>
+<w corresp="src:tlaIBUBd1qcSlwld0BQuR2CYXTHMgg">𓂝𓊪𓂋𓐢</w>
+<gap reason="lost" />
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3OML3nNr0b6ozCiE3gkaqs">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd14HTlFxqE78iRLHRlSzhFA">𓈋𓏲𓅪</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7iGVaZFTkEQoPDgMUwkKqg">𓇋𓋴</w>
+<w corresp="src:tlaIBUBd3G05s3JQEoohMVqSoTJmv8">𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBUBdzsjXMWGdkkfu0xpkI6KPlU">𓆑</w>
+<w corresp="src:tlaIBUBd0rHG8WpFE2Ilg6W1fzQNQU">𓇋𓅓</w>
+</s>
+<s corresp="src:tlaIBUBdQF8uicAZkYqtmFUVIUl8WE">
+<w corresp="src:tlaIBUBd61wgl9KukAWjdiU9InZKCw">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd7NxySDGoka5rtvWxBTP0Xk">𓍎𓏲𓏲𓀀</w>
+<w corresp="src:tlaIBUBd3fIg54jq0FqiUSoL1bkLEg">𓂋</w>
+<w corresp="src:tlaIBUBd4VJi5BL4UsDlnMtpxTsicY">𓅓𓉔𓅪</w>
+<w corresp="src:tlaIBUBdx3Rj1qde0mdhGHbAQVLvmY">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3HmM5kFZkXRp185R7QbOtA">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzqU9lRR40GIhOCoQb0bJN8">𓅜𓂝𓅱𓏛</w>
+<w corresp="src:tlaIBUBdWqGrEgjaUWSlAHwk4ItaQQ">𓆑</w>
+<w corresp="src:tlaIBUBdQqAopEKN04yv40NK2Z7FA8">𓊪𓏲</w>
+</s>
+<s corresp="src:tlaIBUBdwsx66O9b0l1rvWLJ0J1WCk">
+<w corresp="src:tlaIBUBd6xxqaWNRkszsoKmNzCN8Cs">𓇋𓂋</w>
+<w corresp="src:tlaIBUBdweecmXOkkH5qqvxwwFQCeg">𓅱𓐍𓆼𓄿𓏯𓍢</w>
+<w corresp="src:tlaIBUBd2TSmSyQNUYZlEKUQLjEn7c">𓈖</w>
+<w corresp="src:tlaIBUBd1I6DjFp60k2mwQrTsQLtVE">𓍎𓏲𓏲𓀀</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd6xjc7CfNEcpucBAyaHFeGs">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8Z38IgJS0RbjOzSyRg0lfE">𓏏𓏲</w>
+<w corresp="src:tlaIBUBd4pWXSBv50NYnT8mL6ytNOM">𓂋</w>
+<w corresp="src:tlaIBUBd9LeVUR2R0MLgOoSbN2RsNU">𓆑</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxLxU6Vsak0UmQh8V1PrKHw">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd7sShIErQksMiEzDXb2vM6A">𓎿𓊃𓏏𓀁</w>
+<w corresp="src:tlaIBUBd0BirhFAzk7wijeOGZe1HdE">𓆑</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxwog2qAh0hyqE4bW090Bm4">𓎿𓎛𓊃𓏏𓀁</w>
+<w corresp="src:tlaIBUBd5YnrUZ6C0hbjzGiYFzpEF0">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQvViRKvGEdHp8qtjQCOQqo">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7QFnCvazkxKhnTD7b41HOw"><unclear>𓄿𓀁</unclear></w>
+<w corresp="src:tlaIBUBdyHfcdyTEUi2h0Rk18x32w0">𓐍𓂋</w>
+<w corresp="src:tlaIBUBd0o0kMDQCkG8m9z5zIfAV3k">𓂋𓍿𓀀𓁐𓏥</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd80NY6zj9EQZr2IOzgyKNN8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7Typ7wbfkYxsY9MWbDHvhE">𓈖𓈙𓅱𓏌𓏤</w>
+<w corresp="src:tlaIBUBd5ZKWZ0jEkCtroxQILDCMC8">𓃹𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd38bnyiEu0LhgItolOmHWKM">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1Et64ZXwknUnWUdylfIpsA"><unclear>𓊢</unclear></w>
+<w corresp="src:tlaIBUBdwlpQWheiEo9q2GXJ5FeV2U">𓆑</w>
+<w corresp="src:tlaIBUBdwuegHT5nkblsGQGq4JMDGA"><unclear>𓄣</unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6PUhJjcek8SvkXmdr8geI4">𓂜𓈖</w>
+<w corresp="src:tlaIBUBdzKaDFjE5EJngEn9YM3L760"><unclear>𓈋𓅱𓇋𓇋</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd3NuPGl4qU75mmwemk9YogA">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd8uZBjG1XE5NszE74DXdoYc"><unclear>𓄤</unclear></w>
+<w corresp="src:tlaIBUBd8riEdzmPEoEsr2JHXSjWiM"><unclear>𓄔</unclear></w>
+<w corresp="src:tlaIBUBdxrkHK78Vk75vklAflljTog">𓆑</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4OrcdWRuUZFqLSvb3z5fA8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3mxhRO5kUI0qWoy4iKeTOY"><unclear>𓂝</unclear></w>
+<w corresp="src:tlaIBUBd6ZymSqECEW1mvSqDxo5FRg">𓇋𓈖𓈖𓇋𓀀</w>
+<w corresp="src:tlaIBUBdxdcgU8RJ0HtkTzt45Khzng">𓊢𓂝𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQcXrQsoqU2ZjwUsbr6zDI4">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9FTYhhcpEMnjQdxGRMBi6o"><unclear>𓅱</unclear></w>
+<w corresp="src:tlaIBUBdyN8dCFVRUrGp3tMG96QCA8"><unclear>𓅓</unclear></w>
+<w corresp="src:tlaIBUBd2KnoDbK7UOWlGxXJ4s4ag0">𓆑</w>
+<w corresp="src:tlaIBUBdxMyEPXTgk5olusMpkLPX3k"><unclear>𓄿</unclear></w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9p5NLUKC0U6u8St1MD93VA">𓎔</w>
+<w corresp="src:tlaIBUBdQcDfpDhTkW2m2qJVlX716Q">𓅓</w>
+<w corresp="src:tlaIBUBd4lInCqmpUVomnRIIGllETM">𓃹𓈖𓉿𓂝</w>
+<w corresp="src:tlaIBUBd6og9zvW8kL1i2dSS4trABA">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd0vNyLFTNEodlW2MBoEFob8">𓄤𓆑𓂋</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4lnQs6RSUWWsfomQagWQ48">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdWR6wYbXT0HplRGxU3mDKso">𓍃𓅓𓏛</w>
+<w corresp="src:tlaIBUBd4204XMx80NdsAtE0e0abqY">𓂋𓐍𓏛</w>
+<w corresp="src:tlaIBUBd7NqpPxnv0Czspibuqc6QYU">𓇓𓏲</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd8oWLOeiqk8mmoJ9OrE3gJ8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7fFXPKZ6EBirRwJrK3Qgt4">𓐍𓈖𓏌𓏲𓊃𓅪</w>
+<w corresp="src:tlaIBUBd6KktB6buElBusa6G4Potl8">𓄣𓏤</w>
+<w corresp="src:tlaIBUBd92iaAb7o0MbkvRqhaCcbH4">𓂞𓇋𓇋</w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdz0TbhqWZENsg7dQAS0M8sE"><unclear>𓅓𓂋𓀙𓏥</unclear></w>
+<w corresp="src:tlaIBUBd1jeIPbzF0tpgmxZms63Gy8">𓂜</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4VERcs75EfzsYssjjky9ZY">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQfCGrvHGUJ8kKUGF1mude0"><unclear>𓈎𓆌𓏛</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1bSmzvab0mXlhN91a32ukc">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5E2AuzDhEJ3kQ70ncjkmJw"><unclear>𓐍𓂜𓏏</unclear></w>
+<w corresp="src:tlaIBUBdWFoe1DYQE4ipi7epzugJnE">𓍎𓏲𓏲𓀀</w>
+<w corresp="src:tlaIBUBdzEpU5sev0yPi7d7i3LRC1w">𓅓</w>
+<w corresp="src:tlaIBUBd4IKoglXU0BPljaQr6LpAS0"><unclear>𓌨𓂋𓏏𓏛</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd9jwzhu1AU6WnHgOYWI46G8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9Ro17lVvUPlj1aLZJnmndE"><unclear>𓁹𓄿𓄿𓏏</unclear></w>
+<w corresp="src:tlaIBUBd6jmqTwZcEtDgz744xUwimw">𓄤𓆑𓂋</w>
+<w corresp="src:tlaIBUBdwwBpGE72EuinGhRWSYLJu4"><note>Keine Entsprechung in Unicode für S123-G17-G43-D54</note></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd1dvvnK8AUJyiCBzjnQGeXU">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd5zIpeqq0k9cpahYed1RbTU">𓆑</w>
+<w corresp="src:tlaIBUBd5muU4YCzkxOi29UywvlyEw">𓋴𓐟𓀁</w>
+<w corresp="src:tlaIBUBd2QQBDFsuEAopvNBQgPBXNI">𓊃𓅭𓄿𓏲𓀸𓀜</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzJdPEUMBkNHkFARAqR3ZUo">𓃀𓏏𓄿𓄿𓏲𓂻</w>
+<w corresp="src:tlaIBUBd5tTgutjq0v5vUxn3zDRQPE">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd2eVsiXfy0o0rriYQ7cBbxY">𓃹𓈖</w>
+<w corresp="src:tlaIBUBd3Q2vimuzEdxszGjj0dOnjg">𓊃</w>
+<w corresp="src:tlaIBUBdWbxU9bNPElFgcEJrizFc3M">𓂋𓋴𓌘𓁹</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd6DsDOMmWEkBuKhuWcuBsnU">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd7E3zOeKjkYjhd02F603x7o"><unclear>𓂋𓏏𓂡</unclear></w>
+<w corresp="src:tlaIBUBdzKwlW5JyUt8unHU1SEPJiw"><unclear>𓐍𓆑</unclear></w>
+<w corresp="src:tlaIBUBdwGl0WW9AEpqnwjWmtAdWQ8">𓊃𓐍𓂋𓏛</w>
+<w corresp="src:tlaIBUBd6htZFahikSJkFIE8dfgafk">𓊹𓏤</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdyh2r3tJmkNWjEI04ulZUK8">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd62Qgg4g5k2pnqwcbUwRoo4">𓂜𓈖</w>
+<w corresp="src:tlaIBUBdywraI5rW0a0vSpVZiiLl1Y">𓁹𓏏</w>
+<w corresp="src:tlaIBUBdwQtlHXoWk4toVsbuA3ScFM">𓋴𓏏</w>
+<w corresp="src:tlaIBUBdzuCiAmsKkzmvF6dMj5ou7g">𓅓</w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd4FP5lQCLEPWplSpndADYyw">𓂋</w>
+<w corresp="src:tlaIBUBdyguUoTqIULPtD99Z5ztxSE">𓀀</w>
+<w corresp="src:tlaIBUBdxaz3fnn7UwWmg2lz7hM3kM">𓁷𓏤</w>
+<w corresp="src:tlaIBUBdy7URbALFUzopdKLvSbinUE"><unclear>𓍯𓄿</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd8dkzQ5U20JprJ9R29CnW5I">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyvlIqTSGUyFpNrJJDpWNTQ">𓏠𓈖𓐍𓍊𓏛</w>
+<w corresp="src:tlaIBUBdQoYlX9I9k7biVhGZAjllaQ">𓊹𓏤</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdzezbahr7EUDt3Y6ZMFdiiU">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0f4E5aGTkaMr0UfDanPzvM"><unclear>𓍘𓇋𓇋𓀜𓀀</unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7v2BrjQJkKvsDUvk3mHzFA">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd46JUDfn4k60qioVxlsvfEs"><unclear>𓂝𓃹𓈖</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd41FobWIQE7Pt5Zjytg0rhw">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzNXit2hN0qZqQXQe3vStLc">𓋴𓋴</w>
+<w corresp="src:tlaIBUBd3QsFlTw302JhITQ3maljK0">𓆈𓄿𓏥</w>
+<w corresp="src:tlaIBUBdxQ0Gr66kUlurUM3HOn3uic">𓊤𓏲𓀁</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWXWrr2tokAfstTCPq9rjms">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdz4wYWKpdEe4lUgl0VEeI6w">𓂝𓃹𓈖𓀜𓄣𓏤𓀀</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdzrotC6kM0fYrqJQEOcoKCw">𓂋</w>
+<w corresp="src:tlaIBUBdWh0xtnc7U05oFQdQlWqobM">𓋴𓐍𓂋𓏛</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd6VWNoT5J0brkGmTWXYaWwI">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3nPqoyFhE5ZoiaXwPJSuOE">𓐍𓂋𓏏𓏛𓏥𓄣</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdWYPaSfuWUKSsTQzWep8hjc">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0rQJRsBqUK0mT32ktvt29w">𓆣𓂋𓏏𓏥</w>
+<w corresp="src:tlaIBUBdyrVEnWKRkVgvZYsGAiaxNM">𓎟𓏏</w>
+<w corresp="src:tlaIBUBd5Hi58VFY0evoEsYiW3H3GY">𓂜</w>
+<w corresp="src:tlaIBUBdyLPMydPRkIkmmV11GKeIHg"><unclear>𓂋</unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd97XsKNsOEWUuzu1Wj5tlKY">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyWKZ4bSa0nPnhpNF2qTET0">𓆑</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdyNL1mf4Pk5snsMbhVNrt5Y">𓎟</w>
+<w corresp="src:tlaIBUBd4WwhhQJxkNnkXZ49MPT4q4">𓋴𓎼𓂋𓀁</w>
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd040v9Wzpk8eneAoYPZLv8o"><unclear>𓅱𓏭</unclear></w>
+<w corresp="src:tlaIBUBdQPYW1Vy0EpanNLGcOD7QUo">𓅓</w>
+<w corresp="src:tlaIBUBdztVLAs3QUAonlGvih0PsUQ">𓁹𓏏</w>
+<w corresp="src:tlaIBUBd6gSexmMo0KTq8YpBUkbKBQ">𓇋𓈖</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd4pZ3JCig05VmzJW7R53P1M">
+<gap reason="lost" />
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxpSKg666krThYQiOSOsWYg">𓈖</w>
+<w corresp="src:tlaIBUBdzzBSb9vuUSzgWEiatdyJGU">𓐍𓃀𓈖𓏌𓏲𓏴𓀀</w>
+<w corresp="src:tlaIBUBd0DtDzUDUUzeu97Cg0IeRCw">𓂋</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6jBUWWAGUfxmsfhtcRmWWM">𓊹𓏤</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd032wwd3aUMopWKwkh7zHvo">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0B9LNkmgkVhp9PqFeP9YdM">𓎔𓏛𓄣𓏤𓀀</w>
+<w corresp="src:tlaIBUBdzwWpxkRwEKXrwIIZKkXfME">𓂜</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd8GHxhl6nULspOpDEVIOqh0">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdxShoqgzIkgovN1zSWrB7Tk">𓂝𓈖𓁺𓏛</w>
+<w corresp="src:tlaIBUBdxrWQFGScUgulM1HvSdxYgo"><unclear>𓐍𓈖</unclear></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

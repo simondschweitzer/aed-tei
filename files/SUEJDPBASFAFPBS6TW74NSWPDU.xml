@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idSUEJDPBASFAFPBS6TW74NSWPDU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>über Grabherren und Ehefrau</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von über Grabherren und Ehefrau nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>SUEJDPBASFAFPBS6TW74NSWPDU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opfertisch-Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">über Grabherren und Ehefrau</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6UZM24EZ3ZACDDVDEWQWBWW6LY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 27-29 (A-B), pl. 4-5a, 37
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="SUEJDPBASFAFPBS6TW74NSWPDU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-211b7041d16e0d46192525f1623c9dff</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxJUeWYvs0bqnNsgMW3veGA">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdxhl3dtQRkN8qedDCVMQTns" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/><damage>ḥꜣ,tj-ꜥ</damage></w>
+<w xml:id="tlaIBUBdxxT2QG0KUAziWqAH8UF69I" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/><supplied reason="lost">ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied></supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd2gJ88xCyUyQr3xPXLKzTFo" lemmaRef="tla:tla855741"><fs feats="epitheton_title title"/>ḥr,j-tp</w>
+<w xml:id="tlaIBUBd0MdoQDVGkL8ij2MmAvKcm0" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBd2aAwPw6bkWtku0ssJkhORs" lemmaRef="tla:tla600377"><fs feats="epitheton_title title"/>zẖꜣ,w-mḏꜣ,t-nṯr</w>
+<w xml:id="tlaIBUBd5e8LQZeGEIArsZwUNheGSY" lemmaRef="tla:tla704436"><fs feats="entity_name person_name"/>Hnqw</w>
+</s>
+<s xml:id="tlaIBUBd9wmhVz9uU4Qno4oLqQKXHs">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd2jFvWvX500SsUx2X1rU9so" lemmaRef="tla:tla850519"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-Ptḥ-Zkr</w>
+<w xml:id="tlaIBUBdWps6nIflkIGqj2BQvCMLnE" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBdxT3t30BX0CujqBXTaQhCOk" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd8QcgyBCJ02csFJFrjJpswU" lemmaRef="tla:tla705830"><fs feats="entity_name person_name"/>H̱ttj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
