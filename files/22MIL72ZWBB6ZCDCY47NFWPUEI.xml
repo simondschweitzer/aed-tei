@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id22MIL72ZWBB6ZCDCY47NFWPUEI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenentitel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenentitel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>22MIL72ZWBB6ZCDCY47NFWPUEI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Fisch-Speer-Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenentitel</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaONP7BILBQ5ERVPDJJVCV5II7GQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi II: The southern cliff (ACE Rep. 25), Oxford 2007, 27-29, pl. 7-10, 45-46, 67
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="22MIL72ZWBB6ZCDCY47NFWPUEI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-4976ae41ae185299c6a1d419df2ff2ee</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3VaUYrmyEacgRASBXMosmU">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd3WzJFcMjkfYrNh7KznQGa4" lemmaRef="tla:tla66270"><fs feats="verb verb_2-gem infinitive"/>mꜣꜣ</w>
+<w xml:id="tlaIBUBd27QHRHOnk2nlZguEed9tQY" lemmaRef="tla:tla163010"><fs feats="substantive substantive_fem st_constructus singular"/>kꜣ,t</w>
+<w xml:id="tlaIBUBd0Mpsy0fL0FAv5T4auuflmA" lemmaRef="tla:tla141480"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>sḫ<supplied reason="lost">,t</supplied></w>
+<w xml:id="tlaIBUBdWlIuCTWMEIJh04x4fxhVx8" lemmaRef="tla:tla101400"><fs feats="verb verb_3-lit infinitive"/>ḥꜣm</w>
+<w xml:id="tlaIBUBd5xVZLBQ2EQfoNf7cvWiK6Y" lemmaRef="tla:tla73880"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mḥ,<supplied reason="defective">y</supplied>t</w>
+<w xml:id="tlaIBUBd3WyrRgDk0yUnjaWaMaH72U" lemmaRef="tla:tla854553"><fs feats="verb verb_3-inf infinitive t-morpheme"/>sti̯.t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
