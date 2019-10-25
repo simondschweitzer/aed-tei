@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st2KA37ETCCRE27I6ZPQ67JF4SBM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Inhernacht (BM EA 575)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Inhernacht (BM EA 575)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>2KA37ETCCRE27I6ZPQ67JF4SBM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 575</idno>
+<msName>Stele des Inhernacht (BM EA 575)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Inhernacht (BM EA 575)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla77M3FBHCXVFE7FLZC4LDQA7K6Y">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; H. 94 cm; Br. 48.3 cm
+Stele gehört zu BM EA 559 (Lichtheim, 121)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:QGFPPB7TBJC4DOC46YTOAH4UYM" notBefore="-1872">Sesostris III.</date>
+<date type="latest" datingPoint="ths:QGFPPB7TBJC4DOC46YTOAH4UYM" notAfter="-1854">Sesostris III.</date>
+<note>Jahr 7</note>
+</origDate>
+<origPlace ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY">Abydos
+<note>wahrscheinlich; 1839 von Anastasi angekauft</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- D. Franke, Personendaten aus dem Mittleren Reich (20.-16. Jahrhundert v. Chr.), ÄA 41, Wiesbaden 1984, Dossier 151 [B]
+
+- H.R. Hall, Hieroglyphic Texts from Egyptian Stelae, &amp;c., in the British Museum, Part II, London 1912, 8 und pl. 18 [H]
+- J. Spiegel, Die Götter von Abydos. Studien zum ägyptischen Synkretismus, GOF 1, Wiesbaden 1973, 120-121 [Übers. v. Z. A.4-10]
+- W. K. Simpson, The Terrace of the Great God at Abydos: The Offering Chapels of Dynasties 12 and 13 (Publications of the Pennsylvania-Yale Expedition to Egypt, Number 5), New Haven und Philadelphia 1974, 12, 20 und pl. 62 (ANOC 43.2) [B, *P, T, Ü (Z. A.4-10)]
+- M. Lichtheim, Ancient Egyptian Autobiographies chiefly of the Middle Kingdom. A Study and an Anthology, OBO 84, Freiburg und Göttingen 1988, 121-122 (Nr. 54) [B, Ü]
+- S. Grallert, Bauen - Stiften - Weihen. Ägyptische Bau- und Restaurierungsinschriften von den Anfängen bis zur 30. Dynastie, ADAIK 18, Berlin 2001, 479, 685 (Pr/12D/Bio017) [B, T, Ü (Z. A.4-6)]
+
+http://www.britishmuseum.org/research/search_the_collection_database/search_object_details.aspx?objectid=121116&amp;partid=1&amp;IdNum=575&amp;orig=%2fresearch%2fsearch_the_collection_database%2fmuseum_number_search.aspx [B]
+- R. Landgrafova, It is My Good Name that You Should Remember, Prague 2011, 208-209 (Nr. 62) [H, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 575</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="2KA37ETCCRE27I6ZPQ67JF4SBM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>13-6ec20d07353f63d143c6f5a21950e34c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdxtEbXf5ME0OnrWug6E1E5M">7. Regierungsjahr unter der Majestät des Horus: Netjericheperu; die beiden Herrinnen: Netjerimesut; des Königs von Unter- und Oberägypten: Chakaure; des Sohnes des Re: Sesostris, dem ewiglich Leben gegeben ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6LELXdhEEHmg3a4j9eGNf4">Sein wahrer Diener seiner Vorliebe, der macht, was er alles lobt, als täglichen Bedarf, der Vorsteher des Hauses der Getreidezählung, Inhernacht, der Gerechtfertigte, er sagt:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2VSfuzZE0MLjaZM33pX2QU">An der Treppe des großen Gottes, des Herrn des Lebens, der Abydos vorsteht, habe ich doch dieses Monument errichtet, um Opferspenden, Weihrauch, und Gottesopfer auf dem Opfertisch des großen Gottes zu empfangen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4l2nJXWEE6sgyfQcmUt4Qo">Möge mir &quot;Willkommen&quot; gesagt werden durch die Großen von Abydos.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Jfg909Akj4nNsL58NV2hQ">Mögen mir die beiden Arme in der Neschmet-Barke gegeben werden bei den Festen der Nekropole.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6pSkua7NEAGozd9Z7Bi6ZU">Möge 〈ich〉 das reine Opfer empfangen, das vor dem großen Gott herausgekommen ist, nachdem sein Ka damit zufrieden ist auf seinen schönen und reinen Wegen, die im Tadjeser sind.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdys419o7f0QiuzUZBwxgWSQ">Möge ich den Jubel im Munde von Tawer (in) der schönen Nacht des Haker-Festes hören.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxWLA943sEOikWHjFRVYykc">Der Vorsteher des Hauses der Getreidezählung, Inhernacht, der Gerechtfertigte.</s>
+<s xml:lang="de" corresp="src:tlaIBYBOaIWZ76HW0uJuFyXCWmAnlQ">Nahrung, Kuchen und weißes Brot für Upuaut opfern bei der Ersten Prozession durch den Vorsteher des Hauses der Getreidezählung, Inhernacht, den Gerechtfertigen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5nEz1tcIUPIqLHcFOCC1UY">Die Vollkommenheit [des] Chontamenti und des Upuaut sehen bei der Großen Prozession durch den Vorsteher des Hauses der Getreidezählung, Inhernacht, den Gerechtfertigten.</s>
+</ab>
+</body>
+</text>
+</TEI>
