@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stNMBHUHVMX5FE7F66QPDWBMTICA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>[Szene]</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von [Szene] nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NMBHUHVMX5FE7F66QPDWBMTICA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>BM 1189</idno>
+<msName>Buhen-Stele Sethos&#039; I.</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">[Szene]</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaH6WDE7LMKZCE7I4LNDOT5RFOYQ">
+<support>
+<objectType ref="ths:EP7XNRXU4ZAU7BKOHF5H2PYC34">Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:BVMSDQRPX5ECXFKTIGQWIOXQOM" notBefore="-1290">Sethos I.</date>
+<date type="latest" datingPoint="ths:BVMSDQRPX5ECXFKTIGQWIOXQOM" notAfter="-1280">Sethos I.</date>
+</origDate>
+<origPlace ref="ths:S6GDQ67UIBGSTOSQKBQ56SB2VY">Buhen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>KRI I, 37-8, RITA I, 30-1, RITANC I, 42-3;
+Bierbrier, M.L. (ed.), British Museum Hieoglyphic Texts from Egypt etc., pt.10, pl. 10-11;
+Davies, B. G., Egyptian Historical Inscriptions of the Nineteenth Dynasty, Jonsered 1997 (Documenta Mundi, Aegyptiaca 2), 249 ff.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>BM 1189</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NMBHUHVMX5FE7F66QPDWBMTICA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-1da93dfc3acfa7365fe4e40438566ca4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdyRUt16CY0BCm0LFzBDmOgQ">〈König〉 ... dem Leben gegeben wie Re ...; aller Schutz und alles Leben [seien] hinter ihm;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyKAu4ZWQkJQgXlqgTJkHD0">〈die Geiergöttin〉 sie gibt alles Leben, Wohlergehen und Gesundheit;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4YjJwYGGEuUtzXe7diBPO4">〈Amun-Re〉 ... geliebt von Amun Re, Herr der Throne der beiden Länder... im Karnak-Tempel;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7crvVbC2U4huHS4aduMXeM">〈Min-Kamutef〉 Min Kamutef, siegreicher König, der in Buhen residiert;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6v7a9uADkHCn7G0TTomxHQ">〈Isis〉 Isis, die Große, die Königsmutter und Herrin des Himmels.</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stNTJWL4YMMFHVVEZDEBXXP5QKBU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Architrav, Südteil</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Architrav, Südteil nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NTJWL4YMMFHVVEZDEBXXP5QKBU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Fassade: Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Architrav, Südteil</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaFKRLAXER2FDARG3CP6D4JMIKCI">
+<support>
+<objectType ref="ths:J3ZM4CQXGBBARBBNWN3TVXJH2Y">Fassade</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 22-26, pl. 3-6, 42-45</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NTJWL4YMMFHVVEZDEBXXP5QKBU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-9672dcc17f6116e8def3d9939ce572db</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdx0PAfcfQUgZlPU6S5h5zeo">Der ... Neferseschemre.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2pSORfJi0QKkS41tgeTWkM">Der ...Vorsteher aller Arbeiten des Königs ... Neferseschemre.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzrT4VfekkuQrcP8GN1x9E8">Der ... Versorgte Neferseschemre.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0TKbU0grEq0kAj01OyyO4o">Der ... Vorsteher aller Arbeiten des Königs, Diener des Königs, ... Versorgter durch Anubis, der auf seinem Berg ist, Scheschi.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyHaQwjSeEQmsQio3Hx4H18">Der ... Vorsteher der Aktenschreiber des Königs, Vorsteher der 6 Gerichtshöfe, ... der Versorgte Neferseschemre.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8945fNMQUM3stZenMEl2EA">Der ... Einziger Freund und Vorlesepriester Scheschi.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQQA7VMa20abooEnWLT0QNY">Der Fürst und wirkliche Bürgemeister Neferseschemre.</s>
+</ab>
+</body>
+</text>
+</TEI>

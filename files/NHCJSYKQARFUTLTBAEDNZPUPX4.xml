@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idNHCJSYKQARFUTLTBAEDNZPUPX4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Königspaar unterwegs zum Tempel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Königspaar unterwegs zum Tempel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NHCJSYKQARFUTLTBAEDNZPUPX4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand, oberes Bildfeld</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Königspaar unterwegs zum Tempel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUE73PL7KOBFUNGKICB2Q7JA7Z4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. de G. Davies, The Rock Tombs of El Amarna III, ASE 15, London 1905, 26ff., Taf. 30ff. [P, *F]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NHCJSYKQARFUTLTBAEDNZPUPX4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-e43646434f314cc4a90296063b3125dd</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5Z65Fa0hkWQi2LkjyVlWQE">
+<lb n="[rechts von Aton]"/>
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdQTVobXnPEcDn7ZAw3obPj0" lemmaRef="tla:tla859387"><fs feats="entity_name gods_name"/><supplied reason="lost">Rꜥw-Ḥr,w-Ꜣḫ,tj-ḥꜥi̯-m-ꜣḫ,t</supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd7wYzWfo60zSik8SiTO8jvw" lemmaRef="tla:tla856317"><fs feats="entity_name gods_name"/><supplied reason="lost">M-rn≡f-m-šw-n,tj-m</supplied>-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd2kEdfxQZEI8pQ5oFPJRGJw">
+<lb n="[links von Aton]"/>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdyBxnVJfdUnrmP9Cfz8PucI" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+<w xml:id="tlaIBUBdWWKXmEwoEwDtOkSDQ66pps" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit masculine singular"/><damage>ꜥnḫ</damage></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd2eHDvxGwU9QmQGMtbXjuow" lemmaRef="tla:tla47270"><fs feats="verb verb_2-gem masculine singular"/>wr</w>
+<w xml:id="tlaIBUBdyrifFnh6E4NkPDHmKNdlBU" lemmaRef="tla:tla25700"><fs feats="epitheton_title epith_god"/>jm,j-<damage>ḥꜣb-sd</damage></w>
+<lb n="[4-6]"/>
+<w xml:id="tlaIBUBdwpvhn6QW0WmuBjVzHqiUdQ" lemmaRef="tla:tla859383"><fs feats="epitheton_title epith_god"/>nb-šnn,t-<supplied reason="lost">nb</supplied>-Jtn</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdWi1XOWE1UY3nELEwQzPV8c" lemmaRef="tla:tla400833"><fs feats="epitheton_title epith_god"/>nb-p,t</w>
+<lb n="[7]"/>
+<w xml:id="tlaIBUBd5Qj2BumP0F1ss0Wfu2FGqU" lemmaRef="tla:tla851528"><fs feats="epitheton_title epith_god"/>nb-tꜣ</w>
+<w xml:id="tlaIBUBdwU09lxrrUjvsPKgBdpY0ag" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdWG1twQuUUO5tQCaw9pVcZs" lemmaRef="tla:tla856873"><fs feats="entity_name artifact_name"/>Pr-Jtn</w>
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdQgftISFFkwtuW6JmTd4gWA" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<lb n="[9-10]"/>
+<w xml:id="tlaIBUBd3nssyrf2ErlvLifYPszawg" lemmaRef="tla:tla233"><fs feats="entity_name place_name"/>Ꜣḫ,t-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd5Zip8S22k21oI9aSFls9fo">
+<lb n="[vor dem Königspaar im Streitwagen]"/>
+<lb n="[11]"/>
+<w xml:id="tlaIBUBdQYv6NsdBU67qWyhV0YMZsI" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr,t</w>
+<w xml:id="tlaIBUBdw65WXjygUwvm6irIGbH4B0" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/>mri̯.t</w>
+<w xml:id="tlaIBUBdW91PSlh0UQMjuOZPQTsZz4" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[12]"/>
+<w xml:id="tlaIBUBdyCKgGrgwkWwmrHMQgwuAQ0" lemmaRef="tla:tla859300"><fs feats="epitheton_title title"/>nb,t-Tꜣ.du</w>
+<w xml:id="tlaIBUBd58Hw44WQEOlu5zIsEM9aZA" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</w>
+<w xml:id="tlaIBUBd4y0mNlJnUJArJ97QMW7OW0" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.t</w>
+<w xml:id="tlaIBUBd6RCTjMHrUpPjxanaq5fYbE" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBd7h8fbuVg0ezqsnWXimiZHs" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

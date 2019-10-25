@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idNB5RBXIDMJEHLDOCTN3APTBFUY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pCairo 602 frame XI verso (28 H)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pCairo 602 frame XI verso (28 H) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NB5RBXIDMJEHLDOCTN3APTBFUY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>602 frame XI verso</idno>
+<msName>pCairo 602 frame XI verso (28 H)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pCairo 602 frame XI verso (28 H)</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Wirtschaftstext eines Tempelarchivs</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5CGZTRMUUNC2HJ7PPPBUJYOE5A">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 28 (Fragment H)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>602 frame XI verso</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NB5RBXIDMJEHLDOCTN3APTBFUY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-276555c218e722522a827ce59a75c4f0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1BAmDJsi0DwjXsSgH8xrvw">
+<lb n="[Sp. x+1]"/>
+<w xml:id="tlaIBUBdyQKR74zuUWBpJd3D3W7dvk" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdzKyOpGvo0IbiZ1hqCpWQg4" lemmaRef="tla:tla116550"><fs feats="substantive substantive_masc st_pronominalis singular"/>ḫpd</w>
+<w xml:id="tlaIBUBd2qDiPysbE20pMmxbAYwIac" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2tjkvlPmksplv4H3X4dS00" lemmaRef="tla:tla34360"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥ</w>
+<w xml:id="tlaIBUBd8QSj8mpRE7Wlwgv43YN1tQ" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd61iCcYBuUNlu7nU7Lbzo2k" lemmaRef="tla:tla105480"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥmw,w</w>
+<w xml:id="tlaIBUBdWAFQAljmEUwtpYLE87V7SU" lemmaRef="tla:tla600068"><fs feats="preposition"/>n-<damage>ḥꜣ</damage></w>
+</s>
+<s xml:id="tlaIBUBd1OJCExKwEtoponwDeFkzks">
+<lb n="[Sp. x+2]"/>
+<w xml:id="tlaIBUBd9VGjEPq6U11j2Tw2SrdfMA" lemmaRef="tla:tla59880"><fs feats="pronoun demonstrative_pronoun"/><damage>pf</damage></w>
+<w xml:id="tlaIBUBdyQpqQIm9ktbkQydSmBjwGE" lemmaRef="tla:tla550302"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jw,tjt</w>
+<w xml:id="tlaIBUBdxxs9RYjzUPfvKWd1Jugcfw" lemmaRef="tla:tla450155"><fs feats="adverb"/>ꜥšꜣ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

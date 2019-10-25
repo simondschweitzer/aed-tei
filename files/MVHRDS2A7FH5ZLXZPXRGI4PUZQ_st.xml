@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stMVHRDS2A7FH5ZLXZPXRGI4PUZQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Texte〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Texte〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>MVHRDS2A7FH5ZLXZPXRGI4PUZQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>westl. Eingangsgewände</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Texte〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaAJ3WCQPLRNFWVMXQCTXJ3MJZTA">
+<support>
+<objectType ref="ths:GHMRAQY5Z5DTPLAXWE57EKWC2Y">Laibung</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 47-49, pl. 24c, 64</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="MVHRDS2A7FH5ZLXZPXRGI4PUZQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-e2e4d74e591e9bf17f952ab96db6ad91</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd19SoQs1TELVngQMFWLfQVo">... [der Geheimrat des Königs] an all seinen Plätzen und Vorlesepriester Seanchuiptah.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6aWeoakQEYHl5NRpyNk1aE">Seanchuiptah, er sagt:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd781WGv6M0TGmwQETyHDPMY">Der Priester an der Teti-Pyramide, Pächter, Einziger Freund, Vorlesepriester, Räuchermeister und Zaubermeister Hetepeniptah.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQyu192SZUFpmLWOQVfeK7Y">Ich war ein Kind ...[--Zerstörung--].</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxAm6HktXUQHl0kQYkypOlg">... auf all ihren Wegen, an jedem Ort des Himmels mit seinen Kanälen und mit seinen Brunnen, auf allen Wegen ... jede nützliche vorzügliche Sache durch den Großen Gott ... (für den) Einzigen Freund und Vorlesepriester ... [Hetepeni]p[tah].</s>
+</ab>
+</body>
+</text>
+</TEI>

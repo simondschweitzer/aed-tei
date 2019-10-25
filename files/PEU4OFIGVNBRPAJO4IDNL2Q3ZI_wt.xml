@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtPEU4OFIGVNBRPAJO4IDNL2Q3ZI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Graffiti 1</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Graffiti 1 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PEU4OFIGVNBRPAJO4IDNL2Q3ZI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Nordwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Graffiti 1</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaC5INQUIYRRGT3LVBEYU2ZS5AC4">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:QTOOQ4NKC5DRHENFEFV66RZUBY">Meir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, The Cemetery of Meir I: The tomb of Pepyankh the Middle (ACE Rep. 31), Oxford 2012, 31-32, pl. 2, 75(d+e)
+[P, F, U, Ü, K, L]
+http://de.scribd.com/doc/47428540/BLACKMAN-A-M-The-Rock-Tombs-of-Meir-part-IV (pl. III)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PEU4OFIGVNBRPAJO4IDNL2Q3ZI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f876d366c3794d9f7674f95340a4e0f9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdxQw82NFFkCSiYlUAG6XUhM">
+<w xml:lang="de" corresp="src:tlaIBUBd2McABrprEjslzpT4b2RIYU">Höfling</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzYPQF8sBUITqikon0tsutg">Kammerdiener des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ0KYjMCbktikdArVi4N2dQ">Chuen-Uch</w>
+</s>
+<s corresp="src:tlaIBUBd1EbRQQuQEbPg5sY0FG3VGA">
+<w xml:lang="de" corresp="src:tlaIBUBdxF8QOSFOUe9nt58f0sLa0Q">Versorgter bei seinem Herrn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxNQpkX3wUdbuqOcWE3TDAY">der tut, was er lobt und was er liebt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1UXP2Ktd0dovEAtWFCGptM">Gutsvorsteher</w>
+</s>
+<s corresp="src:tlaIBUBdwcrUatDR0p9gZDJhIfDjYE">
+<w xml:lang="de" corresp="src:tlaIBUBd84AW7PJB0eWh6zot8ELXag">Aufseher der Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyn5QBVWXU6lu7ddtiysPm4">Hemi</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

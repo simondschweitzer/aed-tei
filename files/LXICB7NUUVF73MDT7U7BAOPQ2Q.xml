@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLXICB7NUUVF73MDT7U7BAOPQ2Q">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>nördl. Nischengewände</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von nördl. Nischengewände nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LXICB7NUUVF73MDT7U7BAOPQ2Q</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür-Nische</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">nördl. Nischengewände</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQBJAXF77CVBKNLUHPAXQKVTMGA">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, A. Hassan, The Teti Cemetery at Saqqara I: The Tombs of Nedjet-em-pet, Ka-aper and Others (ACE Rep. 8), Sydney 1996, 46-49, pl. 51-54.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LXICB7NUUVF73MDT7U7BAOPQ2Q.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-50f3ee7dc124f1c90ae3c084c436e3d5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3Q5jEKqpUGcsV31AIds6nk">
+<lb n="[Szenentitel]"/>
+<w xml:id="tlaIBUBd2ol0W0GDk1GmYQ8yY9whUM" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBd1WfhJFAqEZRqDK9VyQ2BDc" lemmaRef="tla:tla181400"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏ,t</w>
+<w xml:id="tlaIBUBdzaED56udULbowQTpftQ4b8" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf"/>jnn.t</w>
+<w xml:id="tlaIBUBd7JanV9MFE69kGufD0FfVbE" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd81TfKUjwUAZiZXy14eqIW8" lemmaRef="tla:tla73470"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>Mḥ,w</w>
+<w xml:id="tlaIBUBd7wQO9fe5kFmoB9vlyBw9gA" lemmaRef="tla:tla154690"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>Šmꜥ,w</w>
+<w xml:id="tlaIBUBd5IPKXywKkeVtdOOfR8aQeQ" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd0eESWGRfUvgn0wPPgqeHuY" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+<w xml:id="tlaIBUBd9fQ79Gg30kthHm4nwgMWJA" lemmaRef="tla:tla450633"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-gs-pr</w>
+<w xml:id="tlaIBUBd5IyKM82Sk3joZKMJwMDG4g" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr<supplied reason="defective">,j</supplied>-tp-nswt</w>
+<w xml:id="tlaIBUBdWDhZljmvEwFuBQ9j7S4nA4" lemmaRef="tla:tla450254"><fs feats="entity_name person_name"/>Kꜣ<supplied reason="defective">≡j</supplied>-ꜥpr<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd0W00jZY1k2DtbwwpqauKkg">
+<lb n="[Personenbeischrift⁝1]"/>
+<w xml:id="tlaIBUBdwMoFgft8k89leXHdLSo1rM" lemmaRef="tla:tla450533"><fs feats="epitheton_title title"/>ḫrp-zḥ</w>
+<lb n="[Personenbeischrift⁝2]"/>
+<w xml:id="tlaIBUBd6hVrYkQBEr6teEMKGWuQaE" lemmaRef="tla:tla400214"><fs feats="entity_name person_name"/>Nj-sw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

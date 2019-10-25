@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idM2AUQPVCCJEHHB4XOUHT7NLP7I">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift zum Grabherren</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift zum Grabherren nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>M2AUQPVCCJEHHB4XOUHT7NLP7I</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift zum Grabherren</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHNDHKKJHKBAYPD2JADQ75GH5QQ">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi II: The southern cliff (ACE Rep. 25), Oxford 2007, 55-58, pl. 4-5, 31-33, 55-56, 74a
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="M2AUQPVCCJEHHB4XOUHT7NLP7I.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-33f7c85c3493f9c06f0cb7cfbddb1eae</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6eQh9DsGkftrzmg9bQ7f9Q">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd0QjWXB9FUKyuQaSQxjq2wk" lemmaRef="tla:tla854987"><fs feats="epitheton_title title"/>jm,j-ḫt-ḥm,w-nṯr-Mn-ꜥnḫ-Nfr-kꜣ-Rꜥw</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd2gMQDbmQ0N2grDEWDw9gNc" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-ꜥ</w>
+<w xml:id="tlaIBUBdxZigOAYkkTRiT2fseZ1BOY" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/>sm</w>
+<w xml:id="tlaIBUBd9E2qzK0o0ofjZWJNRRKDjM" lemmaRef="tla:tla850857"><fs feats="substantive st_absolutus singular"/>ḫrp-šnḏ,t</w>
+<w xml:id="tlaIBUBdyTcWuGwmE8goXfUOY224OU" lemmaRef="tla:tla851316"><fs feats="epitheton_title title"/>ḫtm,w-bj,tj</w>
+<w xml:id="tlaIBUBdQF9U15eZk6Vio1PKNxd0rk" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd9SiK2YQbkorj2P3p8rZMQ4" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd62okVWgkUXxjhiux64ItXU" lemmaRef="tla:tla855741"><fs feats="epitheton_title title"/>ḥr,j-tp</w>
+<w xml:id="tlaIBUBdW4lzs40Y0NNiZylBLBfybQ" lemmaRef="tla:tla800072"><fs feats="epitheton_title title"/>jꜣm-ꜥ</w>
+<w xml:id="tlaIBUBd1cGPkUgQUiqmso04Vbvhvs" lemmaRef="tla:tla854930"><fs feats="epitheton_title title"/>ḫrp-šnw,tj</w>
+<w xml:id="tlaIBUBdQree7svj0rmkypi6HI94AA" lemmaRef="tla:tla450742"><fs feats="epitheton_title title"/>ḫrp-hꜣṯs-km</w>
+<w xml:id="tlaIBUBd7Wfoh87nk94lMWHMO7rWn8" lemmaRef="tla:tla400143"><fs feats="epitheton_title title"/>jm,j-rʾ-šnw,tj</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdWFbDPJ2sEAcujhdboHIIBE" lemmaRef="tla:tla400157"><fs feats="epitheton_title title"/>jm,j-rʾ-Šmꜥ,w</w>
+<w xml:id="tlaIBUBdwThuXDki0lUgRQRydSW0FE" lemmaRef="tla:tla400221"><fs feats="epitheton_title title"/>ḥqꜣ-ḥw,t</w>
+<w xml:id="tlaIBUBdzxhC0X6EEBWqmqWqO8hFPs" lemmaRef="tla:tla25300"><fs feats="epitheton_title title"/><supplied reason="defective">jm,j</supplied>-jz</w>
+<w xml:id="tlaIBUBd4Q2doubskMOpedWva6GNn4" lemmaRef="tla:tla850398"><fs feats="epitheton_title title"/>mnj,w-Nḫn</w>
+<w xml:id="tlaIBUBd4iygzuAqUIrursd5dQmZKI" lemmaRef="tla:tla450702"><fs feats="epitheton_title title"/>ḥr,j-tp-Nḫb</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdQy57amDNkjSrnwp9YGdOZ4" lemmaRef="tla:tla401150"><fs feats="epitheton_title title"/>sms,w-sn,wt</w>
+<w xml:id="tlaIBUBd0LFS7Wvu0apr6HDnsZDrBk" lemmaRef="tla:tla850037"><fs feats="epitheton_title title"/><damage>ꜥꜣ-Dwꜣ,w</damage></w>
+<w xml:id="tlaIBUBdynK6ylWLU0KmL0sVL5siCE" lemmaRef="tla:tla800073"><fs feats="epitheton_title title"/><damage>ḫw-ꜥ</damage></w>
+<w xml:id="tlaIBUBdzd4g0gi6kmUiRahTSGbQOI" lemmaRef="tla:tla500241"><fs feats="epitheton_title title"/>ḥqꜣ-<damage>Bꜣ,t</damage></w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdxqHQdO990WFj6jrWofuba4" lemmaRef="tla:tla854931"><fs feats="epitheton_title title"/>ḥr,j-tp-ꜥꜣ-n-Tꜣ-wr</w>
+<w xml:id="tlaIBUBdxFajNLL1Ul9lxpeWlUar7c" lemmaRef="tla:tla854285"><fs feats="epitheton_title title"/>ḥr,j-tp-ꜥꜣ-n-ꜣft,t</w>
+<w xml:id="tlaIBUBd2jAhWIOrkzts0MZh2V9bjI" lemmaRef="tla:tla79890"><fs feats="adjective"/>n,j-mrw,t</w>
+<w xml:id="tlaIBUBd0FTcJGSj0OFkTxmrUVQ9uA" lemmaRef="tla:tla850795"><fs feats="preposition"/>ḫr</w>
+<w xml:id="tlaIBUBd7Ou5exSEkPFrzC0JtXkLSQ" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_pronominalis singular"/>nṯr</w>
+<w xml:id="tlaIBUBd0QlsgQvcU01hIqBUtZglQw" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[7]"/>
+<w xml:id="tlaIBUBd46v49W9vk8MvL5oZeQZN9s" lemmaRef="tla:tla855020"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-Mꜣtj,t</w>
+<w xml:id="tlaIBUBd3MjtdkGVEzHovSiwS5UhWg" lemmaRef="tla:tla400216"><fs feats="entity_name person_name"/>Jbj</w>
+</s>
+<s xml:id="tlaIBUBd86MfWQ6UUVsrSh9vnOlpjg">
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdW6v1iLsdEAljUX6wpbcvoM" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd6LBXemhi0Maty5QQ5QIIOk" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBd4ipmBeDn0SCgTCFy70RBBc" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd9t2jMnCWEbWqXjzPh2CED0" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBdxRGPWb30EfilZ7hp1cB2cs" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd1CS8sogTUQSlqFNkce86aM" lemmaRef="tla:tla30410"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jḥ</w>
+<w xml:id="tlaIBUBd6zxyZrjU09xswrrtUwzBCs" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<lb n="[9]"/>
+<w xml:id="tlaIBUBd8fihfjEfEYvqw0pWPtzIS4" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdxX1EkL7tk2Ds8rykmP4Q3o" lemmaRef="tla:tla400221"><fs feats="epitheton_title title"/>ḥqꜣ-ḥw,t</w>
+<w xml:id="tlaIBUBd9QPK52tDUfou6D8QHOk6JE" lemmaRef="tla:tla450289"><fs feats="epitheton_title title"/>ḥw,tj-ꜥꜣ,t</w>
+<w xml:id="tlaIBUBd7lni0AX8U4AhsUA9XvSTxM" lemmaRef="tla:tla854033"><fs feats="epitheton_title title"/>smr-wꜥ,tj-mꜣꜥ</w>
+<lb n="[10]"/>
+<w xml:id="tlaIBUBd8Bd0z3hfUIeuzPbJ7RgnYc" lemmaRef="tla:tla400216"><fs feats="entity_name person_name"/>Jbj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

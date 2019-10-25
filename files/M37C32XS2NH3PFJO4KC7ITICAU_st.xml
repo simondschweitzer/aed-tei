@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stM37C32XS2NH3PFJO4KC7ITICAU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 36</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 36 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>M37C32XS2NH3PFJO4KC7ITICAU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈1. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 36</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBDR2GFRVQVENFOYUQKMGB24FBY">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. IV B [F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="M37C32XS2NH3PFJO4KC7ITICAU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-1e8f9be660b232c41c6112033e2bf87e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdW7RZe9sxEGLlJnhOU5nVpU"></s>
+<s xml:lang="de" corresp="src:tlaIBUBd54EEUzAWk4BtcuzWANqp0M">Dein Natron ist das Natron des Horus.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWjwoyRdwkI8tqFNUuV1Wu4">Dein Natron ist das Natron des Seth.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxHW2eZLI0NgrQQ486MBQxk">Dein Natron ist das Natron des Thot.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3Cmerm3cExoiLSLkFuGnFY">[Dein] ⸢Natron⸣ ist das Natron des Dewenanui.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd40LyALkMkV2vVZb3IBR3qY">Dein Natron ist das Natron deines Kas.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWMuIfCQiEOgkB5R3jQWMzg">Dein Natron ist das Natron deines Natron. (?)</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6mPz7CJWER6pxAtYTwe5SE">Auch dieses [dein] Natron ist unter deinen Brüdern, den Göttern.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd27hWyNJL036nplQYW892lM">Dein Natron ist auf deinem Mund.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxSRWaDUE0EftiPPD7Zplsg">Mögest du alle deine Knochen reinigen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxerPkRDrEouoA3W4HfmS1M">Mögest du das dir zugehörige ausstatten.</s>
+</ab>
+</body>
+</text>
+</TEI>

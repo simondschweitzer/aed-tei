@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idPHBJV3V5OZC3JKKWAQDSRLSQBI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 292</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 292 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PHBJV3V5OZC3JKKWAQDSRLSQBI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 292</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDWVLH6T7MZG7BPO5G6UXM7KVWA">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notBefore="-2383">Unas</date>
+<date type="latest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notAfter="-2364">Unas</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte,  Leipzig 1908-1922 [*H];
+A. Piankoff, The Pyramid of Unas, Texts Translated with Commentary, ERTR 5, Princeton 1968 [*P,Ü,K]; 
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü];
+C. Leitz, Die Schlangensprüche in den Pyramidentexten, in: Or 65, 1996, 381-427 [Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PHBJV3V5OZC3JKKWAQDSRLSQBI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-ef81bfa28bb16ce0faa2b2c155475dd9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdyaLqPDWwUSsrADo8I1Y8Ig">
+<lb n="[544]"/>
+<w xml:id="tlaIBUBdxOvHn9K5EQquh5w1Dqa14o" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBdyNDUbhfhUzjrEq9q6MQWO0">
+<w xml:id="tlaIBUBdxaWBFxCoEfZqh0lYmlnQbQ" lemmaRef="tla:tla90120"><fs feats="pronoun personal_pronoun"/>ntk</w>
+<w xml:id="tlaIBUBdxQof0eBk0tLrWKQ1beKEs4" lemmaRef="tla:tla173740"><fs feats="verb relativeform prefixed masculine singular"/>tkk.n</w>
+<w xml:id="tlaIBUBd9znQOKDpE8vr4qbR5FqahA" lemmaRef="tla:tla0"><fs feats="unknown"/>tk,j</w>
+<w xml:id="tlaIBUBd99l9JVZmEPGuGYBo2VBKao" lemmaRef="tla:tla854367"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jkn-hj<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd9YQCL4rEU8YjeFlwXOHO0s">
+<w xml:id="tlaIBUBd4nxLE7qpEmEkkOS2kz0Lag" lemmaRef="tla:tla0"><fs feats="unknown"/>tkn,t</w>
+<w xml:id="tlaIBUBd5OmbKH1FEVBovWwGOL99gI" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd57blgulZUxXow6mQcPU37I" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd6UMOq4jVEDcmmvZgqo0UyI" lemmaRef="tla:tla858012"><fs feats="substantive substantive_masc st_pronominalis singular"/>tkn<supplied reason="defective">,j</supplied></w>
+<w xml:id="tlaIBUBdwXrTUs7pk75hHKpAPDe0X0" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd1eeBUuFBEIksVPklqb6aNk" lemmaRef="tla:tla854367"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jkn-h<supplied reason="defective">j,w</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

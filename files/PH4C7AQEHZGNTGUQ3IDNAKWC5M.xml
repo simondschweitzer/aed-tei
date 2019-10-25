@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idPH4C7AQEHZGNTGUQ3IDNAKWC5M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 502B</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 502B nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PH4C7AQEHZGNTGUQ3IDNAKWC5M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 502B</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMSVFRJJSYBAVJDQKND4LKFNSUY">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, fig. 17; pl. IX [P,F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PH4C7AQEHZGNTGUQ3IDNAKWC5M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-cffd885f718e76bb01548c406db02eaa</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQh24MTa80QPiq7HLnZ0On0">
+<lb n="[P/A/E 34 = 233+8]"/>
+<w xml:id="tlaIBUBd2pJtprNPUvilW2j3lzimDw" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBd6CWWo1rTEXHqwOKhptYaec">
+<w xml:id="tlaIBUBd1cogR8VJ0oahxYjeXLoyOI" lemmaRef="tla:tla855317"><fs feats="entity_name gods_name"/>htt,y</w>
+<w xml:id="tlaIBUBd0z5QZG6bkmRrDNAur48t7o" lemmaRef="tla:tla855317"><fs feats="entity_name gods_name"/>htt,y</w>
+<w xml:id="tlaIBUBdy1x4OZQuUErk5h5uKgrc0s" lemmaRef="tla:tla154340"><fs feats="verb verb_3-inf participle masculine singular active"/>šmi̯</w>
+<w xml:id="tlaIBUBdwMMOq0QEEeooy1SXsckj9A" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBd2gIkXDwKUqjpz3vtUr6VY8" lemmaRef="tla:tla850571"><fs feats="numeral"/>fd<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBdW5PWruyTkyGnQijLsIgyL4" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[P/A/E 35 = 233+9]"/>
+<w xml:id="tlaIBUBd4WgWv5HoUzUlNZZunoxzZ4" lemmaRef="tla:tla159260"><fs feats="substantive substantive_masc st_absolutus plural"/>qꜣb.w</w>
+</s>
+<s xml:id="tlaIBUBd51GgYnCmUEWvJiRPzhC9YQ">
+<w xml:id="tlaIBUBd22yZydVX0h9hW4pAW9Fnpc" lemmaRef="tla:tla95940"><fs feats="verb verb_2-lit pseudoParticiple masculine singular"/>rs.<supplied reason="lost">t</supplied></w>
+</s>
+<s xml:id="tlaIBUBdxzYYbfOBUBHtHzjWlW9pY0">
+<w xml:id="tlaIBUBd2yCV6gOPkVTggigeCy8fEQ" lemmaRef="tla:tla67770"><fs feats="verb imperative singular"/>mj</w>
+<w xml:id="tlaIBUBd0VNHH148kb8ifPYGVqVUCA" lemmaRef="tla:tla150740"><fs feats="verb verb_3-lit imperative singular"/><supplied reason="lost">s</supplied>ḏr</w>
+<w xml:id="tlaIBUBdWcxdwC7A0NctrptpoMcJ7Y" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdwFZX5WFwUbFrh8bHG8lSzA" lemmaRef="tla:tla60220"><fs feats="substantive substantive_masc st_constructus singular"/>pr</w>
+<w xml:id="tlaIBUBdyzbDq1C1UcSmGTz87MANfo" lemmaRef="tla:tla69040"><fs feats="substantive substantive_fem st_pronominalis singular"/>mʾw,t</w>
+<w xml:id="tlaIBUBd7tTWjb6ykdPt13Olu6VT5o" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<damage>k</damage></w>
+</s>
+<s xml:id="tlaIBUBd7TL4tQ3XkLslQQYKCCKIe8">
+<w xml:id="tlaIBUBd6xZpWDVr0u8sE2gQHQ35Ek" lemmaRef="tla:tla46280"><fs feats="verb verb_3-inf pseudoParticiple masculine singular"/>wni̯.t</w>
+</s>
+<s xml:id="tlaIBUBd1i5jloh8EvyjfmjU5Zxcv8">
+<w xml:id="tlaIBUBdWaSo4ggfEv6qyou9JTzUhE" lemmaRef="tla:tla97860"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">hjw</supplied></w>
+<w xml:id="tlaIBUBd0SsRgsJd0QDnSajYgPn88U" lemmaRef="tla:tla150740"><fs feats="verb verb_3-lit imperative singular"/>sḏr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stNAP2O6NVAFHWXIPAZD6ONA7MOM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Texte〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Texte〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NAP2O6NVAFHWXIPAZD6ONA7MOM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JdE 54935</idno>
+<msName>Cairo JdE 54935 (Sarkophag)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Texte〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMTMGJBKGZJBHXOXBWJXJI7V45A">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastaba of Queen Mersyankh III. G 7530-7540, Giza Mastabas, Vol. 1, Boston 1974, p.21; pl.XV; fig.14</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JdE 54935</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NAP2O6NVAFHWXIPAZD6ONA7MOM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-755a5934ee81f8563c75f4b97e4c32df</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdwKhvcXyYUREppiP2SeIi20">Die Horus und Seth schaut, Große des Hetes-Zepters, die groß an Gunst ist, Leiterin der Schlächter des Akazienhauses, Priesterin des Bapef, Genossin des Geliebten der Beiden Herrinnen, die leibliche Königstochter Hetep-heres.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5KGLu0mtUOggoRhCJtM3es">Ich habe es für die Königstochter und Königsgemahlin Meries-anch gemacht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4UoeOk6cEJcrLQSGXyyxPw">Ich habe es für die Königstochter und Königsgemahlin Meries-anch gemacht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7M5QOrRBEqUrKWdWkgWlL8">Die Horus und Seth schaut, Große des Hetes-Zepters, die groß an Gunst ist, Leiterin der Schlächter des Akazienhauses, Priesterin des Bapef, Genossin des Geliebten der Beiden Herrinnen, die leibliche Königstochter, seine Geliebte, Hetep-heres.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWHBEQe75k5QoBzN2qrJdJU">Ich habe es für die Königstochter und Königsgemahlin Meries-anch gemacht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2Qt4dxIKEtHlRALRd0EoKQ">Ich habe es für die Königstochter und Königsgemahlin Meries-anch gemacht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy8u4iViWkBal7BVQcH0ilU">Die Priesterin des Thot, Gefolge des Horus, Königsgemahlin, seine Geliebte, die Königstochter Hetep-heres.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy6kCtR5iUb1u3apXnwET6o">Die Genossin des Horus, Freundin des Horus, Priesterin des Tjaizepef, die Königstochter Hetep-heres.</s>
+</ab>
+</body>
+</text>
+</TEI>
