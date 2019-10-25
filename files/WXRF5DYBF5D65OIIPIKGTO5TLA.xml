@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idWXRF5DYBF5D65OIIPIKGTO5TLA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift zum Grabherren</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift zum Grabherren nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>WXRF5DYBF5D65OIIPIKGTO5TLA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>nördliche Mauerdicke</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift zum Grabherren</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaLDMOGDJNJJCLRNNCCG5VW2GIAQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. B. Lloyd, A. J. Spencer, A. el-Khouli, Saqqara Tombs III: The Mastaba of Neferseshemptah, London 2008 (ASE 41), 12, Taf. 8
+[F, H, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="WXRF5DYBF5D65OIIPIKGTO5TLA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-87787f829e2e808534ced98be6832fb9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3Uf1ThYEkpHqGyAJPWDIpA">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdygrW9rtmkxXrsTaI3IdzRU" lemmaRef="tla:tla850286"><fs feats="epitheton_title title"/>sḥḏ-ḥm<supplied reason="defective">,w</supplied>-nṯr-<damage>Ḏd-s,wt</damage><supplied reason="lost">-Ttj</supplied></w>
+<w xml:id="tlaIBUBd2TF5cOS00UahNnIQoru1po" lemmaRef="tla:tla450017"><fs feats="entity_name person_name"/>Ššj</w>
+</s>
+<s xml:id="tlaIBUBd9kS9wgqXk3MreBinWpO5gg">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd0hH25yWSkNAhTiiYulTPIs" lemmaRef="tla:tla850252"><fs feats="epitheton_title title"/><damage>ḫnt<supplied reason="defective">,j</supplied></damage>-š-<supplied reason="lost">Ḏd-s,wt-Ttj</supplied></w>
+<w xml:id="tlaIBUBd0SPLwGRvUGxow0DfdQdMeI" lemmaRef="tla:tla450373"><fs feats="entity_name person_name"/>Nfr-sšm-Ptḥ</w>
+</s>
+<s xml:id="tlaIBUBd82nLLQqzEc8m3GrDof9EaQ">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd3L2qQAmuEJ0vTWfglWJPLU" lemmaRef="tla:tla850391"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-Wsjr</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdzQzdU2kS0BXoskffFLFyZY" lemmaRef="tla:tla850434"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-Jnp,w-tp<supplied reason="defective">,j</supplied>-ḏw≡f</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd5NpZY6sQEhloah0pf2UTQE" lemmaRef="tla:tla712629"><fs feats="entity_name person_name"/>Wḏꜣ-ḥꜣ-Ttj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

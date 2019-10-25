@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroZEEXFUQWKNA2LNL5VYYMHCBTCY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Harfnerlied</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Lutz Popko</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Harfnerlied nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Lutz Popko</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ZEEXFUQWKNA2LNL5VYYMHCBTCY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Raja (Saqqara)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Harfnerlied</title>
+<textLang mainLang="egy-egyn-Egyp-Egypreg">traditionelles Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBUZYQIBS5VBKHNYFHLJOSJM7II">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notBefore="-1279">Ramses II.</date>
+<date type="latest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notAfter="-1214">Ramses II.</date>
+<note>Die Grabkapelle orientiert sich an der Südwand der Kapelle des Paser (Martin, Tomb-Chapels, S. 10 und Tf. 14), dessen Grab wiederum auf das des Haremhab Rücksicht nehmen musste (vgl. ebd., S. 3). Folglich kann das Grab frühestens einige Zeit nach der Fertigstellung des Haremhab-Grabes entstanden sein. Laut Martin, Hidden Tombs, S. 124 und 126 ist Raja in die Zeit Ramses II. zu datieren.</note>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+<note>Kultkapelle des Raja, Südwand, Innenseite, oberes Register.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G.T. Martin, The Hidden Tombs of Memphis. New Discoveries from the Time of Tutankhamun and Ramesses the Great; London 1991, S. 128-129, Abb. 84 und 85 [F,P]
+- G.T. Martin, The Tomb-Chapels of Paser and Ra&#039;ja at Saqqâra; London 1985 (EM 52), S. 12-13, Tf. 1, 18, 22 [K,*F,*P]
+
+- J. Assmann, Fest des Augenblicks - Verheißung der Dauer. Die Kontroverse der ägyptischen Harfnerlieder; in: ders. et al. [Hrsgg.], Fragen an die altägyptische Literatur. Studien zum Gedenken an Eberhard Otto; Wiesbaden 1977, S. 55-84 [K]
+- J. Assmann, Harfnerlieder, in: LÄ II, 1977, Sp. 972-982 [*K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ZEEXFUQWKNA2LNL5VYYMHCBTCY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyn-Egyp-Egypreg">traditionelles Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Lutz Popko</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>7-5dd26e0e5bb8305cc9e91669a95cafc9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd08JOJhVNU8njS8hQpzK1cU">
+<w corresp="src:tlaIBUBd4nQIH6QkkzBiDOsE3v5xfc">𓊩𓁹</w>
+<w corresp="src:tlaIBUBdxipXtEZK0L0hMY44bu3Aos">𓄓𓎛𓎿𓈓𓈖𓊪𓏏𓎛𓇋𓎟𓐙</w>
+<w corresp="src:tlaIBUBd8UzkkeZ60lVtoEpFFtx3ZY"><unclear>𓄿𓀰</unclear></w>
+<w corresp="src:tlaIBUBd3MnePDpPULVnLwh5NDLPCc">𓆄𓊤</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd0T8b7KcT0dRrPA9vZOnhE0">𓋀𓏏𓈉</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd6wB8WcGaE9MqYV3urM3f38"><unclear>𓇋𓄿</unclear></w>
+</s>
+<s corresp="src:tlaIBUBdQYzWXQ6T0AJhXYCQBeGIQw">
+<w corresp="src:tlaIBUBd4NwT5NyW0ggn9BizmvhQQc">𓊃𓏏</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQowYQ3ZUEwBpgdhkBAewNo"><unclear>𓏏𓂻</unclear></w>
+<w corresp="src:tlaIBUBd53VQwenSkJVuQgtsuQiDBk">𓂋</w>
+<w corresp="src:tlaIBUBd9EbaKI3EkMYu41GYWG8W4s">𓀀</w>
+</s>
+<s corresp="src:tlaIBUBd2JQ981JfUqBnDOse7Jnh8k">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9ZX8W6juU02p00VGQhqWgk">𓇋𓅱</w>
+<w corresp="src:tlaIBUBd3AOACpHL0ExnslToK5QnlE">𓎛𓂝𓏏𓄹𓈓</w>
+<w corresp="src:tlaIBUBdzKDC6PjQUqqqN3e69fMReE">𓈖𓈓</w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd3KdSpmFdkiAk8GE7g5JbPU">𓏏𓍃𓐝</w>
+<w corresp="src:tlaIBUBd7s03dKaa09NvQQUqSj87dw">𓈖𓈓</w>
+<w corresp="src:tlaIBUBdwKEMaAMekf9ps0xnMyBpLs">𓄟𓋴𓂧𓅪</w>
+<w corresp="src:tlaIBUBd6yxz3Mhm0XjjXuO3kG3Pjs">𓏠𓈖𓇋𓏏𓌙𓊛𓂡</w>
+</s>
+<s corresp="src:tlaIBUBd0oIYm5f6UQ6t7CbhDWIFCM">
+<w corresp="src:tlaIBUBdQxYzv4pxkgqpVJ7fpXDRE8"><note>Keine Entsprechung in Unicode für I100</note></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

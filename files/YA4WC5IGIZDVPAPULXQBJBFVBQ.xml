@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYA4WC5IGIZDVPAPULXQBJBFVBQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YA4WC5IGIZDVPAPULXQBJBFVBQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JE 66618</idno>
+<msName>Tripel-Statuette</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaNY6NOMQJCJGCJE3VUDNWGP2XUQ">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 114f., fig. 177-187, pl. LXX [*F, K, H, P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JE 66618</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YA4WC5IGIZDVPAPULXQBJBFVBQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-8fe3012c9d1b22cb4b9bfe41e39e0538</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6DLrBLoWUBErjgiSOflgDk">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd1cqITChL0GFiXakpDQ6790" lemmaRef="tla:tla852027"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-jd<supplied reason="defective">,ww-n</supplied>-ẖnw</w>
+<w xml:id="tlaIBUBd7UJ9xjBYUJcshnKFlopaWo" lemmaRef="tla:tla760100"><fs feats="entity_name person_name"/>Mr-sw-ꜥnḫ</w>
+</s>
+<s xml:id="tlaIBUBd1jTmIWsz0WhnWCqqKr9Vd0">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd32patKsXklpok4hHL50BmE" lemmaRef="tla:tla550338"><fs feats="epitheton_title title"/>sḥḏ-ḥm<supplied reason="defective">,w</supplied>-kꜣ</w>
+<w xml:id="tlaIBUBd66xyPvpv0d5g45smbiB2qU" lemmaRef="tla:tla852023"><fs feats="epitheton_title title"/>nfr</w>
+<w xml:id="tlaIBUBd9C3cImD2EcpgjMbRXUaWmw" lemmaRef="tla:tla760100"><fs feats="entity_name person_name"/>Mr-sw-ꜥnḫ</w>
+</s>
+<s xml:id="tlaIBUBd5IKzCYNQkrLoypCrcWBB5E">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd25gcmbSS0IjlQhgjF9nWuc" lemmaRef="tla:tla852027"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-jd<supplied reason="defective">,ww-n</supplied>-ẖnw</w>
+<w xml:id="tlaIBUBd5KJfhF4HEEigwhAyVSSwJY" lemmaRef="tla:tla760100"><fs feats="entity_name person_name"/>Mr-sw-ꜥnḫ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

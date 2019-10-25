@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stYAKATQ2QANA67L4DCG7ERAS4TQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YAKATQ2QANA67L4DCG7ERAS4TQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Architrav</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla25EZNX6G7NHFHCGDNCQHNKCGC4">
+<support>
+<objectType ref="ths:IGXF5ZVEI5ALPHRZKHMJFUA2FQ">Architrav</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 44, pl. 43 a.
+[F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YAKATQ2QANA67L4DCG7ERAS4TQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a02f2ab0a9c9d74a0c205b14580b32e1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdWeRWURGv0M6n28BBl7krSI">Ein Opfer, das der König [gibt], ein Opfer, das Anubis, [der auf] seinem Berg [ist], der Balsamierer, gibt, [ein Opfer, das] Osiris [⸮Epitheton? gibt]:</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw1fP0Po6UvdhUlLe6f54P0">Er möge sehr friedlich wandeln auf den schönen Wegen, auf denen die Ehrwürdigen wandeln.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwbbjSEB4EKYriyj06lKdws">Er möge bestattet sein in der westlichen Begräbnisstätte.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyjW0IXlF0q9gB702aecka4">Die westliche Begräbnisstätte möge ihre Arme um ihn legen ...[und er möge (o.ä.)] friedlich als Versorgter [das eherne Himmelsgewässer überqueren (o.ä.].</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWimvQ3P6EW7ooHrWTGYPoM">Das Totenreich möge zufrieden sein/zufrieden stellen ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyqfeKhHqUuSvVBRJ7f48aA">Oh Lebende auf Erden, die ihr an diesem Grab vorbeigehen werdet, ... [macht ein Opfer (o.ä.)] für mich [an dem trefflichen Ort, den ihr] kennt.</s>
+</ab>
+</body>
+</text>
+</TEI>

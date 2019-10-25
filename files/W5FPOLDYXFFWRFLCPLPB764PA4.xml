@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idW5FPOLDYXFFWRFLCPLPB764PA4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschriften der Südseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschriften der Südseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>W5FPOLDYXFFWRFLCPLPB764PA4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Pfeiler 6</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschriften der Südseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMJ4IN5D3ABEHVEO3PEFRHYUPSQ">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 30f., pl. 16, 17, 56, 57.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="W5FPOLDYXFFWRFLCPLPB764PA4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-4a7d909f9ba5ef9da1b3200020e43e5c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9rqFTjbL0inlkqgCHISQ38">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd8WRiim6okrvgM17GtgR1X0" lemmaRef="tla:tla94060"><fs feats="epitheton_title title"/>jr,j-pꜥ,t</w>
+<w xml:id="tlaIBUBd6lVcm94nUNqioV7wcgDU94" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-ꜥ</w>
+<w xml:id="tlaIBUBd6ZcJZoNH0avu1vgqu7dpbE" lemmaRef="tla:tla450276"><fs feats="epitheton_title title"/>tꜣ,tj-zꜣb-ṯꜣ,tj</w>
+<w xml:id="tlaIBUBdQVRV2iXUkoVjTkrixLL6A0" lemmaRef="tla:tla450017"><fs feats="entity_name person_name"/>Ššj</w>
+</s>
+<s xml:id="tlaIBUBd82KNr8MU0panJB2eAqBDrw">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd1pWK4hGN0WkvDouHd7eM4c" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBdQ3PDAOghEXEpQ56ieEhelA" lemmaRef="tla:tla450296"><fs feats="entity_name person_name"/>Nfr-sšm-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBd0rmZBN5gUqAlXKcKCFeejA">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdz89lI16gUsQgVQYbfN8sLE" lemmaRef="tla:tla850286"><fs feats="epitheton_title title"/>sḥḏ-ḥm<supplied reason="defective">,w</supplied>-nṯr-Ḏd-s,wt-Ttj</w>
+<w xml:id="tlaIBUBdxM5gGwSQEGWlJNo8QwE1zA" lemmaRef="tla:tla99015"><fs feats="epitheton_title title"/>ḫnt,j-š</w>
+<w xml:id="tlaIBUBdWQ632wwoEixuGiXEVQ2CXo" lemmaRef="tla:tla401164"><fs feats="epitheton_title title"/>jm,j-rʾ-kꜣ,t-nb,t-n,t-nswt</w>
+<w xml:id="tlaIBUBd24W0u7vm03UkEwhepuOzZc" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr,j-tp-nswt</w>
+<w xml:id="tlaIBUBd5BuXIlnpE89qVufXQN7t1s" lemmaRef="tla:tla450296"><fs feats="entity_name person_name"/>Nfr-sšm-Rꜥw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

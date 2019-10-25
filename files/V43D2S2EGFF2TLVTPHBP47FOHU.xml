@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idV43D2S2EGFF2TLVTPHBP47FOHU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Statuenbasis in Kairo</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Statuenbasis in Kairo nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>V43D2S2EGFF2TLVTPHBP47FOHU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<msName>〈Statuenbasis in Kairo〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Statuenbasis in Kairo</title>
+<textLang mainLang="zxx">5 = Schriftformen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4JZHIZJQHJDF5I2OVDLCLYVHBM">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+<note>Fragment einer Statuenbasis, wohl Gruppenstatue der Königsfamilie</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>L. Habachi, Varia from the Reign of King Akhenaten, MDAIK 20, 1965, 82 ff. [*P, *F, Ü];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 97 f. (Nr. 51 A) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="V43D2S2EGFF2TLVTPHBP47FOHU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="zxx">5 = Schriftformen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-213b01c377dc0e819cf67c948aa21986</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxhp4PVnRUeGhI8pY50T1y4">
+<lb n="[vordere Seitenfläche]"/>
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdQYQiLTLZEflh6X4w6gWcts" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit suffixConjugation active"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdQ3srgvdl0Wbn6WfEkW9PLM" lemmaRef="tla:tla32820"><fs feats="substantive substantive_masc st_pronominalis singular"/>jt<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdzZ4m8jBAE72qqrXjASXo94" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=j</w>
+<w xml:id="tlaIBUBdW5OKeMJDUZRkXw71CGfFX4" lemmaRef="tla:tla859389"><fs feats="entity_name gods_name"/>Rꜥw-ḥqꜣ-ꜣḫ,tj-ḥꜥi̯-m-ꜣḫ,t</w>
+<w xml:id="tlaIBUBd0p0WkW9XE5RqQyWg3v4XYA" lemmaRef="tla:tla859391"><fs feats="entity_name gods_name"/>M-rn≡f-<supplied reason="lost">m-Rꜥw-jt<supplied reason="defective">j</supplied>-jy-m-Jtn</supplied></w>
+</s>
+<s xml:id="tlaIBUBd66vptuwDEq7ot6QTlfE9c0">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd8JsU0SEs0CSnvHOf98YQcg" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+<w xml:id="tlaIBUBd5ipz1DysklUoVEDax5OI0I" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit masculine singular"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdwAfcwYO0ko3gWV7IrIl2Qc" lemmaRef="tla:tla47270"><fs feats="verb verb_2-gem masculine singular"/>wr</w>
+<w xml:id="tlaIBUBdy7geQyZFk4JiaOiizHD5W0" lemmaRef="tla:tla859384"><fs feats="epitheton_title epith_god"/>nb-ḥꜣb-sd</w>
+<w xml:id="tlaIBUBd8cn9kQuXkGvnWyLnW9LQdE" lemmaRef="tla:tla859383"><fs feats="epitheton_title epith_god"/>nb-šnn<supplied reason="defective">,t</supplied>-nb-Jtn</w>
+<w xml:id="tlaIBUBdw7f4rMQikVFilDWFQEHwvo" lemmaRef="tla:tla400833"><fs feats="epitheton_title epith_god"/>nb-p,t</w>
+<w xml:id="tlaIBUBd11xzaVsc0dWppqqRPdRW4o" lemmaRef="tla:tla851528"><fs feats="epitheton_title epith_god"/>nb-tꜣ</w>
+<w xml:id="tlaIBUBd4aQhrgaHkJfigdBg9VV80s" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd6QG93uP903cp64TLeGUQwE" lemmaRef="tla:tla856873"><fs feats="entity_name artifact_name"/>Pr-Jtn</w>
+<w xml:id="tlaIBUBd2SDz2SI3E2RmrxQjmXBf1E" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd6JC5HTnbUcCmvz5EJEda1g" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+</s>
+<s xml:id="tlaIBUBdQrOwDL1EUsYqJQDzPSB84Q">
+<lb n="[linke Seitenfläche]"/>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd3dp63uT6kAAmqbWWD8q5go" lemmaRef="tla:tla856863"><fs feats="entity_name kings_name"/>Ꜣḫ-n-Jtn</w>
+<w xml:id="tlaIBUBdQSUhY9iaEEjiYDi0WQAiWI" lemmaRef="tla:tla852060"><fs feats="epitheton_title epith_king"/>ꜥꜣ-m-ꜥḥꜥ<supplied reason="defective">,w</supplied>≡f</w>
+</s>
+<s xml:id="tlaIBUBdxiYUp9HpU4ggGCvq2bogz0">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd4EvALcVmEr6kxyiR44Go2I" lemmaRef="tla:tla711176"><fs feats="entity_name person_name"/><damage>Ꜥnḫ</damage>≡s-n-pꜣ-Jtn</w>
+<w xml:id="tlaIBUBdQM8jn9JxkBAt1q5y6WbN0Q" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/>msi̯.n</w>
+<w xml:id="tlaIBUBd9jV0G8AuUQdg77dxbEYiIQ" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr.t</w>
+<w xml:id="tlaIBUBdwImJRX4VUCjn7XOjC1lx4s" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroW4W5RZHVUJDWDJU3EMMD2RQPBU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lied der Sänftenträger</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Lied der Sänftenträger nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>W4W5RZHVUJDWDJU3EMMD2RQPBU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Lied der Sänftenträger</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4YRSRZBYA5GPVAFNENSS2HNYRI">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. de G. Davies, The Rock Tombs of Deir el Gebrâwi, Bd. II, London 1902, 11-12, pl. VIII
+[F, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="W4W5RZHVUJDWDJU3EMMD2RQPBU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-5134ddff14723ffaaf88231689e824d9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd62DkPJwrk7vvbKFo5iB8Wc">
+<w corresp="src:tlaIBUBd0qxtQEymkEZlT6QRSTgXHE"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyt9abgedUykqHZWM0sLDyA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7Qwz1hTvkernvSh08OGUhQ"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd7ZMsDOMik2XrImEgrGoE48">
+<w corresp="src:tlaIBUBdzYWQCRq1EWsvW1i5zDvzVs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQbUe1clkkVPsWWFt7wginw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzG0zIfPe0p0jhz2dUYanpY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1pSWDgDekeWqRyQPIelsnM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzWmRcLhoUuOmekEa2jRW84"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6QYv9O0Pk4yi1NZ7hrQli8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd25GSJ2u9EIzpWqHKWClVYE"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

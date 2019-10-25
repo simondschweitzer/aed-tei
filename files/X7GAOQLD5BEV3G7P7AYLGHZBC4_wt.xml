@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtX7GAOQLD5BEV3G7P7AYLGHZBC4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linker Außenpfeiler</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linker Außenpfeiler nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>X7GAOQLD5BEV3G7P7AYLGHZBC4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linker Außenpfeiler</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla64OZ6KE3PZCPNIZLFL4FPYRBMI">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:QTOOQ4NKC5DRHENFEFV66RZUBY">Meir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>PM IV 254f. (D2)
+N. Kanawati, The Cemetery of Meir I: The tomb of Pepyankh the Middle (ACE Rep. 31), Oxford 2012, 54f., pl. 51b-52a, 86
+[P, F, U, Ü, K, L]
+http://de.scribd.com/doc/47428540/BLACKMAN-A-M-The-Rock-Tombs-of-Meir-part-IV</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="X7GAOQLD5BEV3G7P7AYLGHZBC4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-9834ea80f3a418e5b20028ef13232fcc</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd7EdVDyP2kPcuFNWka0VzW8">
+<w xml:lang="de" corresp="src:tlaIBUBd13byOuUCEFxgorqzxt32bU">Versorgter bei Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxE7CIhtJ07YtRQdnnMugDg">Vorsteher der Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Mfm3k35kjTrjqrgqCIQkg">Pepy-anchu</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWPDiLKSakCQq25T5v1lkuY">der Mittlere (von Personen)</w>
+</s>
+<s corresp="src:tlaIBUBd2KpHjW3A0k5pbYVr8uXOwE">
+<w xml:lang="de" corresp="src:tlaIBUBdwUomHRgZ02khrWWVyiZJVM">Versorgter beim großen Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy67NxEQiUITqQ9LdkWWs6E">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9SeECLiiUSBpPmo4giSmWA">Nefer-ka</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

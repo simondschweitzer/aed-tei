@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYYTBYDXAZBATLASBL2VMKAI3JI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>D:Brief eines Unbekannten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von D:Brief eines Unbekannten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YYTBYDXAZBATLASBL2VMKAI3JI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32099</idno>
+<msName>pUC 32099 〈B,D〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">D:Brief eines Unbekannten</title>
+<textLang mainLang="Egyh-Egyhmd">Mittelhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDRRQA3225ZFTZNXLAQIKTRWMUU">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+</origDate>
+<origPlace ref="ths:5K5MFHJIAJDX3HZ5BSH2IICN2U">el-Lahun (Illahun)
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Collier, M., Quirke, St., The UCL Lahun Papyri, Oxford 2002, 12-15.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>P. UC 32099</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YYTBYDXAZBATLASBL2VMKAI3JI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhmd">Mittelhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-6626dca1ee3ad79c051a6c43106fdcb4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0SQEGpwAkUZgqk1eJpKuZs">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd1fmpkMAs0PMk8K0ZdJdPco" lemmaRef="tla:tla550025"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">swḏ</supplied>ꜣ-jb</w>
+<w xml:id="tlaIBUBd3HL6cGWF0cFnSqNIFv0qZE" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">pw</supplied></w>
+<w xml:id="tlaIBUBd0OG4mGzKkUAtzJakKZueek" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd50jc7eJeknZvoHWWnMuXGQ" lemmaRef="tla:tla81650"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">nb</supplied></w>
+<w xml:id="tlaIBUBd3m9YIeliUebrakpF0vJliQ" lemmaRef="tla:tla400004"><fs feats="adjective"/><supplied reason="lost">ꜥnḫ-wḏꜣ-s<supplied reason="defective">nb</supplied></supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd1i3MufjkkSOtVz7aNrDWWc" lemmaRef="tla:tla550016"><fs feats="particle"/><supplied reason="lost">r-n,tt</supplied></w>
+<w xml:id="tlaIBUBd42IzzzvQkxXjvac9uS4WVk" lemmaRef="tla:tla854526"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>hꜣw</w>
+<w xml:id="tlaIBUBdxkV4xsOA0FniYI2l6jG7EI" lemmaRef="tla:tla81660"><fs feats="adjective masculine singular"/>nb</w>
+<w xml:id="tlaIBUBd5iIwU3wHUfzpta042DXaj4" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>n<supplied reason="defective">,j</supplied></w>
+<w xml:id="tlaIBUBd81qXp1EwETLnLWwdWWne78" lemmaRef="tla:tla81650"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">nb</supplied></w>
+<w xml:id="tlaIBUBd5QswE8pNU4Ykfaer1qUyQ4" lemmaRef="tla:tla400004"><fs feats="adjective"/><supplied reason="lost">ꜥnḫ-wḏꜣ-s<supplied reason="defective">nb</supplied></supplied></w>
+<w xml:id="tlaIBUBd95KHcTMMkQUj96S7uZnYRY" lemmaRef="tla:tla41890"><fs feats="verb verb_2-lit pseudoParticiple masculine singular"/><supplied reason="lost">ꜥḏ</supplied></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdxxvtGGaukkApiIHfL7a8gM" lemmaRef="tla:tla52090"><fs feats="verb verb_3-lit pseudoParticiple masculine singular"/>wḏꜣ</w>
+<w xml:id="tlaIBUBd2fRf59YjEQfviQS0BmC6WQ" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd7VGQQA2DE8Gnj22r4eRBXM" lemmaRef="tla:tla854540"><fs feats="substantive substantive_fem st_pronominalis plural"/>s,t.pl</w>
+<w xml:id="tlaIBUBd1nakbhNu0G4oo4ASZDKvbM" lemmaRef="tla:tla10100"><fs feats="pronoun personal_pronoun"/><supplied reason="lost">=sn</supplied></w>
+<w xml:id="tlaIBUBd0FcIOXvVUHwk6J1YaYaG6A" lemmaRef="tla:tla81660"><fs feats="adjective feminine plural"/><supplied reason="lost">nb.t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd86lpz3Ka0kJv5TGPdldLfY">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd10me4DMSk7gvk1YTu1rrBI" lemmaRef="tla:tla550025"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">s</supplied>wḏꜣ-jb</w>
+<w xml:id="tlaIBUBdWmJ51HEQUVEtDx5EWB0ZZ8" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/>pw</w>
+<w xml:id="tlaIBUBd278EnCzPkz0jvGogmgEq2U" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd6waNcEJQkrhj7AwlMXavTQ" lemmaRef="tla:tla81650"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>nb</damage></w>
+<w xml:id="tlaIBUBdzoSHQYhdE7Ig0t0omvZZ6s" lemmaRef="tla:tla400004"><fs feats="adjective"/><supplied reason="lost">ꜥnḫ-wḏꜣ-s<supplied reason="defective">nb</supplied></supplied></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdQzykiutHkZMlrNPpf4fKMU" lemmaRef="tla:tla550016"><fs feats="particle"/><supplied reason="lost">r-n,</supplied>tt</w>
+<w xml:id="tlaIBUBd67ffsdEWEYqono0HyIK5bE" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit suffixConjugation active"/>sḏm</w>
+<w xml:id="tlaIBUBdzyBSn9LQUK7ljQ8a5qyLYI" lemmaRef="tla:tla550024"><fs feats="substantive st_absolutus singular"/>bꜣk-jm</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd7zT70AGT0OlqDaxsaIfjE4" lemmaRef="tla:tla850831"><fs feats="undefined"/>-<supplied reason="defective">W</supplied>-</w>
+<w xml:id="tlaIBUBd3wWqeMJ6k08pMXWUNMyFB0" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/>pn</w>
+<w xml:id="tlaIBUBd5hsip2arUePraQhi8PgQgc" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf participle masculine singular passive"/>jn.y</w>
+<w xml:id="tlaIBUBd7QAwlef1k5wgQaQmBPiDM4" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd7ekQc1nhkQDuTLEq6eyWmg" lemmaRef="tla:tla550024"><fs feats="substantive st_absolutus singular"/>bꜣk-jm</w>
+<lb n="[7]"/>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtWK4VNVFSRNHLPLLPTFN4XFUPC4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>WK4VNVFSRNHLPLLPTFN4XFUPC4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPE76FLSS7BAL5HHTGMOTHVJFDE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara VI: The Tomb of Nikauisesi (ACE Rep. 14), Warminster 2000, 43f., pl. 23, 54</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="WK4VNVFSRNHLPLLPTFN4XFUPC4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c6fb2eae4e8185e76df1a146c7650a8c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWXD3NMUz0ZYsHeXQbQlg2s">
+<w xml:lang="de" corresp="src:tlaIBUBdyY7m81MVk91qtht7qegBWM">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd55Sfnzgx0kJsjWWwAoIVXE">er [pron. suff. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4DVF72sY0B1inJKZ3zQ3eo">ältester, älterer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4fidGgaCElmsZrWLB9z7Dg">(der) Geliebte (von)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9Jq77Eg70UUqY9FDMDaXaA">er [pron. suff. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ3zRAq4MEhwllegZZMyrHs">[Titel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9pYKrY6s0lfjiSOt6knQXU">Ni-kau-Isesi</w>
+</s>
+<s corresp="src:tlaIBUBd0b2J7EGYkczpZgLhiWdTSY">
+<w xml:lang="de" corresp="src:tlaIBUBd8Z0kXuSmUThpwPjD4kMQ1A">Vorsteher der Mannschaften</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW7A6Q7RGkyssPivYo1OKNk">Iry-en-Ptah</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

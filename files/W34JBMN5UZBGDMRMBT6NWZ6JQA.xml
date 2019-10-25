@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idW34JBMN5UZBGDMRMBT6NWZ6JQA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>3. Register v.u.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 3. Register v.u. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>W34JBMN5UZBGDMRMBT6NWZ6JQA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">3. Register v.u.</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZRWUOBQOOBCG7LGDKVYDWK3ERI">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. Badawy, The tombs of Iteti, Sekhem&#039;ankh, and Kaemnofret at Giza,  Berkeley [u.a.] : Univ. of California Pr., 1976, 28f., Fig. 30, pl. 34</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="W34JBMN5UZBGDMRMBT6NWZ6JQA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6a00565e8ea7405bd8474bcf266cae47</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8YzuzAVgUQZjEuGMg5HVFM">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd3QxtjdHBUq6ggd43WhuUAI" lemmaRef="tla:tla550055"><fs feats="epitheton_title title"/>zẖꜣ,w</w>
+<w xml:id="tlaIBUBd4wp7fxqEkpCuVWAKPTQbuo" lemmaRef="tla:tla850830"><fs feats="entity_name"/>Wsr-<damage><unclear>_</unclear></damage></w>
+</s>
+<s xml:id="tlaIBUBd2R8cqdWsE1FqAIGT8D4pTU">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdydKOwrqskhHm2ZkDRr3Vso" lemmaRef="tla:tla854501"><fs feats="verb verb_3-lit infinitive"/>wbs</w>
+<w xml:id="tlaIBUBdQgzHPg2pEcuoQnoCPpw3c8" lemmaRef="tla:tla132380"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>zp,t</w>
+</s>
+<s xml:id="tlaIBUBdyfreLRHQUpSgxS9JOV9WRU">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdxcLktiQXEPHpDBQrqbSdYY" lemmaRef="tla:tla0"><fs feats="unknown"/><damage>Rrw,t</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

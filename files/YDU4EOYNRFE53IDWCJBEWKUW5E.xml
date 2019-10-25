@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYDU4EOYNRFE53IDWCJBEWKUW5E">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 402</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 402 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YDU4EOYNRFE53IDWCJBEWKUW5E</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 402</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQTXKWSMBBJDDXC3MF6OWKEBHAE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YDU4EOYNRFE53IDWCJBEWKUW5E.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-a6c8401c9829a4c3d9dec59f255f3e4e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdW8x63MxA0ARngS7kDeiNm0">
+<lb n="[T/A/E 42 = 333]"/>
+<w xml:id="tlaIBUBd98hA7iknkNhq0KQQ32GW1E" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBd643mkEJtE0TrvQJlrLMgf4">
+<w xml:id="tlaIBUBd2CbfWW3mUScuHGxQmQYaMA" lemmaRef="tla:tla130740"><fs feats="verb verb_caus_3-lit suffixConjugation passive"/>ssḫ</w>
+<w xml:id="tlaIBUBdymVxViGtkfgswwQIpxytyA" lemmaRef="tla:tla854540"><fs feats="substantive substantive_fem st_constructus singular"/>s,t</w>
+<w xml:id="tlaIBUBdxDRBwCJrEMRvMbGhiRQ8Ic" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBdWi7FvVfGkrXl9XKPpRKYpI" lemmaRef="tla:tla850800"><fs feats="preposition"/>ḥnꜥ</w>
+<w xml:id="tlaIBUBdwi2P4qMp0zxm5RhiuLkdBA" lemmaRef="tla:tla167010"><fs feats="entity_name gods_name"/>Gbb</w>
+</s>
+<s xml:id="tlaIBUBd8c3Bt6EQE6Yj4i708Qeq94">
+<w xml:id="tlaIBUBdQXEjHtc6UbXqoytc2x0UQQ" lemmaRef="tla:tla145960"><fs feats="verb verb_caus_3-inf suffixConjugation passive"/>sqꜣi̯</w>
+<w xml:id="tlaIBUBd3b9WiHW9UYamO7hVI2SCoY" lemmaRef="tla:tla141220"><fs feats="substantive substantive_masc st_constructus singular"/>sḥd</w>
+<w xml:id="tlaIBUBdz4elIrVU0aslGw0VmwfOxw" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBd1GDLEcE1U8EmxT6qeRy5iE" lemmaRef="tla:tla850800"><fs feats="preposition"/>ḥnꜥ</w>
+<w xml:id="tlaIBUBd2ZWcvK86k1FokCAn9EEncQ" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBdWXPU8G4lkGHhbMHtoiUy3g">
+<w xml:id="tlaIBUBd7hF4TWZ4Ezctatrwr0rWWg" lemmaRef="tla:tla46490"><fs feats="verb verb_4-lit suffixConjugation active"/>wnwn</w>
+<w xml:id="tlaIBUBd1oK1nDDEUngkWcYVQ2ReMU" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBd2MQV4Edzkd8gsYXGz1j4oQ" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd92bX2ilvEIBrFcihNK0wxo" lemmaRef="tla:tla857896"><fs feats="substantive substantive_fem st_absolutus plural"/>s<surplus>rꜥw</surplus><supplied reason="omitted">ḫ</supplied>,t.pl-ḥtp</w>
+</s>
+<s xml:id="tlaIBUBd8AuTWH6G0oJqhWULYsdYLo">
+<w xml:id="tlaIBUBdQYKzkP86kEIgSYFOW4WwkI" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBd7ZRWC85cEj2tsFD7yd4WVk" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/>pw</w>
+<w xml:id="tlaIBUBdxX2xZyNpEZovUHBO1fr5DI" lemmaRef="tla:tla28250"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jr,t</w>
+<w xml:id="tlaIBUBd6h7XQXVVUD7mattzWQcihA" lemmaRef="tla:tla851518"><fs feats="pronoun demonstrative_pronoun"/>tw</w>
+<w xml:id="tlaIBUBd7gwbt0AokpSlJDEQ8qdW9E" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine singular"/>n.t</w>
+<w xml:id="tlaIBUBdygivB6zQ0HmjWgFLWBmeQ8" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+<w xml:id="tlaIBUBd2LK0WRLL0DIgHRfpvuOzyQ" lemmaRef="tla:tla150740"><fs feats="verb verb_3-lit participle feminine singular active"/>sḏr.t</w>
+<w xml:id="tlaIBUBd5fZRf8sc0aSvbQfceVY0gA" lemmaRef="tla:tla22930"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>jj.<damage>t</damage></w>
+<w xml:id="tlaIBUBd68M0nQkAU0KjiB7ogkWk8w" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf pseudoParticiple feminine singular"/>msi̯.t</w>
+<w xml:id="tlaIBUBd7y9kp8I9kbQhc4UL89k9Q4" lemmaRef="tla:tla93320"><fs feats="adverb"/>rꜥw-nb</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

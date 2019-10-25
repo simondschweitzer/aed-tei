@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idVBBEOG5CQZAOVBGC3PNER44E4E">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>biographische Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Adelheid Burkhardt</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von biographische Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Adelheid Burkhardt</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VBBEOG5CQZAOVBGC3PNER44E4E</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">biographische Inschrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaFG2BXR7BFZC23AXDRL6H34UOYM">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:OSQYKCRYMFGJRD3LESUKPOZG4E" notBefore="-2232">8. Dyn.</date>
+<date type="latest" datingPoint="ths:OSQYKCRYMFGJRD3LESUKPOZG4E" notAfter="-2187">8. Dyn.</date>
+<note>nach Kanawati, El-Hawawish, dgl., Akhmim</note>
+</origDate>
+<origPlace ref="ths:C2Z63NXQFBBFNLB3RZEJJQTBVQ">Achmim
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Kanawati, Naguib, The rock tombs of El-Hawawish. The cemetery of Akhmim 1, Sydney 1980, 38-44, Fig. 23-26
+Newberry, Percy E., The inscribed tombs of Ekhmîm, in: LAAA 4, 1912, 108-109, Tomb 12;
+Kanawati, Naguib, Akhmim in the Old Kingdom. I: Chronology and administration, Sydney 1992, 310</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VBBEOG5CQZAOVBGC3PNER44E4E.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Adelheid Burkhardt</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-5cc345859d09c80ba32b57263fa3cf04</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQ2aQ0NDMEuyl9gywajjKWM">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdxipug8h5k6xjqu8xSN0rlU" lemmaRef="tla:tla850522"><fs feats="epitheton_title title"/>jmꜣḫw-<damage>ḫr</damage>-nb≡f</w>
+<w xml:id="tlaIBUBdwm4Tr7BKEnOv4goQa2jpyo" lemmaRef="tla:tla712130"><fs feats="entity_name person_name"/>bḫn</w>
+<w xml:id="tlaIBUBdzXhU9bTFEimq1wYiZrnMLg" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit participle masculine singular active"/>ḏd</w>
+</s>
+<s xml:id="tlaIBUBd3Zl5CaQdEWenELQATKdDQc">
+<w xml:id="tlaIBUBd1bHftBtdE6tuNcFwOIhNhU" lemmaRef="tla:tla27940"><fs feats="pronoun personal_pronoun"/><damage>jnk</damage></w>
+<w xml:id="tlaIBUBd0YmxilcL0Ezpm9VHXxZENw" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf participle masculine singular active"/><damage>jr</damage></w>
+<w xml:id="tlaIBUBd2SLYHYrCUlHlLVrovmnTtw" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>jz</damage></w>
+<w xml:id="tlaIBUBdyXBBX7gL0DstXPY7uuPIkg" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/>p<damage>n</damage></w>
+<w xml:id="tlaIBUBdWJTnh1XQkibkbq57WDZQgg" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/><damage>n</damage></w>
+<w xml:id="tlaIBUBd3U2uiuSi0gTmRn1YrPvMtc" lemmaRef="tla:tla0"><fs feats="unknown"/></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd8BZws1eeUxwt9IJDpzJIeE" lemmaRef="tla:tla65310"><fs feats="adverb"/><damage>m-ḫt</damage></w>
+</s>
+<s xml:id="tlaIBUBdyYZW5imj0i7tY8UcAFeu3U">
+<w xml:id="tlaIBUBd8i8QeZMSEGqrFcl3otG9Sw" lemmaRef="tla:tla21881"><fs feats="particle"/><damage>jw</damage></w>
+<w xml:id="tlaIBUBd2mzeXwmUkG6nnOIt9k26A8" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation n-morpheme active"/><damage>rḏ</damage>.n</w>
+<w xml:id="tlaIBUBdyoWYpPSe0SjsDVqOnrXWW4" lemmaRef="tla:tla100310"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥꜣt</w>
+<w xml:id="tlaIBUBdzkCqthW9kQRsypMQXPNgjg" lemmaRef="tla:tla0"><fs feats="unknown"/>t=f</w>
+<w xml:id="tlaIBUBdQ5mNZfsvUmQglHePW9WUiU" lemmaRef="tla:tla0"><fs feats="unknown"/></w>
+<w xml:id="tlaIBUBd3pzHTxrnkbArf21qA1NVik" lemmaRef="tla:tla114300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḫꜣst</w>
+<w xml:id="tlaIBUBd6mOzsxsu0XlkEZtXrGFPus" lemmaRef="tla:tla61370"><fs feats="verb verb_2-lit participle feminine singular active"/>pḥt</w>
+<w xml:id="tlaIBUBdxA2aBNmV0JSofk4W3rkkz4" lemmaRef="tla:tla92870"><fs feats="substantive st_constructus singular"/>rʾ-pr</w>
+<w xml:id="tlaIBUBd4RvUP5CWUnJjGzjeVacEHE" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>ppy</w>
+<w xml:id="tlaIBUBdztb39MbU0mMptUfG4Evtd0" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBdzsm8CbpuUSZl7u8PcaarNk" lemmaRef="tla:tla0"><fs feats="unknown"/></w>
+</s>
+<s xml:id="tlaIBUBdQpfstt0KEz4rUwWYNmNiJA">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdyt4WhOW6UPxtt6C7gIJgw0" lemmaRef="tla:tla21881"><fs feats="particle"/><damage>jw</damage></w>
+<w xml:id="tlaIBUBd09L9HfLF04EoDHG6ZMf06Y" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation active"/><damage>rḏ</damage></w>
+<w xml:id="tlaIBUBd7CBXOMS20y6l21S4ct47GA" lemmaRef="tla:tla179040"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>dpt</w>
+<w xml:id="tlaIBUBd3N96nnSp0RutWWW1wg5yW8" lemmaRef="tla:tla107520"><fs feats="preposition"/><supplied reason="lost">ḥr</supplied></w>
+<w xml:id="tlaIBUBd27GzviXTE02mAXFmW1qeQs" lemmaRef="tla:tla69000"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>mw</damage></w>
+</s>
+<s xml:id="tlaIBUBdzYYWCiEKEHNv49cwInCAsk">
+<w xml:id="tlaIBUBd4cxT7Xu9E32h2MYLFHgZlc" lemmaRef="tla:tla21881"><fs feats="particle"/><damage>jw</damage></w>
+<w xml:id="tlaIBUBdWCBlDdvG0x1huxWraVQMEs" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf suffixConjugation n-morpheme active"/><damage>jr</damage>.n</w>
+<w xml:id="tlaIBUBdxkWMeUHG0BjisjMJiW4pRs" lemmaRef="tla:tla60220"><fs feats="substantive substantive_masc st_constructus singular"/>pr</w>
+<w xml:id="tlaIBUBd46k0MjXAUwXuNcqs09DCb0" lemmaRef="tla:tla86570"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nḥḥ</w>
+<w xml:id="tlaIBUBd8IaoN7AQEabgyiXQlFKnoE" lemmaRef="tla:tla0"><fs feats="unknown"/></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
