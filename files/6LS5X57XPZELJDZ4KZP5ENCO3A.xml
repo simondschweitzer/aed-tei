@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id6LS5X57XPZELJDZ4KZP5ENCO3A">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenentitel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenentitel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6LS5X57XPZELJDZ4KZP5ENCO3A</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>linke Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenentitel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaKYXTXVIUHNEO3BU43GBN3RSDJM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 63 [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6LS5X57XPZELJDZ4KZP5ENCO3A.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-a149493c46441b0c81c4813539d4f2d2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdwSkeFRWzUs7vnKdpDGLxOA">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd8DlDLZ9KUWMnQPYaVDNMBY" lemmaRef="tla:tla155000"><fs feats="verb verb_3-lit infinitive"/>šms</w>
+<w xml:id="tlaIBUBd1QQspWsHkXNsbLuX0riGX4" lemmaRef="tla:tla170470"><fs feats="substantive substantive_masc st_absolutus dual"/>t<supplied reason="defective">w</supplied>t.w<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdzgLBbq3kUl6tPxEEm4Wqx0" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine dual"/><supplied reason="lost">n,j.</supplied><damage>w</damage><supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBd3X69XrtxE24kXUQfYuIBkg" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/><supplied reason="lost">ẖr,j-</supplied><damage>ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></damage></w>
+<w xml:id="tlaIBUBd5kdQL3QpUMztzLMGYJLClU" lemmaRef="tla:tla450176"><fs feats="entity_name person_name"/>Ṯy</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

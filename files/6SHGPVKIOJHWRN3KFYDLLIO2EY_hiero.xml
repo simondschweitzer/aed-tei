@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hiero6SHGPVKIOJHWRN3KFYDLLIO2EY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Zl. 1-9: 〉Osiris-Hymnus</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Zl. 1-9: 〉Osiris-Hymnus nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6SHGPVKIOJHWRN3KFYDLLIO2EY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>Ausstellungsnummer 447</idno>
+<msName>Stele des Amenemhat (BM EA 893)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Zl. 1-9: 〉Osiris-Hymnus</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMOHLR6WEUFG4BFE7MGCQXZQDZY">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; H. 114 cm; Br. 106.5 cm</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notBefore="-1793">13. / 14. Dynastie</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>2. Hälfte 13. Dynastie (nach Franke, Fs Assmann, 98)</note>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+<note>laut HTBM IV, 12 durch Captain R. Bruce, R.N., aus Theben mitgebracht</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. I.2, Oxford 1964, 808 [B]
+- D. Franke, Middle Kingdom Hymns and other sundry religious Texts. An Inventory, in: S. Meyer (Hg.), Egypt - Temple of the Whole World. Ägypten - Tempel der gesamten Welt. Studies in Honour of Jan Assmann, Leiden 2003, 98 (§ 2) und 104 (§ 9) [B]
+
+- H.R. Hall, Hieroglyphic Texts from Egyptian Stelae, etc., in the British Museum, Part IV, London 1913, 12 und Tf. 48-49 (Nr. 447 [893]) [H]
+- S. Hassan, Hymnes religieux du Moyen Empire, Kairo 1928, 84-106 und 133-134 [H, Ü, K]
+- J. Assmann, Ägyptische Hymnen und Gebete, 2. Aufl., OBO, Freiburg und Göttingen 1999, 466-469 (Nr. 205-206) [Ü]
+- http://www.britishmuseum.org/research/search_the_collection_database/search_object_details.aspx?objectid=121117&amp;partid=1&amp;IdNum=893&amp;orig=%2fresearch%2fsearch_the_collection_database%2fmuseum_number_search.aspx [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>Ausstellungsnummer 447</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6SHGPVKIOJHWRN3KFYDLLIO2EY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>14-fc897487f0cf0603b919ed7ef720af83</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd0WPBCXShkU5jQNbAWS5Bss">
+<w corresp="src:tlaIBUBd0a3i4O3OkICuWmhoQRDzPY">𓌃𓆓</w>
+<w corresp="src:tlaIBUBd8cclqYgvkuupay6Z2WQRNw">𓇋𓈖</w>
+<w corresp="src:tlaIBUBd88iLIZXVU9gneI3vnibuDQ">𓋔𓇋𓏏𓋩</w>
+<w corresp="src:tlaIBUBd3dhIkyQIU87g3LSgA6G6Dg">𓄓𓐛𓉐</w>
+<w corresp="src:tlaIBUBd78n3l8W1knnj5B49jIGHQA">𓇋𓈖𓏠𓅓𓄂𓏏𓏤</w>
+</s>
+<s corresp="src:tlaIBUBd1NuHWgJMEIhqn7ROjxKn1E">
+<w corresp="src:tlaIBUBdzNyphDxYUIblsvtJc6oASc">𓇋𓐩𓆓𓏛</w>
+<w corresp="src:tlaIBUBd1Kx9uIWt0DTj07IPBwGkPE">𓁷𓏤</w>
+<w corresp="src:tlaIBUBd7P2vOEj4EWDrjte2kaVRX0">𓎢</w>
+<w corresp="src:tlaIBUBd0WQQaZEWUWqnZIPHOjb88I">𓊩𓁹</w>
+<w corresp="src:tlaIBUBd8f8PDemXUsSiW3uvjWTDJI"><note>Keine Entsprechung in Unicode für W17A-R14-G4-A40</note></w>
+<w corresp="src:tlaIBUBd3U6hWGDUEA2glNRoSmaUM4"><note>Keine Entsprechung in Unicode für R8-O29v</note></w>
+<w corresp="src:tlaIBUBd8lmiuAtlUbmhnLOm0T1Oc8">𓎟𓍋𓈋𓃀</w>
+</s>
+<s corresp="src:tlaIBUBd5WfZWyjzkW3pY8WnBJO8ik">
+<w corresp="src:tlaIBUBd234yuFhIE81ogrI0wENzJ8">𓇼𓀢</w>
+<w corresp="src:tlaIBUBd6OTT4t80kkSmPjzSJczsC4">𓀀</w>
+<w corresp="src:tlaIBUBdQnoBA5PsUUZpFyvFOiucCA">𓏏𓅱</w>
+</s>
+<s corresp="src:tlaIBUBdybhKqNLOkG0r5dfHCus084">
+<w corresp="src:tlaIBUBdwXzv4zP9U3JrPzud06AM9I">𓇋𓐩𓆓𓏛</w>
+<w corresp="src:tlaIBUBd5CtFlsMcE3vgpDkqAWcj4M">𓁷𓏤</w>
+<w corresp="src:tlaIBUBdQ48wPCtMkZaq9e1gI9ax1A">𓎢</w>
+<w corresp="src:tlaIBUBdy0LQ8N4AkW4gKgyJWZ6fhI">𓅭𓏤</w>
+<w corresp="src:tlaIBUBdzRbVefcTkCovOY8t4Nva1A">𓊪𓅱𓇋𓇋</w>
+<w corresp="src:tlaIBUBdQPi5Hhhak2Rmsyu2f9FPeA"><note>Keine Entsprechung in Unicode für D1-Q3-Z4-.</note></w>
+<w corresp="src:tlaIBUBd4kqUmNO2EN3kFHnlxLUqyg">𓈖</w>
+<w corresp="src:tlaIBUBd2jw4mHdh0qgjArI3AjTOQM">𓅬𓃀𓀭</w>
+<w corresp="src:tlaIBUBd8vSQbBwqU9tgSGm132i250">𓊹𓏤</w>
+<w corresp="src:tlaIBUBdxkoYBhjOECkkem3cVgTRfg">𓅨𓂋</w>
+<w corresp="src:tlaIBUBdzeGb6DqjUfAmFJcByMMWCE">𓉐𓂋𓂻</w>
+<w corresp="src:tlaIBUBdx9x8ODKVEXMowYFWgs7Z5k">𓅓</w>
+<w corresp="src:tlaIBUBd2RiVvQ6OEd9owE6CbRadhE">𓏌𓏏𓇯</w>
+</s>
+<s corresp="src:tlaIBUBd8crzQRHwEVFjmdtUkAeZC8">
+<w corresp="src:tlaIBUBd1URywLCaUbAhgBfXdgQaK4"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8dhsKtkzEw5uPLhky8Qaqc">𓇓𓏏𓈖𓀭</w>
+<w corresp="src:tlaIBUBd6s6Ns1CSUqZpIVWSCPcn3M">𓁷𓄣</w>
+<w corresp="src:tlaIBUBdxkm0cAvwE51i9W6GrSoMB8">𓋅</w>
+<w corresp="src:tlaIBUBd9VYQQy0tk6TiOjVCWKCXoQ"><note>Keine Entsprechung in Unicode für W17A-R14-G4</note></w>
+<w corresp="src:tlaIBUBdxAiof9oSks5gNCkBRFh5RM">𓎟𓍋𓃀𓈋</w>
+</s>
+<s corresp="src:tlaIBUBdWhCwd7j9UIjpQRQgWxBHyc">
+<w corresp="src:tlaIBUBd7WseMxJEEg7o1Or9hiZQec">𓎟</w>
+<w corresp="src:tlaIBUBd1GbI6Gs4Ee6pIbGmSQ3QsU">𓅢</w>
+<w corresp="src:tlaIBUBd7A8RRvvvEJNgYIzgao0fr8">𓉻𓂝</w>
+<w corresp="src:tlaIBUBdWD2eSjAJkWtnBdBldslhnE">𓈙𓆑𓈙𓆑𓏏𓄆𓏪</w>
+<w corresp="src:tlaIBUBd549LQJCjUGotHorGHxU5mI">𓎟</w>
+<w corresp="src:tlaIBUBdz3i1NhrQ0sGh1W2iOL04ZM"><note>Keine Entsprechung in Unicode für G1-X1-I9-G43-S8A-Z3</note></w>
+<w corresp="src:tlaIBUBd1OvAYZd609ChuZD1ZW4SFU">𓅓</w>
+<w corresp="src:tlaIBUBdWYXf7StSUPdhXiEbvFoHWA"><note>Keine Entsprechung in Unicode für N28-D36-G43-Z2-.</note></w>
+<w corresp="src:tlaIBUBd0rPQifMGkDaui1E5PDNm9E">𓆑</w>
+</s>
+<s corresp="src:tlaIBUBd2xCAkqemkzyt9klr2SHHag">
+<w corresp="src:tlaIBUBd24sie2wWk7om7mEHh0SLqk">𓎟</w>
+<w corresp="src:tlaIBUBd6VJb8F9CkezswQa4DUAzlU">𓌂𓏤𓏥</w>
+<w corresp="src:tlaIBUBd9QZyGsms0Rdv5R2qMYIX44">𓅓</w>
+<w corresp="src:tlaIBUBdxDG9762MUqukCy2STWDtqo">𓋅</w>
+<w corresp="src:tlaIBUBd4VtYTnGjEJvgxLsQa6Xnwk">𓎟𓀭</w>
+<w corresp="src:tlaIBUBd3hgqBVOD0ecuHvhCpqsNag">𓅓𓊢𓂝𓏏𓉐𓏥</w>
+<w corresp="src:tlaIBUBd0rd7GKIbkIOmmSa4cRG8y4">𓉻𓏛</w>
+<w corresp="src:tlaIBUBd0SCc9Fb20c3mvrRMWvnFiI">𓅡𓏤</w>
+<w corresp="src:tlaIBUBd2mM7PlRV0nhtWIrcaZuaZM">𓅓</w>
+<w corresp="src:tlaIBUBdwWYQNozD0clh6WQz8OHZb0">𓊽𓂧𓏏𓊖</w>
+</s>
+<s corresp="src:tlaIBUBdWXOTulZqECYtEUb4MZmwV8">
+<w corresp="src:tlaIBUBd1THXFCo6EsRiW8OQiRfvZM">𓎟</w>
+<w corresp="src:tlaIBUBdQvppu2WlkXHt4J75DuWWQA"><note>Keine Entsprechung in Unicode für Aa1-D21-X1-E176-Z3</note></w>
+<w corresp="src:tlaIBUBd3Mz2eyH60CrqWSwBvq3f3A">𓆈𓏥</w>
+<w corresp="src:tlaIBUBd29KBBbx8UhXgFFWFT4BpHI"><note>Keine Entsprechung in Unicode für V28C-D58-W3-Z2</note></w>
+<w corresp="src:tlaIBUBdzJpxFtAn0WAkyNixQIrsjs">𓅓</w>
+<w corresp="src:tlaIBUBd0QmPA9otk1XrYWZrd21DgI">𓊽𓅱𓊖</w>
+</s>
+<s corresp="src:tlaIBUBd83YBEMXdk8Elyw2bX5scIY">
+<w corresp="src:tlaIBUBd49IgZUud0hQuA0gHDkAP2w">𓋴𓈎𓄿𓏛𓈖</w>
+<w corresp="src:tlaIBUBd7bgfsagE0B4icgcQ5HiV4c">𓅃</w>
+<w corresp="src:tlaIBUBdzc45OT7p00Wq4VUQ5vQDG0">𓇋𓏏𓆑𓀭</w>
+<w corresp="src:tlaIBUBd7jIpSlFDkKznuoSLwbpWc8">𓆑</w>
+<w corresp="src:tlaIBUBd06bfjOETEKHlBRlLgry1o4">𓊩𓁹</w>
+<w corresp="src:tlaIBUBdQIyQ2cdkkdmmcQ97lOZUpg"><note>Keine Entsprechung in Unicode für W17A-R14-G4-A40</note></w>
+<w corresp="src:tlaIBUBdxxippNT3EW0pNQYQJNOKDg">𓅓</w>
+<w corresp="src:tlaIBUBd0QEWzlvCEhQvj1uLCATiMk">𓃀𓅱</w>
+<w corresp="src:tlaIBUBd6W4ZB1ct0Mwor0I8Jd9CBY">𓎟</w>
+</s>
+<s corresp="src:tlaIBUBd4bpsEPrAkRupGbaJI33oPU">
+<w corresp="src:tlaIBUBd2k2N0sL801mlsMAPzkPA1A">𓎸𓅓𓈖</w>
+<w corresp="src:tlaIBUBdxUWSxGFEEu8iwiRsO0R0IM">𓊨𓏏𓆇𓊹𓂋𓏏</w>
+<w corresp="src:tlaIBUBd9vcQwGxSUmGlev5nHK4tOQ"><note>Keine Entsprechung in Unicode für V28C-N35-D36</note></w>
+<w corresp="src:tlaIBUBd3CtqPntFEB4l78Ez7sLz4Q">𓉠𓁐</w>
+</s>
+<s corresp="src:tlaIBUBd9A8nhQtAk7PthPTclPFTD0">
+<w corresp="src:tlaIBUBd0QpkrjUsUWrlS2zQeyu014"><note>Keine Entsprechung in Unicode für I10-D46-N35-.</note></w>
+<w corresp="src:tlaIBUBd2XEKm9qcUw0jDMUmOaaidI">𓈖</w>
+<w corresp="src:tlaIBUBdzcJSQYKqkgkkk0FL0SWXWA">𓆑</w>
+<w corresp="src:tlaIBUBd49ymW8IRkezlclJ4mx89fs">𓅝</w>
+<w corresp="src:tlaIBUBdyWDY9MwlkqvgBk2Ng8Qw0w">𓋴𓅜𓐍𓏛𓏥</w>
+<w corresp="src:tlaIBUBd5Hyya4Z6UAVsICsKrYamr8">𓆑</w>
+<w corresp="src:tlaIBUBd6jXEGc4pEvwr1cyKxOW8nY">𓅨𓂋</w>
+<w corresp="src:tlaIBUBd0vmBoUPuEQpnpPV117bYXc">𓇋𓏶</w>
+<w corresp="src:tlaIBUBdxFJ9hAbQk7fsmVIaDPlAbI">𓄡𓏏</w>
+<w corresp="src:tlaIBUBd6W2S9EFmkYUgYzGXm3opr0">𓆑</w>
+<w corresp="src:tlaIBUBd0HPGKPudkOitwRp5KInGQk">𓉐𓂋𓂻</w>
+<w corresp="src:tlaIBUBd94qdHPesUfdqKCL2wmdQnI">𓅓</w>
+<w corresp="src:tlaIBUBd0y5gOckBUEJgnHirEwZalw">𓂋</w>
+<w corresp="src:tlaIBUBd0Q6UJWL9UYfpChGXN3DBCY">𓆑</w>
+<w corresp="src:tlaIBUBd9KJNAJXTEuUut9OFaE8VTw"><note>Keine Entsprechung in Unicode für S29-G43-U28-Y1-.</note></w>
+<w corresp="src:tlaIBUBd1y6kMdqIk04mNB11FftPpw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3MkilXRjE0ajJUWQPzyFKU">𓈖</w>
+<w corresp="src:tlaIBUBd82uz1RSi0e5i3Flrhfjbgc">𓅃</w>
+<w corresp="src:tlaIBUBd0Qfnl1hPUeEpOQVVcuYfsc">𓋔</w>
+<w corresp="src:tlaIBUBd1WN2cpQyE9wp29tqboXOdc"><note>Keine Entsprechung in Unicode für R8-Z1-.</note></w>
+<w corresp="src:tlaIBUBd2gaWmqQq0aCuZNP6lJgeUg">𓎟</w>
+</s>
+<s corresp="src:tlaIBUBdzv70O1PeEWdkQMM3UWNtrw">
+<w corresp="src:tlaIBUBdyH2wSWeSUXWn3hkYgXk7nE"><note>Keine Entsprechung in Unicode für V13-O34-U39I</note></w>
+<w corresp="src:tlaIBUBd1WVbXBDHk9viPpt5MknTpY">𓏏𓅱</w>
+<w corresp="src:tlaIBUBd5fFTSyZekRJs6Q1awWFVOw"><unclear>𓅃𓊨𓏏𓆇</unclear></w>
+</s>
+<s corresp="src:tlaIBUBd9Mb1xn2OUOtsLjWNyvxaXY">
+<w corresp="src:tlaIBUBdzI0FAeuokcOscJC6xlWmKE"><note>Keine Entsprechung in Unicode für N35-I10-Aa27-D36-.</note></w>
+<w corresp="src:tlaIBUBd6LJsHALTUoktWitQwYX7W8">𓎢</w>
+<w corresp="src:tlaIBUBd4FY7LGvtkESo0Hy3sGBOUY"><note>Keine Entsprechung in Unicode für W17A-R14-G4</note></w>
+<w corresp="src:tlaIBUBd0YqLT9Et0mHpRmrBfITjeo">𓅓</w>
+<w corresp="src:tlaIBUBd8mbhiWhw01li12p3Acesjg">𓇳𓏤</w>
+<w corresp="src:tlaIBUBd7ZGM65mzEO9uhkQ0qULUWM">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd4LQJJ7mIUAjjOdYsxPU9ng">𓄤</w>
+</s>
+<s corresp="src:tlaIBUBd6zyL2f6gUFInIQWjV08tQ0">
+<w corresp="src:tlaIBUBd2MN0xnqCE1MtntfndlQQQY">𓉔𓄿𓂻</w>
+<w corresp="src:tlaIBUBd34944S9PEb7uGyjufkgqR4">𓊩𓁹</w>
+<w corresp="src:tlaIBUBd7ueMXzbjUFrgq6xyE1KT1E"><note>Keine Entsprechung in Unicode für W17A-R14-G4</note></w>
+<w corresp="src:tlaIBUBd7ZjM5kyk0vxuBNib5IM1aw"><note>Keine Entsprechung in Unicode für M18-N35-.</note></w>
+<w corresp="src:tlaIBUBd7ZucERoc0jgkWdaJy9EZaY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd04jXI43qUQuvoCQI4TwNaM">𓈖</w>
+<w corresp="src:tlaIBUBd9YXsHbsGEsWtOMNXj7xjT4">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBd2m8WhLzlkLZkQIntXJSUDE">
+<w corresp="src:tlaIBUBd0QqjfJtWEBsoy5A39WXBVc">𓏌𓎢</w>
+<w corresp="src:tlaIBUBd9Yi5EdeoU5XuWaqL7DR404">𓅭𓏤</w>
+<w corresp="src:tlaIBUBdWohFHy6HUz6kUXXEasTiFw">𓎢</w>
+<w corresp="src:tlaIBUBd6ab8hf72ktelDlt3vNkEW0">𓅃</w>
+</s>
+<s corresp="src:tlaIBUBd7lyUoF0B0p4hPA4GmrUmnM">
+<w corresp="src:tlaIBUBd7bCgsWY7EhRusiz4oQ9yng">𓐩𓏌𓏛</w>
+<w corresp="src:tlaIBUBd5lpA5OkOUhCrLfNQoS6DgA">𓀀</w>
+<w corresp="src:tlaIBUBd8ZUmrVrLkv1jcG7Sz6qF0U"><unclear>𓅱</unclear></w>
+<w corresp="src:tlaIBUBd5yX1V2FE0iGiuGQE6eClQk">𓅓</w>
+<w corresp="src:tlaIBUBd144UZOjdU6vlF8mWssqSCU">𓇳𓏤</w>
+<w corresp="src:tlaIBUBd72EEtFle0jomg5y1u7JBmM">𓊪𓈖</w>
+<w corresp="src:tlaIBUBdxayLxqGVEqUnVa7JE0AoAg">𓄤</w>
+<w corresp="src:tlaIBUBd08C4m3FqkOAgcsNQPVPPB4">𓋔</w>
+<w corresp="src:tlaIBUBd9GehdeDo0B5hQKAktnM0pk">𓉓𓃿𓅿𓏥</w>
+<w corresp="src:tlaIBUBd6r1D12ykki5gCGl5SX6bUk">𓊪𓈖</w>
+<w corresp="src:tlaIBUBdwSqFajSfk2lkU6kRK0yPzs">𓄤</w>
+<w corresp="src:tlaIBUBd6XdhluQukSmsMPA2Q5n3Yc">𓋔</w>
+<w corresp="src:tlaIBUBd9vwMUnJD050nyIiL7QeeE8">𓊩𓁹</w>
+<w corresp="src:tlaIBUBd9AfySiJNElxqDqhS7q1v8g"><note>Keine Entsprechung in Unicode für W17A-R14-G4</note></w>
+</s>
+<s corresp="src:tlaIBUBd4LNcDaOY0QzqywspmZOW1E">
+<w corresp="src:tlaIBUBd1fKxlUwk0Q8ug35brjehQs"><note>Keine Entsprechung in Unicode für V13-O34-U39I</note></w>
+<w corresp="src:tlaIBUBd3WvJH8A8E3MhqKOkf4Qww8">𓏏𓅱</w>
+<w corresp="src:tlaIBUBd8gkVzCQvkmflzixwFE1hSc"><note>Keine Entsprechung in Unicode für M17-D21-.</note></w>
+<w corresp="src:tlaIBUBd8VQfGY2N0TbjkNHjKZ2Les">𓎢</w>
+<w corresp="src:tlaIBUBd1hj3bh7EEvIhA3UC8CM9xk">𓊩𓁹</w>
+<w corresp="src:tlaIBUBd0tQHiGdyEh6jkdVzE0px9I"><note>Keine Entsprechung in Unicode für W17A-R14-G4</note></w>
+</s>
+<s corresp="src:tlaIBUBd086qGcbFkRZmigXQAiwuRk">
+<w corresp="src:tlaIBUBd96GMQQCUUbxsF4Wsl59b5A"><note>Keine Entsprechung in Unicode für V28C-M17-M17-Z7</note></w>
+<w corresp="src:tlaIBUBd2wl1IyjtEXsndlUT44eNZc">𓀀</w>
+<w corresp="src:tlaIBUBdyDyAdGN5EgtrpWm2raMlOw">𓈖</w>
+<w corresp="src:tlaIBUBd9RjXDVthEXurhqSr8zTWLM">𓎢</w>
+<w corresp="src:tlaIBUBdQMtp8VzhkBJlDf7qrR9mP8">𓐍𓏏𓆑𓏥</w>
+<w corresp="src:tlaIBUBd78cLGKzqkgagp6yr62Wjh4">𓎢</w>
+<w corresp="src:tlaIBUBdzQAWYN03UK8r133zDVqeTk">𓐩𓏌𓏛</w>
+<w corresp="src:tlaIBUBd1Ig8TBAc0AlvTW0H5j02Sc">𓀀</w>
+<w corresp="src:tlaIBUBd1c9NeIeMkpWkQx7psB1XD8">𓏏𓅱</w>
+<w corresp="src:tlaIBUBd8n2NTYTr0vvgARmUueVjhY">𓅓𓂝</w>
+<w corresp="src:tlaIBUBdyQsBjo2yUTnnHgAG2czIQ4">𓋴𓈖𓏥</w>
+</s>
+<s corresp="src:tlaIBUBdWpL6jAydkG0hfJCfsQo6BY">
+<w corresp="src:tlaIBUBd9yyFAwt6kQWtWRN9bmd5dI">𓏌𓎢</w>
+<w corresp="src:tlaIBUBd2DJ5kW4QERauWGcRPfRxQI">𓅃</w>
+<w corresp="src:tlaIBUBd7iSCot60Ue4qfVHJ9rhy44">𓅓</w>
+<w corresp="src:tlaIBUBd2G9zNWNZkWTomWb3TJVxoI">𓇳𓏤</w>
+<w corresp="src:tlaIBUBd1diJ4gth0GtpSySqwQZkQg">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd5ML2nRHEkKIlFeRDANPMUo">𓄤</w>
+<w corresp="src:tlaIBUBd4qMrk1kSEwvh6pJ4uYSPhk">𓋔</w>
+<w corresp="src:tlaIBUBd23g3rQfZkONii0npqi3IW4">𓈍𓂝𓅱𓏛𓏥</w>
+<w corresp="src:tlaIBUBd5WLuHFYEkOJtw7IvKybpa8">𓄤</w>
+<w corresp="src:tlaIBUBd3oOwzjHV0OXiMkVQfg5auU">𓋔</w>
+<w corresp="src:tlaIBUBdwUtq4EgpU0BudzfP3bQ5xY"><note>Keine Entsprechung in Unicode für G30-Z2-.</note></w>
+<w corresp="src:tlaIBUBd2aaAtOr7kvmrrJ5WdOQK2Q">𓎢</w>
+</s>
+<s corresp="src:tlaIBUBdwmvAZFxJ0WJmeOutSs73lY">
+<w corresp="src:tlaIBUBdzVmWkGqxE3LgTsjJVGL2Qw"><note>Keine Entsprechung in Unicode für S29-N29-G1-N35-.</note></w>
+<w corresp="src:tlaIBUBd0I5vCACs0immfvIkjBZpsQ">𓆑</w>
+<w corresp="src:tlaIBUBd2WAp0WfD0kVleGQkFdEatw">𓏏𓅱</w>
+<w corresp="src:tlaIBUBd8J7GvZtoUrLuUxI45cGT84"><note>Keine Entsprechung in Unicode für V28C-N35-D36</note></w>
+<w corresp="src:tlaIBUBd9bcZGViAUcWsjAAv0eJAiM">𓆑</w>
+<w corresp="src:tlaIBUBd66UzJQo9EramEy57Axh0lA">𓄤</w>
+<w corresp="src:tlaIBUBd06f7fsl60ozql8pnbddWgY">𓅓</w>
+<w corresp="src:tlaIBUBd3tDnBmbc0i2jbAc8f5MN4Y">𓇳𓏤</w>
+<w corresp="src:tlaIBUBdxNCXZE5bU8Dt26ttQlJyS4">𓊪𓈖</w>
+<w corresp="src:tlaIBUBd0D2bn4WWEcThpRGkAeitpg">𓄤</w>
+<w corresp="src:tlaIBUBd1o3nQ2qrkV1mXDse5qyVEw">𓅓</w>
+<w corresp="src:tlaIBUBd1C4WMmoxUoJkmEwBA9fZLc">𓐖𓏏𓀭𓏪</w>
+<w corresp="src:tlaIBUBdzOoTkfNg06rrVxIhxIOaiQ">𓎟𓏏</w>
+<w corresp="src:tlaIBUBd5leivyooUEZi39vMUHgpM0">𓊩𓁹</w>
+<w corresp="src:tlaIBUBd3qJ4jDzbUvMsSCLG8EGBzM"><note>Keine Entsprechung in Unicode für W17A-R14-G4</note></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

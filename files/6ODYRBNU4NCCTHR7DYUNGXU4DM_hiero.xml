@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hiero6ODYRBNU4NCCTHR7DYUNGXU4DM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Essensbereitung 〈oberes Register〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Essensbereitung 〈oberes Register〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6ODYRBNU4NCCTHR7DYUNGXU4DM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Essensbereitung 〈oberes Register〉</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDPHJNZB4JVAVLDQLKD5VN2IUVQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>E. Brovarski, The Senedjemib Complex, Part I, Giza Mastabas. Vol. 7, Boston 2001, 49-52, pl. 25b-27a, fig. 42-43.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6ODYRBNU4NCCTHR7DYUNGXU4DM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a20cd47cdf33f9167b9ae3f21a3e09da</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdw5LhNekL0Y0k0Qc977tBPE">
+<w corresp="src:tlaIBUBd2eFxHICh0djlvdEz3mTLnQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd1zU2W4EoEkWj30yLePPlt0">𓂋</w>
+<w corresp="src:tlaIBUBdzSGPdq14UPwgKZOy4NgyYA">𓈖𓇛𓆓𓅓</w>
+<w corresp="src:tlaIBUBd0JplgAa8EN5vzuofhg79qA">𓌂</w>
+<w corresp="src:tlaIBUBdxuUd36t90WAifwvg3FWIOk">𓀸</w>
+</s>
+<s corresp="src:tlaIBUBd0LDiIWXl0R6roExd9QgE2Y">
+<w corresp="src:tlaIBUBd7tKMptJMEATlF5VlQy7i3g">𓋴𓈎𓆋</w>
+</s>
+<s corresp="src:tlaIBUBd9MkUtZNMUcGqDdARV1mlgs">
+<w corresp="src:tlaIBUBd1sOWhQl20ZAhWI9VLU4rF8">𓄿𓇹𓐍𓏖𓏖𓏖</w>
+<w corresp="src:tlaIBUBdWANkVDuCEF8g10Sb6noIcI">𓆼𓄿𓈋</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

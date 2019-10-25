@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hiero5WZOWG43UFGUZE3AGGWG4NEDVI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift des Ptah-User</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift des Ptah-User nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5WZOWG43UFGUZE3AGGWG4NEDVI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opferstein</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift des Ptah-User</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaVHBN34V7RZG75PSQWANHQXOCPE">
+<support>
+<objectType ref="ths:YDHSECVKFVG3BHUXVG4EJEG4G4">Opferbecken</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza IX, Wien 1950, 215-216, Abb. 98 [F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5WZOWG43UFGUZE3AGGWG4NEDVI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-24e9bc3fd21f18c67b8f39cb9735e486</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdwRVSjV76UEpqZYQxG8nQfU">
+<w corresp="src:tlaIBUBdwieJ6UlREbMtfGk9Wc4WfQ">𓇋𓁹</w>
+<w corresp="src:tlaIBUBd8Xuf4wS2UurhyrHhrk8lXo"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7APygTu70BNo2K8WXJcOWo">𓈖</w>
+<w corresp="src:tlaIBUBd0hRkWnpMEPCgcCBFRjaby4">𓆑</w>
+<w corresp="src:tlaIBUBdxuLgFQwWkTPotVXm2paPzk">𓍈𓏌𓅱</w>
+<w corresp="src:tlaIBUBdQi8Mgj3gk85pL7kww3etFk">𓁷𓂋</w>
+<w corresp="src:tlaIBUBd7Es196q6kI1lX2vAtPJiDs">𓌳𓏏𓄪𓐍</w>
+<w corresp="src:tlaIBUBdxce7UVcKk39qFj574nTHcw">𓅭</w>
+<w corresp="src:tlaIBUBd46db8JgdkZZoygVQslPLh4">𓆑</w>
+<w corresp="src:tlaIBUBdQOcYTR30kLfiNMoygAvGxQ">𓎛𓊪𓏏𓄊𓅱</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

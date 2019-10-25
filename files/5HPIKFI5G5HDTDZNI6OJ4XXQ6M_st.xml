@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st5HPIKFI5G5HDTDZNI6OJ4XXQ6M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 148</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 148 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5HPIKFI5G5HDTDZNI6OJ4XXQ6M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈3. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 148</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJJGHVIOXZ5AKRLVUPU3MI7FX7E">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Jéquier, Les pyramides des reines Neith et Apouit, Fouilles à Saqqarah, Kairo 1933, pl. IX-XI [*F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5HPIKFI5G5HDTDZNI6OJ4XXQ6M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-2b1aab4453bea013f25f618d757a79f2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd6uUfAq0QkGEjvVOGKqQN4g"></s>
+<s xml:lang="de" corresp="src:tlaIBUBdQKWqWyEIkRMsX7ZDV4avSQ">Osiris Neith, statte dich mit der Flüssigkeit aus, die aus dir hervorgekommen ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9iWJWYhpUeNrQwweqGeaec">Rezitation viermal:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6aQ4OnKLkdQsgoJaEjzE8I">Für diese{n} Neith.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5rB1LDHu0y7mnadhLAWkCw">Darbringen viermal:</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWwGV2akN0uJlGW7gMVKe6w">Bier, 2 Portionen.</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st5HEOLK5EVBBK7NS7EM5U6642PU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>A4</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von A4 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5HEOLK5EVBBK7NS7EM5U6642PU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>602 frame IV recto</idno>
+<msName>pCairo 602 frame IV recto (46 A1-A10)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">A4</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaE2TX3WHGCVEWZG3FKYEZYSPYOM">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 46 (Fragmente A1-A10)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>602 frame IV recto</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5HEOLK5EVBBK7NS7EM5U6642PU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6a7f38ce340899e38aaa463806098ae0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd3azAoy9ekY7qWOKO9oDCVU">(Datum:) [Tag -?-]</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzlQTTgYnEDzmHN9gFqilkY">[Gebracht wurde aus/in Verwaltung der] Vorräte des ... (Zerstörung)</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyuFb6QxWEeYkvgQbviybio">Gebracht wurde aus/in Verwaltung des Lieblingsortes des Re (Sonnenheiligtum des Neferirkare) ... (Zerstörung).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6X9xNY6OUWPobxV07yLeqA">(Datum:) [Tag -?-]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd69MMjKy500qrbOQDiBDkQc">Gebracht wurde aus/in Verwaltung des Ra-schi des Neferirkare-[Kakai] (Wirtschaftsanlage seines Totentempels): ... (Zerstörung)</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWQtynYtCUerraaYa2nfpXE">Gebracht wurde aus/ins Grab der Königsmutter [Chentit-kaues] ... (Zerstörung).</s>
+</ab>
+</body>
+</text>
+</TEI>

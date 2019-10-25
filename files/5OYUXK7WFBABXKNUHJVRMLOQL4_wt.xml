@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt5OYUXK7WFBABXKNUHJVRMLOQL4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Horemchauef (New York, MMA 35.7.55)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Horemchauef (New York, MMA 35.7.55)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5OYUXK7WFBABXKNUHJVRMLOQL4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:IL4SGUWMRFHHXFTXNS6CFPBBKY">Metropolitan Museum of Art</repository>
+<idno>35.7.55</idno>
+<msName>Stele des Horemchauef (New York, MMA 35.7.55)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Horemchauef (New York, MMA 35.7.55)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHV7U3QREI5FJPLUZFHEKWYMRXQ">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; 58 x 35 cm (H x B)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3GGZCLNRQVF6PAEQA6LCFBNE6M" notBefore="-1793">Zweite Zwischenzeit</date>
+<date type="latest" datingPoint="ths:3GGZCLNRQVF6PAEQA6LCFBNE6M" notAfter="-1551">Zweite Zwischenzeit</date>
+<note>13./16. Dynastie (Kubisch, 310)</note>
+</origDate>
+<origPlace ref="ths:NWV3DQDYZ5BKFKUR6MRV76Y5XY">Hierakonpolis
+<note>1935 von der Egyptian Expedition des Metropolitan Museum of Art im Vorhof des Grabes des Horemchauef gefunden (Hayes, 3)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. V, Oxford 1937, 197 [B]
+
+- W.C. Hayes, Horemkha&#039;uef of Nehken and his trip to Jt-towe, in: JEA 33, 1947, 3-11 und pl. II [*P, Ü, K]
+- M. Lichtheim, Ancient Egyptian Literature I, Berkeley 1975, 129-130 [Ü]
+- F.T. Miosi, A Reading Book of Second Intermediate Period Texts, SSEAP 9, Toronto 1981, 17-19 (V) [H]
+- W. Helck, Historisch-biographische Texte der 2. Zwischenzeit und neue Texte der 18. Dynastie, KÄT 6, Wiesbaden 1983, 49-50 (Nr. 68) [H]
+- D.B. Redford, Textual Sources for the Hyksos Period, in: E.D. Oren (Hg.), The Hyksos. New Historical and Archaeological Perspectives, Philadelphia 1997, 4 (No. 11) [Ü]
+- S. Kubisch, Lebensbilder der 2. Zwischenzeit: Biographische Inschriften der 13.-17. Dynastie (SDAIK 34), Berlin und New York 2008, 310-314 und Taf. 11a (Hierakonpolis 1) [P, H, Ü, K]
+- M. M. Luiselli, Die Suche nach Gottesnähe. Untersuchungen zur Persönlichen Frömmigkeit in Ägypten von der Ersten Zwischenzeit bis zum Ende des Neuen Reiches, ÄAT 73, Wiesbaden 2011, 253-254 (A.13.1) [Übers. v. Z. 7-8]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:IL4SGUWMRFHHXFTXNS6CFPBBKY">Metropolitan Museum of Art</repository>
+<idno>35.7.55</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5OYUXK7WFBABXKNUHJVRMLOQL4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2dfc59310cf31ebd47917a8189cbb9d2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdwJlXtu490xZr7EeaXEZtBQ">
+<w xml:lang="de" corresp="src:tlaIBUBd2dmxYvJmEfpkbsiaQHUcy0">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1pfPWmJQUqUikMptcVYV18">Horus von Hierakonpolis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd52EZqVCfUsFkIrtWybolq8">Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7h8kQuaEU6CqT3kyyQQQjA">befindlich in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzn0HEKN20n5h0WTniCuLwk">Nechen (3. o.äg. Gau)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzj7vWTvu0pVmHF1lWWTSgw">Harendotes</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6WyNfsYqknopyfJ94tF67Q">Thot</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHPgpPbKk7EnA5UvWuBkQo">Götterneunheit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzTeslP1q0xWm41d9F1oci4">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5b5qp7itUurp5X1cDiuxKo">Göttin</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Qmv9EtEkGfocaqD7HpmSw">befindlich in (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3FtzDy1OEW9jQDWYHoq53E">Nechen (3. o.äg. Gau)</w>
+</s>
+<s corresp="src:tlaIBUBdx5iKfatWEL7ltWzUTYnE7c">
+<w xml:lang="de" corresp="src:tlaIBUBd3WE1D8yTEJOpe5N2DYtHeg">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQelMACHLkO2o3qvAJUvSoI">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxBKQXEAgUP7u2sd6WL3s5M">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzgq8OF7dEBttIcot6S18T0">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwCVFGFZ90zhnhndNEW3aZg">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0vBDO75lUjEtc6WcpDQh8k">Stier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd35p0sD9WEZqu2xFVfe1fzc">Geflügel (koll.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6C4JHtrqkNFvoWh5Z9JWzc">Alabaster</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5FqwTXOaETIhRVFN0OgcrI">Kleid</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxjP3F3hr0fEsF5uT5gPfJE">Weihrauch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3rBL2zdoE88pNK6HX3ZhZY">Salböl</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MDmhebF0iqsrt3KNsXW60">Sache</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxoqEC0xx0jYtk7EZGkxJAU">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQHiTt5TsUNiuBHpy2RHMJk">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4dFszciF0votKuDjtKRAhY">rein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx9f3Pm7DEjGmMqrppvZajE">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzogQwaQZUqcqiK1wjOfR58">dort</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1LxEL4gV0YFqvN4XbiCMlA">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Wy1phWBkvjuRRFwSJN29k">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0mKrk9ZBUQppjhl0Hr0oQc">Speisen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2eWqpne8ELdpXr6IxdeFC4">Nahrung</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8WbCrhKhUqVhFcI7ohtpuI">verklärt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx5si9UQUE3YqM4J0WAd0h8">mächtig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6op7hfaIk94khbXnp6vEzs">gerechtfertigt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxr2ErSXi0pSk2XNJrVp1fo">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8HkxrThjU5cpfnOjsHuP7U">Nekropole</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9BawcwFz0ozj0hYV840Q9s">atmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzSoYjMFHEHRvvZU5Mv85is">Luft</w>
+<w xml:lang="de" corresp="src:tlaIBUBd26LkThLuE6YpHbSCf0WNzE">süß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd69hyIpnkk1qsPw9Pvqwnbo">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5TcEDgiVE0BkBGdmFi7WDg">Nordwind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd28BKiGGUEzNld3hWOJM8nE">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd565s2wgWU61miWkbAOpuho">Himmel</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0MDA2nGH04WoGTvsH3ApB8">erzeugen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5uB6KW9LU05vlGD5lAeamI">Erde</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwQiSQE2Z0LDlWaiAUEMvQM">bringen; holen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW2avi3aHEbFoQTiPIIwKJw">Überschwemmung</w>
+</s>
+<s corresp="src:tlaIBUBd4iXWyZQZEQHgJzp9LtdD34">
+<w xml:lang="de" corresp="src:tlaIBUBdQaJqthUKk55hpwEZhZYj7E">Arm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8g042AYj0t8pKhKQ1Z7wVA">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxgzv4teakEzp1yruYxzmVI">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6K9xPdRqEQKtO62OxKkkz0">Überschwemmung</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy5NV1to7EqFsl5qykWHjVk">reinigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8mkRKZhvk4Xt8JkDiHaKB0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQlXJp8pxEa5iQCjl6Dv4cc">Thot</w>
+<w xml:lang="de" corresp="src:tlaIBUBdybOzCNwwU6Voa9AkRWkwyo">opfern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3aZa7sWjkNUnAXoSfHF3ZE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4EGoMy1WUJtqoSretLMTSw">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9kaeGtn7UHbhiVzsi38gUo">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxJA8OJ3C0jxlx2WeVIHIj0">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd91vr9HMikKMij9B7ceRBy4">erster Aufseher der Priester des Horus von Hierakonpolis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWjEPECrxE0WugcVWR80jCU">Vorsteher der Äcker</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4wHilMhCUV5sW1UHcofOcs">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtbqrGOTEkwrqDQuxeShLc">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz6EyWsYAEf7j8bDCxYKPdQ">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWoYtpK6YEy3jn03HsM0QBo">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdWJPHIC4c0cxl8gokS7xXm0">
+<w xml:lang="de" corresp="src:tlaIBUBd01gkdzu1Ef6oCm4Y1q9xfQ">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd115KLS2dErhpaf27WN0yJM">beauftragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWStqTJFLUsAtBiGHNmJyxk">Harendotes</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWwC8wKco05kiCDfiWWk88o">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw9lUD062E1Rhw2WBUBzk64">Aufmerksamkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Km2pBgnEYkhwWxRdfEWn0">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3dQPbBNpE4Nnz4ag88vHPk">[in Richtung auf (e. Ort, e. Sache, e. Person)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1GNWLsWc0PZsMsSdb6DltI">Residenz</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwi1r79bokLfogukoeag8CU">um zu (final)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0iSvMGKhEM9hn30fQz3JJ4">holen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw0upOSlBE5BnPgWvaz4uVM">Horus von Hierakonpolis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyVQcASLsUkaohW6Qlh2nZM">zusammen mit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdycEP5CiCEbNrQuiOCyoS6M">Mutter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Yw6bdMXES7lxfGugKJ0nc">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Dtu1HcZ0A3rWIvSSd3JdA">Isis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7P0RLwgRk3vo74EU5QLF1M">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBUBd2R93rZmPk3TpS4QMclrb2Q">
+<w xml:lang="de" corresp="src:tlaIBUBdwk02SbXNUwWgAoRbodYAZA">setzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9rVn3irLkdXsMkeQRBQunQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9WNZ0llJE0UhPX3UjoQfnY">mich [Enkl. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQjCWVyD5EL3ruBMRj1J3qE">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1inmN2bOkMxiaDFlYavgQU">Vorgesetzter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyW6J8SUC0l2jbTlTRbvafU">Schiff (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ30rzzOXUvdiVWSqZyL5xY">Mannschaft</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9NfBl4ha0jRvVdtWcvZ2D4">[nichtenkl. Einleitungspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyZoLS23ZkiCiXR7bQrxbcA">[enkl.Partikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4C1w5wkEkdHgpsJGdLMMeE">kennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6vVtLLUNkaChltV62NDtyA">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWd5XeATTkWMllzdbhiTBO8">mich [Enkl. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3djTXOypU53sy7N3akNxmc">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2kmutyLnE9TocfChcgmVec">hoher Beamter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2noVtmVKEvAgjYlHWzH07Q">vorzüglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0aWq8NB5U7Xo3OvMqfuBGE">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2fhUSZt5kvFo4cmQSX3WQY">Tempel</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQgQlA26CkaIrYIYjufCzAg">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdziiKkzu2U6sh2iWJigBfuY">aufmerksam sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2grRg3d2kmrkIfC49s2mOI">Kopf</w>
+<w xml:lang="de" corresp="src:tlaIBUBdze1f9Ncr01SisnKQTrHbQo">in Hinsicht auf (Bezug)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd68ZWk8WN08whzm4mdY2EFw">überweisen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9VjWBGC4kE0oaeJ1dB6HAM">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQQ2upDWe04Yj13bgngsWjs">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd5QjZ2zcHExFqoG0FmBNeLM">
+<w xml:lang="de" corresp="src:tlaIBUBd6IQ9WEZ1U6WuW0ua8gNnkY">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdygJQbA3l0Fnm2PdmqzUrls">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzr0BosQhUIIp7lPimYx7G8">stromab fahren; nordwärts reisen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0l0FPPYskdii6wMaouNhWI">mittels</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5rzAYQQcUcQsj0i9hpnKGk">Wind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5kpIQfvY0gIknyN9bwoef0">gut</w>
+</s>
+<s corresp="src:tlaIBUBdzBJNo3xyUu6kQ9kbs485E4">
+<w xml:lang="de" corresp="src:tlaIBUBd99QdyVL10SAny5f9nEtP8Y">herausnehmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWOrGUoMnkpuvyMl8KWUHzI">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd85TULyyAEWDoLmjb5UBpgU">Horus von Hierakonpolis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ZANJYnnEFMpQfXKEWuPwA">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0sAw1hXk0dnhpbSpc6B74k">Arm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0GjUoXYd0bknh3ZC4QM9VA">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9R8kXb6K0B9tpHT4ucdepc">zusammen mit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd70QMq6Hz0Qmg8GWswDuAjE">Mutter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyiyxlsfwkrasvW5uwD5HL8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8UoVWbW1k9Hnt2pLTlgo2U">Göttin</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwqXJfm2XURBiA5lzp9QWTE">dieser [Dem.Pron. sg.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6D7G6UK90uGjxy55A2AgN8">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5lc5z7jkkFOk9KlHQy5zKs">Büro</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzVemWR4Y08evELfpQMN7Rs">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxauqqRPREcXtq5hLj68jTA">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyqO1Jj71kb8k2BhSUpKTnw">Itji-tawi (Hauptstadt Amenemhets I.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5eF0nCO3kQLtGRH0oXXlpE">vor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwf5iwXeGkMbvaVgyCL2Npw">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0v8DQxt8EoErGRQL25Uil8">Selbst</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8UoIR4Py0gQgQwqcH7MS4Y">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdxosUdicXU2ElsSjclIePTQ">
+<w xml:lang="de" corresp="src:tlaIBUBdWZeQJwPY0YPuB2OlAkEBLY">ich [Selbst. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzq4uHyVM0b8qWGH4XIx25k">Nobler (Titel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5KhXXqymkRshrg6NWbq1H8">trefflich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2QwY9PMEEr6pEPpav3Dudo">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2GnvCaQCknDpFw2OUb0cps">Erde</w>
+</s>
+<s corresp="src:tlaIBUBd95H59eP10QVjKjQtJF9iyk">
+<w xml:lang="de" corresp="src:tlaIBUBdwtWWQ5NxkwWhMURgciq7aA">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Uv5I7Uk0TQofMQHI0uFjA">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWbMZhqPuUjEr9YOr4Kin5E">[identifizierend]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd95HHQEPt0QlgpXQrqfdy1U">Verklärter (seliger Toter)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Mw6CZjEEEjvjyTvljdzss">trefflich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7PeY2wbsEWSiQFdYAuiKkA">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQVNPC6uEoBoqC2PZftJG4">Nekropole</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2fiskriTUR8pq6h3134QUg">nachdem (Konjunktion)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9mqgxL33E4WsqAmfkKD0uU">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0GVQMpWK0i8hKTB6sqN9l4">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4W70WMgQU82pJl5rWD8Rxc">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5XQV0FBxkkPhs12jV7kw0w">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd52F9ZYgAE6QjrFLVxhSfnA">Hungriger</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5gsaoOVyUPGrQf1rpz3OWc">Kleid</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3vVLpQu9ED4gRnf5vgdXTs">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd23RWGWInUESktNMGQxBeuA">Nackter</w>
+</s>
+<s corresp="src:tlaIBUBd6n7U2EtakafjgVqyCPkWM8">
+<w xml:lang="de" corresp="src:tlaIBUBdysvex9DU0niq2y10mJQF1c">beleben; versorgen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Vw6IAynk67oYccKxYL4dw">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQW4KRQURUUloSA6V9pnKPc">Geschwister</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQDLzeHtM0AZs7UWrIgIJVk">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3SwnU6li0BQvbieas6bo4k">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwnM83BDjEkNgvMuO3NUwGc">zulassen (dass)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Ktazu4jkawtZ0Hu1hxLpo">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzqfcjv4yUVHvlf4j7thXCM">erbitten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd61lYpPQUkSFtXBAD0IEIZ8">Einer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0UU3sMw3UKxtgoUV6L95I8">Sache</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3BbJA2J3EnvojV8mucNt3g">im Besitz von</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1vKitJNYU8ci8K407t6QE4">der Andere</w>
+</s>
+<s corresp="src:tlaIBUBd07AIh9zQEjDjapj44RuHts">
+<w xml:lang="de" corresp="src:tlaIBUBdWhcPj1zikoYiyQmV6oNnuo">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBd71dbnRteEUXgy5BbmuqGNs">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3cxafoP3ET3gR0dtQFKtLs">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ySW2V9wU4EonIzKkhPQR0">(sich) öffnen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd63Adv4BVEEhidNS0zOKyKw">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxhgMWQcw0t6ud7qoITTVU0">Geschwister</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7KpwtqL4k8MsQ4fAMIzrJ4">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd02fQgu2FkAIo6M7D7X6lBM">
+<w xml:lang="de" corresp="src:tlaIBUBd4BL7gFO0EaJkFZfb0EWxgA">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6wz7gGOeEFgk6w6AWAWW1s">sorgen (für)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1l28VzTykJnmjqxiXpcBEY">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9sJD0ugc0SWliuD6Qx0QWw">Haus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4oW5r9lhkwdqEqlVAO5uuI">Erzieher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0IQsqHfzEeAqZltZQmTP9E">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2bmeyGtbUHRsBZOEEvHpJ8">bestatten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2jnUFwt8UuVg1yBHMYf9kQ">beleben</w>
+</s>
+<s corresp="src:tlaIBUBd4ytJMla5U6ymZXuMXypzHk">
+<w xml:lang="de" corresp="src:tlaIBUBd7TQyNjLpEKEqTWDuq15Vs8">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd945g7J990mdsVGpXTIuTRs">opfern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7bQgaPWnk77vIRuWChqqTo">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxyTUF4W8kpKrhSyXuaBU4c">Arbeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7qWfuGWsEajrj3IMg2IKJc">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxXzoJyeH08wjFMMhBv4DG8">Horus</w>
+</s>
+<s corresp="src:tlaIBUBd7xQ9azT80tIphOlpuxQWWw">
+<w xml:lang="de" corresp="src:tlaIBUBdz8QYQW3ckaFnJ4GgRRsYw0">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzV7XXxFN0Nyu9PEJ97fGL4">veranlassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzI2HVO3Q09avwsMskOCIT4">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7RihXIuRUHbqtJxNwiNQU4">beschenken</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3cuRMcZWUizhN8cRb0ylDQ">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6fqIF05RktMr0PVJdQteQs">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9PRPwDUW08au5BHvevdJ8w">aufhören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7NUCSw4YUCQnde2pUEksAw">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQ0GVr7m0kWhNfQrVanOmg">Arbeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQmMQW77F0YgrzP6onnWPUA">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxCJF2NnQkL3vs83mGQWvKw">Haus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd83KEEy73kDwrZcs2eJVQP8">weil so sehr</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWJwI750DkMws51aQfUwOwA">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1kd0uCSeEBOmE5FAeifkyk">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Q8acECIEhTqa23mLOGpQc">mich [Enkl. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1z1njHU6kOJqnplTeSJHQ8">erster Aufseher der Priester des Horus von Hierakonpolis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyYBtBjQLk0nvrUfhaeGVC8">Vorsteher der Äcker</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWAvIQpgzUrZplpYkTnzVME">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzGNAAYsb09ehfKBnedDp74">zeugen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxBUqlcaSkn1iIzBUVgtr1s">Aufseher der Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1DJKmBMPURVnT31tX18hUw">Vorsteher der Äcker</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWq0RIEsFUpXv48SOoQvIkU">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2JDc34dCEYfrFLsF1Tpjmg">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3pLrqw0WkphrHual5CHQNg">gebären</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwBhWXKLXEqtpsBj9IHQI7A">Schmuck des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5jJcBt1q0ZIgTGSEtYizaU">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxrWLIKkd0raob4oHndQBKY">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBUBdWgv6deWkkeqoXH3BQvHkcQ">
+<w xml:lang="de" corresp="src:tlaIBUBd03lRUudekYnvfcNDvYXta0">Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQnJ36OOWUeMt9LEVKVOVZw">PN/m</w>
+</s>
+<s corresp="src:tlaIBUBd7YbDWmdDEQDq1Q4owLXBmc">
+<w xml:lang="de" corresp="src:tlaIBUBd8Ea36qzi0EimDHlWdQENm8">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwTZvgQNDEeWm7aClCBff0w">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4pgP2IegUt1iR0a7X83fuI">PN/m</w>
+</s>
+<s corresp="src:tlaIBUBd4hiROVF9Ezshj1dOwUHeQA">
+<w xml:lang="de" corresp="src:tlaIBUBdQe58ovW4kc4iYw7oxSZvec">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ23YAFphUQHn88WhmEKAHQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9YQpOXV6kxwlgWKkDLb29s">PN/m</w>
+</s>
+<s corresp="src:tlaIBUBdQSxZ9WU7kYItB3uNHyHc1Y">
+<w xml:lang="de" corresp="src:tlaIBUBd8ikw8TvdkLzikbdPgr29B0">Tochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9yGS4LYsk0Xhc0BFSUiZCQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw9kYd1UzUM1jh9gdgqZDmg">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQJj7zk5tUtdnJONQQyL3WA">PN/?</w>
+</s>
+<s corresp="src:tlaIBUBd8rehO1hIUyWk8WqMWJUz78">
+<w xml:lang="de" corresp="src:tlaIBUBd5kgfLAQo0PAhKmg1QwpOkY">PN/f</w>
+</s>
+<s corresp="src:tlaIBUBdxaSkEFWUEnmjW79Jh1lKHw">
+<w xml:lang="de" corresp="src:tlaIBUBd5ijaFPy4kkppMe8PopQ1D0">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzpshZE480ZzkLRXZMTc02s">Schreiber</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWq7Dwas3EZsmmFcVdFzbhk">Vorlesepriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxS2uIqx30KWvze9cGsPWSg">PN/m</w>
+</s>
+<s corresp="src:tlaIBUBd8RMHFYO9E4hpFFLmsyQhes">
+<w xml:lang="de" corresp="src:tlaIBUBd5LtVaLBnEvMouF2nUcQFXI">Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7WptsNUG0sIqbQvVHOeYKo">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7CRWJ4qVUoup1kQvmuKBe8">Schmuck des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd61MMBrZCEf9mK0yqq8lW8o">PN/f</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
