@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroC3KOICYC3FHKVIXPE2QIJKYYEA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>C3KOICYC3FHKVIXPE2QIJKYYEA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>linker Außenpfosten</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaVHINSVAQSNCXRNOH6TSN3Q6KF4">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza V, Wien-Leipzig 1941, 36-46, Abb. 5-8, Taf. IV [F, P, H, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="C3KOICYC3FHKVIXPE2QIJKYYEA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ee218ffc5bca14400a183009c97a94d2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd5LRlQq9LERHimThYrOqdbA">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQq3LwquNEKussPD3NaWW2o"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8WfZ7TUz0KjrlbNhcW0YEQ"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBdQIWzvsiL0KzuScyfuKIvGg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxxCJ6WvpkTQgTlJ347uG8s"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd8T0ukTxQkyAn2azHWxYXeU"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd22AfgQgIkoVozgQSWMrEFk">
+<w corresp="src:tlaIBUBd16eri8HBUh8mOukcROTtbU"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwD7n6Q5JUlqvrR7xUnEJqg"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd5OyzZTh905hkBtOJqF0QD4">
+<w corresp="src:tlaIBUBdwz5fZHmVkm0njfW1tGuRow"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWtlTc1iME1PoBPGXnoVXB0"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

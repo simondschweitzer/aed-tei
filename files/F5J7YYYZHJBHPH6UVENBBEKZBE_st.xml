@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stF5J7YYYZHJBHPH6UVENBBEKZBE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 581</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 581 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>F5J7YYYZHJBHPH6UVENBBEKZBE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Westwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 581</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaM73CC6VZDVDT7AIFXMSDJOXXYA">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, fig. 45; pl. XX [P,F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005,  [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="F5J7YYYZHJBHPH6UVENBBEKZBE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-afb9bf461cd44f4d33595746c512bb83</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdzygKGdiCkJ9hEHxXxzH16o"></s>
+<s xml:lang="de" corresp="src:tlaIBUBd39Lv73BVEC9vLiLbTaPA4k">Dies hier ist deine Höhle, die Halle des Osiris, Pepi. (?)</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyxDLmWh703grhaN9kAMdqw">Die den Wind holt, sie stärkt(?)/sammelt(?) den Nordwind und hebt dich hoch/trägt dich als Osiris, Pepi. (?)</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyYCCEyk4UQFtcSHQlSAXnI">Schesemu wird zu dir kommen mit Wein-Wasser und &#039;Der auf seinen Schenkeln(?) ist&#039; mit den Näpfen derer, die vor den Beiden Schreinen sind.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd85EZ1Avw0kJjlH75CeR4Qg">Du wirst aufstehen und dich setzen als Anubis, der an der Spitze des Abgesonderten Landes ist, und Aker wird für dich aufstehen, Schu wird für dich ...(?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzzqvlGPCkWvrrZYZmdT8yI">Die, die Nilflut sehen, wie sie strömt, werden zittern;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0mwVn1njEnissL7w7YK338">die Sumpfgebiete werden lachen, die Ufer überschwemmt sein;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5Yv54iMkke3rDtbExwXWYs">Die Gottesopfer werden hinabsteigen; der Gesicht der Menschen wird sich erhellen und das Herz der Götter jubeln.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd76ovJ5U1EyGiIWdfXRnNBE">&quot;Mögest du diesen Pepi retten vor dem Spruch(?)/Knoten(?) derer, die das Leben aufhalten, ...(?) der/die Götter,&quot; (kommt) aus dem Mund derer, die zu ihnen (ihren Kas) gegangen sind an jenem schönen Tag des Eilens.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxMSQAepyEAqjroPyDPwNRY">&quot;Seth ist dargebracht(?); wie richtig (?) ist Osiris,&quot; (kommt) aus dem Mund der Götter an jenem schönen Tag des Herausgehens auf den Berg.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0Mdn08rCELToWWKX52xFFU">Die auf der Erde werden/sollen Überfluß haben, da der, der als sein Ba eilte, zu seiner Höhle zurückgekehrt ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyIe8QNvRktgi79Zwm5Bp98">Du wirst hinter deinem Ach gehen, um die Winde einzuhüllen wie der Arm des Cherti, der an der Spitze von Nesat ist.</s>
+</ab>
+</body>
+</text>
+</TEI>

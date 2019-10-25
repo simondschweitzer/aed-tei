@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stB2D2ISH4U5D2DAUJPH2EUNSGVU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text D</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Text D nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>B2D2ISH4U5D2DAUJPH2EUNSGVU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>ESP A-E</idno>
+<msName>pCairo ESP</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Text D</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4YSSQO7O6RFKZJGPUC7Q6DMIOY">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:MOM3DW5NLZAB5JCM2ZKX5GICCE" notBefore="-1125">Ramses IX.</date>
+<date type="latest" datingPoint="ths:MOM3DW5NLZAB5JCM2ZKX5GICCE" notAfter="-1108">Ramses IX.</date>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Helck, W., Eine Briefsammlung aus der Verwaltung des Amuntempels, in: JARCE 6, 1967, 135 ff.;
+KRI VI, 5;
+Wente, E., Letters from Ancient Egypt, Atlanta,  1990, 37 f.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>ESP A-E</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="B2D2ISH4U5D2DAUJPH2EUNSGVU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c5c70e746f339714f267fceb3dd0e8d2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdz0IWbwEI0rrvdDijpy2QZQ">Liste der nötigen Gegenstände, welche für die Nubier, die Federbusch-Träger, die Nubier vom Fremdland Ugerit sind, die als Bogentruppe augezogen ist gegen die Feinde, die Beduinen von Mu-qed, damit sie der starke Arm des Pharao, l.h.g zu Boden wirft.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5zrOdoaNkDCtjspuWMYVd4">Dünne Leinenstoffballen - 25 Stück, glatte Hemden 25 Stück, Bronze-Krüge - 25 Stück, Messer aus Kupfer - 25 Stück, Beile aus Kupfer, festgeschnürt am Holzschaft - 25 Stück, gute Brote von Kereset-Art vom Inneren(?) - 1000 Stück, Schay und Ipet-Brot von Kerest-Art - 100 Stück, verschiedenstes Kleinvieh - 50 Stück, Esel für Lastdienst - 5 Stück, 1 Büschel wohlriechende-Scheb-Pflanze und 1 Bündel Kümmel.</s>
+</ab>
+</body>
+</text>
+</TEI>

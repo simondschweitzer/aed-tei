@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idEOGWYMEVFFE4RD6OXR6HQLWILM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Titel und Name</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Titel und Name nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>EOGWYMEVFFE4RD6OXR6HQLWILM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Türrollen-Fragment</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Titel und Name</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGLTR6GHUGND5HMXH5RVU4XOEUY">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza IX, Wien 1950, 140-152, Abb. 65-67, Taf. XIV b+d;
+K. Martin, Reliefs des Alten Reiches II, CAA Hildesheim, Lfg. 7, Mainz 1979, 69-71 [P, T, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="EOGWYMEVFFE4RD6OXR6HQLWILM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-980d89e78bde2e8570d29ceec93203fb</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd03XxBv1aEEFuf5mz7uNiaU">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdzEuqKmhV0bKsI7eC3sl24c" lemmaRef="tla:tla450532"><fs feats="epitheton_title title"/>sms,w-pr</w>
+<w xml:id="tlaIBUBdwNW1Mzjx0sHuuswuw5DLY8" lemmaRef="tla:tla450089"><fs feats="entity_name person_name"/>Mnj</w>
+<w xml:id="tlaIBUBdyJ0pa5lH0sngVdIALdkgH0" lemmaRef="tla:tla850536"><fs feats="epitheton_title title"/>j<damage>mꜣḫ,w</damage>-ḫr-nṯr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

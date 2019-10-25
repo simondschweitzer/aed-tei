@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idAETEI64NXVFZVACEWQTDQ6GWBU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AETEI64NXVFZVACEWQTDQ6GWBU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Gebel Faras</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaV664U6FPQBA73CBBHSIHSEBBZU">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:F5ZUDOTN3VGTHJDCWGXRLSBMHQ">el-Qubanije
+<note>Südl. von El Qubanije</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>De Morgan, J. et alii, Catalogue des Monuments et Inscriptions de l&#039;Egypte Antique, 1. Ser., T. I, Wien 1894, 204, Nr. 1; PM V 219
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 92</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AETEI64NXVFZVACEWQTDQ6GWBU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-76c26f730c971f33204edd7984cd7d46</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5mkGFr760azgvADjvgVUeM">
+<w xml:id="tlaIBUBd4ud1u6r4ETgu9B2qvYjrgA" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/>ḫtmw-bj,tj</w>
+<w xml:id="tlaIBUBdWPIIf2YWkqiiQLAKJIoVr8" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBd104UwiXik0kmKhQhoBOAkg" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖrj-ḥꜣb.t</w>
+<w xml:id="tlaIBUBd0bUb2Kjh07QjodVombWulA" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫw</w>
+<w xml:id="tlaIBUBdxYtGPHqeEyiltemFCnnhlI" lemmaRef="tla:tla850795"><fs feats="preposition"/>ḫr</w>
+<w xml:id="tlaIBUBdy1VWquapE47rgbMXtqoUj4" lemmaRef="tla:tla90360"><fs feats="epitheton_title epith_god"/>nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd1TnddO2XEIEn4InPLwjWnM" lemmaRef="tla:tla713179"><fs feats="entity_name person_name"/>Ḫwns</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

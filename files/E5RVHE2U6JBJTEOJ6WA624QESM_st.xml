@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stE5RVHE2U6JBJTEOJ6WA624QESM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Widmungsinschrift für Amenophis IV.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Widmungsinschrift für Amenophis IV. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>E5RVHE2U6JBJTEOJ6WA624QESM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Skarabäus</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Widmungsinschrift für Amenophis IV.</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Widmungsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaKC3U7UOMA5G6DJRB7UZD6CKA6U">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+<note>gekauft in Luxor</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Daressy, M.G., Une scarabée d&#039;Amenhotep IV,  ASEA 16, 1916, 178, 1918, 53 ff. [H, Ü, K];
+M. Sandmann, Texts from the time of Akhenaten (BAe VIII), Bruxelles 1938, 149 [H];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 41 f. (10-D) [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="E5RVHE2U6JBJTEOJ6WA624QESM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-715410437ad5a5b15fc5219b49fb33c7</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdyF4ubv3K08Ftxrx7Flkeyw">Oh Aton, der lebt, der groß ist, der im Fest ist ... Es lebt Re-Harachte - der jubelt im Horizont - in seinem Namen als Licht, welches in der Sonnenscheibe ist&#039; (=Aton)</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0oewkNyE08mi67blzVl4rY">Es lebe der Horus: Ka-nacht-qa-schuti, der mit hohem Federnpaar, die beiden Herrinnen:[User-nesyt-em-ipet-sut], Goldhorus: Utjez-cha-em-Iunu-schemai, der lebt in der Maat, der Herr der beiden Länder: Nefer-cheperu-Re-wa-en-Re, Sohn des Re: der lebt von der Maat, der Herr der Kronen Amenophis, Gott und Herrscher von Theben, der groß in seiner Lebenszeit ist und die große königliche Gemahlin Nofrete, die leben möge.</s>
+</ab>
+</body>
+</text>
+</TEI>

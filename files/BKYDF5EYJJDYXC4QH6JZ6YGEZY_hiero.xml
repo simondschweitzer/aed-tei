@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroBKYDF5EYJJDYXC4QH6JZ6YGEZY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Linke Schmalseite der Stele</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Silke Grallert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Linke Schmalseite der Stele nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Silke Grallert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BKYDF5EYJJDYXC4QH6JZ6YGEZY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JdE 60539</idno>
+<msName>400-Jahr-Stele Ramses II.</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Linke Schmalseite der Stele</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHZGV3J42Y5FEDLP6WDSGQDU4PY">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notBefore="-1279">Ramses II.</date>
+<date type="latest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notAfter="-1214">Ramses II.</date>
+</origDate>
+<origPlace ref="ths:SH6XJRRRJNCI5EAMNJSPU5QZ3A">Tanis
+<note>gefunden im Amun-Tempel, östlicher Teil; ursprünglich wohl aus Piramesse/Qantir</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- KRI II, 287-88; RITA II, 116-117; RITANC II, 168-172 [H,Ü,K];
+- Montet, P., in: Kêmi 4 (1933), 191-215 [P,H,Ü,K];</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JdE 60539</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BKYDF5EYJJDYXC4QH6JZ6YGEZY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Silke Grallert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-381dde257481b49e4e45d63430673fe1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWlnEEmjyk8MiXtQW423ewY">
+<w corresp="src:tlaIBUBd7fN4h1SpE4VtlWZ4baekNk"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6IojbLWikw2hNBkPXTghoY"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyQcGt8hW0bLnT2nwq0wuxc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4uBRgP2aUVVqQyhDChTHX0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdyJ652Wu9EZDrcOAQWk20y0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxQ2mR7pYEEKo42bhTpj6D0"><unclear></unclear></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

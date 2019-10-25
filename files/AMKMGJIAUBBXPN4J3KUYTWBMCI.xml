@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idAMKMGJIAUBBXPN4J3KUYTWBMCI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lied</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Lied nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AMKMGJIAUBBXPN4J3KUYTWBMCI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Lied</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4EDEQ4WPXNFO3MRYSG7NNXKLRE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastabas of Qar and Idu. G 7101 and 7102, Giza Mastabas, Vol. 2, Boston 1976, p.24-26, pl.24-26; fig.38.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AMKMGJIAUBBXPN4J3KUYTWBMCI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-76f5a2b718a52b52a5a06796db96a937</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5N9rdzNoU12r2Wbm2D1jC0">
+<lb n="[2.1]"/>
+<w xml:id="tlaIBUBd0x8P0Ptd0aMluXEBKOvzKk" lemmaRef="tla:tla854522"><fs feats="verb verb_2-lit imperative prefixed singular"/>j:nḏ</w>
+<w xml:id="tlaIBUBdQxKq2viYkzah9l0X1Qmy4c" lemmaRef="tla:tla107510"><fs feats="substantive substantive_masc st_pronominalis singular"/>ḥr</w>
+<w xml:id="tlaIBUBd0SuJA8bdEkZgxmBKlbpkHs" lemmaRef="tla:tla10120"><fs feats="pronoun personal_pronoun"/>=ṯ</w>
+<w xml:id="tlaIBUBdy1SFo5ItERFtYxzpGnmoJ8" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd9D9k3OftUwfuXHu2Kcmw6Q" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdx7Uhrdo50dflD2dMG7pWj4" lemmaRef="tla:tla99960"><fs feats="entity_name gods_name"/>Ḥw,t-Ḥr,w</w>
+</s>
+<s xml:id="tlaIBUBd7WprcIo70pSqxFtcKStEFc">
+<w xml:id="tlaIBUBd6PINC7ybUeXnZ6xhKy3c2I" lemmaRef="tla:tla854540"><fs feats="substantive substantive_fem st_constructus plural"/>s,t.pl</w>
+<w xml:id="tlaIBUBdyW1cZIyQk9Cu8HmBFf9Ro4" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_pronominalis singular"/>kꜣ</w>
+<w xml:id="tlaIBUBdzUhpMAPm0R9jP8FXjri55g" lemmaRef="tla:tla10120"><fs feats="pronoun personal_pronoun"/>=ṯ</w>
+<w xml:id="tlaIBUBdzP8CRlMFUa2rUWS16TXpPw" lemmaRef="tla:tla111230"><fs feats="verb verb_3-lit pseudoParticiple feminine plural"/>ḥtp.t</w>
+</s>
+<s xml:id="tlaIBUBdxnDnwQAxE2ipMZYOTDpOKs">
+<w xml:id="tlaIBUBd9wz1Q4OI02tt5tySYxQ7cc" lemmaRef="tla:tla450625"><fs feats="adjective nisbe_adjective_substantive"/>nbw.j</w>
+<w xml:id="tlaIBUBd9A32xf7FEoOoZ7avwEO4Ww" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯ<supplied reason="defective">w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd1Y6hSIm7UyKqG64PICB9JY">
+<w xml:id="tlaIBUBdyY64mgaZkTqhnLT1av4cS0" lemmaRef="tla:tla20030"><fs feats="interjection"/>j</w>
+<w xml:id="tlaIBUBd0mmVM0UWkeBtQXNpln7IZM" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf suffixConjugation active"/>mri̯</w>
+<w xml:id="tlaIBUBd6IFbMvoQ05hhB8qEou9WQw" lemmaRef="tla:tla170100"><fs feats="pronoun personal_pronoun"/>=t<supplied reason="defective">w</supplied></w>
+<w xml:id="tlaIBUBdyIQkvOj7EyClqyI6lEWLi4" lemmaRef="tla:tla83500"><fs feats="substantive substantive_masc st_absolutus plural"/>nfr.w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

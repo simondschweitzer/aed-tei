@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroCW6TYHX6H5EFJHI7VVURNZYIRA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CW6TYHX6H5EFJHI7VVURNZYIRA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>südlicher Teil</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6RWO2RLWIZBTHPKAP35LOFYLKA">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1930-1931, Cairo 1936, 84f., fig. 88 [H, K, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CW6TYHX6H5EFJHI7VVURNZYIRA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>3-e1fe20856be40eac44a0f8ed74d4949e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWo3Pb8EEkamriUfPAcZaWs">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd31cJJAQUEqWsCXXQWKcYRA"><unclear></unclear></w>
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd9Fq1WAOV01OipDWiQ7k2Zw"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdyvIQjNkxkNQlgX4zrrrIRA">
+<w corresp="src:tlaIBUBd1r7mBkFKUC4kvAvD1CEpqs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6QWRwPawU1eqF2Q9X1EuNM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5YfZnNc2UECkaKEOqQqMaY"><unclear></unclear></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

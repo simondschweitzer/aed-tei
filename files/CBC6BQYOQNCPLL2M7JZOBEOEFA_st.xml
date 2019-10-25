@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stCBC6BQYOQNCPLL2M7JZOBEOEFA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Sareru (Kairo JE 86119)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Renata &amp; Peter Landgrafova &amp; Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Sareru (Kairo JE 86119)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Renata &amp; Peter Landgrafova &amp; Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CBC6BQYOQNCPLL2M7JZOBEOEFA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JE 86119</idno>
+<msName>Stele des Sareru (Kairo JE 86119)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Sareru (Kairo JE 86119)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDBLCIRJBRNERRAQSXSPEERTH3A">
+<support>
+<objectType ref="ths:EP7XNRXU4ZAU7BKOHF5H2PYC34">Stele</objectType>
+<note>Granodiorit, trapezförmige Stele, max. 43,2 x 26 cm (H x B)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3O45XPYQXJATRP5CHBOH2EZYG4" notBefore="-1853">Amenemhet III.</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>Späte 12. oder 13. Dynastie (Espinel, 62).</note>
+</origDate>
+<origPlace ref="ths:DABYGSE4XBANPHUQLPAO7MEP2A">Wadi el-Hudi
+<note>Angekauft in Assuan zwischen der Mitte der 1930er und dem Anfang der 1940er Jahren.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A.D. Espinel, A Newly Identified Stela from Wadi el-Hudi (Cairo JE 86119), in: JEA 91, 2005, 55-70 [P,F,Ü,K]
+- R. Landgrafova, It is My Good Name that You Should Remember, Prague 2011, 259 (Nr. 82) [H, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JE 86119</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CBC6BQYOQNCPLL2M7JZOBEOEFA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Renata & Peter Landgrafova & Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>7-83a85f47fa066ca33a3b9ab8a60e9ffd</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdwlNOVcp5UoOhIUWN6zVEF0">Dragging myrrh by the keeper of the chamber of the treasury, Sareru, for Hathor, mistress of amethyst.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd43qtxIyKEHvt8z13OuVmOQ">I gave water to every thirsty man who was in this hill country, while I was performing rituals in the temple.</s>
+</ab>
+</body>
+</text>
+</TEI>

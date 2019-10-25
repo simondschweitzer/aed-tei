@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroBHZLAL5YMNDZ3CCICI6Q2CELRU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschriften der Ostseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschriften der Ostseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BHZLAL5YMNDZ3CCICI6Q2CELRU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Pfeiler 5</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschriften der Ostseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaCN6Q7LCV3JBWDGPWYNINUYNZI4">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 30, pl. 12-15, 54, 55</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BHZLAL5YMNDZ3CCICI6Q2CELRU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-068266c696eb5dbc7b560458eea64777</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd3AqfsVK7UfyrjZRGRNjzoI">
+<w corresp="src:tlaIBUBdzectKxq9UhSoVzx5ProVnM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzAWtMwdoEJClL7hu4lbgKQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3ENBTD5LUT1qABplzZ18r8"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdx0n4F8M8U3ztwQW78DnJKk">
+<w corresp="src:tlaIBUBd82RFmyQlkULqjqydL1AKfg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd90GcQGM6kMmqV3VIGG1bNw"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdWkPlBkS3k5WpNC45VHoma8"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd99qkBZXgkx9oGWehjCn9w4">
+<w corresp="src:tlaIBUBdWgzIjllZEGnjNj2OW6IutM"><unclear></unclear></w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBdQQ8gwkwt0jZvLBgGfF9480">
+<w corresp="src:tlaIBUBdxE2v2lB6072iHCrrddmIjA"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd6YxZ5IOekQIuJ1jF5L1gts"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQ5VMVS5BUPQmJXOVNdWiQQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdwcZat7210cklIiBPWqgDnI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd2cO0XD6B06WuhRecpiSslQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd1UmJL8o4kjho2eVkbglNzc"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

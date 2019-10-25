@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroB72OHNNT7FFRPO7CNMZHK7G4WQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>B72OHNNT7FFRPO7CNMZHK7G4WQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Statuette des Chuen-Ptah</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaIX352QT2HVHPJEHALOXHHMSAH4">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1930-1931, Cairo 1936, 68f., pl. XXI.2+3 [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="B72OHNNT7FFRPO7CNMZHK7G4WQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-5149c56105b054d478699f9d517ed102</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWYS5SOIFkk7o5ZHQvmyfSU">
+<w corresp="src:tlaIBUBd4LddXQKSEFuqU8qLITfMys"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd9YYt0Od7E3ngcKraCPQD7Q"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd3mAQJqQdUunlf3Qjg7D2Io">
+<w corresp="src:tlaIBUBd1lX6IRiBkKSnzD05lmxTuM"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd4F9zpgkr0PnqQVWWzVDCsQ"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

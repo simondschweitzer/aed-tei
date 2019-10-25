@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idE6KBUFB2JJFBPEC3M35DXLJTLY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift der Westseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift der Westseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>E6KBUFB2JJFBPEC3M35DXLJTLY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>östl. Pfeiler</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift der Westseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5AAGRMGD6BFDTOPEIOMWTFZE3M">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara V: The Tomb of Hesi (ACE Rep. 13), Warminster 1999, 20-21; Pl. 2-6, 50-51.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="E6KBUFB2JJFBPEC3M35DXLJTLY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-1d27521aa4ccf938ed5990cfad6f6762</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdWY7ZQivCEJNgjKMGekN8Z8">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd10WrZi4m0sRu0Me1PhlafQ" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥw,tj</w>
+<w xml:id="tlaIBUBd6UsDWuIdkEClZjOwt23sS4" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd8D29ZWAjU2rpFbmOV4Bx7c" lemmaRef="tla:tla707086"><fs feats="entity_name person_name"/>Sšm-nfr</w>
+<w xml:id="tlaIBUBd9ByWQt3lUxNmhSGGhbIowY" lemmaRef="tla:tla111510"><fs feats="substantive st_constructus singular"/>ḥtp-ḏj</w>
+<w xml:id="tlaIBUBd8rjWyQD50kxkkPFnQ031GM" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBd1Ch7zNQZUGLnwiYV5zewY0" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jz</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

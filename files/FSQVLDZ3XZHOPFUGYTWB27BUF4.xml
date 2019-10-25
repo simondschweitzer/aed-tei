@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idFSQVLDZ3XZHOPFUGYTWB27BUF4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Hatnub Inschrift I〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Hatnub Inschrift I〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FSQVLDZ3XZHOPFUGYTWB27BUF4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Hatnub Inschrift I</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Hatnub Inschrift I〉</title>
+<textLang mainLang="Egyp-Egypcs">Kursivhieroglyphisch
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3ZXXUUQAJVE7RKANY7DG5JWAHA">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:IS52YO4UPBG6ZO5BFFVWJ26OWY" notBefore="-2620">Cheops</date>
+<date type="latest" datingPoint="ths:IS52YO4UPBG6ZO5BFFVWJ26OWY" notAfter="-2598">Cheops</date>
+</origDate>
+<origPlace ref="ths:GGN7WFYXI5DTLG43NOFG7SVJ6A">Hatnub
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Anthes, Rudolf: Die Felsinschriften von Hatnub, Untersuchungen zur Geschichte und Altertumskunde Ägyptens, Leipzig 1928, 13, Taf. 4; 
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 38</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FSQVLDZ3XZHOPFUGYTWB27BUF4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypcs">Kursivhieroglyphisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f6ddaed41a8fced5722203cad94d52d0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1IhgYpze0CQgWXKBW0LEPI">
+<lb n="Mitte⁝K1"/>
+<w xml:id="tlaIBUBd0scQMxqdEk7gXdQx1VBw9s" lemmaRef="tla:tla400034"><fs feats="epitheton_title epith_king"/>ḥrw</w>
+<w xml:id="tlaIBUBdyAQFXn6kkWIqO7RHWw08UM" lemmaRef="tla:tla400276"><fs feats="entity_name kings_name"/>Mḏdw</w>
+<lb n="Rechts⁝K2"/>
+<w xml:id="tlaIBUBd7D4q6ISiUv4o9iQW5lH4uc" lemmaRef="tla:tla88060"><fs feats="substantive st_absolutus singular"/>nsw,t-bj,t</w>
+<w xml:id="tlaIBUBd2jSUgHnUU8ytUGDijTqims" lemmaRef="tla:tla400277"><fs feats="entity_name kings_name"/>Ḫwj≡f-wj</w>
+<lb n="Links"/>
+<w xml:id="tlaIBUBd8qjY2MUokCEuCMeQNzHlJg" lemmaRef="tla:tla400311"><fs feats="epitheton_title epith_god"/>bḥd,t</w>
+<w xml:id="tlaIBUBdWon2JDdEkXhpeey3tGslSw" lemmaRef="tla:tla125600"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBUBd7PjiulKZEYXqVDrcbv2MXM" lemmaRef="tla:tla851658"><fs feats="preposition"/>ḥꜣ</w>
+<w xml:id="tlaIBUBdwPIn66KWU21oSkWyxQ3974" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBd0pgQntizk6ouDBOP9VIQC4" lemmaRef="tla:tla400140"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḏd</w>
+<w xml:id="tlaIBUBd9OwiT4w4UmWkfmwJW06duU" lemmaRef="tla:tla43300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>wꜣs</w>
+<w xml:id="tlaIBUBdxGQTc81u0bDiC5aK8ixcGI" lemmaRef="tla:tla42"><fs feats="substantive st_absolutus singular"/>ꜣw,t-jb</w>
+<w xml:id="tlaIBUBdwqibe6iGUvyihcTMiUOOtk" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

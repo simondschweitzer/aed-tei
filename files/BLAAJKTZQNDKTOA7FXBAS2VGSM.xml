@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idBLAAJKTZQNDKTOA7FXBAS2VGSM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Speisetischbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Speisetischbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BLAAJKTZQNDKTOA7FXBAS2VGSM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Speisetischbeischriften</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaY3BSMPPQTNE67EO537Y35FFBRY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 51-57, pl. 26-30, 67, 71-73.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BLAAJKTZQNDKTOA7FXBAS2VGSM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ecd76869655a9363a933aa8d3ca1a0e9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdyjUvfpr3kUQkKy7iceLYW0">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdwbY1wtGwU0tlKqiKiHUpfY" lemmaRef="tla:tla178850"><fs feats="substantive st_constructus singular"/>dbḥ,t-ḥtp</w>
+<w xml:id="tlaIBUBdyIXBAtwi0p0uui8SXaTSF0" lemmaRef="tla:tla107190"><fs feats="substantive substantive_fem st_absolutus plural"/>ḥnk<supplied reason="defective">,t</supplied>.pl</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdzXi8IVQPE8WtrqMpzaF0Kc" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd8Jx0dcuWUdGi6JIlJH8vuM" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBd9kt3Fc6QUCnmX25Bb0KTTo" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdxXXGeK0Ok6MqyzdX9tObVo" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBdW0uZ89u8ko9qWiGUQ4QR9Q" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd0cgg3jABk9SuKcXvOV2WBk" lemmaRef="tla:tla30410"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jḥ</w>
+<w xml:id="tlaIBUBd0QevUOzFEhMlYcrXJYGJ3A" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdxf4OyuRwks0ofyxnfKYVMY" lemmaRef="tla:tla71170"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mnḫ,t</w>
+<w xml:id="tlaIBUBdzXBrCCcz0ksof9kWwqW3XI" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdxvatW0MSkitqUqNQz4aAH4" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBd0iZ053u60qWoTddBBEfJ3o" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBd7rQWMMOtUZnlNnbXJW7yWU" lemmaRef="tla:tla58820"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>pꜣ,t</w>
+<w xml:id="tlaIBUBd4WGnce0pkKdt4LuEPSSYtk" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdWY0FrGqdU6piuFgTWxrSYg" lemmaRef="tla:tla450007"><fs feats="entity_name person_name"/>Sꜥnḫ-w<supplied reason="defective">j</supplied>-Ptḥ</w>
+</s>
+<s xml:id="tlaIBUBd7aRCiRbW0bWrJM2WPRvZ6E">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd7zbw45Th0vDkhesxlgDjOI" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdyTrlAPkPkcDoUYBiIin8SY" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBd2zch701hESNq1D3adErju4" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd6HqY1aIJ0upuytdA3OpXHs" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBdwYs1JAVsUrhky9oV1zXatk" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdQdzyCQS4EgPhUcHaAUZe0c" lemmaRef="tla:tla30410"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jḥ</w>
+<w xml:id="tlaIBUBd0JJdTRFnUX3i0LXymLRt1o" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd4OIbQgbzkllgp5VqS0ElrM" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd9re1EhlmUWIgQyD0LdGDpc" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdzr9QrjLfEtmj881qtZcies" lemmaRef="tla:tla71170"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mnḫ,t</w>
+<w xml:id="tlaIBUBd8IYpGiPT0FgpPUMwjfJLd4" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd2ipMJ2bcE1zrEK8AhrDDsU" lemmaRef="tla:tla58820"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>pꜣ,t</w>
+<w xml:id="tlaIBUBdxpjX6GI4EQWrsQvYXxjfG8" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdx3Fe6ygGkGak25J6TG4hGg" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBd5hQLoIuUEuRqVTUF6vu6T8" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd8IJktiZPEbOl4O9axKocXA" lemmaRef="tla:tla53680"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>bꜣš</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd4sxzWhdQUVijNI5Hiia6Ds" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd0QueZTHP0uqsZESSEsrOao" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBd21bIxWrikFLklF8KocrPBA" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd17eKMDtQ080sQvZS3uCnW8" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBd6xUScHnhEP0kpTAYQWwAW8" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd7b25sjHWkTbmWaD0hqDGfU" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBdWDlS3QtRkeJlVErKJHIJdc" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd84mMhtkp0yijNWVZv4UfjQ" lemmaRef="tla:tla156950"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>šs</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

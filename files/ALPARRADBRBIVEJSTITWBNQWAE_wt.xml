@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtALPARRADBRBIVEJSTITWBNQWAE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Opferbitte</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Opferbitte nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ALPARRADBRBIVEJSTITWBNQWAE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opferbecken des En-cheft-kai</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Opferbitte</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUZOGAPUP5VC4RPQQO3A2ZVGWOI">
+<support>
+<objectType ref="ths:YDHSECVKFVG3BHUXVG4EJEG4G4">Opferbecken</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza IX, Wien 1950, 126, Abb. 34, 57 [F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ALPARRADBRBIVEJSTITWBNQWAE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-a6f183e395bc587ab7dd5d91719fc2a0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWUAwqnhKEB8jhWaHX7xknw">
+<w xml:lang="de" corresp="src:tlaIBUBd8ud3d0zQ0Jql7eCqa5en0w">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd93DvZxoP0N3noAhzl3EmuI">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9SOz86n2kSKsIS6uMtmrms">ausgießen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWh2o02UPEGfheyPSOFZprA">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQmOyt6l0hVnqVO4M9nQo4">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd27kQd6wWEd6iWADW3amQXQ">Wasser</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8IrVQOhTkwMny7VnSSLewk">täglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd63wMmco2UDHiTZ9NJG9jDg">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx0Yeg9CvkH1pdCaQib8UNg">Nekropole</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWHQlR0Tt0AOkMJm5lLo4Vs">En-cheft-kai</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

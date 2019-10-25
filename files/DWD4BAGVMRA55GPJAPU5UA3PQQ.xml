@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idDWD4BAGVMRA55GPJAPU5UA3PQQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Inschrift〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Inschrift〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DWD4BAGVMRA55GPJAPU5UA3PQQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>rechter Türpfosten</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Inschrift〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2AV6LZR335BKDPWS2P4U7WXULU">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 61 [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DWD4BAGVMRA55GPJAPU5UA3PQQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-4b155059a3c2a4a3842002eb33400aed</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1OfyLGIwU4Qic6flWdIpjY">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdx7YTYnkVk30ufswi2y0Nv4" lemmaRef="tla:tla21930"><fs feats="verb verb_irr infinitive t-morpheme"/>jwi̯.t</w>
+<w xml:id="tlaIBUBdWKEY6DlAEIyvlSvijQriYM" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd44xYnFl0kN2l4bxAl7E7m0" lemmaRef="tla:tla854537"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ẖnw</w>
+<w xml:id="tlaIBUBdyMQSek9tkUjgHOszRVizAw" lemmaRef="tla:tla65300"><fs feats="preposition"/>m-ḫt</w>
+<w xml:id="tlaIBUBd7QFH3iDPEEqpiPPfDAP7VE" lemmaRef="tla:tla66270"><fs feats="verb verb_2-gem infinitive"/>mꜣꜣ</w>
+<w xml:id="tlaIBUBdWQnBl562UCXk38I5WoilbE" lemmaRef="tla:tla61380"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>Pḥ,w</w>
+<w xml:id="tlaIBUBd0BW5ZbLHEJtuEOmP476DO0" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBdQyCrnszG0x1kMYy35Ze5Xk" lemmaRef="tla:tla550343"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>-nfr-ḥꜣ,t</w>
+<w xml:id="tlaIBUBd3kWQZtvu0Fdi7igMoTQHmk" lemmaRef="tla:tla450176"><fs feats="entity_name person_name"/>Ṯy</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

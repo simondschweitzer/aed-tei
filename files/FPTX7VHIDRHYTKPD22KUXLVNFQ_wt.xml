@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtFPTX7VHIDRHYTKPD22KUXLVNFQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linke Laibung</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linke Laibung nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FPTX7VHIDRHYTKPD22KUXLVNFQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Türlaibungen</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linke Laibung</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaCU7SZHKTXBBVVJOXIHDWER64I4">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1930-1931, Cairo 1936, 107f., fig. 114, pl. XXXIII [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FPTX7VHIDRHYTKPD22KUXLVNFQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-f8fca0287272627802de1556bf9f63d6</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQskOV6KmE9HgOJtvNWzVj0">
+<w xml:lang="de" corresp="src:tlaIBUBd6Gcu81Pb0VWosDocwvi8qE">Kai-em-neferet</w>
+</s>
+<s corresp="src:tlaIBUBd5IQJuFOX0drsNylTBUKSVU">
+<w xml:lang="de" corresp="src:tlaIBUBd8xu9rjYjkhXkmEZ9JURqvw">Vorsteher der Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9jIMNr6WE1Dojs4WW7BEoc">Seanch-ui</w>
+</s>
+<s corresp="src:tlaIBUBd6DMllFiuEfSk2y94C93Xv0">
+<w xml:lang="de" corresp="src:tlaIBUBdwWGr7T5vEDMpoWPzq8mpjw">Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5jr8HyniU2AsbKZIpbhSHo">Semer-ka</w>
+</s>
+<s corresp="src:tlaIBUBdysDEQ9SyUltnbxgPtJNcjc">
+<w xml:lang="de" corresp="src:tlaIBUBdxVnSQbmf0SHtSOH1YA8JOg">Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWHYjkmONkOis86AuBfX4Sk">Seanch-wj-Ptah</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

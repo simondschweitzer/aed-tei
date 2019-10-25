@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idD6QSRKHJN5HUNCKIW6URB7ERPY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschriften der Westseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschriften der Westseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>D6QSRKHJN5HUNCKIW6URB7ERPY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Pfeiler 2</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschriften der Westseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZZP43W75WNHWNKF6V5AHW5JUWY">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 28, pl. 8,9, 48, 49</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="D6QSRKHJN5HUNCKIW6URB7ERPY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-166fd7c0670c4f7e55b0b7084ad87359</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd4bxYVndmE9HuSSgZWHzJEI">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdWddfM3LmkivtuYjA8xSVV4" lemmaRef="tla:tla850400"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nswt</w>
+<w xml:id="tlaIBUBd4HrwEk4DkhYujyDUYD47ak" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/><supplied reason="haplography">jmꜣḫ,w-</supplied>ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd6pY74YavktuqNsQFHofc3w" lemmaRef="tla:tla450017"><fs feats="entity_name person_name"/>Ššj</w>
+</s>
+<s xml:id="tlaIBUBd8hgYFzyxEBSnviJFe2qjak">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdWFUFC2jSUeLhyEdQcLEVhg" lemmaRef="tla:tla401164"><fs feats="epitheton_title title"/>jm,j-rʾ-kꜣ,t-nb,t-n,t-nswt</w>
+<w xml:id="tlaIBUBdW3muNALnE3CvkqlZ5fLVtM" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr,j-tp-nswt</w>
+<w xml:id="tlaIBUBd34go5MlbUQWpFb6RxK0WIk" lemmaRef="tla:tla450296"><fs feats="entity_name person_name"/>Nfr-sšm-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBdxhwp94q2UG7pji6fPxgjWQ">
+<lb n="[3⁝Beischrift1]"/>
+<w xml:id="tlaIBUBd7wUWY9ivEYMv7NDePTvrpE" lemmaRef="tla:tla850252"><fs feats="epitheton_title title"/>ḫnt,j-š-Ḏd-s,tpl-Ttj</w>
+<w xml:id="tlaIBUBd9gmt7QB5U7mhPOjckiLhx8" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBdzgVahid9Eg3h93pQz9QUbg" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd6naRYqyM0ELir2nIn0P5gs" lemmaRef="tla:tla135720"><fs feats="adjective nisbe_adjective_substantive masculine singular"/>sms,w</w>
+<w xml:id="tlaIBUBd7VCNLemw0H6n9N0yHFErqo" lemmaRef="tla:tla450596"><fs feats="epitheton_title title"/>zꜣb-jm,j-rʾ-zẖꜣw</w>
+<w xml:id="tlaIBUBd6bt49g3Y0oTqU0VuxRyTKs" lemmaRef="tla:tla400163"><fs feats="entity_name person_name"/>Ḥqꜣ-jb</w>
+</s>
+<s xml:id="tlaIBUBd6i6K2SGsUW2oSkefqvJ0Z4">
+<lb n="[4⁝Beischrift2]"/>
+<w xml:id="tlaIBUBdW0sbtYQXUVUq8it2Vrjki0" lemmaRef="tla:tla125630"><fs feats="substantive substantive_fem st_pronominalis singular"/>zꜣ,t</w>
+<w xml:id="tlaIBUBdy0i1x1d30wDkGRLDcXYX1g" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdx9tTFnlUUszrJMhgtcINck" lemmaRef="tla:tla550321"><fs feats="substantive substantive_fem st_pronominalis singular"/>mr<supplied reason="defective">y</supplied>,t</w>
+<w xml:id="tlaIBUBd9QaJQMuGkUbtyTofUj882Y" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd6vBiNswvEReuEoWeX9TuIY" lemmaRef="tla:tla705627"><fs feats="entity_name person_name"/>Ḫnj,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

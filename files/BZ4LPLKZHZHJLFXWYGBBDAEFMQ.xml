@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idBZ4LPLKZHZHJLFXWYGBBDAEFMQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften 3. Register v.o.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften 3. Register v.o. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BZ4LPLKZHZHJLFXWYGBBDAEFMQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>östliche Wandfläche</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften 3. Register v.o.</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTBIJYYEO6JGVLGDJ43DX5DDX3M">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. B. Lloyd, A. J. Spencer, A. el-Khouli, Saqqara Tombs III: The Mastaba of Neferseshemptah, London 2008 (ASE 41), 13-14, Taf. 10
+[F, H, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BZ4LPLKZHZHJLFXWYGBBDAEFMQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-1df9e9e09a44960b764e08d5fafb7a22</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd15nQjckhUE7tQc6VphgOkA">
+<lb n="[Szenentitel]"/>
+<w xml:id="tlaIBUBd1Oexfr9EE0iiAuq01QDJDU" lemmaRef="tla:tla851706"><fs feats="verb verb_3-inf imperative singular"/>jmi̯</w>
+<w xml:id="tlaIBUBd277yumfXkjvoWQdrvfpZ7A" lemmaRef="tla:tla21930"><fs feats="verb verb_irr suffixConjugation special active"/>jwt</w>
+<w xml:id="tlaIBUBd6qyPuq98UQRppM1KuqO7BE" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd3MrlxDfhkQ3oSzciM8EO4I" lemmaRef="tla:tla10070"><fs feats="pronoun personal_pronoun"/>=n</w>
+<w xml:id="tlaIBUBd4fNmfqLQ0Nqjynkc94Wzms" lemmaRef="tla:tla46280"><fs feats="verb verb_3-inf imperative singular"/>wni̯</w>
+</s>
+<s xml:id="tlaIBUBd5RWW0A6tkUTtekRyJXOW80">
+<w xml:id="tlaIBUBdzMuxFX660eDv9weZaJhkFQ" lemmaRef="tla:tla64440"><fs feats="particle particle_nonenclitic"/>m</w>
+<w xml:id="tlaIBUBdwn63zDKxENokqMjXwpx8Fo" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdxnKz62TlkuGkuYcN58wikA" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr<supplied reason="defective">,j</supplied>-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd6QqPI3StkRjofMmkYciUTE" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdWqnPbEil0nwidITdWycALk" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jri̯.t</w>
+<w xml:id="tlaIBUBd4kQlSarMk2Ys8SL51WAf8M" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jḫ<supplied reason="defective">,t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd6Qe84EHGkQWq63o4KQHI3I">
+<lb n="[linke Gruppe]"/>
+<w xml:id="tlaIBUBd3bV2fqTXU20iZqkiuHXUqE" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>rn</w>
+<w xml:id="tlaIBUBd8TwzB6kvk5IhQIWbJ2yCLs" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>n,j</w>
+<w xml:id="tlaIBUBdQz5Ul36RUuypBXzZsm6yI8" lemmaRef="tla:tla168210"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>gḥs</w>
+<w xml:id="tlaIBUBd16qWPiQDkP3lbxXIAh22tY" lemmaRef="tla:tla450557"><fs feats="substantive st_absolutus singular"/>jm,j-mḏ,t</w>
+</s>
+<s xml:id="tlaIBUBd4PD8trEfkvBjKir86WlUeQ">
+<lb n="[rechte Gruppe]"/>
+<w xml:id="tlaIBUBd3TgIfA4eUFjjMT78uTgaFM" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/>rn</w>
+<w xml:id="tlaIBUBd4iYRWZij0fLiHSIFIWfrbg" lemmaRef="tla:tla81640"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nwḏ,w</w>
+<w xml:id="tlaIBUBd4ysJL5tsk6QncsYvafKCMk" lemmaRef="tla:tla450557"><fs feats="substantive st_absolutus singular"/>jm,j-mḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

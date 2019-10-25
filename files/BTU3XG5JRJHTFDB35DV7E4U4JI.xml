@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idBTU3XG5JRJHTFDB35DV7E4U4JI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Hordjedef</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Hordjedef nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BTU3XG5JRJHTFDB35DV7E4U4JI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:G3JB6H4CTBFB5JFWVB4TSJNNO4">Ashmolean Museum</repository>
+<idno>oGardiner 335</idno>
+<msName>〈08. 〉oGardiner 335</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Hordjedef</title>
+<textLang mainLang="egy-egym-Egyh-Egyhltb">frühes und klassisches Mittelägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaEEAGNQBI2FEGPBS4OCBUZYPEHY">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Ramessidisch</note>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+<note>Gardiner, in: Cerný und A.H. Gardiner, Hieratic Ostraca I, S. v (Einführung) gibt Theben als Herkunftsort aller in dem Buch veröffentlichten Ostraka.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- J. Cerny und A.H. Gardiner, Hieratic Ostraca, I, Oxford 1957, 27 und Tf. 101 (Nr. 4) [T]
+- Roccati, in: JEA 68, 1982, 17 [*T]
+- W. Helck, Die Lehre des Djedefhor und die Lehre eines Vaters an seinen Sohn, Kleine Ägyptische Texte, Wiesbaden 1984, 1-24 [T,Ü]
+
+- W. Helck, Die Lehre des Djedefhor und die Lehre eines Vaters an seinen Sohn, Kleine Ägyptische Texte 9, Wiesbaden 1984, passim [Ü]
+- H. Brunner, Altägyptische Weisheit. Lehren für das Leben, Darmstadt 1988, 101-103 (Text 1) und Anmerkungen auf S. 430-431 [Ü]
+- A. Roccati, Sapienza egizia. La letteratura educativa in Egitto durante il II millennio a.C.,Testi del Vicino Oriente antico, Brescia 1994, 25-27 [Ü]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 47-54 (2. Aufl. 2010, 77-84 mit Nachträgen auf 85-88) [Ü]
+- G. Burkard und H.J. Thissen, Einführung in die altägyptische Literaturgeschichte. I. Altes und Mittleres Reich, Einführungen und Quellentexte zur Ägyptologie 1, Münster 2003, 81-82 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:G3JB6H4CTBFB5JFWVB4TSJNNO4">Ashmolean Museum</repository>
+<idno>oGardiner 335</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BTU3XG5JRJHTFDB35DV7E4U4JI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhltb">frühes und klassisches Mittelägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>12-0a5ff275aeaaa29adc92df9c5a41411e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8KzjQtvFk8tkCEW9YI4Yr4">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdzqtAiF7E07DuyUwKl1TmNA" lemmaRef="tla:tla854554"><fs feats="verb verb_3-lit imperative singular"/><supplied reason="lost">stp</supplied></w>
+<w xml:id="tlaIBUBdQxiGbk6w0AZpBHlvxQXztI" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd7XuyzddRUtzsTireMYfEUk" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBd7Wbp4kFNUgQkpsjVBGHx1E" lemmaRef="tla:tla118470"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="omitted">ḫnjt</supplied></w>
+<w xml:id="tlaIBUBdWlNG4A27kEGru0VUdKG6Yc" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdwcQqB8Bm08vspmueCQB7c4" lemmaRef="tla:tla94530"><fs feats="substantive substantive_masc st_absolutus plural"/>r<supplied reason="defective">m</supplied>ṯ.pl</w>
+<w xml:id="tlaIBUBd7fJRCPQvEHwrFvqCazQ1SU" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="omitted"><unclear>k</unclear></supplied></w>
+</s>
+<s xml:id="tlaIBUBd1Withhnk0Wsic4vR4Kk3VM">
+<w xml:id="tlaIBUBdQQsMsNoB01iqbOZQ88HUKQ" lemmaRef="tla:tla851706"><fs feats="verb verb_3-inf"/>jmi̯</w>
+<w xml:id="tlaIBUBd4WrimaebEp5ufYBvfydVSU" lemmaRef="tla:tla138740"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">snḏ</supplied></w>
+<w xml:id="tlaIBUBd3r0WQUyr0HCjMXa3k9J7OU" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBdzhsYWipek8AiqXBqxEzWP8" lemmaRef="tla:tla858535"><fs feats="verb pseudoParticiple masculine singular"/><supplied reason="lost">ḫpr</supplied></w>
+</s>
+<s xml:id="tlaIBUBd2JrSOC4sEuEutyGEQZgkQ4">
+<w xml:id="tlaIBUBdzsIDgMY7EQFoYSVBbLk708" lemmaRef="tla:tla854506"><fs feats="verb verb_3-lit suffixConjugation passive"/><supplied reason="lost">wdn</supplied></w>
+<w xml:id="tlaIBUBdw6WyAu14kWvtunPH6BHWhk" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd8Nk2DPuw0iFqzAoVqKSjHc" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBd6Cj2ZMYG0f7lv0bzcMW5sg" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">ḫ,t</supplied></w>
+<w xml:id="tlaIBUBd8CIM2c1eEjCj0PTnf3YAQQ" lemmaRef="tla:tla850796"><fs feats="preposition"/><supplied reason="lost">mj</supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdQXDORaJWk9PuehbsVTt8TM" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/><supplied reason="lost">Rꜥ</supplied></w>
+<w xml:id="tlaIBUBd6mKsr4yQkwfgUfhVhw0IlY" lemmaRef="tla:tla44430"><fs feats="verb verb_3-lit pseudoParticiple masculine singular"/><supplied reason="lost">wꜥb</supplied></w>
+<w xml:id="tlaIBUBdztbRuYJfUvxpuLNf0ERNQg" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdwaThlj4JENur5nEJqsMYqg" lemmaRef="tla:tla183300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏbꜣ,t</w>
+<w xml:id="tlaIBUBd1b056xnW0LngZjpzuGJtQc" lemmaRef="tla:tla46710"><fs feats="verb verb_3-lit"/>wnm</w>
+<w xml:id="tlaIBUBd8vUmSYR6kR9vEBDrhi0dXI" lemmaRef="tla:tla94160"><fs feats="substantive substantive_masc st_absolutus plural"/>rm.w.pl</w>
+<w xml:id="tlaIBUBd9jHYjx2tEuQiElNTnDsUlY" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdw8n9sOivEcGsE7ck86nr5g" lemmaRef="tla:tla36300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥ<surplus>n</surplus>b</w>
+<w xml:id="tlaIBUBd9V0XlAEnUTLhgQVmOL3LtM" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdWNlEdDbVU2rrJRP29VikeM" lemmaRef="tla:tla84050"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">nm,t</supplied></w>
+</s>
+<s xml:id="tlaIBUBdzstDXxPHkZViln5E26iOHs">
+<w xml:id="tlaIBUBd57hgtQ8Kkx2vH4vJi3J74Q" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost">ṯꜣ_</supplied></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdWjQZLWYHUEZm9sQk7qIejA" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBdyzV4yUA50gUg0psswKyQuQ" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation geminated active"/>ḏḏ</w>
+<w xml:id="tlaIBUBdyAc72tuj06vjtdQY108ND8" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdyHtA5EpTECWg3O3yiNK7lQ" lemmaRef="tla:tla99060"><fs feats="substantive substantive_masc st_pronominalis singular"/>hrw</w>
+<w xml:id="tlaIBUBd6baIKMwj04stg9Y0etJciA" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdyCDkxiu9U7TsOJmnXT3IQk" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdwWVQRenb0AUlwayMqhEECU" lemmaRef="tla:tla10100"><fs feats="pronoun personal_pronoun"/>=sn</w>
+</s>
+<s xml:id="tlaIBUBd7eHQn0z1kBPmqS2cqA0Cms">
+<w xml:id="tlaIBUBdwLIKCBFEkd5pr1jMKZBUak" lemmaRef="tla:tla46050"><fs feats="verb verb_2-gem"/>wnn</w>
+<w xml:id="tlaIBUBd6R5QUBDFkqcjMqX208VQIE" lemmaRef="tla:tla23290"><fs feats="substantive substantive_masc st_pronominalis singular"/>jb</w>
+<w xml:id="tlaIBUBdxatIcqgTkwYqae05rLCm84" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd4NoAY7N5E6Tr7UQuSu7cVM" lemmaRef="tla:tla61730"><fs feats="verb pseudoParticiple masculine singular"/>pḫꜣ</w>
+</s>
+<s xml:id="tlaIBUBdWWduoII7E1RifSQxavVQwg">
+<w xml:id="tlaIBUBdzBydZYgkER1l7LDTgJGdlE" lemmaRef="tla:tla111230"><fs feats="verb verb_3-lit"/><supplied reason="lost">ḥtp</supplied></w>
+<w xml:id="tlaIBUBdyIZsMsbdkRqmAZnVLBn628" lemmaRef="tla:tla850806"><fs feats="particle"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd2tVte3F3kOfmwE93k54Rls" lemmaRef="tla:tla167210"><fs feats="verb verb_3-inf suffixConjugation n-morpheme tw-morpheme passive"/><supplied reason="lost">gmi̯.n.tw</supplied></w>
+<w xml:id="tlaIBUBd2G0yKJW2UNdkb7ZlhcCKY4" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit"/><supplied reason="lost">ḏd.tj</supplied></w>
+<w xml:id="tlaIBUBd020vmHS7Up8jTG6l9rKJa8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd65ZNRrs4EX2r2te1YGktGc" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd1mCecWbAUc5jcTjNHL0ZQI" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<damage>k</damage></w>
+<w xml:id="tlaIBUBdQhQ7wx9n09OmNrUhPV24Ak" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="omitted">m</supplied></w>
+<w xml:id="tlaIBUBd5mMX6GE5EzUkWuyKCdP8xY" lemmaRef="tla:tla182900"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏw,t</w>
+<w xml:id="tlaIBUBdxe3pvTE9k3krXsZABtOYi8" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine singular"/>n.t</w>
+<w xml:id="tlaIBUBd46HL3ZEJkMmt4XCpQF4wJU" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nṯr</w>
+</s>
+<s xml:id="tlaIBUBdxJH5uNZRk8QhINJbNQSkpE">
+<w xml:id="tlaIBUBd82Z6aV2b0vskwObmgMA2QE" lemmaRef="tla:tla64410"><fs feats="verb"/>m</w>
+<w xml:id="tlaIBUBd2sW0oL8nkjYsqu8g7WE484" lemmaRef="tla:tla106860"><fs feats="verb verb_3-lit infinitive"/><unclear>ḥn<supplied reason="lost">r</supplied></unclear></w>
+</s>
+<s xml:id="tlaIBUBd9MKQgBeMURiu2rgeLdcWME">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd7vues3uRkXQjeF27Na4Wbc" lemmaRef="tla:tla86430"><fs feats="verb verb_3-lit"/>nḥm</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd16iraIFiEwUqHTv9bmyS6M" lemmaRef="tla:tla0"><fs feats="unknown"/>jr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtAYG43ZSEL5F45LBHOQJDYGL2L4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Statuen-Beischrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Statuen-Beischrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AYG43ZSEL5F45LBHOQJDYGL2L4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Rahmen der linken Statue</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Statuen-Beischrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7RHZQVOFDRCCLKEQXHKOYKNDLE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1933-1934, Bd. 5, Cairo 1944, 249, fig. 107, pl. XXVII [H, K, P, Ü]
+LD II 44; LD Text I, 115-119
+Lepsius-Abklatsch-Serie A 80</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AYG43ZSEL5F45LBHOQJDYGL2L4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-bbbc3dd47bd98d19a02c0a2faea6f24d</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd9UQAfkpt0Hjr1GNTbe54Nw">
+<w xml:lang="de" corresp="src:tlaIBUBd7IyAAgarkpWswyE6VIeluY">Priester des Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1K7W0OrwU5WtblibdrTSfM">Priester des Mykerinos</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ZN1bQZvEbapuJIsReLSBA">Senior-Vorsteher der Schreiber</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxWF2jnaf0MqhwHIiynxfkk">Priester der Maat</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7q8Ax9e1EXfs1U7cQvQooc">Chui-wi-wer</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

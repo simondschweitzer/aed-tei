@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idEV6DGP27JND5ZFXBYMU2KUVPTA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>oberer Sturzbalken</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von oberer Sturzbalken nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>EV6DGP27JND5ZFXBYMU2KUVPTA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür des Ifi</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">oberer Sturzbalken</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBKSMRTR6QFHALPWCNK623XCA74">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1934-1935, Bd. 6.3, Cairo 1950, 222, fig. 220, pl. XCII [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="EV6DGP27JND5ZFXBYMU2KUVPTA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-aa8a7664f292c9e513113024093d307b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0QOu3VA8kTyse5YhtAKNPE">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd0gimvCbkU8IvE7g7S8NdhU" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd1UIfnUiKkqtr94qINlpYQg" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBdxRp6yoeZ0dmmCYV5hPL2Tc" lemmaRef="tla:tla400156"><fs feats="undefined"/><supplied reason="haplography">ḥtp-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBd8ZRLyIJukWjtvVLlbh1BDo" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+<w xml:id="tlaIBUBdx9XK8aLlUv5jpfWiGRHdn0" lemmaRef="tla:tla600421"><fs feats="epitheton_title epith_god"/>tp,j-ḏw≡f</w>
+<w xml:id="tlaIBUBdQ7HCPfb4EQ6sgRjVrC4iVg" lemmaRef="tla:tla25390"><fs feats="epitheton_title epith_god"/>jm,j-wt</w>
+<w xml:id="tlaIBUBd38z2qot5U0epuFUzGiTZtw" lemmaRef="tla:tla400939"><fs feats="epitheton_title epith_god"/>nb-tꜣ-ḏsr</w>
+</s>
+<s xml:id="tlaIBUBdwOxnoiJkUltmBSXmTtNu8o">
+<w xml:id="tlaIBUBdwWARCOimkEnrkFdjxBzDjg" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/>pr<supplied reason="defective">,t</supplied>-ḫrw</w>
+<w xml:id="tlaIBUBdW8BHex6EEU0iy2N6DwxQ8s" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n,j.t</w>
+<w xml:id="tlaIBUBd1YGHGCAXk3EhzhYrAw9Plk" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">j</supplied><damage>mꜣḫ</damage>,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

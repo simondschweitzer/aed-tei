@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stBEBX4MJ2FJDGRNCTXGUJYXDT7Q">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 338</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 338 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BEBX4MJ2FJDGRNCTXGUJYXDT7Q</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostgiebel〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 338</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaY4ZYSDROK5CBFAAQBKMRF7HTLE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BEBX4MJ2FJDGRNCTXGUJYXDT7Q.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-a7c0a2036168b3ec37bd366896d5c51c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd1siU0FhVUrwoDkEDbum2sc">Worte sprechen:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5rrALmEjUgzm9Dmu1mmWMM">Hunger, komm nicht zu Teti!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2NSx3GOfkncl4gDy20a1jM">Geh doch zu Nun, lauf zur Flut!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6a8ednxlE8apCzWBABBWGs">Teti ist satt.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdz27VujG0ErKghuvfugvkaU">Teti wird nicht hungern durch dieses $qmḥ.w$-Brot des Horus, das er gegessen hat, das ihm seine Chefköchin(?) (lit.: große Frau) zubereitet hat, damit er dadurch satt werde und dadurch {dieses Land} 〈seinen Rest〉 nehme.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw58ruLtaUwwipHTZn9kiWQ">Teti wird nicht dürsten durch(?) Schu, Teti wird nicht hungern durch(?) Tefnut.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd12YnXIULke4soBtFNZFQSY">Hapi, Duamutef, Qebehsenuef und Amset vertreiben diesen Hunger, der im Bauch des Teti ist und diesen Durst, der auf den Lippen des Teti ist.</s>
+</ab>
+</body>
+</text>
+</TEI>

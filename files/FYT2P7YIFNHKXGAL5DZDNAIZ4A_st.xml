@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stFYT2P7YIFNHKXGAL5DZDNAIZ4A">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Bitte des Hor-nefer an Amun-Re</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Bitte des Hor-nefer an Amun-Re nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FYT2P7YIFNHKXGAL5DZDNAIZ4A</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:G3JB6H4CTBFB5JFWVB4TSJNNO4">Ashmolean Museum</repository>
+<idno>oAshmolean 310</idno>
+<msName>oGardiner 310</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Bitte des Hor-nefer an Amun-Re</title>
+<textLang mainLang="Egyh-Egyhlt">Neuhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaU7M7SOHDPZBL5HCNI7VDKFFY5E">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notBefore="-1279">Ramses II.</date>
+<date type="latest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notAfter="-1214">Ramses II.</date>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+<note>vermutlich Theben</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Cerny, J., Gardiner, A.H., Hieratic Ostraca, vol 1. Oxford 1957, pl. 50.2;
+Allam, Hieratische Ostraka und Papyri aus der Ramessidenzeit, Tübingen 1973, 190 f.;
+Wente, W., Letters from Ancient Egypt, Atlanta, Georgia 1990, 219.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:G3JB6H4CTBFB5JFWVB4TSJNNO4">Ashmolean Museum</repository>
+<idno>oAshmolean 310</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FYT2P7YIFNHKXGAL5DZDNAIZ4A.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhlt">Neuhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6db27e6cf1849dd8db48aae8cb91e847</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd6kK7TQUM0rgjjIkQjCUpPo">Hor-nefer sprach zu seinem Gott Amun-Re, dem Herrn der Throne der beiden Länder:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7BHqfMft0fmhwbDNuW6OPc">Wenn ich sehe, dass du mir beistehst, dann werde ich dir ein Men-Maß von Zermet-Getränk aus Qadi (Kilikien)  geben, und ebenso einen Dez-Maß(?) Bier und ebenso meinen ... Mann mit(?) ... und Weißbrot ...</s>
+</ab>
+</body>
+</text>
+</TEI>
