@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stKESHSUJZYFG7PPNYFTWGD35NI4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Harfnerlied</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Lutz Popko</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Harfnerlied nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Lutz Popko</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KESHSUJZYFG7PPNYFTWGD35NI4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Djehutimes (TT 32)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Harfnerlied</title>
+<textLang mainLang="egy-egyn-Egyp-Egypreg">traditionelles Mittelägyptisch-reguläre Hieroglyphenschrift
+<note>Mittelägyptisch mit Neuägyptizismen (z.B. Verwendung des proklitischen Personalpronomens)</note>
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJBAHWNEG3ZC5PL3SQO5YTQ6EHY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notBefore="-1279">Ramses II.</date>
+<date type="latest" datingPoint="ths:FCJURX24JZGXZEKP3TW36U3ZFA" notAfter="-1214">Ramses II.</date>
+<note>Aufgrund stilistischer und architektonischer Parallelen sowie der Namensformen in den Kartuschen kann das Grab in das 2. Drittel der Zeit Ramses&#039; II. datiert werden (F. Kampp, Die thebanische Nekropole. Zum Wandel des Grabgedankens von der XVIII. bis zur XX. Dynastie; 1. Teil; Mainz 1996 (Theben 13), S. 221 mit Anm. 1).</note>
+</origDate>
+<origPlace ref="ths:GYV7XU55WVAJZOQZGAWDIPKGZY">Khokha
+<note>TT 32, Osthälfte der Querhalle, Nordwand</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- L. Kákosy, Z.I. Fábián; Harpers song in the tomb of Djehutimes (TT 32); in: SAK 22, 1995, S. 211-225, Fig. 1-3, Tf. 10-11 [*F,*H,*K,*P,*Ü]
+- L. Kákosy u.a., The Mortuary Monument of Djehutymes (TT 32); Budapest 2004; Textband S. 141-145, Tafelband Tf. 41 oben [*F,*K,*P,*Ü]
+
+- J. Assmann, Fest des Augenblicks - Verheißung der Dauer. Die Kontroverse der ägyptischen Harfnerlieder; in: ders. et al. [Hrsgg.], Fragen an die altägyptische Literatur. Studien zum Gedenken an Eberhard Otto; Wiesbaden 1977, S. 55-84 [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KESHSUJZYFG7PPNYFTWGD35NI4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyn-Egyp-Egypreg">traditionelles Mittelägyptisch-reguläre Hieroglyphenschrift
+<note>Mittelägyptisch mit Neuägyptizismen (z.B. Verwendung des proklitischen Personalpronomens)</note>
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Lutz Popko</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>11-22f6dc5f41c533ae386b8d26d436cc71</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd8MM4ZMCoUQIgFtak9kRuus">[---] die Gerechtfertigte, sie spricht:</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxLjVW2siUcenS7iJo4ju1w">Der Ka ist auf [dir], indem du siehst [---] gutes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdx3LWW9FK0UKkjJQ0mowxFU">[---] mögest du bei (?) [---] der große Bezirk, in dem du entstanden bist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8NkmpVr9UXdhuN7CERC1V0">[---] indem 〈du〉 (dich) von/zu ihr/ihm (?) entfernst, während ihre Menschen 〈dich〉 lieben (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWxGKloQhUnqtzyXG7Es8l8">Ich erflehe für dich deine Gesundheit, [dann muss dein Körper beständig sein.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4tzVp17CUFGqWJKEXSdU9U">(O) Schreiber des Königs, (o) Fähiger, [du] bist auf den Armen des Amun.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQQ1o0I1gUK0lpqZyQUDL8Y">Dein Rücken ist an Seine [Majestät] gelehnt (?), deinen Schutz, seit du aus dem Leib gekommen bist, bis hin zum Alter.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3b2dboQh0k7lBPGmUF1mYQ">Er ist doch einer, der dir Ehrwürdigkeit und ein ihm/ihr (sc.: dem Leben oder dem Zustand der Ehwürdigkeit) folgendes Begräbnis zuweist (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd31vsnB32UAwiQpgHeWZdtg">Mögest du seinem Ka zu jeder Zeit dienen, indem du aufwachst, um seine Vollkommenheit zu preisen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9WF8q3yzUwVo5ahZVbrEPE">Er möge für dich umfassend handeln dort, wo du sein wirst.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW5bs0FmOEWHixr1mCLnfFY">Er möge dich in den (richtigen) Wind setzen, (wo es) kein(e) Flußbiegung/Flußufer (gibt) (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7mpsx7FKUq7mFqgRAANsjk">Euer Herz möge fröhlich sein, die ihr in der [Unterwelt] seid, [in]mitten der Urzeit[lichen (?) ---]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4OpyNWQUUtngixIcngW4vg">All die fähigen [Noblen], die Götterneunheit, die Herren des Westens, sie hören, wie die [Gunstgesänge für den ---, den] Ober[domänenverwalter] in Theben Djehutimes angestimmt werden, zusammen mit dem Lobpreis [auf seinen vortrefflichen Ba, den eines fähigen Edlen.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw2jgdpQxUtVmkp1E8YUQ5s">[Nun ist er ein Gott, der ewig]lich [lebt], der groß gemacht wurde im Westen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5nCxFMiM0eRoaOmCGoaDzs">Sie (die Lieder) sollen eine Erinnerung [für die Nachwelt] werden[, für jeden, der kommt, um (am Grab) vorbeizugehen.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6wkHXEvKUgPlqqHqiQ13FM">[Ich hörte die]se Gesänge, die in den Gräbern sind seit Anbeginn, und [was s]ie über die Hochschätzung [des Erdenlebens und die Herabsetzung des Jenseits berichten.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7J3BbnkjE2Mt5PMaAqQbC0">[Wes]halb tut man Gleiches gegen das [rechtmäßige] und richtige Land der Ewigkeit, das keinen [Schrecken] besitzt?</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3oQ7e4MtUskqfrjT2NJoqM">[Sein Abscheu ist ja die Störung.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd32Wy8PACE0Xhw2f6Wliy2g">[Es] kommt [nicht] vor, dass sich (ein)er gegen seinen Nächsten [vorbe]reitet.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyeFU3jc70EHnQecgDhdbQw">Dieses Land, das keinen 〈F〉eind hat: [Alle] {seine} 〈unsere〉 [An]gehörigen [ruhen in ihm] seit der Zeit der ersten Urzeit.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6bDpbcN5UQAhStHUcGXsnE">Die, die in Millionen von Millionen (Jahren) entstehen werden, die werden [⸮vollständig?] zu ihm kommen (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2dAZae29EahtMhkJtWPgYo">Es [gibt] kein [Verweilen in Äg]ypten.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ6oEWX4zEZQnDkoaNUicAM">Es gibt keinen, der nicht in es (d. h. ins Jenseits) gelangt.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd29IVAWM1EIukUNzC1lU3dc">Was die Zeit betrifft, die auf Erden verbracht wird: Sie hat (nur) den Charakter [eines Traumes.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0qbpvCp6UxPsReqwXvKxzM">〈Man〉 sagt: &quot;Er möge [wohl]behalten (?) sein, er möge wohlbehalten sein!&quot; dem, der den Westen erreicht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0O4RT1La0ornCTOHYRrJqg">Wer im Leben nordwärts und südwärts fährt, 〈wird danach am Ufer landen〉 (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9AFTID8WksKkyrYWrY8jFE">[--- wie schön] ist deine Reise, wenn du dich mit den Herren der Ewigkeit vereinigst.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd495cIIWQUYchxSpv3Km8qY">Wie dauerhaft ist dein Name in der Ewigkeit, verklärt in der Nekropole!</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ1HWs96f0PxgAgrN1HhlUo">[Alle Gött(er), denen du dienst, und] denen [du] Auge in (wörtl.: deinem) Auge (?) [gegenübertrittst]: Sie sind bereit, deinen Leichnam zu empfangen und deine Mumie zu beschützen, indem [sie] die Opfer auf dem Opfertisch deiner (?) [Mumie] fest sein lassen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1FbdDYXgkHotiwna43LzFo">[Jeder] Gott, der seine Speisen besitzt: Sie sagen zu dir: &quot;[--- willkommen in] Frieden, o Autoritätsperson, die nützlich ist für {ihren} 〈unseren〉 Ka!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWLxg9cFlEetl4LC18yOY9E">O Domänenvorsteher, 〈ich〉 höre dein Lob in der Gegenwart der Herren der Ewigkeit.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxDNykD8YEOdg7vWGGCNqOc">Man sagt über dich:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4BubBZ4PkWTtVZWqljmRog">&quot;[Er] zog [So]kar, indem er die Henubarke auf ihren Schlitten setzte, und indem er seine Mauern in seinem Gefolge umrundete.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5Rppzawh0bssInewsOBt78">Er ist im Besitz einer 〈Urkunde〉, die in seiner Hand ist (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1E88jDM50hdhp6IT05EgA4">Er ergreift die Buchrolle und bändigt seine Feind[e (?)], während er [mit] Verklärungssprüchen versorgt ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd98TpCBCXUWkmYn8Q5uWwSM">Die Mannschaft des Ptah jubelt (?) (wörtl.: ist in {seinem} 〈ihrem〉 Jubel (?)).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxnMB5FM3UU1kQyXKgSzWWE">Das Schetit-Heiligtum des Sokar ist im Fest.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzxFFToUlE8JtGi8wRfjQhE">Er stellte Djed auf [in --- ] er/sein, während er das (Ritual des) Erd[aufhacken(s)] (?) vollzieht an seinem (sc. korrekten) Termin und während er die Festordnung für den vereinigten Ba verliest (am) Tag [des ---] Finsternis.&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQbk4zoUHURtlUdk3QmHtQw">Der Unversehrt-Erwachende ist in Freude.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8r7sZK23UVTnUSd6NQbd5w">[---] dein Ba ist [ausge]zeichnet worden, [während dein Sarg vorübergeht und während die beiden Weihen für dich an] deinem Eingang sitzen und [sie wegen deines Namens] klagen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8N9dKghCEe2qipLogQg2kg">[Nicht wirst] du [ge]sucht (wörtl.: [Nicht gibt es ein] dich-[su]chen) ewiglich.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd466FrP74Ew5h026TWqqWlo">Nicht wird dein Name vergessen, Tempelvorsteher des Amun, Djehutimes.</s>
+</ab>
+</body>
+</text>
+</TEI>

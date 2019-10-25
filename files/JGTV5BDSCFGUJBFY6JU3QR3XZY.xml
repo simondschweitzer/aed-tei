@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idJGTV5BDSCFGUJBFY6JU3QR3XZY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 691B</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 691B nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JGTV5BDSCFGUJBFY6JU3QR3XZY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Nordwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 691B</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGBYBXMTMLJDCNLMGBVPBO62TE4">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+G. Jéquier, Le monument funéraire de Pépi II. Tome I: Le tombeau royal, Kairo 1936, pl. XI [F] (ab Kol. 988 = N/A/N 39);
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JGTV5BDSCFGUJBFY6JU3QR3XZY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-fb14d41ef6224ac49d89f8f9e8ff6cf0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzxcxjCGQU6lnNWccFNPKfA">
+<lb n="[N/A/N 59 = 1008]"/>
+<w xml:id="tlaIBUBdWRCaNyWvUH7oq7wAK1uniM" lemmaRef="tla:tla186050"><fs feats="verb"/><supplied reason="lost">ḏ<supplied reason="defective">d</supplied>-mdw</supplied></w>
+</s>
+<s xml:id="tlaIBUBdxlzM45PgEw1rIe2eRqDWAY">
+<w xml:id="tlaIBUBd2MQoFBznkhfh23jEIGmJGg" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation w-morpheme passive"/><supplied reason="lost">di̯.y</supplied></w>
+<w xml:id="tlaIBUBdwpBmbXCSkcFsTgW94NydHU" lemmaRef="tla:tla142480"><fs feats="substantive substantive_masc st_constructus dual"/><supplied reason="lost">zḫn.du</supplied></w>
+<w xml:id="tlaIBUBd3QWyRdSGUWUsXQfQ3GU1mY" lemmaRef="tla:tla58710"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">p,t</supplied></w>
+<w xml:id="tlaIBUBdQCUjzFJEU8JhyxwdX1NPkk" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdxhl5lShrEi9gL2N7JGnM8A" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/><supplied reason="lost">Rꜥw</supplied></w>
+</s>
+<s xml:id="tlaIBUBd4gULhYKX06SrixhLjGJ1ok">
+<w xml:id="tlaIBUBd7nkzuL09EiUmcWgr2sFNfk" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation w-morpheme passive"/><supplied reason="lost">di̯.y</supplied></w>
+<w xml:id="tlaIBUBd2QGTLPgBU7Sio1ZfRWAWe8" lemmaRef="tla:tla142480"><fs feats="substantive substantive_masc st_constructus dual"/><supplied reason="lost">zḫn.du</supplied></w>
+<w xml:id="tlaIBUBdxXDjQjTZ02AuJJ9MbHq9TY" lemmaRef="tla:tla58710"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">p,t</supplied></w>
+<w xml:id="tlaIBUBdWnRCFBXzU94mb9ASGDoAWA" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdwldJEDPg0iviiHbSZw0iKw" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+<w xml:id="tlaIBUBd1AjszAOeUf0jW0YwkXuSa0" lemmaRef="tla:tla159110"><fs feats="verb verb_3-inf suffixConjugation active"/>q<supplied reason="lost">ꜣi̯</supplied></w>
+<w xml:id="tlaIBUBdztzr4ifc0F6vrpE2WAQevA" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBdQGgcOKpVkr7i81kR7huQFk" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBd7uK9fQbZ0WWuwGsSyNCNQs" lemmaRef="tla:tla20550"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">jꜣb,t</supplied></w>
+<w xml:id="tlaIBUBd6Wc0je4NEuokx1PSqrR9NU" lemmaRef="tla:tla91900"><fs feats="preposition"/><supplied reason="lost">r</supplied></w>
+<w xml:id="tlaIBUBd1mWVy8qYExtpQi8pWYMF8c" lemmaRef="tla:tla26140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">jmn,t</supplied></w>
+<w xml:id="tlaIBUBdwhfkQJeO0zdgoHMUgSzQWo" lemmaRef="tla:tla854440"><fs feats="preposition"/><supplied reason="lost">jr-ꜥb</supplied></w>
+<w xml:id="tlaIBUBd5Tea1VfTUIHtoavZ48EPZc" lemmaRef="tla:tla136230"><fs feats="substantive substantive_masc st_pronominalis plural"/><supplied reason="lost">sn.w</supplied></w>
+<w xml:id="tlaIBUBd0AnW280PkeDgVZJqZU1qzw" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd4N88Gnqe0GfpgvRhxtMTc8" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/><supplied reason="lost">nṯr.pl</supplied></w>
+</s>
+<s xml:id="tlaIBUBdWCpMTPNOUDXjy3B8en0PXo">
+<w xml:id="tlaIBUBdwYoe4XhjEDJjlR61yQ211E" lemmaRef="tla:tla105780"><fs feats="verb verb_4-inf suffixConjugation w-morpheme active"/><supplied reason="lost">ḥmsi̯.w</supplied></w>
+<w xml:id="tlaIBUBd5ch8I85ek0Mk3WFU6KwYwQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd0dSzByytUfFphCAWH7WjuU" lemmaRef="tla:tla25400"><fs feats="preposition"/><supplied reason="lost">jm,w</supplied><damage>tj</damage></w>
+<w xml:id="tlaIBUBd11tmrKHLkHgt3zb0c2yWI0" lemmaRef="tla:tla136620"><fs feats="pronoun personal_pronoun"/>=<damage>s</damage>n<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBd0FaltyeMUQolSTRz1NHXCE" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdWQhGJIgTkPotrfZDr1jbp0" lemmaRef="tla:tla854573"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tꜣ</w>
+<w xml:id="tlaIBUBd8H13kf0FkXDglxEgWMJV28" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/>pn</w>
+<w xml:id="tlaIBUBd3uWFFNJRUtzrabFYSxyt6I" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+</s>
+<s xml:id="tlaIBUBdz8YepbHykR0qC5dnGthzZY">
+<w xml:id="tlaIBUBdQxVb6y550CspGx4u5dbND0" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation w-morpheme passive"/>di̯.y</w>
+<w xml:id="tlaIBUBd105CDWRfUXdulrpE8ak11w" lemmaRef="tla:tla142480"><fs feats="substantive substantive_masc st_constructus dual"/><supplied reason="lost">zḫn.du</supplied></w>
+<w xml:id="tlaIBUBd3kuyW1lQUYalW7SClt02O8" lemmaRef="tla:tla58710"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">p,t</supplied></w>
+<w xml:id="tlaIBUBdwsygi4v0025pp1jUBQAiWE" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdQqhYWJHBEE6t9mZr5EXPnk" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/><supplied reason="lost">Ppy</supplied></w>
+<w xml:id="tlaIBUBd14Cex4Pp0XXlmj5SJTd9gQ" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/><supplied reason="lost">Nfr-kꜣ-Rꜥw</supplied></w>
+</s>
+<s xml:id="tlaIBUBdWl79EsevE2CrrLLVpZxWEQ">
+<w xml:id="tlaIBUBd5NYK8l98Un0o5rT5FUZt30" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation w-morpheme passive"/>di̯.y</w>
+<w xml:id="tlaIBUBd6kJVxibGEf2k1s3Q4uoQ24" lemmaRef="tla:tla142480"><fs feats="substantive substantive_masc st_constructus dual"/>zḫn.du</w>
+<w xml:id="tlaIBUBdzWmygINdUNrkidvXyPCpaI" lemmaRef="tla:tla58710"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>p,t</w>
+<w xml:id="tlaIBUBd7NigxT8E09cguQTmiFT010" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdxQHlAmJukQhjS2l7p26wDU" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/>Ppy</w>
+<w xml:id="tlaIBUBdW3Z95Og4kG9q3WCGDY94b0" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/>Nfr-<supplied reason="lost">kꜣ</supplied>-Rꜥw</w>
+<w xml:id="tlaIBUBd8MWtYPpU0a6mCKzjb0ckEI" lemmaRef="tla:tla159110"><fs feats="verb verb_3-inf suffixConjugation active"/><supplied reason="lost">qꜣi̯</supplied></w>
+<w xml:id="tlaIBUBdWEDYI7i3Uy2tZUL6gDn6ro" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<lb n="[N/A/N 60 = 1009]"/>
+<w xml:id="tlaIBUBdWs1IZ8f7kkvi1pgh1GJHEI" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdy7R2QjHVUZ2i226psXMX3A" lemmaRef="tla:tla20550"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jꜣb,t</w>
+<w xml:id="tlaIBUBd4WM0YYfsUvOiQLNdSP3HGM" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd6DswD5ucEcWi0sOaXc90iA" lemmaRef="tla:tla26140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jmn<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd2U9TXDI6UHdo4LBGqpPH28" lemmaRef="tla:tla854440"><fs feats="preposition"/>jr-ꜥb</w>
+<w xml:id="tlaIBUBd4eH1Bd5K0tRn7OZgD6di3c" lemmaRef="tla:tla136230"><fs feats="substantive substantive_masc st_pronominalis plural"/>sn.w</w>
+<w xml:id="tlaIBUBdzSr88kPUUTLothMj0K6Mn0" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdyI6MKVT50wYrT9NE9FBWNA" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/>nṯr.pl</w>
+</s>
+<s xml:id="tlaIBUBdxkibn75wUvniXKJuNnqwZM">
+<w xml:id="tlaIBUBd9gNiQBwTkVcsF5qnfzoxtU" lemmaRef="tla:tla105780"><fs feats="verb verb_4-inf suffixConjugation w-morpheme active"/><supplied reason="lost">ḥmsi̯</supplied>.<unclear>w</unclear></w>
+<w xml:id="tlaIBUBdzSR9GCtvUM4iNK9RQWqZvk" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/><supplied reason="lost">Ppy</supplied></w>
+<w xml:id="tlaIBUBd9uNwro8h05WjRU3btOFPpw" lemmaRef="tla:tla400330"><fs feats="entity_name kings_name"/><supplied reason="lost">Nfr-kꜣ-Rꜥw</supplied></w>
+<w xml:id="tlaIBUBd8ZkNuHLQU1Jo56h5fGvSi4" lemmaRef="tla:tla25400"><fs feats="preposition"/><supplied reason="lost">jm,wtj</supplied></w>
+<w xml:id="tlaIBUBdxu0riQ9LEFXm8hurX09Qv8" lemmaRef="tla:tla136620"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">sn<supplied reason="defective">j</supplied></supplied></w>
+<w xml:id="tlaIBUBd8s4f6qepEaEmlQQZGRVwMA" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBd9rR02kM7EH0ugFYLJvQGMg" lemmaRef="tla:tla854573"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">tꜣ</supplied></w>
+<w xml:id="tlaIBUBdQKHQ2XJmkzWj4Kziv8PaC0" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/><supplied reason="lost">pn</supplied></w>
+<w xml:id="tlaIBUBdWn4yhLsF0bdmnBJWL81VCg" lemmaRef="tla:tla181401"><fs feats="adverb"/><supplied reason="lost">ḏ,t</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

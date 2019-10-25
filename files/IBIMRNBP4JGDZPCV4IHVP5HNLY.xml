@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idIBIMRNBP4JGDZPCV4IHVP5HNLY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift der späteren Dekorationsphase</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift der späteren Dekorationsphase nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>IBIMRNBP4JGDZPCV4IHVP5HNLY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Wand C</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift der späteren Dekorationsphase</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPT5SL6BNP5FPXJ42727J5FCKLM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>PM IV, 236;
+G.T. Martin, The royal Tomb at el-&#039;Amarna II, ASE 39, London 1989, 33 ff., Taf. 47-52 [*P, *F, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="IBIMRNBP4JGDZPCV4IHVP5HNLY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-c725205c122799307be6032325a89d8c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzPEz66bW0QstWkHW6H3bEA">
+<lb n="[über Nofretete]"/>
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9PWlZZm8klyqZqUBMQ0itw" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/><supplied reason="lost">mri̯.t</supplied></w>
+<w xml:id="tlaIBUBd3ldSiZ6ekDHjWQkoBeGmEk" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdyrbqs02qEQQkLN9vHmxCkE" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/><supplied reason="lost">Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</supplied></w>
+<w xml:id="tlaIBUBd2GQLhu9yE4ihXNZ7fNqWyM" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.tj</w>
+<w xml:id="tlaIBUBd4hrd1MhrEV9gXlW1xP3Dqg" lemmaRef="tla:tla95000"><fs feats="verb verb_4-inf pseudoParticiple feminine singular"/><supplied reason="lost"><unclear>rnpi̯</unclear></supplied>.tj</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd3eUgUmQ20WBuiWt1aRGLK4" lemmaRef="tla:tla181400"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏ,t</w>
+<w xml:id="tlaIBUBdy7N2gkaIEYKgQKiWDZO63I" lemmaRef="tla:tla91900"><fs feats="preposition"/><supplied reason="lost">r</supplied></w>
+<w xml:id="tlaIBUBd21RrYMT30Deok3AiXPbBvs" lemmaRef="tla:tla86570"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>nḥḥ</damage></w>
+</s>
+<s xml:id="tlaIBUBd6F5rFab808Fh14RNs0FYhY">
+<lb n="[über den Prinzessinnen]"/>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd0iP8BMX1EOknxlrnUyycKI" lemmaRef="tla:tla702312"><fs feats="entity_name person_name"/>Mr,<supplied reason="defective">y</supplied>t-<supplied reason="lost">Jtn</supplied></w>
+<w xml:id="tlaIBUBd1HffZrTfENjv8KVzJhqAWk" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/>msi̯.n</w>
+<w xml:id="tlaIBUBd0pRk5ZdXEjolB09lhaRVPg" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr.t</w>
+<w xml:id="tlaIBUBd9QJi7HpZ0tFv6ncl3HPSgA" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</w>
+<w xml:id="tlaIBUBd0mNcYazjkZ6r3W0vFNcCQE" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/><supplied reason="lost">ꜥnḫ</supplied>.t</w>
+<w xml:id="tlaIBUBd6TnbWEGvEvWu6nxIORrgWk" lemmaRef="tla:tla181401"><fs feats="adverb"/><damage>ḏ,t</damage></w>
+<w xml:id="tlaIBUBd957noWog0ZThdYzUlJjRG4" lemmaRef="tla:tla86580"><fs feats="adverb"/><damage>nḥḥ</damage></w>
+</s>
+<s xml:id="tlaIBUBd6Nwg73LB0HOu6dvruCmXnI">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd9bl7dkM0kZho3hUfEYcKxc" lemmaRef="tla:tla702469"><fs feats="entity_name person_name"/><supplied reason="lost">Mk,t</supplied>-<damage>Jtn</damage></w>
+<w xml:id="tlaIBUBd0xidXTxGUuwnrwvyj94x2I" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/><supplied reason="lost">msi̯</supplied>.n</w>
+<w xml:id="tlaIBUBdxbQIQEO0kmsrdgFjWKKD0M" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm,t</supplied>-nzw-wr,t</w>
+<w xml:id="tlaIBUBdxekIjg3zkcJst8T6he3uz0" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</w>
+<w xml:id="tlaIBUBdxQjM2ytqko7rHRPSHb8ZaI" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.t</w>
+<w xml:id="tlaIBUBd6RSORwDeUTMgs0VKbULHwA" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBd5rOVDbgJkxljOlvh5bkFzU" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBdzVKTVg2v032kSTFEVYZw4g">
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdwlpaiKs0Eh2vgiN59vZheA" lemmaRef="tla:tla852513"><fs feats="epitheton_title title"/><supplied reason="lost">zꜣ,t-nzw-n</supplied>-ẖ,t≡f</w>
+<w xml:id="tlaIBUBd4q2CzqPO00Eu7Z0FoUCFLk" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/>mri̯.t</w>
+<w xml:id="tlaIBUBd08omYhBPE1nq5CnqeeqUpI" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd5FO1MHIakP7oc7IVDP28m0" lemmaRef="tla:tla711176"><fs feats="entity_name person_name"/>Ꜥnḫ≡s-n-pꜣ-Jtn</w>
+<w xml:id="tlaIBUBdQkiZNf3TkPluuYjQWyqoWo" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/>msi̯.n</w>
+<w xml:id="tlaIBUBd31zZj85yUF4lfsbiu7wQPw" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr,t</w>
+<w xml:id="tlaIBUBdxgJrAuHtUeKgHE1MW7Vcm4" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</w>
+<w xml:id="tlaIBUBdzpBgNXZkkJkpv0nbEuZCFw" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.t</w>
+<w xml:id="tlaIBUBdwXqcwtZt0W2m0fedll9KQw" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBdzbeKEi530qcn6CwEzKjG78" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBdx3N2ixQSkGzr7T29AJmrD8">
+<lb n="[7]"/>
+<w xml:id="tlaIBUBd801qYUih09lpaEMEjKgMT0" lemmaRef="tla:tla852513"><fs feats="epitheton_title title"/><supplied reason="lost">zꜢ,t-nzw-n</supplied>-ẖ,t≡f</w>
+<w xml:id="tlaIBUBd5Ei6pVOYE9Uso540ZpS66g" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/>mri̯.t</w>
+<w xml:id="tlaIBUBdw3XpVZPm0Q1iZxabDLYJ1U" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd62UOWIXkUsiiZDEAa7btf8" lemmaRef="tla:tla703457"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-tꜣ-šrj,t</w>
+<w xml:id="tlaIBUBd1V9HOnd7EMegbp9QaRSkuI" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/>msi̯.n</w>
+<w xml:id="tlaIBUBd8wGJRMdY0gPlwORW4Y7EzI" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm,t</supplied>-<damage>nzw</damage>-wr.t</w>
+<w xml:id="tlaIBUBd25vdIY4oEVIkrqjC9ajjY4" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr.pl-Jtn-Nfr.t-jy.tj</w>
+<w xml:id="tlaIBUBdxGbxMrVZkQcgYQT9zXpvQA" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.t</w>
+<w xml:id="tlaIBUBdQx4MJBnjUgNnKQBLSCed9g" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBdWPhYVl8MEgAuOsBK8KpqTY" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBdyNsI47JcUFWn1LNckWPbpI">
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdwfqnJzL2UBfhVntETS5M74" lemmaRef="tla:tla703435"><fs feats="entity_name person_name"/><supplied reason="lost">Nfr-nfr.pl</supplied>-Rꜥw</w>
+<w xml:id="tlaIBUBd6PQPaQYEUzpoeM3uL333ro" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/><damage>msi̯</damage>.n</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

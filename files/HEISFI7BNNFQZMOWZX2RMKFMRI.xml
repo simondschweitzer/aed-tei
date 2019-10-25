@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idHEISFI7BNNFQZMOWZX2RMKFMRI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HEISFI7BNNFQZMOWZX2RMKFMRI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaF4E3X6GMARDLFF4C4NGTL43PVM">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4XVWKCUISJDA5OWB724D2CPBRI" notBefore="-2588">Chefren</date>
+<date type="latest" datingPoint="ths:B6LUZDUOMJDC3G3JVUHHECQCAM" notAfter="-2523">Schepseskaf</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1934-1935, Bd. 6.3, Cairo 1950, 61, fig. 44, pl. XXVIII [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HEISFI7BNNFQZMOWZX2RMKFMRI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-b2168dfd0a3059b7a06091eaf31d524c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8FW6cUhz04duVoLkxdKlzI">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd0CHsstrNUcSgehrlk7a7wE" lemmaRef="tla:tla400447"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ,t-nswt</w>
+<w xml:id="tlaIBUBd5TcfQTBjEXBodPssBkVQPU" lemmaRef="tla:tla550321"><fs feats="substantive substantive_fem st_pronominalis singular"/>mr,<supplied reason="defective">y</supplied>t</w>
+<w xml:id="tlaIBUBd9ZIsK6n2kNinKyooe2VfeQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdzj3jvnHm0QAsSLViufkQ1E" lemmaRef="tla:tla704744"><fs feats="entity_name person_name"/>Ḥm,t-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBd8f3tT0d9Ej8qqYL4OSvB7M">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd64q9m8dYUF3pADhOHAmKro" lemmaRef="tla:tla800075"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-ḥm<supplied reason="defective">,w</supplied>-kꜣ</w>
+<w xml:id="tlaIBUBd9mVTrBni0tJn14MU2NaY4w" lemmaRef="tla:tla852748"><fs feats="entity_name person_name"/>Snb,w-kꜣ<supplied reason="defective">≡j</supplied></w>
+</s>
+<s xml:id="tlaIBUBd5D7SQ4yRUXEj2ZAh1dKl9I">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd9yjhNT7I0h8sxH5WJQ6878" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<w xml:id="tlaIBUBd6D9hXH8r0DLgO5gUcJ080s" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBdyIuJ7JhCkUdkt0Q7xgnGt8" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdysiMiq8U0Usti7EmSRmzE8" lemmaRef="tla:tla200033"><fs feats="entity_name person_name"/>Rꜥw-špss<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBdW12b5SaWEFPvTKbtSem4RI" lemmaRef="tla:tla91770"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nḏs</w>
+</s>
+<s xml:id="tlaIBUBdyDOOkJsg0YHhHIAMUbyYq4">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd3LPDWab209QlbMV006ryrU" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd883dr1Mf0AupQjVmhBIQmQ" lemmaRef="tla:tla852880"><fs feats="entity_name person_name"/>Ḏw-p<supplied reason="defective">w</supplied>-nbw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

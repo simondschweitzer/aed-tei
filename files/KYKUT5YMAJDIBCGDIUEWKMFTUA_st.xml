@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stKYKUT5YMAJDIBCGDIUEWKMFTUA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Hordjedef</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Hordjedef nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KYKUT5YMAJDIBCGDIUEWKMFTUA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>2313</idno>
+<msName>〈04. 〉oDeM 1230</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Hordjedef</title>
+<textLang mainLang="egy-egym-Egyh-Egyhltb">frühes und klassisches Mittelägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7OUF6WGZOVF3NAQD2LQ2IYZTDY">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Ramessidisch</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Posener, Catalogue des ostraca hiératiques littéraires de Deir el Médineh, Tôme II, (DFIFAO 18), Le Caire 1951-1972, 33 und Tf. 57-57a [*P,*T]
+- W. Helck, Die Lehre des Djedefhor und die Lehre eines Vaters an seinen Sohn, Kleine Ägyptische Texte, Wiesbaden 1984, 1-2 und 9-12 [T,Ü]
+
+- M. Lichtheim, Ancient Egyptian Literature. Volume I: The Old and Middle Kingdoms, Berkeley, Los Angeles und London 1973 (= 1975), 58-59 (nur Helck § 1-4) [Ü]
+- W. Helck, Die Lehre des Djedefhor und die Lehre eines Vaters an seinen Sohn, Kleine Ägyptische Texte 9, Wiesbaden 1984, passim [Ü]
+- H. Brunner, Altägyptische Weisheit. Lehren für das Leben, Darmstadt 1988, 101-103 (Text 1) und Anmerkungen auf S. 430-431 [Ü]
+- A. Roccati, Sapienza egizia. La letteratura educativa in Egitto durante il II millennio a.C.,Testi del Vicino Oriente antico, Brescia 1994, 25-27 [Ü]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 47-54 (2. Aufl. 2010, 77-84 mit Nachträgen auf 85-88) [Ü]
+- G. Burkard und H.J. Thissen, Einführung in die altägyptische Literaturgeschichte. I. Altes und Mittleres Reich, Einführungen und Quellentexte zur Ägyptologie 1, Münster 2003, 81-82 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>2313</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KYKUT5YMAJDIBCGDIUEWKMFTUA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhltb">frühes und klassisches Mittelägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>11-682d5e9b7b623f8a0c6a22fde5f2c398</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdW3x4uwHbUDFvADkQCQnBHs">[Suche dir eine Parzelle aus aus] den Äckern, und zwar eine, die überschwemmt wird [jedes Jahr (?) laut] den Schriften, zum Pflügen und zum [Fischen und Vogelfangen, als] Vorsorge (?; wörtl.: als ein Verhüten?), falls ein Jahr der (Hungers)not kommen sollte.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxUTuCXgi0ewq1d2PTIzznU">[Nahrung] gehört ihm, wenn er es mit seinen beiden Händen erschafft. (??)
+(Pause: Strophenende)</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWzf0bzM4kmttmD7LWElsig">Besorge dir für die Opferspenden [{diesen} 〈einen〉 Beauftragten und einen Ka-Priester des Grabes (?)].</s>
+</ab>
+</body>
+</text>
+</TEI>

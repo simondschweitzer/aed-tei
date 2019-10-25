@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idI5JJTAMLVBDDBOX2PPUDDX66IM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften (mittlere Gabenbringer-Reihe)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften (mittlere Gabenbringer-Reihe) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>I5JJTAMLVBDDBOX2PPUDDX66IM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opfergabenbringer vor Grabherren</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften (mittlere Gabenbringer-Reihe)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaONL2ZYPZFNCPNNREVNYHDXSJ6E">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 33 (C, D), pl. 10-12, 40
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="I5JJTAMLVBDDBOX2PPUDDX66IM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-533da76bf76915ce1ed14c133cfbed39</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd89x7fRhgEnOlWQwgS45boE">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdWLLA7DInEkguT3RgUWQYGw" lemmaRef="tla:tla704436"><fs feats="entity_name person_name"/><supplied reason="lost">Hn</supplied>qw</w>
+</s>
+<s xml:id="tlaIBUBd6dnyOw5h0uNsWH8Gh67ENk">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd6CAfrZrXEyejTyUIL6Vvz0" lemmaRef="tla:tla705830"><fs feats="entity_name person_name"/>H̱tt,j</w>
+</s>
+<s xml:id="tlaIBUBd5Avd8LAs04MkLi3atHn89U">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdQjRpavAfE7agOYOh29EbA4" lemmaRef="tla:tla450112"><fs feats="entity_name person_name"/>H̱nm,w-<supplied reason="lost"><unclear>ḥtp,w</unclear></supplied></w>
+</s>
+<s xml:id="tlaIBUBdWTuEy0yt03qo0676rdGapM">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd6BDV0Kzl0gglcOKXBnCr34" lemmaRef="tla:tla450407"><fs feats="entity_name person_name"/>Nḏmj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

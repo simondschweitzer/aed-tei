@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idJEPX3TH5IVA2PM5DHYXGXE4V6A">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Tb 088</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Burkhard Backes</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Tb 088 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Burkhard Backes</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JEPX3TH5IVA2PM5DHYXGXE4V6A</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 10477</idno>
+<msName>pLondon BM EA 10477 (pNu)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Tb 088</title>
+<textLang mainLang="Egyp-Egypcs">Kursivhieroglyphisch
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7NOILVRXDVBPZBXA4S4FRIHTMA">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KMQ26R2F3VEJDIOTNUTDWO4Z4Y" notBefore="-1428">Amenophis II.</date>
+<date type="latest" datingPoint="ths:KMQ26R2F3VEJDIOTNUTDWO4Z4Y" notAfter="-1398">Amenophis II.</date>
+<note>Datierung von Hatschepsut bis Amenophis II.</note>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Lapp, The Papyrus of Nu (BM EA 10477), Catalogue of Books of the Dead in the British Museum I, London 1997</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 10477</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JEPX3TH5IVA2PM5DHYXGXE4V6A.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypcs">Kursivhieroglyphisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Burkhard Backes</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2cd4139cca721dbab70cbbb7064dba31</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzPzgArUZEYdq2IYNCQcdBg">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9u3AOPLY0Jsk0DQ2ZoL5Vk" lemmaRef="tla:tla92560"><fs feats="substantive substantive_masc"/>rʾ</w>
+<w xml:id="tlaIBUBdxHQQBqyHEQsjanrN0WCWGU" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBd3tKdUBmu0uWsyi6lYQfpis" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf"/>jrj.t</w>
+<w xml:id="tlaIBUBdw085z7TT0J8tQvZwiokfwY" lemmaRef="tla:tla116300"><fs feats="substantive"/>ḫpr,w</w>
+<w xml:id="tlaIBUBd2hhQLxmUkUshvcjQsK9Pt4" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdzHcHb9oJkWtsNxZHhDkIJk" lemmaRef="tla:tla132180"><fs feats="entity_name gods_name"/>Sbk</w>
+</s>
+<s xml:id="tlaIBUBdWhFu5WnQEfLrOr3QzPX214">
+<w xml:id="tlaIBUBd39tc5Zhtk9UoQAbWcb7Vc0" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏd-mdw</w>
+<w xml:id="tlaIBUBd7HfmYcbWEQzrGbfrB1oKp4" lemmaRef="tla:tla26660"><fs feats="preposition"/>jn</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdwCQM7tt9EHxg0rWD6piRjE" lemmaRef="tla:tla66750"><fs feats="substantive"/>mꜣꜥ-ḫrw</w>
+</s>
+<s xml:id="tlaIBUBd5VOOWjrCkddl03zfgHsjyQ">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd56RqIwsdkcMiF1H58fL7Bk" lemmaRef="tla:tla27940"><fs feats="pronoun personal_pronoun"/>jnk</w>
+<w xml:id="tlaIBUBd74di8dIXkddvPk1oiij7ws" lemmaRef="tla:tla132180"><fs feats="entity_name gods_name"/>Sbk</w>
+<w xml:id="tlaIBUBd7qQCoUdqUQxmrDLwud8CNc" lemmaRef="tla:tla108540"><fs feats="adjective nisbe_adjective_preposition"/>ḥr,j-jb</w>
+<w xml:id="tlaIBUBd9DVOmVrF0ONhGZ7KskGceg" lemmaRef="tla:tla85160"><fs feats="substantive substantive_masc"/>nr,w</w>
+<w xml:id="tlaIBUBdWPDXcMO1EewhZVijKUgITk" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+</s>
+<s xml:id="tlaIBUBd3QQyIpHbkmTqMxWI92phQM">
+<w xml:id="tlaIBUBdzU7WhNbIUbPhY9CcFXZ5vc" lemmaRef="tla:tla27940"><fs feats="pronoun personal_pronoun"/>jnk</w>
+<w xml:id="tlaIBUBd2jWyLWaqUV7s8K0b8vhRVE" lemmaRef="tla:tla132180"><fs feats="entity_name gods_name"/>Sbk</w>
+<w xml:id="tlaIBUBd9Zd1X5PnkdRhad4WNV20bg" lemmaRef="tla:tla33560"><fs feats="verb verb_3-inf"/>jṯi̯</w>
+<w xml:id="tlaIBUBd6M7WJGbvkkmrnRfJWclbdA" lemmaRef="tla:tla0"><fs feats="unknown"/>m-ꜥwꜣi̯</w>
+<lb n="[4]"/>
+</s>
+<s xml:id="tlaIBUBdy8woG2CrUqoh7xUuuNtyM4">
+<w xml:id="tlaIBUBd0dWtrxXNUIhozvmbnToHZw" lemmaRef="tla:tla27940"><fs feats="pronoun personal_pronoun"/>jnk</w>
+<w xml:id="tlaIBUBd6frhhqXxkkTsNWoSbQ44Zs" lemmaRef="tla:tla94160"><fs feats="substantive substantive_masc"/>rmy</w>
+<w xml:id="tlaIBUBd3BgiZmVfEhpsQbbZ50nh3Q" lemmaRef="tla:tla107500"><fs feats="entity_name gods_name"/>Ḥr,w</w>
+<w xml:id="tlaIBUBdxqJYG4SSk7SmZzNytffc7Q" lemmaRef="tla:tla34760"><fs feats="substantive substantive_masc"/>ꜥꜣ</w>
+<w xml:id="tlaIBUBdQ5WTgPPSU8IgmVG8iYEmoQ" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdwLopbVZUUhMsC6WaKNWYxE" lemmaRef="tla:tla164510"><fs feats="entity_name place_name"/>Km-wr</w>
+</s>
+<s xml:id="tlaIBUBd3cBwuZnZkEGiJ9ROmMquXU">
+<w xml:id="tlaIBUBd8johpZQJ0hUrAsA44qKXKc" lemmaRef="tla:tla27940"><fs feats="pronoun personal_pronoun"/>jnk</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd66KTryK7U3bktjKfAPDMO0" lemmaRef="tla:tla81650"><fs feats="substantive substantive_masc"/>nb</w>
+<w xml:id="tlaIBUBd1491u6gx0xKtXiUqJ0ZdB0" lemmaRef="tla:tla165450"><fs feats="substantive substantive_masc"/>ks,w</w>
+<w xml:id="tlaIBUBd3CKpmBJk0GHipi2GMGvW0I" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdyugDOv0B0NDv17VQO3jOZE" lemmaRef="tla:tla116940"><fs feats="entity_name place_name"/>Ḫm</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

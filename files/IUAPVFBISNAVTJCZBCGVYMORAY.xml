@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idIUAPVFBISNAVTJCZBCGVYMORAY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>IUAPVFBISNAVTJCZBCGVYMORAY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Nordwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaVTPMTH45WRE2FIQEZG6IIZJHLM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. M. Roth, A Cemetery of palace attendants, Including G 2084-2099, G 2230+2231, and G 2240, Giza Mastabas, Vol. 6, Boston 1995, p. 69-74; pl. 18b, 143</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="IUAPVFBISNAVTJCZBCGVYMORAY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2deaad74164d621de8bcbba6f98e0dc4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3fckDmrcUyWuEGFMi9FnX8">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd5iyIXtWrk4hlWzcebSmh28" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd9BbRX5WjEE0hgORXXPQ1hc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2dev8IF1EHrrnM3LeLIC18" lemmaRef="tla:tla135720"><fs feats="adjective nisbe_adjective_substantive masculine singular"/>sms,w</w>
+<w xml:id="tlaIBUBd41WRGKb30uAgt5Q4d4L6Co" lemmaRef="tla:tla704180"><fs feats="entity_name person_name"/><supplied reason="lost">R</supplied>n<supplied reason="defective">≡j</supplied>-ꜥnḫ<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd6udiWQAtEZAoBfN9Rz3TfM">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd9WUCoCsNUjQoIfWUCx4N1s" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/><damage>rn</damage></w>
+<w xml:id="tlaIBUBdzgQWfC5nUHqosAlzrlWL0s" lemmaRef="tla:tla22160"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>jwꜣ</damage></w>
+</s>
+<s xml:id="tlaIBUBdyiUIhWmlExTqNQXNGfQM2Q">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd5GyAb9MEkvkp9UpafLFD7o" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/><damage>rn</damage></w>
+<w xml:id="tlaIBUBd2drBuQl2UXVv7ElBHQCdvk" lemmaRef="tla:tla22160"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>j</damage>wꜣ</w>
+</s>
+<s xml:id="tlaIBUBdx3hfuV6UElbmX4WO4MhI0Y">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdxozPtSQN0wbt6rHEwf9MyQ" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/><damage>rn</damage></w>
+<w xml:id="tlaIBUBd947JXntkkxmvAI6l7eDXx4" lemmaRef="tla:tla22160"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jwꜣ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

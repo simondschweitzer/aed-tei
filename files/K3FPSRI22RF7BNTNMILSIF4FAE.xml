@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idK3FPSRI22RF7BNTNMILSIF4FAE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften westl. Seite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften westl. Seite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>K3FPSRI22RF7BNTNMILSIF4FAE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Nordwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften westl. Seite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaRHVVPQG6BNH7FECRGBBC6RUSEI">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 10-25, [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="K3FPSRI22RF7BNTNMILSIF4FAE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-c5ccd2adee74bd42744afc9bf9fb92c4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0mObG2y4kgInHi1TMhfBJU">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd2CdQ1GMNE1wlgxSoV4tUwA" lemmaRef="tla:tla200032"><fs feats="epitheton_title title"/><damage>sḥḏ</damage>-zẖꜣ,w-ꜥpr,w-<damage>ꜥ</damage>-n,w-nswt</w>
+<w xml:id="tlaIBUBdyWqodXRg0IThrHfA5QYzW8" lemmaRef="tla:tla800075"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-ḥm<supplied reason="defective">,w</supplied>-kꜣ</w>
+<w xml:id="tlaIBUBd6h9TfmlvUTog06YhpEbSYo" lemmaRef="tla:tla450254"><fs feats="entity_name person_name"/>Kꜣ≡j-ꜥpr<supplied reason="defective">,w</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

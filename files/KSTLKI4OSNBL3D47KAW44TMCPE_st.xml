@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stKSTLKI4OSNBL3D47KAW44TMCPE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenenbeischrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Adelheid Burkhardt</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenenbeischrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Adelheid Burkhardt</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KSTLKI4OSNBL3D47KAW44TMCPE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ehepaar vor Stierkampfszenen</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenenbeischrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMLOMSJ7P6JBVFHZHRXD3Y66O6U">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:OSQYKCRYMFGJRD3LESUKPOZG4E" notBefore="-2232">8. Dyn.</date>
+<date type="latest" datingPoint="ths:OSQYKCRYMFGJRD3LESUKPOZG4E" notAfter="-2187">8. Dyn.</date>
+<note>nach Kanawati, El-Hawawish, 10. Dyn.;
+nach Kanawati, Akhmim, 8. Dyn., wahrscheinlich 2. Hälfte</note>
+</origDate>
+<origPlace ref="ths:C2Z63NXQFBBFNLB3RZEJJQTBVQ">Achmim
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Kanawati, Naguib, The rock tombs of El-Hawawish. The cemetery of Akhmim 7, Sydney 1987, 26, 28, Fig. 12, 15 *[F,U,Ü,K,L,B];
+Kanawati, Naguib, Akhmim in the Old Kingdom. I: Chronology and administration, Sydney 1992, 311 [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KSTLKI4OSNBL3D47KAW44TMCPE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Adelheid Burkhardt</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d841b85cfc9db5c6d5361c97aeaacfa4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd6q3WCGzZUWPlJeMYPSs0VA">Den Kampf der Stiere betrachten seitens des Einzigen [Freundes] Rehu-erausen.</s>
+</ab>
+</body>
+</text>
+</TEI>

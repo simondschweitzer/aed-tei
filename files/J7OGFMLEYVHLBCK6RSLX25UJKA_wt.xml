@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtJ7OGFMLEYVHLBCK6RSLX25UJKA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>J7OGFMLEYVHLBCK6RSLX25UJKA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:NM3QUYNOMVDOBD2JX4WCD76QY4">Pelizaeus-Museum</repository>
+<idno>3044</idno>
+<msName>Opfertafel des Seschemu und der Neferet</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaCYU2KIKQKRE2HDSZVBM3TCJCHQ">
+<support>
+<objectType ref="ths:EP7XNRXU4ZAU7BKOHF5H2PYC34">Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza IX, Wien 1950, 40-47, Abb. 15, Taf. Xb</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:NM3QUYNOMVDOBD2JX4WCD76QY4">Pelizaeus-Museum</repository>
+<idno>3044</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="J7OGFMLEYVHLBCK6RSLX25UJKA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-90f0d8847be98fe2777575bff4703a4e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQfIYkHJtUkSmJjUXQ1iQs8">
+<w xml:lang="de" corresp="src:tlaIBUBd9VkRgdmwERLpIUwUZeYpk0">Vorsteher der Mannschaft der Ruderer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9sbHnLMO0ihkWjQh8lHaG8">Seschemu</w>
+</s>
+<s corresp="src:tlaIBUBd9psgE0H2EqEn7Z4VXi6RdA">
+<w xml:lang="de" corresp="src:tlaIBUBd9SLWV1qDE2Etv9acHXh7Sk">Miteret (Frauentitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7LPNiZNW02olGptCd9CD00">Neferet</w>
+</s>
+<s corresp="src:tlaIBUBd8WpqyDk9UvJrX4T2kxPtBo">
+<w xml:lang="de" corresp="src:tlaIBUBd0S4s7vah0mrnLavH3DloJY">Waschgeschirr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

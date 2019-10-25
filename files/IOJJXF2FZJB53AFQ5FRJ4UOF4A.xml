@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idIOJJXF2FZJB53AFQ5FRJ4UOF4A">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 550</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 550 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>IOJJXF2FZJB53AFQ5FRJ4UOF4A</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Südwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 550</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaD6NV6KIKBRFJDKFP3MOELA6GHQ">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. XXI [F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005,  [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="IOJJXF2FZJB53AFQ5FRJ4UOF4A.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-95de15575d87ca9f61f1c4c800ff8989</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1kFGwlTKU96ikhju8xqdqk">
+<lb n="[P/V/S 41 = 605]"/>
+<w xml:id="tlaIBUBdyL2Flhkw0NruMgk2wPaTRY" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBd4lUyQunRURhiVdvDNJP5Io">
+<w xml:id="tlaIBUBdzNcqborak2RtE8InpOvlTA" lemmaRef="tla:tla851658"><fs feats="preposition"/>ḥꜣ</w>
+<w xml:id="tlaIBUBd2w48zWQ1k50gd2Xat94PB8" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd4A6JQ5JAEItqW22PdWkjaA" lemmaRef="tla:tla164520"><fs feats="epitheton_title epith_god"/>km-wr</w>
+</s>
+<s xml:id="tlaIBUBdQnIpzwax0Yagc1i9lpVCjQ">
+<w xml:id="tlaIBUBd3zj21TrXU7QpKNkfYOFVWM" lemmaRef="tla:tla131760"><fs feats="verb verb_3-lit imperative singular"/>zbn</w>
+<w xml:id="tlaIBUBd5gy6NNMQkjruTxfLLS5AHk" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdy7P88TSh0wZlnay36hen5c" lemmaRef="tla:tla124280"><fs feats="entity_name place_name"/>H̱r<supplied reason="defective">,j</supplied>-ꜥḥꜣ</w>
+<w xml:id="tlaIBUBd6z2Ye9UpUEhjSMFP6QSfn4" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdQIQMAQC6EoAuKQmeRpTjys" lemmaRef="tla:tla55110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>bw</w>
+<w xml:id="tlaIBUBd1UghzlhYEr8ivHiieQv0Ik" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/>pw</w>
+<w xml:id="tlaIBUBdxdMETXyNEKfowK1K81ZKok" lemmaRef="tla:tla131760"><fs feats="verb verb_3-lit relativeform masculine singular"/>zbn.n</w>
+<w xml:id="tlaIBUBd1lbu2QEWEQAs5GaMB8Ze4o" lemmaRef="tla:tla10100"><fs feats="pronoun personal_pronoun"/>=sn</w>
+<w xml:id="tlaIBUBd2Rk4rmwMESxqWnUOhrpjqw" lemmaRef="tla:tla24640"><fs feats="adverb prepositional_adverb"/>jm</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

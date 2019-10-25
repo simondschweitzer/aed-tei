@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idH47NI4WNDZET3CHWBDEH5CLWTE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stephan Seidlmayer</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stephan Seidlmayer</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>H47NI4WNDZET3CHWBDEH5CLWTE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>No. 0/719 (199)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJCQYFID5JNCA3CQABLW6EP45YA">
+<support>
+<objectType ref="ths:BZQQMFDB4VBZJH3R66Y3XK64XI">Gefäß</objectType>
+<material ref="ths:UOGHTTMOBFAL3JU5ZH62ICOCMA">Keramik</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:ONO4KXU4RNH3HCECVJO5JTV2MY">Qubbet el Hawa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>E. Edel, Die Felsengräber der Qubbet el-Hawa bei Assuan, II. Abteilung, Die althieratischen Topfaufschriften, 1. Band, Die Topfaufschriften aus den Grabungsjahren 1960, 1961, 1962, 1963 und 1965, 1. Teil, Zeichnungen und hieroglyphische Umschriften, Wiesbaden 1967 [F, T] , Taf. 75</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="H47NI4WNDZET3CHWBDEH5CLWTE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stephan Seidlmayer</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-f0c0a8d07a0de74a3892415bb7fffd81</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0wiS6tEhUuWnZSzjmR2Oj8">
+<w xml:id="tlaIBUBd4gVrf4hSUphny3lPx3kQeU" lemmaRef="tla:tla90900"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nḏ</w>
+<w xml:id="tlaIBUBd99mQMIRIEokrE6dQ0pyK0g" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBd6YJOExYD0izjIUZQNoGXEI" lemmaRef="tla:tla712421"><fs feats="entity_name person_name"/>Jd,wt</w>
+<w xml:id="tlaIBUBdwhRSdmxK0Yzt0KWVggU6ns" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBUBd2CqfjQ7rELcuB0qQ2yweSk" lemmaRef="tla:tla400122"><fs feats="entity_name person_name"/>Sbk-ḥtp</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

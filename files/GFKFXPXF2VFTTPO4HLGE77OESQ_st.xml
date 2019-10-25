@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stGFKFXPXF2VFTTPO4HLGE77OESQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GFKFXPXF2VFTTPO4HLGE77OESQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Fragment (1) der Nordseite von Raum 2</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTXD4XE7TLJDA7PDUWNMS3KPUBM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WEB5KGYGWJFUTDVTZP5PO5GBOY" notBefore="-2555">Mykerinos</date>
+<date type="latest" datingPoint="ths:WEB5KGYGWJFUTDVTZP5PO5GBOY" notAfter="-2528">Mykerinos</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1932-1933, Cairo 1943, 180, fig. 123 [H, K, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GFKFXPXF2VFTTPO4HLGE77OESQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-62f54e9d9ae16f51501bcdc4efbc8755</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd33H1MWZVkKftjfBh23ofuI">... Hüter des Geheimnisses des Königs Debeheni ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwL1ATz6IERoqniD9jcxL9Q">... Höfling und Palastleiter ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxPYQCNMU0hzhjrW5kUkWOc">... Debeheni ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0KdENXFjkTphISQ1eHAIjc">... Herr der Ehrwürdigkeit bei seinem Herrn ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3SPUHvTqUOdn5oxp4ZLm0s">Freund und Liebling seines Herrn.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0uvQwQnXEeQss5lxJcFYyM">Der Hüter des Geheimnisses ...</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0fChI86s04Yt7F4v7DOjd0">... Herr der Ehrwürdigkeit bei seinem Herrn Debeheni ...</s>
+</ab>
+</body>
+</text>
+</TEI>

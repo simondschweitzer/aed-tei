@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroGTHG7JPSXJDCHCXHWIXOABVTXI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Stele des Iy (Äg. Slg. Tübingen Inv. Nr. 461)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Susanne Beck</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Stele des Iy (Äg. Slg. Tübingen Inv. Nr. 461) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Susanne Beck</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GTHG7JPSXJDCHCXHWIXOABVTXI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>13</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+<msName>Stele des Iy (Äg. Slg. Tübingen Inv. Nr. 461)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Stele des Iy (Äg. Slg. Tübingen Inv. Nr. 461)</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2GLEYS7LJZHT5JLAGWLN6WHXKY">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<objectType ref="ths:GT4HRUBG55AE5IB7RM2ZMJOQ6M">Privatmann</objectType>
+<material ref="ths:H7S5EKRWZ5EVBI35BBLML3MRL4">Kalkstein</material>
+<dimensions unit="cm">
+<height>53</height>
+<width>7,5</width>
+<depth>30</depth>
+</dimensions>
+<note>Derselben Familie gehört auch die Stele Äg. Slg. Tübingen Inv. Nr. 465 und Stele Helsinki NM 9171.</note>
+<note>Reste farbiger Fassung, versenktes Relief, Mitte und untere Kante leichtere Absplitterungen.</note>
+</support>
+<condition>vollständig</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+<note>Laut Brunner/Brunner-Traut 1981, 91 datiert die Stele in die 12./13. Dynastie.</note>
+</origDate>
+<origPlace cert="medium" ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY" type="JTPKDP7HTRGIBKN34QHASPR4LE">Abydos
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- Brunner, H./E. Brunner-Traut, Die Ägyptische Sammlung der Universität Tübingen, I–II, Mainz, 1981, I 91–92, II, 59. [B,P,F,Ü]
+- Simpson, W. K., The Terrace of the Great God at Abydos. The Offering Chapels of Dynasties 12 and 13, Publications of the Pennsylvania-Yale Expedition 5, 1974, ANOC 72.2.
+- Spiegelberg, W./B. Pörtner, Aegyptische Grabsteine und Denksteine aus süddeutschen Sammlungen. I: Karlsruhe, Mühlhausen, Straßburg, Stuttgart, Straßburg, 1902, 12 (Nr. 19), Taf. XI. [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>13</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GTHG7JPSXJDCHCXHWIXOABVTXI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Susanne Beck</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>48-d3def9242da08506e0ce04d8b2e6e84f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBcAYLxHy6qwck1itYfwzcWK14w">
+<w corresp="src:tlaIBcAYNqsWI7wVkIhhC9wzXDyzqw">𓇓𓏏𓊵𓏙</w>
+<w corresp="src:tlaIBcAYDrqMS1K9kGkgWlcql0QF3M">𓊨𓁹</w>
+<w corresp="src:tlaIBcAYO5gJaz7ski5m4pWWFaveJU">𓎟𓊽𓊽𓅱𓊖𓏤</w>
+<w corresp="src:tlaIBcAYNLWIeBoW0ZftPXGTFSwvHw"><note>Keine Entsprechung in Unicode für R8-O29v-D36</note></w>
+<w corresp="src:tlaIBcAYHw9ykAou0pIvSQfUgiYZ8s"><note>Keine Entsprechung in Unicode für V30-U23B-N26-D58-G43-O49-Z1</note></w>
+</s>
+<s corresp="src:tlaIBcAYITWAg1xYUWuk17ugeSg5Q8">
+<w corresp="src:tlaIBcAYDYuEZZDO0rLsQnAgtW70uw">𓂞</w>
+<w corresp="src:tlaIBcAYPtTFerywUV7pc94EtOAK3A">𓆑</w>
+<w corresp="src:tlaIBcAYI4zOUzOpEQtqUHtjpYoVy8"><note>Keine Entsprechung in Unicode für O70</note></w>
+<w corresp="src:tlaIBcAYF3f6hELjUgfgFr6odypfXk">𓏐</w>
+<w corresp="src:tlaIBcAYLrqR3dQn0ZlvrWcBw8FV4c">𓏋𓏪</w>
+<w corresp="src:tlaIBcAYAFPzWUdmkrfhWqxVxlb13k">𓃿</w>
+<w corresp="src:tlaIBcAYGBtbZ3mvkxyreSJFrpE9TY">𓅿𓈀𓏥</w>
+<w corresp="src:tlaIBcAYEKWHOhJwkUUlHCYzQ9tdZI">𓈖</w>
+<w corresp="src:tlaIBcAYPOI2HfmG01uh6Ik36DYk7Y">𓂓</w>
+<w corresp="src:tlaIBcAYGYyKlsuBUpErvAfw1O7WVM">𓈖</w>
+<w corresp="src:tlaIBcAYPuUcLQKYk1Ipen3fowFCEs">𓏊𓅱</w>
+<w corresp="src:tlaIBcAYMheZHInqk7pjeYL2WYBc5w">𓅧𓈎𓂻</w>
+<w corresp="src:tlaIBcAYLDATE8AjEPsp3pTES8cwMQ">𓇍𓇋𓇋𓂻</w>
+<w corresp="src:tlaIBcAYAa89AH1KkKarUaBAQrt0pQ"><note>Keine Entsprechung in Unicode für Aa11v-P8</note></w>
+<w corresp="src:tlaIBcAYL4t0yluTk99pCzI36hyJ60">𓄟𓋴𓈖</w>
+<w corresp="src:tlaIBcAYCvpOk7fi00BglxqZQ2POdY">𓅭𓏏𓇍𓇋𓇋</w>
+</s>
+<s corresp="src:tlaIBcAYHtFdYemDU6vsXhpiJqb7us">
+<w corresp="src:tlaIBcAYC6QQ0YvUUNmgLAKZDkPt84">𓇋𓈖</w>
+<w corresp="src:tlaIBcAYOazoQ2uBU9usW6Bg5ckZmw">𓅭𓏤</w>
+<w corresp="src:tlaIBcAYCPCpYWCDknNpBWfJSWjJgU">𓆑</w>
+<w corresp="src:tlaIBcAYJeiSFvFOkp4q8EEbWGfYII">𓇍𓇋𓇋𓂻</w>
+<w corresp="src:tlaIBcAYLzgfF06OEyWkozuhYdukik"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+<w corresp="src:tlaIBcAYB8ErjzHgEEsrALZXqqVqaQ">𓋴𓋹</w>
+<w corresp="src:tlaIBcAYCPXeknQKUpZmatWfl9cLZ8">𓂋𓈖</w>
+<w corresp="src:tlaIBcAYIdS6BwztEXojhoeapKivUs">𓆑</w>
+</s>
+<s corresp="src:tlaIBcAYJpne1zUL0iUnyM6F3XCsIs">
+<w corresp="src:tlaIBcAYMAEdPAJ0kipqWLU47g1ha0">𓇋𓏏</w>
+<w corresp="src:tlaIBcAYAzj7i8n00rCoslvMQu43eo">𓆑</w>
+<w corresp="src:tlaIBcAYKFGdzOd2Up6jXEFQ4YykpM">𓄓𓊹𓉞</w>
+<w corresp="src:tlaIBcAYCpQAaNJFU2ejCflsDZh6rU">𓎛𓈖𓏌𓅱</w>
+<w corresp="src:tlaIBcAYKEe8D4kCkvcm8UYbPtIsfk"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYH4LkK2hJ0jDqWwKQHEkVZk">
+<w corresp="src:tlaIBcAYJQYiGWAeUgit3NQcGEreW4">𓎟𓏏𓉐</w>
+<w corresp="src:tlaIBcAYMW0xRP0DUznvAaqFWF9uCk">𓅭𓏏𓇍𓇋𓇋𓂻</w>
+</s>
+<s corresp="src:tlaIBcAYHwpHex1gEhZtyzDQDUs91E">
+<w corresp="src:tlaIBcAYIsQUOj9fEvquYeh7FAzJ4Y">𓌢𓈖𓏏</w>
+<w corresp="src:tlaIBcAYEAbXMSvo0pir0NA69vmckU">𓆑</w>
+<w corresp="src:tlaIBcAYOXP1U0aN0agsY6QQtrLGQ8">𓊵𓊪𓏏</w>
+<w corresp="src:tlaIBcAYCrJvTaDJUGukqCyog4Iqdc"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYNIcWirKw0YLpGc57yDCQx4">
+<w corresp="src:tlaIBcAYOGX1ZH280CPkkxhWmZ1HzU">𓎟𓏏𓉐</w>
+<w corresp="src:tlaIBcAYIHLZJfSbkcFvkru6o2Uw5M">𓋴𓃀𓎡𓊵𓏏𓊪</w>
+<w corresp="src:tlaIBcAYBQqiZSYfEEgvy8qyCoAa7U"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYGUpbDr6skquryQWTlaAGw0">
+<w corresp="src:tlaIBcAYKvFhdaykk2WvkS4Q9HkxsY">𓌢𓈖𓏏</w>
+<w corresp="src:tlaIBcAYJQnRziHVE30lAu8BL0oWGY">𓆑</w>
+<w corresp="src:tlaIBcAYPzsQBW66U2ynADKZTkXOdQ">𓇋𓅱𓂧𓇋</w>
+<w corresp="src:tlaIBcAYMMBd1Wyh0MbjpMHdrQmcHA"><note>Keine Entsprechung in Unicode für Aa11-X1-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYNuE3MmbIUBduF0vkeFXUpM">
+<w corresp="src:tlaIBcAYHbpCxcS1kxasyGrr7hE68g">𓌢𓈖</w>
+<w corresp="src:tlaIBcAYNZGhcWdPEf1pgvHz8lCUMM">𓆑</w>
+<w corresp="src:tlaIBcAYFmvlgwCGk4Gqu7DPn8HQnI">𓎛𓋔𓏌𓅱𓀀</w>
+<w corresp="src:tlaIBcAYIuF7ZKcEUPBlZUA6zAgFr8"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYL2VWkMzD0dZts6TTqCKQYI">
+<w corresp="src:tlaIBcAYAFviscclUjOsBEhVnR2Pp0">𓄓𓂝𓄚𓏌𓏭</w>
+<w corresp="src:tlaIBcAYI0CeAkxMEBfuWiriauRSqY">𓌂𓀋𓏛𓏥</w>
+<w corresp="src:tlaIBcAYNf9pSLu0kXjvBkWwUyZxxQ">𓋴𓊵𓏏𓊪𓄣𓏤</w>
+</s>
+<s corresp="src:tlaIBcAYAEfRkjaQ0U1vEB7T91RWws">
+<w corresp="src:tlaIBcAYKNUJvu2qEPHoAn4YeLCuVI">𓐝𓇋𓀁𓅓</w>
+<w corresp="src:tlaIBcAYGskJ13PJEzzhjccR42FIW0">𓎟𓏏𓉐</w>
+</s>
+<s corresp="src:tlaIBcAYOQR1U33L07GqNS4g3Ond54">
+<w corresp="src:tlaIBcAYFjptFlNnkmJsZMy46mTLxc">𓎟𓏏𓉐</w>
+<w corresp="src:tlaIBcAYJC2Hx4w0kMniqbQcNWxM8A">𓂝𓈖𓈎𓂝𓂝𓏏</w>
+</s>
+<s corresp="src:tlaIBcAYJgAoQg5zkWLl5qPBVJ2uxs">
+<w corresp="src:tlaIBcAYMJocOfn9kR0vwyOYzlZ00w">𓀺𓌔𓏏𓏤</w>
+<w corresp="src:tlaIBcAYHWQlTGjqE66tlRsjW68QYo">𓂧𓇋𓇋</w>
+<w corresp="src:tlaIBcAYJQ42DGJhk4xlUIWTjLRYDc"><note>Keine Entsprechung in Unicode für Aa11-P8h</note></w>
+</s>
+<s corresp="src:tlaIBcAYCehihU6UkXln5kKBnAKQ9g">
+<w corresp="src:tlaIBcAYPnJuU6I406olHz99UCk1tY">𓇋𓏭𓌙𓅓</w>
+<w corresp="src:tlaIBcAYD6KfO3WrUZXntXe1Jf2VfQ">𓊪𓏏𓎛𓋹𓈖𓐍</w>
+</s>
+<s corresp="src:tlaIBcAYEsZWWGE00bYph7WW3B95Kk">
+<w corresp="src:tlaIBcAYD2D46pzn01dvGHMQ6bVveo">𓌢𓈖𓏤</w>
+<w corresp="src:tlaIBcAYCovWAOni0KwrFVDTNoDWAo">𓆑</w>
+<w corresp="src:tlaIBcAYPw1LPM55EdBmnGbpEo04HY">𓇍𓇋𓇋𓂻</w>
+</s>
+<s corresp="src:tlaIBcAYH0BxOF9okAihrztbQLYkZI">
+<w corresp="src:tlaIBcAYFSwyNyVFU7CmzkdsdHthBE">𓌢𓈖𓏤</w>
+<w corresp="src:tlaIBcAYMU5jt7HykdxlsbNIQWdSJo">𓆑</w>
+<w corresp="src:tlaIBcAYPzIxjAs0kSclLGVyTpdulE">𓎛𓈖𓏌𓅱𓀀</w>
+</s>
+<s corresp="src:tlaIBcAYNlT3sEL80uKpERxB8iIB1k">
+<w corresp="src:tlaIBcAYH9PuulA6EwjtKsdMajzJUo">𓎟𓏏𓉐</w>
+<w corresp="src:tlaIBcAYLuLozqZfESVkn8XWa9rNfc">𓄤𓆑𓂋𓅱𓂻</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

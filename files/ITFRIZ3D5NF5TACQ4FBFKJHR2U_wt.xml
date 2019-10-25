@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtITFRIZ3D5NF5TACQ4FBFKJHR2U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ITFRIZ3D5NF5TACQ4FBFKJHR2U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>rechter Außenpfeiler</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaYEDMYTNGKJDZTEZDI5P4VCBQQY">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:EBTM44JP7NA5BBJ4XXKU7RMX7Y" notBefore="-2353">Userkare</date>
+<date type="latest" datingPoint="ths:EBTM44JP7NA5BBJ4XXKU7RMX7Y" notAfter="-2352">Userkare</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. III, Cairo 1975, 6, Fig. 2, pl. II-III</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ITFRIZ3D5NF5TACQ4FBFKJHR2U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-24958567a00c914de7faabc0fd0a0ba5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdzFMRrXJiEXJlKcuE6SOYVQ">
+<w xml:lang="de" corresp="src:tlaIBUBdy9pcqkL6kV8k6R3OkKWWpU">leibliche Tochter des Königs, die zu (Pyramidenanlage) Vollkommen sind die Plätze des Unas gehört</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx5gVQBwo0dxjJrz0aRXf1g">die Versorgte bei dem großen Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4lzhhW7NkvwpF1C1P5jdgc">die Versorgte bei Hathor, Herrin des Sykomorenheiligtums</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwDJUdq65kYViAtFNcX4p2w">Hemet-Re</w>
+</s>
+<s corresp="src:tlaIBUBd7B9ZQAuiE6vuOwo1QA1EjE">
+<w xml:lang="de" corresp="src:tlaIBUBdWxmADsTZUnLqH795iFRapA">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1WleJn1GEQClfSxMWW9KXA">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwpQCxxfi0P0nYqGVxhlWSQ">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4vP29VpQUpZmyOdDHavVdA">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5GiXLnM3EWasrIqlJJ972E">der vor der Gotteshalle ist (Anubis, Osiris)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzAhqb8KwkCHoUxg7UsiRTc">Imiut (Anubis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxb3XtKkqEsKjTIhIA6WQN8">Herr der Nekropole (Anubis u.a.)</w>
+</s>
+<s corresp="src:tlaIBUBdxSsW9gW90tHvwxYh0MeG2I">
+<w xml:lang="de" corresp="src:tlaIBUBd1n5lOGhkEMQsWZxk1Ln3Vo">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx5W1yVjeUaynABhldHJUhs">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQwf7HJeVUuivjTYLfGTK5k">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8wzyG1djEnUhLpsJEv0IAc">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2IBzu0xMk53oMA1ahdNSEM">Nekropole</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWslO4u5m0WtkkkxVoCW8CA">die Versorgte</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Q4YoXWxEWNldqIyQ1QoeY">Kosename</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQc3NzW71kpWiPTwujdwzOI">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtlhpuU0Uw6nUJ17IaN9dQ"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd2YA1dsU9EHktjJhpqnZma0">Hemi</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

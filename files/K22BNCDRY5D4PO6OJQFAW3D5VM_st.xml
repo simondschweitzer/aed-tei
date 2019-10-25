@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stK22BNCDRY5D4PO6OJQFAW3D5VM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>K22BNCDRY5D4PO6OJQFAW3D5VM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Serdab-Block</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaSTFWU2FB2NGZFB4NRX4DVC5M3E">
+<support>
+<objectType ref="ths:X5C6WY3M7VBWZBEQHR5EYMK7UM">unbestimmt</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notAfter="-2431">Niuserre</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Tombs at Giza II: Seshathetep/Heti (G5150), Nesutnefer (G4970) and Seshemnefer II (G5080), (ACE Rep. 18), Warminster 2002, 51-64, pl. 32, 64.
+[*P,*F,*U,*Ü,B,K];
+K. Martin, Reliefs des Alten Reiches, CAA Pelizaeus-Musaeum Hildesheim, Lfg. 3, 29-31;
+vgl. H. Junker, Giza III: Die Mastabas der vorgeschrittenen V. Dynastie auf dem Westfriedhof, 187-192, Taf. V-VI, X-XI, Abb. 1, 34.
+[F,L,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="K22BNCDRY5D4PO6OJQFAW3D5VM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-80991a8974a270eb0e70a8a875d59d8c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd1jq0qiFaEsHmevNGXrStLc">Der Vorsteher der Aktenschreiber des Königs Seschemnefer.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9L3flm7WkWevjeod1WsTqo">Der Vorsteher der Aktenschreiber des Königs Seschemnefer.</s>
+</ab>
+</body>
+</text>
+</TEI>
