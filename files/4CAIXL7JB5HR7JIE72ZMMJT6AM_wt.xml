@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt4CAIXL7JB5HR7JIE72ZMMJT6AM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Inschrift〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Inschrift〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>4CAIXL7JB5HR7JIE72ZMMJT6AM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Decken-Architrav</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Inschrift〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBW37NHJOO5FMJMV6NYUPOMC43M">
+<support>
+<objectType ref="ths:IGXF5ZVEI5ALPHRZKHMJFUA2FQ">Architrav</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1936-37-38, Cairo 1960, 76-77, fig. 33, pl. XXX B [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="4CAIXL7JB5HR7JIE72ZMMJT6AM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-a0bd328b24b5671feac284edbc604842</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdziXUao3eEFwsZguYWmoiqc">
+<w xml:lang="de" corresp="src:tlaIBUBdWXA5HJRfkwmqVCSkwSF6Yg">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWWn37EMHU7Ajj1CF3okx5k">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxql8PeEg0C5rfv3Dt6QcJc">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy3qvVxYQE6Phi55bvQw1SA">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd01CYXNs40Ygo8rqUpHKlQw">Herr der Nekropole (Anubis u.a.)</w>
+</s>
+<s corresp="src:tlaIBUBd9ZyDo8oR0rgtO9N3MxoTJ0">
+<w xml:lang="de" corresp="src:tlaIBUBd4Y7sEPuiEhYiMykTIMIMJQ">bestatten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0J3iN2rWEqrrD9Sk7Saw3s">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtgZ9qrTkWapQtXzbJkYrk">Begräbnisstätte</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Qt8QxNpUtWgvZnZv6aWJk">westlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWEVkWbShEz5lC8MzktiEAM">alt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1UVPxkQZk54qMzAJb28ywk">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyJGoibWO0eRqNzAbHPQQ6A">sehr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8w5JqrDAkXvl5KVL1clxt4">Tjet-ga-ma</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

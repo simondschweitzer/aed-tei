@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st3SQ6VEJWCNAX7GC2C5CQPQVXVM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Hori</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Hori nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3SQ6VEJWCNAX7GC2C5CQPQVXVM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:G3JB6H4CTBFB5JFWVB4TSJNNO4">Ashmolean Museum</repository>
+<idno>oGardiner 2</idno>
+<msName>oGardiner 2</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Hori</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitstext</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaXSSV7YRMEVEB5DOUV76LOWJUMQ">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Bickel und Mathieu, 49 stellen als Hypothese auf, daß der Autor Hori identisch ist mit einem Schreiber Hori aus Deir el-Medina, der zwischen Jahr 29 Ramses&#039; III. und Jahr 17 Ramses&#039; IX. belegt ist</note>
+</origDate>
+<origPlace ref="ths:VHGZGISIMJG6NBSUYALIZI4TIQ">westliches Ufer
+<note>Laut J. Cerný und A.H. Gardiner, Hieratic Ostraca I, Oxford 1957, Seite V sind alle dort veröffentlichten Ostraka aus Theben</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- J. Cerný und A.H. Gardiner, Hieratic Ostraca I, Oxford 1957, 2 und Tf. VI-VIa [*F,*T]
+- H.-W. Fischer-Elfert, Literarische Ostraka der Ramessidenzeit in Übersetzung, KÄT, Wiesbaden 1986, 1-4 [*T,*Ü,*K]
+- S. Bickel und B. Mathieu, in: BIFAO 93, 1993, 49-51 [Ü]
+- M. Lichtheim, Moral Values in Ancient Egypt (OBO 155), Freiburg und Göttingen 1997, 34 [Ü]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 289-290 (2. Aufl. 2010, 377-378 mit Nachträgen auf 379) [Ü]
+- G. Burkard und H.-J. Thissen, Einführung in die altägyptische Literaturgeschichte. II. Neues Reich (Einführungen und Quellentexte zur Ägyptologie 6), Münster 2008, 135-136 [Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:G3JB6H4CTBFB5JFWVB4TSJNNO4">Ashmolean Museum</repository>
+<idno>oGardiner 2</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3SQ6VEJWCNAX7GC2C5CQPQVXVM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-381ba617e6ced1ad13afe2f6c433d537</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd8mVYcS5hEwjvLpoANp7OQc">Anfang der Erziehungslehre, die der Schreiber Hori verfaßt hat, {der spricht zu 〈...〉} 〈wobei er sagt〉:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7XnD0eA3kMfqVTgWWtrRnw">Richte dein Herz in höchstem Maße auf die Schriften!</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwi7AQlnrUQDr6xQAmX1rXc">(Es ist) ein vorzüglicher Beruf für den, der es tut.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3WjmWxLMEevtKOo3zeEInY">Dein Vater beschäftigte sich mit den Gottesworten (wörtl.: war unter den Gottesworten), wobei er auf der Straße respektvoll begrüßt wurde (und) wobei es ihm dadurch gut ging.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3k2l5u470Gwod9FtqFdsl8">Seine Jahre waren (zahlreich) wie Sand, wobei er gut versorgt (wörtl.: ausgestattet) war während seiner Zeit auf Erden, bis er zum Westen gelangte.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7B9Srhqe0yWuulLHRJATB0">Sei Schreiber!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8LDlSkfZEoJiEa0E2Qec78">Werde doch so wie er, so daß der Reichtum sich für dich vermehrt zu deiner [Zeit] (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4hRCVYLHEAtsmWL0cKk3oM">Du sollst [befolgen (?) ...], damit dein Name/Ruf wie sein (göttlicher) Name wird.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6M6GpjMOkVGhFlziX3YvFI">Du sollst akzeptieren [den ...] deines Vaters, ohne [... ...], wobei (?) es dir gut geht auf Erden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWxwOfFes0WgrS7MLVScHDQ">Täglich, täglich.</s>
+</ab>
+</body>
+</text>
+</TEI>

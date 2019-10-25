@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id3U7LELDC4RGHZHLB467XDD5TXE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 344</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 344 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3U7LELDC4RGHZHLB467XDD5TXE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostgiebel〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 344</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaY4ZYSDROK5CBFAAQBKMRF7HTLE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3U7LELDC4RGHZHLB467XDD5TXE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-4c10a1c9afbf7aa7554a07b3a554b12b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdza3iFta6UM6u1ZU4wU6NWM">
+<lb n="[T/F/E sup 33 = 86]"/>
+<w xml:id="tlaIBUBdWslb406MUeBr41mndjmhY8" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBd8iGrA2yr0Oqr6PBtO6yifM">
+<w xml:id="tlaIBUBdzVzhmy0pUCshDtExJ88twU" lemmaRef="tla:tla854522"><fs feats="verb verb_2-lit imperative prefixed singular"/>j:<supplied reason="defective">n</supplied>ḏ</w>
+<w xml:id="tlaIBUBd6OZTHED7E25tdOHADlo7QU" lemmaRef="tla:tla107510"><fs feats="substantive substantive_masc st_pronominalis singular"/>ḥr</w>
+<w xml:id="tlaIBUBd8Yd2hUHykxmlF4UXQSm61Y" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd3yiBbcyfULVk7oTrKUhTBM" lemmaRef="tla:tla316"><fs feats="entity_name gods_name"/>Ꜣgb<supplied reason="defective">,w</supplied>-wr</w>
+<w xml:id="tlaIBUBd6tagMSaZktUmcA3dFDtwA8" lemmaRef="tla:tla855519"><fs feats="substantive substantive_masc st_constructus singular"/>wdp<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd9kEmRt4fUceqMAwTQUzxGI" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/>nṯr.pl</w>
+<w xml:id="tlaIBUBdzLPR52tL0BNmE2E2aG9U0I" lemmaRef="tla:tla145140"><fs feats="substantive substantive_masc st_constructus singular"/>sšm<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd2HNmZiQw0QRtRNFJ5fjmTc" lemmaRef="tla:tla106750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnmm,t</w>
+</s>
+<s xml:id="tlaIBUBd2HvE82bc06pmUeNExerBuU">
+<w xml:id="tlaIBUBd25ti2OzHE6WtERsUIGu83c" lemmaRef="tla:tla141120"><fs feats="verb verb_caus_3-lit suffixConjugation active"/>sḥtp</w>
+<w xml:id="tlaIBUBdysN3zIfD0fNvdhazpw6QfQ" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdw7spjuzIEr8ujZPX0cDY3w" lemmaRef="tla:tla94530"><fs feats="substantive substantive_masc st_absolutus plural"/>rmṯ</w>
+<w xml:id="tlaIBUBd3bpm7kUb0WqlxgD9do7xGc" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/>nṯr.pl</w>
+<w xml:id="tlaIBUBd8bcIpvfB09AiclNNMJeGV4" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdQmkXnHuB0BTl2aQbH2fa5k" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<lb n="[T/F/E sup 34 = 87]"/>
+<w xml:id="tlaIBUBd6QjRh58bULjhJcwMQRlBd4" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation active"/><supplied reason="lost">ḏi̯</supplied></w>
+<w xml:id="tlaIBUBd7isWzaBIkZzo1czReeDuUU" lemmaRef="tla:tla10100"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">sn</supplied></w>
+<w xml:id="tlaIBUBd3e7efTSfkQUuVDqrAz92qc" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd945ZtQVS032rrkz0DQ6eWs" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd4BnBG0lBU8kogZTwVOfEwE" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost"><supplied reason="defective">j</supplied>ḫ,t</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

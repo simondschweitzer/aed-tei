@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st4AHZEFKLTZGS3ITTHRYORN6H24">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Simsinschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Simsinschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>4AHZEFKLTZGS3ITTHRYORN6H24</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Portikus</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Simsinschrift</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaX5LIOBPB2VDDZFABT6EBYHGT74">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: Mastabas of the Western Cemetery. Part I, Giza Mastabas. Vol. 4, Boston 1980, S. 7-15; pl. XIII-XXXII; fig. 9-26  [B, *F, K, L, *P, U, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="4AHZEFKLTZGS3ITTHRYORN6H24.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-1dbced0a5a634ff8bdc8da130ab0534c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdx5zwZdFC0bOpZdLPXfANII">Der Kammerdiener des Königs [im Palast], Tjetu</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7e4XQ3hakZUqs1aOs8whNs">Einer, den Anubis liebt, ist (er).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0MpppWVQUf2oW6HNXjQHz8">Einer, den Osiris liebt, ist (er).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2b5b0dbpUBrneKXwnYYS6U">Geliebte des Königs und ihrer Götter sagen:</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzQvVvlR70rEv2Sc5iuzElk">Brot (und) Bier für den Herrn dieses Grabes aus dem, das in eurer Hand ist</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7SHwiYU0E6Wm8ooSwv8Ku0">Wenn in eurem Arm (etwas) nicht vorhanden ist - sprecht mit eurem Munde (und) opfert mit euren beiden Armen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3MIhkmKSUpQkYXFiPQ97g0">Ich bin ein Geliebter seines Vaters, ein Gelobter seiner Mutter.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5ahks3XzkR8iTtQEQ2FNzE">Ich bin ...</s>
+</ab>
+</body>
+</text>
+</TEI>

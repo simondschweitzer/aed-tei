@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id3FJWLBL3JFBX5HD3FTISDMRYFM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Trauer um Meketaton</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Trauer um Meketaton nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3FJWLBL3JFBX5HD3FTISDMRYFM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Wand F</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Trauer um Meketaton</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZNHIDZZWYBCKJFB7ZYDFECA73I">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>PM IV, 236;
+G.T. Martin, The royal Tomb at el-&#039;Amarna II, ASE 39, London 1989, 37 ff., Taf. 58-61 [*P, *F, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3FJWLBL3JFBX5HD3FTISDMRYFM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-f92de7828ff762b327e0268ff54abe8e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1IlF0I69kQxvMQLTXnjifw">
+<lb n="[links von Aton]"/>
+<lb n="[x+1]"/>
+<w xml:id="tlaIBUBd9fQqGhhF0MujXWUprK56rU" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle masculine singular active"/><supplied reason="lost">ḏi̯</supplied></w>
+<w xml:id="tlaIBUBd2tZfX3VuEUXufmGopvG8HA" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBd3TyqSiKaEfDg84Qae4zmqY" lemmaRef="tla:tla181401"><fs feats="adverb"/><damage>ḏ,t</damage></w>
+<w xml:id="tlaIBUBd2mNGeYoJEMbiwxGi1158ak" lemmaRef="tla:tla86580"><fs feats="adverb"/><damage>nḥḥ</damage></w>
+<lb n="[x+2]"/>
+<w xml:id="tlaIBUBd7vd1oX6L0LMmRdOoDYFWY4" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+<w xml:id="tlaIBUBdQAtRmdOdUWujV6zyMSlan0" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit masculine singular"/>ꜥnḫ</w>
+<lb n="[x+3]"/>
+<w xml:id="tlaIBUBdw9s5MNpnkBXj7kg5D09olI" lemmaRef="tla:tla47270"><fs feats="verb verb_2-gem masculine singular"/>wr</w>
+<w xml:id="tlaIBUBdWv5ZrDWEEzYqjIDW77mTF8" lemmaRef="tla:tla25700"><fs feats="epitheton_title epith_god"/>jm,j-ḥꜣb-sd</w>
+<lb n="[x+4]"/>
+<w xml:id="tlaIBUBd08lBsjLhk0puUcQY6sUuKI" lemmaRef="tla:tla400833"><fs feats="epitheton_title epith_god"/>nb-p,t</w>
+<w xml:id="tlaIBUBd8nVfaO8J0sTj53YjxUiQqA" lemmaRef="tla:tla851528"><fs feats="epitheton_title epith_god"/>nb-tꜣ</w>
+</s>
+<s xml:id="tlaIBUBd6WOGMuKj0xZsKQfemamO3g">
+<lb n="[rechts von Aton]"/>
+<lb n="[z+1]"/>
+<lb n="[z+2]"/>
+<w xml:id="tlaIBUBdzAfdjUZAE6KlvwhouPn8U8" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle masculine singular active"/><damage>ḏi̯</damage></w>
+<w xml:id="tlaIBUBd9w0lmWxo0f4gHTXWkc4nRU" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">ꜥnḫ</supplied></w>
+<w xml:id="tlaIBUBd6fDGQ5TgEOrlLiPhWM99rg" lemmaRef="tla:tla181401"><fs feats="adverb"/><supplied reason="lost">ḏ,t</supplied></w>
+<w xml:id="tlaIBUBdQQpN1XKmUGbpmbBeD9lBDY" lemmaRef="tla:tla86580"><fs feats="adverb"/><supplied reason="lost">nḥḥ</supplied></w>
+<lb n="[z+3]"/>
+<w xml:id="tlaIBUBdzVMa1i9kUcWlDzjmlCBJzc" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/><damage>Jtn</damage></w>
+<w xml:id="tlaIBUBdwz74K5980nqtwq7fl7peJQ" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit masculine singular"/><supplied reason="lost">ꜥnḫ</supplied></w>
+<lb n="[z+4]"/>
+<w xml:id="tlaIBUBd4CA6cgo1UQJkVVQP7oYsQQ" lemmaRef="tla:tla47270"><fs feats="verb verb_2-gem masculine singular"/>wr</w>
+<w xml:id="tlaIBUBdy517svE5EF8uqppMiZI3n4" lemmaRef="tla:tla25700"><fs feats="epitheton_title epith_god"/><supplied reason="lost">jm,j</supplied>-ḥꜣb</w>
+<lb n="[z+5]"/>
+<w xml:id="tlaIBUBd58aeKf7wEYnoyJl4dr6EY8" lemmaRef="tla:tla400833"><fs feats="epitheton_title epith_god"/><supplied reason="lost">nb</supplied>-p,t</w>
+<w xml:id="tlaIBUBd8FprWFRJUGJjbE6qeWQWCY" lemmaRef="tla:tla851528"><fs feats="epitheton_title epith_god"/>nb-tꜣ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
