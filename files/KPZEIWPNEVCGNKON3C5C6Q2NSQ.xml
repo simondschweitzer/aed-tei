@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idKPZEIWPNEVCGNKON3C5C6Q2NSQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pUnCol B (8 E)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pUnCol B (8 E) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KPZEIWPNEVCGNKON3C5C6Q2NSQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>pUnCol B</idno>
+<msName>pUnCol B (8 E)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pUnCol B (8 E)</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Wirtschaftstext eines Tempelarchivs</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5RMZI2WNZBFFVEU2MDEYR7KYJ4">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 8 E</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>pUnCol B</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KPZEIWPNEVCGNKON3C5C6Q2NSQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-4270ec54fd24d1bdc269dd4c3d30d979</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1DWQwiVJExfgfMHQlkbc7g">
+<gap reason="lost" />
+<lb n="[1.5]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd549yatQXkAWgS1JUQkRZEE" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+<lb n="[1.6]"/>
+<w xml:id="tlaIBUBd3iW0bBo10MQkenvNamcHu0" lemmaRef="tla:tla850830"><fs feats="entity_name"/><damage>Mr</damage>-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBd8qM7yOLpERspJ97gjXzoIU" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+<lb n="[1.7]"/>
+<w xml:id="tlaIBUBd6hGcqydSkudlTEQvAX0UxE" lemmaRef="tla:tla850830"><fs feats="entity_name"/><damage>Mr</damage>-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBdwU2yQEN2EsvhHo7SABAD5w" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+<lb n="[1.8]"/>
+<w xml:id="tlaIBUBdQLG9c4PmE3CkmcgS5kiSW8" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>Mr</unclear></supplied>-Rꜥw-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBd6LzBhY8gUkovo1yDHoL72k" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>sms,w</damage></w>
+<lb n="[1.9]"/>
+<w xml:id="tlaIBUBd3gQgHedPE7es2GkZK5ifjo" lemmaRef="tla:tla850830"><fs feats="entity_name"/><damage>Mr</damage>-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBdxWh9fSgVkEBmYLOdmS9Cho" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+<lb n="[1.10]"/>
+<w xml:id="tlaIBUBd0l5QpgISEIsjKx1OAYR1W8" lemmaRef="tla:tla850830"><fs feats="entity_name"/><damage>Mr</damage>-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBdWc9ooULFU78gv36PbqCAEQ" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+<lb n="[1.11]"/>
+<w xml:id="tlaIBUBdwKaFo4yNk71sUGUI8xH7LM" lemmaRef="tla:tla850830"><fs feats="entity_name"/><damage>Mr</damage>-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBd37za5qWC0V2nxlnUAvGIOs" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+</s>
+<s xml:id="tlaIBUBd1jUJIrhjErjjkDSJ5H4R3Q">
+<gap reason="lost" />
+<lb n="[2.2]"/>
+<w xml:id="tlaIBUBdQoW9MuqckVwpcMViQk6xi0" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/><supplied reason="lost">Sn</supplied>b</w>
+<lb n="[2.3]"/>
+<w xml:id="tlaIBUBdWmkj4PURU16mBBYc31Wawk" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/><supplied reason="lost">S</supplied><damage>n</damage>b</w>
+<lb n="[2.4]"/>
+<w xml:id="tlaIBUBd6Tn0CF4sU0WizftxLPrJ3U" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/><supplied reason="lost">S</supplied><damage>n</damage>b</w>
+<lb n="[2.5]"/>
+<w xml:id="tlaIBUBd2GeVZddR0Q5jZYp6GLLk4A" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/>Snb</w>
+<lb n="[2.6]"/>
+<w xml:id="tlaIBUBdzAjxykcIko6okzGRk4Ot9c" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/>Snb</w>
+<lb n="[2.7]"/>
+<w xml:id="tlaIBUBdzQ3NNaOYEiilDDBqWlHovc" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/>Snb</w>
+<lb n="[2.8]"/>
+<w xml:id="tlaIBUBd3CI9jHox0MljYQI9e7XtQg" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/><damage>S</damage>nb</w>
+<lb n="[2.9]"/>
+<w xml:id="tlaIBUBd0oQD6w58kKmpVc0LpSs6hw" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/><damage>S</damage>nb</w>
+<lb n="[2.10]"/>
+<w xml:id="tlaIBUBd3Qk5cS8G0tLuVcG0hsa4gI" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/>Snb</w>
+<lb n="[2.11]"/>
+<w xml:id="tlaIBUBd8zmW9Zd30DXkcWc2n3mGZw" lemmaRef="tla:tla450043"><fs feats="entity_name person_name"/>Snb</w>
+</s>
+<s xml:id="tlaIBUBdwyR4942l00ypirVGJQkwbc">
+<gap reason="lost" />
+<lb n="[3.1]"/>
+<w xml:id="tlaIBUBd8zElYqG60J1nTTvv1D6I2w" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/><damage>Ḏdj</damage></w>
+<lb n="[3.2]"/>
+<w xml:id="tlaIBUBdzGXGmZXIUomin3JWibg2SY" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏd<damage>j</damage></w>
+<lb n="[3.3]"/>
+<w xml:id="tlaIBUBd4XWBnvpJECFsahzGUQ3PKo" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏd<damage>j</damage></w>
+<lb n="[3.4]"/>
+<w xml:id="tlaIBUBdy9JDPVhx02nlFnRIIpukHI" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.5]"/>
+<w xml:id="tlaIBUBdQH6v5H7c0cmnIQs7ElFxUc" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.6]"/>
+<w xml:id="tlaIBUBd7Pe0IHAK0c5lC5pN394WwM" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.7]"/>
+<w xml:id="tlaIBUBd1SuGPXAf0ZCvyCtDSTjoWM" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.8]"/>
+<w xml:id="tlaIBUBd7JjW2jaPEMnvtNRorMwxBo" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.9]"/>
+<w xml:id="tlaIBUBdwlWLD8xYUTaqWXj952vU8k" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.10]"/>
+<w xml:id="tlaIBUBd6W7IrFE6kYlp8wj3eH2IwM" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+<lb n="[3.11]"/>
+<w xml:id="tlaIBUBdyPtR3XsaEp6nMUkvbBzIc4" lemmaRef="tla:tla450047"><fs feats="entity_name person_name"/>Ḏdj</w>
+</s>
+<s xml:id="tlaIBUBd4WEQfg8EUajlF7GL6CnPss">
+<gap reason="lost" />
+<lb n="[4.11]"/>
+<w xml:id="tlaIBUBd8XBAI3rUUnckS5wptEeUIA" lemmaRef="tla:tla200007"><fs feats="entity_name person_name"/>N,j-<damage>sw</damage>-qd</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

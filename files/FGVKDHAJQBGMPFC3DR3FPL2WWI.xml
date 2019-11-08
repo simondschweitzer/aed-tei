@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idFGVKDHAJQBGMPFC3DR3FPL2WWI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>südlicher Seitenpfeiler</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von südlicher Seitenpfeiler nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FGVKDHAJQBGMPFC3DR3FPL2WWI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür-Rahmen</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">südlicher Seitenpfeiler</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUXNY4NYCIFF5RAFENBM74PFQMA">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi I: The northern cliff (ACE Rep. 23), Oxford 2005, 45-46, pl. 13-14, 44.
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FGVKDHAJQBGMPFC3DR3FPL2WWI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-4708ded12943dd626339bb39bf753261</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5unNY2rmUpwg7EYJ4Q2xhs">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdzdK1a1F00WzvVb5EG5VuZU" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBd4MN9wcFfkedv77ELWuJQgs" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">nswt</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd4kzNd1ccEF3jGTzYyWZ0r0" lemmaRef="tla:tla400156"><fs feats="undefined"/><supplied reason="lost">ḥtp-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBdx6ueoEYu0KUqso9pDyyCfk" lemmaRef="tla:tla49460"><fs feats="entity_name gods_name"/><damage>Wsjr</damage></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdw5WmNqWBUwHp8fEhcwREkA">
+<gap reason="lost" />
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd3E2CYcIB07duOg2nRwoeeU" lemmaRef="tla:tla0"><fs feats="unknown"/>m-ḥtp</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd4kjrI5q50qJgYCoOdI6jAQ" lemmaRef="tla:tla26140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><damage>jmn,t</damage></w>
+<w xml:id="tlaIBUBd20SOzRsdkkbriQNJ9rOo7s" lemmaRef="tla:tla550034"><fs feats="adjective feminine singular"/><damage>nfr.t</damage></w>
+</s>
+<s xml:id="tlaIBUBdwqszazLE02FqbkZBUp68k4">
+<w xml:id="tlaIBUBdzHgb4fzBkFVoi1IEPWRk5M" lemmaRef="tla:tla134180"><fs feats="verb verb_3-lit suffixConjugation active"/><damage>zmꜣ</damage></w>
+<w xml:id="tlaIBUBd2cbnKaQVkHbnoT28nPA0GA" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+<w xml:id="tlaIBUBdwPUQTP4n0PfrIYUQDQ15kA" lemmaRef="tla:tla854573"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>tꜣ</damage></w>
+<w xml:id="tlaIBUBd95haczSWEFwgGu4HTENP94" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd0IABUZ68kkLiglKaj0sOrk" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost"><unclear>jz</unclear></supplied></w>
+<w xml:id="tlaIBUBd4ys7g2od0LanC518YHRRm0" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost"><unclear>f</unclear></supplied></w>
+<w xml:id="tlaIBUBd4ZEXKhQuEW6tGZL3YPSZrI" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost"><unclear>m</unclear></supplied></w>
+<w xml:id="tlaIBUBd2BW7WWuz0wElTHYnQeQQQ8" lemmaRef="tla:tla26140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost"><unclear>jmn,t</unclear></supplied></w>
+<w xml:id="tlaIBUBd328iQk5q0hmsGr5m8kkN38" lemmaRef="tla:tla550034"><fs feats="adjective feminine singular"/><damage>nfr.t</damage></w>
+<w xml:id="tlaIBUBd0SCNAQ3ykWuhwO7O5fc8e4" lemmaRef="tla:tla78870"><fs feats="preposition"/><damage>n</damage></w>
+<w xml:id="tlaIBUBdxAdocD1MEWRocVWVvxUZq8" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">j</supplied><damage>mꜣḫ,w</damage></w>
+<w xml:id="tlaIBUBdzmNEEQiAkNyhernoLOs6Kc" lemmaRef="tla:tla710470"><fs feats="entity_name person_name"/><damage>Jz</damage>j</w>
+</s>
+<s xml:id="tlaIBUBdxjTsj5hEkD4rkblh3kd0lg">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd8TD6sQqKkoFpoKA0UteWvI" lemmaRef="tla:tla854289"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-ḥm<supplied reason="defective">,w</supplied>-nṯr-n-Nm,tj</w>
+<w xml:id="tlaIBUBd5XI7fKKa0VyiJtXidvGe54" lemmaRef="tla:tla854295"><fs feats="epitheton_title title"/>ḥr,j-sštꜣ-n-ḫtm,t-nṯr-m-pr,ww-n<supplied reason="defective">,w</supplied>-Mꜥm</w>
+<w xml:id="tlaIBUBdw1ipX6yTkHQpaO8JNmaVJo" lemmaRef="tla:tla450386"><fs feats="entity_name person_name"/>Ḥm-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBd8hjDQ4E7kFzvkDUqiqkmIg">
+<lb n="[vor Kopf des Sohnes]"/>
+<w xml:id="tlaIBUBd9ypZ61V2EgcjdB3ZQHcpXQ" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd9D68coGZEvBtWBsssMieB8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdzfWlcg3gk3wokV9Mg4QRcM" lemmaRef="tla:tla400005"><fs feats="substantive substantive_masc st_pronominalis singular"/><damage>mr</damage><supplied reason="lost">,y</supplied></w>
+<w xml:id="tlaIBUBdw2oTiX8ikJ0quWgAJvKkMM" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

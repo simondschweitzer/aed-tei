@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idKGYWHYH245DBDHLCHELSE66LQ4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Texte〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Texte〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KGYWHYH245DBDHLCHELSE66LQ4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>24-12-1000,1002+1122</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Texte〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaIZN43O26S5ATVIUB7CFCFLHIWY">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastabas of Kawab, Khafkhufu I and II, Giza Mastabas, Vol. 3, Boston 1978, S. 1-8; pl. V-X; fig. 4-18</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KGYWHYH245DBDHLCHELSE66LQ4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-284690c43dab9f90e38b764df2575bcd</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8tLGEoZ50l6uPUpSbZ0tn0">
+<gap reason="lost" />
+<w xml:id="tlaIBUBd8OtF4E21063qN7szsBWcl0" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">zꜣ</supplied></w>
+<w xml:id="tlaIBUBd2EQVa7bU0ggvEg21YWsEWo" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">s</supplied></w>
+<w xml:id="tlaIBUBd7WMdMIRcUxWl0SiCWAVANU" lemmaRef="tla:tla400005"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">mr,y</supplied></w>
+<w xml:id="tlaIBUBd91yl0A05EGssUQwpLXgQIU" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">s</supplied></w>
+<lb n="[24-12-1122]"/>
+<w xml:id="tlaIBUBdwyS1a5QbkAVoCAWibMgsK0" lemmaRef="tla:tla450217"><fs feats="entity_name person_name"/><supplied reason="lost">kꜣ≡j</supplied>-<damage>wꜥb<supplied reason="defective">,w</supplied></damage></w>
+<w xml:id="tlaIBUBd7PkhcJQUUiBn2EdzqoXrtk" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>zꜣ</damage></w>
+<lb n="[24-12-1002]"/>
+<w xml:id="tlaIBUBd2tsoauP2UWcipblKQCvWko" lemmaRef="tla:tla450538"><fs feats="epitheton_title title"/><supplied reason="lost">wr,t</supplied><damage>-ḥts</damage></w>
+<w xml:id="tlaIBUBd0aaJ6PQNEpVohvRbpaa1QM" lemmaRef="tla:tla450560"><fs feats="epitheton_title title"/><supplied reason="lost">ḫrp,t</supplied>-sšm,t<supplied reason="defective">w</supplied>-<supplied reason="lost">šnḏ,t</supplied></w>
+<w xml:id="tlaIBUBd7aCa50Gy0P4ssNhFbHL0Z0" lemmaRef="tla:tla702196"><fs feats="entity_name person_name"/><damage>Mr,t-jtj≡s</damage></w>
+<lb n="[24-12-1000]"/>
+<w xml:id="tlaIBUBdzUOhAYpBUrJoFWeS3ZjvOU" lemmaRef="tla:tla69040"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">mw,t</supplied></w>
+<w xml:id="tlaIBUBd2Sqo7W150HImwW0NVHuBJ8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBdWVAGt3BWEQtjiK1iTDFsns" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/>msi̯.<supplied reason="lost">t</supplied></w>
+<w xml:id="tlaIBUBd3LfIEsGQkl2iLvloxrwF28" lemmaRef="tla:tla129490"><fs feats="pronoun personal_pronoun"/>s<supplied reason="defective">w</supplied></w>
+<w xml:id="tlaIBUBd8OoJe4MdUBwk3zz0Ura0o8" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd3WeBfPPWEfQoGFlh4wYt74" lemmaRef="tla:tla400277"><fs feats="entity_name kings_name"/>Ḫwi̯≡f-wj</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

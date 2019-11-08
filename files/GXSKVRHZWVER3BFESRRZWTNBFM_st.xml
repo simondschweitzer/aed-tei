@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stGXSKVRHZWVER3BFESRRZWTNBFM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Hornacht (Kairo CG 20499)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Hornacht (Kairo CG 20499)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GXSKVRHZWVER3BFESRRZWTNBFM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 20499</idno>
+<msName>Stele des Hornacht (Kairo CG 20499)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Hornacht (Kairo CG 20499)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUGJNGK73GVGNBLS6LYFUILFQOI">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Material: Kalkstein
+Maße (H x B): 63,5 x 29,5 cm</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3GGZCLNRQVF6PAEQA6LCFBNE6M" notBefore="-1793">Zweite Zwischenzeit</date>
+<date type="latest" datingPoint="ths:3GGZCLNRQVF6PAEQA6LCFBNE6M" notAfter="-1551">Zweite Zwischenzeit</date>
+<note>Kubisch, 224; Ilin-Tomich, in: ZÄS 138, 2011, 31</note>
+</origDate>
+<origPlace ref="ths:SFEBWV2ASBBXZEO23U3QPV27GU">Tell Edfu
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. V, Oxford 1937, 203 [B]
+- H.O. Lange und H. Schäfer, Grab- und Denksteine des Mittleren Reiches im Museum von Cairo II, CG, Berlin 1908, 90-91 und Tf. 34 [P, H] 
+- S. Kubisch, Lebensbilder der 2. Zwischenzeit: Biographische Inschriften der 13.-17. Dynastie (SDAIK 34), Berlin und New York 2008, 224-227 und Taf. 7a (Edfu 16) [P, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 20499</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GXSKVRHZWVER3BFESRRZWTNBFM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-479694646b398bbc20e0089e482a30fb</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdWu1H9v3s0duivz4crwx6r4">An offering which the king gives and Horus of Behedet, Osiris, Lord of Busiris, great god, lord of Abydos, and Anubis who is upon his mountain, who is in the embalming place, lord of the sacred land,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9ahhVgrI0cCi8kNntofiso">may they give an invocation offering (of) bread and beer, bulls and fowl, and all good and pure things through which the gods live, to the ka of the wab-priest who is allowed to enter, Hornakht, born of the wab-priest who is allowed to enter, Hornakht. He says:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3tSQc0jJE1dpBmBGwxeY48">I was an excellent shade for his brothers,</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWSaI90uQEzWmZQs5Krbk0M">one who spoke with his mouth and acted with his arms.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwGdLvnkP0Fzi2AHk5YYtOc">He says: I ferried in my $jmw$-ship,</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxY05IKxcE0hs88fJXpcihY">I ploughed with (my) span and have trodden with (my) she-donkeys,</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWdNQKZOjkyAikttkLBItdw">I said &quot;welcome&quot; to everyone who came.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0ftAE2ZEUepiUl4t81FSTI">(I am a) Possessor of serfs, rich in all (kinds of) cattle, firm of speech,</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwbLM1FKnUWIlV1oTstl27U">possessor of love, one without fault,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3RQ8YqcD0zoonaJs4mIEA4">who walks calmly for (?) the great one with respect to his speech (oder: der geruhsam geht, aber auf dessen Wort der Große herbeigeeilt kommt).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0fujIuenUcMuIuR9R9TABM">The ruler gave me a beautiful servant (oder: Neferbatit, die Schöne) for the precision of my speech.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxAoMrm4a0STlNGmcOLV7VU">His son Hornakht,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3AF85FDZ0p7h1DJtk2isao">his son Senuim,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4PzZYF7lUEpgpzWiOo7GZk">his son Nebitef,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2WekwViBkFJs8lCQlvb4ig">his daughter Neferetwebenes,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5uSqpebTEGRpYnQQQpL05w">his daughter Neferu,</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzlgSvtO0EpngRLbEVqK3YI">his daughter Nebitef/Neb(et)itef,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7QPBpwgfEluv36aldLE0mk">his wife Merianqet.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6Kw7OOb10FDpyrLlQ96iD8">The servant Tetu(?).</s>
+</ab>
+</body>
+</text>
+</TEI>

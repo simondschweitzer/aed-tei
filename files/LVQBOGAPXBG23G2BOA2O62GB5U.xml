@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLVQBOGAPXBG23G2BOA2O62GB5U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Fragment mit Königsnamen</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Fragment mit Königsnamen nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LVQBOGAPXBG23G2BOA2O62GB5U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Block: CXLVI</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Fragment mit Königsnamen</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Tempel-Texte</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaE2IEHIBFAZHCVDT4YLKKDIOACY">
+<support>
+<objectType ref="ths:X5C6WY3M7VBWZBEQHR5EYMK7UM">unbestimmt</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:SGFCZP5Y35GEBCOGT7RCMOXSNM">Karnak
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>R. Lepsius, Denkmäler aus Ägypten und Äthiopien, Berlin, 1849-58, III, 110d [H];
+M. Sandmann, Texts from the time of Akhenaten (BAe VIII), Bruxelles 1938, 148 [H];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 34 (10-A) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LVQBOGAPXBG23G2BOA2O62GB5U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-13bd5279614d75a385d10925880effbc</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQeh0WeMGkwPjifwc3D1W9Q">
+<lb n="[x+1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd799Qzb6Bkz4kvpSsWtqWAI" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit imperative singular"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBd3ynATiZmE4mu8fk8G1fVis" lemmaRef="tla:tla88060"><fs feats="substantive st_absolutus singular"/>nswt-bj,tj</w>
+<w xml:id="tlaIBUBd40UwJOWH0k7tOUBkE3uQWc" lemmaRef="tla:tla856314"><fs feats="entity_name kings_name"/>Nfr-ḫpr,pl-Rꜥw-wꜥ-n-Rꜥw</w>
+<w xml:id="tlaIBUBdxpHaeoyPUkagwu361JE5Sg" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform masculine singular"/>mri̯</w>
+<w xml:id="tlaIBUBd3LVpkQVCUW8uxN5Dqm0aaI" lemmaRef="tla:tla859387"><fs feats="entity_name gods_name"/><supplied reason="omitted">ꜥnḫ</supplied>-Rꜥw-Ḥr,w-ꜣḫ,tj-ḥꜥ-m-ꜣḫ,t</w>
+</s>
+<s xml:id="tlaIBUBdzrEpU2QKUuVk1yYySC132o">
+<lb n="[x+2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd5cGz2JrKUCXimsihNCuUB0" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit imperative singular"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdWWhGhfnP0O2n8QAaHe3djk" lemmaRef="tla:tla126020"><fs feats="epitheton_title epith_king"/>zꜣ-Rꜥw</w>
+<w xml:id="tlaIBUBd1HdrztKIkFwrmdeJQyVmjk" lemmaRef="tla:tla856874"><fs feats="entity_name kings_name"/>Jmn-ḥtp,w-nṯr-ḥqꜣ-Wꜣs,t-ꜥꜣ-<supplied reason="omitted">m</supplied>-ꜥḥꜥ,w≡f</w>
+<w xml:id="tlaIBUBdQx7A81FMUEmiUhPhBgCkow" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle masculine singular passive"/>ḏi̯</w>
+<w xml:id="tlaIBUBd2zFjG9dW0rMqNAZiQUPL3M" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdzoamsXTY09hkE6NBhnJp74" lemmaRef="tla:tla850796"><fs feats="preposition"/>mj</w>
+<w xml:id="tlaIBUBd2n8L1Ql3kOQulh87E8uR6c" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+<w xml:id="tlaIBUBd9YiCmF0MEWUhIGQCZRNJa8" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

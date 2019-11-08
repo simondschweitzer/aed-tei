@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idHPLG57GJSRA4VJA4IFS6FFUXAI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pCairo 58063 frame 4 (60 D)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pCairo 58063 frame 4 (60 D) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HPLG57GJSRA4VJA4IFS6FFUXAI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>pCairo 58063 frame 4</idno>
+<msName>pCairo 58063 frame 4 (60 D)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pCairo 58063 frame 4 (60 D)</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Wirtschaftstext eines Tempelarchivs</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla542JEH7U5ZFJTO3X3RQ54ORUUI">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 60 (Fragment D)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>pCairo 58063 frame 4</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HPLG57GJSRA4VJA4IFS6FFUXAI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-3e464526fb6490b92e058815bfaa5c92</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxK6sJsV10QRuC6W9zoQ8jI">
+<lb n="S1,Z2"/>
+<w xml:id="tlaIBUBd3UYzZguZEwFjafOzz3v4G0" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/><damage>30</damage></w>
+<lb n="S1,Z6"/>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd0uSQ0AHrUSlsGeZbeV3dWo">
+<lb n="S2,Z1"/>
+<w xml:id="tlaIBUBd7WKPecVQ0lLtK7MOlW05KI" lemmaRef="tla:tla450090"><fs feats="entity_name person_name"/>N,j-ꜥnḫ-<supplied reason="lost">R</supplied>ꜥw</w>
+<lb n="S2,Z2"/>
+<w xml:id="tlaIBUBdW3BNdv6NkjsunyP0iOhKNM" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>13</w>
+<lb n="S2,Z6"/>
+<w xml:id="tlaIBUBd4xGJ9saM0khjCwhitO6wy0" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>10</w>
+<lb n="S2,Z8"/>
+<w xml:id="tlaIBUBdxQ8RZMld0oHtbQ50n7rs5c" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>2</w>
+<lb n="S2,Z9"/>
+<w xml:id="tlaIBUBd3SzJQdjhU1OgXf3FRvc6Mo" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>1</w>
+</s>
+<s xml:id="tlaIBUBd8xarG78k0JnhNQoseW0Vus">
+<lb n="S3,Z1"/>
+<w xml:id="tlaIBUBd8kVUpvYYEHShCf6mZfXV3E" lemmaRef="tla:tla200033"><fs feats="entity_name person_name"/><damage>Rꜥw-špss,w</damage></w>
+<lb n="S3,Z2"/>
+<w xml:id="tlaIBUBdQJEJBaqW0x7saxL4ASQNmA" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>21</w>
+<lb n="S3,Z3"/>
+<w xml:id="tlaIBUBd3GWJlziREQ9jhI2WuiE4z8" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>1</w>
+<lb n="S3,Z6"/>
+<w xml:id="tlaIBUBd9tqFFUnEkP3sYhHHDRYT6s" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>20</w>
+</s>
+<s xml:id="tlaIBUBd06S42jCbUjFneBIxHtWUVM">
+<lb n="S4,Z2"/>
+<w xml:id="tlaIBUBdxr3BhIfnkMejkllC4Q9WBs" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/><damage>210</damage></w>
+<lb n="S4,Z4"/>
+<w xml:id="tlaIBUBdWAzs0WAPEval4Gr02sAWJw" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>10</w>
+<lb n="S6,Z6"/>
+<w xml:id="tlaIBUBd4R5CU6DQ0XBjgPYfnqmiW4" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>200</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

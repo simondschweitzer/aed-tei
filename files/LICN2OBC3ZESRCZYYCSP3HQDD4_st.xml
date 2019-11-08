@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stLICN2OBC3ZESRCZYYCSP3HQDD4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Henenu (Moskau I.1.a.5603 (4071))〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Henenu (Moskau I.1.a.5603 (4071))〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LICN2OBC3ZESRCZYYCSP3HQDD4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:BZPDEX62XBAFDPOBXKYGDMHCUM">State Pushkin Museum of Fine Arts</repository>
+<idno>I.1.a.5603</idno>
+<msName>Stele des Henenu (Moskau I.1.a.5603 (4071))</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Henenu (Moskau I.1.a.5603 (4071))〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4TNJH5OL3ZFWTGHESCY2WKERPU">
+<support>
+<objectType ref="ths:CUNICVTWNNF6VN2RUTXZNNN444">rechteckige Stele</objectType>
+<note>Kalkstein; H. 119 cm; 78 cm</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:QH4ZVV4SZREKNEY5UDCC3AZ3E4" notBefore="-2062">Mentuhotep II. Nebhepetre</date>
+<date type="latest" datingPoint="ths:QH4ZVV4SZREKNEY5UDCC3AZ3E4" notAfter="-2012">Mentuhotep II. Nebhepetre</date>
+<note>(nach Lichtheim, 59)</note>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+<note>Von Golenischeff 1888/1889 in Luxor angekauft; wahrscheinlich TT 313 (Hodjash und Berlev, 67-68)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. V, Oxford 1937, 102 [B]
+
+- W. Schenkel, Memphis - Herakleopolis - Theben. Die epigraphischen Zeugnisse der 7.-11. Dynastie Ägyptens, ÄA 12, Wiesbaden 1965, 290-291 (Nr. 495) [Übers. v. Z. A.1-11, B.5-6, D.1]
+- S. Hodjash und O. Berlev, The Egyptian Reliefs and Stelae in the Pushkin Museum of Fine Arts, Moscow, Leningrad (St. Petersburg) 1982, 67-73 (Nr. 26) [B, *P, H, Ü, K]
+- M. Lichtheim, Ancient Egyptian Autobiographies chiefly of the Middle Kingdom. A Study and an Anthology, OBO 84, Freiburg und Göttingen 1988, 59-60 (Nr. 22) [Übers. v. Z. A.1-11]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:BZPDEX62XBAFDPOBXKYGDMHCUM">State Pushkin Museum of Fine Arts</repository>
+<idno>I.1.a.5603</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LICN2OBC3ZESRCZYYCSP3HQDD4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>10-2be5bb018d971ae7b20bcd445dec381a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd6l2l7BClEDmgYOjwQOn3OM">Ein Opfer, das der König und Osiris, der Herr von Busiris, Chontamenti, der Herr von Abydos, an allen seinen Plätzen geben.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy3fGdFzSUkkoQiosPy3Qeo">Ein Totenopfer (aus) Tausend an Brot und Bier, Tausend an Rindern und Vögeln, Tausend an Alabaster und Leinen, Tausend an jeder guten Sache, reinem Brot vom Tempel des Month, Opferbedarf aus dem Tempel des Osiris, Djeseret-Bier, Opfer und Speise, Brot der Ration, Chamet-Bier und Speisen des Herrn von Abydos, Milch der beiden roten Hesat-Kühe, die vor dem großen Gott herauskommt, Tausend an Gottesopfern eines jeden Gottes, wovon die Ach-Geister zu essen wünschen, für den Versorgten Henenu.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5Wp2cQQLE5apuLyEWf30fY">Möge er das Firmament überqueren.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7X34FR2bUsRijP8VHIw3O0">Möge er den Himmel durchziehen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0oePNsjAEtwhZUIQFcvKZU">Möge er zum großen Gott hinaufsteigen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxQobSkHMkXFlayQpxlV9WA">Möge er sich in Frieden mit dem Land vereinigen im schönen Westen als Versorgter bei Osiris.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd94d3HFBHk14lgjBgm5wJt0">Möge er zum westlichen Horizont gehen zu dem Ort, an dem Osiris ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd86x7wi9iEtWiu2mWjjzeqw">Möge ihm das Totenreich seinen Arm öffnen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQQ2AVeuxU1Wqgg0o5LefjE">Möge ihm der Westen seine beiden Arme geben.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQLxKBjchEAqrDLmZtNlCZA">Möge er die Wege öffnen, die er wünscht, in Frieden, in Frieden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdydaMSaNiUrWooKNQRAQEdY">Möge er die Wege der Nekropole durchziehen zusammen mit dem Gefolge des Osiris.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd31KJFxHpEM6jmbN2rRpSWo">Möge ihm der Westen sein Tor öffnen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzlpLPsIZ00NteWJfjlJAnc">Möge ihm die Flut sein Opfer geben, damit er mit seinem Mund essen kann.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4RvYHz4vk54jNoGOfEIhUQ">Möge er mit seinen beiden Augen sehen, damit er (Osiris) ihn erkenne unter den Ach-Geistern.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw9zyLsD2EWykTWEw9jF9aM">Mögen ihm die beiden Arme in der Neschmet-Barke auf den Wegen des Westens gegeben werden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9fnApYhS0ZBtZmKAnTQv9g">Möge ihm &quot;Willkommen&quot; durch die Großen von Abydos gesagt werden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7gaHjQnvEn3mF6G8DgAIQI">Möge er die Ruder in der Abendbarke bewegen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7LWMlBBckXKr2TfOvWoxwU">Möge er in der Morgenbarke landen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4nj0mdi1EKYtOKGBy4725c">Mögen ihm die Großen sagen: &quot;Wandle in Frieden bei Re, der im Himmel ist!&quot;</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3g5MQ5Goko1jYS64Qq8Zhs">Der Versorgte, dessen Reputation gut ist, der von seinen Bruder geliebt wird, der von seinem Vater gelobt wird in seinem täglichen Bedarf, Henenu, den Senet geboren hat.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2YNeB8zeUgGgneOTNWLViY">Das Opfer, das in jedem Monatsfest, jedem Halbmonatsfest und in jedem Fest bereitet wird für den Ka des Versorgten Henenu.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2PQWokyDk3HryhtWeuyEQc">Sein Frau, die er liebt, die einzige Hofdame, Senet.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4VwR96W9EWuu6hPhzulWLE">Wasserspende und zwei Kügelchen Natron, Waschgeschirr und zwei Näpfe $bd$-Natron (?), einmal Weihrauch, zweimal Frühstücksbrot, zweimal Wer-Brot, zweimal Schat-Brot, zweimal Sechpet-Bier, zweimal Setjet-Brot,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd776jZlslUn5txi53mO2Rbc">Gänsebraten, Rippenstück(?), Vorderschenkel(?), Fleischstück, Neher-Brot, zweimal Djeseret-Bier, einmal Sechpet-Bier, zweimal Wein, dreimal Hebennet-Brot, dreimal Chefennet-Brot,</s>
+<s xml:lang="de" corresp="src:tlaIBUBdw9H4R9eq0kzl7LxLEDhzSw">zweimal Röstgut, zweimal weiße und grüne Gerste, Röstgerste, frisches Brot,</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6fehZlWKkDjmHWknwmlXu8">2 Erdmandeln, 2 Christusdornfrüchte, 2 Christusdornfruchtbrote, 2 [...],</s>
+<s xml:lang="de" corresp="src:tlaIBUBdy53xmlViUyMjizNp8sS3MI">Die beiden Arme, sie mögen die Flut geben, damit sie reinige.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4OR6jzaQU8xqAcCwtcIqtA">Ergreife für dich [...]!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3DX6RO2pEtxqCrbVLYMGK0">Tausend an Brot, Tausend an Bier, Tausend an Alabaster, Tausend an Leinen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1tvCgbRhUz1gMxVqixSwVw">[Ein Opfer, das der König und Anubis, der] auf [seinem] Hügel ist, Imiut, Herr von Tadjeser [geben.]</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzshvuxg3EP1lVmihqlAv5k">Ein Totenopfer (aus) Tausend an Brot, Tausend an Bier, Tausend an Rindern, Tausend an Geflügel, Tausend an Aalabaster, Tausend an Leinen, Tausend an jeder schönen Sache für die Versorgte, [seine] Mut[ter ...]</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6VHETFL206Csip5mWNIIRs">[...]</s>
+</ab>
+</body>
+</text>
+</TEI>

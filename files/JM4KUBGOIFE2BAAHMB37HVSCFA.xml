@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idJM4KUBGOIFE2BAAHMB37HVSCFA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Brieffragment</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Brieffragment nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JM4KUBGOIFE2BAAHMB37HVSCFA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>P.10523</idno>
+<msName>pBerlin 10523 (Bm)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Brieffragment</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGHJYPGIJ5ZDQJDP2P2WJFMPTXY">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FYST3LL3LZBX3K27RVU3HFWFDM">Elephantine
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Hieratische Papyri aus den Königlichen Museen zu Berlin, Band 3, Schriftstücke der VI. Dynastie aus Elephantine. Zaubersprüche für Mutter und Kind. Ostraka, (bearb. von G. Möller und A.H. Gardiner), Leipzig 1911, Tafel IX und b</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>P.10523</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JM4KUBGOIFE2BAAHMB37HVSCFA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-f0f00df12ffc455a01649fb02308ad8b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQLCwmkYZ00KrfzX5L5CD8I">
+<lb n="rt;K1"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdQ9prwoy8UHFmPeWjCvxiQU" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdziPdWuscUjZmWQMX2VQkbY" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+</s>
+<s xml:id="tlaIBUBd8V2fn4aQkGOk8PeFsflEhU">
+<w xml:id="tlaIBUBdxWViF4YLEpnvchBULtW3r4" lemmaRef="tla:tla21881"><fs feats="particle"/>jw</w>
+<w xml:id="tlaIBUBd5iW1N1xWkAHtfC0LWu91Og" lemmaRef="tla:tla0"><fs feats="unknown"/>gr</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd9bawelHvEQKjx9RnGD5urk" lemmaRef="tla:tla0"><fs feats="unknown"/>m</w>
+<w xml:id="tlaIBUBdW6epZjNcECGopm5v8kcJIU" lemmaRef="tla:tla162930"><fs feats="substantive substantive_masc st_constructus plural"/>kꜣ.pl</w>
+<w xml:id="tlaIBUBdyifN5IASk9Nnnx8LDqxMU0" lemmaRef="tla:tla181420"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏ,t</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdxIXXLWEKEglsNDwk63ZCZo">
+<lb n="vs;K1"/>
+<w xml:id="tlaIBUBd8Y86e1lmUd6rsQGjxwGbaY" lemmaRef="tla:tla136260"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>sn,t</w>
+<w xml:id="tlaIBUBd4XlJSQKh0CSh2Q05noc2eo" lemmaRef="tla:tla401168"><fs feats="entity_name person_name"/>Šps,t-nswt</w>
+<w xml:id="tlaIBUBd8mzbzoTuUmnmB9KGMYLgRQ" lemmaRef="tla:tla706482"><fs feats="entity_name person_name"/>Ꜣḫ≡s</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdWk1vRXezUAhk5R9V2D9SiY">
+<gap reason="lost" />
+<w xml:id="tlaIBUBdxPxlLVAZ0vXmzT3WeKt5bI" lemmaRef="tla:tla550055"><fs feats="epitheton_title title st_pronominalis singular"/>zẖꜣ<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd1LZZcKXrE8VuVpgORPnP2E" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdw4iaqqh1E56tb8T2HRgQCM" lemmaRef="tla:tla0"><fs feats="unknown"/>ḥr</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idJOQ4TX3YCJEOVHNI2PGCZBLV2U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JOQ4TX3YCJEOVHNI2PGCZBLV2U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Grabherr mit Familie</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaG2GITAQ3MZHU5OX7NPTCPPDEG4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 24-25, [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JOQ4TX3YCJEOVHNI2PGCZBLV2U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-91bb3e412e968c455b1a955a50332d12</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1qsHiuTckodinUMb7UoEvs">
+<lb n="[Ehefrau⁝1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd6rldTXTWU6ciZJQE63SfSg" lemmaRef="tla:tla850137"><fs feats="epitheton_title title"/>ḥm<supplied reason="defective">,t</supplied>-nṯr-<damage>Nj,t</damage></w>
+<w xml:id="tlaIBUBd6uCfFZ32ksoqMUPJIMfy3w" lemmaRef="tla:tla703467"><fs feats="entity_name person_name"/>Nfr-ḥtp≡s</w>
+</s>
+<s xml:id="tlaIBUBdWJjqMXZIkarqomW7ozpC2s">
+<lb n="[Ehefrau⁝2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdW80MAQxX04WkW3yqxLBXgU" lemmaRef="tla:tla855465"><fs feats="epitheton_title title"/><supplied reason="lost"><unclear>ḥm,t-nṯr-Ḥw,t-Ḥr,w</unclear></supplied>-mḥ,tjt-jnb</w>
+</s>
+<s xml:id="tlaIBUBdxwLtkzcd0MnsCiBrIT0Kok">
+<lb n="[1.Sohn⁝1]"/>
+<w xml:id="tlaIBUBdQGSgI7gPkJbkPoW1kySXRQ" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd4alPetfXEHQupmQXr9yWBo" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdyg6W7cKn0LIkrx7QMU1sBc" lemmaRef="tla:tla135720"><fs feats="adjective nisbe_adjective_substantive masculine singular"/>sms,w</w>
+<lb n="[1.Sohn⁝2]"/>
+<w xml:id="tlaIBUBd0KiyQQ9jUlarYWO7BVDwyk" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_pronominalis singular"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBdzCFiTnfNEWeszvyo0hLhKc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd8sEK9gIQUQAmdREhSHpq7w" lemmaRef="tla:tla450249"><fs feats="epitheton_title title"/>pr<supplied reason="defective">,j</supplied>-ꜥꜣ</w>
+<lb n="[1.Sohn⁝3]"/>
+<w xml:id="tlaIBUBdzABQ7VXR0tYqy09MMRvkfQ" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<w xml:id="tlaIBUBd9eLJ1drIUCDpOjW5FQ3CMQ" lemmaRef="tla:tla400144"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-zš</w>
+<lb n="[1.Sohn⁝4]"/>
+<w xml:id="tlaIBUBdWqInS9KhU1QrKd4qS9J3HI" lemmaRef="tla:tla709549"><fs feats="entity_name person_name"/>Dmḏ</w>
+</s>
+<s xml:id="tlaIBUBd2yVl04eGEKDjFFjQirmpms">
+<lb n="[2.Sohn⁝1]"/>
+<w xml:id="tlaIBUBd1A3YKAOeUk1oFvhfy67bRA" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd7jr00XumkrivCq8gHHXz2w" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdWPhM6MmN0dFqWN2G9KHF9s" lemmaRef="tla:tla400005"><fs feats="substantive substantive_masc st_pronominalis singular"/>mr,y</w>
+<w xml:id="tlaIBUBd4lduZ6QTU7OrgqopGNDGcQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[2.Sohn⁝2]"/>
+<w xml:id="tlaIBUBd5JJmFIKCExTs6Lmrsa3oNc" lemmaRef="tla:tla450421"><fs feats="epitheton_title title"/>sḥḏ-jr,w-ꜥn,t-pr-ꜥꜣ</w>
+<lb n="[2.Sohn⁝3]"/>
+<w xml:id="tlaIBUBd5m56DiNuEDfqYXaruaYQAo" lemmaRef="tla:tla450176"><fs feats="entity_name person_name"/>Ṯy</w>
+</s>
+<s xml:id="tlaIBUBd1g1pW9N8EVNgAOGqQBxE4I">
+<lb n="[Szenentitel]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd04tfrHWvUzps3e5fu8FkLY" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">ꜣpd</supplied>.w</w>
+<w xml:id="tlaIBUBd0bhtrPZW09rkuS84SP6f1U" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd5y895F5q096lUyi11vXl0U" lemmaRef="tla:tla158300"><fs feats="substantive st_absolutus plural"/>štb.pl</w>
+<w xml:id="tlaIBUBd405bC1nvUpQjeiWVWWQpe0" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine plural"/>n,j.w</w>
+<w xml:id="tlaIBUBdW8fG803f01KsQcWKWU77jY" lemmaRef="tla:tla550341"><fs feats="substantive st_absolutus singular"/>pr-ḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

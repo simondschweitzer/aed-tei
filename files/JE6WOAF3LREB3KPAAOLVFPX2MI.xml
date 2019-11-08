@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idJE6WOAF3LREB3KPAAOLVFPX2MI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ostwand</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Ostwand nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JE6WOAF3LREB3KPAAOLVFPX2MI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Ostwand</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJ6IJFDKBVFED7A2GTCETBRWF7U">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Altenmüller, Hartwig: Die Wanddarstellung im Grab des Mehu in Saqqara, Archäologische Veröffentlichungen, Deutsches Archäologisches Institut, Abt. Kairo, Berlin bzw. Mainz, Bd. 42, Mainz 1998, 241-245, Taf. 92-94, 104, Abb. 34.
+[P,F,H,Ü,K,L,B,U]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JE6WOAF3LREB3KPAAOLVFPX2MI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-5b4b68a326d3ed21e5fc4f20e92cba5a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQEBFZygwkeUuGl1lpgHOp4">
+<lb n="[A69]"/>
+<w xml:id="tlaIBUBd3Dt1xASokDVnTT7e4Y2nKk" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jni̯.t</w>
+<w xml:id="tlaIBUBd2K1Xqqkqk2CkbZcjSW7CPs" lemmaRef="tla:tla91200"><fs feats="substantive st_constructus singular"/>nḏ,t-ḥr</w>
+<w xml:id="tlaIBUBdQmtwWL2vUPBj4aZW1hBctM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd5kUQHGvq0cKrcuwgJmQIbo" lemmaRef="tla:tla850562"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-jnp,w</w>
+<w xml:id="tlaIBUBd2zSxu6b90KToEkzpsFreWY" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,t<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdQlmfACgBUdurX7QJJIKoVg" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/>ḫtm,tj-bj,tj</w>
+<w xml:id="tlaIBUBdxGfqBRLqkhvoilfYUJEIOo" lemmaRef="tla:tla400314"><fs feats="entity_name person_name"/>Mr,y-Rꜥw-ꜥnḫ<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd64vOWXL10IAuC73AG6ga4M" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf participle prefixed feminine singular passive"/><damage>jnn!.t</w>
+<w xml:id="tlaIBUBd1ceKtAxUk43hJfUWOte0wY" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="defective">n</supplied></w>
+<w xml:id="tlaIBUBd0JW3iCnN0jviVDuJE20Y38" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd1NlYHiMuU7EonWeGUGmlWg" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdwyvgxcNE0kDmFIclSp7kCI" lemmaRef="tla:tla80890"><fs feats="substantive substantive_fem st_pronominalis plural"/>nʾ,t.pl</w>
+<w xml:id="tlaIBUBd8hKyLR4OkG0oxwWRdjDlhQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd9HeWBe8qkdkjL7f8sX88Yg" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine plural"/>n,j.t</w>
+<w xml:id="tlaIBUBd9yFXoT2AEUOpplXxeWCD3A" lemmaRef="tla:tla169120"><fs feats="entity_name place_name"/>tꜣ-Mḥ,w</w>
+<w xml:id="tlaIBUBd8beGb63DUMLmqhRv9qvnMw" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd6ZVJEHbcELZnDD5juWyMdE" lemmaRef="tla:tla80890"><fs feats="substantive substantive_fem st_pronominalis plural"/>nʾ,t.pl</w>
+<w xml:id="tlaIBUBdxJsREkKVEEdodIHsybe85M" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd3WYrAYJ2E1WqJc7S7FAlK0" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine plural"/>n,j.t</w>
+<w xml:id="tlaIBUBd3WzQ3ptCUdHhjJlwTxH31w" lemmaRef="tla:tla154760"><fs feats="entity_name place_name"/>Šmꜥ,w</w>
+<w xml:id="tlaIBUBdxJcrIumWklQkqvWUiEmaRM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdQaQcBodBEo3nLV3tNvm2Go" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,t<supplied reason="defective">j</supplied>-ꜥ</w>
+<w xml:id="tlaIBUBdWjdxoF3Rk3krwZkgnUQjqw" lemmaRef="tla:tla450633"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-gs-pr</w>
+<w xml:id="tlaIBUBdzdd8tsrkkjpiQIWMzMBqzo" lemmaRef="tla:tla400314"><fs feats="entity_name person_name"/>Mr,y-Rꜥw-ꜥnḫ<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd1Ac47vmVUeFonS9JTEvfAI">
+<lb n="[A70]"/>
+<w xml:id="tlaIBUBd7jgWRqdFUJejnlXegvXebk" lemmaRef="tla:tla500032"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jd.t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

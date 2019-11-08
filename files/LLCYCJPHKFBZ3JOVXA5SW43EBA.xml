@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLLCYCJPHKFBZ3JOVXA5SW43EBA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pUnCol E (79 D)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pUnCol E (79 D) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LLCYCJPHKFBZ3JOVXA5SW43EBA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>pUnCol E</idno>
+<msName>pUnCol E (D)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pUnCol E (79 D)</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Wirtschaftstext eines Tempelarchivs</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaVY7DP75DKRC6JMVAGZNH4RCPRY">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 79 (Fragment D)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:54J2LBSPDFEYNPDHB4255KWQGA">Petrie Museum of Egyptian Archaeology</repository>
+<idno>pUnCol E</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LLCYCJPHKFBZ3JOVXA5SW43EBA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-38d49fafad2ef94163cc8b3b7fcb50bd</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5csjZl3gkAJk5qPfU3DoqQ">
+<lb n="Zl. x+1"/>
+<w xml:id="tlaIBUBd6XMqdchSERQuHISqihDKis" lemmaRef="tla:tla200002"><fs feats="entity_name person_name"/><damage>Nfr</damage>-s<supplied reason="lost">mn</supplied></w>
+<lb n="Sp. x+1"/>
+<w xml:id="tlaIBUBdwIXGJVDpEiAqQhc8X0OJ3k" lemmaRef="tla:tla95680"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>rḫt</w>
+<w xml:id="tlaIBUBdzPb75ZWgkjonW9DdsvlDJc" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/><damage>20</damage></w>
+<lb n="Sx+2"/>
+<w xml:id="tlaIBUBd5Qw3GEDxU6ZuKYndWqXdQE" lemmaRef="tla:tla164450"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><damage>km<supplied reason="lost">,t</supplied></damage></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

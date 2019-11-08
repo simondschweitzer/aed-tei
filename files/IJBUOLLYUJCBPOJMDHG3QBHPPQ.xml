@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idIJBUOLLYUJCBPOJMDHG3QBHPPQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Eine Sammlung von Verboten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Eine Sammlung von Verboten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>IJBUOLLYUJCBPOJMDHG3QBHPPQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>Inv. 2116</idno>
+<msName>oDeM 1090</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Eine Sammlung von Verboten</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitstext</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZ26WGUSVEFGQZODMUSF3NVSVKY">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>vielleicht 20. Dynastie wegen Paläographie und Fundort (Vorschlag Demarée, bei Hagen, 125, Anm. 6)</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+<note>Posener gibt keine genaue Fundangabe. Hagen bestätigt dies auf S. 142, auf S. 125 Anm. 6 schreibt er jedoch, daß oDeM 1090 im &quot;Kôm du sud&quot; in 1930 gefunden wurde.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Posener, Catalogue des ostraca hiératiques littéraires de Deir el Médineh, Tome I, DFIFAO 1, Le Caire 1934-1938, 23 und Tf. 49-49a [*F,*T]
+- G. Posener, Les richesses inconnues de la littérature égyptienne, in: RdE 6, 1951, 43, Nr. 56 [K]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 291-297 (2. Aufl. 2010, 381-388 mit neuer Übersetzung) [Ü]
+- F. Hagen, The Prohibitions. A New Kingdom Didactic Text, in: JEA 91, 2005, 125-164 mit Faksimile auf S. 160, Fig. 10 [F,*T,Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>Inv. 2116</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="IJBUOLLYUJCBPOJMDHG3QBHPPQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-58e8f54ae7926f6eb08e4f398312a1ca</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0NkQLCZWknelkUBWbVk3Uo">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd8WSsrjaa01stGtw145DFUw" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/>jmi̯</w>
+<w xml:id="tlaIBUBdx6GnPfszU9nlyFxAL3wl1g" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd4yU6Pmm00IbukuG7EGhyjU" lemmaRef="tla:tla63460"><fs feats="verb verb_3-inf infinitive"/>fꜣi̯</w>
+<w xml:id="tlaIBUBd953y39PNUbZpQ151Lop9sM" lemmaRef="tla:tla34360"><fs feats="substantive substantive_masc st_pronominalis singular"/>ꜥ</w>
+<w xml:id="tlaIBUBdx5aDQxWBk52ikHqUi1vZYQ" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd4Y3BWVLUU6mg7ol0JPdN3Y" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBdWAFeQFNYE17pwkrldsGepk" lemmaRef="tla:tla52130"><fs feats="verb verb_3-lit"/><unclear>wḏꜣ</unclear></w>
+<w xml:id="tlaIBUBd3xlqAMqKEBbu7jrqCONz4o" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd9VE40QOW08zgvfkHmskIRw">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd10I4h5uYEnLjmB46BIhvY8" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/>jmi̯</w>
+<w xml:id="tlaIBUBd3eAj13oKUcUojHpTxVPEnQ" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd3TG5aWaAknKibZEufq5WsU" lemmaRef="tla:tla103170"><fs feats="verb verb_4-lit infinitive"/>ḥwrꜥw</w>
+<w xml:id="tlaIBUBd5WqQPBdckweskLt7dV1rn0" lemmaRef="tla:tla30750"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḫ,t</w>
+<w xml:id="tlaIBUBdQ4EQWww8UxKqUR0V312Nvs" lemmaRef="tla:tla81660"><fs feats="adjective feminine singular"/>nb.t</w>
+<w xml:id="tlaIBUBd3Bgy90wt0SCiisOmOxTO8A" lemmaRef="tla:tla851449"><fs feats="preposition"/>m-ꜥ</w>
+<w xml:id="tlaIBUBd83MT887Wk4ppDjvD5NSG5Y" lemmaRef="tla:tla163760"><fs feats="adjective"/>k<damage>y</damage></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdQDKtco1j0b4rGaGhyvM1CA">
+<gap reason="lost" />
+<w xml:id="tlaIBUBd6CQrAYIhkN0gG1JkKk5fcE" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost">___.y</supplied></w>
+<w xml:id="tlaIBUBdQEXfXUnHE9gslu4z8MeGRQ" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd3qjQ8EpWU5DghCV38Jnc68" lemmaRef="tla:tla161350"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">qnb,t</supplied></w>
+<w xml:id="tlaIBUBdwrSWAkFj0Qyt2k6e3ThPtk" lemmaRef="tla:tla851204"><fs feats="pronoun personal_pronoun"/><supplied reason="lost">st</supplied></w>
+<w xml:id="tlaIBUBdWmWEr1oPkGfvzFqePkUNNI" lemmaRef="tla:tla850794"><fs feats="preposition"/><supplied reason="lost">ẖr</supplied></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdQfjWD7vmU8Ko9iIdH3I0e4">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdQwxcXMmMkG0vY1JWN3wGX4" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/>jmi̯</w>
+<w xml:id="tlaIBUBd0NLMxCZdUhTsZDMfQvgEGo" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdxtCV3W3d0WmmMJrbRGI14Y" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit infinitive"/><supplied reason="lost">ḏd</supplied></w>
+<w xml:id="tlaIBUBdwUnAFi8wkWWnzlypEQ4JtM" lemmaRef="tla:tla134830"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>smj</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdzccnZkT0Evwmvijix4bK8k">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdwLgINOKREdLpyXhQn6tGJ4" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/>jmi̯</w>
+<w xml:id="tlaIBUBd7oKNTzEKU6xmFW5ydpTGl0" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd8EbHeUiKE63szItcz214WM">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd8HbLQnumkqSqoRLj9FCy5k" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/><supplied reason="lost">jm</supplied>i̯</w>
+<w xml:id="tlaIBUBd792NfXHjUnZjMqZonFDB6k" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBd0U5CoU4sEWivqQASjcUurk" lemmaRef="tla:tla63460"><fs feats="verb verb_3-inf infinitive"/>fꜣi̯</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd4QPKiuqJUFfsIaIYtODeaE">
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd6kQTGq4NEgRlJ8Np7YuEQA" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/><supplied reason="lost">j</supplied>mi̯</w>
+<w xml:id="tlaIBUBdWBbnukavkiQiAsyOieCTdY" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdQ9PtK5TzkG0qVZsqH35mzI">
+<lb n="[Verso]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd9Z98jcYpU8boqLaXLFyIvc" lemmaRef="tla:tla854619"><fs feats="epitheton_title title"/>zẖꜣ,w-qd<supplied reason="defective">,wt</supplied>-n-Jmn-m-s,t-<supplied reason="lost">mꜣꜥ,t</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

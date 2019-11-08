@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroIN2SXZSNTFGAHPD27H2YOBRLZU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>IN2SXZSNTFGAHPD27H2YOBRLZU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Architrav</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPM6AB4W3J5BOPEHO4NNU2MZL6M">
+<support>
+<objectType ref="ths:IGXF5ZVEI5ALPHRZKHMJFUA2FQ">Architrav</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Gîza IV, Leipzig-Wien 1940 [F, P, H, K, L];
+N. Kanawati, Tombs at Giza I: Kaiemankh (G4561) and Seshemnefer I (G4940), (ACE Rep. 16), Warminster 2001, 13-50, pl. 1-17, 25-37 [B, F, K, L, P, U, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="IN2SXZSNTFGAHPD27H2YOBRLZU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-6ffa1efba5ae898f1336eedd0dbe5c8a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdw27VP4NgkFRi7oGk3jsRZM">
+<w corresp="src:tlaIBUBdWSxjJFE90IvqNZpl5abgqQ">𓊵𓏙</w>
+<w corresp="src:tlaIBUBd6UVpLVwZkG1lWq5e79I4h4">𓇓</w>
+<w corresp="src:tlaIBUBdwrJnJWLEEdHiUz5fP9vSZc">𓊵𓏙𓇓</w>
+<w corresp="src:tlaIBUBd3aegRo5qk1rpn8XPRvpSvs">𓃢</w>
+<w corresp="src:tlaIBUBd4bdU5Nuqk6NgBfET9aY7Yw">𓏃𓏏𓊹𓉱</w>
+</s>
+<s corresp="src:tlaIBUBd2pcQH5Esk13lSX1VmJzo6o">
+<w corresp="src:tlaIBUBd1VJQHkf80zitO3To6MQu3k">𓈎𓂋𓋴𓌟𓊭𓏏</w>
+<w corresp="src:tlaIBUBdyZzShZWyk4KhTYSFVH8s9k">𓆑</w>
+<w corresp="src:tlaIBUBdWyQJuiu7k3KowR8D9g1zLU">𓅓</w>
+<w corresp="src:tlaIBUBdyqhxsqfwEWNpgrP1l4kQVc"><note>Keine Entsprechung in Unicode für G131</note></w>
+<w corresp="src:tlaIBUBd4SLI4mAq0BarTpl5S93lfw">𓊃𓏏𓈉</w>
+<w corresp="src:tlaIBUBd5MQhyN1x0sCo3DjBIlD3IE">𓏏𓅆𓏏</w>
+<w corresp="src:tlaIBUBd1JpmolRTEvAo4ciuBF8C3M">𓀘</w>
+<w corresp="src:tlaIBUBd9gNlQ9tF0zYoYjTgY1X0Uo">𓄤</w>
+<w corresp="src:tlaIBUBd3nK8WW1xkPNhywhCDTUsXI">𓅨𓂋𓏏</w>
+<w corresp="src:tlaIBUBdWwUGTc5e0ANjMRq5xkgf2c">𓐍𓂋</w>
+<w corresp="src:tlaIBUBd7sFmWDgtklfnkbYUrGN30g">𓊹𓉻</w>
+<w corresp="src:tlaIBUBd1lneVcSVkY6mmtVmTjl27I">𓋴𓌉𓂋𓐍𓏏𓉒</w>
+<w corresp="src:tlaIBUBdW7g7cvyJ089kIWoHzHbiuM">𓂓𓅓𓋹</w>
+</s>
+<s corresp="src:tlaIBUBdzBetptCaUv9kASlDr74QSo">
+<w corresp="src:tlaIBUBd4dMmYOpRkuhiFlENtadpV8">𓊵𓏙</w>
+<w corresp="src:tlaIBUBdzrRbWZcG05gokQIV11ehjs">𓇓</w>
+<w corresp="src:tlaIBUBd4Ja7swqDULltBS2LWn8A54">𓊵</w>
+<w corresp="src:tlaIBUBd5gVpr9GeUWVnGd8APoDxqM">𓃢</w>
+<w corresp="src:tlaIBUBd8Ig2fLDxkfoq2vhQqmwKgE"><note>Keine Entsprechung in Unicode für W17-X1-N16-D253</note></w>
+</s>
+<s corresp="src:tlaIBUBd4xJpsLgzEBMk8xeoDwlpIs">
+<w corresp="src:tlaIBUBdQzF0aA37kK0n3xkZqyJCFc">𓉓𓂂</w>
+<w corresp="src:tlaIBUBd5GQhydotkBihf4SigdnLYI">𓈖</w>
+<w corresp="src:tlaIBUBd1gYIULon0fVv5YZnMTFDCY">𓆑</w>
+<w corresp="src:tlaIBUBd6Qe8e0HC0dtvZNiFBaXcFo">𓆳𓄋𓇳𓈀</w>
+<w corresp="src:tlaIBUBdWTS97dqX0VxugbRqBEn5Kc"><note>Keine Entsprechung in Unicode für G298-X1-X1-D39-V97</note></w>
+<w corresp="src:tlaIBUBd64nZGDtcUcYm0mQqbHQJiw">𓆳𓏏𓌐</w>
+<w corresp="src:tlaIBUBdxua05ZWpkvWgugjd3HjU2w"><note>Keine Entsprechung in Unicode für V4-W11-D39-W24-W24-W24-V97</note></w>
+<w corresp="src:tlaIBUBdzI4X3AnsUrNk3yo6jOEZQU">𓅓</w>
+<w corresp="src:tlaIBUBd6EZ5oJYA0BfpBjv6yJ85V8">𓉲𓎱</w>
+<w corresp="src:tlaIBUBdxgUI64IO0zRgirQMtAsEDU">𓎟</w>
+<w corresp="src:tlaIBUBdWKh0oJ1Ukm2uBcQnY9pPQI">𓇳𓎟</w>
+<w corresp="src:tlaIBUBdWlKTTliFk1lofxF4PS8LoE">𓇓𓏏𓂋𓐍</w>
+<w corresp="src:tlaIBUBdysqLeV0IkWijUEjWGYgLS0">𓂓𓅓𓋹</w>
+</s>
+<s corresp="src:tlaIBUBdySmFkBYrUX9vpL2agLHBkk">
+<w corresp="src:tlaIBUBdQypUV7oQE2ZsTyhH1e5lZQ">𓊵𓊪𓏏𓏙</w>
+<w corresp="src:tlaIBUBdwLzqWUJJE96pGaRspWJlMA">𓁹𓊨𓀭</w>
+<w corresp="src:tlaIBUBd2J2L2HqUE4el9zNozokG9U">𓏃𓏏𓊽𓅱𓏏𓊖</w>
+</s>
+<s corresp="src:tlaIBUBd7CSzVrhmkM8hrrv2jStmOs">
+<w corresp="src:tlaIBUBd9xFqhC0k0BZr7OPjGfV6hQ">𓐍𓊪𓂻</w>
+<w corresp="src:tlaIBUBdyNgrYYg1USCqCXvpWNoK4A">𓆑</w>
+<w corresp="src:tlaIBUBd1VUE5rU6En6gZGN5El9CLI">𓁷𓂋</w>
+<w corresp="src:tlaIBUBd57zc74dYUIQrkSlSQcmFGU">𓈐𓈐𓈐𓏏</w>
+<w corresp="src:tlaIBUBd4iTdaeMpEysnIEMIyWxAEw">𓄤𓂋𓏏</w>
+<w corresp="src:tlaIBUBdxiuqstGN0AVjU68PnwC6tc">𓐍𓊪𓂻𓐍𓊪𓂻</w>
+<w corresp="src:tlaIBUBd5RxusbszUb7k8swCwKmzpA">𓇋𓌳𓄪𓐍𓅱</w>
+<w corresp="src:tlaIBUBd7o7jIM3HUHtkABQIOSGmvw">𓁷𓂋</w>
+<w corresp="src:tlaIBUBd8KwRqd7FUfepT3zXQXqiNY">𓋴</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

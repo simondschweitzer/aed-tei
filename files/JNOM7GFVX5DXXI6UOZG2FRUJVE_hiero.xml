@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroJNOM7GFVX5DXXI6UOZG2FRUJVE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Westseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Westseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JNOM7GFVX5DXXI6UOZG2FRUJVE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südpfeiler</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Westseite</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaXQ3MZWMS2BFONOWXD5L57Q6VZ4">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza II, Wien-Leipzig 1934, 117-118, Abb. 8, Taf. III a</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JNOM7GFVX5DXXI6UOZG2FRUJVE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3fb144c074f65f5876c002165f471adf</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWfU8FKFJENVgo9kOf8F4bs">
+<w corresp="src:tlaIBUBd2AVxyZvNkggqFNnfBWpuXI">𓇓𓏏𓅭</w>
+<w corresp="src:tlaIBUBdQGdCY0JQkxhrTmh3zHgi60"><note>Keine Entsprechung in Unicode für R8-S20-P30</note></w>
+<w corresp="src:tlaIBUBd88VW6XnWEmkrclaUHPCsJA">𓌸𓂋𓄣𓃀</w>
+</s>
+<s corresp="src:tlaIBUBd0ECAaBT4kYphnQtNrXAhFU">
+<w corresp="src:tlaIBUBd6jWeTkHkEWUiqJIKuR0KZ8">𓅭𓏏</w>
+<w corresp="src:tlaIBUBdyiQJ3tMR0QkhUsW4pfB2WU">𓆑</w>
+<w corresp="src:tlaIBUBd3EeBe4dIEZUpSVzDOS1w8U">𓌸𓂋𓏏</w>
+<w corresp="src:tlaIBUBd0fIkXLR2EoAo7Y0ErKQuBU">𓆑</w>
+<w corresp="src:tlaIBUBdyNs74OQaECdjGZLcCvpS5o">𓇓𓏏𓐭</w>
+<w corresp="src:tlaIBUBd6k3wwqbKU8BsFQg9nxurvY">𓈖𓂜𓋴𓇦𓂋𓂓</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

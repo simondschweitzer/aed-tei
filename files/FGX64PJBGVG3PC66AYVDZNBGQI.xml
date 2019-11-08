@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idFGX64PJBGVG3PC66AYVDZNBGQI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Recto: Königshymnus</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Lutz Popko</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Recto: Königshymnus nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Lutz Popko</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FGX64PJBGVG3PC66AYVDZNBGQI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>Inv.-Nr. OL 79</idno>
+<msName>oDeM 1776</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Recto: Königshymnus</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Gasse, S. 11: &quot;fragment d&#039;une eulogie royale&quot;.</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPZ4G26I4IBGSHFG3FCYSNHY7GM">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:UOGHTTMOBFAL3JU5ZH62ICOCMA">Keramik</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Gasse äußert sich nicht zur Datierung, aber aufgrund seines Fundortes wird der Text ramessidenzeitlich sein.</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- A. Gasse, Catalogue des ostraca littéraires de Deir al-Médîna. Tome 5, Nos 1775-1873 et 1165 (DFIFAO 43), S. 11 [*P,*T]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:LFXQK5IVQBGZPICA3WNBIEATZI">Institut Français d&#039;Archéologie Orientale</repository>
+<idno>Inv.-Nr. OL 79</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FGX64PJBGVG3PC66AYVDZNBGQI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Lutz Popko</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-97de3f28fbbee55d84279bd28714fe81</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3i0XmSdrEwitbC5R0F2iLY">
+<gap reason="lost" />
+<lb n="[x+1]"/>
+<w xml:id="tlaIBUBd3yHZZzEQUZfh914kFpQy2w" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd9VQZ7FGMkRasgoq7Hkl8co" lemmaRef="tla:tla550035"><fs feats="substantive st_absolutus singular"/>ꜥnḫ-<supplied reason="defective">w</supplied>ḏꜣ-s<supplied reason="defective">nb</supplied></w>
+<w xml:id="tlaIBUBdxpNW5A4QUgMswLRJsmfi1g" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd66QnCc3SU23lezmZn1Xouc" lemmaRef="tla:tla91500"><fs feats="substantive st_absolutus singular"/><damage>nḏm</damage><supplied reason="lost">-jb</supplied></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd2mFILQ8CUt3q8fZ8E3nnc4">
+<gap reason="lost" />
+<lb n="[x+2]"/>
+<w xml:id="tlaIBUBd4KzFW0de0zUl9UCAJGEW8k" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nṯr</w>
+<w xml:id="tlaIBUBd9QrbdoCF0dbvo6tsvWWFUE" lemmaRef="tla:tla44150"><fs feats="adjective masculine singular"/>wꜥ</w>
+<w xml:id="tlaIBUBd1eYRdfrB0DjvBWeRqyCFew" lemmaRef="tla:tla55940"><fs feats="verb verb_3-lit"/><unclear>bnr</unclear></w>
+<w xml:id="tlaIBUBdyaoDQLAmUI2s1pRwTpjuCo" lemmaRef="tla:tla72650"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><unclear><supplied reason="lost">mrw,t</supplied></unclear></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd60rJymL4Ee3twV8E9CQt3g">
+<gap reason="lost" />
+<lb n="[x+3]"/>
+<w xml:id="tlaIBUBd9kLTg08M00toibFyQNUWiY" lemmaRef="tla:tla854531"><fs feats="verb verb_2-lit"/><unclear><supplied reason="lost">ḥ</supplied>nw</unclear></w>
+<w xml:id="tlaIBUBdQrG1nuixUAxhyOwRYGsUPQ" lemmaRef="tla:tla175160"><fs feats="substantive substantive_fem st_pronominalis dual"/>db.du</w>
+<w xml:id="tlaIBUBdzkzuxlPCkMkmH6dOTSfVH4" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdx8MGQLZskPQgEN9sQu9OxY" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd5OXiQMqK0SHl3THPHp4P6M" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost">__</supplied></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd6mjtiKYKEBfnpVlGy9M2Ns">
+<gap reason="lost" />
+<lb n="[x+4]"/>
+<w xml:id="tlaIBUBd6YIOsidXU8ykoF2PO7ZzEQ" lemmaRef="tla:tla96600"><fs feats="substantive substantive_masc st_pronominalis dual"/>rd.du</w>
+<w xml:id="tlaIBUBd5pPnkQRS0DCq9f2vg0nzmc" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=kj</w>
+<w xml:id="tlaIBUBd334Qhm3DUujrqZDyTIYlj8" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdx6BkZYeWUtYoqnTRyFOqgA" lemmaRef="tla:tla125240"><fs feats="substantive st_absolutus singular"/>s,t-mꜣꜥ,t</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd3SDvqw2o0uotyWyq77J7ws">
+<gap reason="lost" />
+<lb n="[x+5]"/>
+<w xml:id="tlaIBUBd9pOgYTDTUHOuLdmvo9VJKk" lemmaRef="tla:tla183850"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḏfꜣ,w</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

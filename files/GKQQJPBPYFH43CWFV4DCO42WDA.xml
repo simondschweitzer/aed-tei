@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGKQQJPBPYFH43CWFV4DCO42WDA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>pBerlin P 15722 (85 B)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von pBerlin P 15722 (85 B) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GKQQJPBPYFH43CWFV4DCO42WDA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>P 15722</idno>
+<msName>pBerlin P 15722 (85 B)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">pBerlin P 15722 (85 B)</title>
+<textLang mainLang="Egyh-Egyhol">Althieratisch
+</textLang>
+<note>Wirtschaftstext eines Tempelarchivs</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaYAPOMFXY3VHBVB7HB2ABEP4YX4">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+<note>Asosi (Djedkare I.)</note>
+</origDate>
+<origPlace ref="ths:O5AYJCUXENDODEGUIMCH2YWXWM">Abusir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Posener-Kriéger, Paule: Hieratic Papyri in the British Museum. Fifth Series. The Abu Sir Papyri., London 1968, plate 85 (Fragment B)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>P 15722</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GKQQJPBPYFH43CWFV4DCO42WDA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhol">Althieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-d2c5f4a1a18b7b0c4356d1e989f893c3</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5RJpODA00Dyp4Vx8cqjtU0">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdQw3ZqsR50IRnCJNiHNygQc" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>_</unclear></supplied>-<damage>Kꜣkꜣ</damage><supplied reason="lost">j</supplied></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd6diRElEQ0mArsZatWivANs">
+<lb n="[2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdxo7HFY7UEmTmfN3ap46Qeg" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>_</unclear></supplied>-<supplied reason="lost">kꜣ</supplied><damage>kꜣj</damage></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdw1OjyHSLEvuoBhEJDThNys">
+<lb n="[3]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdwUbkQghpEE0glUmGCGyinA" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>_</unclear></supplied><damage>mr-Kꜣkꜣj</damage></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd4CShLLcHkkir7L8MzxjBuc">
+<lb n="[4]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd7GPgrgblEIQpSno2AIRUAk" lemmaRef="tla:tla450086"><fs feats="entity_name person_name"/>N,j-tꜣ,wj-<supplied reason="lost">Kꜣ</supplied>kꜣj</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd2ZTaQDXSERivQunzxfwaIY">
+<lb n="[5]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd0Mw2PmIIkzKrPTrP56hqmk" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>_</unclear>_-Jnpw</supplied></w>
+<w xml:id="tlaIBUBd6TrEc0OzEavhViJ7i0RclE" lemmaRef="tla:tla79910"><fs feats="epitheton_title title"/>n,j-ḏ,t</w>
+<w xml:id="tlaIBUBd7EWyOFNOU1Mp2lgXX65kzw" lemmaRef="tla:tla450374"><fs feats="entity_name person_name"/>Pnj</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

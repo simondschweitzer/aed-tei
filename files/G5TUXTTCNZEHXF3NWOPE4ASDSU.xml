@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idG5TUXTTCNZEHXF3NWOPE4ASDSU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 385</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 385 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>G5TUXTTCNZEHXF3NWOPE4ASDSU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 385</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQTXKWSMBBJDDXC3MF6OWKEBHAE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="G5TUXTTCNZEHXF3NWOPE4ASDSU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-7298ce65a4e3cb5f8a6a9935fdb70ae3</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQeJpv0Q7ki9nPLTiR0HwgE">
+<lb n="[T/A/E 17 = 308]"/>
+<w xml:id="tlaIBUBdQLBxOOFhEEUglJusUKy2qo" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBd3AIHlpCI0FHioOCT5kZ73U">
+<w xml:id="tlaIBUBdwb0eVMX9UQmpNbceR8o794" lemmaRef="tla:tla114740"><fs feats="verb verb_3-inf participle masculine singular active"/>ḫꜥi̯</w>
+<w xml:id="tlaIBUBdQCbHRnY2ktprkylM7pM4VI" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+<w xml:id="tlaIBUBdQUNwseUgEAni5paWZjq9FA" lemmaRef="tla:tla91900"><fs feats="preposition"/>jr</w>
+<w xml:id="tlaIBUBd8toFz4xZEdbrqx0fQj4Mw0" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd14Q4b0lwESsqO5RE1uapWw">
+<w xml:id="tlaIBUBd8i5CVe6LUpUrgQJxV6NYK4" lemmaRef="tla:tla178160"><fs feats="verb verb_3-lit participle masculine singular active"/>dwn</w>
+<w xml:id="tlaIBUBd0uBdaNRzkYkhTu15zg3klk" lemmaRef="tla:tla107500"><fs feats="entity_name gods_name"/>Ḥr,w</w>
+<w xml:id="tlaIBUBd9UXrU9xb0dphXVZcHtZXCg" lemmaRef="tla:tla62450"><fs feats="numeral"/>psḏ.t</w>
+<w xml:id="tlaIBUBd146ysv5oELqo2KWNXORJ2k" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd1l2IkVQyEQJrpKWcTkr7Ws" lemmaRef="tla:tla63270"><fs feats="substantive substantive_fem st_absolutus plural"/>pḏ,t.pl</w>
+<lb n="[T/A/E 18 = 309]"/>
+<w xml:id="tlaIBUBdyoj3WDRTEndi1HPKL0UEVk" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd5YJMwwOZUHrmBoK2Vsqprs" lemmaRef="tla:tla203"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣḫ</w>
+<w xml:id="tlaIBUBd2SGrALII0aHoKhSACTWsHo" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/>pn</w>
+<w xml:id="tlaIBUBdzGYg3z0Jkanh6OkeQzdqz0" lemmaRef="tla:tla60920"><fs feats="verb verb_3-inf participle masculine singular active"/>pri̯</w>
+<w xml:id="tlaIBUBdQlEX1xNdUvKpt7UomsoCbI" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdxQJ1ciYpEoSn0YWg0eu02c" lemmaRef="tla:tla854573"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tꜣ</w>
+<w xml:id="tlaIBUBd67mLapQw0TIjQOSOY6RTfQ" lemmaRef="tla:tla152200"><fs feats="verb verb_2-lit participle masculine singular passive"/>šꜥ</w>
+<w xml:id="tlaIBUBd7GZrKgiOUHLpQAAAAIeI2M" lemmaRef="tla:tla854577"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tp</w>
+<w xml:id="tlaIBUBd4eeTtath0zWmzDwC73cnrw" lemmaRef="tla:tla0"><fs feats="unknown participle masculine singular passive"/>ḥꜣk</w>
+<w xml:id="tlaIBUBd9GnE2IF0EW9gySfxgXukcs" lemmaRef="tla:tla149520"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sd</w>
+</s>
+<s xml:id="tlaIBUBdxbfnWg6lUpaqU2mIGQbIEo">
+<w xml:id="tlaIBUBd5kXTtK4mEjXk3HXdkqYu74" lemmaRef="tla:tla185510"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḏsr</w>
+<w xml:id="tlaIBUBd0Fjxs6DWEJhrEKwcmhadb8" lemmaRef="tla:tla181300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>Ddj</w>
+<w xml:id="tlaIBUBd4u7xQ2NJk5njFOSIQQjU6Q" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBUBd9DAcHTFt0eTs2tzN8YPWCU" lemmaRef="tla:tla855075"><fs feats="epitheton_title epith_god"/>srq,t-ḥtw</w>
+</s>
+<s xml:id="tlaIBUBd1DsZ5qhekCakymVfhTdIfU">
+<w xml:id="tlaIBUBd3cEsg2WGUFvkJfokzN4OHk" lemmaRef="tla:tla61900"><fs feats="verb verb_3-lit imperative singular"/>pẖr</w>
+<w xml:id="tlaIBUBd1izCAeDPUMLtyixUevp41o" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+<w xml:id="tlaIBUBd2GNjbx0o02VjQGtosUrUQ4" lemmaRef="tla:tla59960"><fs feats="verb verb_3-lit imperative singular"/>pnꜥ</w>
+<w xml:id="tlaIBUBd9cXnEYAxkQ0hKFTPchrpWQ" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+</s>
+<s xml:id="tlaIBUBd2JWvNsgAUDXhzE54RwhPpk">
+<w xml:id="tlaIBUBd36RFWHMCU8FlfkZp2ClzzY" lemmaRef="tla:tla0"><fs feats="unknown"/>ꜥẖb</w>
+<w xml:id="tlaIBUBd8eQg9OYQEvpidIjioWOxNc" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation tw-morpheme passive"/>di̯.tj</w>
+<w xml:id="tlaIBUBd7F22aTtbUc2grqyhSj3C9M" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd32RDBDWZUjmpishRhtDBTg" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdzQuIanXdU8stWQmgLteCwU" lemmaRef="tla:tla64360"><fs feats="preposition"/>jm</w>
+<w xml:id="tlaIBUBd5kF1udvfEKZhuLTigHRbik" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+</s>
+<s xml:id="tlaIBUBd0ptpQDpkUhqlT681FF1ui8">
+<w xml:id="tlaIBUBd7eKSmrTsEpvlvhCz4PLdHU" lemmaRef="tla:tla104470"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥfn,w</w>
+<w xml:id="tlaIBUBdw94tzIq0ElhrDThJzagcrg" lemmaRef="tla:tla104490"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥfnn,t</w>
+<w xml:id="tlaIBUBd170nLjxS0cxughuJPWUUzw" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit imperative singular"/>sḏm</w>
+<w xml:id="tlaIBUBd51aekHMS0QZiDWppdKQzto" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdw6HaPNDW0Cokao0xmgYqWY" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2uB6DpKKUcgrAC8UtMAizQ" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit imperative singular"/>sḏm</w>
+<w xml:id="tlaIBUBdQOCpI2N6EzNtv70AIrOXoc" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd9qpJzHbFk8nlzqVMvxXpGQ" lemmaRef="tla:tla854573"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tꜣ</w>
+<w xml:id="tlaIBUBdW76xE0qck2TiCDxMsGWW1Y" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit imperative singular"/>sḏm</w>
+<w xml:id="tlaIBUBd0xH1mudJEvTmIYsTrksGfM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdwYyPsQ9MUWljlva6WE8dUU" lemmaRef="tla:tla32820"><fs feats="substantive substantive_masc st_pronominalis singular"/>jt<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdzXWqDQRZkbFnI4oF5WVzcQ" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd1AISH64TU8xgiwEGMkXe6k" lemmaRef="tla:tla167010"><fs feats="entity_name gods_name"/>Gbb</w>
+</s>
+<s xml:id="tlaIBUBd8UQXBhWKEUeudRVgeh4JiI">
+<w xml:id="tlaIBUBd4stUiKHnUMJg9iTTPNzJTY" lemmaRef="tla:tla854578"><fs feats="verb verb_2-lit suffixConjugation prefixed active"/>j:tm</w>
+<w xml:id="tlaIBUBdQGQtuZyp0WHtDKMMSJ1LDQ" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdWr7kVGhv0X8tBAQ29Krtac" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit infinitive"/>sḏm</w>
+<w xml:id="tlaIBUBd0TDu56eN0kWnCN5PnSQOQU" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd2moOQY5ckzXvWWhjxQfuE0" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd1dsl5mxHUPmiFSyGjW0pDM" lemmaRef="tla:tla150560"><fs feats="verb verb_3-lit suffixConjugation active"/>sḏm</w>
+<w xml:id="tlaIBUBdzxbbnHmdkWziyWSaDurv8A" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd7V9fZBb80qiqC24rX3EjXY" lemmaRef="tla:tla66"><fs feats="substantive substantive_fem st_pronominalis singular"/>ꜣb,t</w>
+<w xml:id="tlaIBUBd98jj7TK4Uyer6cGL8t2WQg" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdwdRnFbO0EflpYhrP02lrKk" lemmaRef="tla:tla25130"><fs feats="adjective nisbe_adjective_preposition feminine singular"/>jm.t</w>
+<w xml:id="tlaIBUBd3TEbkdgtkDCjSjlDEeqkP0" lemmaRef="tla:tla854577"><fs feats="substantive substantive_masc st_pronominalis singular"/>tp</w>
+<w xml:id="tlaIBUBdWW2weFkLkZLtrqwNrJD4UI" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd7YixGQoEEyJuU57grWzT00">
+<w xml:id="tlaIBUBdQBQq9E8IEVplSmwMmCTE7Q" lemmaRef="tla:tla139230"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>srj,w</w>
+<w xml:id="tlaIBUBdwJBA1yrvEWFrAQTNJlj1LE" lemmaRef="tla:tla150740"><fs feats="verb verb_3-lit imperative singular"/>sḏr</w>
+</s>
+<s xml:id="tlaIBUBdwvOVmYrWUhMgV3qEB7mIfQ">
+<w xml:id="tlaIBUBd3JRINwbUUc0pLTKHGZIf7k" lemmaRef="tla:tla149150"><fs feats="verb verb_3-lit imperative singular"/>sṯp</w>
+<w xml:id="tlaIBUBdxE4OPVkQ02wkJiWyVL8pGY" lemmaRef="tla:tla307"><fs feats="entity_name gods_name"/>Ꜣkr</w>
+<w xml:id="tlaIBUBdQtWgh8iEEI0hDJtBwJwCFs" lemmaRef="tla:tla91670"><fs feats="verb verb_4-inf imperative prefixed singular"/>j:nḏr</w>
+<w xml:id="tlaIBUBdQC44CcQcUIAq6m3v9O2GQc" lemmaRef="tla:tla129490"><fs feats="pronoun personal_pronoun"/>sw</w>
+</s>
+<s xml:id="tlaIBUBd73MHiOsQEFWj5hT4JsUCvY">
+<lb n="[T/A/E 19 = 310]"/>
+<w xml:id="tlaIBUBd7hihAtAakKCokqSkyIG5D8" lemmaRef="tla:tla115720"><fs feats="verb verb_3-lit imperative singular"/>ḫbḫ</w>
+<w xml:id="tlaIBUBd8sW2WOWRESwpAGRKOkJAD0" lemmaRef="tla:tla854573"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tꜣ</w>
+<w xml:id="tlaIBUBd86bExfnCkNSkzSo9fDmckE" lemmaRef="tla:tla854512"><fs feats="verb verb_3-lit imperative singular"/>mꜣꜥ</w>
+<w xml:id="tlaIBUBdxiYFqX3W06BnlCpZW64pPY" lemmaRef="tla:tla149520"><fs feats="substantive substantive_masc st_pronominalis singular"/>sd</w>
+<w xml:id="tlaIBUBdQMGRhqrHkW3oUedB6eorNg" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd8dVzPLyZ03elEHIlT4qdSI">
+<w xml:id="tlaIBUBd3XsEOIQp0XxgumDp5ZX5ko" lemmaRef="tla:tla33560"><fs feats="verb verb_3-inf suffixConjugation geminated active"/>jṯṯ</w>
+<w xml:id="tlaIBUBd5Oz2VgnQ0imvO44ZDmF6JE" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBd776Dwox5UN9lXDOuehODls" lemmaRef="tla:tla34360"><fs feats="substantive substantive_masc st_pronominalis singular"/>ꜥ</w>
+<w xml:id="tlaIBUBd83YnWxnT0GWi6ntGy0RUX4" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdyaRvuttPkCYuwQQmWkroQE" lemmaRef="tla:tla91900"><fs feats="preposition"/>jr</w>
+<w xml:id="tlaIBUBd2K8shcp5kxGv5JL3OnloRA" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdWZ9vMXeiUsZn5gPtpZ9XB0" lemmaRef="tla:tla69300"><fs feats="verb verb_3-lit suffixConjugation active"/>mwt</w>
+<w xml:id="tlaIBUBd2Dcmr24Jk3HlQEMiBQtXgE" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd462NYQ4vUeSoZDu28q6P2o">
+<w xml:id="tlaIBUBd1eYp8mPQkHdq9SOAdowEs8" lemmaRef="tla:tla63970"><fs feats="verb verb_2-lit suffixConjugation prefixed active"/>j:fḫ</w>
+<w xml:id="tlaIBUBd5clDrEdHko2stTA25pNS0c" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+<w xml:id="tlaIBUBd3e53vtkpU6osV4hkNntCsw" lemmaRef="tla:tla34360"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥ</w>
+<w xml:id="tlaIBUBd10EEGD0xkO8g4qqzevocWw" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>n<supplied reason="defective">,j</supplied></w>
+<w xml:id="tlaIBUBdyrprOu2uEqlnuuyslDQnzc" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBdy68VpFsBkJxhcnU7ZOHqsg" lemmaRef="tla:tla850806"><fs feats="particle"/>n</w>
+<w xml:id="tlaIBUBd4YWA1NlG0DGoOYtsjG1oy4" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit suffixConjugation active"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdxQ2OEEYP0rEpglFEdH8FiE" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBdwXqueE0zEl0oObOEllWGaQ">
+<w xml:id="tlaIBUBd1Z2ppOqQUrdpEPRzBDegt8" lemmaRef="tla:tla71880"><fs feats="verb verb_2-lit suffixConjugation passive"/>mr</w>
+<w xml:id="tlaIBUBdWxSQbFlBETJojB9nvRgzH8" lemmaRef="tla:tla855067"><fs feats="substantive substantive_masc st_pronominalis singular"/>mr</w>
+<w xml:id="tlaIBUBdwT8PJeAvkt9p41nQJPFspY" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdWXwC7JIDUFWnTqDkEV99kA" lemmaRef="tla:tla26660"><fs feats="preposition"/>jn</w>
+<w xml:id="tlaIBUBd2ymSUdQ8UTevIQ0IaA2dPY" lemmaRef="tla:tla152710"><fs feats="entity_name gods_name"/>Šw</w>
+</s>
+<s xml:id="tlaIBUBdzfRQ6SlD0Ubn2CISCcMktg">
+<w xml:id="tlaIBUBdWT80yAY20NhgtG4Vxc4JSQ" lemmaRef="tla:tla851887"><fs feats="verb verb_3-lit suffixConjugation active"/>ꜥḥꜥ</w>
+<w xml:id="tlaIBUBd5I6R6xc4UgYtRW3wgq4Ptw" lemmaRef="tla:tla152710"><fs feats="entity_name gods_name"/>Šw</w>
+<w xml:id="tlaIBUBd2Dex0TejElckDQIjTQzAOU" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdyWqrcntv05Xm3CbgYl0R3w" lemmaRef="tla:tla159480"><fs feats="substantive substantive_masc st_pronominalis plural"/>qꜣs.pl</w>
+<w xml:id="tlaIBUBdwg8AivP5kIYluhQuqrnr0w" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd0585XP0r0v8paHB2G5BXPk">
+<w xml:id="tlaIBUBd8IqmmIDWU0coHWd6r4vVFE" lemmaRef="tla:tla61900"><fs feats="verb verb_3-lit imperative singular"/>pẖr</w>
+<w xml:id="tlaIBUBdQVVZSnWDENSivwpGpQAE3k" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+<w xml:id="tlaIBUBdyQ8JtWJ8E2kkK8kD7sR7lQ" lemmaRef="tla:tla59960"><fs feats="verb verb_3-lit imperative singular"/>pnꜥ</w>
+<w xml:id="tlaIBUBd1JLsxM4rEbujItHECj3YZo" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+</s>
+<s xml:id="tlaIBUBdQx0xNdC0ktok5MG4ysWzz4">
+<w xml:id="tlaIBUBd8r4YeAHxUm8grKXq0Q9Rhc" lemmaRef="tla:tla183430"><fs feats="substantive substantive_masc st_constructus plural"/>ḏbꜥ.pl</w>
+<w xml:id="tlaIBUBdWfyB68zS0M5tWnITEem6iQ" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBdQFRDcFSTk4Gib6ebeKZYcs" lemmaRef="tla:tla108300"><fs feats="adjective nisbe_adjective_preposition st_pronominalis masculine plural"/>ḥr<supplied reason="defective">,j</supplied>.w</w>
+<w xml:id="tlaIBUBd27xXQEqvkGqq2DuDmMjomo" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd0gXwxFhqEhKsX9g8VaGEiM" lemmaRef="tla:tla183430"><fs feats="substantive substantive_masc st_constructus plural"/>ḏbꜥ.pl</w>
+<w xml:id="tlaIBUBdQErP8mELktakBHlt2lIvbc" lemmaRef="tla:tla67110"><fs feats="epitheton_title epith_god"/>Mꜣfd,t</w>
+<w xml:id="tlaIBUBdyrpowA4FEdfhP65SBFjDog" lemmaRef="tla:tla861000"><fs feats="epitheton_title epith_god"/>ḥr,t-jb-ḥw,t-ꜥnḫ</w>
+<w xml:id="tlaIBUBd88g1cbSDESfiBi10WArAjs" lemmaRef="tla:tla171740"><fs feats="verb verb_2-lit suffixConjugation active"/>tf</w>
+<w xml:id="tlaIBUBdWOpPHl3h0uQh2RRVXWGmus" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBd3kcIyjIVEXvhtb58bDLDSw">
+<w xml:id="tlaIBUBd8ZSCU9gvESvq7C7CoDOq2Y" lemmaRef="tla:tla119610"><fs feats="verb verb_2-lit imperative prefixed singular"/>j:ḫr</w>
+<w xml:id="tlaIBUBd3Ye9XpIgUQVjlY4VbG3CpE" lemmaRef="tla:tla24540"><fs feats="verb verb_3-lit imperative singular"/>jfn</w>
+<w xml:id="tlaIBUBd50aw6ipb0RmsQlzS3HAuW0" lemmaRef="tla:tla59960"><fs feats="verb verb_3-lit imperative singular"/>pnꜥ</w>
+</s>
+<s xml:id="tlaIBUBd8m5StzRvECCpxxwhWeOAMM">
+<w xml:id="tlaIBUBd8pW9MIwr0mjkmSrMyK1JO8" lemmaRef="tla:tla167050"><fs feats="verb verb_4-lit suffixConjugation n-morpheme active"/>gbgb.n</w>
+<w xml:id="tlaIBUBd8tM1fKIGUVnixr255pgFgw" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+<w xml:id="tlaIBUBd7vrb8OE00Aet7yB3tL8V84" lemmaRef="tla:tla107500"><fs feats="entity_name gods_name"/>Ḥr,w</w>
+<w xml:id="tlaIBUBd5xVEC1C30u4iaWJ5dWFyt8" lemmaRef="tla:tla850806"><fs feats="particle"/>n</w>
+<w xml:id="tlaIBUBd4SEL3La707EgkT09fJ4QnE" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit suffixConjugation active"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBd3mbSpldcECHhXQO4FQfyKE" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+<s xml:id="tlaIBUBdwuUUlf3L0evoBGTCDSQr2I">
+<lb n="[T/A/E 20 = 311]"/>
+<w xml:id="tlaIBUBd0APHlrQfk98sgGZnomQ6e8" lemmaRef="tla:tla26970"><fs feats="verb verb_4-lit suffixConjugation n-morpheme active"/>jnjn.n</w>
+<w xml:id="tlaIBUBd3khCumCZEQjiHKZKjIUS2w" lemmaRef="tla:tla174900"><fs feats="pronoun personal_pronoun"/>ṯw</w>
+<w xml:id="tlaIBUBdzx8ZuSKhUzEthxqbczFBPc" lemmaRef="tla:tla148520"><fs feats="entity_name gods_name"/>Stš</w>
+<w xml:id="tlaIBUBdWCvkA1gjkTjkFymwMO5MuM" lemmaRef="tla:tla850806"><fs feats="particle"/>n</w>
+<w xml:id="tlaIBUBdQCvELcDaEjOiMxya01wjoU" lemmaRef="tla:tla851887"><fs feats="verb verb_3-lit suffixConjugation active"/>ꜥḥꜥ</w>
+<w xml:id="tlaIBUBd05GfmVVY0kDthXT7Mpd5Io" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

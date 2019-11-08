@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtJV4BIOVAJJBJPM2VHLQA6WNNF4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift Sohn</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Adelheid Burkhardt</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift Sohn nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Adelheid Burkhardt</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>JV4BIOVAJJBJPM2VHLQA6WNNF4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Grabherr und Sohn vor Rinderszenen</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift Sohn</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMR73XWVEBBEWJHEXTJSVZZLQN4">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+<note>nach Kanawati, El-Hawawish, Mitte Pepi II. oder etwas später;
+nach Kanawati, Akhmim, früh bis Mitte Pepi II.</note>
+</origDate>
+<origPlace ref="ths:C2Z63NXQFBBFNLB3RZEJJQTBVQ">Achmim
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Kanawati, Naguib, The rock tombs of El-Hawawish. The cemetery of Akhmim 7, Sydney 1987, 37, Fig. 22a, 23 *[F,U,Ü,L,B];
+Newberry, Percy E., The inscribed tombs of Ekhmîm, in: LAAA 4, 1912, 109, Tomb 13 [H,K];
+Kanawati, Naguib, Akhmim in the Old Kingdom. I: Chronology and administration, Sydney 1992, 309 [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="JV4BIOVAJJBJPM2VHLQA6WNNF4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Adelheid Burkhardt</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-da6e31d4fa3ce4ae91489883ff14bd04</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd52Ks0XMJU32uEjAQUJv54g">
+<w xml:lang="de" corresp="src:tlaIBUBdxWWL9S4XESvkyyqE3CWgeA">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0C8viPQekQdk89IJuOhaiE">ältester, älterer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1fOLwrFkEzwonNzBfhTxwU">(der) Geliebte (von)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWR9nQas3k73oKxN8zUSTEM">[Titel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9puniMUzEvzgUworR4FKvQ">[Titel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5e4OO3oc0HspkebQHs3Rzw">(wohlPN/m)[Zerstörung]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

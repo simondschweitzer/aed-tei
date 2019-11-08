@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idLIKWEJDA7JBQJB6F4ATKQHAMDE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>1. Register v.u.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 1. Register v.u. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>LIKWEJDA7JBQJB6F4ATKQHAMDE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Nordteil</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">1. Register v.u.</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaU5AKI2UJRBDCBJ7AUWXQE6N2NY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza VII, Wien-Leipzig 1944, 219-222, Abb. 88</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="LIKWEJDA7JBQJB6F4ATKQHAMDE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c37dcd071efdd4cb3e85e23696096c69</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd50qNfXskkFsoMql7nynQ9Q">
+<lb n="[1.1]"/>
+<w xml:id="tlaIBUBdyj9vYr7wEwAjGqJCk9byoU" lemmaRef="tla:tla141990"><fs feats="verb verb_caus_3-inf infinitive t-morpheme"/>sḫpi̯.t</w>
+<w xml:id="tlaIBUBdx4IJg4kGkJRs76pTsfApck" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/>rn</w>
+<lb n="[1.2]"/>
+<w xml:id="tlaIBUBdWtcWx1bw0QOnDJFY5b37Xo" lemmaRef="tla:tla66260"><fs feats="substantive st_absolutus singular"/>mꜣ-ḥḏ</w>
+</s>
+<s xml:id="tlaIBUBd81vHazqo03ImoVCW5BQ8N4">
+<lb n="[2.1]"/>
+<w xml:id="tlaIBUBd1KoIj1ZI060rMatJeB8TMg" lemmaRef="tla:tla141990"><fs feats="verb verb_caus_3-inf infinitive t-morpheme"/>sḫpi̯.t</w>
+<w xml:id="tlaIBUBd5kjyV7lXUtitawAhAtnKSs" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/>rn</w>
+<lb n="[2.2]"/>
+<w xml:id="tlaIBUBdzmnxlxvkEpgoWkfvfUrX3E" lemmaRef="tla:tla168210"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>gḥs</w>
+</s>
+<s xml:id="tlaIBUBd5vUPZc34kBUiVQIxTySBAs">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd0SeAiiDhknrnAjyHYuhXLU" lemmaRef="tla:tla94720"><fs feats="substantive substantive_masc st_constructus singular"/>rn</w>
+<w xml:id="tlaIBUBdyIvFy6QYkNDqXFTys1OJFc" lemmaRef="tla:tla22160"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jwꜣ</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

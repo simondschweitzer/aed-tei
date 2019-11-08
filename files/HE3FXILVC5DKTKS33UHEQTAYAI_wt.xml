@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtHE3FXILVC5DKTKS33UHEQTAYAI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>[Szene]</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von [Szene] nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HE3FXILVC5DKTKS33UHEQTAYAI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Alabaster-Stele-Sethos I.</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">[Szene]</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaAY2NPGOGTNADFHOR6HI3FFSNBA">
+<support>
+<objectType ref="ths:EP7XNRXU4ZAU7BKOHF5H2PYC34">Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:BVMSDQRPX5ECXFKTIGQWIOXQOM" notBefore="-1290">Sethos I.</date>
+<date type="latest" datingPoint="ths:BVMSDQRPX5ECXFKTIGQWIOXQOM" notAfter="-1280">Sethos I.</date>
+</origDate>
+<origPlace ref="ths:SGFCZP5Y35GEBCOGT7RCMOXSNM">Karnak
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Sander-Hansen, C.E., Historische Inschriften der 19. Dynastie I, 1-2 (Bibliotheca Aegyptiaca 4), Brüssel 1933 [H];
+KRI I, 38-9 [H], RITA I, 31-2 [Ü], RITANC I, 43-5 [K];
+Davies, B.G., Egyptian Historical Inscriptions of the Nineteenth Dynasty, Jonsered 1997, 257 ff. [U, Ü,K,B]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HE3FXILVC5DKTKS33UHEQTAYAI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>2-695f0ae99f8a384e2e4f7a7fb7c2d547</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWE0kzRdWUmSrQWS0LNEqwQ">
+<w xml:lang="de" corresp="src:tlaIBUBd6QaZq0nLUpLh6QMAyBbMQc">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7drGyRvXUN8nY1RqYwfaQg">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQlzVWv8GUsVufpwAvsZ448">hin zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxoQH7P6K08shAhtdeXQqzo">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5u5X7JD80QIhgM3FlBipic">Sedfest (kgl. Jubiläumsfest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Xg6Z8c3EOBgFPVdX0omww">zahlreich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdznH0n9ao0gok8qhh1ZAQm8">sehr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtKWFCVA5IU5CSJI2FNHUG6SGVJE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>östl. Laibung</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von östl. Laibung nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>KWFCVA5IU5CSJI2FNHUG6SGVJE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Durchgang</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">östl. Laibung</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaKPY5PPPGCVEWZAGDLPQS2HYYHA">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notBefore="-2383">Unas</date>
+<date type="latest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notAfter="-2364">Unas</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Unis Cemetery at Saqqara II: The Tomb of Iynefert and Ihy (reused by Idut), (ACE Rep. 19), Oxford 2003 [P,F,U,Ü], p. 17f., pl. 6, 35-36.
+PM III/2 616</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="KWFCVA5IU5CSJI2FNHUG6SGVJE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-efc541345a0946ada76e93d2676eebb9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd4iYidM7kEZTswAqxhHWhZY">
+<w xml:lang="de" corresp="src:tlaIBUBd9M08mbwz0snku5SUyZBTag">Steinbock</w>
+</s>
+<s corresp="src:tlaIBUBdW1sbPMpuUtZqIa8setWSiw">
+<w xml:lang="de" corresp="src:tlaIBUBd7ti518ZT0SMpb4OHBNfen0">weiße Säbelantilope</w>
+</s>
+<s corresp="src:tlaIBUBd8Bhiw4keUzFvsX0zWCFmx0">
+<w xml:lang="de" corresp="src:tlaIBUBd3J1U8qJ20D1o4zFoyTI5xM">Jungtier</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw9tMmGLqU9Qo4mENMO0W5s">Langhornrind</w>
+</s>
+<s corresp="src:tlaIBUBd9hMd23HsEwsluPw7GJw6Xo">
+<w xml:lang="de" corresp="src:tlaIBUBd2ZIIRrCVUsmsw4HYss1OVA">Jungtier</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwuadNwlZkhVqpa40fNYIzA">Langhornrind</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

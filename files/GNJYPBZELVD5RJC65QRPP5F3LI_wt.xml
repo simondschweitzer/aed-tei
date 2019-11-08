@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtGNJYPBZELVD5RJC65QRPP5F3LI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift 12</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift 12 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GNJYPBZELVD5RJC65QRPP5F3LI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Steinblock-Aufschriften</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift 12</title>
+<textLang mainLang="Egyp-Egypcs">Kursivhieroglyphisch
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7GS3HOHZ2NGSXO2WIETZK3PJZU">
+<support>
+<objectType ref="ths:X5C6WY3M7VBWZBEQHR5EYMK7UM">unbestimmt</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:IS52YO4UPBG6ZO5BFFVWJ26OWY" notBefore="-2620">Cheops</date>
+<date type="latest" datingPoint="ths:IS52YO4UPBG6ZO5BFFVWJ26OWY" notAfter="-2598">Cheops</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza I, Wien-Leipzig 1929, 158-161, Abb. 24, Taf. XXIV.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GNJYPBZELVD5RJC65QRPP5F3LI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypcs">Kursivhieroglyphisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-ac103022a3c79b391e192af1c0131ad0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWvVpKbb70LYjgeoNP6pah0">
+<w xml:lang="de" corresp="src:tlaIBUBd7nDov0fi0P1nEKU6YoZzQg">Regierungsjahr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1BoqQ1lZE8lqecqwt7R9po">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyns8jWys0N2hU9VafaJhpI">Monat</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWZsSZP8WUKugfgKBRFO21w">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQAaivbvj0Edv7WpeBWYPuQ">Peret-Jahreszeit (Winter)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd34QxCGw2kVuiSkQeDUZ5f4">Tag</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9Po3QcFHUArq5hIR60Pj2k">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGRXDEN2KFBD5TIN72UFZ52XU5Y">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften (4. und 5. Person v.r.)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften (4. und 5. Person v.r.) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GRXDEN2KFBD5TIN72UFZ52XU5Y</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Tischler-Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften (4. und 5. Person v.r.)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaEU6RDQSSB5A67AOX3JVNWIVFJI">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 132-133 [P]
+Abklatsch-Serie des Wb-Archivs Kasten 573 Abklatsch 8/9-12</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GRXDEN2KFBD5TIN72UFZ52XU5Y.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-09ee532ee2492b9f7e8affa04e2802e9</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3yAJAGKAkJIvFm3SspU4LE">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd0W5ZDe4E0T0mBrW85TF9Pk" lemmaRef="tla:tla49470"><fs feats="verb verb_3-inf infinitive t-morpheme"/>wsi̯.t</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd5zKs4Wlt0i4uizWiavfV3c" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd7OSegnjmESIpTnhoCy8yO0" lemmaRef="tla:tla876482"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tf</w>
+</s>
+<s xml:id="tlaIBUBdzWpHKub5k7ZrsIxDd9R6r0">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd9GBQVEsD0HRocglVBhZDKI" lemmaRef="tla:tla20030"><fs feats="interjection"/>j</w>
+<w xml:id="tlaIBUBd7MIIfGKJE96gVRSLBq3E5o" lemmaRef="tla:tla71060"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>mnḫ</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd7pI9CZrw0FViDMeeHEA1Uo" lemmaRef="tla:tla851706"><fs feats="verb verb_3-inf"/>jmi̯</w>
+<w xml:id="tlaIBUBd7cIjoEy50cEttRWsR393qM" lemmaRef="tla:tla45920"><fs feats="verb verb_3-lit infinitive"/>wmt</w>
+<w xml:id="tlaIBUBdQ2UgHjicEcHmT8ABauwIiE" lemmaRef="tla:tla148810"><fs feats="substantive substantive_fem st_pronominalis plural"/>sṯꜣ,t.w</w>
+<w xml:id="tlaIBUBdxq42viVJE7NoXWiQoPdI8U" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

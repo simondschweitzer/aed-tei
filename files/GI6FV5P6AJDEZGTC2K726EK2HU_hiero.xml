@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroGI6FV5P6AJDEZGTC2K726EK2HU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift 3. Feld</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Adelheid Burkhardt</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift 3. Feld nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Adelheid Burkhardt</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GI6FV5P6AJDEZGTC2K726EK2HU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opferformel und Beischriften</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift 3. Feld</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaNQ3VFIEP65HRVDWIOFDS5SLWUM">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+<note>nach Kanawati</note>
+</origDate>
+<origPlace ref="ths:C2Z63NXQFBBFNLB3RZEJJQTBVQ">Achmim
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Kanawati, Naguib, The rock tombs of El-Hawawish. The cemetery of Akhmim 7, Sydney 1987, 49, 51, Pl. 8a, Fig. 35a *[P,F,U,Ü,K,B];
+Kanawati, Naguib, Akhmim in the Old Kingdom I: Chronology and administration, Sydney 1992, 309 [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GI6FV5P6AJDEZGTC2K726EK2HU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Adelheid Burkhardt</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-bb2af23ab503ebb4fe10dcdcef39db5f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd8EnWW6GQU18ouekDXNWlN8">
+<w corresp="src:tlaIBUBdzQK6mzdxUUhtMkQ6J6XrC8"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdzkEIQ9ej0psqhyZM6PsRsc"><unclear></unclear></w>
+</s>
+<s corresp="src:tlaIBUBd2rQJv0OVkhCsdKYeA0ByCo">
+<w corresp="src:tlaIBUBd7sUGziJWUTRnoYcOM4e8XQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdQ7hWWh2106Vnra1ayXyfCg"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd7BiUlROWkLwkdvH5gp4bYs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxJ1L5IvqUnjqFQsypgGtDc"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

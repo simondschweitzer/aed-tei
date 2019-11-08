@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idFGH6DVTF6RBOPM7DXH5HQTN6PU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>FGH6DVTF6RBOPM7DXH5HQTN6PU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGUUMUYPBEJFSHAYLTFWMWNJGAM">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4XVWKCUISJDA5OWB724D2CPBRI" notBefore="-2588">Chefren</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1932-1933, Cairo 1943, 115-116, fig. 61 [H, K, Ü]
+LD II 42, LD Text I, 108-109, LD Ergbd. Taf. XXXVII</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="FGH6DVTF6RBOPM7DXH5HQTN6PU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c3e907576dd74581224d539e1a0b5d90</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd76HzgjwLURcjqaN3VodA28">
+<lb n="[1. Register v.o.]"/>
+<w xml:id="tlaIBUBdQm4DFlnoU2nmQxDupjdzWk" lemmaRef="tla:tla26140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jmn,t</w>
+</s>
+<s xml:id="tlaIBUBd6lJzxg6Y05VgkjlH23FV3k">
+<lb n="[2. Register v.o.]"/>
+<w xml:id="tlaIBUBd0fshAxCQkQpoqukFpnqDoA" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf imperative prefixed"/>jri̯</w>
+<w xml:id="tlaIBUBd6vjExHcn089ujq9kLOPzlk" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdyPYR8VhNUtvgQhbDNsdWiQ" lemmaRef="tla:tla25350"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jm,j-wr,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

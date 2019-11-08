@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtHEISFI7BNNFQZMOWZX2RMKFMRI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>HEISFI7BNNFQZMOWZX2RMKFMRI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaF4E3X6GMARDLFF4C4NGTL43PVM">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4XVWKCUISJDA5OWB724D2CPBRI" notBefore="-2588">Chefren</date>
+<date type="latest" datingPoint="ths:B6LUZDUOMJDC3G3JVUHHECQCAM" notAfter="-2523">Schepseskaf</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1934-1935, Bd. 6.3, Cairo 1950, 61, fig. 44, pl. XXVIII [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="HEISFI7BNNFQZMOWZX2RMKFMRI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-b2168dfd0a3059b7a06091eaf31d524c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd8FW6cUhz04duVoLkxdKlzI">
+<w xml:lang="de" corresp="src:tlaIBUBd0CHsstrNUcSgehrlk7a7wE">Königstochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5TcfQTBjEXBodPssBkVQPU">die Geliebte</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ZIsK6n2kNinKyooe2VfeQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzj3jvnHm0QAsSLViufkQ1E">Hemet-Re</w>
+</s>
+<s corresp="src:tlaIBUBd8f3tT0d9Ej8qqYL4OSvB7M">
+<w xml:lang="de" corresp="src:tlaIBUBd64q9m8dYUF3pADhOHAmKro">Vorsteher der Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9mVTrBni0tJn14MU2NaY4w">Senebeu-kai</w>
+</s>
+<s corresp="src:tlaIBUBd5D7SQ4yRUXEj2ZAh1dKl9I">
+<w xml:lang="de" corresp="src:tlaIBUBd9yjhNT7I0h8sxH5WJQ6878">Verwalter des Königsvermögens</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6D9hXH8r0DLgO5gUcJ080s">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyIuJ7JhCkUdkt0Q7xgnGt8">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdysiMiq8U0Usti7EmSRmzE8">Ra-schepsesu</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW12b5SaWEFPvTKbtSem4RI">der Jüngere</w>
+</s>
+<s corresp="src:tlaIBUBdyDOOkJsg0YHhHIAMUbyYq4">
+<w xml:lang="de" corresp="src:tlaIBUBd3LPDWab209QlbMV006ryrU">Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd883dr1Mf0AupQjVmhBIQmQ">Dju-pu-nebu</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

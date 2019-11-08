@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idGHSTZRNCIFDUZNZLBNMJJ35XLA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>GHSTZRNCIFDUZNZLBNMJJ35XLA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>rechte Türlaibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaNWA74HENVBEZNOYFNEHVZHUGEU">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>R. Hölzl, CAA Kunsthistorisches Museum Wien, Lfg. 21, Mainz 2001, 11-15 [P, F, H, Ü, K, L]
+H. Junker, Giza VII, Wien-Leipzig 1944, 133-138, Abb. 51 [F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="GHSTZRNCIFDUZNZLBNMJJ35XLA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-7d08ab083d65a80bb961a701ad86c823</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdz3fMYWurEbOjF73tkQY090">
+<lb n="[oben⁝1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd1bfzPmUUUaznWkvZa9DMSg" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><supplied reason="lost"><unclear>_</unclear></supplied>-ḫnt,j-š</w>
+<w xml:id="tlaIBUBd6uCUMBFuEVTr0fRVfE4aVY" lemmaRef="tla:tla200007"><fs feats="entity_name person_name"/>N,j-sw-qd</w>
+</s>
+<s xml:id="tlaIBUBdzcpX03HvkWXhwdUPhy4d9Q">
+<lb n="[oben⁝2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdWFPRQXUzEOEmRNuzWd2I34" lemmaRef="tla:tla850713"><fs feats="epitheton_title title"/>ḥm-nṯr-<supplied reason="lost">Ḫwi̯≡f-wj</supplied></w>
+</s>
+<s xml:id="tlaIBUBdzQQv5rQNkg7izDbjd45nic">
+<lb n="[Mitte]"/>
+<w xml:id="tlaIBUBd2d7oQmuP07UtnEWurKlVys" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd8MMdvMjyUHQkwopEXWg1T8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdw1B0JmjkkUztnhwH8WxY80" lemmaRef="tla:tla135720"><fs feats="adjective nisbe_adjective_substantive masculine singular"/>sms,w</w>
+<w xml:id="tlaIBUBd1AxKYNiIEeXgzIQYpt2Xg8" lemmaRef="tla:tla450140"><fs feats="epitheton_title title"/>ḫnt,j-š-pr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd9QikbtcVksAo4ylEFOWoOw" lemmaRef="tla:tla400294"><fs feats="entity_name person_name"/>Sꜣbj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
