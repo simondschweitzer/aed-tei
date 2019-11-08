@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idV2JGOTY3O5BUZAIHO3PYTXWKBA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>rechter Innenpfosten (A91)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von rechter Innenpfosten (A91) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>V2JGOTY3O5BUZAIHO3PYTXWKBA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">rechter Innenpfosten (A91)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaKBRF66JKDFAY3NIEBKMDH3SFEI">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Altenmüller, Hartwig: Die Wanddarstellung im Grab des Mehu in Saqqara, Archäologische Veröffentlichungen, Deutsches Archäologisches Institut, Abt. Kairo, Berlin bzw. Mainz, Bd. 42, Mainz 1998, 245-250, Taf. 95, Abb. 35, 36.
+[P,F,H,Ü,K,L,B,U]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="V2JGOTY3O5BUZAIHO3PYTXWKBA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-e233c264ca7cedb8fc4e47599433a7f5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5GCHZBWokk7hAqs7VrO18M">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd4TlxZiE90QTvQwpWpIrhxU" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/>ḫtm,tj-bj,tj</w>
+<w xml:id="tlaIBUBdyWn31lJkk2JseQzzQtcpvQ" lemmaRef="tla:tla450633"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-gs-pr</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdy0lFeWE4UQug4SBU4oL5pU" lemmaRef="tla:tla850391"><fs feats="epitheton_title title"/><damage>jmꜣḫ,w</damage>-ḫr-Wsjr</w>
+<w xml:id="tlaIBUBdzn6yj8waEvAi2vFmX7NXWQ" lemmaRef="tla:tla400314"><fs feats="entity_name person_name"/><damage>Mr,y-Rꜥw-ꜥnḫ<supplied reason="defective">,w</supplied></damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

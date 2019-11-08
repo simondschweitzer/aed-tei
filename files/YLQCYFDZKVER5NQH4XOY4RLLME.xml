@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYLQCYFDZKVER5NQH4XOY4RLLME">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YLQCYFDZKVER5NQH4XOY4RLLME</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Fragment einer Kalksteinplatte (L)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTWM47YJRRBBNTFYJXBIWKOOMN4">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notBefore="-2499">Neferirkare</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 34, pl. XXXVII.5</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YLQCYFDZKVER5NQH4XOY4RLLME.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-29897d9a47e09a1eed6e23dc1fab5174</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd3MMXI5ImESTq4f3e46E1U8">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdx03K2nLs0cohlV4w3K91QA" lemmaRef="tla:tla850763"><fs feats="epitheton_title title"/>mrr,w-nb≡f</w>
+<w xml:id="tlaIBUBd2lnS3uY40YChO0ZSqXLiuM" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-<supplied reason="lost">wr</supplied></w>
+</s>
+<s xml:id="tlaIBUBd9WwgXxlBkWouGlm1CUf7kQ">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdQ2lbEWeEkVEoToCtsUNDaA" lemmaRef="tla:tla850831"><fs feats="undefined"/>s<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd24NM7IiKk8ImF4ciyDtcj0">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd4wQe0gjp0WpsrmZaXscJa0" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd2NwHP7SKEZhvfqfp5bCVMc" lemmaRef="tla:tla850831"><fs feats="undefined"/>ḥnb</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdylPWG0dyEQxuC4LVzZVuCM">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd6oZGHOe30eKhhPWKQiiKuc" lemmaRef="tla:tla94530"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>r<supplied reason="defective">m</supplied>ṯ</w>
+<w xml:id="tlaIBUBdxDENsJn8ERkjB26WvTgfYc" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

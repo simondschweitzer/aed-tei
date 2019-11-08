@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idUOPESLJMTBBIHADIHAXRFEQSYA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>UOPESLJMTBBIHADIHAXRFEQSYA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>linker Außenpfeiler</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4IMFIZIZ7RB6PGCVZQ7QYYLHLY">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza IX, Wien 1950, 177, Abb. 78 [F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="UOPESLJMTBBIHADIHAXRFEQSYA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-2fc4ac3460e14277b5eac6f852abeaca</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5NYCLR3OUjMkaQZaW3Fw9Y">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdx7tMFfgUkZdt0sBInwVED8" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/>sḥḏ-ḥmw,<supplied reason="lost">tw-<unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBdQakY69QWki5l1X20p185JI" lemmaRef="tla:tla450414"><fs feats="entity_name person_name"/>Ꜥnḫ-ḥꜣ≡f</w>
+<w xml:id="tlaIBUBd7ibiSumL009iS5LQNpzvnc" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit suffixConjugation active"/><damage>ḏd</damage></w>
+<w xml:id="tlaIBUBdwMdBTZItUWsu7muQPHg63g" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+</s>
+<s xml:id="tlaIBUBdwaGH5we90QWlgzDCCrWOp8">
+<w xml:id="tlaIBUBdWEuW3gelUAKgeZLVmV7VkQ" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf suffixConjugation active"/><damage>jri̯</damage></w>
+<w xml:id="tlaIBUBdWZsnWWSeUazidwpRjfW4P4" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=<damage><supplied reason="defective">j</supplied></damage></w>
+<w xml:id="tlaIBUBd4n7oUdP7kGsuCiaBakrLPQ" lemmaRef="tla:tla78870"><fs feats="preposition"/><damage>n</damage></w>
+<w xml:id="tlaIBUBd4nlJCSeMU2Pqe2Z0KTObOc" lemmaRef="tla:tla32820"><fs feats="substantive substantive_masc st_pronominalis singular"/><damage>jtj</damage></w>
+<w xml:id="tlaIBUBd3Jzs5EzPUFYjnVZfCHy0Fs" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=<damage><supplied reason="defective">j</supplied></damage></w>
+<w xml:id="tlaIBUBd2nCYxoHa022hrISSeDsOwE" lemmaRef="tla:tla850800"><fs feats="preposition"/><damage>ḥnꜥ</damage></w>
+<w xml:id="tlaIBUBd6tCjKEiQ0Ito4L0aJTabk0" lemmaRef="tla:tla69040"><fs feats="substantive substantive_fem st_pronominalis singular"/><damage>mw,t</damage></w>
+<w xml:id="tlaIBUBd4XysFei5UYno1EgQ1UGNBs" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=<damage><supplied reason="defective">j</supplied></damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

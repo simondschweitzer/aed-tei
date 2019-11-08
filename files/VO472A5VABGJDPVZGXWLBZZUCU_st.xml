@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stVO472A5VABGJDPVZGXWLBZZUCU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Ineni (Berlin 19500)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Ineni (Berlin 19500)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VO472A5VABGJDPVZGXWLBZZUCU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>19500</idno>
+<msName>Stele des Ineni (Berlin 19500)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Ineni (Berlin 19500)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaRSKAXAKTUNCVHBELMFW5SO6TQM">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; 54 x 84 cm (B x H)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notBefore="-1793">13. / 14. Dynastie</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>13. Dynastie; vielleicht Sobekhotep IV. (Franke, Heqaib, 74, 103; Kubisch, 251)</note>
+</origDate>
+<origPlace ref="ths:FYST3LL3LZBX3K27RVU3HFWFDM">Elephantine
+<note>Gefunden von F. Zucker am 24. Okt. 1907. Fundumstände bei W. Müller, in: FuB 22, 1982, 9-10</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. V, Oxford 1937, 242 [B]
+
+- Ägyptische Inschriften aus den Königlichen Museen zu Berlin, I. Inschriften von der ältesten Zeit bis zum Ende der Hyksoszeit, Leipzig 1913, 260-261 (Nr. 19500) [H]
+- L. Habachi, in: ASAE 50, 1950, 506 [Übers. v. Zl. A.1-3]
+- W. Müller, in: FuB 22, 1982, 9-10 [K]
+- I. Müller, Eine Stele des Mittleren Reiches von Elephantine, in: FuB 24, 1984, 30-33 und Tf. 1-2 [*P, *H, Ü, K]
+- D. Franke, Das Heiligtum des Heqaib auf Elephantine, SAGA 9, Heidelberg 1994, 75 [Übers. v. Z. D.2-5]
+- T. Schneider, Ausländer in Ägypten während des Mittleren Reiches und der Hyksoszeit, I. Die ausländischen Könige, ÄAT 42/1, Wiesbaden 1998, 164 [Übers. v. Zl. D.2-5]
+- S. Kubisch, Lebensbilder der 2. Zwischenzeit: biographische Inschriften der 13.-17. Dynastie, SDAIK 34, Berlin - New York 2008, 251-254 und Taf. 8b (Elephantine 1) [*P, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>19500</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VO472A5VABGJDPVZGXWLBZZUCU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d79d27ae98746c2e7c2f0a14054f01f0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdwkvOIPy1kVLihnX9o1uStw">Oh ihr Lebenden, die auf der Erde sind, oh alle Schreiber, Vorlesepriester und Wab-Priester, die zu diesem Opferstein kommen werden, ihr sollt sagen:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd52K6Qi0zUyPlnAxS6Utp3k">Ein Opfer, das der König, Satis, die Herrin von Elephantine, Anukis, geliebt von ihrer Mutter, (und) Chnum, Herr des Kataraktengebietes, geben.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzovX1mc2UxSjv4D64wW8Ts">Mögen sie ein Totenopfer geben (bestehend aus) Brot, Bier, Rindern, Geflügel, Weihrauch, Salböl und allen schönen und reinen Dingen, von denen ein Gott lebt, für den Ka des Offiziers der Nubier, Ineni, des Gerechtfertigten, den Senet geboren hat, den Heqa-ib, der Gerechtfertigte, gezeugt hat, (und für) seine Frau, die er liebt, Dedet-anuket, die Gerechtfertigte, die die Herrin des Hauses Dedet-nebu, die Gerechtfertigte, geboren hat.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQSeBrS3VkKyox3VBFwzM8k">Seine Tochter Ibi.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1blL9qoSEmjgWTfpj5DcFI">Seine Tochter Dedet-anuket.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwbIQSYt5U6ykb3f0WL7bvA">Seine Tochter Sat-tjeni.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3ofyC8Yg0CuirndDfjIVtc">Seine Tochter Inet-uau [...].</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9oJVgZVm010mWkjkAfpAIU">Bebu, seine Tochter.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwwbcSll20NDhOvhdeIWbmY">Worte sagen durch den Offizier der Nubier, Ineni, wobei er sagt:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd87W6TqTYEXpnQEzWWj05Js">Ich bin ein Schweigender, der frei von Lüge ist; ein vortrefflicher Einzigartiger, den seine Stadtbewohner lieben.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzLxBh9ISke3kgtSv9h750Q">Ich habe viele Aufträge ausgeführt beim Stromaufwärtsfahren nach Kusch.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4QHKdudDkL1voOHHPK4k5E">Kein Unrecht wurde bei mir gefunden, es geschah keine Beschwerde über mich.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4ZWnbqkBkeTieptmjgAm94">Nicht hat (man) sich über mich beschwert; nicht wurde über mich berichtet, daß ich schlafen würde, mit dem Ergebnis, daß ich zurückgehalten worden wäre [... ... ...].</s>
+</ab>
+</body>
+</text>
+</TEI>

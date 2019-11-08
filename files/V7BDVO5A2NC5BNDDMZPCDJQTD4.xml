@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idV7BDVO5A2NC5BNDDMZPCDJQTD4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Scheintürtafel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Scheintürtafel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>V7BDVO5A2NC5BNDDMZPCDJQTD4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Scheintürtafel</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPA7X6ZPV7FH3BAGMOQZUTG2RGU">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, A. Hassan, The Teti Cemetery at Saqqara I: The Tombs of Nedjet-em-pet, Ka-aper and Others (ACE Rep. 8), Sydney 1996, 69-73, pl. 35, 65 [P,F,U,Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="V7BDVO5A2NC5BNDDMZPCDJQTD4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-fabe5799b6f3276094f1bafd43b8bfe5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0g9STUnv0ePuQJyAQey3vI">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdx6QjJ9yuEkKqB45rWzaQkg" lemmaRef="tla:tla400432"><fs feats="epitheton_title title"/>šps<supplied reason="defective">,w</supplied>-nswt</w>
+<w xml:id="tlaIBUBdWtxr8F3jEefiCKvKyWRtDQ" lemmaRef="tla:tla400520"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-s,t</w>
+<w xml:id="tlaIBUBd5YKeC77TEUhhWtcRnBk2lU" lemmaRef="tla:tla850765"><fs feats="entity_name person_name"/>Gr≡f</w>
+</s>
+<s xml:id="tlaIBUBdxW7aQNP00CQkros807Lq7A">
+<lb n="[2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd3STAAx8DUb8pYj2iOe7mCI" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd9kPzP1bFEiKtVZ2W3lc0tg" lemmaRef="tla:tla71170"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mnḫ<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBdxH7TuqJx07VqeyF9Hf94nI" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd0DrWr7jJ0LQn8pY1Eh4Mdw" lemmaRef="tla:tla162930"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

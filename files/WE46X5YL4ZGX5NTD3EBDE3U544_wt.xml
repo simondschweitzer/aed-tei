@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtWE46X5YL4ZGX5NTD3EBDE3U544">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Aufschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Aufschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>WE46X5YL4ZGX5NTD3EBDE3U544</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>2. Statue</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Aufschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaOAJ3XGPWJBBGDFBSWFEJQ7PVZA">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. II, Cairo 1975, 18, pl. VI B2, VII A2, B2, VIII A2, B2, X [P, F, H, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="WE46X5YL4ZGX5NTD3EBDE3U544.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-8699dcd51d1e61d9c6cf6bbed6dfbd2b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQdsreJ7GUnHvZyk1XFhIZE">
+<w xml:lang="de" corresp="src:tlaIBUBd4G4LoMr1Ug9vZeWAxS1ErQ">Versorgter bei Osiris, der an der Spitze von Busiris ist</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1QKBBEUv0RnqwLPtwunEts">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0QCU26zZECUnsjpBuuVBuc">Vorlesepriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwpMeV4UkEdUu1Rrctij8qk">Vornehmer des Königs</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQYh6Ime10UEk1MI3rUXdnE">Ni-anch-Pepi</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2SBvUtL2Ut8pgyj0EjCqNM">Kosename</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7OeMGw1TEAhkrsx7UfljIc">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Et0GmNukGqi2oPQP0t9Dc"></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

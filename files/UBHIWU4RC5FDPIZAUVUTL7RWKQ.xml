@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idUBHIWU4RC5FDPIZAUVUTL7RWKQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften unterstes Register</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften unterstes Register nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>UBHIWU4RC5FDPIZAUVUTL7RWKQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften unterstes Register</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaA4R3R3SLVJF3LI4KCOLC7TRGUE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. II, Cairo 1975, 108f., Fig. 56, pl. LXXXIII-LXXXVI
+[P, F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="UBHIWU4RC5FDPIZAUVUTL7RWKQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-193586f6d06f3d745d4805dce27909fd</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd2lx2ZZOrktrosJ9YPJJmz8">
+<lb n="[Szenentitel]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdyDWeREKBU8KpKshraM3ByU" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost"><unclear>_</unclear></supplied>s</w>
+<w xml:id="tlaIBUBdQHJ2ENt6UWGsql7ykMPsgg" lemmaRef="tla:tla709208"><fs feats="entity_name person_name"/>Ṯfw</w>
+<w xml:id="tlaIBUBdwyEY96QNUasrCOWoe3rnDA" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBdy3AvEVtGUZNh05wUoWaDQ0" lemmaRef="tla:tla855336"><fs feats="epitheton_title title"/>mrr,w-jmn,t</w>
+</s>
+<s xml:id="tlaIBUBdWIP0KFldE8YsleYQqsSeeM">
+<lb n="[1. Personen-Beischrift]"/>
+<w xml:id="tlaIBUBdyuMhd3pcU3UrGDDavPyBiw" lemmaRef="tla:tla184660"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>Ḏr,t</w>
+</s>
+<s xml:id="tlaIBUBdzufwTbPnkbkuqFwB6ZKUYY">
+<lb n="[2. Personen-Beischrift]"/>
+<w xml:id="tlaIBUBdzoDhZX6KkODgWAXO81KALw" lemmaRef="tla:tla855335"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫtm,w-nṯr-m-mr,t</w>
+</s>
+<s xml:id="tlaIBUBdwAEkwRcpUQtgtn1jKNKOu8">
+<lb n="[3. Personen-Beischrift]"/>
+<w xml:id="tlaIBUBd6FKWDq5aUyugCNwrDyN0FE" lemmaRef="tla:tla855795"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idW3MQZSANMZG5PIHZQNLNKBQE6E">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift (Grabherr)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift (Grabherr) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>W3MQZSANMZG5PIHZQNLNKBQE6E</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>zentrales Bildfeld (linker Teil)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift (Grabherr)</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaIEEYWD57NJHJTCB56BK4NXS4QE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi II: The southern cliff (ACE Rep. 25), Oxford 2007, 41-43, pl. 4 19-20, 21, 51, 71
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="W3MQZSANMZG5PIHZQNLNKBQE6E.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3b5b3bbaa68c992b1f6902d47ce8d1ef</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0AhaQpWLUx5tbBiCfWPrAs">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdwgfWQXECUnXnMBEvQSeQ8E" lemmaRef="tla:tla66270"><fs feats="verb verb_2-gem infinitive"/><supplied reason="lost">mꜣꜣ</supplied></w>
+<w xml:id="tlaIBUBd8RBzVZXh0VZkXbwAb3bpss" lemmaRef="tla:tla146610"><fs feats="verb verb_3-lit infinitive"/>skꜣ</w>
+<w xml:id="tlaIBUBd9XWfvDzvEuXjikV8ZqVMzM" lemmaRef="tla:tla854530"><fs feats="verb verb_3-inf infinitive t-morpheme"/>ḥwi̯<supplied reason="lost">.t</supplied></w>
+<w xml:id="tlaIBUBd8fVmRmgkUACj8EPFwyOnpw" lemmaRef="tla:tla450266"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>mḥꜥ</damage></w>
+<w xml:id="tlaIBUBd2c7UW0xW0vcqDSh2qRYnpA" lemmaRef="tla:tla264"><fs feats="verb verb_3-lit infinitive"/><damage>ꜣzḫ</damage></w>
+<w xml:id="tlaIBUBd4q3HSY1MkwDrqVrSUeLkPg" lemmaRef="tla:tla854561"><fs feats="verb verb_3-inf infinitive t-morpheme"/><damage>š</damage>di̯.t</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd7do5lKQ1kk8rdnrRF97qg8" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdydpyqF4B0hBm32CvG0qrmY" lemmaRef="tla:tla103300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>ḥ<supplied reason="defective">ꜣ</supplied>b</damage></w>
+<w xml:id="tlaIBUBdygHRoRroEjViLUbdlqlvH4" lemmaRef="tla:tla81660"><fs feats="adjective masculine singular"/>nb</w>
+<w xml:id="tlaIBUBd07QzYJfNUe1r7lEaDN5by8" lemmaRef="tla:tla550034"><fs feats="adjective masculine singular"/>nfr</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdwQ1xa2TT0Xbh5wJLfCC0XI" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd9koMqj0okUapvPPQmT6aqg" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+<w xml:id="tlaIBUBdxtZvQNFJEuQg98WbMJB7M0" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/><supplied reason="lost">n</supplied></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd0JFGmK2ak6wnaImcxigyT8" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/><supplied reason="lost">ẖr,j-</supplied>ḥ<supplied reason="lost"><supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></supplied></w>
+<w xml:id="tlaIBUBd7QdcJJAcULdlDF28GJWqOo" lemmaRef="tla:tla855741"><fs feats="epitheton_title title"/><supplied reason="lost">ḥr,j-tp</supplied></w>
+<w xml:id="tlaIBUBd3y8uIs7HE48lUAZEkn7C3A" lemmaRef="tla:tla550352"><fs feats="epitheton_title title"/>ḫrp-šnḏ,t-nb<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBdxwm5NIjAUPQtCw9xi3BfNs" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/><supplied reason="lost">ḫtm,tj</supplied>-<damage>bj,tj</damage></w>
+<w xml:id="tlaIBUBdWdgHbsi6ESAllxtS58PUdk" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/><damage>smr-wꜥ,tj</damage></w>
+<lb n="[4]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd24XrTUKJkBOsBuRPeL8nLM" lemmaRef="tla:tla400143"><fs feats="epitheton_title title"/><damage><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-šnw,tj</damage></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd3d36AmkZUAwrTDQiUC7uTc" lemmaRef="tla:tla850326"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-zš,wj</w>
+<lb n="[5]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd4UNZJQvPk89ivrVsaS1yYg" lemmaRef="tla:tla850278"><fs feats="epitheton_title title"/>rʾ-Pj-nb</w>
+<gap reason="lost" />
+<lb n="[6]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd0hFb7KryUqRsvac5NI6DLw" lemmaRef="tla:tla400216"><fs feats="entity_name person_name"/><damage>Jbj</damage></w>
+<lb n="[7]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd5Fg8rZqOU1fvtlY2EM0zWA" lemmaRef="tla:tla850039"><fs feats="epitheton_title title"/>ẖkr,t-<supplied reason="lost">nswt-</supplied>wꜥ,tt</w>
+<w xml:id="tlaIBUBd1p5TF243UD7gBj3qcI3w2g" lemmaRef="tla:tla850115"><fs feats="epitheton_title title"/>šps,t-nswt</w>
+<lb n="[8]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd5yQj5wdpEmphInJOcjjROU" lemmaRef="tla:tla450386"><fs feats="entity_name person_name"/>Ḥm-Rꜥw</w>
+<w xml:id="tlaIBUBdzGysYBPLExRiuQ8SR9I80o" lemmaRef="tla:tla94780"><fs feats="substantive st_pronominalis singular"/>rn</w>
+<w xml:id="tlaIBUBdzTb8K5odEPRlspov9Q5tVo" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+<w xml:id="tlaIBUBd21AeiqWwUkWq6b9vVuTmHQ" lemmaRef="tla:tla0"><fs feats="unknown"/>nfr</w>
+<w xml:id="tlaIBUBd57LaY4nrU0ms2YlE8OKAx8" lemmaRef="tla:tla400320"><fs feats="entity_name person_name"/>Ḥmj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroVQ3MTHBZCJE77BVV3FEBPSJKUA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VQ3MTHBZCJE77BVV3FEBPSJKUA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Fragment einer Kalksteinplatte (H)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaT2QEOCFI5JDJ3IO773FJ2CEWO4">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notBefore="-2499">Neferirkare</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 34, pl. XXXVII.2</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VQ3MTHBZCJE77BVV3FEBPSJKUA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-b4bd455e8a4854500f32785a659bba20</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd56krsOYokQigMlJLg9O0Qc">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1bW2whO6knfocw8YphSaLQ"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5Id5J2HGkGpmTlpzpaDlmc"><unclear></unclear></w>
+<w corresp="src:tlaIBUBdxo8QW53tkTvrvZA6kuVZhI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd33k363rp03FucqcCshwKN0"><unclear><note>Keine Entsprechung in Unicode für G131</note></unclear></w>
+<w corresp="src:tlaIBUBdWpYODhB70Zll7v68b9vRso">𓀗</w>
+<w corresp="src:tlaIBUBd3N9QhZ5jkQGoCzoUmCmntM">𓄤</w>
+<w corresp="src:tlaIBUBdzoySZlsAEfRlWK9xLjwmCw">𓅨𓂋𓏏</w>
+<w corresp="src:tlaIBUBdw39Z6alJEjiieXJPVHuUK4">𓐍𓂋</w>
+<w corresp="src:tlaIBUBdwNtJQs2RkT7g6OcW4RWFu0">𓊹𓉻</w>
+<gap reason="lost" />
+</s>
+<s corresp="src:tlaIBUBd2gqhPyrN0F2mfepaNcdsQ4">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1k87QcOPEWcpopdXtRlp7s"><unclear>𓁷𓂋𓈙𓏏𓍔𓈖𓉐𓂧𓍯𓇼𓉐</unclear></w>
+<w corresp="src:tlaIBUBd0OqDoJAMkdBqsw5WA8GZkE"><unclear>𓇑</unclear></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

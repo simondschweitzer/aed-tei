@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYNBTS5W3NBBYHKQGDNSVXFQWXA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linker Mittelpfosten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linker Mittelpfosten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YNBTS5W3NBBYHKQGDNSVXFQWXA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linker Mittelpfosten</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGNLE3VQN7NF4BNJIL7TX6KPNMM">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. B. Lloyd, A. J. Spencer, A. el-Khouli, Saqqara Tombs III: The Mastaba of Neferseshemptah, London 2008 (ASE 41), 27-28, Taf. 24, 43
+[P, F, H, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YNBTS5W3NBBYHKQGDNSVXFQWXA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-e28ae6baa7d2a1aac1ef6497f5bcee72</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5Qiae7hY07QqV2bCig5ZO0">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd2NAHsfeF0cRqFKdx4Duc1M" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBdy7LjfDyNkZdjkDP8lpEvTA" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/><damage>nswt</damage></w>
+<w xml:id="tlaIBUBdzZ2MrnU0Uq9umOH0aD4gkA" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBd9U5NOJh909Uk2vWmw71480" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/><damage>Jnp,w</damage></w>
+<w xml:id="tlaIBUBd2W9CH2kY0vGmXxD2svqWh8" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/><damage>ḫnt,j-zḥ-nṯr</damage></w>
+<w xml:id="tlaIBUBd3YMQbi3bEOyiaRQhalhpQI" lemmaRef="tla:tla25390"><fs feats="epitheton_title epith_god"/><damage>jm,j-wt</damage></w>
+<w xml:id="tlaIBUBd2inPsNfiUkCoAf0Jlo79WI" lemmaRef="tla:tla600421"><fs feats="epitheton_title epith_god"/><damage>tp,j-ḏw≡f</damage></w>
+</s>
+<s xml:id="tlaIBUBd5vX95YDYUS9qFWRMWqqB00">
+<w xml:id="tlaIBUBdyXTbhTWNESqkhmdnOoGWIw" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/><damage>pr<supplied reason="defective">,t</supplied>-ḫrw</damage></w>
+<w xml:id="tlaIBUBdQM0Vh6mQ0KmvxeQtbdMF4o" lemmaRef="tla:tla78870"><fs feats="preposition"/><damage>n</damage></w>
+<w xml:id="tlaIBUBd9KpLWwDJ0QahECtmjX4ayo" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+<w xml:id="tlaIBUBd9XohqzjM03IhJujGbKwEWU" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBdwfW8hfleEXjpW7mJiRDTPQ" lemmaRef="tla:tla45600"><fs feats="entity_name artifact_name"/><damage>Wp-rnp,t</damage></w>
+<w xml:id="tlaIBUBd3X2CkRfk0QgpouYJVOcYUI" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBdWuWs7DDWEmgrCAtQKc0IDQ" lemmaRef="tla:tla185300"><fs feats="entity_name artifact_name"/><damage>Ḏḥw,tyt</damage></w>
+<w xml:id="tlaIBUBdWsQUMsDBUyhpVoRAC2hQQs" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBd7F6WBTXkEehuCEzgrFmkI0" lemmaRef="tla:tla171190"><fs feats="entity_name artifact_name"/><damage>Tp,j-rnp,t</damage></w>
+<w xml:id="tlaIBUBd33roO9B10Z2gl9yzppSrwY" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBd5QAeSKQz0QznQnUBPtSOX4" lemmaRef="tla:tla43510"><fs feats="entity_name artifact_name"/><damage>Wꜣg</damage></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd2DzPeIH3kyQk7PJKvhVQfY" lemmaRef="tla:tla78870"><fs feats="preposition"/><damage>n</damage></w>
+<w xml:id="tlaIBUBdzsEJlKEB0qWp2P5ydqZWWE" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/><damage>smr-wꜥ,tj</damage></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd6UcvqngFUq4vrW3jyDjPzg" lemmaRef="tla:tla450017"><fs feats="entity_name person_name"/><damage>Ššj</damage></w>
+</s>
+<s xml:id="tlaIBUBd2F5n7ngEUWUvx19ueQfL4Y">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd36lZLzJuUQPuWaYVEEr6lg" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBd8s9k3CFaUyAhrMhVyuje3I" lemmaRef="tla:tla49460"><fs feats="entity_name gods_name"/><damage>Wsjr</damage></w>
+<w xml:id="tlaIBUBd4w751xfGESZj4jM6NfRoOs" lemmaRef="tla:tla400982"><fs feats="epitheton_title epith_god"/><damage>nb-Ḏd,w</damage></w>
+</s>
+<s xml:id="tlaIBUBdxDQ3IMi6USBlhrwECAsD7c">
+<w xml:id="tlaIBUBd6LcmnPJu00vgwQe4NNQoT4" lemmaRef="tla:tla116050"><fs feats="verb verb_3-inf suffixConjugation active"/><damage>ḫpi̯</damage></w>
+<w xml:id="tlaIBUBd8g6H72180nTjpJCfaUfEqs" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+<w xml:id="tlaIBUBd4yeQv1DTUaOhnVqEChvGW8" lemmaRef="tla:tla400458"><fs feats="adverb"/><damage>nfr</damage></w>
+<w xml:id="tlaIBUBdwQChcwQRkXfuknl2eEm5N4" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBdxo9j0QJQEDLi7kMcWM0p5k" lemmaRef="tla:tla851801"><fs feats="epitheton_title title"/><damage>jmꜣḫ,w-ḫr-z<supplied reason="defective">my,</supplied>t-jmn,t<supplied reason="defective">j</supplied>t</damage></w>
+<w xml:id="tlaIBUBd5ldpbFEV0WIiK9LUtWxXn4" lemmaRef="tla:tla64360"><fs feats="preposition"/><damage>m</damage></w>
+<w xml:id="tlaIBUBd5BdH3EQBEWPnGQ1NEvjEc4" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf participle masculine singular active"/><damage>jri̯</damage></w>
+<w xml:id="tlaIBUBd1zAajrtJUKKvrQKSUD0tzk" lemmaRef="tla:tla111360"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><damage>ḥtp</damage></w>
+<w xml:id="tlaIBUBdWtTtzjhxUDMj82AJKLKZ1Q" lemmaRef="tla:tla131460"><fs feats="verb verb_3-inf participle masculine singular active"/><damage>zbi̯</damage></w>
+<w xml:id="tlaIBUBd5RFin0WDUtUtxiZkxNhhvs" lemmaRef="tla:tla25060"><fs feats="substantive st_absolutus singular"/><damage>jmꜣḫ</damage></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd1lqJIWMzUoYhgUIzssaiOQ" lemmaRef="tla:tla78870"><fs feats="preposition"/><damage><supplied reason="haplography">n</supplied></damage></w>
+<w xml:id="tlaIBUBd5vGfduAdkS0gXoedksatsQ" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/><damage><supplied reason="haplography">smr-wꜥ,tj</supplied></damage></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd5oWw42ufEatp9P7htugXRc" lemmaRef="tla:tla450017"><fs feats="entity_name person_name"/><damage><supplied reason="haplography">Ššj</supplied></damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

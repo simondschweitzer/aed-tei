@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idV3PCIX7UXFHD7CDY4NMMSNJRPU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Brief an den Schreiber Ramose</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Brief an den Schreiber Ramose nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>V3PCIX7UXFHD7CDY4NMMSNJRPU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>oAmarna 1</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Brief an den Schreiber Ramose</title>
+<textLang mainLang="Egyh-Egyhlt">Neuhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaKOF5PUJF5NCPRLQUJ7WGZFNTC4">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Pendlebury, J.D.S., The City of Akhenaten, Part III, Vol I.:Text, London 1951, 160-1, pl. 84; 
+Wente, E., Letters from Ancient Egypt, Atlanta,  1990, 96.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="V3PCIX7UXFHD7CDY4NMMSNJRPU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhlt">Neuhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d72017b711ecb615d3e47f601b3ae008</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8MpE2lzAkjUobnd5TaA0Qs">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd4m5OoI4DUxGjuS1yTdnHt8" lemmaRef="tla:tla550055"><fs feats="epitheton_title title"/>zẖꜣ<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd5u35qkcXko1nfKvp7Dv8bU" lemmaRef="tla:tla600290"><fs feats="entity_name person_name"/>Rꜥw-ms<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd6CsPB1UiED2o4Xttp4WVec">
+<w xml:id="tlaIBUBd42rbrX3Xkoegx8J9tklUV0" lemmaRef="tla:tla30730"><fs feats="particle particle_nonenclitic"/>jḫ</w>
+<w xml:id="tlaIBUBd76luVlSoENNhjf4nQIQHog" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation active"/>ḏi̯</w>
+<w xml:id="tlaIBUBd1U16WfW1kwClXZkD0ctTjg" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdQ4Qfje16kCamWo7X6mwFFA" lemmaRef="tla:tla178610"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>dbn</w>
+<w xml:id="tlaIBUBdzIOfT54yEWEpsGfWkpIHVs" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>10</w>
+<w xml:id="tlaIBUBdyWmrFT6nUaAmTB6S7DJQq0" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd6F2FUOOv0pyrm7gjfDBKW0" lemmaRef="tla:tla600157"><fs feats="entity_name person_name"/>Pyꜣ,y</w>
+<w xml:id="tlaIBUBd1hMYbb1D0iGmSdcvIkfDPc" lemmaRef="tla:tla600030"><fs feats="particle"/>mtw</w>
+<w xml:id="tlaIBUBdwqHCkVqBU9SsEGsZGywq3k" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdxqdtTnl1kdMuGGgV3JOAfA" lemmaRef="tla:tla851711"><fs feats="verb verb_irr infinitive t-morpheme"/>ḏi̯.t</w>
+<lb n="[2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdx0zio3NmEVotMlzNvSb1Ag" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>50</w>
+</s>
+<s xml:id="tlaIBUBdxW7XK8kSEavsB0nkJpQfWs">
+<w xml:id="tlaIBUBd0JTt6W24U9PiQiM26ABSyY" lemmaRef="tla:tla851206"><fs feats="pronoun personal_pronoun"/>tw=tw</w>
+<w xml:id="tlaIBUBdziMSxq9K0x1qCccp7eXjqA" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdwBXSRRSO0GKn2fJhqRVqZc" lemmaRef="tla:tla78870"><fs feats="preposition"/><damage>n</damage></w>
+<w xml:id="tlaIBUBd7fV6MmWkUWWqytU4888NK8" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/><damage>=j</damage></w>
+<w xml:id="tlaIBUBd5aGN0GtCUmniWlPBCDvzUM" lemmaRef="tla:tla850803"><fs feats="preposition"/>ḏr</w>
+<w xml:id="tlaIBUBdQWK08Wq4UPdiHhW8vhLkjs" lemmaRef="tla:tla46050"><fs feats="verb verb_2-gem suffixConjugation active"/>wnw!</w>
+<w xml:id="tlaIBUBd5KSgB9MVEiOmOWlIBR8ONU" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=j</w>
+<w xml:id="tlaIBUBd8yQ5WhRCEGtix5YQZYflCE" lemmaRef="tla:tla177830"><fs feats="adverb"/>dy</w>
+<w xml:id="tlaIBUBd8bvCAfWRkdEkEMq4AblAIQ" lemmaRef="tla:tla851887"><fs feats="verb verb_3-lit pseudoParticiple commonGender singular"/>ꜥḥꜥ.kwj</w>
+<w xml:id="tlaIBUBd7Vt3hKKE0eliesTH9OMVCY" lemmaRef="tla:tla27940"><fs feats="pronoun personal_pronoun"/>jnk</w>
+<w xml:id="tlaIBUBdxDB17jGTEVVslEdoBSQjGU" lemmaRef="tla:tla850800"><fs feats="preposition"/>ḥnꜥ</w>
+<w xml:id="tlaIBUBd7IBe1GA6knJms7Ns8t2bOk" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd7C84seQuEiSqYNshRISVkA" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost">wj</supplied></w>
+<lb n="[3]"/>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBd8S3QIYPQUw7nC3YSCxud98">
+<w xml:id="tlaIBUBd8L2FpBmWE0egdQOW9l2vjI" lemmaRef="tla:tla851706"><fs feats="verb verb_3-inf"/>jmi̯</w>
+<w xml:id="tlaIBUBd2SBQnOPBEQvgCZt5U6c30E" lemmaRef="tla:tla152940"><fs feats="substantive st_absolutus singular"/>šw,y</w>
+<w xml:id="tlaIBUBd35BcSttf0hMu3jPWad8qsM" lemmaRef="tla:tla184630"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏr,t</w>
+<w xml:id="tlaIBUBd3QiFvmqpUGYjZ28HtVho28" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>50</w>
+<w xml:id="tlaIBUBdx8uRf5rqUzulCJsX1ayzLg" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd3BaLdhvIE1ZtgFnpWSwPQk" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+<w xml:id="tlaIBUBd8IscQb1QEKWjoQXktNKQDc" lemmaRef="tla:tla105480"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥmw<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd1VA8neW3UHSggEapZbhj40" lemmaRef="tla:tla500024"><fs feats="verb suffixConjugation n-morpheme active"/>j.n</w>
+<w xml:id="tlaIBUBdWjMEO3EFkoDhpUfVrg2Rj0" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=j</w>
+<w xml:id="tlaIBUBd90N8WSHE058m6ZcIVhytk4" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdw77YLPxVkG0kR30xlybIm0" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdw1gCzUPKkN5oNAK0uWdEe0" lemmaRef="tla:tla21881"><fs feats="particle"/>jw</w>
+<w xml:id="tlaIBUBd1WjNetZCEyLhVEO5y5uORw" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBd3JUdeVN1EzRj3Y0dF8VGS8" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdQwdbtYZeksXom0QsuTImMk" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit infinitive"/>ḏd</w>
+<w xml:id="tlaIBUBd5jruzXQ9kCHrW3BbbxWndU" lemmaRef="tla:tla851706"><fs feats="verb verb_3-inf"/>jmi̯</w>
+<w xml:id="tlaIBUBd7OQv93fP0gYpqWVddTgrss" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd3WKLAEaSETomsP7HNP0wFg" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2fitMiWbkxaiW2bCQ6fMmM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd9nZ7gQWeUuunyWsgB6CLRA" lemmaRef="tla:tla851446"><fs feats="pronoun demonstrative_pronoun"/>pꜣ</w>
+<w xml:id="tlaIBUBdw9fSpVMWEfComTnmtEQZfE" lemmaRef="tla:tla126410"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ,wtj</w>
+<w xml:id="tlaIBUBdWqVQQKcW0NJsy3ACIwMGr8" lemmaRef="tla:tla89850"><fs feats="pronoun relative_pronoun"/>n,tj</w>
+<w xml:id="tlaIBUBdQTfdKQLAkB9h7yVOM7DxAk" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBd4HsjlkK10wxsoNLQVQ1QpE" lemmaRef="tla:tla126290"><fs feats="verb verb_3-inf infinitive"/>zꜣu̯</w>
+<w xml:id="tlaIBUBd2bFH5MiuUtihoBmJbVNNEU" lemmaRef="tla:tla851623"><fs feats="pronoun demonstrative_pronoun"/>nꜣ</w>
+<w xml:id="tlaIBUBd7RGQKaILELTusOhumWyxlM" lemmaRef="tla:tla152940"><fs feats="substantive st_absolutus plural"/>šw,y</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

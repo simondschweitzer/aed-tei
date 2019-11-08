@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtYPW43LCPSZB7FI6GQ3PHGVPWHU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>3. Register v.u.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 3. Register v.u. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YPW43LCPSZB7FI6GQ3PHGVPWHU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">3. Register v.u.</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZIEBLM3LP5CVFGYBIPL5GVIWHQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>F. Griffith, The tomb of Path-Hetep, in: J. Quibell, The Ramesseum, London 1898, p. 26f. (48);
+R. Paget, A. Pirie, in: J. Quibell, The Ramesseum, London 1898, pl. XXXVII
+[F, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YPW43LCPSZB7FI6GQ3PHGVPWHU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-e5311fa84e1bbb14fe94d0ccc25bf815</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdwYUGdIXzk1wmmvppZFHsJY">
+<w xml:lang="de" corresp="src:tlaIBUBd34jyFVXRUWRiJa17QXDgCA">Vorsteher des Leinenzeugs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Jv5gWZ90B9nLjaCgU6W70">Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy1n7X0EM0CGuJcPdmK8XJ4">Ihy</w>
+</s>
+<s corresp="src:tlaIBUBd5aeqI5U3UWurNXUZV2P4sg">
+<w xml:lang="de" corresp="src:tlaIBUBdWu0LwvhXEEejJ58w4YZgKs">Vorsteher des Leinenzeugs</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyMEvSbTIUUSsdQwCZnCtpk">[männlicher Personenname]</w>
+</s>
+<s corresp="src:tlaIBUBdzFswX8mvEbrlQXYrGwkwYQ">
+<w xml:lang="de" corresp="src:tlaIBUBd9vtQ4Obn0JTstFeuRhRIRI">Aufseher der Siegler</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6OIJyKPvEfQodKpawjymkc">[männlicher Personenname]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

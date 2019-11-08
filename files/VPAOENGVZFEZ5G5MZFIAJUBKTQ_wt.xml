@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtVPAOENGVZFEZ5G5MZFIAJUBKTQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Verso: Die Lehre des Ptahhotep (Version C)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Verso: Die Lehre des Ptahhotep (Version C) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VPAOENGVZFEZ5G5MZFIAJUBKTQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JE 41790</idno>
+<msName>tCarnarvon 1</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Verso: Die Lehre des Ptahhotep (Version C)</title>
+<textLang mainLang="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaN762SRGVLNCZ5MP5AQYZ25CVEM">
+<support>
+<objectType ref="ths:OPJINUAIVNEFLJTHV5WTMHHHII">Etikett</objectType>
+<material ref="ths:3NHNBPVU3VF2RERSPPZ46ELQHE">Holz</material>
+<note>Holztafel, 51 x 25 cm (B x H)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notBefore="-1550">18. Dyn.</date>
+<date type="latest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notAfter="-1293">18. Dyn.</date>
+<note>frühe 18. Dyn.</note>
+</origDate>
+<origPlace ref="ths:INTSIBUJ75GFDHWIHTNKFN26IE">Asasif
+<note>aus Asasif/Birabi/Südende Dra Abu el-Naga: beim Taltempel der Hatschepsut (Carnarvon und Carter, Five Years&#039; Explorations at Thebes, 4); siehe ausführlicher bei Hagen, 174-178.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Jéquier, Le papyrus Prisse et ses variantes. Papyrus de la Bibliothèque Nationale (Nos 183 à 194), Papyrus 10371 et 10435 du British Museum, Tablette Carnarvon au Musée du Caire, Paris 1911, 13 und Tf. XVI (nur obere Hälfte des Verso) [P]
+- The Earl of Carnarvon and Howard Carter, Five Years&#039; Explorations at Thebes. A Record of Work Done 1907-1911 by The Earl of Carnarvon and Howard Carter, Oxford 1912, 4, 34, 36 und Tf. XXVII [P]
+- F. Hagen, An Ancient Egyptian Literary Text in Context. The Instruction of Ptahhotep (OLA 218), Leuven, Paris, Walpole 2012, 174-179 und Tf. 2 [K,P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>JE 41790</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VPAOENGVZFEZ5G5MZFIAJUBKTQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>10-7e9e1ea2a569f2b7ed870fe098aa964c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd4Dwewy1MUMZpg0n30B177g">
+<w xml:lang="de" corresp="src:tlaIBUBd7YEJh5nX0j9vcDEvtoBUBg">Beginn von, Anfang</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzVbEl9CuEq9rgisZnatBnk">Lehre, Unterweisung</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9wgRitfkxstCdHFgW42s8">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd50aZgO7GULzoPk5WKtECU0">Prinz (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz2qCEhXr0eir0MVQjW0UJE">Hatia (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxZJJOPuukqWnWs1iBoPzms">Gottesvater</w>
+<w xml:lang="de" corresp="src:tlaIBUBd53bAVlZJk4AhBUDTOIYn2Y">Gottgeliebter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MTeQQ7dE9FipCZMBE5mjA">der (die Instruktionen) in den sechs großen Häusern anhört</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQKKHDznnkg7un5NAAf6G2w">der Mund der im ganzen Land erfreut</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyEQOawWBE4PlGei5HopgMs">Vorsteher der Stadt (Pyramidenstadt)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5AW22aCc0mkrAmiNUzg8ZM">Wesir</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQcjHQNytUDhmlcY9Q7vNCE">Ptah-hetepu-wer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWD26LLgk0lKlZI7FA8kq8c">sagen, mitteilen, nennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWEuQkmYbk6jkUmeWXG280o">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQyxD7OH4EGfvsyCWZPWaLU">zu jmdm.</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWoczpWV6kkkqNDfqiDuUaU">Majestät</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7FsIQvddECZgJcUikmCyIQ">[Gen.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3JkCHiNWEBNgtiTT3Q2hjk">König von Ober- und Unterägypten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyOskrVpe0KOuYXCRJUxGy0">Djedkare-Isesi</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3DYXnicak8fmyj7qj3Qfas">leben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4gky8cznUtGg40moxiZ6hM">Ewigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Boi324WUD7kEEyHdcqr90">wie folgt (zur Einleitung der direkten Rede)</w>
+</s>
+<s corresp="src:tlaIBUBd1P9MbYL6USQgzFOEPePf7I">
+<w xml:lang="de" corresp="src:tlaIBUBd65jWnrlLkzRt7LzZPb8pXo">Altersschwäche</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwjiJ4kXHUK1lfbYlEvYep0">entstehen</w>
+</s>
+<s corresp="src:tlaIBUBd7pkfO8pt0rytcTLt9CQGBk">
+<w xml:lang="de" corresp="src:tlaIBUBd3m2vyR1sUwMi8wVpwSTXh8">das Alter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6fK8atHPU8ehqtOpov4ISc">herabsteigen</w>
+</s>
+<s corresp="src:tlaIBUBdxBdMRDfRUSCli2WqFdcojU">
+<w xml:lang="de" corresp="src:tlaIBUBd2lWVVXhGk6CkV5Zj8WpB7E">Körper</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8fvnHVy00YglGKulgozEwE">[mit Inf./gramm.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9KDmZFV008Yh0J5z4z2DYE">schwach sein</w>
+</s>
+<s corresp="src:tlaIBUBd3eQMDePo0LGvli3olmwBKU">
+<w xml:lang="de" corresp="src:tlaIBUBd6PWDNWmWEHJsjWAtkBbtLc">alte Zeiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4wNtsJrzkg8s99oXPvvtlI">[mit Inf./gramm.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Or3HldgET6oIDaXY0ot4o">(sich) erneuern</w>
+</s>
+<s corresp="src:tlaIBUBd4OtYRyNvU9tpu9qAnL0DBM">
+<w xml:lang="de" corresp="src:tlaIBUBdzgGuijsi0B4lkwmxT3Xujc">körperliche Kraft</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4VbflxeRUe4tAtOAD6YwdA">zugrunde gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8uWfDBcBUJzkSWDJkWy7h4">weil, wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQjNDqEbg0WKkKhOFrDnS7M">müde sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWpXWkSleUPUiVLtqX3j7tM">Herz</w>
+</s>
+<s corresp="src:tlaIBUBdxPIB2tzW0LljkySXnqLXZk">
+<w xml:lang="de" corresp="src:tlaIBUBdyQJX5drO0nUt6zxwOWLoDw">Mund</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5pFgQWbB0nyuA2nJtMWTuM">schweigen</w>
+</s>
+<s corresp="src:tlaIBUBd4aTOXmvikmSkdMOQY40gQY">
+<w xml:lang="de" corresp="src:tlaIBUBd04a54OY3kQQowkNhPCO9Do">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9xfuzf1YUcMjX4PwE7IdSM">reden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4mYmqrpQkUNmeIwav7O4dI">er</w>
+</s>
+<s corresp="src:tlaIBUBd7VKnzFaakDth2tEsJb6W1Q">
+<w xml:lang="de" corresp="src:tlaIBUBdySFnbImdk2JnsKWnD9uXb8">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1iDWiK07UgPkWQTiQNpTR4">schwach</w>
+</s>
+<s corresp="src:tlaIBUBdQ5LJG98OEBsj1hwlSqGtG8">
+<w xml:lang="de" corresp="src:tlaIBUBd7xikTNxTUC9p9m5l7mGtAs">die zwei Ohren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6CUFPFkiUWnvFDKtpY5FxY">taub sein</w>
+</s>
+<s corresp="src:tlaIBUBd4QiYIP790AnjOTMo1leSXw">
+<w xml:lang="de" corresp="src:tlaIBUBd6778ECHw0Mts7ccZkWsAVU">liegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzWgVoGXNULsiIunjN5Y7Nk">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8DA9FknHEJ4qmNMPffWo5c">müde sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0SEu3V0DEEbpqcBGofWTOk">jeden Tag</w>
+</s>
+<s corresp="src:tlaIBUBdz0PSX8FNkjzq436LK5lCOU">
+<w xml:lang="de" corresp="src:tlaIBUBd3ouQaj7P0e0l4SU8DQwxcQ">Verstand</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1cMtPyUSUa5v4s1ZQdcUxI">vergesslich sein</w>
+</s>
+<s corresp="src:tlaIBUBd78xYzhAaUlImUzQaxVupJU">
+<w xml:lang="de" corresp="src:tlaIBUBd1RffdE1eEnHsPeVCPWn3iA">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWZxWsExbErnqThnWlnn6P4">sich erinnern, gedenken</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0CjCKhUm0Qnn4suQD3xfEo">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5F0SlmZekNPuEIlRNwW2U4">gestriger Tag, gestern</w>
+</s>
+<s corresp="src:tlaIBUBd8d7XQL6YEOghR9rOgfEmvw">
+<w xml:lang="de" corresp="src:tlaIBUBd8mNG8zu7EkstrKClbpxyeg">Knochen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9R8jFBGV0oBtLgyokQ7O1g">krank sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90yUETDvU80oFB1BuBy7mY">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Q2S9SFXUDxswDAQRs1uOM">alt sein</w>
+</s>
+<s corresp="src:tlaIBUBd5a5Zlxh2U2AlXFYD1IHTUs">
+<w xml:lang="de" corresp="src:tlaIBUBd1NqAsHAu0fei1Koigt8giw">Nase</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3yLf0ebYUxwrsBAKlf2oE0">verstopft sein, verstopfen</w>
+</s>
+<s corresp="src:tlaIBUBdxqHQ2BcR0HmgctOCYx9dfc">
+<w xml:lang="de" corresp="src:tlaIBUBdw8neylIcUtDpPIbw8smXjU">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6dRdsI9pUFos4zUzPjW01s">riechen, atmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3K0shSuQkjPnuOL0FkbTy0">er</w>
+</s>
+<s corresp="src:tlaIBUBd8WJxcJUNksGg4HQRo6HCx0">
+<w xml:lang="de" corresp="src:tlaIBUBd3MxV1dRQka1nYP8W8cPwBo">schwierig, schlimm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd660u1DqzU6BhQ2QuqKmZko">leben (idiomat.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd352HAAEx0QDrZldpBkECl0">sich setzen</w>
+</s>
+<s corresp="src:tlaIBUBd9QWGKjvR0vGkD6MUXWPYSw">
+<w xml:lang="de" corresp="src:tlaIBUBd39xnDj3YkyYjgJsykP0r2Y">Gutes</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4ROWddvu0BWsNzbY5apxYc">werden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5iWdDsvhUhEkBmQYs4ZkdU">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ffiXvHLk4Em8lkshyzWDU">Böses</w>
+</s>
+<s corresp="src:tlaIBUBd1OGQNls5UM8rGh76gk9HLE">
+<w xml:lang="de" corresp="src:tlaIBUBd0ZXShKmYkYdh0ehmWuIV9g">Geschmack</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4SfZWNR2UTeiChIgGFUrtQ">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxudyKQzZ0z7meiwbFqgjis">zugrunde gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2XkBwGwJUQgsWfdTe04zWM">sie, [pron. enkl. 3. fem. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBd8FUOmFvF0HojVfjyPOfmXc">
+<w xml:lang="de" corresp="src:tlaIBUBd1y4GqvHWESDsAFD6LIHpMo">tun</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5CRrpRnGkt7sEpg2Y9S6Lo">das Alter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1SQPQfS1EIclv2v434SZpw">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzsIXQzXvEaRnbt5CLyt75E">Mensch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7WrgSMqjkCUl9clTcTxdBg">Böses</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyvrVgnQ7ULOmGrGm0yZIxs">in (Zustand)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW19T7QuLkgOllVQ3O5dUsg">Alles</w>
+</s>
+<s corresp="src:tlaIBUBd2mOnMm7Mk4ViXiskQKW7VQ">
+<w xml:lang="de" corresp="src:tlaIBUBd3K8oltZ30VjptYmQJjkk6w">veranlasse (dass)!</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQXl5atMxUNzpxoxYRuuRso">befehlen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5NIfQW5akdighABFm8udtk">man (pron. suff. 3. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3dwuHL4KE6AuhIntD7Sgfc">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3WOrQdZp0xCpHy1zcZn3hw">der Diener da (Selbstbezeichnung des Sprechers)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6JYgxQP5UrZr4x8CMD5sgA">fertigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyw7kmWwtUrQrQVSd6zEai0">Stab des Alters</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2jAiBlhAENxvwi8x3JcdyY">veranlassen (daß), zulassen (daß)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWuizaJ670CwkjhoU2CJfIg">man (pron. suff. 3. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdycgpZoM0UOzrxD0ZWCQX8k">stehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwq8hFAc2UK3tTgPTKkL7Vg">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5elcXbIwEWZvQFG8U6W6qU">mein (pron. suff. 1. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ummTWHxUeBtOkOjZXSWIo">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW1Fc2DxO0ZyqXENjjZSsU8">Stellung</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5WAEPYYD0CkniqyRWEladA">mein (pron. suff. 1. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6WiHb17iU9ahZVFOVW74IY">unterrichten, erziehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQQXQD6rFEh1he2rl4eAQWo">ich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy0uvCR71kMAjwbGuSxgZH8">er, [pron. enkl. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3NVXFkOCkHsgkUBuIY78ds">bezüglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzZNKXeef01rnOJe1WJhkwI">Rede</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5EAnagTiEr7rLicRWm0fpo">[die das Verhör Abhaltenden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7WRT74Wz0KWtE9ArOr6aGc">Gedanke, Plan, Rat; Art u. Weise</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy95ZWzT80COshme0wMUO7Y">die Vorfahren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3o99rZ1fEzarCL3IVDWbNo">(etwas) getan haben (in der Vergangenheit)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd29QByH9tkbKpxYwwAu8M9k">arbeiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQox18oFXU3msIpNI1IkflI">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw3nSUqkqE2Mkq1P1EgNXM0">Frühere, Vorfahren</w>
+</s>
+<s corresp="src:tlaIBUBdQmQQbqylUyUrnYQG9VNJkA">
+<w xml:lang="de" corresp="src:tlaIBUBd5kdzVETQkP0vFqpyIPqQyQ">[opt. Part.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd25u99DEREt5gxQfXxpOmB4">tun</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6BWMZqKbE84tgXZKHpO4qY">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzO1VDdzTERnsISpcJlNbPE">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9P8R4jkZEtAh9XrEh9lDKk">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw6R9J42pkjOjCoUIoY5OH8">Gleiches</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWeEItKaNEaDjiqngz92BLo">entfernen, vertreiben, vertilgen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4bnXQ2GWkGnnnxQzDpcu08">Kummer, Not</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWmAG1suEb1oNuqAiyGNto">aus (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0A965fJAU2tmJmAL2AXOhI">Untertanen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4N7aBcOWUxFq7nGATyyjNY">arbeiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ZlsWeNYkctiWPZkwymMDI">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1uXsfkz6UWQhXEAypvTW28">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1DsR5G9GUnLiWf0giKD8QM">die beiden Ufer (Bez. für Ägypten)</w>
+</s>
+<s corresp="src:tlaIBUBd5C2mw4aXkqChgHWqqFMTQU">
+<w xml:lang="de" corresp="src:tlaIBUBd2cMGszSQU1jrELeNfJQsr4">sagen, mitteilen, nennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9V1dPo0HkqYlPXK9vciYDo">Majestät</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVbqubeEEGMvRmNxUx60Ow">sein</w>
+</s>
+<s corresp="src:tlaIBUBd9r3azIQRkXtryceJuUtNIU">
+<w xml:lang="de" corresp="src:tlaIBUBdyWdlQ9rR0LGnNQfNMqK2uY">unterrichten, erziehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9cwfwOTc0OhlcMxEmHgoRw">[Betonungspartikel, nachgestellt]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd67gkVAvfEjGsBKNQfuxmYU">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2ILcjJ0Ik1gha5v2NVTrCg">er, [pron. enkl. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1YDhOIcCEDyqjbjvZC0Ax4">bezüglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzOww1rOYEzxrek0uRvNewc">Rede</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ02mMtiM0xtpH6u1a0SBo4">zuerst, vorher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd211QOWfx0HhjblAWxzT4mo">bevor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd12hgYziLEI6jWAcRWFHDaE">sich zur Ruhe setzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1xLzXvhmE0kq5U2zA47Thg">du</w>
+</s>
+<s corresp="src:tlaIBUBdwq3ii3jh0QupoPfQca2tWc">
+<w xml:lang="de" corresp="src:tlaIBUBd5mYnVygv0k0nHGsQ2Yo0Hc">[opt. Part.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9vKqQFoIkKTsdC0fQCJAE0">fungieren als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1yMdMn3YEEXuJsQeRCNyzE">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWRcX0I3qEfnhXTUwkN5DEk">Charakter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4FMxYyH0UtQs6RtObYzjEg">[Gen.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4r70QbpCUHisWxSrXEFME0">Kinder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4dgMkQy3U1usX03BMiWSJQ">(hoher) Beamter</w>
+</s>
+<s corresp="src:tlaIBUBd7ffxdcvIUF2q6v8xtQiiCU">
+<w xml:lang="de" corresp="src:tlaIBUBdx96QEeKBE0RgxiMcQvI2E8">eintreten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8mW1C8WG0FElNZr4tNNCo0">gehorchen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4IFsTlqj0c6iTYTAMDgWH8">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzFs3xo6QU6uoLUo2DR1WuQ">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQn92XahWUu5gHw3ei1txd0">Gradheit des Charakters</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4LvXuvoYksFoxXXNxF921U">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6cJ9xQXYEs0un7teiDnePY">sagen, mitteilen, nennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9kEI8IOzkbyuQQtwSkas78">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzfuvOn7n0EWiNOqdgYScKo">ihn</w>
+</s>
+<s corresp="src:tlaIBUBdwaQrczUEkIhsJTV8JQTGUQ">
+<w xml:lang="de" corresp="src:tlaIBUBdWnJyJfPg0e7rYluTZW51WM">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw4GqmkIbE7grLP3Cnb2sUU">gebären</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5R6QynEXER3q93oA79STWY">klug sein</w>
+</s>
+<s corresp="src:tlaIBUBd03K2LZUeEQzguSZX72mxDw">
+<w xml:lang="de" corresp="src:tlaIBUBdxsJF1BpXkb6pzxxQVDWp54">Beginn von, Anfang</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5WcJXz7jUHRkIq9qZElqf0">Spruch, Ausspruch, Satz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7c3M8dEuUjhjXDVRjfQ9vc">[Gen.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVkRmCY3kM8kCbSWzuWfqw">Rede</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MqXAWPbERng62VOVbZnck">vollkommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7etwv8Ij0azjm9xiHTUR7U">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy0dMlrPgULqsdU1v8jWjUE">Prinz (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd26jR2yJHkL1iUBN714Wki4">Hatia (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9SPBIE0LUSigQPwhIUjc4Q">Gottesvater</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzXm5AIvK0ACm6Uzs9W8Phk">Gottgeliebter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7yHYtFJs0govE7V7BwJBr4">der (die Instruktionen) in den sechs großen Häusern anhört</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2WdcebthEt3u5qQ7D2Afl4">der Mund der im ganzen Land erfreut</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5WfXZlPkEL6pHoN5nXId3I">Vorsteher der Stadt (Pyramidenstadt)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd78bFt8yQU0jrvzqs6p6bbQ">Wesir</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2aVpk5EnUlNlu5JPNQMDmc">Ptah-hetepu-wer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5YxJ9t0OkLErmyP3rAa8ns">zu (rollisch)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWbBCARpBkhSmpZQ8F0jXRA">unterrichten, erziehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6F1sCKWgEZol0IRheHR7Pg">Unwissender</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz5kQJDw5kMDkkXaponJU8U">betreffs</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0A5cWJWR0JUgLMY96cFmh0">Wissen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwPEpvIAl0VBkBXXQ8i2XdQ">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxS5WnHCBkx6vmx3eW8lU9o">Richtigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd01X7IIRB0IpsCWmePHS6Qc">[Gen.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxVh3BTPAUZ7hfUdTZDileE">Rede</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6FA0zn4pkAThlqDFzMegYo">vollkommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0l2oX3HYkq1sGQMF3QFDgM">als</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzXuOqdKnkeqiWQEHxuPTCY">Nützliches</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzG6ayQtzkeWg0B2Elq4NHE">[Gen.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyHklDRykE7Wufrt4iLQPNY">gehorchen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9phVQIBzk5fuCQ6ksBWHmA">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdywqTdozRUH2maUGwInyfNs">als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4tXuSdQaETBiUVbygbODmI">Schädliches</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxN3ywmJIkE7gNtmYloWumo">[Gen.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Pl7qbYTEmbiv2LmQcvTpA">übertreten, freveln</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxjPpJ35jkAHkxl15xkUKog">sie</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

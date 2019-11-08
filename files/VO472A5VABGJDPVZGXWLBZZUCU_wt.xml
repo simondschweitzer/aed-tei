@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtVO472A5VABGJDPVZGXWLBZZUCU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Ineni (Berlin 19500)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Ineni (Berlin 19500)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>VO472A5VABGJDPVZGXWLBZZUCU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>19500</idno>
+<msName>Stele des Ineni (Berlin 19500)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Ineni (Berlin 19500)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaRSKAXAKTUNCVHBELMFW5SO6TQM">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; 54 x 84 cm (B x H)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notBefore="-1793">13. / 14. Dynastie</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>13. Dynastie; vielleicht Sobekhotep IV. (Franke, Heqaib, 74, 103; Kubisch, 251)</note>
+</origDate>
+<origPlace ref="ths:FYST3LL3LZBX3K27RVU3HFWFDM">Elephantine
+<note>Gefunden von F. Zucker am 24. Okt. 1907. Fundumstände bei W. Müller, in: FuB 22, 1982, 9-10</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Porter und R.L.B. Moss, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. V, Oxford 1937, 242 [B]
+
+- Ägyptische Inschriften aus den Königlichen Museen zu Berlin, I. Inschriften von der ältesten Zeit bis zum Ende der Hyksoszeit, Leipzig 1913, 260-261 (Nr. 19500) [H]
+- L. Habachi, in: ASAE 50, 1950, 506 [Übers. v. Zl. A.1-3]
+- W. Müller, in: FuB 22, 1982, 9-10 [K]
+- I. Müller, Eine Stele des Mittleren Reiches von Elephantine, in: FuB 24, 1984, 30-33 und Tf. 1-2 [*P, *H, Ü, K]
+- D. Franke, Das Heiligtum des Heqaib auf Elephantine, SAGA 9, Heidelberg 1994, 75 [Übers. v. Z. D.2-5]
+- T. Schneider, Ausländer in Ägypten während des Mittleren Reiches und der Hyksoszeit, I. Die ausländischen Könige, ÄAT 42/1, Wiesbaden 1998, 164 [Übers. v. Zl. D.2-5]
+- S. Kubisch, Lebensbilder der 2. Zwischenzeit: biographische Inschriften der 13.-17. Dynastie, SDAIK 34, Berlin - New York 2008, 251-254 und Taf. 8b (Elephantine 1) [*P, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:GOUD7BQ5DBCENBWBR4KFWDW5SI">Ägyptisches Museum und Papyrussammlung</repository>
+<idno>19500</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="VO472A5VABGJDPVZGXWLBZZUCU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d79d27ae98746c2e7c2f0a14054f01f0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdwkvOIPy1kVLihnX9o1uStw">
+<w xml:lang="de" corresp="src:tlaIBUBd0Zn6Fpih0XfpvJdQjiAUx4">oh!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Dbxphck0QnjHmVfAH6PHQ">Lebender</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8CoFVwwn0iWkagNRjvAC8g">befindlich auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5KZx3BQJUqLpyeWoWwgGLo">Erde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4H92cGdXk81piRjQyf5Y5w">Schreiber</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0XOCNG1hUTNmS2wEL7Xl9E">Vorlesepriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7uoUy9bV0Y7sP7MUbnzwFM">Wab-Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQFMw0lso0lRlgQlJ1j61W4">alle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Il2HkQlkchr6p7pg2yMlU">vorbeigehen; passieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz10FiHM7EOVosZC2hafWgw">[Suffix Pron. pl.3.c. (Verbaladj.)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwjuk1iGq0PcryBrDXjCkc8">vor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdym1e4QPS0Aqu0Ga2qaCYJk">Opferstein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQWAZFElUiFrzibaFFQxx0">dieser [Dem.Pron. sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQBXSNW3aEQXoDPioA6Mc1o">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd03s07FwHUa4hztqRYS8SQk">[Suffix Pron. pl.2.c.]</w>
+</s>
+<s corresp="src:tlaIBUBd52K6Qi0zUyPlnAxS6Utp3k">
+<w xml:lang="de" corresp="src:tlaIBUBdwVAV0ForkxRhOyIicR121Q">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5VnleHCFkW1uAcZGqB4Qto">Satet</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQBtWKoKD0sbk5ME19nPNiw">Herrin</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ2uZcZ0aEcKqpfIU1zBWTg">Elephantine</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3KayoDqbkstrtYM3NRRiFE">Anukis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdySXZBkjIEYHuQ5ywSr20OM">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwTAB9YgBk4QheTEB0WJV6Y">Mutter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9jUq2ccY0x9lXaF43WSLcc">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8gcgvzN8E7Zs9jGDChEqao">Chnum</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxAE8hjLNkfZurdg9R16yd4">Herr des Kataraktgebietes (Chnum u.a.)</w>
+</s>
+<s corresp="src:tlaIBUBdzovX1mc2UxSjv4D64wW8Ts">
+<w xml:lang="de" corresp="src:tlaIBUBdylrVzQnzUXQrWSYuG9SguM">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxUqtVts2UTKq3cltEo4CjU">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd52WlicgRkczqlZFpbh2w5A">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8qciwn0fUY5gEQbXzLJfQo">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxhHYDCdLkg1hPWt9XGMfwQ">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ddRuI1oUzcolUDhTJyxLA">Stier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Q4275UBEpvmcY99BpZfuQ">Geflügel (koll.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ZXBDco4EYGixMMSPGeBX0">Weihrauch</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQbRf4mnkmgkmeDG70oGb4">Salböl</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2fllVPjdk6IjrCiW4EWtDo">Sache</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3UtfW2OoUnNkHvkws8rgyQ">alle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ddhpi9TEaygN0lbIRUnoQ">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6KcQ47qCEf3guQyXmkwWyw">rein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHZJQ0W2UqYpvaQXeYmmTg">leben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9bBIfkPz0OigAaM0cgRF94">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCcQMCcWEPngSE644DpGlE">davon</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3QQAo6xf0C6t31gZEY242Y">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0SnbnSZSUflvesVAXBz6uY">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2SZi3rWN0AWqRkjRz4ega8">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6CQZH8VqUnwl81jqQ5UTM4">Kommandant der Nubier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4LQcYvEQEbLkgd3DAEea0U">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd27a89viM0gegD3lxkwsxno">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7QPWJrQSEBigdaI193plP8">gebären</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz1fSUL3zEhLvhOhTIoSNF4">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBd30Nole1iEhCt4p3SoEt8U4">zeugen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0A41jzSBU3kvWvFrfYC0LE">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Dkzi04K0ZnnSjWpySqYPE">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2ypqb0s5EotsL0N1SQaMJE">Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBUBd99XjnLZvkuzpLltDUBoKTE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Jf6koS4010mqsIz4zoYSA">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWEQeL7R8UG7oQCmitevxM4">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd930pJz98Esnh08TwUeYIpU">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3G43yE3nUz2jbHTQ7erBZ4">die Gerechtfertigte (die selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd27zYWjMGUWsjgQfDUeA6wI">gebären</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9aNVourWEfOl9rQHdJRQXQ">Hausherrin</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwg5YCRvEUuhnbpcoFroADo">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3l16xAM10DEhYlTRPsLlYs">die Gerechtfertigte (die selige Tote)</w>
+</s>
+<s corresp="src:tlaIBUBdQSeBrS3VkKyox3VBFwzM8k">
+<w xml:lang="de" corresp="src:tlaIBUBdxvJTMbAekoFhUDXmONJ2PY">Tochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwLt703710yBgvXEHBCmUUU">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxFmoMoacEU6pHzNihShtN4">PN/f</w>
+</s>
+<s corresp="src:tlaIBUBd1blL9qoSEmjgWTfpj5DcFI">
+<w xml:lang="de" corresp="src:tlaIBUBd7RKdJknJUDMo77uELVtzfo">Tochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5BdkrWD60KIhlKjlmSmVWs">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwQTFxN3pEdGqM1zN6wkxxI">PN/f</w>
+</s>
+<s corresp="src:tlaIBUBdwbIQSYt5U6ykb3f0WL7bvA">
+<w xml:lang="de" corresp="src:tlaIBUBdyKn0KKRrE77o3WWfzYthnc">Tochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6nQ2xIuE0dplhYnNr7MOR8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd68jSttT40iTmIn1B7gaZR4">PN/f</w>
+</s>
+<s corresp="src:tlaIBUBd3ofyC8Yg0CuirndDfjIVtc">
+<w xml:lang="de" corresp="src:tlaIBUBd6W5DSBgckoMsvGnYw1R0Nc">Tochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0s0RWxFAkTFshPUYdeKPik">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Mo4ek4EEjxuQds5Yx5tO0">PN/f</w>
+</s>
+<s corresp="src:tlaIBUBd9oJVgZVm010mWkjkAfpAIU">
+<w xml:lang="de" corresp="src:tlaIBUBd43gZeOzQEX1lRUpHT6mWAA">PN/f</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1kWe7YjW0P1roljSFSAJQs">Tochter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyZ0JO4enkrLlWwsmsgvRHA">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdwwbcSll20NDhOvhdeIWbmY">
+<w xml:lang="de" corresp="src:tlaIBUBd7QIu8Wrl00JpxvHxW4KAh0">Worte sprechen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5gOD40W4UyXhPcnQUDdw58">durch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9SphCrTFEiFvwjt1y3QLjY">Kommandant der Nubier</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8jzQwaSoUfqqk1wkljNB0o">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwG4tmpinEJFqpUHvbVazxg">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxLoCsxa203qvQADkEMGHIM">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd87W6TqTYEXpnQEzWWj05Js">
+<w xml:lang="de" corresp="src:tlaIBUBd4sVlmX8A0TrtcHCgZSt76k">ich [Selbst. Pron. sg.1.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0hQWlp6w0NioTXbBRzFGHs">Schweigsamer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5dbWn2QGEcNiSPG3cS3P2Q">leer sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzgYUHQjyEKtiACLzHyM5zo">von (partitiv)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxiPvUURfEGDmWdXU2XJbjk">Lüge</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWeWhSq4wU8Wi6F3GQUFzQE">Einziger</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3fCdADFj0XdpbPHcIIQstk">trefflich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3WMYUqBFUJ7gQMW8EmxMgU">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7eqN8PWT0zFoKUGopVTA0c">die Bürger</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJ7CpHONErOn7kYl9m8r3E">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdzLxBh9ISke3kgtSv9h750Q">
+<w xml:lang="de" corresp="src:tlaIBUBd74KKoQZ40QOiZwtzxuGcvU">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8mXXbqtuECnoFeQZYn5Dy0">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5PZoyf5gUIxtF1QHNGXIwc">Menge</w>
+<w xml:lang="de" corresp="src:tlaIBUBd60WCcdAeUWWpoLtpBQxOio">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2suAhWPR0aQoTMXqMW5D0A">Auftrag</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3zk5Y2hMk9ZmOVkZSvb7vg">[mit Infinitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQHsb8gqNUQ6rjnQ66Adm9g">stromauf fahren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyEnCzdu6E7og9GLMdwQi7M">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4nPCN8k9ELxqXQ99dqzZ5M">Nubien</w>
+</s>
+<s corresp="src:tlaIBUBd4QHKdudDkL1voOHHPK4k5E">
+<w xml:lang="de" corresp="src:tlaIBUBdWyZlbZP1ESMrDVJvTVFUWQ">[Negationspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5b2zJUeSUxgpaUNe9yVWx4">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQLgPEHDkLuj1IlWOnfAlo">Fehler</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1fC7o4WtEx6l2vdXyNZzEU">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxeKHEMXXE4nuZxBzNQiY4w">[Negationspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxoCfWsWKUUHnLD0pSw969w">geschehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQPlsg1uh0nYssH2bGFRd5U">Beschwerde (gegen jmdn.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3cEpIN44UyAnc8Ad0d5mcM">[Suffix Pron. sg.1.c.]</w>
+</s>
+<s corresp="src:tlaIBUBd4ZWnbqkBkeTieptmjgAm94">
+<w xml:lang="de" corresp="src:tlaIBUBdyCzWoqjy0X1mRGOcbsc4io">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4j9LoEzI0SWggtufjjo3Bw">sich bittend wenden an (jmdn.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxjjQim5SEw0qgiQZEeh4t0"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd3YXY5OHPU8dkjH0WJvXRd8">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwd8gfIyy0vIsKmsUzS5zx8">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Uk9it1ykfqppxsL6sTcn8">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWenoJOtYEgovpJsvPbHRW4">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6qLQ6KAQ0QnkyvWyQPo0UY"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd7XK9CWXF0o3mEBjHlxlSWw">wegen (Grund, Zweck)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7MWEWStiEbQq7tVQRCQlnM">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0dY1dpEoEdAhlcuZOGTa5o">schlafen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7GzLWA4T0jQlMw61Px4PvU">zurückhalten</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

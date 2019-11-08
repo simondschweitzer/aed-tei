@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idV5LLQ4EEDZGQ7DZFLDFA7LD72I">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift (außen)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift (außen) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>V5LLQ4EEDZGQ7DZFLDFA7LD72I</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift (außen)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6WQ7HN2KVZEYREU66JQBUVXKKQ">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza VIII, Wien 1947, 96-106, Abb. 40-46, Taf. XVIII;
+H. Kayser, Die ägyptischen Altertümer im Roemer-Pelizaeus-Museum in Hildesheim, Hildesheim 1978, 36f., Abb. 4</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="V5LLQ4EEDZGQ7DZFLDFA7LD72I.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-cd2a24291928b3bddeeb0c2de2ae5660</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQK4T5lTjEWGoT4ok4mWbh8">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9x4p1WXk09YnGfkLr5CTeY" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBdzdnV2zQx05cgN7wWn2bQ9M" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBdW8YJ0NTa0eMotRPJTZv91M" lemmaRef="tla:tla400156"><fs feats="undefined"/><supplied reason="haplography">ḥtp-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBdzJ2DcsBw0wYnVnXnipchpc" lemmaRef="tla:tla49460"><fs feats="entity_name gods_name"/>Wsjr</w>
+<w xml:id="tlaIBUBd8aYp29yNUcBs3docZIv4BU" lemmaRef="tla:tla119180"><fs feats="epitheton_title epith_god"/>ḫnt,j-jmn,t</w>
+<w xml:id="tlaIBUBdyQgPSkAZ0AsnKz0XuVdJMo" lemmaRef="tla:tla400976"><fs feats="epitheton_title epith_god"/>nb-ꜣbḏw</w>
+</s>
+<s xml:id="tlaIBUBdw6mI4irY0O3jkYYZaIk7Gk">
+<w xml:id="tlaIBUBd2WRduB0l0GDot7TnDUBDJs" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/>qrs.t<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdxOWiFRQQEEwh8t1vTHI7Hs" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdzyPWV7KQkxhq3OQuNjrYeI" lemmaRef="tla:tla400458"><fs feats="adverb"/>nfr</w>
+<w xml:id="tlaIBUBdwyZIsHahEb3tdOs0pDKMWQ" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd99FBWzSZka1oV5s5FM3Qtk" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_pronominalis singular"/>jz</w>
+<w xml:id="tlaIBUBdzsllQf8QEtJgd4HplmU0y8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd7n55vF4NUCEq88RXRJB5M4" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n,j</w>
+<w xml:id="tlaIBUBd9Pm0polcE9qoo4bnlg7bqQ" lemmaRef="tla:tla500066"><fs feats="substantive st_absolutus singular"/>ẖr-nṯr</w>
+<w xml:id="tlaIBUBdzman5LQPkdPtj76t1h6HSg" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr,j-tp-nswt</w>
+<w xml:id="tlaIBUBd1dXOOR4mUGOpQl8qWI9H54" lemmaRef="tla:tla450604"><fs feats="epitheton_title title"/>zẖꜣ,w-ꜥ-<supplied reason="defective">n-</supplied>nswt-ḫft-ḥr</w>
+<w xml:id="tlaIBUBdQqQ4cNcw0a8oRats1xgfq8" lemmaRef="tla:tla853737"><fs feats="epitheton_title title"/>sḥḏ-zẖꜣ,ww-ꜥ-nswt</w>
+<w xml:id="tlaIBUBdzpzym4v3knIj8OZWdtwB3U" lemmaRef="tla:tla853750"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-pr-ꜥš</w>
+<w xml:id="tlaIBUBdQchr60RNkMchdsCLkAnAmA" lemmaRef="tla:tla450309"><fs feats="entity_name person_name"/>Jdw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

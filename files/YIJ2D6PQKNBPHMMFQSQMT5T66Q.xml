@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idYIJ2D6PQKNBPHMMFQSQMT5T66Q">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften (Gefäßbohrer)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften (Gefäßbohrer) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YIJ2D6PQKNBPHMMFQSQMT5T66Q</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Werkstatt</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften (Gefäßbohrer)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZLOJ4YBRC5CPNC2AQAYEQ6UCE4">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 134 [P]
+Abklatsch-Serie des Wb-Archivs Kasten 573 Abklatsch 9/9-11</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YIJ2D6PQKNBPHMMFQSQMT5T66Q.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-5d381674a726874ce8dd71c334c32498</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5arWYNcKUwOh97v2WP0DhQ">
+<lb n="[Szenentitel]"/>
+<w xml:id="tlaIBUBd6wleo6NbERtk5GcDCTFR60" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jri̯.t</w>
+<w xml:id="tlaIBUBd9nQKZWsnUckrCaKD8sgl9Y" lemmaRef="tla:tla163010"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>kꜣ,t</w>
+<w xml:id="tlaIBUBd6GEZ8dvv0lnoQOZYLnw4uY" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdWYWavwSMU4slfUbTUgd1o8" lemmaRef="tla:tla0"><fs feats="unknown"/>znḥ,t</w>
+</s>
+<s xml:id="tlaIBUBdWGAfT2tQ098jr9pTlYVmAY">
+<lb n="[1. Personenbeischrift v.r.]"/>
+<w xml:id="tlaIBUBdw4eFVnZu0OQhOhqlzn4Y7w" lemmaRef="tla:tla105390"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥm<supplied reason="defective">w</supplied>,t<supplied reason="defective">j</supplied></w>
+</s>
+<s xml:id="tlaIBUBdzmZyeePjU44pcvfzF64cRE">
+<lb n="[2. Personenbeischrift v.r.]"/>
+<w xml:id="tlaIBUBd44Mz0eU8EBBoo3tFFbj0XI" lemmaRef="tla:tla105390"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥm<supplied reason="defective">w</supplied>,t<supplied reason="defective">j</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

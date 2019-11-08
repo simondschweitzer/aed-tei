@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idW46MYMNZWVG6HLQVMSK3IG2XVQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Altar C</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Altar C nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>W46MYMNZWVG6HLQVMSK3IG2XVQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Altar C〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Altar C</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4T5SM5HCLNEJ3OCHZBDUPK4WB4">
+<support>
+<objectType ref="ths:NWXI27WQTVAMLFBD5HNFNJLFPE">Artefakt</objectType>
+<objectType ref="ths:RWZ6E5P2ZJBEFPZMJTXLNGGB6Q">Kult</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:SGFCZP5Y35GEBCOGT7RCMOXSNM">Karnak
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>L. Habachi, Varia from the Reign of King Akhenaten, MDAIK 20, 1965, 76 [*P, *F, Ü];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 100 (Nr. 53.1) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="W46MYMNZWVG6HLQVMSK3IG2XVQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-4dc0d39ec22191f672adbb44d213e79f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9A8qOxSYErvp7bG2q53uOU">
+<lb n="[Vorderseite]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd3WupY2s30LFmDQyExjaUHM" lemmaRef="tla:tla856317"><fs feats="entity_name gods_name"/><supplied reason="lost">M-rn≡f-m</supplied>-šw-n,tj-m-Jtn</w>
+<w xml:id="tlaIBUBd3KSTH7jmEeekbf9AFc5cBE" lemmaRef="tla:tla88060"><fs feats="substantive st_absolutus singular"/>nzw-bjt</w>
+<w xml:id="tlaIBUBd3YPWOaWtkPfjVUhbUocQLI" lemmaRef="tla:tla856314"><fs feats="entity_name kings_name"/>Nfr-ḫpr.pl-Rꜥw-wꜥ-n-Rꜥw</w>
+<w xml:id="tlaIBUBdxsNQaBBQ0jqnLQl7aqw15Y" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf suffixConjugation active"/>jri̯</w>
+<w xml:id="tlaIBUBdw2QRU7QKkocsHWcSUTZfIw" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdyIHaIGDz0HtvS1CJflComE" lemmaRef="tla:tla851711"><fs feats="verb verb_irr"/>ḏi̯</w>
+<w xml:id="tlaIBUBd6yfZzcSjUbPgOuUD9GQoDw" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+</s>
+<s xml:id="tlaIBUBdwPgygxEQUUxpq0Lx3XI8U0">
+<lb n="[linke Seite]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd6DvZxuhZkoUhrWx7hJ2eyI" lemmaRef="tla:tla856863"><fs feats="entity_name kings_name"/><supplied reason="lost">Ꜣḫ-n-Jtn</supplied></w>
+<w xml:id="tlaIBUBd1g7NVX5lkz4hKrV0JmBq9g" lemmaRef="tla:tla852060"><fs feats="epitheton_title epith_king"/>ꜥꜣ-m-ꜥḥꜥ<supplied reason="defective">,w</supplied>≡f</w>
+<w xml:id="tlaIBUBdxbLxkJeqUCSt0PaE6KfnRg" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform masculine singular"/><supplied reason="lost">mri̯</supplied></w>
+<w xml:id="tlaIBUBd5iD8W2j0krvk8j3IFYgSXQ" lemmaRef="tla:tla859387"><fs feats="entity_name gods_name"/>Rꜥw-Ḥr,w-ꜣḫ,tj-ḥꜥi̯-<supplied reason="lost">m</supplied>-ꜣḫ,t</w>
+<w xml:id="tlaIBUBd2yiC8BwX0HGm7N9ibKQ5WE" lemmaRef="tla:tla856317"><fs feats="entity_name gods_name"/>M-rn≡f-<supplied reason="lost">m-šw</supplied>-n,<supplied reason="lost">tj-m-Jtn</supplied></w>
+</s>
+<s xml:id="tlaIBUBd4bOcGJxmUz6hEQvSDOaVMc">
+<lb n="[Rückseite]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd7NkWaWSLEifmtHqEY8SH8U" lemmaRef="tla:tla856314"><fs feats="entity_name kings_name"/>Nfr-ḫpr.w-<supplied reason="lost">Rꜥw</supplied>-wꜥ-n-Rꜥw</w>
+<w xml:id="tlaIBUBdWrnuYTWt0gIurb9Ezep2OU" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform masculine singular"/><damage>mri̯</damage></w>
+<w xml:id="tlaIBUBd41YEcz5eUHMmyTJsogIkxg" lemmaRef="tla:tla859387"><fs feats="entity_name gods_name"/>Rꜥw-Ḥr,w-ꜣḫ,tj-ḥꜥi̯-m-ꜣḫ,t</w>
+<w xml:id="tlaIBUBd2YFlNNAiUE3kq9bUrZts2g" lemmaRef="tla:tla856317"><fs feats="entity_name gods_name"/>M-rn≡f-m-šw-n,tj-m-<damage>Jtn</damage></w>
+</s>
+<s xml:id="tlaIBUBdzP9nZTDi0qWrVhXmU4o2xg">
+<lb n="[rechte Seite]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd6EyPFFBj0PFheFQMhNpik4" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform masculine singular"/>mri̯</w>
+<w xml:id="tlaIBUBdxPmg1NWt0amlJZgK20BmP4" lemmaRef="tla:tla859387"><fs feats="entity_name gods_name"/><supplied reason="lost">Rꜥw-Ḥr,w-ꜣḫ,tj-ḥꜥi̯-m-ꜣḫ,t</supplied></w>
+<w xml:id="tlaIBUBdzX3yPa5kU91kRCTdINWTTs" lemmaRef="tla:tla856317"><fs feats="entity_name gods_name"/>M-rn≡f-m-šw-n,tj-m-Jtn</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

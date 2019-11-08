@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtYRIBDLBWXNG3DDYVE6TPA32Q3E">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sturzbalken</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Sturzbalken nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>YRIBDLBWXNG3DDYVE6TPA32Q3E</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür des Nefer-Chuu (Westwand)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Sturzbalken</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla33HI6PVDFBGOZC2Y57V5SYA7GI">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1934-1935, Bd. 6.3, Cairo 1950, 160, pl. LXVIII [K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="YRIBDLBWXNG3DDYVE6TPA32Q3E.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-ec279cedeeb0fd32b1ae8ab99b8bce76</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQTZn6oMV0kMgg6mgIVy3P4">
+<w xml:lang="de" corresp="src:tlaIBUBd8hJ2K1BUk4ZqLquNmhvqtA">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ3ydTUpBUWCtr0pEc1X6ho">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBd830xtuhIUwdhxWOW5yu450">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd75KbTvH0ECDm5QjX25uVKc">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtJNQ4pQEG4tDvuvENhBVM">der vor der Gotteshalle ist (Anubis, Osiris)</w>
+</s>
+<s corresp="src:tlaIBUBd66qvmSXiUHCglIdoqn8fdk">
+<w xml:lang="de" corresp="src:tlaIBUBd1Bgrs0nUkVSiBkeAXkFqB8">bestatten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9lGcqovtkhrp7DLgnIetQA">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVWy48c10l3kyc31WuqZYM">Begräbnisstätte</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyJ2dtc12U1YninhKWPn2FM">westlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5yPnzgiTkg1kis5r9IkI5k">alt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxSXxz5wjkBKlMHcHWYh6LY">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59nZY2W9U72pOo5rnMjk9g">sehr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd04r2Ai7CUxKohcjQ7HoP18">Versorgter beim großen Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWXhvJg0GkrkvAW9jUk5EM4">Nefer-chuu</w>
+</s>
+<s corresp="src:tlaIBUBdWh8W1nl1UTfj21uLWs9yd4">
+<w xml:lang="de" corresp="src:tlaIBUBd4kGr2Q1EkQkrTD64Bq6HYk">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW6aQNmUHkyLsMas9hmcvIE">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3JgJd8MJ0fWvZXUo4Rq8aY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Qp9ckW5kPUvIRHKA8lHwE">am</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyKUCB9KZ0DBvMqHV9CwhIg">Neujahrstag (Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6hkoyAnWURuo48LAGfJdPg">Jahresanfang (ein Fest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7k4xfjnckacpezWIn6Q4gA">Thot-Fest</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4QriZupZEZmnzINPnOHXqg">Wag-Fest (Totenfest)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2lWZJyFtkZphoB9MzIJ3Vw">täglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9DfBErzeUEikEzSknLPoCA">Verwalter des Königsvermögens</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2l2fkeQ6EverhpKTGVj3FU">Vorsteher von der (Pyramidenanlage) Groß ist Chephren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd63qQHb5QUqxmpU8ejEKgh8">Nefer-chuu</w>
+</s>
+<s corresp="src:tlaIBUBdzSilgaWvUiHu51sKoTOg0c">
+<w xml:lang="de" corresp="src:tlaIBUBdWGkCf4Q50O5uqiWBWRa2pA">Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1AFrWTbfEwcpSGp4MQrQfE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1yHYgBBY0CUofM7rJsEk3c">Verwalterin des Königsvermögens (auch Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd28fyEZhr0GLoeiJy1wY928">Ni-seanch-Hathor</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
