@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idBNNNSBBKTREWVL7TWKI5U2BSS4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Scheintürtafel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Scheintürtafel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BNNNSBBKTREWVL7TWKI5U2BSS4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür (Westwand)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Scheintürtafel</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaZLAGH3Q655DUFF37EYXFK4FIVY">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza XI, Wien 1953, 214-222, Abb. 83 [F, H, Ü, K];
+LD II 81</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BNNNSBBKTREWVL7TWKI5U2BSS4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-0ed375f9d74e336865fe6f4d63db8429</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQlbCZByyE1JpJTq9DwLY3w">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdzRF09OQvkNqu6fyxN5XZlA" lemmaRef="tla:tla707086"><fs feats="entity_name person_name"/>Sšm-nfr</w>
+</s>
+<s xml:id="tlaIBUBdziTQg7Oh03rnlnPPo1EOHU">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdyAWjC4OQEaAvsMDdBHlS3k" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd5oJydmKBUoyo4A1hQ2c0s8" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBd9EdCM0pQURWkv8Hu6ca2WQ" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd4hmTwWxbkWKvwW0R8p9pX8" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBd4tRah6c409CuiTGwtFLlrY" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd4i4Fs0vaEclip7BgguRpeY" lemmaRef="tla:tla156950"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>šs</w>
+<w xml:id="tlaIBUBd5mOajFZ9k8fst29ThY6Y88" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd6iS6PaYKEY9pEugOz83QZo" lemmaRef="tla:tla71170"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>mnḫ,t</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd8AtiPL2S0pug3oPNMSwA2U" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd2pt4qYqnEL4tDG0wCDS2SI" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜣpd</w>
+<w xml:id="tlaIBUBdWtpspVYGEfPlZzUF4OAIoc" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBd73GV0Z4LkbomFtwdOU9sVY" lemmaRef="tla:tla30410"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jḥ</w>
+<w xml:id="tlaIBUBdWdUlWDNOUDPtWKWrEZH3GU" lemmaRef="tla:tla113110"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḫꜣ</w>
+<w xml:id="tlaIBUBdxdmkVs3Jkf4mgoVhEUo6SE" lemmaRef="tla:tla66260"><fs feats="substantive st_absolutus singular"/>mꜣ-ḥḏ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

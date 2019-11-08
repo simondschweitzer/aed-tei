@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idC2ADCT77UVCMXAOSJ4OWUTWPEI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>C2ADCT77UVCMXAOSJ4OWUTWPEI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaXK6D3RXJCJDZXKP42RR7RWRWJM">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4XVWKCUISJDA5OWB724D2CPBRI" notBefore="-2588">Chefren</date>
+<date type="latest" datingPoint="ths:B6LUZDUOMJDC3G3JVUHHECQCAM" notAfter="-2523">Schepseskaf</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1934-1935, Bd. 6.3, Cairo 1950, 62-63, fig. 45, pl. XXIX [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="C2ADCT77UVCMXAOSJ4OWUTWPEI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c52abbeede0d31f9677d74ab8f194e0e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd99RHEtQekxjrcBGKqWJf98">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd0KQLbGrh0bHpFVxrj4xbSk" lemmaRef="tla:tla852513"><fs feats="epitheton_title title"/><supplied reason="lost">zꜣ,t-nswt-n,t-ẖ,t≡f</supplied></w>
+<w xml:id="tlaIBUBdyzo82obGEGkiEdh5j94WCk" lemmaRef="tla:tla704744"><fs feats="entity_name person_name"/><supplied reason="lost">Ḥm,t-Rꜥw</supplied></w>
+</s>
+<s xml:id="tlaIBUBd9QDW297GkJZjYoftnvcveI">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd7ToyTnN9UvTiHQzCe9KJVY" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBdyeb4D8luU9XgBSwyZkF7NU" lemmaRef="tla:tla450533"><fs feats="epitheton_title title"/>ḫrp-zḥ</w>
+<w xml:id="tlaIBUBd9RfzgcwqEpwgruedaLHDmg" lemmaRef="tla:tla852877"><fs feats="entity_name person_name"/>Nḏ≡f-Rꜥw</w>
+</s>
+<s xml:id="tlaIBUBd4EpJ0gSe0x1nu2WCPyQo5Q">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdQ81SIMHb0SEk3iGM3o9j8Y" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd0jEBYtM2U4vjzXJgrlOd30" lemmaRef="tla:tla852880"><fs feats="entity_name person_name"/>Ḏw-p<supplied reason="defective">w</supplied>-nbw</w>
+</s>
+<s xml:id="tlaIBUBd945WP1jLUwWs1V0YZT9Uw4">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdzbmPIRPHUglradfhwnWKeY" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd65T6XRJ4UzMo7TqWldKi1I" lemmaRef="tla:tla200011"><fs feats="entity_name person_name"/>Jnḫj</w>
+</s>
+<s xml:id="tlaIBUBd9v12KF5F0J0jIWh7HSdVQ4">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd3t6Ye0oGU2YjiKMsHVXoL0" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/>ḥm-kꜣ</w>
+<w xml:id="tlaIBUBd1WPfvy7G0k4vKYcy328JQU" lemmaRef="tla:tla200007"><fs feats="entity_name person_name"/>N,j-sw-qd</w>
+</s>
+<s xml:id="tlaIBUBd44ZRFdikkWVkxH3nRkWF68">
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdyoIc6JCy0R5o7NpbtpNC1A" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm-kꜣ</supplied></w>
+<w xml:id="tlaIBUBd5TSCwZQA0gXqvcowe5OnSU" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>_</unclear></supplied></w>
+</s>
+<s xml:id="tlaIBUBd7VZqWz2TEd4jlQwpb5rUyQ">
+<lb n="[7]"/>
+<w xml:id="tlaIBUBd33IX6XoSkRZjabrAK1udhA" lemmaRef="tla:tla104990"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm-kꜣ</supplied></w>
+<w xml:id="tlaIBUBd1HgiviMm0TWofGVakFBCPE" lemmaRef="tla:tla850830"><fs feats="entity_name"/><supplied reason="lost"><unclear>_</unclear></supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

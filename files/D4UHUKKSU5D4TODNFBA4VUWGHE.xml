@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idD4UHUKKSU5D4TODNFBA4VUWGHE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linke Rahmeninschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linke Rahmeninschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>D4UHUKKSU5D4TODNFBA4VUWGHE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Statue in Nische</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linke Rahmeninschrift</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4XEVCSVKNZDB3MNFDFZ72YS4EE">
+<support>
+<objectType ref="ths:46EEHPJHQJFQ7ICDCBFA4WNR7Q">Skulptur</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notBefore="-2499">Neferirkare</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 19, pl. XIX</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="D4UHUKKSU5D4TODNFBA4VUWGHE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-170e471588b1b4a872954206733c373b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8Yh9KedkEBnh7IobrhcCrI">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdWKF1RMDW0MYjdc2YA8lI34" lemmaRef="tla:tla852004"><fs feats="epitheton_title title"/>ḥm-nṯr-Ḥr,w-Jnp,w-ḫnt,j-pr-Šms,wt</w>
+<w xml:id="tlaIBUBdWN8oGJxHEJJoadVrNbiJdc" lemmaRef="tla:tla850541"><fs feats="epitheton_title title"/>ꜥḏ-mr-Sbꜣ-Ḥr,w-ḫnt,j-p,t</w>
+<w xml:id="tlaIBUBdWZYbHy4kEWXtU6z8eEL8lg" lemmaRef="tla:tla850522"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nb≡f</w>
+<w xml:id="tlaIBUBd4JbM3c7qUEev1gIiSBP4wc" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBd7leQrtDO0czgkQEgtVGw2U" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idDNNGCFBMGZGX5GU4ZDLR5IKI7U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 351</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 351 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DNNGCFBMGZGX5GU4ZDLR5IKI7U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Ostgiebel〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 351</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaY4ZYSDROK5CBFAAQBKMRF7HTLE">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DNNGCFBMGZGX5GU4ZDLR5IKI7U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-9cad1c240f1ea9d353b61b919e4a9c37</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxk5IyyIOU8Wmup5gb8ooh8">
+<lb n="[T/F/E sup 48 = 101]"/>
+<w xml:id="tlaIBUBdxFWZxIbJ0afuHyhrjJEAXI" lemmaRef="tla:tla186050"><fs feats="verb"/><supplied reason="lost">ḏ<supplied reason="defective">d</supplied>-mdw</supplied></w>
+</s>
+<s xml:id="tlaIBUBd4byk2AqN0OypfZPKnUhVuA">
+<w xml:id="tlaIBUBdxsovS252k5VhXhOG88aDrU" lemmaRef="tla:tla22930"><fs feats="verb verb_3-lit suffixConjugation active"/><supplied reason="lost">jj</supplied></w>
+<w xml:id="tlaIBUBd9Q5OpEHKkkAubhtuuGQPZk" lemmaRef="tla:tla858897"><fs feats="epitheton_title epith_god"/><supplied reason="lost">nr,t</supplied></w>
+<w xml:id="tlaIBUBdyWDO3x7dEHpkg2DidZLNew" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBdydQeZWMckhfiwQIh2j71sg" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<w xml:id="tlaIBUBd3TagJGkcE7AkYP998C77Uk" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd6mtut4lpkYrm2725xESU6g" lemmaRef="tla:tla157060"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>šsꜣ,t</w>
+<lb n="[T/F/E sup 49 = 102]"/>
+<w xml:id="tlaIBUBdzSoxqtsc059nFEJDuZf3aE" lemmaRef="tla:tla91900"><fs feats="preposition"/><supplied reason="lost">r</supplied></w>
+<w xml:id="tlaIBUBd7vSQUmrWUfVpW9RsGoGND4" lemmaRef="tla:tla36250"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">ꜥb</supplied></w>
+<w xml:id="tlaIBUBd9TQpDfMq0s4nuWzqHiaWbI" lemmaRef="tla:tla10120"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">ṯ</supplied></w>
+<w xml:id="tlaIBUBdxvDLSpetk87qfeKkjSAWAE" lemmaRef="tla:tla500032"><fs feats="substantive substantive_fem st_absolutus singular feminine"/><supplied reason="lost">jd,t</supplied></w>
+<w xml:id="tlaIBUBdzGgTQLwoEbElbW5FPuqlNU" lemmaRef="tla:tla155450"><fs feats="verb verb_3-inf participle feminine singular active"/><supplied reason="lost">šni̯.t</supplied></w>
+</s>
+<s xml:id="tlaIBUBd7o5QIyyCkHUsAaFH7eaN0Q">
+<w xml:id="tlaIBUBdWxWHkWWtUfunj7LOMnOqrY" lemmaRef="tla:tla43580"><fs feats="verb verb_3-lit suffixConjugation active"/><supplied reason="lost">wꜣ</supplied>ḏ</w>
+<w xml:id="tlaIBUBd4psuaRBwEO2nLWk4Elmg2k" lemmaRef="tla:tla10120"><fs feats="pronoun personal_pronoun"/>=ṯ</w>
+<w xml:id="tlaIBUBd1fQNNeABkKSk5ubpsr5QxY" lemmaRef="tla:tla43580"><fs feats="verb verb_3-lit suffixConjugation active"/>wꜣḏ</w>
+<w xml:id="tlaIBUBdy9WE9pJQ0iCjDe17FhUaQg" lemmaRef="tla:tla450656"><fs feats="entity_name kings_name"/>Ttj</w>
+<lb n="[T/F/E sup 50 = 103]"/>
+<w xml:id="tlaIBUBd6RNMcwrc0mgjH2516Qlig4" lemmaRef="tla:tla43580"><fs feats="verb verb_3-lit suffixConjugation active"/><supplied reason="lost">wꜣḏ</supplied></w>
+<w xml:id="tlaIBUBd9nkc9sxgkeqlDJPMjxnv7c" lemmaRef="tla:tla0"><fs feats="unknown"/><supplied reason="lost">ḥn-ꜥnḫ</supplied>,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

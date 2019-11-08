@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stBBBS5BHQ7VAQHJIJT2NGJG2OR4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Hatnub Inschrift VIII〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Hatnub Inschrift VIII〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BBBS5BHQ7VAQHJIJT2NGJG2OR4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Hatnub Inschrift VIII</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Hatnub Inschrift VIII〉</title>
+<textLang mainLang="Egyp-Egypcs">Kursivhieroglyphisch
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaX7JSBALUPRGW7MSLCBDHPTZ7K4">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+<note>Königsname nur Mry... erhalten, entweder Merire oder Merenre</note>
+</origDate>
+<origPlace ref="ths:GGN7WFYXI5DTLG43NOFG7SVJ6A">Hatnub
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Anthes, Rudolf: Die Felsinschriften von Hatnub, Untersuchungen zur Geschichte und Altertumskunde Ägyptens, Leipzig 1928, 14, Taf. 5;
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 41</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BBBS5BHQ7VAQHJIJT2NGJG2OR4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypcs">Kursivhieroglyphisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c93cdb9ad95cd1a8f54e80db25f3f021</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd4yit8QUHUWWqW2n9zs6t3o">Horus  [ ]y [König v. OÄ u. UÄ] Merire, dem Leben gegeben, dem Leben gegeben</s>
+</ab>
+</body>
+</text>
+</TEI>

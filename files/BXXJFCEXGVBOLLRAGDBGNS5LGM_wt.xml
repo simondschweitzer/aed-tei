@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtBXXJFCEXGVBOLLRAGDBGNS5LGM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften zu den Zeugen</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften zu den Zeugen nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BXXJFCEXGVBOLLRAGDBGNS5LGM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften zu den Zeugen</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTNWZQRB7NRGMTPOTG3LHV5LCJQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1930-1931, Cairo 1936, 190-199, fig. 219, pl. LXXIV-LXXVI [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BXXJFCEXGVBOLLRAGDBGNS5LGM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d67e3876ce8efb975a63dbe94a1abe8d</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd0o1EhCWtUQ1hZktDtHjlus">
+<w xml:lang="de" corresp="src:tlaIBUBd7sEbTLUM0lnphH5deKZ8Wc">Arzt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Xwi5XuREpRuGl45BYQOWs">Nefer-her-en-Ptah</w>
+</s>
+<s corresp="src:tlaIBUBdWnJiegLJUawvP25vPzMV1I">
+<w xml:lang="de" corresp="src:tlaIBUBdxkhewmL20CwiQ27osuSNAI">Gutsvorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8DdTztAxEouvz8HJyoe29Q">Nefer-sedjem</w>
+</s>
+<s corresp="src:tlaIBUBdW4UQKbyk0k8myPGkSWDMwU">
+<w xml:lang="de" corresp="src:tlaIBUBd7nFW2cISEVnn16aheWARmc">Jüngling</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzROifI52kmQky8DC2AC28U">Mai</w>
+</s>
+<s corresp="src:tlaIBUBd28PFg8pkExZqE8GEsnaZH8">
+<w xml:lang="de" corresp="src:tlaIBUBd3rkZMGrdkDSsqtdMz3TEz0">Augenarzt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8WLZoDeoUHRqWWNpvi3fq0">Nefer-tjez</w>
+</s>
+<s corresp="src:tlaIBUBd9qYMvEXYUYQtBFhIkBW87Y">
+<w xml:lang="de" corresp="src:tlaIBUBd1SOMUV3V08nlSjaQCBZ99o">Aufseher der Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ZQPQayD098vb4vGdjGMT0">Niui-Redji</w>
+</s>
+<s corresp="src:tlaIBUBd9wUI4F8W04Rs100gY7ht5M">
+<w xml:lang="de" corresp="src:tlaIBUBdQNkotQRQUimr0Yu4A9CVaQ">Maurer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Qt7X7nvEQWjjIEQxuo1j0">Kai-tjezu</w>
+</s>
+<s corresp="src:tlaIBUBd3KRpzIsakAQh07H6OvlyH4">
+<w xml:lang="de" corresp="src:tlaIBUBdzxIH3XMNkj9kEoTIQtgwWo">Siegler</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7PMKlvk6UWolUUxMYn3f2Q">Tjenti</w>
+</s>
+<s corresp="src:tlaIBUBd9BXQOulMU51hkKEewYGwaY">
+<w xml:lang="de" corresp="src:tlaIBUBd1T6S9Q8LkxwsAwOHWARkWw">Umrisszeichner</w>
+<w xml:lang="de" corresp="src:tlaIBUBd00VF7QXSkE3krVfjF9W9NA">Ra-ha-i (?)</w>
+</s>
+<s corresp="src:tlaIBUBdy4CrwDmrUoQog5k3x5BaPs">
+<w xml:lang="de" corresp="src:tlaIBUBd9XZjZIYyk3WsI6XExROt8s">Bildhauer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9uIo8hcGU69tsElRX0RKsw">Chenu</w>
+</s>
+<s corresp="src:tlaIBUBd96gGMQaokK6qfPoOzUwNoo">
+<w xml:lang="de" corresp="src:tlaIBUBdycyNZAyB0yGiUeeLl04lxc">Grabbauer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9kYMyUsgkxlnzZCQIjcxt8">Wer-ta</w>
+</s>
+<s corresp="src:tlaIBUBd7xfDgw3DUqBmUVg3Fd5mW8">
+<w xml:lang="de" corresp="src:tlaIBUBd7UbEJcpJUdCt8Wv2W53KGU">Balsamierer des Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0cO4J1etUHIhMU17EkGbYc">Sechentiu</w>
+</s>
+<s corresp="src:tlaIBUBd3NTSTjs8kbQjo5pOIPvnTQ">
+<w xml:lang="de" corresp="src:tlaIBUBd9LXp6F0b0FPsar774N5Hlg">Handwerker</w>
+<w xml:lang="de" corresp="src:tlaIBUBd29Lyla9WkIis5QQCnnogcw">Bak</w>
+</s>
+<s corresp="src:tlaIBUBd5Nsw5BPgUK4swizmgGdgwc">
+<w xml:lang="de" corresp="src:tlaIBUBd8fxjGiQekPYidmih8M5WPI">Nekropolenarbeiter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdynHuztJwUIVtWFCasfWy78">Ka-pa</w>
+</s>
+<s corresp="src:tlaIBUBdw2lzITSG0A5pLOzQ7RjJBk">
+<w xml:lang="de" corresp="src:tlaIBUBd6xq0wJJb0FEoO6NmIWPDKA">Totenpriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3euf11CrEgYgSRvuqIg2T0">Ptah-hetepu</w>
+</s>
+<s corresp="src:tlaIBUBd05hTTUYzU9uo8xIiqAzAn4">
+<w xml:lang="de" corresp="src:tlaIBUBd91U3Jlxo0wenuSxB5hcFro">Leiter der Arbeitermannschaft</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3UHTnbUbUcGhx6Y5fOvtWo">Inba</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

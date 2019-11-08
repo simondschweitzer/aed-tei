@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroDMFNCFIFWJGHLOTIIJ3KUILSL4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>4. Beischrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Adelheid Burkhardt</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 4. Beischrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Adelheid Burkhardt</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>DMFNCFIFWJGHLOTIIJ3KUILSL4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Inschriftenreste</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">4. Beischrift</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6ROKFX2YZBBGBBQBPY5MVTNQZ4">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+<note>nach Kanawati, El-Hawawish, 8. Dyn.;
+nach Kanawati, Akhmim, Ende Pepi II. bis Ende 6. Dyn.</note>
+</origDate>
+<origPlace ref="ths:C2Z63NXQFBBFNLB3RZEJJQTBVQ">Achmim
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Kanawati, Naguib, The rock tombs of El-Hawawish. The cemetery of Akhmim 8, Sydney 1988, 31, 32, Fig. 11, 13a,b *[F,U,Ü,K,L,B];
+Kanawati, Naguib, Akhmim in the Old Kingdom. I: Chronology and administration, Sydney 1992, 313 [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="DMFNCFIFWJGHLOTIIJ3KUILSL4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Adelheid Burkhardt</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-e564edb8ac9be17fabdefe5338dff3c6</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd6WqS4Q8OECpgRornOdFZfc">
+<w corresp="src:tlaIBUBd8JpGbHMLkWakTMY7LosQZI"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd3l5bSkrg0OfgZJkQSIiiNs"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd35qrTpimkwWjvsrwLhdQD0"><unclear></unclear></w>
+<w corresp="src:tlaIBUBd5P7wZIMfkqNlIi8KWDyiEk"><unclear></unclear></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stBG2HK57AOVAXPLDFLPF2LEN3ZE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Amenemope 24.1-25.9</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Amenemope 24.1-25.9 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BG2HK57AOVAXPLDFLPF2LEN3ZE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:FS47WR3XHJD2FJ2NUC4OLS3CIY">Museo Egizio</repository>
+<idno>Inv. Nr. 16354</idno>
+<msName>〈6. 〉tTurin CGT 58005</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Amenemope 24.1-25.9</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhlrb">literarisches Neuägyptisch-Späthieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaFB6OSMFIN5HCDDHVQ7MXMR7CCA">
+<support>
+<objectType ref="ths:5Z4BBZUQ3JBTVEJSKXNCA7LKUQ">Schreibtafel</objectType>
+<material ref="ths:3NHNBPVU3VF2RERSPPZ46ELQHE">Holz</material>
+<note>32,8 x 14 x 1,8 cm</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:744HIAA6FRHBROALBB3DV4VV3I" notBefore="-0713">25. Dyn.</date>
+<date type="latest" datingPoint="ths:QHQZNMAUZFCTZMLD5BGMDIKS6M" notAfter="-0526">26. Dyn.</date>
+<note>Datierung nach der Beschaffenheit der Holztafel; laut Posener, in: RdE 18, 1966, 59-60 ist die Holztafel paläographisch älter als pBM 10474, der laut Verhoeven aus der Zeit Psammetichus I. stammt</note>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+<note>aus der Sammlung Drovetti</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- H.O. Lange, Das Weisheitsbuch des Amenemope aus dem Papyrus 10,474 des British Museum, Kobenhavn 1925, 118-126 [Transkription von Gardiner] [T,Ü,K]
+- G. Posener, Quatre tablettes scolaires de Basse Époque (Aménémopé et Hardjédef), in: RdE 18, 1966, 54-62 und Tf. 2 [*P,*T]
+- P. Vernus, s.v. Schreibtafel, in: LÄ V, 1984, 708, Nr. 37 [B]
+- J. López, Catalogo del Museo Egizio di Torino. Serie II, Vol. III/4. Ostraca ieratici N. 57450-57568. Tabelle lignee N. 58001-58007, Milano 1984, 51 und Tf. 185-186a [P,T]
+- V.P.-M. Laisney, L&#039;Enseignement d&#039;Aménémopé (Studia Pohl: Series Maior 19), Roma 2007 [T,Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:FS47WR3XHJD2FJ2NUC4OLS3CIY">Museo Egizio</repository>
+<idno>Inv. Nr. 16354</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BG2HK57AOVAXPLDFLPF2LEN3ZE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhlrb">literarisches Neuägyptisch-Späthieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-fae5d8590f44355b2929e12d48d18cdb</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd2R7Rs2qwEpFu6H3rkexN2I">[Vierundzwanzigstes Kapitel:]
+[Lausche nicht die Antwort eines hohen Beamten in 〈seinem〉 Haus,]
+und wiederhole sie nicht einem anderen draußen!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5oAgCJsyEHQgbEJKkfnXHk">Laß {für dich?} [deine Aussage] nicht nach draußen gebracht werden,
+damit dein Herz nicht bitter wird.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd67YjjLeZ0NqotwrTOk6dKw">Was das Herz eines Menschen angeht, (das ist) ein Geschenk Gottes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyNn8S08akkruZ9vEuWcg7o">Hüte dich davor, es zu vernachlässigen!</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxRxBxLKbEXgmbqWYxL7F4c">Tag 4.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyfblreGjkKHi9I1EdUPiF0">Was einen Mensch angeht, der neben einem hohen Beamten steht,
+sein Name braucht nicht bekannt zu werden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd8JMCphm2EHwhVfsngIFomY">ein $ḥr.j-sꜣ$-Rind;
+eine $ḥr_$-Pflanze (?)</s>
+<s xml:lang="de" corresp="src:tlaIBUBdxmX3mlEUEMUlWnBw9IWk0M">Fünfundzwanzigstes Kapitel:</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6HQNjrZOE2CqVNfGSrMkYA">Lache nicht über einen Blinden, verspotte keinen Zwerg,
+und erschwere (wörtl.: verletze) nicht den Zustand eines Gelähmten.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6XdLTaGD0bSgLPzm9paiFc">[Verspotte?] nicht hinter (?) einem Mann, der in der Hand des Gottes ist (d.h. ein Besessener?),
+und mache kein wütendes Gesicht gegen ihn, damit er verletzt wird (?)!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7VKMljIp0BasV2ycjegvEc">Was den Menschen angeht, (er ist) Lehm und Stroh.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7TMc0PmK0Qqt9SfWl784c0">Tag 8.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9L5rWIMfE4sqGVIuvraX3Y">Der Gott ist sein Baumeister.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzjUXSHgRk4QjRHkNmJ4SJg">Er bricht ab und er baut auf täglich.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4HVXNahLk9mhHytjOn7q1s">Er macht 1000 abhängige Leute, wie es ihm gefällt.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWxVhZEAKUQyrco6wGLNnvc">Tag 10.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQ5retwIh07ZjOFPJseY40s">Er macht 1000 Menschen zu Aufsehern,
+wenn er in seiner Stunde des Lebens ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0iyhjK2w0pPi8AHeOiNOqM">Tag 12.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7eQPq2plkDooQgFHTK8HNs">Wie sehr freut sich der, der den Westen erreicht hat,
+wobei er wohlbehalten in (oder: bewahrt vor?) der Hand des Gottes ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4qnbHYPI0dJhqmSmT7lQRc">Sechsundzwanzigstes Kapitel:</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzoZm0y0okiStE0qegwu22o">Setze dich nicht in ein Bierhaus,
+und begebe dich nicht hinauf 〈zu〉 dem, der wichtiger ist als du!</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyBpc2F3lE0kvYaQBZ7QPiY">Tag 16 (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzQLKML4Q0sYj8dRZOQnsTw">Ob einer (wörtl.: er) ein Kleiner oder ein Großer in seinem Amt/Beruf ist,
+oder ein Greis oder ein Kind (?),
+freunde dich mit einem Mann deiner Verhältnisse/Art an damit Re in der Ferne wohlbehalten ist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd4up1wzPHU1ugfPnlO0WOaM">Tag 19 (?).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyiqB1So6UbvpODUh8t8XeY">Wenn einer, der größer als du ist, nach draußen geht, dann folge (?) ihm und zolle (ihm) Respekt!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6YIO0v2F0fAoftrjM6Qf6g">Reiche einem Greis, der von Bier satt ist, die Hand!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd5zAW6hc5kvDl9orNpsVbxI">Zolle 〈ihm〉 Respekt in (?) seinen Kindern (oder: wie seine Kinder tun würden).</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7zViheVSUQqgRpbMQJRQE4">Tag 24 (?).</s>
+</ab>
+</body>
+</text>
+</TEI>

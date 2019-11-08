@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idAQKWAF2K2BCCHE3ZHWU64ZELCU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AQKWAF2K2BCCHE3ZHWU64ZELCU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>innere Westseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaIZ25H6XDKNHVZGGA7N5YOELXXU">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:EBTM44JP7NA5BBJ4XXKU7RMX7Y" notBefore="-2353">Userkare</date>
+<date type="latest" datingPoint="ths:EBTM44JP7NA5BBJ4XXKU7RMX7Y" notAfter="-2352">Userkare</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. III, Cairo 1975, 8, pl. IV C</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AQKWAF2K2BCCHE3ZHWU64ZELCU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-758d003e808e0d57e70be942744a6652</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdynMuY4EbEAtmwLJRpf3v3U">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd14IxJm840U0rJ09vJRyrwU" lemmaRef="tla:tla95750"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,jt-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<w xml:id="tlaIBUBdW7Z5Mk0uU7ekUPHxF4nMoA" lemmaRef="tla:tla854597"><fs feats="epitheton_title title"/>jmꜣḫ,wt-ḫr-tp,j-ḏw≡f</w>
+<w xml:id="tlaIBUBdQaJFWczNEFqhQsgB0xW8TE" lemmaRef="tla:tla850462"><fs feats="epitheton_title title"/>jmꜣḫ,wt-ḫr-Wsjr</w>
+<w xml:id="tlaIBUBd1AQzXyxlEysveIiVPftYVU" lemmaRef="tla:tla850381"><fs feats="epitheton_title title"/>jmꜣḫ,wt-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBdyIRf7EEu0Oyu3WvCux3P88" lemmaRef="tla:tla850237"><fs feats="substantive st_pronominalis singular"/>rn</w>
+<w xml:id="tlaIBUBdwBDbKuq2UUzg6CxDlTrJb0" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+<w xml:id="tlaIBUBdz1xzoMp6kVbpZTi66BYMtg" lemmaRef="tla:tla0"><fs feats="unknown"/>ꜥꜣ</w>
+<w xml:id="tlaIBUBd6YJfirdk0oesQdLQ01s36k" lemmaRef="tla:tla704744"><fs feats="entity_name person_name"/>Ḥm,t-Rꜥw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

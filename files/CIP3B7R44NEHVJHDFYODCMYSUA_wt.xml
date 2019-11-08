@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtCIP3B7R44NEHVJHDFYODCMYSUA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 586D/PT 625C</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 586D/PT 625C nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CIP3B7R44NEHVJHDFYODCMYSUA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Westwand - nördl. des Verschlußsteins〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 586D/PT 625C</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMRSEJCVOZJCINAHGVCMFQQRXMM">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. XXIV [*F];
+K. Sethe, Die altägyptischen Pyramidentexte, Leipzig 1908-1922 [H];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005  [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CIP3B7R44NEHVJHDFYODCMYSUA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-58b1eaf803043df909afd42c58c9a9b8</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd7rkaBXaDEItiUKNsdE67VM">
+<w xml:lang="de" corresp="src:tlaIBUBdQvVOF9LbkGxvfphdN93oGQ">Worte sprechen; [Rezitationsvermerk]</w>
+</s>
+<s corresp="src:tlaIBUBdxFkCakyYE52lMkhXNA6Pp8">
+<w xml:lang="de" corresp="src:tlaIBUBd1HrSWdWX0Vcn3uHgAhWHyM">oh!; [Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyW1WQfwqESdqiNQkcpr4yQ">Dessen Hinterkopf hinter ihm ist</w>
+</s>
+<s corresp="src:tlaIBUBd2uQXTYJ0Uzzivu2BHu6Fx4">
+<w xml:lang="de" corresp="src:tlaIBUBd1HcfpzE2kMDodp4sQ30OU4">bringen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQQIWwqjjEZDsFT1BohQQRU">Leiter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyc3YYdB80FklGzLaTwyjv0">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3HJZUlj5UzQgsiX53QHHI4">Meryre (Thronname Pepis I.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2zgb98bGk8il646bJKrE2s">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ywlh1KuUb1oWAfCD1MTQ0">Chnum</w>
+<w xml:lang="de" corresp="src:tlaIBUBd37SyeQeRkxkk0RK7XQJjq4">emporsteigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5JnNTVYQUZNndSccQBcODY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4dcp33Nn0WSsyfTEjstqgs">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ift9z8lkOZizoKBMxSD1I">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw1qBWaGek90lGWU0KXbM6Q">schützen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3U5vUHW5UGWtVIrVBm6QGg">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6jIBuPysUVDmKiAETwNWnM">Schutz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd15A3MXhkkP3lwgLSeEsfEg">für</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6BuxvBB8EfXiUQiVhztQew">Re</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8cT25md10a2uI0KKWWVu3g">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Bfs062jUMvhDX14hbG8jY">Himmel</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

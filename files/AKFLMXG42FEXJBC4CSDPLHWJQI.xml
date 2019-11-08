@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idAKFLMXG42FEXJBC4CSDPLHWJQI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>AKFLMXG42FEXJBC4CSDPLHWJQI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>linke Laibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaI5MPLMQPTFCNRF7SWQO544ESOA">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1931-1932, Cairo 1941, 20, fig. 17, pl. VII.3 [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="AKFLMXG42FEXJBC4CSDPLHWJQI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-df0ff5aada66e15f7fb755fbdaa3e7e2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9Tw9Fm6RElUseSkEtdQxyM">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd4ac4n22oUhFjsYUOTx5IF8" lemmaRef="tla:tla713039"><fs feats="entity_name person_name"/><supplied reason="lost">Mr-</supplied>ꜥnḫ<supplied reason="lost">≡f</supplied></w>
+</s>
+<s xml:id="tlaIBUBdxJy29ECXEBUmjFUEgZeevQ">
+<w xml:id="tlaIBUBdybNbnySGEiXm0y8qOPKyW4" lemmaRef="tla:tla104730"><fs feats="substantive substantive_fem st_pronominalis singular"/>ḥm,t</w>
+<w xml:id="tlaIBUBdWAlHt4Zo0MEmcZXVk0CIF8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd5brstpUwEfNiZsAnDpT1cc" lemmaRef="tla:tla550321"><fs feats="substantive substantive_fem st_pronominalis singular"/>mr,<supplied reason="defective">y</supplied><supplied reason="lost">t</supplied></w>
+<w xml:id="tlaIBUBdzZkuWoIpEocuGbabi3ecNs" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBdQBYR9559kQnuSNQVuk3jQA" lemmaRef="tla:tla703467"><fs feats="entity_name person_name"/><supplied reason="lost">Nfr-ḥtp≡s</supplied></w>
+</s>
+<s xml:id="tlaIBUBdzDwaQscl0YgrEfghEOS60Y">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdzwM9MDRkULCsTT1kGbK0lQ" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBd1RGYeHuY08mjmmHQWpr9BU" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd2wZaHIcOUO3tdypg7tPubM" lemmaRef="tla:tla135720"><fs feats="adjective nisbe_adjective_substantive masculine singular"/>sms,w</w>
+<w xml:id="tlaIBUBdWyXeexot0n6lcgBqiS1z9M" lemmaRef="tla:tla95740"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j-j</supplied>ḫ<supplied reason="defective">,t</supplied>-nswt</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd4nr6GbrgEGmo3KMAtOFPoE" lemmaRef="tla:tla702875"><fs feats="entity_name person_name"/>N,j-sw-sꜥnḫ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

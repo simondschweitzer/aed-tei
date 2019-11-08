@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtBXTHE45YBRGGBNGKGIR7R6442M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>T 3: Nephthys-Text</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von T 3: Nephthys-Text nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BXTHE45YBRGGBNGKGIR7R6442M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Wandstreifen links vom Eingang〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">T 3: Nephthys-Text</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaQB3HVJMCOJDOXLHE5ZODD2P2MY">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:QHQZNMAUZFCTZMLD5BGMDIKS6M" notBefore="-0664">26. Dyn.</date>
+<date type="latest" datingPoint="ths:QHQZNMAUZFCTZMLD5BGMDIKS6M" notAfter="-0526">26. Dyn.</date>
+</origDate>
+<origPlace ref="ths:R5IJ27RPYJEC7OMMHIS6WXXK7A">Heliopolis
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. el-Sawi / F. Gomaa, Das Grab des Panehsi, Gottesvaters von Heliopolis in Matariya, ÄAT 23, Wiesbaden 1993, Abb. 2; Taf. III [H,P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BXTHE45YBRGGBNGKGIR7R6442M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-d55e9d1f3b2a2b43f56da2323b2030a5</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd8PVVvuKgEz4oVfwPhv1d2E">
+<w xml:lang="de" corresp="src:tlaIBUBd4qKKQcJwE1LjfPcb09VKZg">Worte sprechen; [Rezitationsvermerk]</w>
+</s>
+<s corresp="src:tlaIBUBdwygryK13ktunsUj8qSHWGI">
+<w xml:lang="de" corresp="src:tlaIBUBdwXkiBfdnkPrtbP4kbCLzQ0">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVMQnCRYEJzo1kmw2M3TkY">Osiris (Totentitel des Verstorbenen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwlTUjW14kWymR0nrvCkRsk">Gottesvater von Heliopolis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ3b7C9y206poF33135Qcdk">Pa-nehsi</w>
+</s>
+<s corresp="src:tlaIBUBd3L61r4IRU1mqot9vzmSud8">
+<w xml:lang="de" corresp="src:tlaIBUBdxxwphwY3Ug7lkQ3Q8adn0Q">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0YKJHmII0qPuEdLRdrtcYw">[Dativ: Richtung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7iqAiRHWUL9l6nCKHoatAs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0I0zj3nL0HPp9TQaIk7TYQ">Schwester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxBmPSKA8kZ2oVpvQtQGTzs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5E8ggSxR0EfpgaWDYIQv10">Nephthys</w>
+<w xml:lang="de" corresp="src:tlaIBUBd20ceBJnLUGJnEpEfelM9VA">Schwester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxiW6YwRT0q4jMnfJPXn8xk">befindlich in (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7iVrKr1mUyZvB1khtHt6iA">Geheset</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ABJXxXG0TAhoKpbPHBcjw">anfügen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4RIYZjbI0FlvRyB3LRZPKI">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6RN1diJBENws3tbi5yHQ20">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1qYogq9rknjvWDi5TN18mk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd82WQfxiSU8vmBTKIxWF2hM">Kopf</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWWZYQwqEUn1rQQ9t24Su9s">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyZHc6nYXU9Wt5lThQysqo0">zusammenfügen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4rmJJWNVEbqoSq9frZ1qn8">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHDDgqW0UjjtalPzjQABCc">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6DZXPEW40F2mtk3CU20OlA">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2I7eD1yMkNrqxtM4dnYcsQ">Knochen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd67aWusJDEmUuqp5SQZoeVk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd30e9RQalUXokY6hlMOcq0M">zusammenfügen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1hqz3ZixkvNgPRE8ZVRVJI">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWkZCWwWrEbLioLnDHjQmN0">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWsHErL2I00Av6rYB0wW8l0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5IdQZAtLkoEih6LUZFnv0g">Glied; Körperteil</w>
+<w xml:lang="de" corresp="src:tlaIBUBd70GPPlIi0Q7ulAJ8iED8PI">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdWIqO4DGNEies72DSaU7nhw">
+<w xml:lang="de" corresp="src:tlaIBUBd6kQfi9WcEo8g0qhFupl4nA">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyERW97dqEQmqv4pXvgbIJ4">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHExFELoECIrcSTbvGCymg">Luft</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyuBaQrJ2UqjuxZME3zjbbg">[in Richtung auf (e. Ort, e. Sache, e. Person)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWx7CBSpuE2uuAO66QFHYJ0">Nase</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1XwOqOPakR5lD1sMRsYqcU">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3TBGs8ubUMYngYeZszQBU0">leben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8uKYTABMECCnP9whPSX56A">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdygr0Vied0V0kVtgkvF2WC8">
+<w xml:lang="de" corresp="src:tlaIBUBdzdXs9gguUWMm3VcfXRBW4I">atmen lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdypJwcqOMUZrox9yS4EEwlU">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0i8IcyX70ECj3tATeqXF30">Kehle</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW5tIQ2A60pTsYEEuuEVoQQ">[Suffix Pron. sg.2.m.]</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

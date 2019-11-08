@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idBDU5CEFTKNBRLM6O6QJETFZBVM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Südseite</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Südseite nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>BDU5CEFTKNBRLM6O6QJETFZBVM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Außenkapelle</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Südseite</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaWKWL6STMCVHLFMP6HEPVCPI6HI">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastabas of Kawab, Khafkhufu I and II, Giza Mastabas, Vol. 3, Boston 1978, S. 21-27; pl. XXX-XLV
+[P,F,U,Ü,K,B]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="BDU5CEFTKNBRLM6O6QJETFZBVM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-c0fe0b36d5cfe877a1e3b3bc27c1f920</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdy8xqqMOQkMRuty8IABjbKQ">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd7yHsXFiQ0ULlQCUTOxmnVE" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/><supplied reason="lost">zꜣ-nswt</supplied></w>
+<w xml:id="tlaIBUBdy1of6DYWEx0rbQE8SyeKDo" lemmaRef="tla:tla400070"><fs feats="epitheton_title title"/><damage>wr-mḏ-Šmꜥ<supplied reason="defective">,w</supplied></damage></w>
+<w xml:id="tlaIBUBd5pmASFyQUBopECalkhR5P8" lemmaRef="tla:tla450763"><fs feats="epitheton_title title"/><damage>ns,t-ḫnt,<supplied reason="defective">j</supplied>t</damage></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdyGzvOUSSk4tuWZ4PCQ83p4" lemmaRef="tla:tla850610"><fs feats="epitheton_title title"/><damage><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-kꜣ,t</damage>-n,t-nswt</w>
+<w xml:id="tlaIBUBdy3wrzDXMUIUhhenXvfQQkU" lemmaRef="tla:tla108830"><fs feats="epitheton_title title"/>ḥr,j-sštꜣ</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdzXseaH0uEnZr4sXZQEjf1I" lemmaRef="tla:tla850702"><fs feats="epitheton_title title"/><damage>jmꜣḫ,w-ḫr-Ḫwi̯≡f-wj</damage></w>
+<w xml:id="tlaIBUBdQ6iQwC0tUbtvdwMZiHyDis" lemmaRef="tla:tla850763"><fs feats="epitheton_title title"/>mrr<supplied reason="defective">,w</supplied>-nb≡f</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd9wEHRy1XElUmWwtIPMrRBg" lemmaRef="tla:tla850703"><fs feats="epitheton_title title"/><damage>jmꜣḫ,w-ḫr-Sꜣḥ,w-Rꜥw</damage></w>
+<w xml:id="tlaIBUBdxzgpmygTEB6npW3OIIsOQ4" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/>ḥm-nṯr-<supplied reason="lost">_</supplied></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdQlliycenknJlrS1rb79v7k" lemmaRef="tla:tla850701"><fs feats="epitheton_title title"/><damage>jmꜣḫ,w-ḫr-N<supplied reason="defective">,j</supplied>-wsr-Rꜥw</damage></w>
+<w xml:id="tlaIBUBdx5gqXvJvke1jOfNftZk9T4" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><supplied reason="lost">ḥm-</supplied><damage>nṯr</damage>-<supplied reason="lost">_</supplied></w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdQZTkt03OE5wjYmODDgcCCM" lemmaRef="tla:tla705469"><fs feats="entity_name person_name"/><damage>Ḫꜥi̯≡f-Ḫwi̯≡f-wj</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

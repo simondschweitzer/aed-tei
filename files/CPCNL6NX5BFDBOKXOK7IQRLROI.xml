@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idCPCNL6NX5BFDBOKXOK7IQRLROI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>CPCNL6NX5BFDBOKXOK7IQRLROI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Wadi Abu Qwei 4</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaD3KSQNM7IJD4PESHLC7EVY6UVI">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:GFDPKSIYJVFMZD3DCA27FR4C24">Routen zum Roten Meer
+<note>auf dem Weg zum Wadi Hammamat</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Redford, S. and D. B., Graffiti and Petroglyphs Old and New from the Eastern Desert, JARCE 25, 1989, 43-44, fig. 83-84 
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 83</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="CPCNL6NX5BFDBOKXOK7IQRLROI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ae0bc220f0e5c0c437e3f339e106d3da</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9lzHflC1Eqcmphq0H5GCb0">
+<lb n="K1"/>
+<w xml:id="tlaIBUBd2YqIQLOQUQCk3C8trFMnWk" lemmaRef="tla:tla401197"><fs feats="epitheton_title title"/>zẖꜣw-smn,tw</w>
+<w xml:id="tlaIBUBd6TCcjmoFkTno3swHU58Qaw" lemmaRef="tla:tla712578"><fs feats="entity_name person_name"/>Wn-kꜣ≡f</w>
+<lb n="K2"/>
+<w xml:id="tlaIBUBd0igcUhIZUoroQ4wFQ6S0eM" lemmaRef="tla:tla126620"><fs feats="epitheton_title title"/>zꜣb</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdyVUPw1vokeIihAn93pVucw" lemmaRef="tla:tla401249"><fs feats="substantive st_absolutus singular"/><unclear>Ḥw,t-Jgꜣ</unclear></w>
+<lb n="K3"/>
+<w xml:id="tlaIBUBd1JCNFfDAEdCtWWAxbBte3Q" lemmaRef="tla:tla400345"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>mšꜥ</w>
+<w xml:id="tlaIBUBd9Vskbp2MUAipZ6tmxsAQdI" lemmaRef="tla:tla703451"><fs feats="entity_name person_name"/>Nj-nfr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
