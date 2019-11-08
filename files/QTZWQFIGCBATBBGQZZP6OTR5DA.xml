@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idQTZWQFIGCBATBBGQZZP6OTR5DA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QTZWQFIGCBATBBGQZZP6OTR5DA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>nördliche äußere Türlaibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaH3OKZUKQYZBNHAXI3NGYCTQZDY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notBefore="-2655">4. Dyn.</date>
+<date type="latest" datingPoint="ths:WCVSHAEC7ZA4FKQOWR4E2GC6OM" notAfter="-2521">4. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1932-1933, Cairo 1943, 125-150, fig. 78 [H, K, Ü]
+LD II 12b; LD Text I, 103-104</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QTZWQFIGCBATBBGQZZP6OTR5DA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-66f81a2302fa382520465e356d3bf933</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd2UV8KCidUCgtt75xJiW1OM">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdy1CAeJQeUb9mefcKiBePIk" lemmaRef="tla:tla74120"><fs feats="substantive substantive_masc st_pronominalis singular"/>mḥnk</w>
+<w xml:id="tlaIBUBd0N7CI6hAUdCpotuUB4lyVk" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdy2V7ltQCUxVhhjMhzW3aqI" lemmaRef="tla:tla600375"><fs feats="verb verb_3-lit pseudoParticiple masculine singular"/>zẖꜣ<supplied reason="defective">.w</supplied></w>
+<w xml:id="tlaIBUBd3bpWofWdUFesf2TJEMNt1Q" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd8S31eYKWEk5kzLWPrXWNJU" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdymQ0ocbYkLztpfdqtUTmWs" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_pronominalis singular"/>jz</w>
+<w xml:id="tlaIBUBdQWmxinzW0WpuhwYvUmytQo" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd9W2ZWOWbUhGgiqErgSmKi4" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/>pw</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdwQ2paJ56E8tvzs5N3EitWw" lemmaRef="tla:tla144570"><fs feats="epitheton_title title"/>zẖꜣ,w-qd,wt</w>
+<w xml:id="tlaIBUBd4KrUfbdOkEXh4MrQ9ra2AA" lemmaRef="tla:tla450243"><fs feats="entity_name person_name"/>Smr-k<supplied reason="defective">ꜣ</supplied></w>
+</s>
+<s xml:id="tlaIBUBdQTGrByQykZYjXK9emMruag">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdQzhO2cNMU3RswhXODtWmsE" lemmaRef="tla:tla74120"><fs feats="substantive substantive_masc st_pronominalis singular"/>mḥnk</w>
+<w xml:id="tlaIBUBd3bb9MOp1EnXrerCX4vO9yU" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdxCQGfTjcEZ5oqpSHmnYqfI" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf pseudoParticiple masculine singular"/>jri̯<supplied reason="defective">.w</supplied></w>
+<w xml:id="tlaIBUBdzrtauU3bUnUufS9JigiV4w" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdx7b6pSlqU7EkiWbVhdaRNk" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdyvWmHDRYUgjpKIejn51HjM" lemmaRef="tla:tla31010"><fs feats="substantive substantive_masc st_pronominalis singular"/>jz</w>
+<w xml:id="tlaIBUBdxOwD4N9x0QeuhSZST37i0s" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdxZ4yyvLckIPhjtX3jfaFcQ" lemmaRef="tla:tla851517"><fs feats="pronoun demonstrative_pronoun"/>pw</w>
+<w xml:id="tlaIBUBdxvNEDU33ktciCbIYnTUWDw" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd5nY4JNdakGGl84sjf6wtZ8" lemmaRef="tla:tla163010"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>kꜣ,t</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd9QQkWMF8EcIkSYJsFmeGxg" lemmaRef="tla:tla450113"><fs feats="entity_name person_name"/>Jn-kꜣ≡f</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

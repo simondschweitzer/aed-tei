@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stQZHGMCPEMRHWJHTUX2YN6JUUCA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Stele des Senebi (Äg. Slg. Tübingen Inv. Nr. 463)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Susanne Beck</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Stele des Senebi (Äg. Slg. Tübingen Inv. Nr. 463) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Susanne Beck</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QZHGMCPEMRHWJHTUX2YN6JUUCA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>13</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+<msName>Stele des Senebi (Äg. Slg. Tübingen Inv. Nr. 463)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Stele des Senebi (Äg. Slg. Tübingen Inv. Nr. 463)</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla6GHXKHWL65HKXKMU7QWDIS6UC4">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<objectType ref="ths:GT4HRUBG55AE5IB7RM2ZMJOQ6M">Privatmann</objectType>
+<material ref="ths:H7S5EKRWZ5EVBI35BBLML3MRL4">Kalkstein</material>
+<dimensions unit="cm">
+<height>63</height>
+<width>5</width>
+<depth>42,5</depth>
+</dimensions>
+<note>Reste farbiger Fassung, versenktes Relief, hier und da kleinere Absplitterungen, zum Teil unter der Reliefierung. Die Leserichtung der Zeichen wechselt unmotiviert, teils im selben Wort.</note>
+</support>
+<condition>vollständig</condition>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notBefore="-1793">13. / 14. Dynastie</date>
+<date type="latest" datingPoint="ths:GKB34UGJLZA6ZPUYTDRQ7UNPH4" notAfter="-1650">13. / 14. Dynastie</date>
+<note>Nach Brunner/Brunner-Traut 1981, 92, datiert die Stele in die 12./13. Dynastie. Aufgrund von paläografischen Erwägungen wohl in die 13. Dyn. zu datieren. Vgl. hierzu Ilin-Tomich, in: ZÄS 138, 2011, 21, 23, 26.</note>
+</origDate>
+<origPlace ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY">Abydos
+<note>Nach Steindorff, in: ZÄS 39 (1901), 117, sonst nicht mehr aus den Unterlagen ersichtlich (Kriegsverlust).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- Brunner, H./E. Brunner-Traut, Die Ägyptische Sammlung der Universität Tübingen, I–II, Mainz, 1981, I 92–93, II, 60. [B,P,F,Ü]
+- Spiegelberg, W./B. Pörtner, Aegyptische Grabsteine und Denksteine aus süddeutschen Sammlungen. I: Karlsruhe, Mühlhausen, Straßburg, Stuttgart, Straßburg, 1902, 6 (Nr. 9), Taf. V. [P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:WUQA5WWJIJE6JFETH62K74QUG4">Württembergisches Landesmuseum</repository>
+<idno>13</idno>
+<altIdentifier>
+<idno></idno>
+<note>Dauerleihgabe</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QZHGMCPEMRHWJHTUX2YN6JUUCA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Susanne Beck</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>72-dcca7d2f435dd1571b8d019e2b873c1b</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBcAYf4IGPDTd0zhql8JYW1UbEs">Ein Opfer, das der König (und) Osiris, der Herr des Lebens (und) Herrscher der Ewigkeit, gibt.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYa3RD9QRu0R8lmmWBjaKTbo">Er möge geben ein Opfer (und) Speisen für den Ka des Vorstehers der Stätte, Kaschenhermeret.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYQQUYYsAsEQph2ms9llT9E8">Er möge geben Verklärtheit, Macht, Rechtfertigung, den süßen Hauch des Lebens für den Ka des Vorstehers der Stätte, Senebi.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYZL3NWiR40xdvGQQFhaXseY">Ein Opfer, das der König (und) Osiris, der Herr des Lebens (und) der Herrscher der Ewigkeit, gibt.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYbWmSG2OQ0RZnwGHcKLBUdQ">Er möge geben ein Totenopfer (aus) Brot, Bier, Rind, Geflügel, Weihrauch (und) Salböl für den Ka der Herrin des Hauses, Satbastet, (und) des Kabinettsvorstehers Sedschaib, gerechtfertigt, des Herrn der Ehrwürdigkeit.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYcNMHQm9aU9mpisnrNNGK3w">Ein Opfer, das der König (und) Ptah-Soker gibt.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYfd4n9bZqUPtk2oapxTTItQ">Er möge geben den süßen Hauch des Lebens für den Vorsteher der Stätte, Saptah, gerechtfertigt, (und) die Herrin des Hauses, Tepti, gerechtfertigt, die Herrin der Ehrwürdigkeit, (und) den Zuckerbäcker, Nebpu, gerechtfertigt, den Herrn der Ehrwürdigkeit.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYRPpwoFtiETtsQM39veahiA">Ein Opfer, das der König (und) Osiris, der Herr von Anch-taui, gibt für den Ka der Herrin des Hauses, Senebef, gerechtfertig.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYfQqw21tw00rhiyGN41bx40">Ein Opfer, das der &lt;König&gt; (und) Ptah-Sokar gibt für den Ka des Vorstehers der Stätte der Bieranlage, Nehi.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYdx1O5z41UJtlLbLzqQk1ic">Ein Opfer, das der König gibt für den Ka des ‚der am Tisch des Herrschers lebt‘, Habweri, den Vorsteher der Stätte der Bieranlage […], Redschienptah, die Herrin des Hauses, Nehi, gerechtfertigt.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYa6kK8V85knoqTfivHVjWw0">Die Herrin des Hauses, Nehi, gerechtfertigt.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYVJ5cS8p6EsIqGXfWbl7F00">Ein Opfer, das der König (und) Osiris, der Herr von Abydos für den Ka der Herrin des Hauses, Satptah, gerechtfertigt, gibt.</s>
+<s xml:lang="de" corresp="src:tlaIBcAYauDQJ3TyUq7nCFjJePQfyw">für den Ka des Gehilfen des Vorstehers des großen Hauses, Jat, gerechtfertigt, (und) die Herrin des Hauses, Bebi, gerechtfertigt.</s>
+</ab>
+</body>
+</text>
+</TEI>

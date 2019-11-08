@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idRPCUKJWB3JEWNEWMOUIWIKEYGU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>RPCUKJWB3JEWNEWMOUIWIKEYGU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W5RFGYEN5JDHJHT4BQF3E7K2YI">Museum of Fine Arts</repository>
+<idno>24-12-135</idno>
+<msName>MFA Boston: 24-12-135</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla66KUVVDDRNFTHK2UHL3B3RMZMA">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastabas of Qar and Idu. G 7101 and 7102, Giza Mastabas, Vol. 2, Boston 1976, p. 13, pl.34c; fig. 9a</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W5RFGYEN5JDHJHT4BQF3E7K2YI">Museum of Fine Arts</repository>
+<idno>24-12-135</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="RPCUKJWB3JEWNEWMOUIWIKEYGU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-8b55da7e16642942ce090a4debb8fe9f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd1is7ZquNEqWoVg1uPxhqng">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd9ndkEZEd0W3qQhXcd4GSqU" lemmaRef="tla:tla850720"><fs feats="epitheton_title title"/>ḥm-nṯr-<unclear><supplied reason="lost">ḫnt,j-ꜣḫ,</supplied>t<supplied reason="lost">-Ḫwi̯≡f-wj</supplied></unclear></w>
+<w xml:id="tlaIBUBd4i0bZcOoUwxsV7lery7xwA" lemmaRef="tla:tla400432"><fs feats="epitheton_title title"/>šps<supplied reason="defective">,w</supplied>-nswt</w>
+<w xml:id="tlaIBUBdxNcO32S9kzTjW4FyTOJEH8" lemmaRef="tla:tla200001"><fs feats="entity_name person_name"/>Nḫtj</w>
+<lb n="[2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdWk6jqpODEaOpgAm8e9UQG0" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr<supplied reason="defective">,j</supplied>-tp-nswt</w>
+<lb n="[3]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdw5IadaG10GJrGVQVhNgQ3U" lemmaRef="tla:tla93320"><fs feats="adverb"/>rꜥw-nb</w>
+</s>
+<s xml:id="tlaIBUBdyFpatCA3kXTiAqDSNM8kQI">
+<lb n="[x+1]"/>
+<w xml:id="tlaIBUBdQpuK5wzWUM8hyF6fhZYuuM" lemmaRef="tla:tla850833"><fs feats="substantive st_absolutus singular"/><supplied reason="lost"><unclear>_</unclear></supplied>ḫ</w>
+<w xml:id="tlaIBUBdxGydTAjYUt6sBnKr3o5AW8" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>4</w>
+<lb n="[x+2]"/>
+<w xml:id="tlaIBUBd919qAwHpU8UvYKKaQGyWaQ" lemmaRef="tla:tla850833"><fs feats="substantive st_absolutus singular"/><supplied reason="lost"><unclear>_</unclear></supplied>t</w>
+<w xml:id="tlaIBUBd61m2a5r4kTihWuhRtWITls" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>4</w>
+<lb n="[x+3]"/>
+<w xml:id="tlaIBUBdz3lGlRh1EaYlt8SdAezAYI" lemmaRef="tla:tla850833"><fs feats="substantive st_absolutus singular"/><supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBd0hnkFQ0E0S1n12KQVLXWOY" lemmaRef="tla:tla850814"><fs feats="numeral cardinal"/>4</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

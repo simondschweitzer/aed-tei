@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idPNMLJOTV55EFHDXWLADDFAB6QE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Königsfamilie mit Teje</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Königsfamilie mit Teje nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PNMLJOTV55EFHDXWLADDFAB6QE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südwand, Westseite</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Königsfamilie mit Teje</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPJJFRDIQBFBPFHBVEXFT4WZIII">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. de G. Davies, The Rock Tombs of El Amarna III, ASE 15, London 1905, 7, 6f. [*F, Ü];
+M. Sandman, Texts from the Time of Akhenaten, BiAe 8, Brüssel 1938, 35 [H];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 133 (Nr. 66.4) [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PNMLJOTV55EFHDXWLADDFAB6QE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-4a4a57ffedf9c63fdfd2932bdf6d01f4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQ59d8dDckirmYhAkRJWt8w">
+<lb n="[zentrales Feld mit Kartuschen]"/>
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd5v4DWoqekDnkIZ3x8vlpro" lemmaRef="tla:tla859389"><fs feats="entity_name gods_name"/><damage>Rꜥw-ḥqꜣ</damage>-<supplied reason="lost">ꜣḫ,tj-ḥꜥi̯-m</supplied>-<damage>ꜣḫ,t</damage></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd2Kb2idi20sJmuy1pHLZu3Y" lemmaRef="tla:tla859391"><fs feats="entity_name gods_name"/>M-<supplied reason="lost">rn</supplied>≡f-m-<supplied reason="lost">Rꜥw-jtj-jy-m</supplied>-<damage>Jtn</damage></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd85mCWTwTk7WsmQqfKmb0W8" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle masculine singular active"/>ḏi̯</w>
+<w xml:id="tlaIBUBd4XBKc0Wsku6qKhKKCxSEeA" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdwcJxoPQ7EY3s49wqZmbG9E" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBd31BaY8QWUVenrrpes8og28" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBdWUdQ9oi5UNQtkH5t3WiL1U">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdxbFjgriN0XcoooUn22Ilsw" lemmaRef="tla:tla400038"><fs feats="epitheton_title epith_king"/>nb-Tꜣ.du</w>
+<w xml:id="tlaIBUBd9Rz7yeLKE7St7Xo1yqWBRM" lemmaRef="tla:tla856314"><fs feats="entity_name kings_name"/><supplied reason="lost">Nfr-ḫpr,pl</supplied>-Rꜥw-wꜥ-n-<supplied reason="lost">Rꜥw</supplied></w>
+<w xml:id="tlaIBUBdwQEXDt6s0JisgpCaqCilV4" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle masculine singular passive"/>ḏi̯</w>
+<w xml:id="tlaIBUBdyqJUPMajU8qjIQHqfT0slk" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+</s>
+<s xml:id="tlaIBUBd1MHgZQSlUu1ryZt5mjVPAY">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd1XpyI4vTkwPjnAtJtEgITk" lemmaRef="tla:tla600260"><fs feats="epitheton_title epith_king"/>nb-ḫꜥ.pl</w>
+<w xml:id="tlaIBUBdyA6mWH1HEoVq7nC4QvMubg" lemmaRef="tla:tla856863"><fs feats="entity_name kings_name"/><damage>Ꜣḫ-n</damage>-Jtn</w>
+<w xml:id="tlaIBUBd0vhRUB4gkojurcOSucOWKM" lemmaRef="tla:tla852060"><fs feats="epitheton_title epith_king"/>ꜥꜣ-m-ꜥḥꜥ<supplied reason="defective">,w</supplied>≡f</w>
+</s>
+<s xml:id="tlaIBUBd0tg5rLvXUkbsjXXGRnW8RY">
+<lb n="[über Teje]"/>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdzh00WBnDES7qoa33epootk" lemmaRef="tla:tla200012"><fs feats="epitheton_title title"/>m<supplied reason="defective">ʾw</supplied>,t-nzw</w>
+<w xml:id="tlaIBUBdwn15RGwB0X2uOtPLswImgA" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr,t</w>
+<lb n="[7]"/>
+<w xml:id="tlaIBUBdxJu9yZDEkH5hFW0kIsIxMs" lemmaRef="tla:tla708799"><fs feats="entity_name person_name"/><damage>Tjy</damage></w>
+<w xml:id="tlaIBUBd9pEU8Zz9UOghW89mZzENKY" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.tj</w>
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdxWqA2gPD07LpI1VWt38CO4" lemmaRef="tla:tla181400"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḏ,t</w>
+<w xml:id="tlaIBUBdxznxHdbpEQGvYQEDoTXZ1Q" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBdzxiUmK0QEr0i80ZHryQtOk" lemmaRef="tla:tla86570"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBd5fyIJpGOkgWrSjcdlIu9uo">
+<lb n="[Beischrift zur Prinzessin neben Teje]"/>
+<lb n="[9]"/>
+<w xml:id="tlaIBUBdx9gFZ4dDUQrmq9IBSn74hg" lemmaRef="tla:tla852513"><fs feats="epitheton_title title"/>zꜣ,t-nzw-n-ẖ,t≡f</w>
+<w xml:id="tlaIBUBd34UERg97ESMpREpeQNFxiE" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/>mri̯.t</w>
+<w xml:id="tlaIBUBd6fo6Fw7b052v6CYi6PbUNE" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[10]"/>
+<w xml:id="tlaIBUBd8h8MmI3Q0wDoSRw4vFRha8" lemmaRef="tla:tla711954"><fs feats="entity_name person_name"/><damage>Bꜣk,t</damage>-Jtn</w>
+</s>
+<s xml:id="tlaIBUBd4WqzB1l1EAQhkurncXCaRE">
+<lb n="[über Nofretete]"/>
+<lb n="[11]"/>
+<w xml:id="tlaIBUBd8ppybCQI0kVvQvckfBHZp4" lemmaRef="tla:tla94070"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>t-pꜥ,t</w>
+<w xml:id="tlaIBUBdxER9UulzUUTiHQetQNHFe8" lemmaRef="tla:tla450541"><fs feats="epitheton_title title"/>wr,t-ḥz,w</w>
+<w xml:id="tlaIBUBdzefEmthT0isvTmhl7RB8gs" lemmaRef="tla:tla859299"><fs feats="epitheton_title title"/>nb,t-jꜣm</w>
+<lb n="[12]"/>
+<w xml:id="tlaIBUBdzrXhL9U8UA8tR3xOjakuNs" lemmaRef="tla:tla859382"><fs feats="epitheton_title title"/>nḏm,t-mr<supplied reason="defective">w</supplied>,t</w>
+<w xml:id="tlaIBUBd2hPDqlmokFyszLSelsqDwc" lemmaRef="tla:tla859380"><fs feats="epitheton_title title"/>ḥn,wt-šmꜥ,w-mḥ,w</w>
+<lb n="[13]"/>
+<w xml:id="tlaIBUBd5croMIe0UIogk5gzKDDOeE" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr,t</w>
+<w xml:id="tlaIBUBdWJhs947uUvOnUGJaXRJPB8" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/>mri̯.t</w>
+<w xml:id="tlaIBUBdWIRKpWsnUKGmjGdgL6W9dQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd9wf6tz2ukexhYdRj9MW8vI" lemmaRef="tla:tla859300"><fs feats="epitheton_title title"/>nb,t-Tꜣ.du</w>
+<lb n="[14]"/>
+<w xml:id="tlaIBUBdxTAA4aQ4U01vhNORPCHOSw" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/><supplied reason="lost">Nfr-nfr,pl-Jtn-Nfr,t-jy,tj</supplied></w>
+<w xml:id="tlaIBUBd9vNS3UWL0WWpQxBz4HiEFU" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.tj</w>
+<w xml:id="tlaIBUBd7Zq8A1TlEOJn0VuFtlWFHY" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBd1QGcQKwrEwPl2QQg9iBjhI" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBd0WQWrTr4kwupUnhFqYNd2I">
+<lb n="[Beischriften zu den Prinzessinnen um Nofretete]"/>
+<lb n="[15]"/>
+<w xml:id="tlaIBUBdzR0Ui87qkRPpWXOMkR9RKk" lemmaRef="tla:tla852513"><fs feats="epitheton_title title"/>zꜣ,t-nzw-n-ẖ,t≡f</w>
+<w xml:id="tlaIBUBd6ZxTEoLME1Ko6SdakQYQfU" lemmaRef="tla:tla711176"><fs feats="entity_name person_name"/>Ꜥnḫ<supplied reason="omitted">≡s-n</supplied>-pꜣ-Jtn</w>
+<lb n="[16]"/>
+<w xml:id="tlaIBUBd237Q8fFEUueo0cJebCC8iw" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/>msi̯.n</w>
+<w xml:id="tlaIBUBd2sJ9L8OtEFmuUWHSL50M7s" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr,t</w>
+<w xml:id="tlaIBUBdxPYSrS9b0BjpJOvglQ4RV8" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/>Nfr-nfr,pl-Jtn-<supplied reason="lost">Nfr,t-jy,tj</supplied></w>
+<w xml:id="tlaIBUBdxPSnRpHhEj1uo39slcmMb0" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.<supplied reason="lost">tj</supplied></w>
+<w xml:id="tlaIBUBd4880TNCIUqZmU9NsdnIoFs" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+<w xml:id="tlaIBUBd4pv3EtVok8mju5RQDyQ2eI" lemmaRef="tla:tla86580"><fs feats="adverb"/>nḥḥ</w>
+</s>
+<s xml:id="tlaIBUBd6qJx3hKDEMWoThm3UuN7GA">
+<lb n="[17]"/>
+<w xml:id="tlaIBUBd6rEDv9noE4ynmzJcc77GNo" lemmaRef="tla:tla852513"><fs feats="epitheton_title title"/>zꜣ,t-nzw-n-ẖ,t≡f</w>
+<lb n="[18]"/>
+<w xml:id="tlaIBUBdwufA4e7j0M9g8Qn2UFzVYw" lemmaRef="tla:tla72470"><fs feats="verb verb_3-inf relativeform feminine singular"/>mri̯.t</w>
+<w xml:id="tlaIBUBdzayaPBQYUkIoYcFlhPiKWY" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd4KBKdZgv0rstfBbjOU6xXI" lemmaRef="tla:tla702469"><fs feats="entity_name person_name"/><supplied reason="lost"><unclear>Mk,t</unclear></supplied>-<damage>Jtn</damage></w>
+<lb n="[19]"/>
+<w xml:id="tlaIBUBd3P2fT5C3E2Ci8f3cLtmYHU" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform feminine singular"/><supplied reason="lost">msi̯</supplied>.n</w>
+<w xml:id="tlaIBUBd6QDyryijEjsqDP0a9JPBXQ" lemmaRef="tla:tla854246"><fs feats="epitheton_title title"/>ḥm,t-nzw-wr,t</w>
+<lb n="[20]"/>
+<w xml:id="tlaIBUBdQwbqu87iECokkwhPep06dU" lemmaRef="tla:tla859293"><fs feats="entity_name person_name"/><supplied reason="lost">Nfr-nfr,pl-Jtn-Nfr,t-jy,tj</supplied></w>
+<w xml:id="tlaIBUBdQMNr51yEUWwkZNbr8pWEQc" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple feminine singular"/>ꜥnḫ.<supplied reason="lost">tj</supplied></w>
+</s>
+<s xml:id="tlaIBUBd1vNxGuLr0eniiQew3xC0To">
+<lb n="[Beischrift zu Huya]"/>
+<lb n="[21]"/>
+<w xml:id="tlaIBUBd90fydFHbkmosFQ9DQIj4uw" lemmaRef="tla:tla859702"><fs feats="epitheton_title title"/>jm,j-rʾ-jp,t-nzw-n-ḥm,t-nzw-wr,t-<supplied reason="lost">Tjy</supplied></w>
+<lb n="[22]"/>
+<w xml:id="tlaIBUBd1WLJxQxEEIjnBgm3ZWJ1XI" lemmaRef="tla:tla704525"><fs feats="entity_name person_name"/>Ḥyꜣ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

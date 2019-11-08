@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idQHPMZSHXJ5CDPGZ4RBQGWILPHE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>König Taharqa</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Silke Grallert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von König Taharqa nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Silke Grallert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QHPMZSHXJ5CDPGZ4RBQGWILPHE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Historisch-biographische Texte (25.-26. Dynastie)〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">König Taharqa</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaY7LALDMNFBF35IE7H2MNAVEKII">
+<support>
+<objectType ref="ths:P33RJ7RXYRHW7FU4BA2BULCCCI">21 = Objekttyp</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+</origDate>
+<origPlace ref="ths:EM7EXOH7ONGGFBP3SB3YHS426M">3 = Fundstellen
+</origPlace>
+</origin>
+</history>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QHPMZSHXJ5CDPGZ4RBQGWILPHE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Silke Grallert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>29-a5e5c3b460f5e2feb0492f30de9432a4</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBcDJGjWlRhPRk84sPhaQsPvTAw">
+<lb n="[1]"/>
+<w xml:id="tlaIBcDJGLpTjASmUpthPahgtPQvlY" lemmaRef="tla:tla90390"><fs feats="epitheton_title epith_king"/>nṯr-nfr</w>
+<w xml:id="tlaIBcDJPlircx3rEXRtGUDGPM9PEE" lemmaRef="tla:tla400354"><fs feats="epitheton_title title"/>nb-jr,t-jḫ,t</w>
+<lb n="[2]"/>
+<w xml:id="tlaIBcDJIIv8Uu8UEwihL2TSqL9oE8" lemmaRef="tla:tla862991"><fs feats="entity_name kings_name"/>Ḫwi̯-<damage>Nfr</damage>-tm-<damage>Rꜥw</damage></w>
+<lb n="[3]"/>
+<w xml:id="tlaIBcDJDOMAEWJt0NXs5IyiqlsFj0" lemmaRef="tla:tla126020"><fs feats="epitheton_title epith_king"/>zꜣ-Rꜥw</w>
+<w xml:id="tlaIBcDJIc8CgohV0SWo9dtCnT57TU" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>n</w>
+<w xml:id="tlaIBcDJO5zrmnOAEMKrgCnLiGJnqw" lemmaRef="tla:tla122080"><fs feats="substantive substantive_fem st_pronominalis singular"/>ẖ,t</w>
+<w xml:id="tlaIBcDJINAs4iL9kicrNPgYTeWqik" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBcDJNR9RCjiS0W8n5BnMfgdDaE" lemmaRef="tla:tla862990"><fs feats="entity_name kings_name"/>Thr-qꜣ</w>
+<lb n="[5]"/>
+<w xml:id="tlaIBcDJJ4cxxf1xUHZokZEEu4fCUg" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit pseudoParticiple masculine singular"/><damage>ꜥnḫ</damage>.<supplied reason="lost">tj</supplied></w>
+<w xml:id="tlaIBcDJFbOBw3el0OWjb69OqvwONQ" lemmaRef="tla:tla850796"><fs feats="preposition"/>mj</w>
+<w xml:id="tlaIBcDJDrnPawEAEpkk3zJWTWYB0c" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+<w xml:id="tlaIBcDJLKzumNxkUzsiaoCOMKxDCg" lemmaRef="tla:tla181401"><fs feats="adverb"/><damage>ḏ,t</damage></w>
+</s>
+<s xml:id="tlaIBcDJCrwz8woiEjDgyXEqwwIk9M">
+<lb n="[6]"/>
+<w xml:id="tlaIBcDJHEExK2Z40AooShD6YG5RgA" lemmaRef="tla:tla125600"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣ</w>
+<w xml:id="tlaIBcDJOTHNAy1ykFLnva3coGDGZQ" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBcDJGkGULKmbEAIrmvx3hYKTW0" lemmaRef="tla:tla81660"><fs feats="adjective masculine singular"/>nb</w>
+<w xml:id="tlaIBcDJHupZB138E6CvyO7nkxZdqA" lemmaRef="tla:tla851658"><fs feats="preposition"/>ḥꜣ</w>
+<w xml:id="tlaIBcDJJWPEyzQA0RGrJ97RFliaT4" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBcDJLpWjZ2vukrXkiS2kax7yNg" lemmaRef="tla:tla850796"><fs feats="preposition"/>mj</w>
+<w xml:id="tlaIBcDJIITKXxMiEO8lpVVnKn0DHw" lemmaRef="tla:tla400015"><fs feats="entity_name gods_name"/>Rꜥw</w>
+<w xml:id="tlaIBcDJNQkQVxGgkSdvMhZ8JB8ZWM" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

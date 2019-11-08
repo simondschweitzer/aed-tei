@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTJB2P2E2LRERNC2I4DUGSVINMQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>rechter Außenpfosten</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von rechter Außenpfosten nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TJB2P2E2LRERNC2I4DUGSVINMQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">rechter Außenpfosten</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaDPZGABOOW5AYZMNQ2MZ7OBKNEA">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Curto, Gli scavi italiani a el-Ghiza (1903), Rom 1963, 58-61, fig. 19, tav. XV [F, P, H, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TJB2P2E2LRERNC2I4DUGSVINMQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-b06c4dd600ff62634cd61cf5825d766a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQsUMA8phE3HmllOhlRGQR0">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdyLVQJ1Nr06WvOvsQoBDwDw" lemmaRef="tla:tla851462"><fs feats="epitheton_title title"/>ḥm<supplied reason="defective">,t</supplied>-nṯr-<supplied reason="lost">Ḥw,t-Ḥr,w</supplied>-m-s,wt≡s-nb,<supplied reason="defective">w</supplied>t</w>
+<w xml:id="tlaIBUBdQtcFdpJPkAqr15Kf7DKOV4" lemmaRef="tla:tla853673"><fs feats="epitheton_title title"/>ḥm<supplied reason="defective">,t</supplied>-nṯr-Nj,t-wp,t-wꜣ,wt-nb<supplied reason="defective">,wt</supplied></w>
+<w xml:id="tlaIBUBdxok6yeVuUzijc3bphM0uo4" lemmaRef="tla:tla850568"><fs feats="epitheton_title title"/>jmꜣḫ<supplied reason="defective">,wt</supplied>-ḫr-Ḥw,t-Ḥr,w-nb<supplied reason="defective">,t</supplied>-Nh<supplied reason="defective">,t</supplied></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

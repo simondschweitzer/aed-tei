@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idSNSKTRCLKZCURCHXOT72BYBBY4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Personenbeischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Personenbeischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>SNSKTRCLKZCURCHXOT72BYBBY4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>südliche Laibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Personenbeischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaUFL5O35NOJD7JHKJLY3A5RZXDY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza XI, Wien 1953, 181-186, Abb. 73 a, Taf. XIX b [P, F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="SNSKTRCLKZCURCHXOT72BYBBY4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-034142f46083f4ac0fc221f393d70d9a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6WQiBK6IkJSnruQneRJw0A">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdwSo4obFM0EFrCD3siuBPw0" lemmaRef="tla:tla707086"><fs feats="entity_name person_name"/><supplied reason="lost">Sšm-nfr</supplied></w>
+<w xml:id="tlaIBUBd9XsxHPJqUUZvuyQWEtBN08" lemmaRef="tla:tla709349"><fs feats="entity_name person_name"/>Ṯtj</w>
+</s>
+<s xml:id="tlaIBUBd61ZBCA850RbsY8qjdRKH7w">
+<lb n="[2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdQshKjfqKUr4lCo7v4HirAI" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">zꜣ</supplied></w>
+<w xml:id="tlaIBUBd1KBLfWW7UjPn8mrXL4Mj4o" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd9pCEnKYbkGnpQVPAP418zo" lemmaRef="tla:tla400005"><fs feats="substantive substantive_masc st_pronominalis singular"/><damage>mr,y</damage></w>
+<w xml:id="tlaIBUBdxgSBLHiAkSOvAXWb1n6vyI" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+<w xml:id="tlaIBUBd1HjoPAOxkgNn6ppWWHqVd0" lemmaRef="tla:tla707402"><fs feats="entity_name person_name"/><damage>Štnw</damage></w>
+</s>
+<s xml:id="tlaIBUBdz2Jksps0UNyhP4DllBqYXY">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdyvoLEeXeUGAnAUwA9oDM3c" lemmaRef="tla:tla450131"><fs feats="epitheton_title title"/>zꜣb-zẖꜣ,w</w>
+<w xml:id="tlaIBUBd9pjaAi6t0lOpkXQNw4VxRc" lemmaRef="tla:tla550338"><fs feats="epitheton_title title"/>sḥḏ-ḥm,w-kꜣ</w>
+<w xml:id="tlaIBUBd9WUexfwikbntoW3aXPZt5g" lemmaRef="tla:tla706996"><fs feats="entity_name person_name"/>Sḥtp,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

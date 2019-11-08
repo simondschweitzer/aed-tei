@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtRTNVIU5TWZDOTG47AIR2ZSRBPQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>RTNVIU5TWZDOTG47AIR2ZSRBPQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Inschriftenplatte</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaN67DACXWSVBE5JTQK5FXSKRUJI">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notBefore="-2499">Neferirkare</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 32, pl. XXXV.3</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="RTNVIU5TWZDOTG47AIR2ZSRBPQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-95fd0b2f0b6e3fcd3ca3885ad156a40c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd3hJjlP3xUv7vwojy3P3Nq0">
+<w xml:lang="de" corresp="src:tlaIBUBdzeLZnqE40ytvIrKltQWxmw">Gefolgsmann des Min (Priester)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2QTbK6TJU3qphFRaW1U5Eo">Ra-wer</w>
+</s>
+<s corresp="src:tlaIBUBd28P5o7PckhKq58vAoojSUs">
+<w xml:lang="de" corresp="src:tlaIBUBd7KJZCR9OU5rhk226XWEElc">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQX6Juh3W0aQtm4bJVsynNk">Einziger unter den Großen vom Fest</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5hqjjLIjUO3rpjnAyMKzWY">Ra-wer</w>
+</s>
+<s corresp="src:tlaIBUBd16zvaB9Lkk5mm2dIgPOPRQ">
+<w xml:lang="de" corresp="src:tlaIBUBd1Kvtg9B1UZChQc3DWnEnQU">Sem-Priester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwhVUhaUrExXngRrpQHhwx8">Leiter der Höfe des Mu-Stoffes</w>
+<w xml:lang="de" corresp="src:tlaIBUBd40pNDrV6UWWqn2iN533vlA">Priester der Wadjet von Dep und Pe</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzdQVSET6E0dmnqRXstnPIo">Ra-wer</w>
+</s>
+<s corresp="src:tlaIBUBd28g5yu2HkFxgELte95VFN8">
+<w xml:lang="de" corresp="src:tlaIBUBdQ3EpZkaXEo3pL3HG5BruNQ">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd15hzgLV3k3Qrk4FUhtFWss">Oberhaupt von El-Kab</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWcgK2c5hkY6jxnQKqdrxg4">Vorsteher allen Königsschmuckes</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7qfyJmAukcwjtQovC3UauA">Ra-wer</w>
+</s>
+<s corresp="src:tlaIBUBdz1nIaWDFUkzkVzS7I4gRdQ">
+<w xml:lang="de" corresp="src:tlaIBUBd1qEjj17aUnumzXDXNvPqNE">[Titel oder Epitheton einer Privatperson]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz0WcIEa5E05qbiVJM4aUzE">Ra-wer</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTCUNX3GH6JFATBGF4FNRZVWLLM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TCUNX3GH6JFATBGF4FNRZVWLLM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Opferstein der Nit-anch-Hathor</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaW6FAGAMLFFASLF22O4CIJUWSRQ">
+<support>
+<objectType ref="ths:YDHSECVKFVG3BHUXVG4EJEG4G4">Opferbecken</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza X, Wien 1951, 139-140, Abb. 49, Taf. 5 d [P, F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TCUNX3GH6JFATBGF4FNRZVWLLM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-bd8bc8fb44a90888dc2505c5d0b20472</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9RJMotIRkLPlfZ3uChNLrU">
+<lb n="[senkrecht]"/>
+<w xml:id="tlaIBUBdx1J9pdyp0Z2jqya0Mwjj24" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd3K1Ku0mSkk9hXx4JIjzvCQ" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBd9wVc97uCEVQpedzjWaQroA" lemmaRef="tla:tla400156"><fs feats="undefined"/><supplied reason="haplography">ḥtp-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBdzIUY1Sw80PioSdGQEqb8os" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+<w xml:id="tlaIBUBd8GxYMPxikRckwab0UZrPdA" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/>ḫnt,j-zḥ-nṯr</w>
+</s>
+<s xml:id="tlaIBUBdWo1K2nd8UJrl2ikysUojws">
+<w xml:id="tlaIBUBdznPw0CBNEFMhvB2T34K7oU" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/>qrs.t<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdwqvCnzNHEW3vFG1Zgo87TE" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+<w xml:id="tlaIBUBd578cnHY9UOwtvCU0ZQ3fBY" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdyhM4GjRTksCr5FVlMz8eQg" lemmaRef="tla:tla134780"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>z<supplied reason="defective">my,</supplied>t</w>
+</s>
+<s xml:id="tlaIBUBdy4XqOq7hEcWol5WfmyloYI">
+<lb n="[waagerecht]"/>
+<w xml:id="tlaIBUBd3fzU5VIbkWCiWnvw2BM02w" lemmaRef="tla:tla68570"><fs feats="epitheton_title title"/>mjtr<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd1hTPBEu0kLevxAQnMMbqks" lemmaRef="tla:tla702666"><fs feats="entity_name person_name"/>N,j<supplied reason="defective">t</supplied>-ꜥnḫ-Ḥw,t-Ḥr,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

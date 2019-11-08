@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtR72O75DT2ZAW3DFPVKO4QZCFEA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>R72O75DT2ZAW3DFPVKO4QZCFEA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Fragment 1</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2TJV2G7P7VAQ3LY6ZMJCCITR5E">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. III, Cairo 1975, 12-13, pl. IX</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="R72O75DT2ZAW3DFPVKO4QZCFEA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-8e22a63beb5da8813ad8f4379b584946</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd0V1VNjqT09PjQVGhnrzYv4">
+<w xml:lang="de" corresp="src:tlaIBUBd71ZMYEhzUvflA9XHfbDZAs">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz4sEETTO0AUskbtWruyGr0">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQJnxqShO0lnnmflYLrbbJA">Ein Opfer, das (König/Gott NN) gibt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxETSU97wkgxsQLicw6Q3tw">Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0oJqhzWJkBFiWyvtzkHWSU">der auf seinem Berge ist (Anubis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9T3Ou7zkXnsSJiUBOo1Pk">Imiut (Anubis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd23zDvKC8UuKryzOBTqR7FY">Herr der Nekropole (Anubis u.a.)</w>
+</s>
+<s corresp="src:tlaIBUBd6QX2VMzjEyzqiXiosWrEi4">
+<w xml:lang="de" corresp="src:tlaIBUBd2OFdyydO0qcocsKwX4DmeI">bestatten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1cO550KsEyMgZ8kQ3su4E4">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy0WG3z9Zk6kpSxC4H3xpB0">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7rvLz2gl0SWje46OTU4x5A">Nekropole</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2YGxqtnK0UYqiueLlRpySU">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3XCqftTdExQovT5ZFNAkaY">Wüste</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7YPgHnSCUecqsmLBbBToSY">westlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwswS23xkEKjqqqBNgFTpMY">alt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyGmEBI980Qii2dv0m89mj4">schön</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWdbXgqoYkxioTHWwqkPl3A">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzKfsdFUV0VemErirWYSxQk">Versorgter beim großen Gott</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

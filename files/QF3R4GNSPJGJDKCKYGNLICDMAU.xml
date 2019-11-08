@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idQF3R4GNSPJGJDKCKYGNLICDMAU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QF3R4GNSPJGJDKCKYGNLICDMAU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Waage-Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla24U2OODYYJC73IYYVH3ZEKUTEE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Deir el-Gebrawi II: The southern cliff (ACE Rep. 25), Oxford 2007, 48, pl. 26-28, 53, 72
+[P, F, U, Ü, K, L]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QF3R4GNSPJGJDKCKYGNLICDMAU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-7bea8de0d1f01ad70ed6d2c2356e4b84</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxRhsENFjEiLnT7g6HOphfw">
+<lb n="[A1]"/>
+<w xml:id="tlaIBUBdWofZO8etkxYvOQmc3ycDbk" lemmaRef="tla:tla63460"><fs feats="verb verb_3-inf infinitive t-morpheme"/>f<supplied reason="defective">ꜣi̯</supplied>.t</w>
+<w xml:id="tlaIBUBdWA3jiWHwEx6hdQw1sYdfYU" lemmaRef="tla:tla54290"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>bjꜣ</w>
+</s>
+<s xml:id="tlaIBUBd03zNHRFN0dxtXBzsQ1hFeM">
+<lb n="[B1]"/>
+<w xml:id="tlaIBUBd85el8xzX0Hgvg5Cfa6w8Ko" lemmaRef="tla:tla66270"><fs feats="verb verb_2-gem imperative singular"/>mꜣꜣ</w>
+<w xml:id="tlaIBUBdxbI1iQflUGrv42vVMhqHFs" lemmaRef="tla:tla127770"><fs feats="pronoun personal_pronoun"/>s<supplied reason="defective">j</supplied></w>
+<lb n="[B2]"/>
+<w xml:id="tlaIBUBdwYwJcB5mk5jlg7OQygbWuI" lemmaRef="tla:tla21881"><fs feats="particle"/>j<supplied reason="defective">w</supplied></w>
+<w xml:id="tlaIBUBdQVX923bAUsGvNMAKtLLyDs" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=s</w>
+<w xml:id="tlaIBUBd9TUHisFr05zqLISO3yDQXU" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd75s1rdV2kdBstTFmlJgXV8" lemmaRef="tla:tla27560"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">jn</supplied>r</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

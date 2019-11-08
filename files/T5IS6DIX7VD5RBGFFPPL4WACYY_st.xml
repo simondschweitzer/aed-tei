@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stT5IS6DIX7VD5RBGFFPPL4WACYY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Rekto: Die Lehre des Amunnacht</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Rekto: Die Lehre des Amunnacht nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>T5IS6DIX7VD5RBGFFPPL4WACYY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:FS47WR3XHJD2FJ2NUC4OLS3CIY">Museo Egizio</repository>
+<idno>CGT 57436</idno>
+<msName>〈07. 〉oTurin CGT 57436 = Suppl. 9598</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Rekto: Die Lehre des Amunnacht</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitstext</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaP7BZSSHB4JCUBGN7FDXIAWUY4Q">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notBefore="-1186">20. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Amunnacht, Sohn des Ipuy, lebte während den Regierungen Ramses&#039; III. bis VI.</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+<note>aus der Grabung von Schiaparelli (1909)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- G. Posener, Ostraca inédits du Musée de Turin, in: RdE 8, 1951, 175-178 [Ü(Vers 49-58),T,K]
+- J. López, Ostraca ieratici No. 57320-57449 (Catalogo del Museo Egizio di Torino, Serie II, Vol. III.3), Milano 1982, 43 und Tf. 143-143a [*F,*T]
+- A. Dorn, Die Lehre Amunnachts, in: ZÄS 131, 2004, 38-55 [*T,Ü,K]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 285-287 (= Vers 1-24) (2. Aufl. 2010, 369-375 mit neuer Übersetzung) [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:FS47WR3XHJD2FJ2NUC4OLS3CIY">Museo Egizio</repository>
+<idno>CGT 57436</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="T5IS6DIX7VD5RBGFFPPL4WACYY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-af57189dc8a5e3bbaba20d3dfcc07857</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd16lxwtmQkevlbdjsVJTwIk">Komm, damit {man} 〈ich〉 dir die elenden Aufgaben des Dummkopfes erzähle, der keinen Überblick hat (oder: der ungeschickt ist; wörtl.: der ohne sein Auge/seine Hand ist), weil er nicht auf die Unterweisung (seines) Vaters hört, um ein fähiger Schreiber zu werden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd2M6dayqvEdMn5e8i6CmkVU">Er ist im Schiff, wobei er für das (Schlepp)seil (bestimmt) ist, über seinem Kopf in Richtung Wasser, so daß er eins ist mit Krokodilen und Nilpferden.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdW4ywuchL0LZpd1qqeUdb0c">Jedermann zieht zu ihnen (oder: für sich), (so daß?) [...] nach draußen gelangt.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwtQ4F7ZF0kInTbGf3S6x9Q">... für ihn seinen Leib.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd9Lcgj7D1EqTsBlWteWvNSs">Die [... ...</s>
+</ab>
+</body>
+</text>
+</TEI>

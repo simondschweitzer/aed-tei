@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hieroORAOPHWGIJAKBDEB53KIPMZKBM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Opfertisch-Beischrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Opfertisch-Beischrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>ORAOPHWGIJAKBDEB53KIPMZKBM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Südwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Opfertisch-Beischrift</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGKIYOQKSARBKVPPRASEQYESXSY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K.R.Weeks, Giza Mastabas 5, Boston 1994, p. 59-60, fig. 7, 47-52, pl. 32a-33b</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="ORAOPHWGIJAKBDEB53KIPMZKBM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ea56e2d168f6ee4b80d39e2636882365</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdWQjmdF4ykFrsKHS4AXTOiQ">
+<w corresp="src:tlaIBUBd0huN6Omi0NTnhARr8dWIDI"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdWGcdlHQYkb7sgNP90m5NA0">𓎟</w>
+<w corresp="src:tlaIBUBdxKj1Uy8fUNEvPQ8HzUjqdQ"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBd2xMm7amVEagrv32U82uJt8">𓆼</w>
+<w corresp="src:tlaIBUBd9O5OezBz0U6lrzzmMWHgm8"><note>Keine Entsprechung in Unicode für W60</note></w>
+<w corresp="src:tlaIBUBd77Hsv7Mw0q7ndt13H6XYkw">𓆼</w>
+<w corresp="src:tlaIBUBd9Lss2QfVUcEtqaF3VBNCWQ">𓏖</w>
+<w corresp="src:tlaIBUBd9yxg0JnA0nYrweKtLhiHds">𓆼</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

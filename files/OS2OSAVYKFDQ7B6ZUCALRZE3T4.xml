@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idOS2OSAVYKFDQ7B6ZUCALRZE3T4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischrift zu Chons (stehend hinter Mut)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischrift zu Chons (stehend hinter Mut) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>OS2OSAVYKFDQ7B6ZUCALRZE3T4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:GWDDUG7C3VEX3LTZSNW6ZYNPBI">Ny Carlsberg Glyptotek</repository>
+<idno>AEIN 1709</idno>
+<altIdentifier>
+<idno></idno>
+<note>In PM VII, 187 und FHN II, 521-528 ist eine falsche Inventar-Nr. AEIN 1708 angegeben.</note>
+</altIdentifier>
+<msName>Stele des Aryamani (Ari)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischrift zu Chons (stehend hinter Mut)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaP2PR4JGIXBHN3BHDFRL4T2GKKY">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<objectType ref="ths:KHC5ZCKCHJDG7J3PGYCUHGLR5E">König</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<dimensions unit="cm">
+<height>161</height>
+<width>21</width>
+<depth>130</depth>
+</dimensions>
+<note>Material: Sandstein</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RDSBFVI3QJG7XNZOXVDLV3LU6I" notBefore="-0300">1. Viertel 3. Jhdt. v.Chr.</date>
+<date type="latest" datingPoint="ths:RDSBFVI3QJG7XNZOXVDLV3LU6I" notAfter="-0276">1. Viertel 3. Jhdt. v.Chr.</date>
+</origDate>
+<origPlace cert="high" ref="ths:5XWLGMNL4FDAPN24SBNQVGZOXY">Kawa
+<note>Fundort im 1. Hof des Tempels A zwischen der Westwand des Hofes und Säulen 5 und 6.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- PM VII, 187
+- T. Bagh, Finds from J. Garstang&#039;s excavations in Meroe and F. Ll. Griffith&#039;s in Kawa, Sudan in the Ny Carlsberg Glyptotek, Kopenhagen 2015, S. 117-119 [*P; F].
+- R. Holton Pierce/L. Török, 91. Donation stela of Aryamani, Years 3-9, in: FHI II, S. 522-528 [U; Ü; K]
+- M. F. L. Macadam, The Temples of Kawa I: The Inscriptions, 2 Bde., Oxford 1949, S. 76-80, Taf. 32-33 [*P; F; K]
+- R. G. Morkot, The Black Pharaohs. Egypt’s Nubian Rulers, London 2000, S. 147-150 [F; K]
+- C. Peust, Das Napatanische. Ein ägyptischer Dialekt aus dem Nubien des späten ersten vorchristlichen Jahrtausends. Texte, Glossar, Grammatik, Monographien zur Ägyptischen Sprache 2, Göttingen 1999 [*P; *F; U; Ü; K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:GWDDUG7C3VEX3LTZSNW6ZYNPBI">Ny Carlsberg Glyptotek</repository>
+<idno>AEIN 1709</idno>
+<altIdentifier>
+<idno></idno>
+<note>In PM VII, 187 und FHN II, 521-528 ist eine falsche Inventar-Nr. AEIN 1708 angegeben.</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="OS2OSAVYKFDQ7B6ZUCALRZE3T4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>16-56b2aa9336403c149d556812139330f6</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBlYvlbdYWfUU7mDenAv9IiQk">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBlXZsY9YZrUJttAfSDiXQNpk" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏd-mdw</w>
+<w xml:id="tlaIBUBlbQPuLkQREmelJO2kBmWLsg" lemmaRef="tla:tla26660"><fs feats="preposition"/><supplied reason="defective">j</supplied>n</w>
+<w xml:id="tlaIBUBlfRV5kB7FkWbplJ9ARiCMSI" lemmaRef="tla:tla118720"><fs feats="entity_name gods_name"/>Ḫns,w</w>
+<w xml:id="tlaIBUBlVTG5mxA60oBj8IOiDuFQBY" lemmaRef="tla:tla860084"><fs feats="epitheton_title epith_god"/>Wꜣs,t<supplied reason="defective">j</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

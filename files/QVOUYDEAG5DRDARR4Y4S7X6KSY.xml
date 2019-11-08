@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idQVOUYDEAG5DRDARR4Y4S7X6KSY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Architrav (undekorierte Kapelle)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Architrav (undekorierte Kapelle) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QVOUYDEAG5DRDARR4Y4S7X6KSY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Mastaba des Khafkhufu II (G 7150)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Architrav (undekorierte Kapelle)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaL2WDROU25BDXZOWDFWAHUJLRI4">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Simpson, William Kelly: The Mastabas of Kawab, Khafkhufu I and II, Giza Mastabas, Vol. 3, Boston 1978, S. 21-27; pl. XXX-XLV
+[P,F,U,Ü,K,B]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QVOUYDEAG5DRDARR4Y4S7X6KSY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-7e6c4590b7cb6b258a26ca8b04e62577</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdWqFqfeuNUwXhZGWpO0LftQ">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd2HPprUGnU5vsJIL9vqrvTc" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd1FmFsck5ELVtL0lVLHcgG4" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBdzaweeSn5UBFhbsD4A7PMMA" lemmaRef="tla:tla400156"><fs feats="undefined"/><supplied reason="haplography">ḥtp-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBd37BUTNyFEFagDhA4xbVxLI" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+<w xml:id="tlaIBUBdzResX1zCUniiIWHLvWvaHI" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/>ḫnt<supplied reason="defective">,j</supplied>-zḥ-nṯr</w>
+</s>
+<s xml:id="tlaIBUBd6FolHbJ40MEuYgUfQ9SuAA">
+<w xml:id="tlaIBUBdxSDsFh9dE0ht5dC52NzkS4" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/>qrs.t</w>
+<w xml:id="tlaIBUBdWz75J4tQkoSkNjwR0u63W0" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdWqvzqbs0kconq5yNSkxnnM" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd8QpeabXRkYXm9pA5rB02s0" lemmaRef="tla:tla134780"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>z<supplied reason="defective">my,</supplied>t</w>
+<w xml:id="tlaIBUBd3rZDw2gX0oivk7YnB0gBZQ" lemmaRef="tla:tla26150"><fs feats="adjective nisbe_adjective_substantive feminine singular"/>jmn,t<supplied reason="defective">j</supplied>.t</w>
+<w xml:id="tlaIBUBdzxrJxE4UUJDsrqUOMrlEr8" lemmaRef="tla:tla20480"><fs feats="verb verb_4-inf pseudoParticiple masculine singular"/>jꜣwi̯</w>
+<w xml:id="tlaIBUBdwmEKQBiG026vqsWAWSyvlU" lemmaRef="tla:tla400458"><fs feats="adverb"/>nfr</w>
+<w xml:id="tlaIBUBd8cPr0ZLA0f2mODs9PSW9Jo" lemmaRef="tla:tla450161"><fs feats="adverb"/>wr,t</w>
+<w xml:id="tlaIBUBd9eIZszYuEmxrkAaqrGsXPA" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdWY80MM6EEkfgsCQJZ1VSGc" lemmaRef="tla:tla850695"><fs feats="epitheton_title title"/>nb-jmꜣḫ-ḫr-nṯr-ꜥꜣ</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdxAAMfEMjkJNo6DMdlk1fMo" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/>zꜣ-nswt</w>
+<w xml:id="tlaIBUBdxthi2WsAEwFujTeQQmGU98" lemmaRef="tla:tla705469"><fs feats="entity_name person_name"/>Ḫꜥi̯≡f-Ḫwi̯≡f-wj</w>
+</s>
+<s xml:id="tlaIBUBdxNhiLwj5UrjsRa9Kckzhy8">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdxKI6uyEgkCvnQRodFHflPs" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp<supplied reason="haplography">-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBdWVTKW3mk08GoumHdWPEO5g" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/><supplied reason="haplography">nswt</supplied></w>
+<w xml:id="tlaIBUBd93QzndkmEQ6mbgpErkSm48" lemmaRef="tla:tla400156"><fs feats="undefined"/><supplied reason="haplography">ḥtp-ḏi̯</supplied></w>
+<w xml:id="tlaIBUBdWb4zDiPyU9UsAUwtTqb7R0" lemmaRef="tla:tla90360"><fs feats="epitheton_title epith_god"/>nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBdQFMLVu27ERYimvIOkMXikQ" lemmaRef="tla:tla450559"><fs feats="epitheton_title epith_god"/>nb-qrs</w>
+</s>
+<s xml:id="tlaIBUBdQq28aHnKUICgZQShpur0A8">
+<w xml:id="tlaIBUBdWngxkYEQkLPgYpeSnZMPxE" lemmaRef="tla:tla116050"><fs feats="verb verb_3-inf suffixConjugation active"/>ḫpi̯</w>
+<w xml:id="tlaIBUBd2rKDkTwh0mpu2oeeWEQDok" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdyxNB4sAw0h7gs7LngCDmCQ" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdycxCTKcL0sEiVdnIdN6GvQ" lemmaRef="tla:tla42490"><fs feats="substantive substantive_fem st_absolutus plural"/>wꜣ,t.pl</w>
+<w xml:id="tlaIBUBd02mhenel0bRpYqs8Y3FmYA" lemmaRef="tla:tla116050"><fs feats="verb verb_3-inf relativeform prefixed feminine plural"/>ḫpp!.t</w>
+<w xml:id="tlaIBUBd417fEK93EsDiRIZvufiWrs" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus plural"/>jmꜣḫ,<supplied reason="defective">w</supplied>w</w>
+<w xml:id="tlaIBUBd3ZOZJQ3SkjfkkLine1DQ3s" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdyYsxusbRksDjFhG9bt9PtU" lemmaRef="tla:tla10100"><fs feats="pronoun personal_pronoun"/>=sn</w>
+</s>
+<s xml:id="tlaIBUBd8Zt1wC6rEVJviQFxgwQqpg">
+<w xml:id="tlaIBUBd36GhIBgzUV6myGlhWmxlKo" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/>pr-ḫrw</w>
+<w xml:id="tlaIBUBdwXnxt6r3EOCl5QKNQDZP74" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd1ZrPynMCkK5p0h9MtMsAXc" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<damage>f</damage></w>
+<w xml:id="tlaIBUBdzTjNIMpPU6Xqyh648yZoQM" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdyxdpZQ1X0RApx5nloTCPuY" lemmaRef="tla:tla45600"><fs feats="entity_name artifact_name"/>Wpi̯-rnp,t</w>
+<w xml:id="tlaIBUBdxEN67RlQEcVs2BOV0WPyTY" lemmaRef="tla:tla171190"><fs feats="entity_name artifact_name"/>Tp,j-rnp,t</w>
+<w xml:id="tlaIBUBd7GqwPgqQksvitRH74jMrgU" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd0rjV9DfokSMsQWui4dlGmc" lemmaRef="tla:tla103300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥꜣb</w>
+<w xml:id="tlaIBUBdwZwc6WWX0f2iHICTW2QH20" lemmaRef="tla:tla81660"><fs feats="adjective masculine singular"/>nb</w>
+<w xml:id="tlaIBUBd1CoZy0sDEmQjLlh7aknzmg" lemmaRef="tla:tla93320"><fs feats="adverb"/>rꜥw-nb</w>
+<w xml:id="tlaIBUBdxszMrtZoEFLiumgY5WjC2I" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd512b8HSGUDqkQzLX5171ZU" lemmaRef="tla:tla400070"><fs feats="epitheton_title title"/>wr-mḏ-Šmꜥ<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd4A01wFW9UUauJficLNQWXk" lemmaRef="tla:tla450763"><fs feats="epitheton_title title"/>ns,t-ḫnt,<supplied reason="defective">j</supplied>t</w>
+<w xml:id="tlaIBUBdwwnIj0W5EHSh0HvkIrTvYo" lemmaRef="tla:tla850020"><fs feats="epitheton_title title"/>ḥm-nṯr-Mꜣꜥ,t</w>
+<w xml:id="tlaIBUBd8f6WARWdUCMjhQp0fMMLKw" lemmaRef="tla:tla850713"><fs feats="epitheton_title title"/>ḥm-nṯr-Ḫwi̯≡f-wj</w>
+<w xml:id="tlaIBUBd69yhPt48015rFT4qbuNQjk" lemmaRef="tla:tla850718"><fs feats="epitheton_title title"/>ḥm-nṯr-S,t-jb-Rꜥw</w>
+<w xml:id="tlaIBUBd91W7sbUGEClhExnliW6QQU" lemmaRef="tla:tla851112"><fs feats="epitheton_title title"/>jrr-mrr,t-nṯr-nʾ,tj-rꜥw-nb</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdWNuusJvF0Xok6l0yTdsDyY" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/><supplied reason="haplography">zꜣ-nswt</supplied></w>
+<w xml:id="tlaIBUBd4OX3BPiik48vEHU94BgnkY" lemmaRef="tla:tla705469"><fs feats="entity_name person_name"/><supplied reason="haplography">Ḫꜥi̯≡f-Ḫwi̯≡f-wj</supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

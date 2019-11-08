@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtSUFLYRD44ZCTPMIVMWGAL4UNQY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈TEXT〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈TEXT〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>SUFLYRD44ZCTPMIVMWGAL4UNQY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>östl. Tür-Laibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈TEXT〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaRQ744Z2P5BDMDPVY5KIWTGLLAU">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara III: The Tomb of Neferseshemre and Seankhuiptah (ACE Rep. 11), Warminster 1998, 50, 65c</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="SUFLYRD44ZCTPMIVMWGAL4UNQY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-008a5fd2b28d978ece3871b4acc55fd3</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQRxWJrPrUTslN3vNFVYcVM">
+<w xml:lang="de" corresp="src:tlaIBUBd1grnsUWhUJftAY3Jblolos">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwnuL8Jtw0fDp6if7Qe9oM8">Vorlesepriester</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWqTmIyk6kgpsKTHORWzNgM">Großer der Räucherung</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxcAk1F79UcInNeMQV3uGKQ">Geheimrat des Heka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7YSFkbU7Ediu9GI26GQRdA">Hüter des Geheimnisses des Königs an allen seinen Plätzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyXDxisvuUHDkcivJVd0prU">Seanch-wj-Ptah</w>
+</s>
+<s corresp="src:tlaIBUBd9nxZQhWA09rtAoWuDhkuFA">
+<w xml:lang="de" corresp="src:tlaIBUBd8f4nXADb09HqWRT29HoOY0">Oberarzt</w>
+<w xml:lang="de" corresp="src:tlaIBUBdztXoW9mLEkWmCUQ2bPzf1U">&quot;Geheimrat über das, was nur einer sehen darf&quot;</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8s1bxLvz0xpk5JyRa3emaY">Versorgter bei dem großen Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyroFoAvHUPiqwQ7QHfxnHg">Seanch-wj-Ptah</w>
+</s>
+<s corresp="src:tlaIBUBd7HCAV4ebE8kigflqxcqwWM">
+<w xml:lang="de" corresp="src:tlaIBUBdzzrz7AD9EHGi1j49s4mWhQ">Versorgter bei Osiris</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

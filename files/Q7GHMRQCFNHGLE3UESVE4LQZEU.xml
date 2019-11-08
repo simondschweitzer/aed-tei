@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idQ7GHMRQCFNHGLE3UESVE4LQZEU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 39</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 39 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>Q7GHMRQCFNHGLE3UESVE4LQZEU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈1. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 39</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaBDR2GFRVQVENFOYUQKMGB24FBY">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. IV B [F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="Q7GHMRQCFNHGLE3UESVE4LQZEU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-1526af23017dd9b4e09ec70ebf1a5548</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd2bWPbNaP02Kq6vSEWhLCvY">
+<lb n="[P/F/Ne I 43]"/>
+<w xml:id="tlaIBUBd0lgohf80EIBqfFEajO9KrY" lemmaRef="tla:tla186050"><fs feats="verb"/>ḏ<supplied reason="defective">d</supplied>-mdw</w>
+</s>
+<s xml:id="tlaIBUBdQpPZdP7e0sfieAtDmcQiZU">
+<w xml:id="tlaIBUBdzaNiw34OkrFoP5xmnfQqX8" lemmaRef="tla:tla49461"><fs feats="epitheton_title title"/><supplied reason="defective">W</supplied><damage>s</damage><supplied reason="lost">r</supplied><supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBd9jGLCKpd02fl8RqIyK6zHo" lemmaRef="tla:tla400313"><fs feats="entity_name kings_name"/><supplied reason="lost">Ppy</supplied></w>
+<w xml:id="tlaIBUBd3neQOJclUtHkp2uLiasm2g" lemmaRef="tla:tla67780"><fs feats="verb verb_2-lit imperative singular"/><supplied reason="lost">mj</supplied></w>
+<w xml:id="tlaIBUBdzRU1Ml1d0wanccxBgAOHQU" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdy8JeyzrpkWJk5QkQWN5gQo" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBd2lpFVCfgUt7u4Wf0U95HRk" lemmaRef="tla:tla28410"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">jr<supplied reason="defective">,t</supplied>-Ḥr,w</supplied></w>
+<w xml:id="tlaIBUBdyD5QXeNK0xotQIQJWiQCxU" lemmaRef="tla:tla127740"><fs feats="verb verb_2-lit relativeform feminine singular"/><supplied reason="lost">zj.t.n</supplied></w>
+<w xml:id="tlaIBUBd992hL5FCUvqrj5qc3mpcdU" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">f</supplied></w>
+<w xml:id="tlaIBUBd1w4fcv0MEx1s38OFoKhQg0" lemmaRef="tla:tla91900"><fs feats="preposition"/><supplied reason="lost">jr</supplied></w>
+<w xml:id="tlaIBUBd5nVRfU9GE21tC2QWtwDRqE" lemmaRef="tla:tla10090"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">s</supplied></w>
+</s>
+<s xml:id="tlaIBUBd4hQS4WU1ETXrU9QWjGEazs">
+<lb n="[P/F/Ne I 44]"/>
+<w xml:id="tlaIBUBdWOEl2tEbEWxtMx1TU1XiNQ" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf suffixConjugation n-morpheme active"/><supplied reason="lost">jni̯.n</supplied></w>
+<w xml:id="tlaIBUBd3plns4410l3rqmP0ILbLvw" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBdwKjL9S3Q0bVgmvYTcgKYFo" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBdWUDdNK71EJkim0V7W7Zd88" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBd3k7ZytvzUhbqJaQXFst4b8" lemmaRef="tla:tla127770"><fs feats="pronoun personal_pronoun"/><supplied reason="lost">s<supplied reason="defective">j</supplied></supplied></w>
+<w xml:id="tlaIBUBdwzIevWbIkiMva1waHtNg4U" lemmaRef="tla:tla854503"><fs feats="verb verb_irr suffixConjugation active"/><supplied reason="lost">di̯</supplied></w>
+<w xml:id="tlaIBUBdzWMoAy01U6Xp8uMyOBrj38" lemmaRef="tla:tla10030"><fs feats="pronoun personal_pronoun"/>=<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBd5EhoLisFk48jVlUkiIZ0Zc" lemmaRef="tla:tla78870"><fs feats="preposition"/><supplied reason="lost">n</supplied></w>
+<w xml:id="tlaIBUBd72u1w8Kb0vWviujPctcQ9k" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+<w xml:id="tlaIBUBd6aEWxSx4kihnRt43pfX6IM" lemmaRef="tla:tla127770"><fs feats="pronoun personal_pronoun"/><supplied reason="lost">s<supplied reason="defective">j</supplied></supplied></w>
+<w xml:id="tlaIBUBdyMY3MrZWEQAgD1xGNVp8Q8" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBd0r1bSMLU0UZrhNuzpYoEWI" lemmaRef="tla:tla92560"><fs feats="substantive substantive_masc st_pronominalis singular"/><supplied reason="lost">rʾ</supplied></w>
+<w xml:id="tlaIBUBdwfOnkQtiEyNulU8BZKRbF4" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=<supplied reason="lost">k</supplied></w>
+</s>
+<s xml:id="tlaIBUBdx7kAJMnrke5qzu6WE3n50w">
+<lb n="[P/F/Ne I inf, casier 43-44]"/>
+<w xml:id="tlaIBUBd54WmWw6YUi7rSQM9DlqPqs" lemmaRef="tla:tla139130"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>zr</damage><supplied reason="lost">,w</supplied></w>
+<w xml:id="tlaIBUBd23ybG1PpUkZmocAWw3uK9c" lemmaRef="tla:tla154790"><fs feats="adjective masculine singular"/><supplied reason="lost">šmꜥ<supplied reason="defective">,wj</supplied></supplied></w>
+<w xml:id="tlaIBUBdzkIcGGLlEbbiKAGFhR7WTI" lemmaRef="tla:tla139130"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">zr,w</supplied></w>
+<w xml:id="tlaIBUBd6HkD48HfE0TkHIR42RYDFU" lemmaRef="tla:tla74000"><fs feats="adjective nisbe_adjective_substantive masculine singular"/><supplied reason="lost">mḥ<supplied reason="defective">,wj</supplied></supplied></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

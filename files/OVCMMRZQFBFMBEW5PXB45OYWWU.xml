@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idOVCMMRZQFBFMBEW5PXB45OYWWU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenentitel (rechte Spalte)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenentitel (rechte Spalte) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>OVCMMRZQFBFMBEW5PXB45OYWWU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opferkammer</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenentitel (rechte Spalte)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaSAVSEAGN5ZD67BWD247X4FCAGU">
+<support>
+<objectType ref="ths:DZAW646H4ZBQHEEZZHLE24VR4M">Raum</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3X3HIVLWDVCHVM7OKEQG4RIKIA" notBefore="-2512">Sahure</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Tombs at Giza II: Seshathetep/Heti (G5150), Nesutnefer (G4970) and Seshemnefer II (G5080), (ACE Rep. 18), Warminster 2002, 39-46, pl. 12-22, 52-54, 56-57.
+[*P,*F,*U,*Ü,B,K]
+H. Junker, Giza III: Die Mastabas der vorgeschrittenen V. Dynastie auf dem Westfriedhof, 166-187, Taf. V-VI, X-XI, Abb. 27-30.
+[P,F,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="OVCMMRZQFBFMBEW5PXB45OYWWU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d36037b3061869dd825d8753ac0fbf97</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdWjpti02fUmJkecFi6q2Pbw">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd2bqdfbAi0rZhgdqdqdeBZY" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jni̯<supplied reason="lost">.t</supplied></w>
+<w xml:id="tlaIBUBdxJQUN7bIkainTGH5cCMOdM" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">pr-ḫrw</supplied></w>
+<w xml:id="tlaIBUBd52jfylEOk2ToriBf5SOX4A" lemmaRef="tla:tla26660"><fs feats="preposition"/>jn</w>
+<w xml:id="tlaIBUBdzuPfyz4bUqVpN3O5J9QFmo" lemmaRef="tla:tla80890"><fs feats="substantive substantive_fem st_pronominalis plural"/>nʾ,t.pl</w>
+<w xml:id="tlaIBUBdWtieMSsnEW5uGf7ogqiE6w" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdWPvQShSW0j8qws318cMLkA" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition feminine plural"/>n,j.<supplied reason="defective">w</supplied>t</w>
+<w xml:id="tlaIBUBd907MEuJC0mTr84pLD2PmlQ" lemmaRef="tla:tla154690"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>Šmꜥ</w>
+<w xml:id="tlaIBUBd0RVydzPWUWbpwRpY2UuqgU" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd0DaxwdtIEVziTPA0prZt5U" lemmaRef="tla:tla103300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥ<supplied reason="defective">ꜣ</supplied>b</w>
+<w xml:id="tlaIBUBd9ywL83Q804sgN8tjLueGTY" lemmaRef="tla:tla93320"><fs feats="adverb"/>rꜥw-nb</w>
+<w xml:id="tlaIBUBd3za68WZjke5p0fdJrThBNM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd04YnXlI0UjMgTvIDZBrWJA" lemmaRef="tla:tla703438"><fs feats="entity_name person_name"/>Nfr-nswt</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

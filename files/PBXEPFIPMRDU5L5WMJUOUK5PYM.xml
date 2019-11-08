@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idPBXEPFIPMRDU5L5WMJUOUK5PYM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Tumas 21〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Tumas 21〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>PBXEPFIPMRDU5L5WMJUOUK5PYM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Tumas 21</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Tumas 21〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3BOUCMOPLZHEVBUZ5MEUC5GYEA">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:GX4XGIN7J5BDVHAOC5HEMK3SZU">Tomas
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Weigall, A.E.P., A Report on the Antiquities of Lower Nubia (The First Cataract to the Sudan Frontier) and their Condition in 1906-107, Oxford 1907; pl. LVIII;
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 109</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="PBXEPFIPMRDU5L5WMJUOUK5PYM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-0cc8ed6f435841d39d32a1c039a2d652</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQXXvp7zSUmWgfrCzE7XDeo">
+<w xml:id="tlaIBUBdwjJ6CfY60jErV36sXRbda8" lemmaRef="tla:tla855724"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm</supplied>-nṯr</w>
+<w xml:id="tlaIBUBdWCY9xAmjUDdu1QPCA6i1Lw" lemmaRef="tla:tla200006"><fs feats="entity_name person_name"/>Mrj</w>
+<w xml:id="tlaIBUBd1YNo4VrI0iQiUQxFEOVda0" lemmaRef="tla:tla44020"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>wjꜣ!</w>
+<w xml:id="tlaIBUBdyXG94HPk0Gom1SQx77cuMA" lemmaRef="tla:tla450106"><fs feats="entity_name person_name"/>Ḫnw</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idSNPVVHSFKZB6FFWF5LPMQPW4N4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>König vor Aton</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von König vor Aton nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>SNPVVHSFKZB6FFWF5LPMQPW4N4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Pfeiler 1</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">König vor Aton</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaAWTI27VF2FELBNUQP5YJ67VIIE">
+<support>
+<objectType ref="ths:7VEAOTTHR5D3DMYJDV2U5HLMZY">Pfeiler</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G.T. Martin, The royal Tomb at el-&#039;Amarna II, ASE 39, London 1989, 22, Taf. 18-19 [P, *F, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="SNPVVHSFKZB6FFWF5LPMQPW4N4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>4-2bae57f89a2b95bb81b4f1a2075c4a9c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd5Xn8hvw1kWIk02QbZZimQc">
+<lb n="[Inschriften sind nur auf Seite B erhalten]"/>
+<lb n="[rechts von Aton]"/>
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdQkINcvrOk8kvI1WwRbgJGs" lemmaRef="tla:tla859389"><fs feats="entity_name gods_name"/>Rꜥw-ḥqꜣ-ꜣḫ,tj-<supplied reason="lost">ḥꜥi̯-m-ꜣḫ,t</supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd2voWlyUZkCQhHE3zHQpamU" lemmaRef="tla:tla859391"><fs feats="entity_name gods_name"/>M-<supplied reason="lost">rn</supplied>≡f-<supplied reason="lost">m-Rꜥw-jt<supplied reason="defective">j</supplied>-jy-m-Jtn</supplied></w>
+<gap reason="lost" />
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd2IhqLnpbUo1sHvFHcOUkfw" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+<w xml:id="tlaIBUBd4SbrY9tQUgtgH3LerOtyFQ" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit masculine singular"/><supplied reason="lost">ꜥnḫ</supplied></w>
+<w xml:id="tlaIBUBdwmlksQYe0gdix10iqiyYQQ" lemmaRef="tla:tla47270"><fs feats="verb verb_2-gem masculine singular"/><supplied reason="lost">wr</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd1y3o4otxEJes2aAX7BBF7Y" lemmaRef="tla:tla859383"><fs feats="epitheton_title epith_god"/><supplied reason="lost">Nb-šnn<supplied reason="defective">,t</supplied></supplied>-nb-Jtn</w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd7XC0eQK1EFNoQ3vgQKCFe8" lemmaRef="tla:tla400833"><fs feats="epitheton_title epith_god"/>nb-<supplied reason="lost">p,t</supplied></w>
+<gap reason="lost" />
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd2crFwFIQU0Ei9ZGMfwB7Ug" lemmaRef="tla:tla850317"><fs feats="entity_name gods_name"/>Jtn</w>
+</s>
+<s xml:id="tlaIBUBd3ZqJ8cEQ0QWqQ1PbH8kUfY">
+<lb n="[über dem König]"/>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd9ZbYWfunkGiqFaRQRb1jBc" lemmaRef="tla:tla400038"><fs feats="epitheton_title epith_king"/>nb-Tꜣ.du</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idOX4RTQHINFAPBDK2BT6DSE4UDY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Verso: 〉Fragmentarischer Weisheitstext</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Verso: 〉Fragmentarischer Weisheitstext nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>OX4RTQHINFAPBDK2BT6DSE4UDY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 5631</idno>
+<msName>oBM EA 5631</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Verso: 〉Fragmentarischer Weisheitstext</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+<note>Weisheitstext. Dies kann der Anfang des Weisheitstextes &quot;Eine Sammlung von Verboten&quot; sein (siehe Hagen, 151-152).</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaW2ZYXLZBYJFRDHFHB4XZRLWGTE">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+<note>Kalksteinostrakon</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notAfter="-1187">19. Dyn.</date>
+<note>Der Brief auf dem Rekto (E.F. Wente, Letters from Ancient Egypt, Atlanta 1990, 146, Nr. 196) datiert nach grammatischen Kriterien aus der 19. Dynastie, am ehesten aus der Regierungszeit Ramses&#039; II. oder eventuell Merenptahs (Winand, in: RdE 46, 1995, 196-197).</note>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+<note>Laut J. Cerný und A.H. Gardiner, Hieratic Ostraca I, Oxford 1957, Seite V sind alle dort veröffentlichten Ostraka aus Theben. Deir el-Medina wegen des Inhaltes des Briefes, in dem der Diebstahl von wertvollen Werkzeugen abgestritten wird (Demarée, 17).</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- S. Birch, Inscriptions in the Hieratic and Demotic Character from the Collections of the British Museum, London 1868, 7 und Tf. 18 [F; kein zuverlässiges Faksimile]
+- J. Cerný und A.H. Gardiner, Hieratic Ostraca I, Oxford 1957, 24 und Tf. 88 [*T]
+- R.J. Demarée, Ramesside Ostraca, London 2002, 17 und Tf. 20 [*P,*T]
+- http://www.britishmuseum.org/research/search_the_collection_database/search_results.aspx?orig=%2Fresearch%2Fsearch_the_collection_database.aspx&amp;searchText=5631%2C+ostracon&amp;x=0&amp;y=0&amp;fromDate=&amp;fromadbc=ad&amp;toDate=&amp;toadbc=ad [F]
+
+- A. Erman, in: ZÄS 42, 1905, 102 Anm. 1 [Ü]
+- G. Posener, in: RdE 6, 1951, 43, Nr. 54 [K]
+- H. Brunner, Altägyptische Weisheit. Lehren für das Leben, Zürich und München 1988, 215-217 und 469-470 [Ü]
+- F. Hagen, The Prohibitions. A New Kingdom Didactic Text, in: JEA 91, 2005, 150-152 [Ü,K]
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 291-297 (2. Aufl. 2010, 381-388 mit neuer Übersetzung) [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 5631</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="OX4RTQHINFAPBDK2BT6DSE4UDY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-cdacdfafe0e2f9e075f515234a2aa161</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd7Q2imKWjUXxsyx4mkhdZBQ">
+<lb n="[Vso 1]"/>
+<w xml:id="tlaIBUBdzX0XjrkQkhFqSZG3L7JKWY" lemmaRef="tla:tla853378"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">ḥꜣ,t</supplied>-ꜥ</w>
+<w xml:id="tlaIBUBd6kVyRrVMkLghvnnAPXBZSU" lemmaRef="tla:tla64360"><fs feats="preposition"/><supplied reason="lost">m</supplied></w>
+<w xml:id="tlaIBUBdzq92kVYHEW0mFm386xCLFw" lemmaRef="tla:tla131390"><fs feats="substantive st_absolutus singular"/><supplied reason="lost">s</supplied>bꜣ,yt</w>
+<w xml:id="tlaIBUBd0ZvVTVhIksXrPpsy3A7CwI" lemmaRef="tla:tla77700"><fs feats="substantive st_absolutus singular"/>mtr,t</w>
+<w xml:id="tlaIBUBdQKW26nt3U0xitt0HTixJx4" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit participle feminine singular passive"/>ḏd</w>
+<w xml:id="tlaIBUBd9sBcWoI2UcXgATBoCmmCng" lemmaRef="tla:tla65500"><fs feats="preposition"/><supplied reason="lost"><unclear>m-sn,t</unclear></supplied>-r</w>
+<w xml:id="tlaIBUBd0DXDw5qCkLMtFTpGkFGOvE" lemmaRef="tla:tla450097"><fs feats="substantive substantive_masc st_constructus plural"/>zẖꜣ,w.pl</w>
+<w xml:id="tlaIBUBd9K9Fr0fLUCGieaSzIAJorQ" lemmaRef="tla:tla31320"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>js,wt</w>
+</s>
+<s xml:id="tlaIBUBdWNkquTlXU5QivQcECMLcoo">
+<lb n="[Vso 2]"/>
+<w xml:id="tlaIBUBdw6lQo3gNEGQhrGz7AX8nzo" lemmaRef="tla:tla25170"><fs feats="verb verb_3-inf suffixConjugation active"/>jmi̯</w>
+<w xml:id="tlaIBUBd05xQUrWOUdaglA8fdtJIE8" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdy0HQ0Xupk2mgxfSx2VbE8E" lemmaRef="tla:tla854503"><fs feats="verb verb_irr infinitive"/>wdi̯</w>
+<w xml:id="tlaIBUBdz9t76mO8UTDjxERpyoXhLE" lemmaRef="tla:tla92560"><fs feats="substantive substantive_masc st_pronominalis singular"/>rʾ</w>
+<w xml:id="tlaIBUBd71IurLDCkw2psHwqodzv9A" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<w xml:id="tlaIBUBdWXFqY1p60CwuhQepIlsNdc" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd5ENFyhwx0QJhnFXiZUGm3Y" lemmaRef="tla:tla38530"><fs feats="verb verb_3-lit infinitive"/>ꜥnḫ</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idTTTFLSHEGFHNNKRKBRDO3BBBSE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>linke Laibung</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von linke Laibung nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TTTFLSHEGFHNNKRKBRDO3BBBSE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Türlaibung</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">linke Laibung</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaG4SHHIUSD5CVTDC6G5ULBMIS6Y">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notBefore="-2363">Teti</date>
+<date type="latest" datingPoint="ths:JDHTPUAWMZBCZJDBBD2JP4PAD4" notAfter="-2354">Teti</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, M. Abder-Raziq, The Teti Cemetery at Saqqara VI: The Tomb of Nikauisesi (ACE Rep. 14), Warminster 2000, 33-34, pl. 6, 45-46</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TTTFLSHEGFHNNKRKBRDO3BBBSE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-9fc1d75fa3d767ea6e57adbb759ffedc</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxvVrLdtmUeImKO1T2HaeoM">
+<lb n="[1]"/>
+<gap reason="lost" />
+<lb n="[2]"/>
+<gap reason="lost" />
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd0yGOgvKCkRXgZzDMDcLKsk" lemmaRef="tla:tla51090"><fs feats="epitheton_title title"/><supplied reason="lost">wt,j-Jnp,w</supplied></w>
+<w xml:id="tlaIBUBd8DpseOO3EWakax1XlT3KO4" lemmaRef="tla:tla450748"><fs feats="epitheton_title title"/><supplied reason="lost">ḥts-Jnp,w</supplied></w>
+<w xml:id="tlaIBUBdyuD3ImVC0kVtzaxWm5pzVk" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/><supplied reason="lost">smr-wꜥ,</supplied><damage>t<supplied reason="defective">j</supplied></damage></w>
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd5aaIPbgl0lMp3mcW5KFVeA" lemmaRef="tla:tla850467"><fs feats="epitheton_title title"/><supplied reason="lost">ḥr,j-wr,w</supplied></w>
+<w xml:id="tlaIBUBdQN70kE1n0hGorzimwistvw" lemmaRef="tla:tla450641"><fs feats="epitheton_title title"/><supplied reason="lost">jm,j-rʾ-pr,</supplied><damage>w</damage><supplied reason="lost">j-nbw</supplied></w>
+<lb n="[5]"/>
+<w xml:id="tlaIBUBdWsrXBPrekhsqsQp12FSIZg" lemmaRef="tla:tla850383"><fs feats="epitheton_title title"/><supplied reason="lost">jmꜣḫ,w-ḫr-nṯr-ꜥꜣ-nb-p,t</supplied></w>
+<lb n="[6]"/>
+<w xml:id="tlaIBUBd89ZkVnQ5EmgqRPapsbJGXk" lemmaRef="tla:tla850391"><fs feats="epitheton_title title"/><supplied reason="lost">jmꜣḫ,w-</supplied><damage>ḫr-Wsjr</damage></w>
+<lb n="[7]"/>
+<w xml:id="tlaIBUBdxRPI1ZPWE99iYrnL81wfWU" lemmaRef="tla:tla850434"><fs feats="epitheton_title title"/><supplied reason="lost">jmꜣḫ,w</supplied>-ḫr-Jnp,w-tp,j-ḏw≡f</w>
+<lb n="[8]"/>
+<w xml:id="tlaIBUBdzOL15egr0QHiNfyoT3TFkE" lemmaRef="tla:tla94060"><fs feats="epitheton_title title"/>jr,j-pꜥ,t</w>
+<w xml:id="tlaIBUBdyAvWdglNU9EtfIr0vTHBsg" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-ꜥ</w>
+<w xml:id="tlaIBUBdwuL8IFNrkA6pe5YWDQ4o6A" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/>ḫtm,tj-bj,tj</w>
+<w xml:id="tlaIBUBdy5sdJdi0EU4tJ6bTbQ2vK8" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBdxiM6gfoH0Oto2dkjRkS73g" lemmaRef="tla:tla850460"><fs feats="entity_name person_name"/>N<supplied reason="defective">,j</supplied>-kꜣ,w-Jzzj</w>
+</s>
+<s xml:id="tlaIBUBd87Z2WoATUgEpb2h8UFaR4c">
+<lb n="[9]"/>
+<w xml:id="tlaIBUBd9oxGw2ULESLtCRZWoWNgwE" lemmaRef="tla:tla125510"><fs feats="substantive substantive_masc st_pronominalis singular"/>zꜣ</w>
+<w xml:id="tlaIBUBdQYSnt3bMERotwQtJx2MMW8" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd6lkXYzJnkcpooRNnmUKBg0" lemmaRef="tla:tla135720"><fs feats="adjective nisbe_adjective_substantive masculine singular"/>sms,w</w>
+<w xml:id="tlaIBUBdwd7R7eWYkobjIo7lQR9u38" lemmaRef="tla:tla400005"><fs feats="substantive substantive_masc st_pronominalis singular"/>mr,y</w>
+<w xml:id="tlaIBUBdzVKqWWVU0ruomrGjkuAhJQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<lb n="[10]"/>
+<w xml:id="tlaIBUBd4scYhiBNUVkqIu0jiycbEw" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,t<supplied reason="defective">j</supplied></w>
+<lb n="[11]"/>
+<w xml:id="tlaIBUBd8QR6hqlB0DDjdjZHQWaOKw" lemmaRef="tla:tla850460"><fs feats="entity_name person_name"/>N<supplied reason="defective">,j</supplied>-kꜣ,pl-Jzzj</w>
+<w xml:id="tlaIBUBdWnGW5HcV0Mvsq4GW1aornE" lemmaRef="tla:tla400263"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>sms,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

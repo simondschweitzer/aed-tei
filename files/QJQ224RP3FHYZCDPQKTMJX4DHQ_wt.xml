@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtQJQ224RP3FHYZCDPQKTMJX4DHQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Stelentext</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Gunnar Sperveslage</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Stelentext nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Gunnar Sperveslage</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>QJQ224RP3FHYZCDPQKTMJX4DHQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>〈Stele V〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Stelentext</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHI45GIRXDRA4TAY43GIHZIJSQE">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notBefore="-1351">Amenophis IV. / Echnaton</date>
+<date type="latest" datingPoint="ths:4EVBMCD2U5GQPBJ6QS622PTSQQ" notAfter="-1338">Amenophis IV. / Echnaton</date>
+</origDate>
+<origPlace ref="ths:E2J4NAPJFBHQTGSFIKRCFC6V4E">Tell el-Amarna
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>PM IV, 231;
+W.J. Murnane/C.C. van Siclen, The Boundary Stelae of Akhenaten, London/New York 1993, 84 ff. [P, *F, *H, Ü, K];
+Lichtheim, Ancient Egyptian Literature II, Los Angeles 1976, 48 ff. [Ü];
+W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta 1995, 81 ff. [Ü].</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="QJQ224RP3FHYZCDPQKTMJX4DHQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Gunnar Sperveslage</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-944438caf906b015ab74b81292c3dd04</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd8aLi1kP9kKBtprZogQF4L8">
+<w xml:lang="de" corresp="src:tlaIBUBd3QwWyd1K0Ktg1bCnuQFDX8">[Poss.artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwa30WA2bkSjpfQFvJzLitI">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5PQpWzYD0kwoowJYs63nvo">Eid</w>
+<w xml:lang="de" corresp="src:tlaIBUBd53ntAtJfEjAjDHJA0GV29A">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdySjmubQxkmPqqnoDC263vs">Maat</w>
+</s>
+<s corresp="src:tlaIBUBd3ZKr9ppWUcguXsTLRuRZ0Y">
+<w xml:lang="de" corresp="src:tlaIBUBdWOUSFurw0X5s65MIfTlDr8">Berg</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2sZF4mNUkb3qBS8kyl2zGc">östlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd66MWBJ1a0MqrcZy3AABOY8">[Genitiv (invariabel)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzU3hOKsg04tqTfDoYpmZpc">Horizont des Aton (Tell el-Amarna)</w>
+</s>
+<s corresp="src:tlaIBUBd6AlXMWElE4ThYSexljgeDM">
+<w xml:lang="de" corresp="src:tlaIBUBd4tWKSAKdkiNqK9qdq8luQY">bis zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0QTdMhABUv8qlSjmjim2p0">der [Artikel sg.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9lNrYQEAkXapwAjbbQePCc">Stele</w>
+<w xml:lang="de" corresp="src:tlaIBUBd99WwANqqUsBh4rZEey7688">nördlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3M6jX53B0hgtFTJCIwVh6Q">betragen (an)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2wrmQuvMkFRiPABdxVWnBc">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8GQrxE7PkBgtw0jkB0CI5I">Iteru (ein Wegemaß)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyGE2OWVe0LftpoH2EUULVM">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxumLpzWC0VJuHWnrZ8J0KA">[Längenmaß von 100 Ellen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd537c0E0LEomrzuYNITsaVg">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1DBFWEX0EkKuoj2OTSFQKI">Elle (Längenmaß)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54oPk8ibkEirA0eBQMf48s">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8NTLMmcNU98nrzQORtQQOo">gleichermaßen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd06PhNaWL0n2gnG1Pf9nF8Q">genau; richtig</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5NyQhLOSES4uRKqdomMS90">sehr, wirklich (Betonung beim Adjektiv etc.)</w>
+</s>
+<s corresp="src:tlaIBUBd501158FakLQlnWdqNspitU">
+<w xml:lang="de" corresp="src:tlaIBUBdxoXB36Khk4NjJdeb9zv7QQ">[in nicht-initialem Hauptsatz]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54otHz8uEzJhEORcymTPZ4">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5pWjczCoE44hkfLHx5vXPI">zu (jmd.) gehörig (poss.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwTKaend1EnTmz3np6o6W7o">Vater</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWJG8HacAkEPlDy8LZem1fE">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdylM5O4gEEVmnKC8IOeAjpg">Re-Harachte, der im Horizont jubelt (Aton)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd00McOG59kPLif4mnQPTLNU">In seinem Namen Sonnenlicht, das in der Sonnenscheibe ist (Aton)</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

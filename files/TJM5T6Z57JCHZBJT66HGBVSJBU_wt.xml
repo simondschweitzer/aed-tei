@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wtTJM5T6Z57JCHZBJT66HGBVSJBU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>TJM5T6Z57JCHZBJT66HGBVSJBU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>Opfertafel des Izezy</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla7C3U2ZS3OZGIREMB5Q45JJLGBU">
+<support>
+<objectType ref="ths:YDHSECVKFVG3BHUXVG4EJEG4G4">Opferbecken</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>A. B. Lloyd, A. J. Spencer, A. El-Khouli,   Saqqara Tombs II: The Mastabas of Meru, Semdenti, Khui and Others, London 1990, 3-20, pl. 5, 28.1 [F].
+.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="TJM5T6Z57JCHZBJT66HGBVSJBU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-5bf5457edfb9a9ab5c26d516162a57f2</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd1TcNhrqvE6In3fjDW2udHQ">
+<w xml:lang="de" corresp="src:tlaIBUBdWil8YxrIkxGqaJ0c36bh9A">[Einleitung der Opferformel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3tHtE2c3E27nDF8ksKjqa8">König</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3OQJ7jUeUO1q0jVYS9saKU">[Einleitung der Opferformel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9n0J35tt0cGrusCiNcr8a4">GN/Anubis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQ1XA4aqUW9tTgWRBQTzqs">EP</w>
+</s>
+<s corresp="src:tlaIBUBd0eGMXl9pUVNs09Uaj7bimk">
+<w xml:lang="de" corresp="src:tlaIBUBdQuM8wCBkkGFmYgmz1KVbu8">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4hQ0yQj4UqghWZw0ZViTPY">zu, für, an [Richtung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3GgBivTWk2sjws1yauqed8">Versorgter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdybnOOLoT0SCqeysgTmBkX0">PN/m</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>
