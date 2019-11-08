@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt4AEIFBHKRNHO5GL46K56ZRVPZM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften (4. Rind v.r.)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften (4. Rind v.r.) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>4AEIFBHKRNHO5GL46K56ZRVPZM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Schlächter-Szene</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften (4. Rind v.r.)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaYBK7PB7LXZCVBFHG3RLSF4DIZY">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notBefore="-2461">Niuserre</date>
+<date type="latest" datingPoint="ths:3DBCMXAP3ZA2TCSSOGPRVOXKME" notAfter="-2233">6. Dyn. nach Pepi II.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>G. Steindorff, Das Grab des Ti, Leipzig 1913, Taf. 127 [P]
+Abklatsch-Serie des Wb-Archivs Kasten 573 Abklatsch 7/1-4</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="4AEIFBHKRNHO5GL46K56ZRVPZM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-2f11f5b225c697673f0daa6ab488c0fa</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd1jtl6vTYEPMgCoiImnAMW0">
+<w xml:lang="de" corresp="src:tlaIBUBd5gPWFGrc0eQnOP4LnxLPFc">ergreifen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2tU9k1oWkBasKCUZWKm9bI">[Partikel (nachgestellt zur Betonung)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdya23N29wERqrsrZRRLxjM8">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9IpZ1HwS08mmk35kRBxX6o">Schlächter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8IwkExOkEfvpTa0hWRHLxY">dieser [Dem.Pron. sg.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd4WAdMeGiUWKoM03AcM5tWo">
+<w xml:lang="de" corresp="src:tlaIBUBd6i0UcIhFE8VkyRzcIjrhVQ">Schlächter</w>
+</s>
+<s corresp="src:tlaIBUBd6MZn8vDDkjwsMKQQCLpqkM">
+<w xml:lang="de" corresp="src:tlaIBUBdxPPrMMFXkJZravuqWcVseo">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8YgqajiAkKotSIAjCiNf7g">handeln</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyCF4mtS90zctCBAN3o0q2o">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQwlByBplEEKquvW7lnSgCQ">sehr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

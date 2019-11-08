@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idN7M3G3EJRRFHJGEAKNTYU4TSSE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>rechter Außenpfeiler</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von rechter Außenpfeiler nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>N7M3G3EJRRFHJGEAKNTYU4TSSE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<msName>Scheintür</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">rechter Außenpfeiler</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPLR5MNO42RDKDC4X5KQXP5REQA">
+<support>
+<objectType ref="ths:2L6RZ4PAZREGDE4E7WLH255UGI">Scheintür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. Kanawati, Niankhpepy/Sebekhetep/Hepi: Unusual tomb and unusual Career, in GM 201, 2004, 52-55, Fig. 2.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="N7M3G3EJRRFHJGEAKNTYU4TSSE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-b870f98616571206795c96a84598446c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd8pYZvy8fkeuvxgljCbe8bQ">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdznLz4ZvFEISjZrhaEzxQ2o" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBd6mGgVo13UTbvVGZV7f3sQQ" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/><damage>nswt</damage></w>
+<w xml:id="tlaIBUBd9fqrBKe70dWvW8PLKwYBHM" lemmaRef="tla:tla400156"><fs feats="undefined"/><damage>ḥtp-ḏi̯</damage></w>
+<w xml:id="tlaIBUBdQPBrVR4lUshpYY7Qv2a6LI" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/><damage>Jnp,w</damage></w>
+<w xml:id="tlaIBUBdxduO8CN2Eszu3RQQFEWLvQ" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/>ḫnt,j-zḥ-nṯr</w>
+<w xml:id="tlaIBUBd35jEFXed0sEkqaAtWgcq0A" lemmaRef="tla:tla25390"><fs feats="epitheton_title epith_god"/>jm,j-wt</w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

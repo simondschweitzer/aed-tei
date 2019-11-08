@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st3VCJO4EVLFFIDMIYRT6FZTHJCU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Djab (Louvre C 41)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Djab (Louvre C 41)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3VCJO4EVLFFIDMIYRT6FZTHJCU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 41</idno>
+<msName>Stele des Djab (Louvre C 41)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Djab (Louvre C 41)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGU424HJE5ZFAFMZNBE5BCLVGVU">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; 88 x 43 cm (H x B) (http://cartelfr.louvre.fr/cartelfr/visite?srv=car_not_frame&amp;idNotice=23718&amp;langue=fr)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notBefore="-1550">18. Dyn.</date>
+<date type="latest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notAfter="-1293">18. Dyn.</date>
+<note>Anfang 18. Dynastie: Graphie des Namens Sokar und des Epithetons $mꜣꜥ-ḫrw$ (Kubisch, 298) sowie Titelphraseologie (Schmitz, 284)</note>
+</origDate>
+<origPlace ref="ths:M4SOHCRELFHLNC27MWIGAD4VM4">Esna
+<note>wegen der Erwähnung von Esna in Zl. 10-11 (Kubisch, 298)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- P. Pierret, Recueil d&#039;inscriptions inédites du Musée égyptien du Louvre II, Paris 1878, 24 [H]
+- B. Schmitz, Untersuchungen zum Titel s3-njswt &quot;Königssohn&quot;, Bonn 1976, 261, 283-4 [K]
+- S. Kubisch, Lebensbilder der 2. Zwischenzeit: Biographische Inschriften der 13.-17. Dynastie (SDAIK 34), Berlin und New York 2008, 298-301 und Taf. 10a (Esna 2) [*P, H, Ü, K]
+- http://cartelfr.louvre.fr/pub/fr/image/47325_AE021550.002.jpg [Farbphoto] und http://cartelfr.louvre.fr/cartelfr/visite?srv=car_not_frame&amp;idNotice=23718&amp;langue=fr [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 41</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3VCJO4EVLFFIDMIYRT6FZTHJCU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-cc0992cc0e6c497164cc6c3a1fd793b7</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdxdP21fUa0CDr1XZ71QeibI">Ein Opfer, das der König, Ptah, Sokar und Osiris, der Herr von Busiris, der große Gott, der Herr von Abydos, geben.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1hUN0T4QUL5kFkvdMILo3E">Mögen sie ein Totenopfer geben (bestehend aus) Brot, Bier, Rindern, Geflügel, Weihrauch, Salböl, Leinen, das Hinausgehen und Herabsteigen in die Nekropole, den süßen Lufthauch des Nordwindes.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdWkTxXMywUcaosYwFIToc1I">Möge er das Wasser von der Trinkstelle des {Wassers} 〈Flusses〉 trinken.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0U0Gaxpr0BCt3EbXTSC87Y">Möge er sich zu den Göttern gesellen, möge er dort mit dem Kollegium gehen.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd09Bd1qQ1EmBjIo7ds21GEo">Einer mit ausschreitendem Fuß am geheimen Ort; ein Aufmerksamer, der von seinem Gott geliebt wird; ein Freundlicher, der von den Menschen geliebt wird.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1SWTInH6Er4sUKicpWFVq4">Kein anderer wurde herbeigeholt aufgrund seiner (fähigen) Redeweise.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd6gEx0QWnEl0vZJj8BOYou4">(Denn) einer, der geliebt wird, ist er, der die Rechit vorsteht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdwujSDmwukQUi3vf9RKkpZQ">Für den Ka des Königssohnes und Hatia von Esna, Djab, der Gerechtfertigte(?), der das Leben wiederholt, Herr der Versorgtheit.</s>
+</ab>
+</body>
+</text>
+</TEI>

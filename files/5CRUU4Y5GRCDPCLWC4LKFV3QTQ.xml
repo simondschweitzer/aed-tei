@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id5CRUU4Y5GRCDPCLWC4LKFV3QTQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ostseiten-Inschrift</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Ostseiten-Inschrift nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5CRUU4Y5GRCDPCLWC4LKFV3QTQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Sargwanne</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Ostseiten-Inschrift</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJ3JCEL5HAZAK5KGFSLHKOHKFHM">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notBefore="-2723">Altes Reich</date>
+<date type="latest" datingPoint="ths:DBDBZEFDGZGGBMERHVKJ6PMPHQ" notAfter="-2187">Altes Reich</date>
+</origDate>
+<origPlace ref="ths:EWXT4Q4QYBAOHELCDQ5VPXNRXQ">Nekropolen
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Saqqara, 1937-1938, Vol. II, Cairo 1975, 101, Fig. 43-47
+[F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5CRUU4Y5GRCDPCLWC4LKFV3QTQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-1f61038850e9fda9777c60722d8eccb7</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxChBUTRvktlnBwJjrbnDAI">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdQEdTEdKTkkvjbwnXsQYIRI" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd3x00SFKOUjDlTEc5G468dM" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nswt</w>
+<w xml:id="tlaIBUBd5Ci4748BEGNrUF8ISWJj5o" lemmaRef="tla:tla400156"><fs feats="undefined"/>ḥtp-ḏi̯</w>
+<w xml:id="tlaIBUBd6EY7FyknECgjJcluslj0iI" lemmaRef="tla:tla27360"><fs feats="entity_name gods_name"/>Jnp,w</w>
+<w xml:id="tlaIBUBdxklSWw5Uk2Zmfnn51oNkWQ" lemmaRef="tla:tla119260"><fs feats="epitheton_title epith_god"/>ḫnt,j-zḥ-nṯr</w>
+<w xml:id="tlaIBUBdWjOdnWM5khrhLfQG8eylu4" lemmaRef="tla:tla25390"><fs feats="epitheton_title epith_god"/>jm,j-wt</w>
+<w xml:id="tlaIBUBd1yrEQjwFUastzAe7udNpes" lemmaRef="tla:tla600421"><fs feats="epitheton_title epith_god"/>tp,j-ḏw≡f</w>
+<w xml:id="tlaIBUBd2LVCkK4J0lMslrQE8ypVOQ" lemmaRef="tla:tla400939"><fs feats="epitheton_title epith_god"/>nb-tꜣ-ḏsr</w>
+</s>
+<s xml:id="tlaIBUBdWaUQ1kZV0WdlifQpiveIAc">
+<w xml:id="tlaIBUBdxW59w5XxkZmpouB0x8CjKo" lemmaRef="tla:tla161940"><fs feats="verb verb_3-lit suffixConjugation tw-morpheme passive"/>qrs.tj</w>
+<w xml:id="tlaIBUBd6Q9kdWIGE6HvQYdyTQyFtY" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd0JFWrmvBUrut6mjvnTtG8U" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdWrTWs0eGUaph0WICe2WmzM" lemmaRef="tla:tla500066"><fs feats="substantive st_absolutus singular"/>ẖr<supplied reason="defective">,t</supplied>-nṯr</w>
+<w xml:id="tlaIBUBd6m9xvq5bURAmdEbcnUlCeE" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd7C18yV9QkpBrZOcDSIOGQI" lemmaRef="tla:tla134780"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>z<supplied reason="defective">my,</supplied>t</w>
+<w xml:id="tlaIBUBd4DYPWWYNUkauhpCMyOsKIo" lemmaRef="tla:tla26150"><fs feats="adjective nisbe_adjective_substantive feminine singular"/>jmn<supplied reason="defective">,t.t</supplied></w>
+<w xml:id="tlaIBUBd9ssIbrwcUjNn9ZArOHZQ4w" lemmaRef="tla:tla850238"><fs feats="substantive st_pronominalis singular"/>pr<supplied reason="defective">,t</supplied>-ḫrw</w>
+<w xml:id="tlaIBUBd3lrOIquf0VcnG51trcoCAQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd6MFso0dqkl9kEz8gy6DuWY" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd6BjxySfHUAsqV9mio87e4k" lemmaRef="tla:tla103300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥꜣb</w>
+<w xml:id="tlaIBUBdQGDMLn4Z0qhrtnFMVix4LE" lemmaRef="tla:tla81660"><fs feats="adjective masculine singular"/>nb</w>
+<w xml:id="tlaIBUBdQ0KCA20zkgcst6FkB5xoq8" lemmaRef="tla:tla93320"><fs feats="adverb"/>rꜥw-nb</w>
+<w xml:id="tlaIBUBd3GDjBhUQUpft29kQWn4RJo" lemmaRef="tla:tla450318"><fs feats="epitheton_title title"/>zꜣb-sḥḏ-<supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>-mḏꜣ,t</w>
+<w xml:id="tlaIBUBdWWGdoePAkJjj0Ax8T2FByI" lemmaRef="tla:tla450038"><fs feats="entity_name person_name"/>Ptḥ-ḥtp<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBd3rpxTNGtEC7s8qjgWCu4zA">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd9Is3b0M9UkjgFN9GpVOvH0" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd1XwN478d0rXi4Rsv9n9xCw" lemmaRef="tla:tla450038"><fs feats="entity_name person_name"/>Ptḥ-ḥtp<supplied reason="defective">,w</supplied></w>
+</s>
+<s xml:id="tlaIBUBdxYXcRH9C0BPjASPrABmqRI">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdyWlb6EsvUH2khfpHRgnskI" lemmaRef="tla:tla450318"><fs feats="epitheton_title title"/>zꜣb-sḥḏ-<supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>-mḏꜣ,t</w>
+<w xml:id="tlaIBUBdWPrLeYNskLatNnIwvl7RH8" lemmaRef="tla:tla450038"><fs feats="entity_name person_name"/>Ptḥ-ḥtp,w</w>
+</s>
+<s xml:id="tlaIBUBdw1YpktWm0QEg9sWsS5yUBU">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBd3HdvuVDQkDTvkjsGXbWPG8" lemmaRef="tla:tla850380"><fs feats="epitheton_title title"/>jmꜣḫ,w-ḫr-nṯr-ꜥꜣ</w>
+<w xml:id="tlaIBUBd75KBuNxgkWWogBQUHJ4pAY" lemmaRef="tla:tla450268"><fs feats="entity_name person_name"/>Jy-n<supplied reason="defective">≡j</supplied>-ꜥnḫ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

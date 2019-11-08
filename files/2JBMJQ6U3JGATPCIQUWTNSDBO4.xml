@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id2JBMJQ6U3JGATPCIQUWTNSDBO4">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Aufschrift Ostseite (außen)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Aufschrift Ostseite (außen) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>2JBMJQ6U3JGATPCIQUWTNSDBO4</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Sarkophag</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Aufschrift Ostseite (außen)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaJITXXBZK35EW7CVEINBR5K2UQU">
+<support>
+<objectType ref="ths:EOH26S2KCJC5JHPL35OJ42T5N4">Sarg</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>E. Brovarski, The Senedjemib Complex, Part I, Giza Mastabas. Vol. 7, Boston 2001, 81, pl. 53 c, 54 b-e.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="2JBMJQ6U3JGATPCIQUWTNSDBO4.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-106dcb227731e470485c444cca51fbbb</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQnBSC7ZEk4FowTMEAd7zec">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd6EODz164ED0tRpCfJ1KZaE" lemmaRef="tla:tla850563"><fs feats="epitheton_title title"/>ḥꜣ,tj-ꜥ-mꜣꜥ</w>
+<w xml:id="tlaIBUBd47fwo0AOkTKgcpjYicMe6c" lemmaRef="tla:tla708854"><fs feats="entity_name person_name"/>Jntj</w>
+<w xml:id="tlaIBUBd8ZnzYvQpkQumjLTqACDixU" lemmaRef="tla:tla450276"><fs feats="epitheton_title title"/>tꜣ,tj-zꜣb-ṯꜣ,tj</w>
+<w xml:id="tlaIBUBd1f7191QokQsm9WAfrbFCpc" lemmaRef="tla:tla450119"><fs feats="entity_name person_name"/>Snḏm-jb</w>
+<w xml:id="tlaIBUBdznUqPXED0lCn8jRpBo4zjc" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr,j-tp-nswt</w>
+<w xml:id="tlaIBUBd8cECy4D8Unat0FZEw9xqYw" lemmaRef="tla:tla708854"><fs feats="entity_name person_name"/>Jntj</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id6H4ZW5LQRRE65JLY7C5QJUC52M">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Text〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Text〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6H4ZW5LQRRE65JLY7C5QJUC52M</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>rechte Türgewände</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Text〉</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3QSBPEYPWJHQVPVNBE472DZCEA">
+<support>
+<objectType ref="ths:GHMRAQY5Z5DTPLAXWE57EKWC2Y">Laibung</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notBefore="-2499">Neferirkare</date>
+<date type="latest" datingPoint="ths:E3KJFINUWJGZHI3ROCURKZQF2Q" notAfter="-2480">Neferirkare</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1929-1930, Oxford 1932, 6, fig. 1, pl. II.2-4 (nur partiell!)</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6H4ZW5LQRRE65JLY7C5QJUC52M.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3429d53192245fd3d405eac00baa4bb7</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdWj0M4Ql5Ealq7CKWY1tRA0">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBdxAlFHNpMEqisg4MZQMpLjY" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/><supplied reason="lost">sm</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd3KR21Nyr0ZEmlDKqXKXeK4" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/>ḥm-nṯr-<supplied reason="lost"><unclear>_</unclear></supplied></w>
+<w xml:id="tlaIBUBd4KB4AtZdU7onw3ESrIaBmw" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBd7JZqwQYykobjVvT0D6OckQ">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBd5iQxE4IUEsOtS2f0DbJW9w" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/><supplied reason="lost">sm</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdQg2i5yBLk8zjv5tpRKHX8Q" lemmaRef="tla:tla850857"><fs feats="substantive st_absolutus singular"/>ḫrp-šnḏ,t</w>
+<w xml:id="tlaIBUBdwBExhGSX0z1uyC3jpkWFDY" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBd6Q7X8v2yEYYvZHyZOfWVhA">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd8ol9Xxe0kTcimNvLrd9fz0" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/><supplied reason="lost">sm</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdw3WQm29WUM3kuj07n0I0mk" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBdzfjuIhzwUQEqXxvtnZ1cWU" lemmaRef="tla:tla851962"><fs feats="epitheton_title title"/>wꜥ-m-wr,pl-ḥ<supplied reason="defective">ꜣ</supplied>b</w>
+<w xml:id="tlaIBUBd98mh1q2JEflj5ClKAnWKI8" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBdylvEqJv60maoHr1afuB59g">
+<lb n="[4]"/>
+<w xml:id="tlaIBUBdz6fGkJtU0ams7ZvOytAJzQ" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/><supplied reason="lost">sm</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdxAIGv1kBEtdkGTwWxz968Y" lemmaRef="tla:tla850541"><fs feats="epitheton_title title"/><supplied reason="lost">ꜥḏ-mr-</supplied>Sbꜣ-Ḥr,w-ḫnt,j-p,t</w>
+<w xml:id="tlaIBUBdylsjddTD0jOhcP7vvivzmU" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBd6nMmWDQ8kCXjYUnZucFtec">
+<lb n="[5]"/>
+<w xml:id="tlaIBUBd5uIcHRfVEn0pzWyICj9Bfc" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/>sm</w>
+<w xml:id="tlaIBUBdWhVNNsacUrtoxWV5dZmQz0" lemmaRef="tla:tla850857"><fs feats="substantive st_absolutus singular"/>ḫrp-šnḏ,t</w>
+<w xml:id="tlaIBUBdw1LQQXkfEWAkWHdF9q67CI" lemmaRef="tla:tla851968"><fs feats="epitheton_title title"/>ḫrp-ḥw,wt-n,t-mw</w>
+<w xml:id="tlaIBUBdzcrwLKdxUfSk6CK0h3UltY" lemmaRef="tla:tla851963"><fs feats="epitheton_title title"/><supplied reason="lost">ḥm-nṯr</supplied>-Ḥr,w-<supplied reason="lost">Jnp,w-<unclear>ḫnt,j-pr-šms,wt-wꜥ,tj</unclear></supplied></w>
+<w xml:id="tlaIBUBd75vu6Fkt0YDlWH7W4itSFY" lemmaRef="tla:tla851962"><fs feats="epitheton_title title"/>wꜥ-m-wr,pl-ḥ<supplied reason="defective">ꜣ</supplied>b</w>
+<w xml:id="tlaIBUBdyJ1aIF9rUbjkLVQrsmTSBg" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b</w>
+<w xml:id="tlaIBUBdQA9QhJcCUCYlQ874YSybuo" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBdx5L0ThBTUQxr4rgIUZwHZs">
+<lb n="[6]"/>
+<w xml:id="tlaIBUBdwZCsaQSG0Igj8h4sv1ZFq0" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/>sm</w>
+<w xml:id="tlaIBUBdwJBcRS05kk3qLsrSrd4ONw" lemmaRef="tla:tla850857"><fs feats="substantive st_absolutus singular"/>ḫrp-šnḏ,t</w>
+<w xml:id="tlaIBUBd8DH0v4HMEBdtsvnWjl2hZ8" lemmaRef="tla:tla850043"><fs feats="epitheton_title title"/>ꜥḏ-mr-Dp</w>
+<w xml:id="tlaIBUBdQrUHbNvg0aSqrZGoOczB3c" lemmaRef="tla:tla450702"><fs feats="epitheton_title title"/><supplied reason="lost">ḥr,j-tp</supplied>-Nḫb</w>
+<w xml:id="tlaIBUBdzlMBDkz8kNgskRrtrJPWVE" lemmaRef="tla:tla851967"><fs feats="epitheton_title title"/>ḥm-nṯr-Wꜣḏ,t-<supplied reason="lost">Dp-Pj</supplied></w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdyi02976xEJenl0lJO1Dp5w" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBdyOcQCfzMkuFout7Fe2rPQs">
+<lb n="[7]"/>
+<w xml:id="tlaIBUBdzoTClhVW0GNse9hKOfWbfc" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/>sm</w>
+<w xml:id="tlaIBUBd1R0ahQUYkBprIX8lWSwJnI" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBd9uA24k80EaLlIqnD3jzWQE" lemmaRef="tla:tla550343"><fs feats="epitheton_title title"/>jr,j-nfr-ḥꜣ,t</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd5NJMpSeP0mSnSqK0lKXn3s" lemmaRef="tla:tla851963"><fs feats="epitheton_title title"/>ḥm-nṯr-<supplied reason="lost">Ḥr,w-Jnp,w</supplied>-ḫnt,j-pr-šms,wt-wꜥ,tj</w>
+<w xml:id="tlaIBUBdQCJXwbecUPXohwkauVCyWk" lemmaRef="tla:tla400375"><fs feats="epitheton_title title"/>ḫrp-ꜥḥ</w>
+<w xml:id="tlaIBUBd6YCYlccsUeInaoLejmlj5I" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBd76MY1ry6UwIux6ZktnOb7Q">
+<lb n="[8]"/>
+<w xml:id="tlaIBUBd5eKsctWHEaJkeOMfLkZ6u0" lemmaRef="tla:tla134020"><fs feats="epitheton_title title"/>sm</w>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd0eapFLWLEgHl8b08f25DBI" lemmaRef="tla:tla124340"><fs feats="epitheton_title title"/>ẖr,j-ḥ<supplied reason="defective">ꜣ</supplied>b<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd0LC7sTMy0NopPN3knlGpQo" lemmaRef="tla:tla800057"><fs feats="epitheton_title title"/>ḥr,j-sštꜣ-n-pr-dwꜣ,t</w>
+<w xml:id="tlaIBUBd3pl9vZwWEoKuRwNdKsW5GM" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idNLV4S3QH6RG5PBLILQDGV75WDA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>unteres Register</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von unteres Register nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>NLV4S3QH6RG5PBLILQDGV75WDA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">unteres Register</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaMEL6G5NHBFDDHHADV5MOWJAHJE">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza XI, Wien 1953, 142-149, Abb. 61, Taf. XVIII b [P, F, H, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="NLV4S3QH6RG5PBLILQDGV75WDA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-7e49ed0bb1e9fa20382ce0ac4e6b8335</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdxH3STDxE0FVnoGHfIhhLyM">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd6XLMWodvE5ZoQ08rJOlTek" lemmaRef="tla:tla450123"><fs feats="epitheton_title title"/>zꜣb-<supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>-mḏꜣ,t</w>
+<w xml:id="tlaIBUBdxi3HtXdj01jrMqoQRWtQrY" lemmaRef="tla:tla707086"><fs feats="entity_name person_name"/>S<damage>šm</damage>-<supplied reason="lost">nfr</supplied></w>
+</s>
+<s xml:id="tlaIBUBd4n8GAh3y0LIshuMfzl3Wuk">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdy3EhS9rUEpwhCDv0mJTxQM" lemmaRef="tla:tla856133"><fs feats="epitheton_title title"/>sḥḏ-ḫtm,tw</w>
+<gap reason="lost" />
+</s>
+<s xml:id="tlaIBUBdyvi3PfzyUT5oTtPwRSV500">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBd6mbTPR4KUTspc3Zf0h6FH4" lemmaRef="tla:tla26870"><fs feats="verb verb_3-inf infinitive t-morpheme"/>jni̯.t</w>
+<w xml:id="tlaIBUBd1z78hGye03BmimOxn7Ba2k" lemmaRef="tla:tla108970"><fs feats="substantive st_absolutus singular"/>ḥr,j-ḏbꜥ</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

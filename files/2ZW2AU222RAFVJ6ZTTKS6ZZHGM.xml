@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id2ZW2AU222RAFVJ6ZTTKS6ZZHGM">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>2. Reg. v.o.</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 2. Reg. v.o. nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>2ZW2AU222RAFVJ6ZTTKS6ZZHGM</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Registerbeischriften</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">2. Reg. v.o.</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaIQHN7JGWVBA4XLOVJBIKEYET2Q">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notBefore="-2295">Pepi II.</date>
+<date type="latest" datingPoint="ths:3ESLSUHOURDCPFZ2UDUJACFV7Q" notAfter="-2236">Pepi II.</date>
+</origDate>
+<origPlace ref="ths:QTOOQ4NKC5DRHENFEFV66RZUBY">Meir
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>PM IV 254f. (D2)
+N. Kanawati, The Cemetery of Meir I: The tomb of Pepyankh the Middle (ACE Rep. 31), Oxford 2012, 44, pl. 83
+[P, F, U, Ü, K, L]
+http://de.scribd.com/doc/47428540/BLACKMAN-A-M-The-Rock-Tombs-of-Meir-part-IV</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="2ZW2AU222RAFVJ6ZTTKS6ZZHGM.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-023d1f027c51f56f939fc06e0ca55b8a</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd6rIjeygzE8oksMyA2EV5K4">
+<lb n="[1. Person⁝ 1]"/>
+<w xml:id="tlaIBUBd3VD3WWYR05vifQmrfun8TY" lemmaRef="tla:tla95750"><fs feats="epitheton_title title"/>jr,j<supplied reason="defective">t</supplied>-jḫ,t-nswt</w>
+<w xml:id="tlaIBUBd2zAW2ueHEQepDTo95uO9aQ" lemmaRef="tla:tla861035"><fs feats="epitheton_title title"/>ḥm<supplied reason="defective">,t</supplied>-nṯr-Ḥw,t-Ḥr,w-nb,t-Qjs</w>
+<lb n="[1. Person⁝ 2]"/>
+<w xml:id="tlaIBUBd8jmoQM95EvHkqiVbicHPMw" lemmaRef="tla:tla136260"><fs feats="substantive substantive_fem st_pronominalis singular"/>sn<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd0njJWu0Y0uEtDFE1SEeZJw" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBd57rgvGdHkkYh5j9BXKHnfc" lemmaRef="tla:tla702311"><fs feats="entity_name person_name"/>Mr,yt-jtj≡s</w>
+</s>
+<s xml:id="tlaIBUBd51F9RNkJkSwkYPJ5fr07H4">
+<lb n="[2. Person]"/>
+<w xml:id="tlaIBUBd9SgEYUMsEUQuMWz2zUQtpE" lemmaRef="tla:tla400432"><fs feats="epitheton_title title"/>šps,w-nswt</w>
+<w xml:id="tlaIBUBd7KsZX22oUFQo7DHV0idgNQ" lemmaRef="tla:tla400067"><fs feats="entity_name person_name"/>Wsr</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

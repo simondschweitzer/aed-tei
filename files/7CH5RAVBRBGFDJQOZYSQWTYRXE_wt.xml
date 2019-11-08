@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt7CH5RAVBRBGFDJQOZYSQWTYRXE">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 658A</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 658A nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>7CH5RAVBRBGFDJQOZYSQWTYRXE</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈3. Register〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 658A</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla4UOI4MZN4BEVDBKUJXJVK6GY6E">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notBefore="-2351">Pepi I.</date>
+<date type="latest" datingPoint="ths:ACJUYKAESFH4JAWU2KOOHKW3HM" notAfter="-2302">Pepi I.</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>C. Berger-el Naggar, J. Leclant, B. Mathieu, I. Pierre-Croisiau, Les textes de la pyramide de Pépy Ier, MIFAO 118, Kairo 2001, pl. IV B [F];
+J. P. Allen, The Ancient Egyptian Pyramid Texts, Writings from the Ancient World 23, Atlanta 2005 [Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="7CH5RAVBRBGFDJQOZYSQWTYRXE.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>5-238cd8b79d9d5dc8f55a9d068a226421</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdQS4sbSWmUfKsA9dwCa0FJU">
+<w xml:lang="de" corresp="src:tlaIBUBdx75SSvB6EmuqX6vWWQbzwE">Worte sprechen; [Rezitationsvermerk]</w>
+</s>
+<s corresp="src:tlaIBUBd5BMDw7uREpfmBc2QqOGHJk">
+<w xml:lang="de" corresp="src:tlaIBUBd6dWh0qqg0cTmcMRQ1uzisw">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2yGyWmMe0sPomX5rTE7s9Q">Osiris (Totentitel des Verstorbenen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW0IPhR350nrn5SeSO9vClA">Pepi</w>
+</s>
+<s corresp="src:tlaIBUBd25d327Qj0vAg5JKhwif8Zc">
+<w xml:lang="de" corresp="src:tlaIBUBd2K7GWmkMUmSnq65Wr4iC2g">bringen; holen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8lul6u9P0EEg5S1dIC8Q5I">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9e7aJCNZkSTjnCyKeOupeU">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd30rgn4bQkw7sWpcMiBhbnk">
+<w xml:lang="de" corresp="src:tlaIBUBd9MDS4Om5kqqhYhG9loqgJo">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd25d9qHSD0pikfIKNCXv77A">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd061x4osCUXNgixbeGC5pjw">zuweisen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzjclk00vkQVvfewnfRaGwI">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyomRKc8TEsAjLAW3kZzInU">dich [Enkl. Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd4cDQARWRkdBrPzuxkatXH8">
+<w xml:lang="de" corresp="src:tlaIBUBdQxO2D6ou0clobA7waKrcaU">wohlbehalten sein lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6SkwUk3U0v2iHcs0gtb8Vs">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0dj2F4HKUiXjTk6B7rRsJI">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1PzGjlQE0fRvM9oLtRtehU">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxl4FV2snkcijCtJWpflIAs">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8JjBERZYEKSi3WAG8Cmfwg">dich [Enkl. Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0pWoJHR5UYgpQLN8UuQcwY">
+<w xml:lang="de" corresp="src:tlaIBUBdWUIxSeEYUDUk8hFZH92kW4">wünschen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6LtdnHWkkz7r03EwysP5Pk">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4wW5Nj1tUuMnDW9D5zoazU">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7UBy8BhyknnhCDpJ7d6hxI">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQmBWBXPwEgTqCYzH2tP5PE">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxgAlNWKvEnssRBaQDauGqQ">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd77MXmqIs0TSmyTI8ttm1YM">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9kIUPbOhEHIkK1q7HYyvLY">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2NiQ6xQkUR5pKMQyo6EuO0">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxEAOlUD5EcngM2vDu7jyNg">der von Elephantine</w>
+</s>
+<s corresp="src:tlaIBUBdxITwHyv1URcsZyBVWBQNrM">
+<w xml:lang="de" corresp="src:tlaIBUBd682tWBKUENTn5KI2NpcocI">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ElQKy02ksolVTR3DXukPA">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8dDSBvTLUdijgn76FQQe0s">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd15K87lNTEXWhFMMwxGiJYM">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwEWAIuPnUCUraTr1U3OBBM">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd97NO4Kqvk40qsObWbDVVy8">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9xRSzv5b0hIuCQYp791Yww">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2k3NOWWHUAoopNFJNcI9pY">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9CiOZ3fVkh3gJJuo5WZ4ok">von [Genitiv]</w>
+</s>
+<s corresp="src:tlaIBUBd4O5RDgAXkU2rHBpl3psYjo">
+<w xml:lang="de" corresp="src:tlaIBUBd6nosB9mykQXggaBCU61UYE">packen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd84EBAQQW0aYrprrKQrMeFY">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ab6DWSykQpnfhNHzqe9Qs">Seth</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQbDgQDxxEpEl6yfwW9nhYU">legen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6N5S7LkGko3oQyCSmWPnZY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7gHA7lDq077ueLJWNc6bVQ">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyffQyeO80OLs0QmF3BrRZ8">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW93QvIUSUwWpVwZRjQ7fcc">ihn [Enkl. Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5bbeSQYVU0lk8Q7irQlLa4">unter (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx6gsyX24Ubkq60IjmsY16Q">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9qqHSdBBUrQjeKmpkOZQ78">tragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCWmASZY0DQtWGdMwRvbdE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWujce84xknXmrnC6t1cRmk">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwvhq3biy0Dci1Fv1lrRhU4">beben (u. Ä.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz81ecUQi0kziqfcoV2SPj8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwsdtZqsxEDEsOgQaKPqSYA">unter (etwas sein) (etwas tragend)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6WcO9bs0kEChAmuUQtZJvI">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy7u5EKyREAXjQmUTBUofKI">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4mEfM2mCE9BiUcOZXf098c">Erdbeben</w>
+</s>
+<s corresp="src:tlaIBUBdzp3KbUWQE5lhdjeoYcpfb0">
+<w xml:lang="de" corresp="src:tlaIBUBd8SLjsANUUcHiJUmyKhGW90">nicht sein; nicht sollen; [Negativverb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ComDKgAEmjqVyK9NqtLWE">(jmdm.) entkommen, sich (jmdm.) entziehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdybaFeRsIEjwuNXxBFnRs1M">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5ROU1MayURUngPbw6z25nc">vor (jmdm. retten)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ZvumJSREWFs7NsdXtzyw8">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdQPVFrZUZUWWkn6qjDSS9pU">
+<w xml:lang="de" corresp="src:tlaIBUBd0LcmWnbaUvEnyVaa6v4M24">herabsteigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7PGqKcXm063nbhof4D9vbY">absondern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd37n1RFjOEtLiBA7hWknBNY">[Separation]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyU6miQffk3as02ldJwXTMo">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdzxKsh95qE3DpJqaextRtXk">
+<w xml:lang="de" corresp="src:tlaIBUBdQs5p7PkX081jPoMzpS8W04">emporsteigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd37BW8CT4UTRlwqNGnARb7Q">stehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyoxsAOQ0U9JqliWoOPPD4E">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6gIpm9nGUg0vzp5iAcfN7g">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd4D3rgQIZ0euk1ePkvN4o6w">
+<w xml:lang="de" corresp="src:tlaIBUBdxykBaem10ILtGBcbDMzsu0">zurückweichen lassen; zurücktreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2aAm4b9LksPnj8plwLXf3E">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0OErUOgdkDrlZctICv1VWI">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5INyIRmW0KMsoOEYtQOvnU">ihn [Enkl. Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4EB8krWhEiEo5SjYXbAsdI">aufspringen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4fj9ZudS0iGtpzQtYWUKzE">[Partikel (nachgestellt zur Betonung)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7nuhKjhsEWPpbbEGfmMRSc">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3AlRb3odEzEsuYvp8hRn2I">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBdycV9cOwZU81gpBpLP8kVcg">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWqetxYlXk5hr9yQmRD3m6U"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd1MMkjl47kVFsNKqks2pULk">Leben</w>
+</s>
+<s corresp="src:tlaIBUBdwLdGY8VnULyrXp33bLLh0A">
+<w xml:lang="de" corresp="src:tlaIBUBd7mMCa1nfUhetEkf8XNNueY">umschließen (mit den Armen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyOPLQaIr0dkmypCFOTrATs">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwIPhg6UOUs5q8Ms55Qg8k4">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHEJeadxknGojUK469OKC0">Arm</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWB0xzAEn0wntxBJNsmZfsM">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQilk4w8uUKUlCIrMxQmPWs">um herum</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3J6HgYogUWQr9XLug2fEWs">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4zcLREXD0HxkNl0hhWFt10">Mal</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzSWY19vnEtIvOS0TrzLuw0">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWKQsVg0UEuEiAbMuJBiY3A">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxySFnryyUirinlQMfqcfkY">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7yqyeQc4kVdhBfmji11Vcg">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1MrvfIcNEXCoNgF5aZyz4c">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd99mWCp67kLAm8JJFxoJIQk">Taube</w>
+</s>
+<s corresp="src:tlaIBUBd2zCmJOCG00Lh8eCPDBogig">
+<w xml:lang="de" corresp="src:tlaIBUBdwp4fhJTckAdhn7JvTtycZU">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4UR5PkxbEaxt6Ou2cAFhmY">loslassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWq8WbQj2k6IsFvW7TGD2go">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxyubnU9NEagr8NNdhc1Bkg">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2KcmcXMcEHKkQ0gswpcwVU">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ZhCRhxAEO7geA4XAd13QE">nicht sein; nicht sollen; [Negativverb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz30uQkTAELRqMykoqorhlo">herausgehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1qdpuuSdEy8kcYiscOyl6I">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1x62dhNSkyBmL0WFbHgnJ4">von (von jmdm. weggehen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWIM6d1cn08EnALxrj9oXM0">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0Sxf5gRW05iuhPGGpUqnQM">
+<w xml:lang="de" corresp="src:tlaIBUBdQOJ4R36N0jptlSKAEnfguc">legen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Vf3uBuZ07MqoxeACh376Q">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwsLT4nsmkOtiBCzm3pExWI">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6A86RjULEl1kagEggrDqa0">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQCHDHpbkLZuZN2yyqmaP4">Feind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5TQnggm4kffsPfH3Dt6DEw">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQzDwEX64EJ6kbEs5ncWIO0">unter (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw1NSGPGrE9Ws4UBTZekQ9g">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwlAW2ggBkVSjHQbjEFDU0k">(jmdn.) übersetzen (über/nach)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWW3HZmqm0lityrefJEUfy8">führen; leiten</w>
+</s>
+<s corresp="src:tlaIBUBd9k2lLBT3U3LhVDW6Updrik">
+<w xml:lang="de" corresp="src:tlaIBUBd8czdZS6kkQroyHQniJp9sA">zuweisen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3WPasSZeUnrtK3QHKct96I">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWHjZKrdUUJBrtLrRZhM6ek">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6E5xoalP04yicwnoeIfLug">sie [Enkl. Pron. pl.3.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQpyBQharkwSmBZ6uwCn9Os">Thot</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59ASuQNQkYxnXnpmIeWNfw">herbeiführen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd14zveCBxkhxnAdLFRZAWkY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzROQvJ5bUbgpax1sh9usyQ">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5hjfmnRYkAKneLHELeKUMY">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd58Eyn5JGkwCrvWd9FNlmuA">sie [Enkl. Pron. pl.3.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ESfm0yekH1pz2Zvmyj6Kk">niederwerfen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEQ7q6usURml0ZrSWJNO0k">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5iNZi5WBU8wg4d34CJ8MWg">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWQJ3RwWkKjrTP4yWH6oYY">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2QtrNQfEkPGpowTo9TBRTA">sie [Enkl. Pron. pl.3.c]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwsOvMNHOE9hn7prBcTz4bc">unter (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Z7sVaGgkT0tCdrndhNcq0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1s7QP5YRkHWoM05hwUWai8">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6SWn82myU2XoA5kbsIkV68">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdymemzUElEoZgXfi0ZbVuhU">Auge des Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ91gRQtNkQGtHIJJf51xm0">zufrieden sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd73LDEYVVEOQmeaTVV3oZF4">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7fk3sSxw07fsFJpCxUsR0o">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2z60Qsv2kegj5Eo8HX1f2c">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW3QNXL1hUTxoBQq727lvYY">sie [Enkl. Pron. sg.3.f.]</w>
+</s>
+<s corresp="src:tlaIBUBd2aXO0o2d08npSmw8kAq4c4">
+<w xml:lang="de" corresp="src:tlaIBUBdzEGDLqQy0PyvA0S4iceOZk">füllen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWhm0vcQsEutnLC0x7tWrno">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyp2i8onIUnUhOYUaCoTCQQ">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyTQbkg1x0vCk2vNbS8U7Gs">vollständig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0YWBVAcrkM4vPhRiJQCWYc">[instrumental]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwG7EuT3g0dBtYe9Jo3JrPE">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwyArJbIjkFcvjyhYQjsDLg">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxiVU73vskWNoLWigXxm4p8">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd56QKP0H3Utuh5EO9A8xiS0">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2bo29sE90jqh1snXLceGu8">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8TmLtw2nU4epRnt0yanDAM">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQnt7QaNvkYEs9iOZNYpypI">Spende (o. Ä.)</w>
+</s>
+<s corresp="src:tlaIBUBdx0rIliVRUmdtI8RynQ0pBM">
+<w xml:lang="de" corresp="src:tlaIBUBd7SStEEaf0AGigHPXd3zXfM">retten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6svoPckWEqDuqpuQQ4T2ag">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQf1iXj8zUgfvBzy4smrtQc">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEIYPnW80WxoN2uPWUJ7A0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7PIHRAwI0wnsW4bJiuf850">vor (jmdm. retten)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9HuvpelK0W0uVjEnF3nzl4">Seth</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtl4DrItUSZguWBvSqYMkg">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWF2ivAVfEO6qCWMogdnzkQ">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxuQkHJIjUD8rHpyNNRxQHo">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6QkghKMgUpuizfdunW89PQ">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2qJRagikERYvJqsT28ni1U">sie [Enkl. Pron. sg.3.f.]</w>
+</s>
+<s corresp="src:tlaIBUBdyzpC4ShLU8YlZx82vwQiVM">
+<w xml:lang="de" corresp="src:tlaIBUBd7Jl4OQe4kPuo9bQ9JbipN0">Auge</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxY3swMI4kzliaYWKkNTMxY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2MkCkM1FUc3piirUssv0tY">dieser [Dem.Pron. sg.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5kCZzz38kLirkNim1C5RWQ">süß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9OF7QDVUk0fqvMpt9XcQQA">zurückweichen lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd39LZYO7sU7jp6J79cJQJcc">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQLlWezZZEKlq3klPObBgn4">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxA52r65t0DTpZYCEWyYW80">sie [Enkl. Pron. sg.3.f.]</w>
+</s>
+<s corresp="src:tlaIBUBd40cM2bAxk3XqguaeJThefY">
+<w xml:lang="de" corresp="src:tlaIBUBd28nqfPxiUEagQ6IWkDdV2E">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5q4tMdxm0EWrSjuMMG7Jkw">dauern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3SPkRC5FkTpo2Wlp1X49e0">bei (jmdm.) (meist Höhergestelltem)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd80moyhNske2kDjewIqPChw">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdyMnpyQDDkIDo8m2dJrIxy0">
+<w xml:lang="de" corresp="src:tlaIBUBd84CjQhjT0mMmYfwhCouhK8">Glied; Körperteil</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0QrTKeV10XSjAkJv1f5Qfs">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6hb6dJWj0xWg0AXTCLqXks">wohlbehalten sein lassen</w>
+</s>
+<s corresp="src:tlaIBUBd2TsjpwWFkzEqImy3u2sZTM">
+<w xml:lang="de" corresp="src:tlaIBUBd6UEF25ACEGJjb4E7jSaQLQ">aufsteigen</w>
+</s>
+<s corresp="src:tlaIBUBd5GLTWmyd0GDllsgrB05cAM">
+<w xml:lang="de" corresp="src:tlaIBUBd7mDgeAzf0bTuMJ28CgygG8">[Interjektion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyiiBJV7yUpSnpV0yZ2h9BI">Osiris (Totentitel des Verstorbenen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzhCQJuDjUPpsCQQcP4zbJA">Pepi</w>
+</s>
+<s corresp="src:tlaIBUBd6xCcdhNeEjJoT9UiPqCZK4">
+<w xml:lang="de" corresp="src:tlaIBUBd6Qa4M4bhUG6iWpU0QAybA8">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd21rlLsm2EZcjhn6V7RpkZ0">baden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzorcW7GnkKnjAsl7tSVC6k">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxWMCqh7ZkmHqinCQsxEJSo">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQC7L45hkUriiwp1AYqWEcQ">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6IA6F8k5EGbthuQu9QXj28">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzgxDuoC8U3BmW4I4gPgEZQ">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6e87SygaE8Bq2svDEAP1VU">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ5Hf0QqP0O4uSDUXMAeL8k">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzZCu5NAWEDRhWL1AIapsz0">Wasserfülle; Überschwemmung</w>
+</s>
+<s corresp="src:tlaIBUBd9r9IrgSnkdqhnqwNxtdiQQ">
+<w xml:lang="de" corresp="src:tlaIBUBd7tGXTyq9UvDgGmpN4Wdh2A">aufstellen; aufrichten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4ZbmQdFwEWPm6pG802HI2g">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ibqm3PLEqHmBFjKd2N6HM">Horus</w>
+</s>
+<s corresp="src:tlaIBUBd9SPEW8TC0oNsNQmhUAujM8">
+<w xml:lang="de" corresp="src:tlaIBUBd6AnMKg7TkYqnc2qKnadQR0">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ORWOipiUVDu3jB3MzEHos">wanken</w>
+</s>
+<s corresp="src:tlaIBUBd6VAaDmatUEsnbQQwi2KU8U">
+<w xml:lang="de" corresp="src:tlaIBUBd0W6JowchkQagIERHT3HW6c">frohlocken (&quot;das Herz erheben&quot;)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ipQifUdkXuhGNCFe6VBlE">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2n1Q1VpQECntnsUQLAqWZQ">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7obl8LgB0avmvT4YjjUeuE">hochgemut sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7dpqddzqEy7tHWnxJ7Y1Lg">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7NX4jWtiEL3uJRW3gxtXNc">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd4FayhY6KECrlvDzMIs5PYc">
+<w xml:lang="de" corresp="src:tlaIBUBdWYt2U8pJ0BouHYND6TXLjA">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ZS0wPlB0j2tDPTZ3WRSEQ">[Dativ: Nutzen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd34Ia1lZAUzduB9g2hvJJsE">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWP4swnRREC7vN8lGRCz8Mc">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54VPexUf0xLsSGMFGL3W5M">Kind</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQ6Q4eVNE5asQKp7UwHef0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1nydum1rU04rW7z4WZoYWs">tragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0gGYAFMv0NhmGuNXXWRfGI">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyCUxyWfF0WitFWXrxxho3w">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyTFcF5Zf0JesXe8yWno7lU">folgen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyLmcxPWDkwDlZKK4ZJousE">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9GAaeuUJkQjnw2dsE1qhfk">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ23ERGkbUEttxBpiJish6U">Macht haben (über)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQedGUmek05Tnc0wwUCoEQc">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy7KQ5T5y0SHkslOSWlSfEM">[idiomatisch mit Verben verbunden]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy4mSWWB7U3tm88d5KBemWc">[Suffix Pron. pl.3.c.]</w>
+</s>
+<s corresp="src:tlaIBUBdQMPhjUJnkNDthtAPt6XuT4">
+<w xml:lang="de" corresp="src:tlaIBUBdxeCvvaYWETPujLlHgi83gk">hochheben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd03Pu7NjQ0tck5PfW5JNMwM">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0QuscU2JULNlYX5u20mb3I">Kind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd97r46fwmEp3mtVOBPneWrs">Horus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3co6QKlIkE5hJisNakADwo">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3OfAjjtwUqPoXgBWDDuOc8">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwEatwqIsEHQrn08zeFXAGk">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzpKacN71kl9rxUygqsiedY">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9xY6rQ4ykUUvXa02T1qiwQ">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2hiR9zlEUCDmWQSYLoFBEE">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwsi2QIBtUjihHBamqHmU6c">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Wi2iKf2Ut1o5QW2PHluQc">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5A49ONBGkVlvEBK9wLqvHk">Sokar</w>
+</s>
+<s corresp="src:tlaIBUBd1VoERzaDULVtkQ4yR8HVaM">
+<w xml:lang="de" corresp="src:tlaIBUBd8g0nQiZlUhSklAC7sLTWws">leben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz1NFD4waUgHq5EY8j7VQQ0">sich hin und her bewegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0xHdQANmkSKt9hY7sNOBno">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4zct7r6aUThkWcU8H5jNGY">jeden Tag; täglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwaBRkRMj085tQLgOFjvcDI">[modal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ6390fhzU69kAqiRl7Rw4U">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5ZXe0G8JUuUotzN1911ocw">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd89qILqVjkihu17joujDCAg">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQJS60WFiELnrnyQDSb5I2U">Horizont</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1MfLRKdiUuImOjXWoJPLBw">herauskommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwLFKu0VcErcqWNRBS2oVtE">Re</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxzVjfmpx0UMtHDoToBKtZ8">aus</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Ghl6yZ6UJYlBxwYq3TsPE">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Dt7U3pQUHviKy4U4OxhDM">mächtig sein, angesehen sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdziellpne0XQrVQsa3fH9x0">spitz sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1g5Xgu8okobuqlSz3Ii9lU">Ewigkeit</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

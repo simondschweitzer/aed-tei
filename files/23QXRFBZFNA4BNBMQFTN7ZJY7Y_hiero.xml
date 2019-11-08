@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hiero23QXRFBZFNA4BNBMQFTN7ZJY7Y">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Opfertisch-Beischriften</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Opfertisch-Beischriften nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>23QXRFBZFNA4BNBMQFTN7ZJY7Y</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Opferplatte</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Opfertisch-Beischriften</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaB72QFS4L35A2JKWJEAFYQJXPJI">
+<support>
+<objectType ref="ths:LNLWNNXOLBGO7PPALV6WU647II">Opfertafel</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>H. Junker, Giza I, Wien-Leipzig 1929, 258-259, Abb. 53 c, Taf. XXIX b.
+P. Der Manuelian, Slab Stelae of the Giza Necropolis, New Haven-Philadelphia 2003, 88-91, pl. 21-22.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="23QXRFBZFNA4BNBMQFTN7ZJY7Y.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3556c7f1a1fa108271f0b8a90dc30c64</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd9Fp0uz4YUAxmkWDLM7DFag">
+<gap reason="lost" />
+<w corresp="src:tlaIBUBd1JW9iZR1UfWp8OO8rf3wXY">𓍲</w>
+<w corresp="src:tlaIBUBd4NKFQI8AUcBkqCOGw9XLVo">𓆼</w>
+<w corresp="src:tlaIBUBdxPneErCQkZ1rP9A6L3QfDw"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+<w corresp="src:tlaIBUBdwGiIYIcWkMnvQZCfiO4c48">𓄤</w>
+<w corresp="src:tlaIBUBdwWov2ZhIEfliWRI4uADwTY"><unclear><note>Keine Entsprechung in Unicode für diese Graphien</note></unclear></w>
+</s>
+<s corresp="src:tlaIBUBdWevG5yeGUU6ne048vQTscY">
+<w corresp="src:tlaIBUBdQQNLLKngUqqjKg4RkiOYgE">𓏐</w>
+<w corresp="src:tlaIBUBd7frbxPePE1pqwSjczlAv1M">𓆼</w>
+<w corresp="src:tlaIBUBd3kg4Yons08nn2UsStnEf9s">𓏊</w>
+<w corresp="src:tlaIBUBdWI7QH33xUUnrjPZSgDjU2c">𓆼</w>
+<w corresp="src:tlaIBUBd8qaOQGHB04IqEoIFWVvumY">𓆳𓅱</w>
+<w corresp="src:tlaIBUBd5pXW6HLvERgqodE6GaNKTk">𓎟</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

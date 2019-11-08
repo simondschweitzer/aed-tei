@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idMDDADBFQIRB5XFLNH2Q2BXFKMQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Sinai Nr. 25 (Neufund)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Sinai Nr. 25 (Neufund)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>MDDADBFQIRB5XFLNH2Q2BXFKMQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>〈Sinai〉 Nr. 25E (Neufund)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Sinai Nr. 25 (Neufund)〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5JL7X5Z2BZEIHD45DAOZGP6DII">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KVW4S6I4ZRECNMJTM6FFTFLMYI" notBefore="-2703">Djeserteti / Sechemchet</date>
+<date type="latest" datingPoint="ths:KVW4S6I4ZRECNMJTM6FFTFLMYI" notAfter="-2698">Djeserteti / Sechemchet</date>
+</origDate>
+<origPlace ref="ths:XPGRVXOALZF2FB4XVSF5USDARY">Wadi Maghara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Giveon, R., A Second Relief of Sekhemkhet in Sinai, BASOR 216 (1974), New Haven, 17-20; 
+vgl. Eichler, E., Untersuchungen zum Expeditionswesen des ägyptischen Alten Reiches, Wiesbaden, 1993 (GOF, Reihe IV, Ägypten, Band 26), 37.</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="MDDADBFQIRB5XFLNH2Q2BXFKMQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-9fbf69318e95ccba2f77be096ef3f560</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd68PMysMHUb0qYmp3GMIvoU">
+<lb n="K1"/>
+<w xml:id="tlaIBUBdz2QWLzx6UqVnQ0PUgoKVZo" lemmaRef="tla:tla400034"><fs feats="epitheton_title epith_king"/>ḥrw</w>
+<w xml:id="tlaIBUBdw2pZQVP5UMxignGKUwsFN8" lemmaRef="tla:tla400265"><fs feats="entity_name kings_name"/>Sḫm-ẖt</w>
+</s>
+<s xml:id="tlaIBUBd16MnFAEYk6vnnvHJ9o1IcQ">
+<lb n="K2"/>
+<w xml:id="tlaIBUBd6CyvO36Nk2PiwWeGeWiQfY" lemmaRef="tla:tla855717"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥꜣ,tj-ꜥ</w>
+<w xml:id="tlaIBUBdyzwnL8Aj0IrsIGofEKIyzk" lemmaRef="tla:tla400264"><fs feats="epitheton_title title"/>smsw-jz,t</w>
+<lb n="K3"/>
+<w xml:id="tlaIBUBd15OVeRanEyDpC7YT89M52c" lemmaRef="tla:tla400043"><fs feats="epitheton_title title"/>jmj-rʾ-mšꜥ</w>
+<lb n="K4"/>
+<w xml:id="tlaIBUBdWjjCaKMXUm9qLKmMXALlSU" lemmaRef="tla:tla400351"><fs feats="epitheton_title title"/>ḫtm-nsw,t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

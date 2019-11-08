@@ -1,0 +1,283 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Morphological Features - Texts of the AED - Version 0.1</title>
+		<respStmt>
+		  <resp>converted to XML encodings</resp>
+		  <name>Simon D. Schweitzer</name>
+		</respStmt>
+		<respStmt>
+		  <resp>compiler</resp>
+		  <name>Strukturen und Transformationen des ägyptischen Wortschatzes</name>
+		</respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>someone</publisher>
+	    <availability xml:lang="en" status="free">
+		  <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+	    </availability>
+		<date>heute</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Based on <link target="urn:nbn:de:kobv:b4-opus4-29190" /></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>This file contains the definition of morphological features.</p>
+      <fLib xmlns:dcr="http://www.isocat.org/ns/dcr">
+        <f name="voice" xml:id="active">
+          <symbol value="active"/>
+        </f>
+        <f name="voice" xml:id="passive">
+          <symbol value="passive"/>
+        </f>
+        <f name="partOfSpeech" xml:id="substantive">
+          <symbol value="substantive"/>
+        </f>
+        <f name="partOfSpeech" xml:id="particle">
+          <symbol value="particle"/>
+        </f>
+        <f name="partOfSpeech" xml:id="particle_enclitic">
+          <symbol value="particle_enclitic"/>
+        </f>
+        <f name="partOfSpeech" xml:id="particle_nonenclitic">
+          <symbol value="particle_nonenclitic"/>
+        </f>
+        <f name="partOfSpeech" xml:id="root">
+          <symbol value="root"/>
+        </f>
+        <f name="partOfSpeech" xml:id="pronoun">
+          <symbol value="pronoun"/>
+        </f>
+        <f name="partOfSpeech" xml:id="personal_pronoun">
+          <symbol value="personal_pronoun"/>
+        </f>
+        <f name="partOfSpeech" xml:id="demonstrative_pronoun">
+          <symbol value="demonstrative_pronoun"/>
+        </f>
+        <f name="partOfSpeech" xml:id="interrogative_pronoun">
+          <symbol value="interrogative_pronoun"/>
+        </f>
+        <f name="partOfSpeech" xml:id="relative_pronoun">
+          <symbol value="relative_pronoun"/>
+        </f>
+        <f name="partOfSpeech" xml:id="numeral">
+          <symbol value="numeral"/>
+        </f>
+        <f name="partOfSpeech" xml:id="cardinal">
+          <symbol value="cardinal"/>
+        </f>
+        <f name="partOfSpeech" xml:id="ordinal">
+          <symbol value="ordinal"/>
+        </f>
+        <f name="partOfSpeech" xml:id="adverb">
+          <symbol value="adverb"/>
+        </f>
+        <f name="partOfSpeech" xml:id="prepositional_adverb">
+          <symbol value="prepositional_adverb"/>
+        </f>
+        <f name="partOfSpeech" xml:id="preposition">
+          <symbol value="preposition"/>
+        </f>
+        <f name="partOfSpeech" xml:id="adjective">
+          <symbol value="adjective"/>
+        </f>
+        <f name="partOfSpeech" xml:id="nisbe_adjective_preposition">
+          <symbol value="nisbe_adjective_preposition"/>
+        </f>
+        <f name="partOfSpeech" xml:id="nisbe_adjective_substantive">
+          <symbol value="nisbe_adjective_substantive"/>
+        </f>
+        <f name="partOfSpeech" xml:id="epitheton_title">
+          <symbol value="epitheton_title"/>
+        </f>
+        <f name="partOfSpeech" xml:id="epith_king">
+          <symbol value="epith_king"/>
+        </f>
+        <f name="partOfSpeech" xml:id="epith_god">
+          <symbol value="epith_god"/>
+        </f>
+        <f name="partOfSpeech" xml:id="title">
+          <symbol value="title"/>
+        </f>
+        <f name="partOfSpeech" xml:id="entity_name">
+          <symbol value="entity_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="place_name">
+          <symbol value="place_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="org_name">
+          <symbol value="org_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="person_name">
+          <symbol value="person_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="animal_name">
+          <symbol value="animal_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="gods_name">
+          <symbol value="gods_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="artifact_name">
+          <symbol value="artifact_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="kings_name">
+          <symbol value="kings_name"/>
+        </f>
+        <f name="partOfSpeech" xml:id="undefined">
+          <symbol value="undefined"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb">
+          <symbol value="verb"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_3-inf">
+          <symbol value="verb_caus_3-inf"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_5-inf">
+          <symbol value="verb_5-inf"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_3-lit">
+          <symbol value="verb_3-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_3-inf">
+          <symbol value="verb_3-inf"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_6-lit">
+          <symbol value="verb_6-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_3-gem">
+          <symbol value="verb_caus_3-gem"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_5-lit">
+          <symbol value="verb_5-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_2-gem">
+          <symbol value="verb_2-gem"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_4-lit">
+          <symbol value="verb_caus_4-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_2-gem">
+          <symbol value="verb_caus_2-gem"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_4-lit">
+          <symbol value="verb_4-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_5-lit">
+          <symbol value="verb_caus_5-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_3-lit">
+          <symbol value="verb_caus_3-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_3-gem">
+          <symbol value="verb_3-gem"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_2-lit">
+          <symbol value="verb_caus_2-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_irr">
+          <symbol value="verb_irr"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_4-inf">
+          <symbol value="verb_4-inf"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_caus_4-inf">
+          <symbol value="verb_caus_4-inf"/>
+        </f>
+        <f name="partOfSpeech" xml:id="verb_2-lit">
+          <symbol value="verb_2-lit"/>
+        </f>
+        <f name="partOfSpeech" xml:id="interjection">
+          <symbol value="interjection"/>
+        </f>
+        <f name="grammaticalNumber" xml:id="dual">
+          <symbol value="dual"/>
+        </f>
+        <f name="grammaticalNumber" xml:id="plural">
+          <symbol value="plural"/>
+        </f>
+        <f name="grammaticalNumber" xml:id="singular">
+          <symbol value="singular"/>
+        </f>
+        <f name="grammaticalGender" xml:id="commonGender">
+          <symbol value="commonGender"/>
+        </f>
+        <f name="grammaticalGender" xml:id="feminine">
+          <symbol value="feminine"/>
+        </f>
+        <f name="grammaticalGender" xml:id="masculine">
+          <symbol value="masculine"/>
+        </f>
+        <f name="verbFormMood" xml:id="imperative">
+          <symbol value="imperative"/>
+        </f>
+        <f name="verbFormMood" xml:id="infinitive">
+          <symbol value="infinitive"/>
+        </f>
+        <f name="verbFormMood" xml:id="pseudoParticiple">
+          <symbol value="pseudoParticiple"/>
+        </f>
+        <f name="verbFormMood" xml:id="participle">
+          <symbol value="participle"/>
+        </f>
+        <f name="verbFormMood" xml:id="relativeform">
+          <symbol value="relativeform"/>
+        </f>
+        <f name="verbFormMood" xml:id="suffixConjugation">
+          <symbol value="suffixConjugation"/>
+        </f>
+        <f name="verbFormMood" xml:id="jmi.tw-morpheme">
+          <symbol value="jmi.tw-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="geminated">
+          <symbol value="geminated"/>
+        </f>
+        <f name="verbFormMood" xml:id="special">
+          <symbol value="special"/>
+        </f>
+        <f name="verbFormMood" xml:id="tw-morpheme">
+          <symbol value="tw-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="w-morpheme">
+          <symbol value="w-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="n-morpheme">
+          <symbol value="n-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="jn-morpheme">
+          <symbol value="jn-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="ḫr-morpheme">
+          <symbol value="ḫr-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="kA-morpheme">
+          <symbol value="kA-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="t-morpheme">
+          <symbol value="t-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="prefixed">
+          <symbol value="prefixed"/>
+        </f>
+        <f name="verbFormMood" xml:id="wt-morpheme">
+          <symbol value="wt-morpheme"/>
+        </f>
+        <f name="verbFormMood" xml:id="jt-morpheme">
+          <symbol value="jt-morpheme"/>
+        </f>
+        <f name="status" xml:id="st_absolutus">
+          <symbol value="st_absolutus"/>
+        </f>
+        <f name="status" xml:id="st_constructus">
+          <symbol value="st_constructus"/>
+        </f>
+        <f name="status" xml:id="st_pronominalis">
+          <symbol value="st_pronominalis"/>
+        </f>
+      </fLib>
+    </body>
+  </text>
+</TEI>

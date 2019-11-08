@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id6DQ2OCMBOJB43E2RU6LDLG3UVI">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PT 315</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Doris Topmann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von PT 315 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Doris Topmann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>6DQ2OCMBOJB43E2RU6LDLG3UVI</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>〈Westwand〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">PT 315</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTTE2QAQRAZD73J36TN4SBAHPWM">
+<support>
+<objectType ref="ths:HV3JFDDE4NDJ5HTBR7F2QWPHFE">Grab</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notBefore="-2383">Unas</date>
+<date type="latest" datingPoint="ths:VXCXYJF7QFDKHG4XNG7B7JSOIM" notAfter="-2364">Unas</date>
+</origDate>
+<origPlace ref="ths:YE5ZC7D6LZDTZN2IQKMCRQHW44">Saqqara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>K. Sethe, Die altägyptischen Pyramidentexte, Bd. I, Leipzig 1908 [*H];
+A. Piankoff, The Pyramid of Unas, Texts Translated with Commentary, ERTR 5, Princeton 1968, pl. 1 [*P,Ü,K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="6DQ2OCMBOJB43E2RU6LDLG3UVI.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Doris Topmann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>3-0fc7ceb7fb8dca70d5a435542cfab443</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd2QyL1Wow0U2tmMTsVxUtTs">
+<lb n="[614]"/>
+<w xml:id="tlaIBUBd7ofEgRxYEsxskFjQaDanAU" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+<w xml:id="tlaIBUBd4W6rpAmakGBojzCZSuLQQg" lemmaRef="tla:tla851520"><fs feats="pronoun demonstrative_pronoun"/>pj</w>
+<lb n="[615]"/>
+<w xml:id="tlaIBUBdWpYm26qjUSTlWDWXHILhPM" lemmaRef="tla:tla850186"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jꜥn</w>
+<w xml:id="tlaIBUBdQGiaGqPhk8WkpjYjNrawKo" lemmaRef="tla:tla99560"><fs feats="entity_name gods_name"/>hṯt</w>
+<w xml:id="tlaIBUBd28Hi0mXuEihrUmZbSMpKQk" lemmaRef="tla:tla59420"><fs feats="entity_name gods_name"/>pꜣṯṯ</w>
+</s>
+<s xml:id="tlaIBUBd6KbUbn2xUmVtwil6rs2jTI">
+<w xml:id="tlaIBUBd3npMsZxokuZokAX0Zj2XGA" lemmaRef="tla:tla39250"><fs feats="substantive substantive_fem st_constructus singular"/>ꜥr,t</w>
+<w xml:id="tlaIBUBdQz2x0lDF0mku0amB1lQJHM" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+<w xml:id="tlaIBUBdwbaraIn2EWBjOyY8BlPY3o" lemmaRef="tla:tla107520"><fs feats="preposition"/>ḥr</w>
+<w xml:id="tlaIBUBdQqIiFc6HEDFoECvnW0ShDU" lemmaRef="tla:tla125670"><fs feats="substantive substantive_masc st_constructus singular"/>sꜣ</w>
+<lb n="[616]"/>
+<w xml:id="tlaIBUBdwxcZ497i0zgr3m1Ob3FI1A" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+</s>
+<s xml:id="tlaIBUBd75Mejxxdk2Zswgpqjyhemk">
+<w xml:id="tlaIBUBdzIDeixxjk8mkWfUsBzPWIc" lemmaRef="tla:tla25040"><fs feats="substantive substantive_masc st_constructus singular"/>jmꜣḫ</w>
+<w xml:id="tlaIBUBd6sPuL4J2UVUsjrUyQyD0NI" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+<w xml:id="tlaIBUBdWc8BUtmsUejsq4paQuW0gw" lemmaRef="tla:tla108280"><fs feats="preposition"/>ḥr-tp</w>
+<w xml:id="tlaIBUBd3Q2I0bGzU6miWWnK8sTKRQ" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+</s>
+<s xml:id="tlaIBUBd5jci3WS0EHYszN3ABLAE90">
+<w xml:id="tlaIBUBd8mIqg3cSUz9mTI1ySu1bRM" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf suffixConjugation active"/>jri̯</w>
+<w xml:id="tlaIBUBdWf8BiyNCESIh9B8yihpzR0" lemmaRef="tla:tla800001"><fs feats="entity_name kings_name"/>Wnjs</w>
+<w xml:id="tlaIBUBd9QGPJZsAkAEizMYOCvKEWg" lemmaRef="tla:tla98730"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>hn,j</w>
+<lb n="[617]"/>
+<w xml:id="tlaIBUBd3dGwdC3mkMnjl8qs9VaOEg" lemmaRef="tla:tla0"><fs feats="unknown"/>hnt,t</w>
+<w xml:id="tlaIBUBdWOXtHDPAUBmrOiaJfQj30k" lemmaRef="tla:tla105780"><fs feats="verb verb_4-inf suffixConjugation active"/>ḥmsi̯</w>
+<w xml:id="tlaIBUBdx51pQjFkkQzvS2Lc1HqxdQ" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdWZ5j0ilQE6UvJyekszfWGo" lemmaRef="tla:tla64371"><fs feats="preposition"/>mm</w>
+<w xml:id="tlaIBUBdw9eA54iF0AehUbbUaBCxQ4" lemmaRef="tla:tla10130"><fs feats="pronoun personal_pronoun"/>=tn</w>
+<w xml:id="tlaIBUBdzfZ6Ybwq0peiDai8Iyp5dU" lemmaRef="tla:tla0"><fs feats="unknown"/>ḥꜥꜣ,t<supplied reason="defective">j</supplied>.w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

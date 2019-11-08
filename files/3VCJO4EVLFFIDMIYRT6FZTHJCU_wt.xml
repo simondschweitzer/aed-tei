@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt3VCJO4EVLFFIDMIYRT6FZTHJCU">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Djab (Louvre C 41)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Djab (Louvre C 41)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3VCJO4EVLFFIDMIYRT6FZTHJCU</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 41</idno>
+<msName>Stele des Djab (Louvre C 41)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Djab (Louvre C 41)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaGU424HJE5ZFAFMZNBE5BCLVGVU">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+<note>Kalkstein; 88 x 43 cm (H x B) (http://cartelfr.louvre.fr/cartelfr/visite?srv=car_not_frame&amp;idNotice=23718&amp;langue=fr)</note>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notBefore="-1550">18. Dyn.</date>
+<date type="latest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notAfter="-1293">18. Dyn.</date>
+<note>Anfang 18. Dynastie: Graphie des Namens Sokar und des Epithetons $mꜣꜥ-ḫrw$ (Kubisch, 298) sowie Titelphraseologie (Schmitz, 284)</note>
+</origDate>
+<origPlace ref="ths:M4SOHCRELFHLNC27MWIGAD4VM4">Esna
+<note>wegen der Erwähnung von Esna in Zl. 10-11 (Kubisch, 298)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- P. Pierret, Recueil d&#039;inscriptions inédites du Musée égyptien du Louvre II, Paris 1878, 24 [H]
+- B. Schmitz, Untersuchungen zum Titel s3-njswt &quot;Königssohn&quot;, Bonn 1976, 261, 283-4 [K]
+- S. Kubisch, Lebensbilder der 2. Zwischenzeit: Biographische Inschriften der 13.-17. Dynastie (SDAIK 34), Berlin und New York 2008, 298-301 und Taf. 10a (Esna 2) [*P, H, Ü, K]
+- http://cartelfr.louvre.fr/pub/fr/image/47325_AE021550.002.jpg [Farbphoto] und http://cartelfr.louvre.fr/cartelfr/visite?srv=car_not_frame&amp;idNotice=23718&amp;langue=fr [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 41</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3VCJO4EVLFFIDMIYRT6FZTHJCU.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-cc0992cc0e6c497164cc6c3a1fd793b7</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBdxdP21fUa0CDr1XZ71QeibI">
+<w xml:lang="de" corresp="src:tlaIBUBdwN5XBTUlUpLi4UnfB2WkSg">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3PRQpQ38Us9jpcBPPaDlww">Ptah</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1z1EubJ0ElFkFpJ9W8098E">Sokar</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5BBZg4jo06OoHvQYa8R4vQ">Osiris</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tqCHFJ6EKxuAIgyIWek9I">Herr von Busiris (Osiris, Horus u.a.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4nFdm2rnEsQlG5jZQ1q1xg">der große Gott (Gott)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxFTsYQsKk3njFckXwalsBA">Herr von Abydos (Osiris u.a. Götter)</w>
+</s>
+<s corresp="src:tlaIBUBd1hUN0T4QUL5kFkvdMILo3E">
+<w xml:lang="de" corresp="src:tlaIBUBd8AydQmrwUaStdRhVDoknQA">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd967jruAYkDYgtuBQV4pQBg">[Suffix Pron. pl.3.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ZQrDeYPUdwmNYxF2t5Tkg">Totenopfer</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzDEy9dZOkzQmyZCTW2NPQg">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd24K1pWP40tmgn3WSQNQ5dE">Bier</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyZnvauUi0YWpKuqLHLXjjM">Stier</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyzDKKsapUOuifHCcuwBq2A">Geflügel (koll.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9LBSNxoFUVBhSt5DbhWli0">Weihrauch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Uzj7PzeEYNr2PXM3urnRI">Salböl</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwnXjV1ZT0SCma7lyB5mU0k">Gewand</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQMJRwCCn0y5qRF8Cvt2bY4">herauskommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3klIozMMUyxjfnKlnYbFf4">herabsteigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ3ZfgkVc0eGqgEtsUI5GzQ">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7WRMgBsWUYkhoGtltMBWhE">Nekropole</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8EEdcTGQUa1jQHK52W43Qs">Luft</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEOA13Ic0SAtQEds2QKEo8">süß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd76xwsYinEvZkpcBM7Ec3fM">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdztu8bDuIEa5nqxYXasWZNE">Nordwind</w>
+</s>
+<s corresp="src:tlaIBUBdWkTxXMywUcaosYwFIToc1I">
+<w xml:lang="de" corresp="src:tlaIBUBdwM0Fo7fCk6QulgW96uVbgw">trinken</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6uQKmV7LkP8tkiNIFqKvQU">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7r7O63eR01BuQLw4BnulQU">Wasser</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5YcnLLjJkkMtQyuTxxqOkQ">[lokal]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQvV7OAr9UCwhAfRWEoT8yw">[eine Trinkstelle im Fluss]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2PtBYTHK0WulEEQDWi05Ww">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9PRZV4W601EocP9kHk4iO8">Fluss</w>
+</s>
+<s corresp="src:tlaIBUBd0U0Gaxpr0BCt3EbXTSC87Y">
+<w xml:lang="de" corresp="src:tlaIBUBd3TdDxuRjUK0vBPriKr6yiM">sich gesellen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4QjCrTVLkHhkjiDwdFaOd4">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxFrgmNmsk3Bh1dxBouOq84">zusammen mit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1mLzD975kZ0qnDVgIWQK4A">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0pklerBOEjFlYN2S7ewaPo">gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW7dHLubWUjYkusc6uRdWWM">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzDQTAbnH0Z0jz5m7hWSyfQ">dort</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWFT0bz5JkzOkFgYDQwhhXk">zusammen mit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3kjq3yb6EaLsGWUYR0zHps">Kollegium</w>
+</s>
+<s corresp="src:tlaIBUBd09Bd1qQ1EmBjIo7ds21GEo">
+<w xml:lang="de" corresp="src:tlaIBUBdWN5p2mtQksRlUbQPm5lWc8">ungehindert schreiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQcFmOVnUUcOutv89TJddCU">Fuß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9jgOoyhjUwKvpTOx2oE3Ew">an</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ5OSPBHekKqqeKV1zIkuoU">geheimer Ort (mythischer Ort, wo Leiche des Osiris ruht)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdymxxFtSm0mns8KuqLMvXo4">der aufmerksam ist</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQRM3dJgSUbAtfEGJv9CyrY">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0RXjDJJU0zWqasJrUs5PME">Gott</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWxJt5dweku4rYxRUrg84yE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ZTsIkH8kMWkQ1NE6BjAxU">der Freundliche</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6PlvlCg30ADjNpCzOeSyPo">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd35CuGui9UXJg6k3C6dd994">die Menschen (pl. fem.)</w>
+</s>
+<s corresp="src:tlaIBUBd1SWTInH6Er4sUKicpWFVq4">
+<w xml:lang="de" corresp="src:tlaIBUBdQ0JpySkmUFErVA9ulORj2U">[Negationspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2lICACtGUXqn8PSlb53fxg">bringen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0cUQyIP10TehQZOYhhG2Wc">der Andere</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0hMg3FOkETCqKC3oCRNWNQ">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQjIP4ZCEttveT2bh5K3HA">Äußerung</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5c0KTY00UAKnydVCuRgmak">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd6gEx0QWnEl0vZJj8BOYou4">
+<w xml:lang="de" corresp="src:tlaIBUBd8r4VtzRo0EwmYFzVDXfojc">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1mPeVcxDEVCribQfe4kGXY">ihn [Enkl. Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzkz1B6QNkxTppPw28ao6jY">befindlich vor</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwcsckj1Tkpoi3gCerPH3s4">Untertanen</w>
+</s>
+<s corresp="src:tlaIBUBdwujSDmwukQUi3vf9RKkpZQ">
+<w xml:lang="de" corresp="src:tlaIBUBd301u7LdbUAAvQwUoOn0dbU">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQa5nPqtXk8CmxAJVNvSWQw">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWGmXhU6O0DCpIMkuW7wqlQ">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7KyiR3QkEf7sCqyQePHVGI">Königssohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9Wfily5j0Yelhg95m9Dq0o">Hatia (Rangtitel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdztWkN4WvkjDjSrfJFc6eRg">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Vb70tQlEtzhqAVEYRfCqE">Esna (Latopolis)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5duPIWnj02mtCS3SjmdLKY">PN/m</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwNTSmWio0ZEppc4mf02cWk">Gerechtfertigter (der selige Tote)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwm8s7bFdEHQnUYpbSzAefo">der wieder lebt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3wJFZH7JUQQnTprWoMWVLY">Herr der Ehrwürdigkeit</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idM5NUYWGWPJBC3KHSNXP7BJDI4U">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Stele des Kumes (Louvre C 287)〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Alexander Schütze</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Stele des Kumes (Louvre C 287)〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Alexander Schütze</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>M5NUYWGWPJBC3KHSNXP7BJDI4U</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 287</idno>
+<altIdentifier>
+<idno></idno>
+<note>ehemals Paris, Bibliothèque nationale</note>
+</altIdentifier>
+<msName>Stele des Kumes (Louvre C 287)</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Stele des Kumes (Louvre C 287)〉</title>
+<textLang mainLang="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5QZLFAPQAZHDTMUC4JOFFTXZ6M">
+<support>
+<objectType ref="ths:LCPWQCZ2HVFBVFJHVYSQ2UJHIY">rundbogige Stele</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:E4VXX5LISZC2XIR6AYPM3Y3TQI" notBefore="-1649">15. / 16. / 17. Dynastie</date>
+<date type="latest" datingPoint="ths:E4VXX5LISZC2XIR6AYPM3Y3TQI" notAfter="-1551">15. / 16. / 17. Dynastie</date>
+<note>17. Dynastie, kurz nach der Regierung des Rahotep (nach Franke, Fs Assmann, 135; Franke, in: JEA 71, 176)</note>
+</origDate>
+<origPlace ref="ths:UGEDNM7L25CZ5EOPKOT4HIZAFY">Abydos
+<note>Kunes war Befehlshaber der Garnison von Abydos (vgl. Franke, Fs Assmann, 135)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- J. Malek, Topographical Bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings, Vol. VIII.3, Oxford 2007, 309 (Nr. 803-043-600) [B]
+
+- D. Franke, Altägyptische Verwandtschaftsbezeichnungen im Mittleren Reich, Hamburg 1983, 309 Anm. 1 [B]
+- D. Franke, Middle Kingdom Hymns and other sundry religious Texts. An Inventory, in: S. Meyer (Hg.), Egypt - Temple of the Whole World. Ägypten - Tempel der gesamten Welt. Studies in Honour of Jan Assmann, Leiden 2003, 135 [B]
+
+- E. Ledrain, Monuments Égyptiens de la Bibliothèque Nationale (Cabinet des Médailles et Antiques) I, Paris 1879, Tf. XXXI (Nr. 48.bis) [H]
+- D. Franke, An important family from Abydos of the Seventeenth Dynasty, in: JEA 71 (1985), 175-176 und Tf. XIX [*P]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:BTWIPDBCP5DVBI4WM7DOKUC2N4">Musée du Louvre</repository>
+<idno>C 287</idno>
+<altIdentifier>
+<idno></idno>
+<note>ehemals Paris, Bibliothèque nationale</note>
+</altIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="M5NUYWGWPJBC3KHSNXP7BJDI4U.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyp-Egypreg">frühes und klassisches Mittelägyptisch-reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Alexander Schütze</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>15-a8e5a0f571fd95202f8bf3c1cf702973</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdyuc523QPk9Uiqdne5wTUQM">
+<lb n="[A.1]"/>
+<w xml:id="tlaIBUBd9d7U2z080QHpfCTe4zdE8o" lemmaRef="tla:tla111510"><fs feats="substantive st_absolutus singular"/>ḥtp-di̯-nswt</w>
+<w xml:id="tlaIBUBd7X615PHU0kwtkVqsOJVJ0M" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle prefixed masculine singular active"/>dd</w>
+<w xml:id="tlaIBUBdQUtZBB4aEIFmJHlZPMuQQs" lemmaRef="tla:tla401130"><fs feats="entity_name gods_name"/>Mnw-Ḥr</w>
+<w xml:id="tlaIBUBdzWCN3tREUSCv01CSKhOJPA" lemmaRef="tla:tla858952"><fs feats="epitheton_title epith_god"/>nḫt</w>
+<w xml:id="tlaIBUBdxJWQV0vmUzzi2oeWB5eUeM" lemmaRef="tla:tla90260"><fs feats="substantive substantive_masc st_absolutus plural"/>nṯr.pl</w>
+<lb n="[A.2]"/>
+<w xml:id="tlaIBUBd4EuHFl1xU5doYf1JdjQZbQ" lemmaRef="tla:tla70530"><fs feats="entity_name gods_name"/>Mnw</w>
+</s>
+<s xml:id="tlaIBUBd60dKQzLGUiYmm4x5Am1VGI">
+<w xml:id="tlaIBUBdzFBD4fcckh1sH7k93ovdEw" lemmaRef="tla:tla851711"><fs feats="verb verb_irr suffixConjugation geminated active"/>dd</w>
+<w xml:id="tlaIBUBd4kF87JWqEn1tTWxkeNX6TQ" lemmaRef="tla:tla10100"><fs feats="pronoun personal_pronoun"/>=sn</w>
+<w xml:id="tlaIBUBd7igTAdogkrZjKV1lYWENsM" lemmaRef="tla:tla850238"><fs feats="substantive st_absolutus singular"/>pr,t-ḫrw</w>
+<w xml:id="tlaIBUBd3CStPfMckHYuDNAo5YQ23I" lemmaRef="tla:tla168810"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>tʾ</w>
+<w xml:id="tlaIBUBdWbQ8wYke0kWrtAsNZ6OSPI" lemmaRef="tla:tla110300"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>ḥnq,t</w>
+<w xml:id="tlaIBUBd8v3iibpS0Q1q2xWQfgvvvE" lemmaRef="tla:tla162930"><fs feats="substantive substantive_masc st_absolutus plural"/>kꜣ.pl</w>
+<w xml:id="tlaIBUBdwdltdRAyU4WjU3zvlQ6v0A" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus plural"/>ꜣpd.pl</w>
+<w xml:id="tlaIBUBdykpL0rOiE8wsF7Q04pcQlM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBdzQJCe7xIERzpp5IBuI4UxE" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+<w xml:id="tlaIBUBd2KyZwKOiUqcvaIidb7lC6U" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/><supplied reason="omitted">n</supplied></w>
+<w xml:id="tlaIBUBd0RsY5bId0i6skI5vfLUe8o" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-ꜥ</w>
+<w xml:id="tlaIBUBd5wLJQAqfkngtk6PSMhgKI4" lemmaRef="tla:tla550001"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-r<supplied reason="defective">ʾ</supplied>-ḥw,t-nṯr</w>
+<lb n="[A.3]"/>
+<w xml:id="tlaIBUBd0QbdOJUvUPykIl0Qzy8Ajc" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/>zꜣ-nswt</w>
+<w xml:id="tlaIBUBdQCAHbCxlEAsujhR01yhiTs" lemmaRef="tla:tla177110"><fs feats="substantive substantive_masc st_constructus singular"/>ṯs,w</w>
+<w xml:id="tlaIBUBdx4BHW1AN0dzuLm0JWFJqjs" lemmaRef="tla:tla22440"><fs feats="substantive st_absolutus singular"/>jwꜥ,y<supplied reason="omitted">t</supplied></w>
+<w xml:id="tlaIBUBdWbe5cSmGkCppjDyskDdzVY" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>n</w>
+<w xml:id="tlaIBUBd3c9idu5LEbLkwuY0hXqVbc" lemmaRef="tla:tla103"><fs feats="entity_name place_name"/>ꜣbḏ,w</w>
+<w xml:id="tlaIBUBdx9mO9u3y0Z9k2Q5jL7nNwU" lemmaRef="tla:tla860747"><fs feats="entity_name person_name"/>Kwms</w>
+<w xml:id="tlaIBUBd3aCFzsyrkRxkAH3JBZWQW8" lemmaRef="tla:tla851809"><fs feats="verb verb_3-inf relativeform masculine singular"/>jri̯.n</w>
+<lb n="[A.4]"/>
+<w xml:id="tlaIBUBdQ0LOKbN50Hkp4aSyV8hQbY" lemmaRef="tla:tla850271"><fs feats="epitheton_title title"/>zẖꜣ,w-ḥtp,pl-nṯr</w>
+<w xml:id="tlaIBUBd6GK8wsFQU0Dn6pk0AQi848" lemmaRef="tla:tla0"><fs feats="unknown"/>Wpi̯-wꜣ,t.pl-jr,j</w>
+<w xml:id="tlaIBUBd5m5Zz7CvE96iuW5ks4cq8Y" lemmaRef="tla:tla66750"><fs feats="substantive st_absolutus singular"/>mꜣꜥ-<supplied reason="omitted">ḫrw</supplied></w>
+<w xml:id="tlaIBUBd0YLlHYHvkWioxUjiYF16ro" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf relativeform masculine singular"/>msi̯<supplied reason="omitted">.n</supplied></w>
+<w xml:id="tlaIBUBd3GVvTcGnEdhr5rUarUQ1Q0" lemmaRef="tla:tla94070"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>r<supplied reason="defective">,j</supplied>t-pꜥ,t</w>
+<w xml:id="tlaIBUBd6IP9ltgDUDQiAJW8eDYYiM" lemmaRef="tla:tla860747"><fs feats="entity_name person_name"/>Kwms</w>
+</s>
+<s xml:id="tlaIBUBd81JAlGHn0pruae5Qgmn76E">
+<lb n="[B.1]"/>
+<w xml:id="tlaIBUBd7JluJVFfUIFvrYvfaRVf34" lemmaRef="tla:tla854584"><fs feats="verb verb_3-lit infinitive"/>dwꜣ</w>
+<w xml:id="tlaIBUBd4KK1F92d0IXgFwNw6GiLrY" lemmaRef="tla:tla401130"><fs feats="entity_name gods_name"/>Mnw-Ḥr</w>
+<w xml:id="tlaIBUBdyNP8HXFjkkQrnNlkBMv1cE" lemmaRef="tla:tla87580"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>nḫt</w>
+<w xml:id="tlaIBUBd7G7KmbMy0fpmFMVq3MfLT8" lemmaRef="tla:tla26660"><fs feats="preposition"/>jn</w>
+<w xml:id="tlaIBUBd8KjCKRkq0YsrCV8qAlwWEA" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/>ḥꜣ,tj-ꜥ</w>
+<lb n="[B.2]"/>
+<w xml:id="tlaIBUBdykmmVE5jEUvnHLA31MdlW4" lemmaRef="tla:tla550001"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-r<supplied reason="defective">ʾ</supplied>-ḥw,t-nṯr</w>
+<w xml:id="tlaIBUBd4nGc8a1mUrlk1JW0AWmtGQ" lemmaRef="tla:tla450223"><fs feats="epitheton_title title"/>zꜣ-nswt</w>
+<w xml:id="tlaIBUBd8yS7qKPRkJYp8QYvFs9lrw" lemmaRef="tla:tla177110"><fs feats="substantive substantive_masc st_constructus singular"/>ṯs,w</w>
+<w xml:id="tlaIBUBd2KfV7ywN0y2rfiErL3o25A" lemmaRef="tla:tla22440"><fs feats="substantive st_absolutus singular"/>jwꜥ,y<supplied reason="defective">t</supplied></w>
+<lb n="[B.3]"/>
+<w xml:id="tlaIBUBd7zaKgWRz0ISpNPGjh8QHvM" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition masculine singular"/>n</w>
+<w xml:id="tlaIBUBdWYpDFDBjkHxndaJGNbYygk" lemmaRef="tla:tla103"><fs feats="entity_name place_name"/>ꜣbḏ,w</w>
+<w xml:id="tlaIBUBd6Z8sZZg3Ux3ph1INO2RS1g" lemmaRef="tla:tla860747"><fs feats="entity_name person_name"/>Kwms</w>
+<w xml:id="tlaIBUBdy7Lg1DAKkl3nuDdapZ4QGk" lemmaRef="tla:tla185810"><fs feats="verb verb_2-lit suffixConjugation active"/>ḏd</w>
+<w xml:id="tlaIBUBd2vSh33sWUyHobnJWEiiH4c" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+</s>
+<s xml:id="tlaIBUBdyqcQt7owkTMjk10SwzewgM">
+<w xml:id="tlaIBUBdyy7G07LXU55qdUwlDgzHK4" lemmaRef="tla:tla854522"><fs feats="verb verb_2-lit"/>nḏ</w>
+<w xml:id="tlaIBUBdwMUTFc5EkCljoIm6ns0vPk" lemmaRef="tla:tla107510"><fs feats="substantive substantive_masc st_pronominalis singular"/>ḥr</w>
+<w xml:id="tlaIBUBdyToMpQ2skQngWBn2OGO4RM" lemmaRef="tla:tla10110"><fs feats="pronoun personal_pronoun"/>=k</w>
+<lb n="[B.4]"/>
+<w xml:id="tlaIBUBd2YUvlLO0U6QiAILlEUwq94" lemmaRef="tla:tla70530"><fs feats="entity_name gods_name"/>Mnw</w>
+<w xml:id="tlaIBUBdQhN6qcRhEoKrnJX472XnDY" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBd4rwWQvJnEFNkCMIj252rzI" lemmaRef="tla:tla111260"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥtp</w>
+<w xml:id="tlaIBUBd5fFIAi7fEP2pekeIRqMQXE" lemmaRef="tla:tla107500"><fs feats="entity_name gods_name"/>Ḥr</w>
+<w xml:id="tlaIBUBdydz9UEQDUcRrQeo7UWrV3A" lemmaRef="tla:tla853757"><fs feats="epitheton_title epith_god"/>mꜣꜥ-ḫrw</w>
+<w xml:id="tlaIBUBd4m0EtxwOEzrhiiCh7hGD5c" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdw3k0dC3XEJ0jf45tp5t1GU" lemmaRef="tla:tla111260"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥtp</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idMKOORJBO3NHDZLRJN42X2FBREA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>⸮Signalement?</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von ⸮Signalement? nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>MKOORJBO3NHDZLRJN42X2FBREA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Nordwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">⸮Signalement?</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla2WYIDFTI2BBKXCVVQA6K2DGAXQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notBefore="-2520">5. Dyn.</date>
+<date type="latest" datingPoint="ths:RI3TSGKXUFCE3HV43BX2N2MJVE" notAfter="-2364">5. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1930-1931, Cairo 1936, 217, fig. 236 [H, K, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="MKOORJBO3NHDZLRJN42X2FBREA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-ec4ebbb500f14b2a0fa5a3486d5975d1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdzOar5DYC0yGuVCnAD4s8b0">
+<lb n="[1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdz9RQdeZDkHnstVQcemGG4g" lemmaRef="tla:tla72340"><fs feats="epitheton_title title"/><supplied reason="defective">j</supplied>m<supplied reason="defective">,j</supplied>-rʾ-ḥs,t-<supplied reason="lost">pr-ꜥꜣ</supplied></w>
+<gap reason="lost" />
+<lb n="[2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdwty3X0HCEWXgeTeODayDJk" lemmaRef="tla:tla850832"><fs feats="epitheton_title"/><unclear>ꜥnḫ</unclear></w>
+<w xml:id="tlaIBUBdyJJUV9SdUkxsiSFNoaW2uk" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/><unclear>n,j</unclear></w>
+<w xml:id="tlaIBUBdQEVSdQjWExntnQ0MUQLVTQ" lemmaRef="tla:tla0"><fs feats="unknown"/><unclear>mr</unclear></w>
+<gap reason="lost" />
+<lb n="[3]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd9ZXdxch3krxmg3CuC228Ao" lemmaRef="tla:tla705644"><fs feats="entity_name person_name"/><damage><unclear>Ḫn,wt</unclear></damage></w>
+<gap reason="lost" />
+</s>
+</ab>
+</body>
+</text>
+</TEI>

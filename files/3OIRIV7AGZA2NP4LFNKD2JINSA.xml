@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id3OIRIV7AGZA2NP4LFNKD2JINSA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>〈Sinai Nr. 02〉</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von 〈Sinai Nr. 02〉 nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3OIRIV7AGZA2NP4LFNKD2JINSA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+<msName>〈Sinai〉 Nr. 02</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">〈Sinai Nr. 02〉</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+<note>Steinbruch-Expeditionsinschrift</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaSGCT4SSAGFFPNHDEKYYODLSXW4">
+<support>
+<objectType ref="ths:EQZEGXGFTNHLLIGILFKVE2IXXA">Fels</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:I3U2PPJRONEWZDZE3DPBLRH35Y" notBefore="-2723">Djoser / Netjeri-chet</date>
+<date type="latest" datingPoint="ths:I3U2PPJRONEWZDZE3DPBLRH35Y" notAfter="-2704">Djoser / Netjeri-chet</date>
+</origDate>
+<origPlace ref="ths:XPGRVXOALZF2FB4XVSF5USDARY">Wadi Maghara
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Gardiner, A.H., Peet, T.E., Cerny, J., The Inscriptions of Sinai, Part I, Introduction and Plates, London 1952; Pl. I, 2</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:W2NJGUEPWZGO7MMOJ6EANCRT7Y">(in situ)</repository>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3OIRIV7AGZA2NP4LFNKD2JINSA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-3127d917a684a49c0e14b076831f9472</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBdQSaCtQ0qExQmMEPN2UfMYw">
+<lb n="K1"/>
+<w xml:id="tlaIBUBd2G8BeClwE4WvOx7FZlfLdc" lemmaRef="tla:tla400034"><fs feats="epitheton_title epith_king"/>ḥrw</w>
+<w xml:id="tlaIBUBdQ33IOHKgECTil8uVLKP78U" lemmaRef="tla:tla400266"><fs feats="entity_name kings_name"/>Nṯrj-ẖ,t</w>
+<lb n="K2"/>
+<w xml:id="tlaIBUBd3ZbL6nucknMmM4zDbCBkko" lemmaRef="tla:tla851711"><fs feats="verb verb_irr participle masculine singular passive"/>ḏ</w>
+<w xml:id="tlaIBUBd3lHPteudEcdtSmdvUiZYP0" lemmaRef="tla:tla43300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><supplied reason="lost">wꜣs</supplied></w>
+<w xml:id="tlaIBUBd9VGdTjDl0qBtLHZtiHOicY" lemmaRef="tla:tla400140"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>ḏd</damage></w>
+<w xml:id="tlaIBUBdwE8prX0ZUZmiy2McgSdfB0" lemmaRef="tla:tla38540"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ꜥnḫ</w>
+<w xml:id="tlaIBUBdx84B1pWoUpkhBpXCuYjyZg" lemmaRef="tla:tla42"><fs feats="substantive st_absolutus singular"/><damage>ꜣw,t-jb</damage></w>
+<w xml:id="tlaIBUBdwIkXE0PT07iow2yBVOosnY" lemmaRef="tla:tla181401"><fs feats="adverb"/>ḏ,t</w>
+</s>
+<s xml:id="tlaIBUBd2atMt6Oa0qpuHWr3E5QoO8">
+<lb n="Z4"/>
+<w xml:id="tlaIBUBd1wVwBYYdkXPs9ieGld4srE" lemmaRef="tla:tla400043"><fs feats="epitheton_title title"/>jmj-rʾ-mšꜥ</w>
+<lb n="Z3"/>
+<w xml:id="tlaIBUBdW1DShfzBkrDv6cNlkKzpyI" lemmaRef="tla:tla400269"><fs feats="epitheton_title title"/>ꜥḏ-mr-ḫꜣs,t</w>
+<w xml:id="tlaIBUBdzOxQMiJ10Nin6Qax6puMoE" lemmaRef="tla:tla0"><fs feats="unknown"/>ꜥnḫ-n</w>
+</s>
+<s xml:id="tlaIBUBd8dH4e412UpvhC8T90wtr4k">
+<lb n="K4"/>
+<w xml:id="tlaIBUBd50ilhe9rkiSpjNgB6dMZqA" lemmaRef="tla:tla45750"><fs feats="substantive substantive_fem st_constructus singular"/>wp,t</w>
+<w xml:id="tlaIBUBd4nlfzsDPklrnyQCaBg9yCs" lemmaRef="tla:tla88040"><fs feats="substantive st_absolutus singular"/>nsw,t</w>
+<lb n="K5"/>
+<w xml:id="tlaIBUBdxHMSceBpUXEgv47fIgIXQ4" lemmaRef="tla:tla0"><fs feats="unknown"/>ḥꜣt</w>
+<w xml:id="tlaIBUBdzxzoyRoFU8asWyFQL7TouI" lemmaRef="tla:tla0"><fs feats="unknown"/>ẖr-tp</w>
+<w xml:id="tlaIBUBdQcMD1XLlklIlKN4yEt6drQ" lemmaRef="tla:tla0"><fs feats="unknown"/></w>
+<w xml:id="tlaIBUBdQITeKtEcUe8hYzDb2UywtQ" lemmaRef="tla:tla136950"><fs feats="substantive substantive_masc st_absolutus singular masculine"/><damage>snb</damage></w>
+<w xml:id="tlaIBUBd53Borxpo0wYvfUTjQXtFgg" lemmaRef="tla:tla81660"><fs feats="adjective masculine singular"/>nb</w>
+</s>
+<s xml:id="tlaIBUBdyiAQc1B5Efer0MKvh8wKAI">
+<lb n="K6"/>
+<w xml:id="tlaIBUBdwL33OICHkdomnYtalILwPo" lemmaRef="tla:tla851711"><fs feats="verb verb_irr"/>ḏ=f</w>
+<w xml:id="tlaIBUBd63mMPDspUSJoPvmfCiUkmM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n=f</w>
+<w xml:id="tlaIBUBdxmUJ79SCEt5v6rsUbH8Ccg" lemmaRef="tla:tla64360"><fs feats="preposition"/>m</w>
+<w xml:id="tlaIBUBdyYKWEhxDk4Zu6PU6RbRVCo" lemmaRef="tla:tla182830"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḏw</w>
+<w xml:id="tlaIBUBd02sWKoctUyDrqIzGkT0nWw" lemmaRef="tla:tla59920"><fs feats="pronoun demonstrative_pronoun"/>pn</w>
+</s>
+<s xml:id="tlaIBUBd3KzWAgkVkm7vJ9ZeC1uIlc">
+<lb n="K7"/>
+<w xml:id="tlaIBUBd4MdYt4A800Nrc5vOkqE0JQ" lemmaRef="tla:tla126300"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>zꜣw</w>
+<lb n="K8"/>
+<w xml:id="tlaIBUBd0EqEwiUtkDXhCwUMnHJPK0" lemmaRef="tla:tla74950"><fs feats="verb verb_3-inf participle masculine singular passive"/>ms</w>
+<w xml:id="tlaIBUBdyWqSbZVv0btmS3Uc9P3az0" lemmaRef="tla:tla82090"><fs feats="substantive st_absolutus singular"/>nb,t-pr</w>
+<lb n="K9"/>
+<w xml:id="tlaIBUBd4jMF9SyfkoBopYKWbpUTVU" lemmaRef="tla:tla0"><fs feats="unknown"/>ꜥꜣmw</w>
+<w xml:id="tlaIBUBd8uGnQw03kYxginDkVgq4mk" lemmaRef="tla:tla0"><fs feats="unknown"/>Ḥzj</w>
+<lb n="K10"/>
+<w xml:id="tlaIBUBd1YeBl7PaE9ivWQPu4Boi1U" lemmaRef="tla:tla400270"><fs feats="epitheton_title title"/>mḏḥ-nsw,t</w>
+<w xml:id="tlaIBUBd846FkOcQE5gjvdKvKspqQ4" lemmaRef="tla:tla400271"><fs feats="entity_name person_name"/>Mr-jb</w>
+<lb n="K11"/>
+<w xml:id="tlaIBUBd1IwvmbOXU23uZutUK1iQD0" lemmaRef="tla:tla0"><fs feats="unknown"/>mrj-rwḏ</w>
+<w xml:id="tlaIBUBdz2TjBIkWkYzk62hp3ikR1s" lemmaRef="tla:tla0"><fs feats="unknown"/>ḥt.t</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

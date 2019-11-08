@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id2VAJKBTWTND7HGN5ADX6LTUIAY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften (1. Boot)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften (1. Boot) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>2VAJKBTWTND7HGN5ADX6LTUIAY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Ostwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften (1. Boot)</title>
+<textLang>-
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaPQE24GUGBJF7ZNQHVLSOTK4T6Y">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:3X3HIVLWDVCHVM7OKEQG4RIKIA" notBefore="-2512">Sahure</date>
+<date type="latest" datingPoint="ths:F2WUXBPF6ND7ZAEU4GIZTIBOQ4" notAfter="-2431">Niuserre</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>R. Lepsius, Denkmäler aus Ägypten und Äthiopien, II 27-29, Text I, 71 (LG 45)[*A, F] 
+PM III 142 (G 4940) [L, B]
+N. Kanawati, Tombs at Giza I: Kaiemankh (G4561) and Seshemnefer I (G4940), (ACE Rep. 16), Warminster 2001, 51-65, pl. 18-24, 38-51 [*P,*F,*U,*Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="2VAJKBTWTND7HGN5ADX6LTUIAY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-1732dddf967346528b9165d46a4bbd4c</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd7IYL9d7iUnmkocUSU4JBKk">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd11jARGcfEuLoeLwsVqeICc" lemmaRef="tla:tla71840"><fs feats="substantive substantive_masc st_constructus singular"/>mr</w>
+<w xml:id="tlaIBUBd5qbtekkfERBgq3RARBBchw" lemmaRef="tla:tla26140"><fs feats="substantive substantive_fem st_absolutus singular feminine"/>jmn,t</w>
+</s>
+<s xml:id="tlaIBUBd8WTWmK3JkcjuBkXjgjxw54">
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdWLNX0CXa0Livvp9udjJ1EQ" lemmaRef="tla:tla450367"><fs feats="epitheton_title title"/>ẖr,j-tp-nswt</w>
+<w xml:id="tlaIBUBd1KKERJKeUxgnWwM1P6vGnM" lemmaRef="tla:tla707086"><fs feats="entity_name person_name"/>Sšm-nfr</w>
+</s>
+<s xml:id="tlaIBUBd2aaFOQjS0oZva7Fh44pBEA">
+<lb n="[3]"/>
+<w xml:id="tlaIBUBdQmBSriiCEGBjVt5EsGT7Eo" lemmaRef="tla:tla850638"><fs feats="epitheton_title title"/>ḫrp-n-bj</w>
+<w xml:id="tlaIBUBd7pj5kMzSkL2i0mnCncfQ24" lemmaRef="tla:tla702952"><fs feats="entity_name person_name"/>Ny</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

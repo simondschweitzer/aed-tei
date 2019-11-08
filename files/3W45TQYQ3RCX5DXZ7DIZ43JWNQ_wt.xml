@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt3W45TQYQ3RCX5DXZ7DIZ43JWNQ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Lehre des Ptahhotep (Version L1)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Peter Dils</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Die Lehre des Ptahhotep (Version L1) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Peter Dils</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3W45TQYQ3RCX5DXZ7DIZ43JWNQ</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 10371+10435</idno>
+<msName>pBM EA 10371+10435〈 (Ptahhotep, Version L1)〉</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Die Lehre des Ptahhotep (Version L1)</title>
+<textLang mainLang="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</textLang>
+<note>Weisheitslehre</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaL2P5ZBWG2BGN7FNKRYOVMSMU6A">
+<support>
+<objectType ref="ths:5QIW3ZRHQFGINHBP4GI2GI4LFA">Schriftrolle</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notBefore="-1992">12. Dyn.</date>
+<date type="latest" datingPoint="ths:WFSMZWLWMFDG5FAGQOB436TKUU" notAfter="-1794">12. Dyn.</date>
+<note>Siehe für die Datierungskriterien Hagen, 134.</note>
+</origDate>
+<origPlace ref="ths:6NJP62ZOOVGENAF3BKE3OR7CG4">(unbestimmt)
+<note>1868 von den Trustees of the British Museum angekauft (Information R.B. Parkinson); vermutlich aus Theben (Parkinson, in: ZÄS 130, 2003, 125)</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- E. Dévaud, Les Maximes de Ptahhotep d&#039;après le Papyrus Prisse, les Papyrus 10371/10435 et 10509 du British Museum et la Tablette Carnarvon. Texte, Fribourg 1916 [T]
+- Z. Zaba, Les maximes de Ptahhotep, Prague 1956 [T,Ü,K]
+- G. Jéquier, Le papyrus Prisse et ses variantes. Papyrus de la Bibliothèque Nationale (Nos 183 à 194), Papyrus 10371 et 10435 du British Museum, Tablette Carnarvon au Musée du Caire, Paris 1911, 10-12 und Tf. XI-XV [P]
+- http://www.britishmuseum.org/research/search_the_collection_database/search_results.aspx?orig=%2Fresearch%2Fsearch_the_collection_database.aspx&amp;searchText=10371%2C+papyrus&amp;x=0&amp;y=0&amp;fromDate=&amp;fromadbc=ad&amp;toDate=&amp;toadbc=ad [P]
+
+- P. Vernus, Sagesses de l&#039;Égypte pharaonique, La Salamandre, s.l., 2001, 63-134 (2. Aufl. 2010, 99-170 mit Nachträgen auf 171-177) [Ü]
+- F. Hagen, An Ancient Egyptian Literary Text in Context. The Instruction of Ptahhotep (OLA 218), Leuven, Paris, Walpole 2012, 131-135 und Tf. I [K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:JMEAGLJDGJHLDJCXGLFGQ6FEFQ">British Museum</repository>
+<idno>EA 10371+10435</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3W45TQYQ3RCX5DXZ7DIZ43JWNQ.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egym-Egyh-Egyhmdb">frühes und klassisches Mittelägyptisch-Mittelhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Peter Dils</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>21-25114d7af16615d68e78eed724c5b52d</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd3ionAjK1EdTsfzrvVHTAuU">
+<w xml:lang="de" corresp="src:tlaIBUBd594rvkjlEsurWRwWhqaC24">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6HSu4jbWkOlpevqCb0yHBQ">finden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwaPsdCGsEQDtnElPHwMZg0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx5DSA1lLk8qobQjsCUfDQM">Disputant</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ZRdiXFF0Ypnk5wrY6PMIM">im</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5fRxW4uokh4lRHsNlCdkts">Augenblick</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7UW3lm1kEvihZVtrSVAIp8">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7QOvQVajUkaifUAqAjsjIE">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx0ZVuKDCEEVqv4qI2JYLCA">Schwacher</w>
+<w xml:lang="de" corresp="src:tlaIBUBdySW6S0tUU7ho04lucZVTgY">[zusammengesetzte Negationspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5v9rjcQG0owtVdgFPihm2Y">Gleicher wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQKvuWKmbkhDqw0HWGwy7Wo">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd1UzlHjD2UH7tRA9R1sSRLI">
+<w xml:lang="de" corresp="src:tlaIBUBdQgC4G1C30n7lF2a4Qzp8x0">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQTdIVBtKk51v5uTKIsP9e4">antworten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4u7vkkGW06tphtGXf4yZSs">zu (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4lyQGx2Zk5UkF367qE8QBY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQagip7fCkrnhfFtYWutdbc">[Partikel (Konjunktion)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5I6b6ec7UzunDehNXjENrI">in (der Art)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6fYn0gEbEk4jaEjVUXaD3o">(eine Last) leicht machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQWJlCQo80OerUJfP3hxz9I">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQIiLNAR2kuWrcWSXPYRLb0">[Partikel (Konjunktion)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1vxExAHyk5ThzlZwccW7F8">in (der Art)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ERDW6Wz0Hjp9gDyUOq9k8">erfreuen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7HrgMKQ50G7sCZj6Q441jE">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQUg5ycwr066mQuJkuVLKCM">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9iHyYLQbUmQjGm0ajElpFA">der welcher (Relativpronomen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0J8WJc4zkrGqAQGfcPCAXw">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2VCk6vrQEBRn6Qr6MONdYM">Feind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd086iD9RskgJggcfk0SzWS0">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdWXqSyilWkl7qLttmQHbkXs">
+<w xml:lang="de" corresp="src:tlaIBUBdy85M5rlX0w2qeXeUBW04jY">bringen; holen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJ0Yzb6x0umtXcMos9FOXs">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5HIktdmtUeegI2wlCOs9Jk">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy5nJgRgP0E8mtW6E6dnyho">Rede</w>
+</s>
+<s corresp="src:tlaIBUBdxesovHCV09igpKjx3jds1Y">
+<w xml:lang="de" corresp="src:tlaIBUBd0eo25sK5UBou3FpoTg5xPA">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzsAgSaHy0yGvCKYcdWbiGo">wünschen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1jJF2DicEkzrbhq53VtZRo">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyPiVDJg2kumscSyjklnoek">vollkommen sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2tyjUvQEUsHlAWVi1Hi23U">schön machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3gbcsVIb0mHpzCGpg16X7I">Leitung; Anweisung; Verhalten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzxHSOVXH0mbofwGEnheu0w">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwWPWWpCeE1QqGcxT7CVQSA">retten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3xDroJC2UEum1fqIDs1ZeA">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8qdW8Ud80ftu9ISlRI26t0">du, [pron. enkl. 2. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwNhbtKPqkG6iIUq8EWEB1Q">vor (jmdm. retten)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4plDv2MlUtVg4H4jJoTZIU">Schlechtes; Böses</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9EhK8R4sUhTiWPXlQwV2Mw">jeder</w>
+</s>
+<s corresp="src:tlaIBUBd70hVAtW1UZQjoPjLoVpkzI">
+<w xml:lang="de" corresp="src:tlaIBUBdxd3UVCgtkRPmXeWjB05Lo8">sich hüten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzoTnBu27UYNh3liCWZxJyQ">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7O91QpCpUpNpWLt3XIODVE">Fall</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwYFowIlFEaSsF5z13UD3Fo">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQifvtVzkdvqTWEJeoKL0U">habgierig sein</w>
+</s>
+<s corresp="src:tlaIBUBd7RRC9HmeUnTsgqb2iVfef0">
+<w xml:lang="de" corresp="src:tlaIBUBd0fn9QWOoETVjWMqqhzKw64">Krankheit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2hFyP02Yk5QqLUyQX3B0QE">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4N8S2SiWk8in2jNssTmzUA">schlimm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd76RupDzNk9etp7LMsNBk9o">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8mmQeJ7gkrft1vQBnSb43U">[unheilbare Krankheit (als Schlange personifiziert)]</w>
+</s>
+<s corresp="src:tlaIBUBd8zwSKhQx0FWt8q8qBM8ocA">
+<w xml:lang="de" corresp="src:tlaIBUBdW9njHCflUw0u0coEpBbDMw">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1xChQQelUDkluEzVAjk8sM">entstehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3XlaNVWcExRoVwalAY2Wbc">Freunde; Vertraute</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7eZqdNiaEcaqnDI6F8fIYs">unter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ZYYZYpPElgkrVvPwxWO58">ihn</w>
+</s>
+<s corresp="src:tlaIBUBd0QJEKHZPUwgj6iYbkxaCuY">
+<w xml:lang="de" corresp="src:tlaIBUBd0k0yRJtrE4fkCjoj1AqWfQ">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8rKOQBl8EKFsOXldq4XXJY">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0VjrZFoRkTCgEdLVoZfjX4">schlecht machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwim2w2tPkPanQlEkKmESpw">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6IICNrlc06grEtPi4ENBz0">Vater</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6l6VKDQFkCSt62PDakpXbg">Herr</w>
+</s>
+<s corresp="src:tlaIBUBd75AotRawEiZmc9JyQUqFEA">
+<w xml:lang="de" corresp="src:tlaIBUBd12eA9HC9UYQovTJfyr4KnQ">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Se3lYGIkXKgPEkd5T3JvQ">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzRXGSUyW0ZbvH4dAXHY8eg">verbittern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0XTTqs7GEXFnuBuAVQdG8A">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2WtGhqvmUJ9srTswMl8k7c">Freund</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7JgOLzQk0zpr9nYrIwvs1Y"></w>
+</s>
+<s corresp="src:tlaIBUBdQ5AEBZ0qUeTsgk6bGADLQI">
+<w xml:lang="de" corresp="src:tlaIBUBd51Wf8DMwEgfk2ks69nmQJg">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9UyNtoTQkWuvdTaFdV9Fd0">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6wjMpL6I0XBql7xy4KFFqU">verdrängen; vertreiben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd95xRPxXyEgupF7A0Nu937U">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7Mn04mOaE1RqG1jpnllxCk">Ehefrau</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWoTo21OPEC3gXkbaO8pHBY">Mann</w>
+</s>
+<s corresp="src:tlaIBUBd8o4tgTO8UTfhXbGFbLNLRI">
+<w xml:lang="de" corresp="src:tlaIBUBd0Pt2M2BF0aKsOTHYCjHWN0">dauern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8vEJRzEJU9EsnE2D35BQaA">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7PnisCyCENrrAbccTDAI3o">richtig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9a8QoWQsETdoQ1qeW7slt4">rechte Lebensweise (bildl.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7IStvqQgkwFgUpnbihPNWE">sein</w>
+</s>
+<s corresp="src:tlaIBUBd58LFuxuSEmJgxUQdsjPLzU">
+<w xml:lang="de" corresp="src:tlaIBUBd7IvlLQ8X01FrAfHINkiQVs">gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ND4N5waE1QiQgV3jW2yXA">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9cKzj2ofUpou18hg0BcI1k">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0osQb3TTUWyuzRnPnjTjmE">das Schreiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwxQhdJLe0inpQt4khDKIe8">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7vJQvSem0ibsJVaY4UX514">fertigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4JAUe3ooEBMvbf4kFPVWfQ">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5v5c76XpUyAgBXGuO9RU0U">Testament</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0W7aj1uzULRk9Ze29vKoBo">unter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ztpTg0VkoXpU9qkht244I">ihr (pron. suff. 3. fem. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd46LpSECUUt3vfWfQ1SujIA">
+<w xml:lang="de" corresp="src:tlaIBUBd0CuAeBv80O4vOAK3cyQ07w">es existiert nicht; es gibt nicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxnvBdOLPEF6v0ByWWXVaU4">Grab</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5U8EX8jzkWMl5UzEUqWazA">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4djJWuoEkTClf5MW8mZf5o">Habgieriger</w>
+</s>
+<s corresp="src:tlaIBUBd1jOWL8pskygl4Ji5dPdk6I">
+<w xml:lang="de" corresp="src:tlaIBUBdyv2qw9Y10GOjcpIuDCzbIQ">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy5jkpvQPkAJiDSDNfWXwRE">fähig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzNBLuVKMkk5mQgNH8TizbA">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8FwQbAyl0Rct0JAzemeY4I">Hausstand gründen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyPugQqfW01MqYdaXu3Exgw">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6zFH7mRGUSZhOH2cC52IM0">Haus</w>
+</s>
+<s corresp="src:tlaIBUBd2BgYEXKzEmJtShzAuFZbrs">
+<w xml:lang="de" corresp="src:tlaIBUBd3jQirabpk9vgeaS5P0Tct8">heiraten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxPQUntRJ0JJrcHOOylB2zY">Weib, Frau</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQGB3UsRdEYAnY7oEmgxEcI">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9vAO0PHWkfWjJU2vjBc6Uc">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2DWkfuVpEI6svY6PXwy2N4">Richtigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxDBUKnMEUfnlQVscZvxbIs">ihr (pron. suff. 3. fem. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBdxnSyV54jUFJizCUw5Ug9zg">
+<w xml:lang="de" corresp="src:tlaIBUBd6MRCZAUF0YQnHt7uMrF39Y">füllen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdznWOMETWE2KmY7j7EOuA74">Leib</w>
+</s>
+<s corresp="src:tlaIBUBd17KHTxdRUBGtOSchVEnd8E">
+<w xml:lang="de" corresp="src:tlaIBUBd6TLtmh1JkWMrmFij8nBjjk">öffnen (abführen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8hWQt9MIUCmugywqWXRFxw">Herz</w>
+</s>
+<s corresp="src:tlaIBUBd5rXma0kCkjPrMHz1WX8D5E">
+<w xml:lang="de" corresp="src:tlaIBUBd6FOvYzFkUIXjeGW4sp0mbo">Heilmittel</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7xH5aLV4EH0tDKkw0yJcNQ">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2atBeHv603pnlhQMVxO45I">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7c0ZJCGYEYMhDYARC1UJgk">Körper</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ZV9uhQM03HgHHnuZ4fEUg">ihr (pron. suff. 3. fem. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyO99wOPUksZvvYYre4YbOo">Salböl</w>
+</s>
+<s corresp="src:tlaIBUBdxWbVhWg009zgOPdjmgdVKg">
+<w xml:lang="de" corresp="src:tlaIBUBdzFvoZimykR7soNbJ4uYsxg">Acker</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8OgVZ3TREj3hvpN2CHdUZg">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzTk7JTSXEkpk18PhXPxUQs">herrlich sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd16PeFW9DEmqh1LQyOzyNCg">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4KQLS8tiEXdlxAUSXfn3RM">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2bYTr66fEnHhzJdb6hVA6o">Herr</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW4zyWDWlkidk4vz9Nyf2L4">ihr (pron. suff. 3. fem. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBdzf6Jg9Zi0AgnKlHVlrh9c0">
+<w xml:lang="de" corresp="src:tlaIBUBd8EAxNl3xEBxuzlhuvi6VK4">glätten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd80gWjizB0oWgBpC1eo8y6Q">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ZIYXykbUauocF1ilE2lKA">ihr (pron. suff. 3. fem. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6c8p1EtKU2niIwn5mlndFk">mittels</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1QhNNwy0ULijw58upZpjhM">geschehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQNRCfM7gUj8jDW0Hd29kDw">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWOavzrirEQ0nlUJvnjIWV0">du</w>
+</s>
+<s corresp="src:tlaIBUBdzF4HIc9WkPEvgA9N97piWQ">
+<w xml:lang="de" corresp="src:tlaIBUBd74nn1PQWULYnauxL1cQrpI">dauern lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7rw1o1zKU8DtFsuIDF2254">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2LHhAyrQU4xj3NlxaIQ7Tk">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzrPA0e6ckAouyJP6IUfQus">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5vZq9W2U0QykydPb83vM1Q">Haus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzH9PorkbkirsWi7c4SHIlA">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd92YyFyNSUfZtPnQ9wFQEtQ">
+<w xml:lang="de" corresp="src:tlaIBUBd004Tq7Lr0PSuSSaa64h2mY">zurückhalten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy8aaWc7eUPKlcoI5O6rm5w">sie</w>
+</s>
+<s corresp="src:tlaIBUBd5xZ0i0MAUPIoKrsdwrJETo">
+<w xml:lang="de" corresp="src:tlaIBUBdwkzFyk8nEjLhds7iZe1IQU">Wasser</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0A9ujEK2kcYqT55qdwP7CE">[Kopula]</w>
+</s>
+<s corresp="src:tlaIBUBd09aYHCCOEl3v0QmGsLzNvk">
+<w xml:lang="de" corresp="src:tlaIBUBdzWPfj4Q40Jtlvo8jvDJeDQ">Frau</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWnED3DviEp2tQjAu73zRvM">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7efrNPTDkPWkMJW8rxlGas">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0YKISTnFUQXspaWxp7XhrM">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwvmmWRnCEgIiIVPOitjQSQ">Arm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ZgfY6tG0Vih4mfvuEh2F4">ihr (pron. suff. 3. fem. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd91kCa7FpEAjriVI1kIPRxA">
+<w xml:lang="de" corresp="src:tlaIBUBdWOIDZlsak6MrKHfeVYXWR8">fragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3EqEK6gbk57m4axZCiVWJo">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzxXhsovwkQZnQgG7x2pfZQ">tun</w>
+</s>
+<s corresp="src:tlaIBUBd5odfwA51U3rkJtnDjkpAJU">
+<w xml:lang="de" corresp="src:tlaIBUBdycVEpJTMUxrnsQz0OWCviU">zufriedenstellen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwx6XPPQZk5vhh4FGLkM6ZI">Freunde; Vertraute</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6s3oWlWjUw5toN8rbsPN00">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0G4Qduyd0NTtK4FquAMcE4">mittels</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyW7jWtWEE6QhbGKQIoMHQU">geschehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQcYiMLS0XmmqqYCWXZtKE">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0INgE5xWk34pPn6qVGuGf8">du</w>
+</s>
+<s corresp="src:tlaIBUBd2wBFN8Aqk2Vg85tDvYS45g">
+<w xml:lang="de" corresp="src:tlaIBUBd4Ns53aLXk1Yrru8ysflXpM">geschehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Xt2kjyY0aPj3NBykgYCEk">durch (jmdn)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5YObGeCIkGRtmJ3A3uim20">loben; begünstigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3f0GDEPuE0QlI2o3gAIyBM">Gott</w>
+</s>
+<s corresp="src:tlaIBUBd1bgOM9a0krWqoCyX03ckww">
+<w xml:lang="de" corresp="src:tlaIBUBdzsWRUuAYUkkr3VtIYlFJoQ">was anbetrifft (Hervorhebungspartikel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQKu22YnKEoNjfILL7WrgME">leer sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdynm4ohpkE9PsaSfkItuWWw">von (partitiv)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxtUkTyDxkMzvvjoVbw7LJg">zufriedenstellen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2HYUIxZwkC9lzzX4W7olQA">Freunde; Vertraute</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MQYP89W0gCpxbPnIuhUZw">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0sN0V3jyEzDqyamm99SHjs">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd53jLZcwu0f6qZKbmTe6Cb4">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyV8sJvViECIlgyTmqdsRqE">man (pron. suff. 3. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6cp4qU0qkIFrT9gRQpj1S0">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0SVQAuEFUJsj7pSQb8ANUU">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9hCQIxktkmEo2pQ0rbSu1k">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9mAifXw50rpn1M66MladAw">rauben</w>
+</s>
+<s corresp="src:tlaIBUBdwKMw4EcAEL8sjS2giAyHm4">
+<w xml:lang="de" corresp="src:tlaIBUBd9oKpB4prUNJkIuSvztDYdE">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy84PQKL60xLtI1F6xAzcwQ">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4GQJIy10UFaib62mlWFSgU">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0bpLi2snkrul26nsAkOGRA">richtig</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWxHxEM5cEQymvz3jFGggWQ">zufrieden sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzomUrM3w0VupKQuaXohQqY">über</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwrm2g4LaEj7ku8cCucbAsM">ihn</w>
+</s>
+<s corresp="src:tlaIBUBdyuKmiBqWkENi6ngmFYNI6A">
+<w xml:lang="de" corresp="src:tlaIBUBd8Qivv8m5Esxlcct3QMvboc">[Negationswort, systematisch unterschieden von n]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd48PqOWWckRhlcxmxlzFXQA">Plan</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzrj53QDHkYAv98Xef0IGVM">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQDdQj9FkrFpf7cIQbvYJ4">denken</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5zPljrloEHQjzO6cgw2ksA">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3HF7B3z1kZDgakU1v7BFy0">das Morgen</w>
+</s>
+<s corresp="src:tlaIBUBdQTTnBUyhkxAghU0wzoNgKE">
+<w xml:lang="de" corresp="src:tlaIBUBd3Ob9SUzMUmTptAVtuSugjs">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWPeenIkUQYvW7S7sqxiWc">kommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQz0WZFDCUQyrFwQuciE0QI">Fall</w>
+<w xml:lang="de" corresp="src:tlaIBUBdylrfmt9Kk88kOVeEQPBTWM">mit (Zugehörigkeit)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxqSXH3HT0l8krfPpX2rRWY">Gunst</w>
+</s>
+<s corresp="src:tlaIBUBd5UaaQYBakfYqfdIOi1uGSA">
+<w xml:lang="de" corresp="src:tlaIBUBdwh0fH0KaUUCpWQFkhCpOMg">nicht sollen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyfBPCs3DkWRuIPVadHqo2I">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Yv7cAOFUWKgMQHVXC46rE">wiederholen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8eRRr4fJU3aqNF1feddIkk">Gerücht (o. Ä.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4vW7Mu62UYJmwrzE43GiUU">von [Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7e1HYgjrkwZmSWMxTtCNV4">Angelegenheit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3YiglayRUJzvrYsTHHQa0M">welcher nicht (neg. Rel.Pron.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW352pstQUevpDo4RawvCxQ">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzSCvZaiCERbidrYW4RYTgg">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWKQHOur50l3os7TSEnJ3ao">[pron. enkl. 3. masc. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBdQU3ULMCWkcRm1OaZlCtc6w">
+<w xml:lang="de" corresp="src:tlaIBUBdyAgABQKTURJhLJ9cr6UzdY">herauskommen</w>
+</s>
+<s corresp="src:tlaIBUBd0UiLLVAZ03On0zusSQy6nA">
+<w xml:lang="de" corresp="src:tlaIBUBd1LUdq0Yyk6Dl9OQsc5KiNY">[Partikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3j9Hy020EHyiikd1RYEnJc">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJW6h5LrEWTjExJm5Q4Eo8">ich (pron. enkl. 1. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyN7oWRTBE1rjmXjlmie4D8">vor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4bu9i6UBU1bjx08gaaKTzk">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdy4aAWy5cE3CgclhcjSEHVc">
+<w xml:lang="de" corresp="src:tlaIBUBd16KSLZ6WklFlf35SD0Ec4o">[Verb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEOYYbGPkwOih09MgkoqwU">man (pron. suff. 3. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7CB0S29MU85n9MF9QVeNRA">Tüchtigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9kbVYIff0kKgsKAJ1Jx22Q">mein (pron. suff. 1. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd5nyUW3ZS0vLu5WoowtdORo">
+<w xml:lang="de" corresp="src:tlaIBUBd7EzsHE2dUl2hV8QmnFqKhE">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd79vL1Qrd0ftoDvhIQIaTnE">Gerücht (o. Ä.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzzXhkpdOUUslRDo3RQo68A">wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9F1BSLe1EFiiSLccYS58bA">Fall</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4vzZQZZkEzTvqEPd4rHHzI">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwUHwqSxQEVUkcFNGGaQ3F0">Traum (&quot;Wachsein (im Schlaf)&quot;)</w>
+</s>
+<s corresp="src:tlaIBUBd7fk03cEskxliboHFUqHBqU">
+<w xml:lang="de" corresp="src:tlaIBUBd3IAAwQtYElwtluREHtdnpY">bestrafen; zerstören</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxox9ceq5EQSnsz51oN9hKE">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy6SXQYHSELCj2UQsXAh94E">[Kopula]</w>
+</s>
+<s corresp="src:tlaIBUBd9zBjwWhLk7uq1rE10qbL3I">
+<w xml:lang="de" corresp="src:tlaIBUBd6aKJKMhmk2FjyLaFzwQC8A">bekämpfen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwuKhrJM1kcQiUHFEbrKPyw">du, [pron. enkl. 2. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwQr6MnZ7kJyjYCgQ8u5TdM">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdycaF5AD10sajt82ZuaPxl4">sie</w>
+</s>
+<s corresp="src:tlaIBUBdQqO70Pl6kvkuNO5SZN5BhI">
+<w xml:lang="de" corresp="src:tlaIBUBdxmZrHF8SEmNvafoKC3DOoM">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxiy9L9ICknPpySejLsRhQE">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5KuCan33kFmtf7io1Bc20w">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxDFQXgaRUHWoMXtnPsY5NI">wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ajBgqi1ERVr3mtb7xS4og">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6dsXbWVgEwXgmSPkFcQNz4">nahe sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQOSRDId03VtkswIhWk0dM">sitzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3gMyyE4FkrgtKZl4lk66zM">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5WbTNQ6WE9Ahy39z0iXnm8">Ratsversammlung</w>
+<w xml:lang="de" corresp="src:tlaIBUBdykXNqWWMEOonaUxVoWXTfc">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3ezbPoUjEaYixeEBW6mKlo">Herr</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzaHMuVs5UfbnmzemzuJWq8">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5YrOL63IUxLiAZCwWCarRA">versperren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyOWoocWQkIgjaHS6F920bU">Mund</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2VfzxZEX0Zch7Y8JdikoPQ">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd5aiUQFsfkPDtmE1PWpxxMI">
+<w xml:lang="de" corresp="src:tlaIBUBd4e1cAqdwElegrlYOHZ7wdQ">sich selbst beherrschend</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3elhgXUlkfRmjaxaNun3RI">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6bpsdyPQUDWmkWlrQBr0Ng">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd9Um3EqoKUQOsev38rGY0zY">
+<w xml:lang="de" corresp="src:tlaIBUBdWIMbpqPKkhorflgMvhUM3Y">nützlich</w>
+</s>
+<s corresp="src:tlaIBUBdw0PCJAeBUnBrC86wlUbFBo">
+<w xml:lang="de" corresp="src:tlaIBUBd2FHHUhBvEQytnfDwF6avKs">übrig lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0yV9q0GQEMOv6CaxAMGVfM">an</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6PL0tFKxkExjgiEOim8Ckg">Erde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3YTJINAKEdNp4FFFM41ZkA">anderer</w>
+</s>
+<s corresp="src:tlaIBUBdWEsBYR2QUWQmpxp5iBQyK0">
+<w xml:lang="de" corresp="src:tlaIBUBdzngBWnbu0lCluBllMxI9KU">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwv2mFQPRUQ7pHMYtyxULKU">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw20wpYIaEIWiz0j4NlaQx8">(hören) auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0xbSpQHtk43pykKJsxgBYU">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5R10SXg1UBYt0jVZupuwG0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6T4ov8OQUd2g5XOI8joAWw">[zur Bildung des Futurs]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5NZ3SszkE7AlqnPAwOYRk0">oh dass doch! (Partikel d. Wunsches)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz4WdU3JIEKyoiipd70KqHk">doch</w>
+</s>
+<s corresp="src:tlaIBUBd7UeFsQHaUPfgsIBTGV3yJI">
+<w xml:lang="de" corresp="src:tlaIBUBd6rPQ4xZS01vhW4iv2eAiXY">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Ycj0Qml0z3kTuozQH1Fbs">sich heranwagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1tto0JVPEUDgzLBxjpsZ7Y">du, [pron. enkl. 2. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxHLkWjXQEtmmLE5biGAJRY">an</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQaxxSlbSUJAo75mgDQBPjs">der Große</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzOJnBidAUpQiVTTRJPAH5Y">im</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy6DHC1OfUGPstaQCW3GJOw">Augenblick</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1CEVQ7qfEnQpU5xMuYbLSI">sein</w>
+</s>
+<s corresp="src:tlaIBUBd5QOrIbnPUPKgZfimEnDDBE">
+<w xml:lang="de" corresp="src:tlaIBUBd0W1cSwTXEcYt3W8ZmTUwbM">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxNIPHGvnUpxoJAvdM8cu9M">erzürnen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0jmZHqdpU7umpM4l4EfGt8">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzhVK1VvNUpRhp3P1Y9IZPw">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3WFczuNdU3ShX1kYaLhL2c">der welcher (Relativpronomen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw3FklJKskc5qezHSArTf7A">beladen sein</w>
+</s>
+<s corresp="src:tlaIBUBd3RSBLtQ70OzqmhgL1aGtO4">
+<w xml:lang="de" corresp="src:tlaIBUBdyKEZmYhHUlAkjW5WyHHaLo">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0I35p9sw0QnmjJCYdtBXe8">sein</w>
+</s>
+<s corresp="src:tlaIBUBd9AnFQvCvkzxpjdvLygU3W8">
+<w xml:lang="de" corresp="src:tlaIBUBd5LUec4i8kKwgTQnc9UWPDI">umhergehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9OzMRfrzUavkQoys4fnIaw">Unheil</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxF6fdaKz0tQhQqholEgqLs">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzZfRU4Fs0GUs3qimpGXAcY">um herum</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2Fms1Y60UMNnh18VdEyiLw">streiten; kämpfen; schmähen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7FCChQ48kpcnWCb4DRpVm4">[pron. enkl. 3. masc. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBdxijyQRH30PMtMQPRaNnEEs">
+<w xml:lang="de" corresp="src:tlaIBUBdwtQt5LE7ka7n2FjlRwwEZk">vollkommen machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxjrQl7grEw2v9FX9Ay4dX4">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwVAkNUM2Ukzt3Bfj4AanFU">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBd049d6qWoUvJg66ZvjFB2wg">nach (temporal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0UuTqXc3EvuuhQv4BFNKQw">Wut</w>
+</s>
+<s corresp="src:tlaIBUBdWdhkNpQRU9BifchQ1WubQY">
+<w xml:lang="de" corresp="src:tlaIBUBd9W7o1xOHkqqj5hxg4ns64c">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWKQn77pA03YvQhUtVQiG7g">Frieden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxlWhdqGwkD1qm5gsapP6bw">bei (jmdm.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWGsjlRThU9XmedfFlw5yWo">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBd03dVLG9R0daizH7iuqaPBw">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwEMUeeBlkqohqPEz3sPhqE">Unheil</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWccClRA1EgYsnOQW3KWzwg">bei (jmdm.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd49oGRHDeksnvdyj863QjmU">Feind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8uqGBNFeENji3MnIWlzkls">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBdyyIA3svVkQArzCeGIqKmmM">
+<w xml:lang="de" corresp="src:tlaIBUBd425KQSB7El9uMFCcXWPcUM">er (pron. abs. 3. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7v2i5fTvkudoxBskXmasmE">Ka</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxBNoAaOg06mvYK8W2osd1w">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzcvsNEa3EYZtkuWZAWczS4">Beliebtheit</w>
+</s>
+<s corresp="src:tlaIBUBd70VqHqlwEFQsiQiRI6KFKY">
+<w xml:lang="de" corresp="src:tlaIBUBd1L8sop6SEuFpXLqnW0gXDs">unterrichten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQFx51YfEEQVq62IKwJvJrk">der Große</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ML5lFSJkgWt3cgMyarbmg">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4B3nISI7EzAhuhKH4uxnmw">Nützliches</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tJWL0xNU6IrHxQqFPBQRc">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9QMVNW6kGmqSWIGlmkpY8">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd6Wz8qRx7kJ9msT5OWClfBM">
+<w xml:lang="de" corresp="src:tlaIBUBdyJPuyRwpEI5sJtvKPGjQLE">entstehen lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7UeIk6in0CohOaWCepOqx4">Abbild</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7r9fuWHbkBplqNhkJbqFRE">sein</w>
+</s>
+<s corresp="src:tlaIBUBd8ALFa9QgUtEnaWMG4FD1Rg">
+<w xml:lang="de" corresp="src:tlaIBUBd8XWYpZDKEhckyeBIx3BtEw">veranlasse (dass)!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd79sdMUOoE07vq7t3DCWlQE">fallen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3hLTG9DpUwApeQhgNlmRwc">Weisheit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW1hAN4R5kdDk7mqgxNg4t4">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4WAjQnRoUnlj1WGuS3khVQ">auf</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzSnjLWYk0O6llLqzIEgWPc">Dienst; Ziel, Vollendung</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6axmTQSKkTFst3S2KeMrhw">sein</w>
+</s>
+<s corresp="src:tlaIBUBdyBcWKLp10eSmEFD4cuXxQk">
+<w xml:lang="de" corresp="src:tlaIBUBd3OhfvfOykFSgm8gORe4f7k">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2yk4IkCK0Xct8BTwMSgWas">Abbild</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2wn8KSgSEhCjQWwZ4Dyu2Q">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwXFEr7dv00ujTxB4WkqOhQ">Befehl</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8vn7PvrXUIRt5b7slQQdpQ">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxsxqoat3EHRtmRWDTsGjtc">sanftmütig sein, milde</w>
+</s>
+<s corresp="src:tlaIBUBd1Wn5cb5JUTJtEmlTHuE6bw">
+<w xml:lang="de" corresp="src:tlaIBUBd4eN7mliHUjQkO20QQJZEc4">gut</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxzcbJDPFEGlgpgZTk5PeE4">du, [pron. enkl. 2. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0WbtFVSOkxXlGIFrTED6y8">unter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWXXluumGEx8oeCp6Ba225k">ihr (pron. suff. 3. fem. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd7BpQNTPjEbzj1qQ3iz7gBA">
+<w xml:lang="de" corresp="src:tlaIBUBdQKYfhRRZUQcuLHfiD8fPDg">leben</w>
+</s>
+<s corresp="src:tlaIBUBdzIoEOPWlU0kuI36yZKrnwg">
+<w xml:lang="de" corresp="src:tlaIBUBd9JmApuJwURElYZ6SZLd7pY">schön machen</w>
+</s>
+<s corresp="src:tlaIBUBdQLOJOYtakPXrokyNmrQhW4">
+<w xml:lang="de" corresp="src:tlaIBUBd9upbc2erk39ldAX1FSWrV4">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxAbyO25TkoAtvrJnsj1bG0">Leib</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwNQ7WK4eUy9ktj5yLDm1BE">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9lV1yXcpUsYvlgLPwHIT28">lieben</w>
+</s>
+<s corresp="src:tlaIBUBd3O6qCLvREC5hQsBn4HuMOk">
+<w xml:lang="de" corresp="src:tlaIBUBd3WPlz8Ohk7ivvJGiDALpIY"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdyBY1S4KQUZHuz6IszMgkbo">sie</w>
+</s>
+<s corresp="src:tlaIBUBd3HqE0H9GEiQoMDRJFuLA2E">
+<w xml:lang="de" corresp="src:tlaIBUBdzOYDA4DjUoail4GWuLPIZE">fungieren als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4nJmVrSX02mrlTleLGH0Zk">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1RTf3QEDUYKmNxdqp4Wv1g">Schulter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWGEb9ukUEcLnVPUVdz7B70">gut</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8zf7KtA3UOTq5QohQ93WmA">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6W3GnUjBUwQsk131AuQlKY">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWAZ1o1NkkrZhHqfY5QX0eM">bei (jmdm.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx1ZkqdHW0PFrIA660zO5W0">Ehrwürdiger</w>
+</s>
+<s corresp="src:tlaIBUBd8l5T1Rqdk8xu8WQs8wDHgQ">
+<w xml:lang="de" corresp="src:tlaIBUBd3EM2JE5dUvDh0hpRSNXJ1A">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Ul98cICE3Nn1QFElyBrVU">Beliebtheit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzyhRSEASUTonIFurUdAImU">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQsW7ceIdUDmgEi5nWlTQds">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6REoAW6Vk2Kp4Ucuoc6yQE">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQbS003Tkj8l5WeQWvX8WA">Leib</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwvqmYGQr0KypzvHLvXeSGo">jeder</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWfr3kVNkkFgkPMCquCt7O4">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8N9Ke5XM0lLip39e8ibFNA">du, [pron. enkl. 2. masc. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBd1SwOz5kh0EWt9N3SOTrrQA">
+<w xml:lang="de" corresp="src:tlaIBUBd5jRzeDQfUD0miDeyTZGQZA">Besitzer des Ka (bildl. für der Glückliche)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWJgQshq4kfapAH69rwbJaw">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQKyU1ZzDUZyn8FjZubL7rA">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6wVWOGjp0dIgLxAQkURCxg">hören</w>
+</s>
+<s corresp="src:tlaIBUBd6csNUBVqUYMldJEB7Clmh4">
+<w xml:lang="de" corresp="src:tlaIBUBdQLr9EbajEsdng3WLbunITc">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyt0pycr7EJzknekfiwQ8UU">fungieren als</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxeUoI4vokkktGIqchx1MUI">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyZUTB10nE0zkvpkEkcGu9o">von guter Herkunft</w>
+<w xml:lang="de" corresp="src:tlaIBUBd75aDRSrN0HQtRDGMNBV8X4">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3WXUPxX4klaomwAHidAuso">Gerichtshof</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3OO7K5VmkQDkF7c2N1C86g">hoher Beamter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzX1XGU8DkWok1oQtVZWH7k">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzGBrb1X0kTthocsgHz4gmY">zufriedenstellen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd32HTiM30kdNnJhTKjrHB64">Menge; Masse; Volk</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1whfNiNYkTGk2b3WLuwcPA">abhalten; zurückhalten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2WziOXn6U8ngQndBLWQG3E">die Arme</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzKzWkF0gkUUof7zpD9MR4k">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0V219iaM05Uq03uycEw2xY">richten</w>
+</s>
+<s corresp="src:tlaIBUBdwV4sGGdMUtBv5xUC27vBuU">
+<w xml:lang="de" corresp="src:tlaIBUBdWTVRj2sCETasINlFLNw1AU">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6MaLDqa0E2ZhBJnUdlulII">parteiisch sein (u. Ä.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6C7PQmFWUkljgvFASg8ZbU">trennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxnnTWocN0bBnE7OGHHWKlo">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6cqurqBP0fMue3tsiT94NQ">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQlOvvoavUEeg1ihOxxqgXE">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+</s>
+<s corresp="src:tlaIBUBdQan6e3SAE4Xp4l7yBIAf6M">
+<w xml:lang="de" corresp="src:tlaIBUBd7w5sNsp3EInnnQxgEMRPpc">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3rGMxJfGEEQlQJeCQ4oW70">strafen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd26ZW2hvaUeCtfVAsW2H2ik">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1FJhkJ8p0SsjNhiJEIReMM">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxFDXEjChEP9s1slFDZ36ck">Fall</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy0Ruylxy0V9oSyCRwHeQ5s">geschehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxkyrSSI00RbkLTxVV2vofI">sich neigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4P8YILQ9UKLhEMHGMQwIb0">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3GxOLjhuUZ7jl2IFUflQ5w">hin zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Hjm2fy2UYInPZwJWK8xlk">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5G4hLJGqkWdt8ErZWNh8n8">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Pk0NN7g0EivSQdrgXZYWE">Bedürfnis</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW40uHoGHUjwmkcIalMrMc0">sein</w>
+</s>
+<s corresp="src:tlaIBUBdyTLe9J5SUxXiV75pmnkUiM">
+<w xml:lang="de" corresp="src:tlaIBUBdWnJdfhhgksNrmTogHSJItY">gib!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0w5VlvTSEU4h4FJEL4WQIs">[pron. enkl. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwi4paITbEuqpAxXj5Z9TLM">zu (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5FUuFZMLUT3oyF2pm6V30k">Erde</w>
+</s>
+<s corresp="src:tlaIBUBd2innprmMEZOqiEg2SfN5wY">
+<w xml:lang="de" corresp="src:tlaIBUBdyrb87wyB0vyoJcBQHvImGU">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1h8NeQnpknjjvv8sRstzhE">(etwas) erinnern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7bpRADLVUQajeSepOdyq7o">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4JSaCLKBEqcuAIUKXai3Qo">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3XIrVBECUJahe91rOmQhto">es, [pron. enkl. 3. sg.</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MKOpYErUZ7luturYRStNc">so wie; wenn (konjunktional)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9TjNteSF0QOmErDfzsQaoQ"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd5xqQvwkdE3enwNZSN7WvLQ">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7jHIcMnL003niYXkasPWm8">am (temporal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxI2zyKgAUkrmUiT3L89CH0">erstes Mal</w>
+</s>
+<s corresp="src:tlaIBUBdQWwkEIHqU2DlTnbNzpgu60">
+<w xml:lang="de" corresp="src:tlaIBUBd9YaNsn5c0jPp8RY7l7X7y4">was anbetrifft (Hervorhebungspartikel)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5og5Fh5eE2HlgSUAinxPfE">strafen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4QWOlVAIkqFp5Oy12EQmfQ">[zusammengesetzte Negationspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ySvtWXgEUige3ZnQgnRiQ">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ5SWP7oL0QnsGylbjNWWQw">tun</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwoRC8wC407DiuIqPAtIsgc">veranlassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxkXw1ACPUt1lYRZWkt1RLs">entstehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9QBnRiWREHSmLLQQEsRnao">sich beklagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxSrCi2fDkmlq8FNsbJOE30">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxiyef1lokjXnaU8NuQP5eI">zu (rollisch)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4SxHTtn0EKGuRJWZFUUAi8">Rebell</w>
+</s>
+<s corresp="src:tlaIBUBd3CjGgXSiERWsMrwQldzc7U">
+<w xml:lang="de" corresp="src:tlaIBUBd8sKCDnTM0b9r2SfuA4uP8Y">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQGfInuF50tur8y8Kk6Qabk">groß werden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxi0c3CCY0oKtmCKTUdMog4">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1sviFqylEcqqHlQXzSDobY">nach (temporal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2cBvi5RVkWjuf9xMa7H1EY">Niedrigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3RPE99TOUZUrq9FWJWRH48">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5qTnhSqSkblmUHVwBgUjGU">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9y9lRUv3kQwlVSzjMro0Hc"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdWPs0SjSHUzDokhC8LJwi2M"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdWdOGa95VkGbo9U72FQ6RmQ">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd43IhNjD1U5elhQ3mHMs0vI">erflehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5s4TzhO10DGimuTFJPHBDM">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0iLDdrEQkdvjHv4n9avyFI">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW0ChM46Qk00jcsuPWjiTN8">früher</w>
+</s>
+<s corresp="src:tlaIBUBd3S7oMmczU83juELcNYd8l8">
+<w xml:lang="de" corresp="src:tlaIBUBd06RLbK8rEaNsUAXMWy0yMA">Reichtum</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyLJRG6jWERWuOx2rYqnt4Q">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzJqnCCpyUvqr8Hu9ta6PMQ"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd4IkgA7HdknOiOCDOzzUzCo">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBdwlBWkgx4Enkt9eldI9bib0">
+<w xml:lang="de" corresp="src:tlaIBUBd2HM3k8w6k8KsqlHtkyhOdI">Haus</w>
+</s>
+<s corresp="src:tlaIBUBd8FBvcoKUUx5pWHuKfzqwfg">
+<w xml:lang="de" corresp="src:tlaIBUBd0qeRcq5j0grgOiYcEGWWu8">sich hüten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1cKILG6rEZFtwdiYqXgzXI">gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0plQUeRnEoHh5jbwlfRDu0">parteiisch sein (u. Ä.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0qKHZYCdkx9mFuxOVrsqLk">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd88sO2z7QUZutSoQyPgrQdk">dort</w>
+</s>
+<s corresp="src:tlaIBUBd78NcMWj90HthY8geKjn0z4">
+<w xml:lang="de" corresp="src:tlaIBUBd7wC7F7BWkL2pxNrkUDa5fY">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWmj0BZNO0Cai95KuSDvUlo">abschneiden</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyf01Irdok96onI9SzhBwtY">Name</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzQnaQRogUuRp4dopzpQyWo">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd231maRGFUaklaW5eOfv8Oo">bei (jmdm.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3VIW7QJy0hAgz2zUgJcul4">hoher Beamter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd05dQ5FJzUZAuP6e4q4dpP0">vor, bevor</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90AWsAo50sYgOMBYDwV6Lc">sprechen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWlc1IeRIkKgi03j7k3xrBI">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Qk9ZYaokgot1Xrt0XiQiA">in Gegenwart von</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2B8Ksl93UJHqgHlRaiV58w">davon</w>
+</s>
+<s corresp="src:tlaIBUBd3vVMr7QFUd2nQHSiajyOoQ">
+<w xml:lang="de" corresp="src:tlaIBUBdyOvwd3gPkjrhT6bf1GI3Js">beugen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1vQoHzXgUHOshEbRXGCdxA">Rücken</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2q1vJb1j0MitHpo5dtn76I">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3TCifwGhE8xhLG9IyqJUrQ">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3KOzEQTbUMPqcEFsGsIdbU">Oberhaupt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd81axjrsjkovuMzB4UhQmeo">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7sUIXFiQ0HhsUUGhpoIXeA">Vorsteher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd08j4vowpkf8ptoFegy3FEk">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd45wOtxY2k2eoVO24dIHeqA">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1rumaWlX01hnBs7w3TElUA">[Amtsgebäude (u. Ä.)]</w>
+</s>
+<s corresp="src:tlaIBUBd1XUM7c9QktIhQp6rD3pX6w">
+<w xml:lang="de" corresp="src:tlaIBUBd4FFIioAzU0bmnPizG5hc4I">existieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2tyY5i0hkGplZ1e6lceKgc">Haus</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQVibDJZw0B4nnHeqaqKqvo">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2JkrgVOrEjOl1tRcBO8odo">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQaEEK9G80nGrffljYGHa2Q">Tüchtigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8rSXJ54iEwaiOFrWixRh90"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd9zjLC7jWEWKm1MvAUWnKk4">Bezahlung</w>
+<w xml:lang="de" corresp="src:tlaIBUBd37bcUm5u0BVkYk2YOTWt1k">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6ObDWBVGUdZijCvhRXKGSs">fortdauern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6bQ4fxGBU6mrjzkU4MxVzA">gemäß</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzWYe1pJyEhGrUcMpw2J95U">Stelle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6oA9FpHMELQo5xl2zZQLGw">davon</w>
+</s>
+<s corresp="src:tlaIBUBd49QkJ7dB0CPsQukFmCPdh4">
+<w xml:lang="de" corresp="src:tlaIBUBdxbwV2L7v0zZmOyP7jWAMfc">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQWKDLWSeEdkmuJcqm19waA">gekrümmt sein (vom Oberarm)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4CMWQQF0U1jufZCQ2z3HRM">Oberarm</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90lDeWAkUOTkrBc5FsiWtk">weil, wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdykBmqX230NPkVExmnLmG88">entblößen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwegvTMs3UwDte4iXH0YXL0">sein</w>
+</s>
+<s corresp="src:tlaIBUBd7UAxP9kxUHJlmRQJwITdQ0">
+<w xml:lang="de" corresp="src:tlaIBUBd8dBBrB4CEOBkBxsLMLJkxA">schlimm sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3GvYEY140lumCf27z9pXMw">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4NM0OWxX07Orkt5Ips5WH0">Widersacher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Et6xNAXEXNoBdjdaIjXK0">als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7uUg2Jzo0mYjEdMRhZKlso">Oberhaupt</w>
+</s>
+<s corresp="src:tlaIBUBd4AO3KycXUfllkWH2uemJq4">
+<w xml:lang="de" corresp="src:tlaIBUBd8M1FNmX9U0dqRtXfuWsYQ0">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6f6XnPJIE8yhTRHxFJl638"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdQhCpx4KekS5vXWfzmSRjhs">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWKxGqGq6UHWgCV9wQyQY1w">[Präposition]</w>
+</s>
+<s corresp="src:tlaIBUBdziDVgMIvkWQvmMGI30DWVw">
+<w xml:lang="de" corresp="src:tlaIBUBdzzNzGopdkXTsc3OWkaQuXM">Nachbarn</w>
+</s>
+<s corresp="src:tlaIBUBdwtniCq5pEoYkuo4xvwUb2o">
+<w xml:lang="de" corresp="src:tlaIBUBdw2WCE7HGkl1nfxFMixTILY">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7nNUoUkfEA1jaBtSwDThZQ">nehmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9VmQjH5QE8TnzOWeQwD0lc">nahe sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd00BnQcUlE6UseVxdXq3eYc">zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7uJleyRwkFOlp6dLny77Xs">du</w>
+</s>
+<s corresp="src:tlaIBUBd1nmNViHSU0ejgLMTwhRYRA">
+<w xml:lang="de" corresp="src:tlaIBUBdQFWIAqBYEtrtDMnXohIkqQ">[Negationswort, systematisch unterschieden von n]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWfRE5lUukAzqPAcpyDHsgk">es, [pron. enkl. 3. sg.</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3N4ZAJQJ0H6ub89AUsX6Cs">wirkungsmächtig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwvysgnrLESjuZ3W18zczL0">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyeAaPWcgk3ujlXSh3gcPG8">tun</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQYfgjqEk5bh3mqEKlEfGE">es, [pron. enkl. 3. sg.</w>
+</s>
+<s corresp="src:tlaIBUBd3MG7iFgCUDRv6JtVzm6OmI">
+<w xml:lang="de" corresp="src:tlaIBUBd618AQUuEUUCrlORvwYPoc0">nicht sollen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWsyWOepZEvYmHc04jyl4XA">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwm1amnrWUNagPh74zr6T2Y">verklagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1Q0ogwyb0yutRGh4JTRKrM">zu, bis (temp.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Wzju75DEl9iKa3tpnhC1Y">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwilq1JT1UnLmTjHrWvxsGM">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxKLyd0t702evqEMVkbQkRY">es, [pron. enkl. 3. sg.</w>
+</s>
+<s corresp="src:tlaIBUBd78YvsQUSEgFhGAB2eSZuTA">
+<w xml:lang="de" corresp="src:tlaIBUBd3dJyo0EW0Y6mWV4xJk3BwI">Unsinnigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7itrTarVEBptF0Q3GxkgzM">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5EqhLVyKUK0jiSO0NLh4B4">schlecht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWxIwcfJE0eEs8JUxLpa01w">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3C10j0NZERfog16uWXJjSk">als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd64bG764x0L3nqfm8uRysHA">[schlechte Eigenschaft des Herzens]</w>
+</s>
+<s corresp="src:tlaIBUBdy9I1r9B3UXqh0PTATGuT7g">
+<w xml:lang="de" corresp="src:tlaIBUBd9eMoqdBH0qXvKujNyOBsyU">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQtfxWhVeUO0noJnKz9pFhA">wissen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxQablQW3kUtpvAMBjROWhE">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyLe7z3HUUvMqGatFkyC8o0">es, [pron. enkl. 3. sg.</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6fDH8AhKUPCnAoSakAWnYk">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9fTZ0PJQ06zsAEuKn8jrRQ">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd84z7EnqlUPQqO2L7Wk7zqw">[zur Bildung des Futurs]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3xrYqN2WElwtfAhvv8ENI0">Feind</w>
+</s>
+<s corresp="src:tlaIBUBd1FLgk5hvUtMrFvyyqrEBsA">
+<w xml:lang="de" corresp="src:tlaIBUBd5S9M6lB702bgjySEstIwfU">schlimm sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWC7tWkgRU5QnZWIcC0NmZY">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxwLPc6sDkAko5gC1GXRczk">Widersacher</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5bedMVqKU98mKQYAJQQaiQ">als</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxkeC2AkS0prq8FQcUuI2hw">Nachbarn</w>
+</s>
+<s corresp="src:tlaIBUBdwmDlCiM9kTrkNLPkGbmyco">
+<w xml:lang="de" corresp="src:tlaIBUBd187jCCH8UhDuGeFUaRB3oA">nicht sollen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7DEkQGdEkt1uQWIRNQxzD0">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzbRocHrFkknpSWUVqvWuxE">koitieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Ln3OfItkfjnDLyQh200MU">Weib, Frau</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxn4iLWrjUKerIo7De2trdQ">Kind</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwKRx5Nzv0RWo5JMQUjkioU">erkennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwHdI1LYV0Mbrgk7LR02eEw">[Suffix Pron. sg.2.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd88i2gP2fEXahXCHTbLvSnM">
+<w xml:lang="de" corresp="src:tlaIBUBd3p7LeUghE71q39t5Lu6kmk">um zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBdySoOllhFkLurfawdfDYiJo">tun</w>
+</s>
+<s corresp="src:tlaIBUBd4VMy1BLi0lZiwHmuaj6Z88">
+<w xml:lang="de" corresp="src:tlaIBUBdziTQ9AGAEtQiJTmSAQKeSk">[Negationswort, systematisch unterschieden von n]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0ySQlw9xUc6hfzDnYabOQM">schweigen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwrMqCGdQEILvWHRhiY1BWs">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3E9lmPa00PuivSHqnwMMzg">wegen</w>
+</s>
+<s corresp="src:tlaIBUBd6MGQI2qdEE5kwyg6XdY5Y8">
+<w xml:lang="de" corresp="src:tlaIBUBd3WKOHluL01lgGDNsc5ipYg">kühl sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2H2owZ59EuXj1Edb0g7xMQ">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd14kUeEnuk79rXgNKBS6TPA">nachdem</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6CpNTRZWUmxnR3KQdQQ3AY">zerstören</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxX4T5XqOEFpi9qjkJKHHHQ">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx60rjEcU07EpZ2TCU3C9Ew">Wunsch</w>
+</s>
+<s corresp="src:tlaIBUBd7IUZhUInEkZiEoorM4C8VM">
+<w xml:lang="de" corresp="src:tlaIBUBd8942Q6OZkeWrsDB2bClpZE">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2sRtOt4vk4BjBJds1lDUiI">untersuchen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7nltkNIlEEBhABJWwsvKOQ">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWjbBnNQdk2Fnu3S1IJ3i3U">Charakter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4QZEvJdLEZ1lZGndvRngV8">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy2GlZPDQE5Tre9jsRyz23Y">Freund</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7CuFbXIL0sDlcITw2qvFIc">wenn (Konjunktion)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9HuHAAtfk1jr3JCfyeNecg">fragen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ8D9MIw3UoJrLW2Z3ZJjZw">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW9GrhoZZ0zksWXQ3CjbGVw">nahe sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7RAcLTjp0wLkhcBKo75J3c">zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyNLndyPSUG3m2W0RSq3NtM">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8uOmrFcCUpMgKAoqQgyURI">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd58yX97z6km7sSje9nWWwpM">Fall</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyExsL1HikYKnCHotnVVYbg">zusammen mit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWlMjQzLuEYZl7zymkqGvb0">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd97mHGde2EQyqAHmwLbshok">allein sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8g7SeUgXUkahKDJTKk8JQA">[Negationsverb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8WDfwO9dEJprmKRWQ4O5fs">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxkBgfjlo0bUin2Ay0rTBsY">erfolgreich sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4YdAylUMUlLqb3Nsi7v0W4">er</w>
+</s>
+<s corresp="src:tlaIBUBd51ObnLNDEzcjtaQ8CFhCNk">
+<w xml:lang="de" corresp="src:tlaIBUBdWxuJrKvZkGNkrtjpjwIV4k">beraten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQrusGoXjU9ynEt5jbDUTgE">zusammen mit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQtylNSOtEJIqMfmkvclgPM">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd42XI6zeY0ifoWtsvwJud7w">nach (temporal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8MxL2Ij5EQfnUrtxEKnz8o">Zeit</w>
+</s>
+<s corresp="src:tlaIBUBdxW7kLmWNkuvif5AS9OA7QQ">
+<w xml:lang="de" corresp="src:tlaIBUBd8QSYZL620zvrQRQHpb8hQA"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdzmO8xtkdk5QsXQOtegSje8"></w>
+</s>
+<s corresp="src:tlaIBUBd5Axdj4B7Uxgu6GqjrXQMRc">
+<w xml:lang="de" corresp="src:tlaIBUBd5xN5ekWl0W6mCQ7ERbGCLM">(das Herz) prüfen (?)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQFHCUQzH0WVkdQHGWGVGxg">ärgerlich sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3JUQrsqiUrTl6AZtmQv66Y">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8PDfhkHIUdyhdZ7A1nyQ6I"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdzX8jq7XaU8BqM3x1gvdTRE">ihn</w>
+</s>
+<s corresp="src:tlaIBUBd1TQ4bfRqkaTmWDVu9KUDiM">
+<w xml:lang="de" corresp="src:tlaIBUBd8H97KIFc0Q2iMWbnMwwxsA">[Partikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7OthR2vlkY8oKMsywose7A">[Suffix Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9jIEHeul0aRrvILQZvusa0">sich befreunden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5LdNc9zykKaktKuQWqaKvw">[pron. enkl. 3. masc. sg.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8VQ5qx5pEy7lOn9MKRlLs4">auch, ebenfalls</w>
+</s>
+<s corresp="src:tlaIBUBd1p2UjESIU5wr2xKfjE2fUI">
+<w xml:lang="de" corresp="src:tlaIBUBd4QmUSQ21UsJkHXHXTfsnJk">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3jlhTZXGkp4ljoRQZ2UpnI">ergreifen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw8Zt5Lgb0NIoKXDBGhkvpw">Gesicht</w>
+</s>
+<s corresp="src:tlaIBUBdxjSSXMQzk9apW8gg24XfEg">
+<w xml:lang="de" corresp="src:tlaIBUBd9P7Nxfw6UY1kxw0PMpdrLY">sich hüten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8c2XaAMZkrouUKQQTQPYFg">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd966z0In8UOthuLTPrYWsdQ">öffnen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5avuACOUkHRpAfmbeDyGiI">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9OEpAJlhUkuvFD86G2v8iE">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQeWcmWxn0tYkxYFnQjYbZ0">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwUCQ6WSLUAOh9WGtmLll04">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBdxWdQSjlzkpYmmM2ZVYVYtY">
+<w xml:lang="de" corresp="src:tlaIBUBd4fLYPJcyEH3iYo6XaZ3Pmg">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwmXqgqqfkiXumw0BVSjjOI">sich mischen (unter)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3mnTey7AE5XmWQwP3oZIag">mittels</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyW5c1zuq02HpXpdKUgGkFQ"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd9EdldYxCkfEm8yqaudNGMQ">Aufruhr</w>
+</s>
+<s corresp="src:tlaIBUBd91nFJbz3kUojH37EXYjxp0">
+<w xml:lang="de" corresp="src:tlaIBUBd4JiFM0mHUJDvW6jQdDAdkA">sich hüten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2sfYgRueUnduHcCnR9subE">nicht (Imperativ des Negativverbs jmi̯)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd34CaLx69Ulbj5xerWXyHv8">beschuldigen</w>
+</s>
+<s corresp="src:tlaIBUBd1uGrRpsmkWJoEWQV0JSeZY">
+<w xml:lang="de" corresp="src:tlaIBUBd5v3xu1gWkndsQnCuKMB0vg">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ6HfKxpfUuwovSyUMUTMVk">(etwas) getan haben (in der Vergangenheit)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd32nKOSQKkWNqWlLKcJAC1E">Ende</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6JU6O31bUKulYKGwgo3Zio">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd84XQeF8hU9shCTz6i5g9Pg">[Negationsverb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4QSKMkK5EwtunVodhBw0gM">kommen</w>
+</s>
+<s corresp="src:tlaIBUBdwfP3XcSrEfSt3GQ2UNAw84">
+<w xml:lang="de" corresp="src:tlaIBUBd3ScT8t7n0s7mzsDgBcQWKM">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9bRP4eDO0xEjACXCb5o5NQ">entkommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd83mAi1vbkxHidcW8o9TDSc">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyEtNDQw70xnqHXBU4CeEs4">an</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6t0lxAG301LgFQGAc2LOLs">bestimmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7P6ABnQVkVGjtWjZzJ3NWs">[pron. enkl. 3. masc. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBdz6i774t6EDXgW29gVQvmk8">
+<w xml:lang="de" corresp="src:tlaIBUBdztEYxjJ90tupMSnDjDfrWU">hell sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyoYpWDMTkB1gTmtPcHNOSo">Gesicht</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzhOfsJvdUYNhyrTJ3O98Iw">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBdxIgvgSWQEnAkkQhMHT4gNg">
+<w xml:lang="de" corresp="src:tlaIBUBdW3iqo8QdE9Lmi02F5XRQqg">machen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyUTQ6t2h0FVv6gvDJm7yiQ">[Betonungspartikel]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9PVsTy8NknalxVwsOxPVrY">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyQBCyW9h0LnqhNTP5qWRNQ">Fest</w>
+</s>
+<s corresp="src:tlaIBUBd9iZRXynYUsCvWU2hZAR2gE">
+<w xml:lang="de" corresp="src:tlaIBUBdWzwAWSSz0EAgIWlQliON84">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzxrU7auNEOkrbWgfLWdkfk">herauskommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tGtOHSXUCkhKSSYiJvIaw">aus (lokal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3lXrsVRLEHnjcNAAPzZx80">Kornspeicher</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxau8NflvkOOg5twQAFLjn4">[Negationswort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxFDCMQaRkRbgtKOzT4spgE">eintreten</w>
+</s>
+<s corresp="src:tlaIBUBdWduZzuEO0UWra5AzAMSrCM">
+<w xml:lang="de" corresp="src:tlaIBUBdxtol12Dn0fWmoQlKpe1MzA">[Hervorhebungspartikel in der jn-Konstruktion]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0Y860xpdkzgnrYLoYa6WCw">Brot (allg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyGlQoLZCEeYgrIFppwaM08">teilen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW5nNZjWpEgngwj7HKjztLM">gierig sein (nach)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQC0RQTGJUqIj7Oz0gzLrpA">wegen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ZlTvFxzEU0qWA0TCux1xs">ihn</w>
+</s>
+<s corresp="src:tlaIBUBd6t3kci7l0RXrVQWJ63OtTQ">
+<w xml:lang="de" corresp="src:tlaIBUBd1pSW8cCg0CJqTahdWs4hyA">Feind</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEFJlYkZ0jQvOa7YKKN3n0">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwgBz5F5ZEecrGtnQi9DcTY">leer sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8lqb9Znqk0cn0bxs5KkVsQ">Bauch</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4kJbNnfbUdTjRgRjoQtaao">sein</w>
+</s>
+<s corresp="src:tlaIBUBd47Whg0YPULEjbFJ1qoQGLw">
+<w xml:lang="de" corresp="src:tlaIBUBdw1QSUDun08attwO5Tm1wRY">Erinnerung</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWszyucyPUYmrNsGJVjfGXs">mein (pron. suff. 1. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd33AguVk7E7pi5TJQWDYsdk">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwjgV0ISvENAlidrqc8WsaE">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz5rk25hFEJ9h1wQrTmpQVY">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6lc2WqTlE3mlUrrm4BjpBY">Liebenswürdigkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0hjJ8rj6EjprCjU4xfQASg">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQEmpISuXUREjphxWlOdvs0">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw1UN154KEbakMzCnihLosg">im</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWztFYRrQ0wSp6qoeyj3AEU">Jahr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1wP8glSnkqysSGwovu5mIA">befindlich hinter</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxTSzhIetknjtFykK9C076g">[ein Zepter]</w>
+</s>
+<s corresp="src:tlaIBUBd6bjJ2Pmk0mFpnX5EnuvkKc">
+<w xml:lang="de" corresp="src:tlaIBUBd6depaf6Gk8jsUkxBsOOKsE">respektieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQ7BzYBI2EG4teak3IQSkwQ">Nachbarn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0qUsMlJlEeqhYTVUjllkE4">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWyktKEEkkvuozc5EpANcsU">existieren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwZLwHFznUEVjKOvfIyQEAg">Besitz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4VLHa4QIEI8s8ujVZs4BU4">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd0w6wcnb7kABiad76GJGWvU">
+<w xml:lang="de" corresp="src:tlaIBUBd3Smf2k1lEn7rQYo1J3oCJ4">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6EjokmzlkkeggUMO1PTQAU">Verhalten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1e9uhrfnU4Wmku0oCbxUYU">dein (pron. suff. 2. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3hzhNor3EycuT99s82g8VE">gegen (Personen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQqlT4aXW07Ph4uKuarvsio">Freund</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8ralcDD5Umiig6O0Zpbpao">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd2QawuUWy0gku0fbQB1ZQc8">
+<w xml:lang="de" corresp="src:tlaIBUBd0FwPfa730LCvGJ2J9tE1os">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzyO6dSRb0GFmdwxgQVXX5Q">Ufer</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9QRzvLPZEL5sBQMQQTcJjI">voll sein; füllen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6zRzc7GM0rHupzrVFsQiBg">er</w>
+</s>
+<s corresp="src:tlaIBUBd63vwjBaJ0mVkXH0Fz8M1qQ">
+<w xml:lang="de" corresp="src:tlaIBUBdxfs1oT6GELAqGmcasgohP4">groß</w>
+<w xml:lang="de" corresp="src:tlaIBUBd85OAqirUUvqhkaktzR2PHM">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6QGdNUx50J0rITlNrrKudc">mehr als (Komparativ)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1wro157zkzGp6kQVRyDjyc">Kostbarkeiten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQzgkASou0EEkj69cSlmQLQ"></w>
+</s>
+<s corresp="src:tlaIBUBd1Ko90jvlEsJiCBkgEswcL4">
+<w xml:lang="de" corresp="src:tlaIBUBd02qCIa7Hkkihftqau2xJBk">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd01xXSHFaEZZlBtmje6Uyw8">Besitz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4WDSNWXXkdroJ5g6NpQYdg">der Andere</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7IndojEwEEQuttufroRBlM">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0WuQQSQQUYnpRwMb6Fxyg4">der Andere</w>
+</s>
+<s corresp="src:tlaIBUBd6zi20K48Uijv89WRypP1UE">
+<w xml:lang="de" corresp="src:tlaIBUBd0L6Mtucf0tVpsv8aeTfORE">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd810gRag8kBvkkd0ufWlGTs">Wesen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1MQZLX2J0cHiwwYmFgs2XQ">vollkommen</w>
+</s>
+<s corresp="src:tlaIBUBd3eftGa0hE4Bl3TL6Nokrrk">
+<w xml:lang="de" corresp="src:tlaIBUBdydK9QJu7059jWCQbCn0flU">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzYARfpthkjqvsMZIe0WOUM"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd8zg0j1eRk93i62mtvbKDI4">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6Imi51WcUrBlrmoyiaRV2Y">Weib, Frau</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6UK8qqtJUozn4XMGQ9zWjY">als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2ejJFyNAEKTnH5O9xBhNwk">üppige Frau</w>
+<w xml:lang="de" corresp="src:tlaIBUBd24MRLkkw0adkdKHDUsvQDk">sich freuen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzE6Y4rPmkUenDhqWOOr9Fw">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9MQ8Lcs8EFluNS0WyBGiV0">kennen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQi3BB8VlESfsQi9llLZf3k">Stadt</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9ALQQEV9EssomZH5BSpbJk">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWlTgWR1eUf0tg7eJQk4KHU">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdW5NV2Gsm0mJq98T8TFmD9s">[Suffix Pron.sg.3.f.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0BXTSQEC01TlWWq7INdgMg">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd54DeGXWnEthubGAcZKO5DE">Gesetz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4wG95kgeUBMpiu4yGymQew">Zeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw32gBqaxkGTpTTBKWPOPek">sie</w>
+</s>
+<s corresp="src:tlaIBUBdW1SBXhMeEhFjdJ4orUWgWo">
+<w xml:lang="de" corresp="src:tlaIBUBd1vsdYqEQUoEjfA0PybBUtc">wohlgenährt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2RNjMFkOkB8rFtOkTMyuQ4">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxwF1zBSm0lImgx0aBpWn0o">von (etwas)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy4veiqzwERFmlsPRQdI9N0">Essen (Nahrung)</w>
+</s>
+<s corresp="src:tlaIBUBd2uKuWAfCE02j57eYHifaPo">
+<w xml:lang="de" corresp="src:tlaIBUBdwrZdLJhLELIhlIwXKWS8GU">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzAfCWfuqkFKlWwQ3iyixWE">von (etwas)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWWREAFtOkD5ipFuGjoDSUM">vollständig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4Wngw7sIkPKtZ7od2QpWZs">Herz</w>
+</s>
+<s corresp="src:tlaIBUBd4n9QIN72kN6lMyv6FoDhLM">
+<w xml:lang="de" corresp="src:tlaIBUBd1lY5ZJOZ0uRvYtizrWRWNM">[zur Satzmarkierung und in komplexen Verbformen]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7T0miqfeU0RjKW2EEo3yH4">sich freuen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQVNJd9qTUyGmCaTkRixwBM">prüfen</w>
+</s>
+<s corresp="src:tlaIBUBd69haOfllkExuSQFbBssCqA">
+<w xml:lang="de" corresp="src:tlaIBUBd3cQPP5CBE5VolwJmxw12vo">wenn (konditional)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0qGNOGugkcntlo2cwIScRQ">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2lE0DF4qk2bj3ndgGCw7AM">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9iPRJTe8EImvZcaBMz2lp0">diese (pron. dem. pl.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy8BwGGfdUnWpacQDsb1VZk">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2xWzMbYzEAbm3r29mH4P3U">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzSGxwzL7UWZoerbRRJNWP4">wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQsWqdoco0QnliRdmj9wbqM">die Vorfahren</w>
+</s>
+<s corresp="src:tlaIBUBd03ineXyOEOFtp3sXm5NknY">
+<w xml:lang="de" corresp="src:tlaIBUBd8q98rAcPkzWoOaqPypf7tc"></w>
+<w xml:lang="de" corresp="src:tlaIBUBdwoQuFIpikgwuXN4r5z1pf0">wegen (Grund, Zweck)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd35zjubmSE6boTOcMBq15ck">Vortrefflichkeit</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyi4eBn4uUOdr0kPHLdFF5Y">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8QcE8236UW5qqPOGP6cYVE">Spruch</w>
+</s>
+<s corresp="src:tlaIBUBd2ZOD0yjYUzfiNODUy5hsuY">
+<w xml:lang="de" corresp="src:tlaIBUBd1tAfOHqgUhTr9277SbxUsg">dauern</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5rXFMr8UEzvrco8StILUOA">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWJCoxTa5k0quvG8R9BxJyI">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1mhWvxPs007tZ5t88dwiWk">Erde</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6xq9uIujEC1tQluhvVKRLU">dieser (pron. dem. masc. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5e8H1NRFEU7plwIL0e7WbU">ewiglich</w>
+<w xml:lang="de" corresp="src:tlaIBUBd23CPUQabE4En8Z5iVN7yWY">Ausspruch; Gedanke</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzTxGSqS501yrcWavfx1J9o">gut; schön</w>
+</s>
+<s corresp="src:tlaIBUBdwFxsDxuvEvblfX4kIyC7Nk">
+<w xml:lang="de" corresp="src:tlaIBUBd6JSRCWsUUGqojVCy7JD1UU">wenn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2pWRTEfGEE4jFL65JCYhWQ">kommen</w>
+</s>
+<s corresp="src:tlaIBUBdxDF0xgiHUIJj9vpCLmLWbc">
+<w xml:lang="de" corresp="src:tlaIBUBdxAdAhvLiUoZmlwDhileYpY">[Partikel (außerhalb der Negation)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7kNESWpwETrvWG0N1gOBAg">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5Wk8fqNXEqZnnIAOMydgf8">du</w>
+<w xml:lang="de" corresp="src:tlaIBUBdynlTEtT9ENLuQmZDYYMhEw">Sohn</w>
+</s>
+<s corresp="src:tlaIBUBd4bxYeY9cEzghQzRPsqobbM">
+<w xml:lang="de" corresp="src:tlaIBUBdw1WfjmwF0fMny82QNnzwdk">nützlich</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwJRSlhUSUQkuVJcLXChCl0">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzzL4FA4e0jMrCNnexLg9hA">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyCHe8f37U0erccQNBNYAKQ">Gehorsamer</w>
+</s>
+<s corresp="src:tlaIBUBdQvXQTCF1kZZgeKGDUtALjM">
+<w xml:lang="de" corresp="src:tlaIBUBd8yaiV8AakBkvcXbfWNLc0A">eintreten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7ulcW0ebUQtrWJAvoW82ww">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0L0dh3OjUE7jRQ7ytbnAOg">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw7vfRGLVUPuvx364vC5KxY">hören</w>
+</s>
+<s corresp="src:tlaIBUBd62qlb6huEWyhwC6LzlJGD0">
+<w xml:lang="de" corresp="src:tlaIBUBd4LeW1cSu0QynbASLb7Th3c">vollkommen sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3VxLAjYIEfhm1sYNUh9B9s">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd094Huy6L0B1jTrVXzj006k">vollkommen sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5AiJStyo0iJnXgay7VLx4c">richten (zwischen zwei Parteien)</w>
+</s>
+<s corresp="src:tlaIBUBd7gbSuyLdEoEs8ujINFCTs4">
+<w xml:lang="de" corresp="src:tlaIBUBd6V2PMfo90R6lCJAYomugpg">annehmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8oM3Uxpa0ulnGwHEGTQlRc">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3hw3U28tEjDrUAfc2hIvKs">Herr</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5xSjhwJWUjrrqRtf5Clapg">Nützliches</w>
+</s>
+<s corresp="src:tlaIBUBd30belATMULknaSy3W6KXWI">
+<w xml:lang="de" corresp="src:tlaIBUBd6mWBdQfo0cQqWj4yJ0bfRQ">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3eDjTW6vUueveiFQMWQqOI">hören</w>
+</s>
+<s corresp="src:tlaIBUBd1FqArbW3E1Dri9BqKQcboE">
+<w xml:lang="de" corresp="src:tlaIBUBd1ZlDLTCAkLShnnpNzyVcnk">lieben</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy93RzYWIkS3imJnQoQwu24">Gott</w>
+</s>
+<s corresp="src:tlaIBUBd9Ao371p70kLtEjOto1AoQg">
+<w xml:lang="de" corresp="src:tlaIBUBd79vgkkAEkWUgVC4A5Isags">hören</w>
+</s>
+<s corresp="src:tlaIBUBd659CWiL7EFPu2WZ4mt7J3I">
+<w xml:lang="de" corresp="src:tlaIBUBd5HdlLoXKETQqhT5oym3JBc">Leben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6pgobjfoEdEji8lIoiQ084">Wohlergehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4yVDUpQrExYvbWqF33eqns">[Kopula]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxLETBwDSky1iBFa8pQm6Xo">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6RfHq5ogEtnsIzmk87Gbxg">Mann</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWWWjdTJkWghuHTqnzwYN0">Herz</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2USuvoY8EYxlbl1P3y7T5g">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd0P3vsd5nkV4tQ0H7ntegb4">
+<w xml:lang="de" corresp="src:tlaIBUBdQT4jTOtOEVKthIltINS0W8"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd6r7RTiAPEF0tHedSViQUNY">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwW5NtTIRkGggiVpiQ3iaBU">alle</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxKvIhEpzkZvne3or2bnvHA">entstehen lassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzWHqfP1IkXDoRBpyxEW8rI">Herr</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQjLqWV5DEw5lTTmvKDQuZE">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyh8ZddGEkQcjX2kF2Rjtvk">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQFZLBw7y02JosEbZi3AHnE">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0YHdYJY9kt6udnTnnRpIFg">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4fXE6DrCUrQorVch0eNyEE">[Negationsverb]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWKYgOA3I0yWrGgNuNKPMjg">hören</w>
+</s>
+<s corresp="src:tlaIBUBd8Cvvh25j0WSmITH1dQ512I">
+<w xml:lang="de" corresp="src:tlaIBUBd1998QAQeE3kmrx5Weg6SHE">lieben</w>
+</s>
+<s corresp="src:tlaIBUBdwHRVq2GK0evvYfR1xLQLuk">
+<w xml:lang="de" corresp="src:tlaIBUBd52Cy0QzV0y6mRuhAsQGQIs">hassen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3vInk7WGEDxv3UcElkLT2o">er</w>
+</s>
+<s corresp="src:tlaIBUBd0Ht99sAsUrljLx3YAojPEg">
+<w xml:lang="de" corresp="src:tlaIBUBdzBWk5EzOkyUgfV7GxXkc6U">wie froh (ist)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0lC2CWBV0ZQhyaSlNugHe4">[Genitiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxBHSQPmxkSdq8JIJY1qe14">Mensch</w>
+</s>
+<s corresp="src:tlaIBUBd3P7sOQY5U07mnoQHsBoc74">
+<w xml:lang="de" corresp="src:tlaIBUBdwVrKKJ4Ukc4tISs5wa8VCk">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8NuruKD5UuZk7O52ZqxdW4">fähig sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzVZST1oQ0Q0mS2jLxr5Pn0">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw0Dxh4pm00omtqRXYyvpUA">Herz</w>
+</s>
+<s corresp="src:tlaIBUBd6Xvga6uaECCvylU8dWqKRw">
+<w xml:lang="de" corresp="src:tlaIBUBdyH0bego4kBJgLoiKqa9K1c">abirren, in die Irre gehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6iaEXc8lkPTudBBsMxNnlQ">(jmdn.) einführen</w>
+</s>
+<s corresp="src:tlaIBUBd2JXkpJzpkmrjqWQuWUxNVU">
+<w xml:lang="de" corresp="src:tlaIBUBdxW5hUNV50b4ianRCcq5F8s">festsetzen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzXEGbx1vEKKtrPaWWlA2II">sein</w>
+</s>
+<s corresp="src:tlaIBUBd8bujdPWYkYfg2VR87FTCOM">
+<w xml:lang="de" corresp="src:tlaIBUBd8YZQ3QV004WqqCf0q35xWg">früh auf sein (um zu preisen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Qq4GAt7EpvuEx89HWGt9E">Törichter</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7tliLewAEEGsqCrFf5IqaA">um zu</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwNaIRKC60Full8NPGWYCMQ">[Verb (mit refl. Obj.)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxZau2aEYEdtkU6AJrRNuDg">sein</w>
+</s>
+<s corresp="src:tlaIBUBd9mggQu8j0oBon4zjcOtZtw">
+<w xml:lang="de" corresp="src:tlaIBUBdwJPrvLFj07Ji7qQ0vKcI5c">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd40CIMJNxEEHjVf6DZhjt9g">nehmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd59nMbbMtkeOu4ajc2vKugE">Wort</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQWABFeWvE5InYN9csmeBkw">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWXLSZi8q0qUobpzEdNHXM4">bringen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd96W4Wbl40AKmWgY2sI3xsk">[pron. enkl. 3. fem. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBd47PMWdUdE1qsCeaW5nXl2M">
+<w xml:lang="de" corresp="src:tlaIBUBd1AsAuVeXkV8onVCFP9AVfM">[aux.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzZBgh7gskMIsXuKRhKLQ8s">Stelle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2fjQ6JjYU8Bu8CisgxQea4">ihr (pron. suff. 3. fem. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQCkiforjEI1q6zaLChrOLI">im Inneren</w>
+<w xml:lang="de" corresp="src:tlaIBUBdym0CCyiJ06gmdoBZ64KDxk">Leib</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWEmQO04LUqukeMoNpgnoaU">dein (pron. suff. 2. masc. sg.)</w>
+</s>
+<s corresp="src:tlaIBUBd7hcrZQQBkQahaaJxxBYaJg">
+<w xml:lang="de" corresp="src:tlaIBUBd982Xt9FkU43vefiZZLcZUY">bekämpfen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyKGSFq1x0l4rvZQm3knkOg">du, [pron. enkl. 2. masc. sg.]</w>
+</s>
+<s corresp="src:tlaIBUBdWav5WCKGE6drA6ZNhph9WY">
+<w xml:lang="de" corresp="src:tlaIBUBdxHWFSRV7U3aqmYZCKNYERA">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdx6tNCrCc0oXrtY9Em5WWtE">(sich) öffnen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6oWqbTfzkJuveKu8IW0MLM">[ein Seil (am Schiff)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6C748ec2kVpk2JIxgpj1MY">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd20cQg2870GCiyFSS4majGc">du</w>
+</s>
+<s corresp="src:tlaIBUBdwUidTn7Q0yBtaKvzF6sAfg">
+<w xml:lang="de" corresp="src:tlaIBUBd7OPoxqVu0btlRkI1HiL8X8">sich hüten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2u5QCdVJkdxqYCSTAUlkfo">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8eVWNGZnUxktfWdXBAsoSk">sich hüten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxwQOMYuuEG5qmv3y0zmRo4">dich [Enkl. Pron. sg.2.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyCW0BeqhU9Kts9EnnG0lQU">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyWxpjRPPUizk3csQCuR8CM">Wissender</w>
+<w xml:lang="de" corresp="src:tlaIBUBd92p3DYvCUrVjHhJnTasCxM">[Präposition]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxF99YHXf0hRoQoTx8QybN4">Mund</w>
+</s>
+<s corresp="src:tlaIBUBd1Lj57oyz07Qu6h4uLAzgBc">
+<w xml:lang="de" corresp="src:tlaIBUBd2JJYj9bWUhNh5NN435TTj0">sehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4VI1xniDUWkqemjRNzQHT0">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8Ljiab5bkVQnwW4qGMt85o">Wissen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8XCWdOdg0oQmxz0WOcHcOM">als (etwas sein)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd34OdpNtRkoUiTU6yvIgOTw">nicht wissen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6dKNUisb042lYxTqPG3wg4">gleich sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8UeOkWku0g7oMDe5u47J7U">alle</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6GQiWaB10I1r1NVMv220lU">wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2JzYMUsqUumhSSzW5dyi4E">Schwankung, Unregelmäßigkeit (o. Ä.)</w>
+</s>
+<s corresp="src:tlaIBUBdW4XW5AcaUOAqiQY0YtjFNs">
+<w xml:lang="de" corresp="src:tlaIBUBd1zwrbhTUkABtmab297y1hE">Brot</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWQBulSUeUXAug8wrqEliyw">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MFH2Xh9UCqm3dnAnuim0A">[Kopula (dreigliedriger NS)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6QkcWdOIEoOlNNLWqy5RRg">Verbrechen begehen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6T2aaWggUuWiVQieKkhFGk">sagen</w>
+</s>
+<s corresp="src:tlaIBUBd7egyJx94kvTguTPoJqtru0">
+<w xml:lang="de" corresp="src:tlaIBUBdzhWuUy8iUCGhlbrQwJbmCc">früh auf sein (um zu preisen)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwgQzYa6qExfoWQ6bBgQIQg">er</w>
+</s>
+<s corresp="src:tlaIBUBd72YEpXTLEOpi2Pvq4QRm5Q">
+<w xml:lang="de" corresp="src:tlaIBUBd4ifrTVjPkDanTrYW9tbmXk">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0EShJB5hkRRnQACS8rlQY0">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0wYQ7r4QktZo6H1UQ1UVxc">täglich</w>
+</s>
+<s corresp="src:tlaIBUBd87lTV5AkkrBmv9q7BuWmG0">
+<w xml:lang="de" corresp="src:tlaIBUBd9YlU5HQX0THsjvKY9YWCb8">Sohn</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8jlA5kcm0vNpIbFvRLeEGY">hören</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3dLWnX6aUJQrp8BqaVfDQY">[im Nominalsatz als Prädikation]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Ddl08BSkdOhxmPQzkzvQ0">Gefolgsmann</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxxjIgSWd0BbmU88hRW8OuI">Gott</w>
+</s>
+<s corresp="src:tlaIBUBd85pfgptWUr8iaCPPKegy6A">
+<w xml:lang="de" corresp="src:tlaIBUBdy6QMD2yEURqtxtWjAYh4zg">vollkommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4KEvpGqMUinsgb0qkW2vRA">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd17WK6sNr0Rfq7ozstWjhz8">ihn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyJVQxQczEmQp4G8gGP0mls">nach (temporal)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6U7QZgQtkPLktrm6I7Qqx0"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd7dR53hjxUwHohyP7AxqEAk">er</w>
+</s>
+<s corresp="src:tlaIBUBd93Z43qkq05crFkigtiqfiU">
+<w xml:lang="de" corresp="src:tlaIBUBd5knOim00kD0jtExqOfeLs8">alt sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQnTZOFnG0NRvqEWhiQmwNY">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd2aVKHqMmUQqqupIH2YeH7M">unterrichten</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9jcjjTfUEhZvD6k8vUIJCY">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1RALI7u2U03g9ucgtgyN2c"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd3WiWvBwiEowplceBFKPwfo"></w>
+<w xml:lang="de" corresp="src:tlaIBUBd3Wr7WDgu0Z1vd3KNxWMwuY">sein</w>
+</s>
+<s corresp="src:tlaIBUBd8vqLmv7k0Q3tO6VJnys7ig">
+<w xml:lang="de" corresp="src:tlaIBUBdwiWuXa1Y0U6kNnnwlQXst8">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tITFzJpkGeiymccvHsF3g">er</w>
+<w xml:lang="de" corresp="src:tlaIBUBd89ERgPuGUg3vtm0MLKhQwk">Gleiches</w>
+<w xml:lang="de" corresp="src:tlaIBUBdQf8B5Nab0uQtXR1BMG4ees">zu (jmdm.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd27ubqByZEOTsi2um7FmUYA">Kind</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwrPwWAMhUxUsZQZ8rPDWBk">sein</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxmHgNy57kkgpFY9vHQQsOo">sagen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdw61semjZ0B9gPqjvfoduXk">sie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd7MHW8By7kNvu04yxm6J1Io">[Dat.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzzk3sq7PEtWkQKpmaGXYLQ">Kind</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5xHP9WQHkJtrxtfGtD6PzM">ihr (pron. suff. 3. pl.)</w>
+</s>
+<s corresp="src:tlaIBUBd8W87jSVJU6tsz5aMBWbrdw">
+<w xml:lang="de" corresp="src:tlaIBUBd8d9fzR7sUTJnuR87MYQXNk">fungieren als</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6m7rgSErEhNu8ip55peQJA">Vorbild</w>
+</s>
+<s corresp="src:tlaIBUBd0oHFcKSyk7qrCcB6de5kwM">
+<w xml:lang="de" corresp="src:tlaIBUBd1m0BNpWWU9unDyc0TWP5wE">[Imperativ des Negationsverbs &#039;jmj&#039;]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd84z5iTuHk8no3XQd78Xl3o">geben</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5tZSpkAfEB1s70drtxkPno">Anstoß, Beleidigung (?)</w>
+</s>
+<s corresp="src:tlaIBUBd4MWffYcCUi4vTdn74wpwQo">
+<w xml:lang="de" corresp="src:tlaIBUBd6K8PzEMPEAHkQ60WroUuDA">vollkommen</w>
+<w xml:lang="de" corresp="src:tlaIBUBdyavQ3QYi00ykrmSDyNjIf0">unterrichten</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxV6QxBAYkUfiR12y2WLlFg">Vater</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzgOdk6UIkBBrZ3UH6DmNNs">[Suffix Pron. sg.3.m.]</w>
+</s>
+<s corresp="src:tlaIBUBd7wGWsAuukhip8RhCiWxTKo">
+<w xml:lang="de" corresp="src:tlaIBUBd4BjNMJ5hkQvrylhHTmhwOA">er</w>
+</s>
+<s corresp="src:tlaIBUBdQe3GKm1S03Gr0C0P7lAln4">
+<w xml:lang="de" corresp="src:tlaIBUBdwdo8yPQSkW4p78XdDUdzYA">siehe!</w>
+<w xml:lang="de" corresp="src:tlaIBUBd4MDVt3sTUewi38SCiJWzec">du</w>
+</s>
+<s corresp="src:tlaIBUBd77DbdWlIkqEu7ErNWMqDVc">
+<w xml:lang="de" corresp="src:tlaIBUBdwUoLS8eCUYEh9tinQ9mao8">nehmen</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8olLxs7bEyblW404Ddhhbk">[Suffix Pron. sg.1.c.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1ONYhmWrkSRmpVnwPLjWLg">Jahr</w>
+<w xml:lang="de" corresp="src:tlaIBUBdWEcC77oTUOokGzy9zhTkkE">[Kardinalzahl (ganze Zahlen und Brüche) in Ziffernschreibung]</w>
+</s>
+<s corresp="src:tlaIBUBd8mr9tNYqkaBhnmPafytLpI">
+<w xml:lang="de" corresp="src:tlaIBUBdQfIwuzRT0KuuYywVNcWIc4">Belohnung</w>
+<w xml:lang="de" corresp="src:tlaIBUBdwMKY8K9jkNKotJcD4FjKQo">mein (pron. suff. 1. sg.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzMkHyns50PIpaHnxpXfwU4">wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1oFBPVCXkUvoNfBSEilLxI">Vorgänger</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8wXC5Wp2UIsuhWPBULwDgA">[Agensmarker b. Passiv]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8eAqSp3WkeRgPQO9nfzWok">Rechtes tun</w>
+<w xml:lang="de" corresp="src:tlaIBUBdy6iQlAVBkMngyPyi2mrdNY">Rechtes</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3VDwF2PuEfulWUhB3WL62c">für (jmd.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9KuR7kkQEKprOZplgZPF04">König</w>
+</s>
+<s corresp="src:tlaIBUBdQ6aJzxCH06dk3QeBYKQzAM">
+<w xml:lang="de" corresp="src:tlaIBUBd2sO3XdsIU0dhwKebOTotQk">es ist zu Ende gekommen (Schlussformel von Handschriften)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzaxHjAQMkL4iNVzQJJVoVI">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd6XzkLV4Ck8Lpnh9nyyUmXo">[Zweitnomen (zweigliedriger NS)]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0W6QsSlX015tq0iKMyQZBg">Anfang</w>
+<w xml:lang="de" corresp="src:tlaIBUBd9fp5zFiS0KtvgmBHa89Ekc">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1xZMO7wEU87h5yoOSUitc0">bis (lok.)</w>
+<w xml:lang="de" corresp="src:tlaIBUBd5sNKxHQ2EsTvCvcz2QjqR0">Ende</w>
+<w xml:lang="de" corresp="src:tlaIBUBd3H2MdWJtUJyq925SfjtZN0">[Suffix Pron. sg.3.m.]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0QJQ5hSTUi9lJ8iZRpw76M">wie</w>
+<w xml:lang="de" corresp="src:tlaIBUBd90tnuERgkbLmSaZ1ESj4bA">finden</w>
+<w xml:lang="de" corresp="src:tlaIBUBd1N38c2P7kvLrbRPVd8qcoo">in</w>
+<w xml:lang="de" corresp="src:tlaIBUBd8MvGV0jl0MJpyQSdWYDFFU">Schrift</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

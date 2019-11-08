@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wt2SCHTDEISZHGFES7C4W2SIS45A">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>rechte Türlaibung</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von rechte Türlaibung nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>2SCHTDEISZHGFES7C4W2SIS45A</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Türlaibungen</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">rechte Türlaibung</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla3FHA3EWBF5FPJJZPGX3AYDDB3A">
+<support>
+<objectType ref="ths:ISLG6MXASBFKJD3RYBEVXQ4LBU">Tür</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>S. Hassan, Excavations at Gîza 1934-1935, Bd. 6.3, Cairo 1950, 219-221, fig. 216-217, pl. XC [H, K, P, Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="2SCHTDEISZHGFES7C4W2SIS45A.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="transformed_awaiting_update">
+<listChange>
+<change>1-24d157cc862d06cef030c362e0c6aa94</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s corresp="src:tlaIBUBd3D8V3hog0CEmpHywzNMUs4">
+<w xml:lang="de" corresp="src:tlaIBUBd7iDnFMBtUOvubUgrY9ThgE">Versorgter bei seinem Herrn</w>
+<w xml:lang="de" corresp="src:tlaIBUBdz0X3DK0UEAlgR4YKwPn7y4">[Titel oder Epitheton einer Privatperson]</w>
+<w xml:lang="de" corresp="src:tlaIBUBdxHCQW9HHU8CjLmolYHLDQQ">einziger Freund (des Königs)</w>
+<w xml:lang="de" corresp="src:tlaIBUBdzFzWAIwakp7nxhQU7ja2Tc">[Wort]</w>
+<w xml:lang="de" corresp="src:tlaIBUBd0pPuY2t9EjRp2m2Tz1jmCg">Seschem-nefer</w>
+</s>
+<s corresp="src:tlaIBUBd9Eh5JN9yEQklqIqeglZLPw">
+<w xml:lang="de" corresp="src:tlaIBUBd4xoMCNqV0KFnqD7dMn89hw">Iqeri</w>
+</s>
+<s corresp="src:tlaIBUBd52MoTNOAkFnmMs61sjsmOE">
+<w xml:lang="de" corresp="src:tlaIBUBd41mAbqRaUoAr6FkIuCRhT4">Iqeri</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

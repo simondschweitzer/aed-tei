@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="id5TFPA7S7V5EPTJTSBELOQMLRPA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szenentitel</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Szenentitel nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>5TFPA7S7V5EPTJTSBELOQMLRPA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>östliche Hälfte</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Szenentitel</title>
+<textLang mainLang="Egyp">Hieroglyphen
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaNI5RN3P4CZEKTAL6PJR5KY3FVU">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notBefore="-2363">6. Dyn.</date>
+<date type="latest" datingPoint="ths:GH2RXLTQ2BCEHPQ6R2SPBER7OM" notAfter="-2233">6. Dyn.</date>
+</origDate>
+<origPlace ref="ths:FJMAFBHVPNFWNE6RCA23I5XWQ4">Deir el-Gebrawi
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>N. de G. Davies, The Rock Tombs of Deir el Gebrâwi, Bd. II, London 1902, 5-6, pl. V
+[F, Ü, K]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="5TFPA7S7V5EPTJTSBELOQMLRPA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp">Hieroglyphen
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-5e356a7033e102f4ed1ac2f962691c7f</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd9CLBiWG7U1sgRJWDqdXTTA">
+<lb n="[1]"/>
+<w xml:id="tlaIBUBd7Qx0SffAUOliW9eDUKd6BY" lemmaRef="tla:tla550034"><fs feats="adjective"/><supplied reason="lost">nf</supplied>r.w<supplied reason="defective">j</supplied></w>
+<w xml:id="tlaIBUBd70nk0Unq0yqosi7gqKWlz4" lemmaRef="tla:tla21930"><fs feats="verb verb_irr suffixConjugation active"/>jwi̯</w>
+<w xml:id="tlaIBUBdQiIIaxbGUpWhnvbLdWq1Ow" lemmaRef="tla:tla141490"><fs feats="entity_name gods_name"/>sḫ,t</w>
+<w xml:id="tlaIBUBdyfyKcU1M0Paq1nGe2PLkZE" lemmaRef="tla:tla81740"><fs feats="substantive substantive_fem st_constructus singular"/>nb,t</w>
+<w xml:id="tlaIBUBd29XGdz2iUhJmsLN8gWj2Ng" lemmaRef="tla:tla103350"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>ḥ<supplied reason="defective">ꜣ</supplied>b</w>
+<w xml:id="tlaIBUBd1g0bCJY0UtMjYvI2Y83Y7k" lemmaRef="tla:tla850794"><fs feats="preposition"/>ẖr</w>
+<w xml:id="tlaIBUBd2abBtpmSUfThVBSspG9I8E" lemmaRef="tla:tla94160"><fs feats="substantive substantive_masc st_absolutus plural"/>rm.pl</w>
+<w xml:id="tlaIBUBd2zwM9Aynkljtu7l1Gc1aV0" lemmaRef="tla:tla91900"><fs feats="preposition"/>r</w>
+<w xml:id="tlaIBUBd7UAkc1hlUDTlWlRor0lQmI" lemmaRef="tla:tla107"><fs feats="substantive substantive_masc st_absolutus plural"/>ꜣpd<supplied reason="lost">.pl</supplied></w>
+<lb n="[2]"/>
+<w xml:id="tlaIBUBdzzAWRLi3UmpgAy9Nj7TpjM" lemmaRef="tla:tla78870"><fs feats="preposition"/>n</w>
+<w xml:id="tlaIBUBd0ao3JCjIkX2ptcetUr7eH4" lemmaRef="tla:tla162870"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>kꜣ</w>
+<w xml:id="tlaIBUBdxxP4h0kD0SZhW9WUIa5RkM" lemmaRef="tla:tla850787"><fs feats="adjective nisbe_adjective_preposition"/>n</w>
+<w xml:id="tlaIBUBd6p8MbZOwE8WuiMPz2cbIM8" lemmaRef="tla:tla100520"><fs feats="epitheton_title title"/><supplied reason="lost">ḥꜣ,tj</supplied>-ꜥ</w>
+<w xml:id="tlaIBUBd1I0CkHQMkbIoWa0wvmeJJY" lemmaRef="tla:tla400193"><fs feats="epitheton_title title"/>ḫtm,tj-bj,tj</w>
+<w xml:id="tlaIBUBd7z0VwFqWkolrSfQnAck0rg" lemmaRef="tla:tla400221"><fs feats="epitheton_title title"/>ḥqꜣ-ḥw,t</w>
+<w xml:id="tlaIBUBdzEJ0Tdjuka1oKnN7tkLXC4" lemmaRef="tla:tla400142"><fs feats="epitheton_title title"/>smr-wꜥ,tj</w>
+<w xml:id="tlaIBUBdWy4bEg3yUqQlbqkWx2GBI0" lemmaRef="tla:tla854931"><fs feats="epitheton_title title"/>ḥr,j-tp-ꜥꜣ-<supplied reason="defective">n-</supplied><damage>Tꜣ-wr</damage></w>
+<w xml:id="tlaIBUBd0aanLOnRU76hYuV7lUBXX0" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ,w</w>
+<w xml:id="tlaIBUBd78rumi9rU3VtuM73WD98QU" lemmaRef="tla:tla709669"><fs feats="entity_name person_name"/>Ḏꜥw</w>
+<w xml:id="tlaIBUBdzNAhP3jo0qYkcAgnlFy9xI" lemmaRef="tla:tla94780"><fs feats="substantive st_pronominalis singular"/>rn</w>
+<w xml:id="tlaIBUBdwpUfJQYVEn2mQYQuXfKBbo" lemmaRef="tla:tla10050"><fs feats="pronoun personal_pronoun"/>=f</w>
+<w xml:id="tlaIBUBdwnYAMpBkkFzpuAmQNSs84w" lemmaRef="tla:tla94780"><fs feats="substantive st_absolutus singular"/>nfr</w>
+<w xml:id="tlaIBUBdx7lZreP8UsOkOQYMCFFXyM" lemmaRef="tla:tla707294"><fs feats="entity_name person_name"/><damage>Šmꜣj</damage></w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

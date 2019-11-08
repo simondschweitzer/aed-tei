@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idMCPJJXTUJVCHDEUEW5SEUZAPTY">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Beischriften (Opfertischszene)</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Stefan Grunert</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Beischriften (Opfertischszene) nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Stefan Grunert</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>MCPJJXTUJVCHDEUEW5SEUZAPTY</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-11-07</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName>Westwand</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Beischriften (Opfertischszene)</title>
+<textLang mainLang="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaHSH2UMMOWZFYRJJQLZM7NVQQCQ">
+<support>
+<objectType ref="ths:Q2SYQ5XAZJG7HIEUSSLOP4I7OU">Wand</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notBefore="-2421">Djedkare Asosi</date>
+<date type="latest" datingPoint="ths:KQY2F5SJVBBN7GRO5WUXKG5M6M" notAfter="-2384">Djedkare Asosi</date>
+</origDate>
+<origPlace ref="ths:TZ7HFSUO3ZCLLAAXX3AEWXALIE">Gisa
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>* H. Junker, Giza III, 10 (5), 228-231, Abb. 46 [F, H, Ü, K]
+
+LD II 84; LD Text 60-61; LD Ergbd. XXV-XXVI</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="MCPJJXTUJVCHDEUEW5SEUZAPTY.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyp-Egypreg">reguläre Hieroglyphenschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Stefan Grunert</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-d41705e734a88db4897fdf16140e481e</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:id="tlaIBUBd0OmHYV7uErMnv7cTIjN4Fs">
+<lb n="[Signalement⁝1]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBd1Gt8ryKTkySic9LcEM2ZwU" lemmaRef="tla:tla25090"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>jmꜣḫ<supplied reason="defective">,w</supplied></w>
+<w xml:id="tlaIBUBdWjd6m8HQEefuPWPn9i4rdc" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBdQD5WaB9uEnIo5eldMTtV8A">
+<lb n="[Signalement⁝2]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdyW6gbTAoEfHsHti0hSTAMM" lemmaRef="tla:tla850285"><fs feats="epitheton_title title"/><supplied reason="lost">ḥr,j-sštꜣ-n-wḏꜥ-mdw-</supplied>štꜣ-n-ḥw,t-wr<supplied reason="defective">,t</supplied></w>
+<w xml:id="tlaIBUBd5eKHyYsjE8Fhf91tyLSLBU" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBdzNeULyyMkWxui4I2WgbNP0">
+<lb n="[Signalement⁝3]"/>
+<gap reason="lost" />
+<w xml:id="tlaIBUBdwCMNHIDt0jOth6wvVFGy54" lemmaRef="tla:tla850763"><fs feats="epitheton_title title"/>mrr<supplied reason="defective">,w</supplied>-nb≡f</w>
+<w xml:id="tlaIBUBdxfqpfQiD02xrVWu0uCnaHw" lemmaRef="tla:tla450178"><fs feats="entity_name person_name"/>Rꜥw-wr</w>
+</s>
+<s xml:id="tlaIBUBdyVSjrs7ikG0vAQv5l5I1j4">
+<lb n="[1.Reg.v.u.]"/>
+<w xml:id="tlaIBUBd474PBLw1EFqsbBUvSUlB4w" lemmaRef="tla:tla550444"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>wḏb</w>
+<w xml:id="tlaIBUBd44Wk0QJPUXij78VqCbr2Hc" lemmaRef="tla:tla851711"><fs feats="verb verb_irr infinitive"/>rḏi̯</w>
+<w xml:id="tlaIBUBd0v9trAcQkOck4wNzwtaWC8" lemmaRef="tla:tla160330"><fs feats="substantive substantive_masc st_absolutus singular masculine"/>qbḥ,w</w>
+</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st3TYZ26LTAVE77LWFZQZ6H4CMPA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Notiz von Amenemhet an Senu</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Ingelore Hafemann</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Notiz von Amenemhet an Senu nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Ingelore Hafemann</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>3TYZ26LTAVE77LWFZQZ6H4CMPA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 25664</idno>
+<msName>oCairo 25664</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Notiz von Amenemhet an Senu</title>
+<textLang mainLang="Egyh-Egyhlt">Neuhieratisch
+</textLang>
+<note>Brief</note>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tlaTCUUJDOT7VEPRAORUKYFLC5JY4">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notBefore="-1550">18. Dyn.</date>
+<date type="latest" datingPoint="ths:NUW3K7UK3BBUFDPHZDD2ZZ3LYI" notAfter="-1293">18. Dyn.</date>
+</origDate>
+<origPlace ref="ths:JHMKUZN4YRGCXJEHXKRYGL5MLA">Deir el-Medineh
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>Cerny, J., Catalog general des Antiqités égyptiennes du Musée du Caire, Ostraca Hieratiques, t. 2, Le Caire 1930-35, 74*, pl. 71;  
+Wente, E., Letters from Ancient Egypt, Atlanta,  1990, 94.
+vgl. Deir el-Medina Database: http://www.leidenuniv.nl/nino/dmd/dmd.html</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:RJR6FHP26FBPVMGXDXHLLZIG2Y">Egyptian Museum</repository>
+<idno>CG 25664</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="3TYZ26LTAVE77LWFZQZ6H4CMPA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="Egyh-Egyhlt">Neuhieratisch
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Ingelore Hafemann</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>1-77e3505df81cca2f8275d3b2ffc755c1</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBdQzo1AQuv0FvjGr5OAtVhu4">Imen-m-hat an Senu.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdyrSQT7nFkW8vSjxHaVadRs">Laß das Schiff des Neb-iri entleeren.</s>
+</ab>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="aed_schema.xsd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="st7SHAMTWA7RHSTHNZFXN2TKMCUA">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Rto. 1 - Vso. 4: Liebeslied</title>
+<respStmt>
+<resp>converted to XML encodings</resp>
+<name ref="http://d-nb.info/gnd/173759734">Simon D. Schweitzer</name>
+</respStmt>
+<respStmt>
+<resp>edition by</resp>
+<name>Lutz Popko</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Digitale Ausgabe von Rto. 1 - Vso. 4: Liebeslied nach den <ref target="urn:nbn:de:kobv:b4-opus4-29190">Daten</ref> des <ref target="http://aaew.bbaw.de/tla">TLA-Projekts</ref></edition>
+<principal>
+<persName>Lutz Popko</persName>
+</principal>
+</editionStmt>
+<publicationStmt>
+<publisher>AED</publisher>
+<idno>7SHAMTWA7RHSTHNZFXN2TKMCUA</idno>
+<availability xml:lang="en" status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+</availability>
+<date>2019-08-10</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<idno>oBorchardt 1</idno>
+<msName>oBorchardt 1</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="modern">Rto. 1 - Vso. 4: Liebeslied</title>
+<textLang mainLang="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="tla5EUYY3ZGVVGFJJFC4363QNUCNI">
+<support>
+<objectType ref="ths:LKQP7D6XGBGV5K52MIEFX2NWNI">Ostrakon</objectType>
+<material ref="ths:TCNODPO4NFBSRI7WQYIR23ALJI">Stein</material>
+</support>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<origDate>
+<date type="earliest" datingPoint="ths:PFJ4POQ5VBFU3EHNXP4MRDLXBA" notBefore="-1292">19. Dyn.</date>
+<date type="latest" datingPoint="ths:KXND4U5N5VBQLN4XMZGFVBHOCM" notAfter="-1071">20. Dyn.</date>
+<note>Vgl. Mathieu, S. 22, der diese Datierung für alle Ostraka mit Liebesliedern angibt.</note>
+</origDate>
+<origPlace ref="ths:RGS2OLARZRFTHEFGRYNKB6YJ5E">Theben
+<note>Mathieu, S. 22 vermutete, dass alle Ostraka mit Liebesliedern aus Deir el-Medineh stammen, auch wenn sich die Herkunft von oBorchardt nicht präziser als &quot;thebanischer Raum&quot; angeben lässt.</note>
+</origPlace>
+</origin>
+</history>
+<additional>
+<listBibl>
+<bibl>- B. Mathieu, La poésie amoureuse de l&#039;Égypte ancienne. Recherches sur un genre littéraire au Nouvel Empire, Le Caire 1996 (BdE 115), S. 113-114, 120-121, Tf. 22-24 [*K,*F,*P,*T,*Ü]</bibl>
+</listBibl>
+</additional>
+<msPart>
+<msIdentifier>
+<repository ref="ths:ZBSNWPNKRZH2FLOH76RV5BFZ6I">(unbekannt)</repository>
+<idno>oBorchardt 1</idno>
+</msIdentifier>
+</msPart>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<listPrefixDef>
+<prefixDef ident="tla" matchPattern="(d+)" replacementPattern="dictionary.xml#l$1"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="ths" matchPattern="([wd]+)" replacementPattern="thesaurus.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="m" matchPattern="(w+)" replacementPattern="morphologicalFeatures.xml"></prefixDef>
+</listPrefixDef>
+<listPrefixDef>
+<prefixDef ident="src" matchPattern="([wd]+)" replacementPattern="7SHAMTWA7RHSTHNZFXN2TKMCUA.xml#l$1"></prefixDef>
+</listPrefixDef>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="egy-egyl-Egyh-Egyhltb">literarisches Neuägyptisch-Neuhieratische Buchschrift
+</language>
+</langUsage>
+<particDesc>
+<listPerson type="editorial">
+<person>
+<persName>Lutz Popko</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc status="published">
+<listChange>
+<change>7-c2c25de881b4ed492d5115f44a120ea0</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s xml:lang="de" corresp="src:tlaIBUBd8dLEQUEUkJIseHx3hsMdgc">Ein schöner Tag (ist es), (wenn) ich dich sehe (wörtl.: Ein schöner Tag ist mein Dich-sehen).</s>
+<s xml:lang="de" corresp="src:tlaIBUBdQCbNsvlJEoHjS1j1Vc1OE0">Liebster - eine große Gunst ist es, dich anzublicken.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd3oO62uH1EToholJ9HmOjqg">Du sollst mit dem Bier zu mir eintreten!</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7rnBzQP5U9Xh44ECjvcbwU">Die Sänger sind vollkommen an (ihren) Instrumenten, während ihre Lieder vollkommen an Heiterkeit sind für Freude und Frohlockung, nachdem dein &quot;Heißer&quot; (d.h. dein Rivale?) hinter sich gebracht wurde (?, d.h. zurückgeworfen wurde?), während du hervorragend in (deinem) Amt bist.</s>
+<s xml:lang="de" corresp="src:tlaIBUBdzIha6G0SEsDo5e597U7iAs">Man spricht, und dann wird man auf deine Worte hören! (?)</s>
+<s xml:lang="de" corresp="src:tlaIBUBd0xhPWaVNkBCkDANOcmLRAE">Der, der dich verleumdet, wurde niedergemacht.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd1yI5ZmQvk9NgaXKhSPufeQ">Deine vortreffliche Liebste ist im Lobpreis vor dir (und) huldigt deinem Anblick.</s>
+<s xml:lang="de" corresp="src:tlaIBUBd7sL9gZu4kQJkSp71QoavK4">Mit Bier und Weihrauch möge sie empfangen werden, so als ob man einen Gott erfreut. (Lied-Ende)</s>
+</ab>
+</body>
+</text>
+</TEI>
