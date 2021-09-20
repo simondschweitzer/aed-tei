@@ -401,6 +401,18 @@
                                         </xs:sequence>
                                     </xs:complexType>
                                 </xs:element>
+                                <xs:element name="xr" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="ref" minOccurs="0" maxOccurs="unbounded">
+                                                <xs:complexType>
+                                                    <xs:attribute name="target" type="xs:string"/>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="type"/>
+                                    </xs:complexType>
+                                </xs:element>
                             </xs:sequence>
                             <xs:attribute ref="xml:id" />
                         </xs:complexType>
