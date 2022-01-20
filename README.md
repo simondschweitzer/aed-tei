@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3580939.svg)](https://doi.org/10.5281/zenodo.3580939)
+
 # aed-tei
 Corpus of Egyptian Texts for the AED - Ancient Egyptian Dictionary
 
