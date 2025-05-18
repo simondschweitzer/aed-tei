@@ -25,4 +25,4 @@ All files: [CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 by Simon D. Schweitzer, 2019
 
 ## transformation code
-to be published (soon)
+cf. [aedfunctions](https://github.com/simondschweitzer/aedfunctions)
